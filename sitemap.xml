@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/desactivar-el-touchpad-en-linux-mint/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tasker/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
   </url>
@@ -162,6 +167,12 @@
   <url>
     <loc>/tags/keep/</loc>
     <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

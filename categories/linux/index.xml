@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Sherblog</title>
+    <link>/categories/linux/</link>
+    <description>Recent content in Linux on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 18 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Desactivar el TouchPad en Linux Mint</title>
+      <link>/desactivar-el-touchpad-en-linux-mint/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/desactivar-el-touchpad-en-linux-mint/</guid>
+      <description>&lt;h3 id=&#34;el-problema-mis-dedos-8230&#34;&gt;El problema, mis dedos&amp;#8230;&lt;/h3&gt;
+
+&lt;p&gt;En mi vuelta a linux, llevo unos días trabajando en un portátil y todavía no estoy muy acostumbrado a trabajar sobre el teclado con las manos tan juntas. Uno de los problemas con los que me encuentro es que los dedos gordos hay momentos en los que me rozan con el TouchPad y llegan a mover el cursor de posición, pudiendo cambiar el punto de inserción de texto o incluso borrar parte de lo ya escrito. No es un gran problema, pero hay veces que llega a ser molesto por la pérdida de tiempo o incluso información.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
