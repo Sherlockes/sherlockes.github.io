@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sherblog</title>
+    <link>/</link>
+    <description>Recent content on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adios WordPress</title>
+      <link>/adios-wordpress/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/adios-wordpress/</guid>
+      <description>Han pasado más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.</description>
+    </item>
+    
+    <item>
+      <title>Fuga en cisterna Roca</title>
+      <link>/fuga-en-cisterna-roca/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/fuga-en-cisterna-roca/</guid>
+      <description>Hace unos días que la cisterna del inodoro Roca de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.
+Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
+Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:</description>
+    </item>
+    
+    <item>
+      <title>Ordenar listas en Google Keep</title>
+      <link>/ordenar-listas-en-google-keep/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/ordenar-listas-en-google-keep/</guid>
+      <description>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
+ La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</description>
+    </item>
+    
+    <item>
+      <title>Instalando Windows 7</title>
+      <link>/instalando-windows-7/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/instalando-windows-7/</guid>
+      <description>&lt;h3 id=&#34;el-problema-un-sistema-lento&#34;&gt;El problema, un sistema lento&lt;/h3&gt;
+
+&lt;p&gt;Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-7-vs-windows-10&#34;&gt;Windows 7 Vs Windows 10&lt;/h3&gt;
+
+&lt;p&gt;Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10. Seguro que me estoy perdiendo cientos de buenas características pero ya he dejado atrás los tiempos en los que el sistema operativo era una experiencia, ahora sólo lo considero una herramienta.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>De Garmin a Google drive</title>
+      <link>/de-garmin-a-google-drive/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/de-garmin-a-google-drive/</guid>
+      <description>&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
+
+&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Telegram Vs Whatsapp</title>
+      <link>/telegram-vs-whatsapp/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/telegram-vs-whatsapp/</guid>
+      <description>¿Conoces Telegram? Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es Telegram.
+La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos.</description>
+    </item>
+    
+    <item>
+      <title>Como ahorrar batería en el trabajo con Tasker</title>
+      <link>/como-ahorrar-bater%C3%ADa-en-el-trabajo-con-tasker/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/como-ahorrar-bater%C3%ADa-en-el-trabajo-con-tasker/</guid>
+      <description>El problema Desde hace mucho tiempo tengo la suerte o desgracia de no llevar el móvil encima mientras estoy en el trabajo, se queda en la taquilla del vestuario y la mayoría de los días allí permanece sin tocarlo esperando a que se acabe la jornada.
+Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los problemas que se me plantea es el gasto de batería ya que la taquilla es una perfecta jaula de faraday y el teléfono invierte mucho esfuerzo en buscar conectividad móvil.</description>
+    </item>
+    
+    <item>
+      <title>Como he ganado 100€ sin quererlo…</title>
+      <link>/como-he-ganado-100-sin-quererlo/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/como-he-ganado-100-sin-quererlo/</guid>
+      <description>Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.
+Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.
+Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta.</description>
+    </item>
+    
+    <item>
+      <title>Tasker</title>
+      <link>/tasker/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tasker/</guid>
+      <description>Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.
+Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos años y en su día no costaba los 200€.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Montaje y ssh</title>
+      <link>/raspberry-montaje-y-ssh/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-montaje-y-ssh/</guid>
+      <description>Montaje y acceso ssh Ya tengo lo que creo que necesito. Una Raspberry, una tarjeta micro sd, una fuente de alimentación y un cable de red. Total 59€ de inversión inicial que supongo no se quedarán ahí.
+Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como empezar con el cacharro, ya que estos días desde que lo pedí todo hasta que me ha llegado no me he preocupado de nada.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry red y wifi</title>
+      <link>/raspberry-red-y-wifi/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-red-y-wifi/</guid>
+      <description>Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &amp;ldquo;/etc/dhcpcd.conf&amp;rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&amp;gt; Ctrl + o Salimos del editor nano =&amp;gt; Ctrl + x Reiniciamos la Raspberry =&amp;gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&amp;gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry apache y php</title>
+      <link>/raspberry-apache-y-php/</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-apache-y-php/</guid>
+      <description>Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &amp;ldquo;index.html&amp;rdquo;, crearemos un archivo &amp;ldquo;index.php&amp;rdquo; en el que escribiremos un mensaje &amp;ldquo;hola mundo&amp;rdquo; y reiniciaremos el servidor.
+cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;quot;hola mundo&amp;quot;; ?&amp;gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &amp;ldquo;hola mundo&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry mysql y DB</title>
+      <link>/raspberry-mysql-y-db/</link>
+      <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-mysql-y-db/</guid>
+      <description>Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
+ sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &amp;ldquo;root&amp;rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry y Docker</title>
+      <link>/raspberry-y-docker/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-y-docker/</guid>
+      <description>Manejando contenedores con Docker Instalar Docker
+ sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+sudo curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;)/gpg | sudo apt-key add -
+sudo echo &amp;ldquo;deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;) $(lsb_release -cs) stable&amp;rdquo; | sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker 
+añadir tu usuario al grupo de docker
+sudo gpasswd -a ${USER} docker</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Servidor VPN</title>
+      <link>/raspberry-servidor-vpn/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-servidor-vpn/</guid>
+      <description>Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
+ Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.pivpn.io | bash  Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Acceso desde el exterior</title>
+      <link>/raspberry-acceso-desde-el-exterior/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-acceso-desde-el-exterior/</guid>
+      <description>Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
+Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Reinicios periódicos</title>
+      <link>/raspberry-reinicios-peri%C3%B3dicos/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-reinicios-peri%C3%B3dicos/</guid>
+      <description>Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
+sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Copia de seguridad</title>
+      <link>/raspberry-copia-de-seguridad/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-copia-de-seguridad/</guid>
+      <description>Antes de pensar en como realizar una copia de seguridad para las instalaciones de WordPress y Dokuwiki que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.
+En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldquo;wp-content&amp;rdquo;. Para el caso de la Wiki, aquí podemos ver las carpetas necesarias que se recomienda guardar aunque yo he optado por prescindir de las versiones antiguas de páginas y archivos multimedia.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Instalando Dokuwiki</title>
+      <link>/raspberry-instalando-dokuwiki/</link>
+      <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-instalando-dokuwiki/</guid>
+      <description>Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas. Su sintaxis es similar a la de MediaWiki, aunque a diferencia de este software, la información se almacena en archivos de texto planos, por lo que no requiere el uso de una base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Instalando WordPress</title>
+      <link>/raspberry-instalando-wordpress/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-instalando-wordpress/</guid>
+      <description>Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
+ http://192.168.1.202/sherblog/</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Servidor ftp</title>
+      <link>/raspberry-servidor-ftp/</link>
+      <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-servidor-ftp/</guid>
+      <description>Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&amp;hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
+ cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
+Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Descargando Wordpress</title>
+      <link>/raspberry-descargando-wordpress/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-descargando-wordpress/</guid>
+      <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
+ sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.</description>
+    </item>
+    
+  </channel>
+</rss>

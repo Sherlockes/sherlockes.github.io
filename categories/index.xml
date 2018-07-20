@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Sherblog</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Pedales</title>
+      <link>/categories/a-pedales/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/a-pedales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Desarrollo</title>
+      <link>/categories/desarrollo/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/desarrollo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>/categories/raspberry/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/categories/software/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tasker</title>
+      <link>/categories/tasker/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tasker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tasker on Sherblog</title>
+    <link>/categories/tasker/</link>
+    <description>Recent content in Tasker on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/tasker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Como ahorrar batería en el trabajo con Tasker</title>
+      <link>/como-ahorrar-bater%C3%ADa-en-el-trabajo-con-tasker/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/como-ahorrar-bater%C3%ADa-en-el-trabajo-con-tasker/</guid>
+      <description>El problema Desde hace mucho tiempo tengo la suerte o desgracia de no llevar el móvil encima mientras estoy en el trabajo, se queda en la taquilla del vestuario y la mayoría de los días allí permanece sin tocarlo esperando a que se acabe la jornada.
+Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los problemas que se me plantea es el gasto de batería ya que la taquilla es una perfecta jaula de faraday y el teléfono invierte mucho esfuerzo en buscar conectividad móvil.</description>
+    </item>
+    
+    <item>
+      <title>Tasker</title>
+      <link>/tasker/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tasker/</guid>
+      <description>Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.
+Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos años y en su día no costaba los 200€.</description>
+    </item>
+    
+    <item>
+      <title>Mis usos de Tasker</title>
+      <link>/post/tasker/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tasker/</guid>
+      <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
+Este simple concepto añade infinidad de características a tus dispositivos android sin que, en la mayoría de los casos, sea necesario un &amp;ldquo;rooteado&amp;rdquo; de los mismos o añadir un nuevo launcher.</description>
+    </item>
+    
+  </channel>
+</rss>
