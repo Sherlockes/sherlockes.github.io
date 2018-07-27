@@ -4,28 +4,28 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ordenar listas en Google Keep</title>
-	<meta name="description" content="Una solución sencilla al problema de ordenar alfabeticamente las listas de Google Keep">
+	<title>Insertar en Twitter enlaces a Hugo con imagen</title>
+	<meta name="description" content="Si te encuentras con que los enlaces">
 
-	<meta name="twitter:card" content="Una solución sencilla al problema de ordenar alfabeticamente las listas de Google Keep" />
-	<meta name="twitter:title" content="Ordenar listas en Google Keep" />
-	<meta name="twitter:image" content="http://sherblog.pro/images/20180523_ordenar_lista_google_keep.jpg" />
+	<meta name="twitter:card" content="Si te encuentras con que los enlaces" />
+	<meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen" />
+	<meta name="twitter:image" content="http://sherblog.pro/images/20180726_hugo_twitter_card_00.jpg" />
 	
 	<meta name="twitter:creator" content="@sherblogpro">
 	<meta name="twitter:site" content="sherblog.pro" />
 	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
 
 	<meta name="generator" content="Hugo 0.42.1" />
-	<meta property="og:title" content="Ordenar listas en Google Keep" />
-<meta property="og:description" content="Una solución sencilla al problema de ordenar alfabeticamente las listas de Google Keep" />
+	<meta property="og:title" content="Insertar en Twitter enlaces a Hugo con imagen" />
+<meta property="og:description" content="Si te encuentras con que los enlaces" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/ordenar-listas-en-google-keep/" />
+<meta property="og:url" content="/insertar-en-twitter-enlaces-a-hugo-con-imagen/" />
 
 
 
-<meta property="article:published_time" content="2018-05-27T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2018-07-27T00:00:00&#43;00:00"/>
 
-<meta property="article:modified_time" content="2018-05-27T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-07-27T00:00:00&#43;00:00"/>
 
 
 
@@ -38,8 +38,8 @@
 
 
 	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Ordenar listas en Google Keep"/>
-<meta name="twitter:description" content="Una solución sencilla al problema de ordenar alfabeticamente las listas de Google Keep"/>
+<meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
+<meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
 
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -75,82 +75,68 @@
 <main class="main content">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Ordenar listas en Google Keep</h1><div class="post__meta meta">
+			<h1 class="post__title">Insertar en Twitter enlaces a Hugo con imagen</h1><div class="post__meta meta">
 <svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-05-27T00:00:00">May 27, 2018</time>
+<time class="post__meta-date meta-date" datetime="2018-07-27T00:00:00">July 27, 2018</time>
 <span class="post__meta-categories meta-categories">
 	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/desarrollo" rel="category">Desarrollo</a></span>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/varios" rel="category">Varios</a></span>
 </span></div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/images/20180523_ordenar_lista_google_keep.jpg" alt="Ordenar listas en Google Keep">
+			<img src="/images/20180726_hugo_twitter_card_00.jpg" alt="Insertar en Twitter enlaces a Hugo con imagen">
 		</figure><div class="post__content clearfix">
 			
 
-<p>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.</p>
+<h3 id="el-problema">El problema</h3>
 
-<ul>
-<li>La sincronización entre dispositivos</li>
-<li>La compartición con otras personas</li>
-</ul>
+<p>Ya tenemos nuestra web en <a href="https://gohugo.io/">Hugo</a> y resulta que cuando queremos compartir un enlace al mismo en <a href="https://twitter.com">Twitter</a> este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡.  No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.</p>
 
-<p>Un tiempo atrás, antes de que descubriera <a href="https://ia.net/writer">iawriter</a>, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</p>
+<p>No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de <a href="https://twitter.com">Twitter</a> para generar las tarjetas (Cards) tal y como se comenta en su sección de <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html">desarrolladores</a> donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</p>
 
-<p>En mi lista de la compra hay unos cien artículos de uso cotidiano o comida que en casa compramos habitualmente, cada uno con una casilla de verificacion para marcar si hay en casa o es necesario comprar.</p>
+<p>Es decir, <a href="https://twitter.com">Twitter</a> necesita unos metadatos que <a href="https://gohugo.io/">Hugo</a> no está enviando.</p>
 
-<p>Gracias a la sincronización entre dispositivos, es posible chequear esta lista de la compra desde el móvil, la tablet, el pc&hellip; Además, la lista la tengo compartida con mi señora de forma que cualquiera de los dos podemos añadir o seleccionar los artículos que hay que comprar o a sido comprado.</p>
+<h3 id="la-solución">La solución</h3>
 
-<p>Para seleccionar los artículos a comprar lo suelo hacer de dos formas, bien hago un repaso general a la lista y veo de lo que ya yo hay existencia en casa o bien se me ocurre un en particular para añadir a la lista. Para el primer caso es muy sencillo, cojo la lista desde el principio y analizo. Hay, no hay, necesito, no necesito&hellip; El problema viene cuando solo quiero seleccionar un articulo en particular de la lista cuando este no está ordenada alfabéticamente.</p>
+<p>En todos los encabezados de los artículos tengo, entre otros, insertados los siguiente campos</p>
 
-<h3 id="el-problema-ordenar-alfabéticamente-una-lista">El problema. Ordenar alfabéticamente una lista</h3>
+<pre><code>title: &quot;Enlaces con imagen en Twitter a Hugo&quot;
+description: &quot;Te interesa leer si los links que compartes o comparten en Twitter de tu web en Hugo Salen sin imagen&quot;
+thumbnail: &quot;images/20180712_wordpress_hugo.jpg&quot;
+</code></pre>
 
-<p>Pues si, toda esta parrafada para explicar un método sencillo y rápido con el que ordenar la lista de Google Keep con casillas de verificación ya que el método de arrastrar las filas hasta su posición correcta es un verdadero lío que puede llegar a ser desesperante para listas largas.</p>
+<p>Pues bien, el reto pasa por reaprovechar estos campos para generar los metadatos que <a href="https://twitter.com">Twitter</a> está buscando para generar su tarjeta de enlace.  Hay varias opciones, pero la más práctica que he encontrado es editar el archivo &ldquo;header.html&rdquo; dentro de la carpeta &ldquo;layouts/partials&rdquo; e incluir en el &ldquo;head&rdquo; a continuación de los metas de <a href="https://gohugo.io/">Hugo</a> estas líneas:</p>
 
-<h3 id="una-solución-sencilla">Una solución sencilla</h3>
+<pre><code>&lt;meta name=&quot;twitter:card&quot; content=&quot;{{ .Params.description }}&quot; /&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;{{ .Params.title }}&quot; /&gt;
+{{ if (.Params.thumbnail) }}&lt;meta name=&quot;twitter:image&quot; content=&quot;http://sherblog.pro/{{ .Params.thumbnail }}&quot; /&gt;
+{{else}}&lt;meta name=&quot;twitter:image&quot; content=&quot;http://sherblog.pro/images/logo.png&quot; /&gt;
+{{end}}
+&lt;meta name=&quot;twitter:creator&quot; content=&quot;@sherblogpro&quot;&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;sherblog.pro&quot; /&gt;
+</code></pre>
 
-<p>A priori se me ocurrieron varias opciones pero la más rápida y práctica para realizar creo que es la siguiente.</p>
+<p>Bastante sencillo, cada metadato corresponde a un parámetro de nuestro archivo con una particularidad para el caso de las imágenes y es que hace distinción para el caso en que no encuentre el parámetro &ldquo;thumbnail&rdquo; que utilice en su lugar una imagen fija.</p>
 
-<ul>
-<li>Desmarcar todos los elementos</li>
-<li>Ocultar casillas de verificación</li>
-<li>Seleccionar y cortar todo el texto</li>
-<li>Ir a <a href="https://www.textfixer.com/tools/alphabetical-order.php">Textfixer</a></li>
-<li>Seleccionar como separador de entrada el salto de línea.</li>
-<li>Pegar el texto en el primer cuadro de texto</li>
-<li>&ldquo;Alfabetizar tu texto&rdquo;</li>
-<li>Copiar el texto del segundo cuadro</li>
-<li>Pegarlo en la nota de Google Keep</li>
-<li>Mostrar casillas de verificación</li>
-</ul>
+<h3 id="comprobando-la-solución">Comprobando la solución</h3>
 
-<p>Y ya está!!! Nuestra lista perfectamente ordenada. Para los que no quieren perder cinco minutos en leer todo el artículo, aquí un vídeo de solo uno en el que se muestra todo el proceso.</p>
+<p>Podrías dedicarte a enviar y borrar tweets para comprobar que funciona la solución que hemos adoptado pero <a href="https://twitter.com">Twitter</a> nos proporciona una herramienta más sencilla mediante su <a href="https://cards-dev.twitter.com/validator">validador de tarjetas</a>.</p>
 
+<p><img src="/images/20180726_hugo_twitter_card_01.jpg" alt="CardsGen" /></p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/Oi1nYKWou8w" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+<p>Esta es una web en la que pegas el enlace que quieres comprobar y te muestra la tarjeta generada y los posibles problemas que encuentra en su generación.  Tras las modificaciones en el &ldquo;header.html&rdquo; la tarjeta generada aparece así.</p>
 
+<p><img src="/images/20180726_hugo_twitter_card_02.jpg" alt="CardsGen" /></p>
 
 			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
 		</div>
 		
-<div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
-	<ul class="tags__list">
-		<li class="tags__item"><a class="tags__link btn" href="/tags/google/" rel="tag">Google</a></li>
-		<li class="tags__item"><a class="tags__link btn" href="/tags/keep/" rel="tag">Keep</a></li>
-	</ul>
-</div>
 	</article>
 	
 	
 <nav class="post-nav row clearfix">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/instalando-windows-7/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Instalando Windows 7</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/fuga-en-cisterna-roca/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">Fuga en cisterna Roca</p></a>
+		<a class="post-nav__link" href="/adios-wordpress/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Adios WordPress</p></a>
 	</div>
 </nav>
 	

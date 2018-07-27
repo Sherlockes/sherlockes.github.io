@@ -6,10 +6,20 @@
     <description>Recent content in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Insertar en Twitter enlaces a Hugo con imagen</title>
+      <link>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
+      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.
+No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de Twitter para generar las tarjetas (Cards) tal y como se comenta en su sección de desarrolladores donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</description>
+    </item>
     
     <item>
       <title>Adios WordPress</title>
@@ -17,7 +27,7 @@
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/adios-wordpress/</guid>
-      <description>Han pasado ya más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.</description>
+      <description>Ya han pasado más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.</description>
     </item>
     
     <item>
