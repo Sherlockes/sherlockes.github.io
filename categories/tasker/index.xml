@@ -41,6 +41,15 @@ Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos
     </item>
     
     <item>
+      <title>Reinicio programado con Tasker en Android</title>
+      <link>/reinicio-programado-con-tasker-en-android/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reinicio-programado-con-tasker-en-android/</guid>
+      <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.</description>
+    </item>
+    
+    <item>
       <title>Mis usos de Tasker</title>
       <link>/post/tasker/</link>
       <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>

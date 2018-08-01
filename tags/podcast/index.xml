@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on Sherblog</title>
+    <link>/tags/podcast/</link>
+    <description>Recent content in Podcast on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 21 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Los podcast que escucho, Enero de 2018</title>
+      <link>/los-podcast-que-escucho-enero-de-2018/</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/los-podcast-que-escucho-enero-de-2018/</guid>
+      <description>Hace ya casi dos años que escucho podcast de una forma continuada y aunque no voy a exponer aquí todos los que escucho, si voy a hacer una pequeña clasificación con los más importantes de mi &amp;ldquo;podcather&amp;rdquo;. En esta lista solo incluiré los podcast de los que al menos he escuchado un día entero, es decir, que sumando la duración de todos los &amp;ldquo;episodios&amp;rdquo; al menos he escuchado 24 horas. Están ordenados de mayor a menor tiempo de reproducción.</description>
+    </item>
+    
+  </channel>
+</rss>
