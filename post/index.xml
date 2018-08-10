@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 27 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Copiar ssh key desde Synology</title>
+      <link>/copiar-ssh-key-desde-synology/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/copiar-ssh-key-desde-synology/</guid>
+      <description>El problema Generar la llave ssh (ssh-key) cd un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
+    </item>
     
     <item>
       <title>Insertar en Twitter enlaces a Hugo con imagen</title>
@@ -126,6 +136,16 @@ Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrast
     </item>
     
     <item>
+      <title>Una avería rara… una solución fácil.</title>
+      <link>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</guid>
+      <description>Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.
+El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.</description>
+    </item>
+    
+    <item>
       <title>Avería de las roldanas del cambio</title>
       <link>/aver%C3%ADa-de-las-roldanas-del-cambio/</link>
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
@@ -143,6 +163,15 @@ Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada
       <guid>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</guid>
       <description>Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).
 Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar.</description>
+    </item>
+    
+    <item>
+      <title>Al fin se ve la luz¡</title>
+      <link>/al-fin-se-ve-la-luz/</link>
+      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/al-fin-se-ve-la-luz/</guid>
+      <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
     </item>
     
   </channel>

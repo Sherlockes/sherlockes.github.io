@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sherver on Sherblog</title>
+    <link>/categories/sherver/</link>
+    <description>Recent content in Sherver on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/sherver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Copiar ssh key desde Synology</title>
+      <link>/copiar-ssh-key-desde-synology/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/copiar-ssh-key-desde-synology/</guid>
+      <description>El problema Generar la llave ssh (ssh-key) cd un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
+    </item>
+    
+    <item>
+      <title>Al fin se ve la luz¡</title>
+      <link>/al-fin-se-ve-la-luz/</link>
+      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/al-fin-se-ve-la-luz/</guid>
+      <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
+    </item>
+    
+  </channel>
+</rss>

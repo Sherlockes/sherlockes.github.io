@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/copiar-ssh-key-desde-synology/</loc>
+    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</loc>
     <lastmod>2018-07-27T00:00:00+00:00</lastmod>
   </url>
@@ -73,6 +78,11 @@
   </url>
   
   <url>
+    <loc>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</loc>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aver%C3%ADa-de-las-roldanas-del-cambio/</loc>
     <lastmod>2015-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -80,6 +90,11 @@
   <url>
     <loc>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</loc>
     <lastmod>2013-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/al-fin-se-ve-la-luz/</loc>
+    <lastmod>2007-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -212,7 +227,7 @@
   
   <url>
     <loc>/tags/mantenimiento/</loc>
-    <lastmod>2015-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -224,7 +239,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -241,7 +256,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/sherver/</loc>
+    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
