@@ -99,6 +99,7 @@
 
 <blockquote>
 <p>Para el caso del usuario root dentro de Synology es tan sencillo como después de haber accedido via terminal con la cuenta de un administrador introducir el comando <code>sudo -i</code> con la misma contraseña del administrador.</p>
+</blockquote>
 
 <p>La copia de las llaves ssh de un equipo a otro es un procedimiento que , aunque en un perfecto ingles, está documentado en la web oficial de <a href="https://www.ssh.com/ssh/copy-id">ssh</a> pero en el momento que intentamos llevarlo a cabo nos encontramos con que el comando &ldquo;ssh-copy-id&rdquo; no está accesible en la terminal de Synology (Al menos en DSM 6.2)</p>
 
@@ -110,7 +111,6 @@
 
 <pre><code>cat ~/.ssh/id_rsa.pub | ssh &lt;usuario&gt;@&lt;ip_equipo&gt; 'cat &gt;&gt; .ssh/authorized_keys &amp;&amp; echo &quot;Llave copiada&quot;'
 </code></pre>
-</blockquote>
 
 <p>Y ya está, ahora nuestro nas Synology deberá poder acceder al equipo remoto via ssh sin tener que introducir la contraseña.</p>
 
