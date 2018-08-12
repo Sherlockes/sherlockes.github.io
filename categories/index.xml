@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>A Pedales</title>
       <link>/categories/a-pedales/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/a-pedales/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>Gps</title>
       <link>/categories/gps/</link>
-      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/gps/</guid>
       <description></description>
@@ -62,15 +62,6 @@
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/sherver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>/categories/software/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/software/</guid>
       <description></description>
     </item>
     
