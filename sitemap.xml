@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/cubierta-ko-decathlon-ok/</loc>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/copiar-ssh-key-desde-synology/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
   </url>
@@ -85,11 +90,6 @@
   <url>
     <loc>/como-descargar-el-icono-de-un-servicio-web/</loc>
     <lastmod>2017-12-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cubierta-ko-decathlon-ok/</loc>
-    <lastmod>2017-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -188,7 +188,7 @@
   
   <url>
     <loc>/categories/a-pedales/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -200,7 +200,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -260,7 +260,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,7 +277,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
