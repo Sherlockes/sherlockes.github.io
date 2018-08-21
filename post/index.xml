@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apurada de frenada</title>
+      <link>/apurada-de-frenada/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/apurada-de-frenada/</guid>
+      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro. Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.</description>
+    </item>
     
     <item>
       <title>Cubierta KO, Decathlon OK</title>

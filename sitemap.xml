@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/apurada-de-frenada/</loc>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/cubierta-ko-decathlon-ok/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
   </url>
@@ -260,7 +265,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,7 +282,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -301,7 +306,7 @@
   
   <url>
     <loc>/categories/varios/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
