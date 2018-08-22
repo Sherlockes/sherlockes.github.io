@@ -22,6 +22,15 @@ ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el direc
     </item>
     
     <item>
+      <title>Se cierra el círculo, vuelve el servidor casero.</title>
+      <link>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</guid>
+      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año.</description>
+    </item>
+    
+    <item>
       <title>Al fin se ve la luz¡</title>
       <link>/al-fin-se-ve-la-luz/</link>
       <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>

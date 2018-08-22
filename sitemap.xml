@@ -103,6 +103,21 @@
   </url>
   
   <url>
+    <loc>/openstreetsmap-en-gps-garmin/</loc>
+    <lastmod>2017-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</loc>
+    <lastmod>2017-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</loc>
+    <lastmod>2016-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aver%C3%ADa-de-las-roldanas-del-cambio/</loc>
     <lastmod>2015-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -193,6 +208,12 @@
   
   <url>
     <loc>/categories/a-pedales/</loc>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/averias/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -205,19 +226,19 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/desarrollo/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/desarrollo/</loc>
     <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/desarrollo/</loc>
+    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,7 +274,7 @@
   
   <url>
     <loc>/tags/mantenimiento/</loc>
-    <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -294,7 +315,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -306,7 +327,7 @@
   
   <url>
     <loc>/categories/varios/</loc>
-    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

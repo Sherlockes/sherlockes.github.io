@@ -6,10 +6,19 @@
     <description>Recent content in A Pedales on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/a-pedales/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apurada de frenada</title>
+      <link>/apurada-de-frenada/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/apurada-de-frenada/</guid>
+      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro. Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.</description>
+    </item>
     
     <item>
       <title>Cubierta KO, Decathlon OK</title>
@@ -39,6 +48,26 @@ El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tr
       <guid>/de-google-earth-a-mapa-para-garmin-en-5-minutos/</guid>
       <description>Desde hace muchos años, utilizo Topohispania para la navegación en bicicleta con el Garmin Edge.
 Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es esto, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.</description>
+    </item>
+    
+    <item>
+      <title>Openstreetsmap en Gps Garmin</title>
+      <link>/openstreetsmap-en-gps-garmin/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/openstreetsmap-en-gps-garmin/</guid>
+      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
+Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
+    </item>
+    
+    <item>
+      <title>La obsolescencia prematura de unos puños</title>
+      <link>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</link>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</guid>
+      <description>Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los Ritchey WCS True Grip Ergo con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.
+Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€.</description>
     </item>
     
     <item>
