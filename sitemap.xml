@@ -133,6 +133,11 @@
   </url>
   
   <url>
+    <loc>/another-instance-is-currently-closing-portable-app-error/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</loc>
     <lastmod>2017-02-22T00:00:00+00:00</lastmod>
   </url>
@@ -242,11 +247,6 @@
   </url>
   
   <url>
-    <loc>/p1217/</loc>
-    <lastmod>2017-03-23T15:29:12+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/a-pedales/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -279,12 +279,6 @@
   <url>
     <loc>/categories/desarrollo/</loc>
     <lastmod>2018-05-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/error/</loc>
-    <lastmod>2017-03-23T15:29:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -343,12 +337,6 @@
   </url>
   
   <url>
-    <loc>/tags/portable/</loc>
-    <lastmod>2017-03-23T15:29:12+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -374,12 +362,6 @@
   <url>
     <loc>/categories/sherver/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/software/</loc>
-    <lastmod>2017-03-23T15:29:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   

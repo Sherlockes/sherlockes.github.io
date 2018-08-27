@@ -246,6 +246,16 @@ Para todo esto utilizo Faststone Capture en su versión portable que puedes desc
     </item>
     
     <item>
+      <title>Another instance is currently closing… Portable app error</title>
+      <link>/another-instance-is-currently-closing-portable-app-error/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
+    </item>
+    
+    <item>
       <title>Se cierra el círculo, vuelve el servidor casero.</title>
       <link>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
@@ -310,16 +320,6 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       
       <guid>/al-fin-se-ve-la-luz/</guid>
       <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
-    </item>
-    
-    <item>
-      <title>Another instance is currently closing… (Portable app error)</title>
-      <link>/p1217/</link>
-      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
-      
-      <guid>/p1217/</guid>
-      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
-Ahora intento utilizar programas &amp;#8220;portables&amp;#8221; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
   </channel>

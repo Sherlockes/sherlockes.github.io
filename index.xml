@@ -275,6 +275,16 @@ Para todo esto utilizo Faststone Capture en su versión portable que puedes desc
     </item>
     
     <item>
+      <title>Another instance is currently closing… Portable app error</title>
+      <link>/another-instance-is-currently-closing-portable-app-error/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
+    </item>
+    
+    <item>
       <title>Se cierra el círculo, vuelve el servidor casero.</title>
       <link>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
@@ -483,16 +493,6 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       <guid>/raspberry-descargando-wordpress/</guid>
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
  sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.</description>
-    </item>
-    
-    <item>
-      <title>Another instance is currently closing… (Portable app error)</title>
-      <link>/p1217/</link>
-      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
-      
-      <guid>/p1217/</guid>
-      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
-Ahora intento utilizar programas &amp;#8220;portables&amp;#8221; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
   </channel>
