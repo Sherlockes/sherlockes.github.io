@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portable on Sherblog</title>
+    <link>/tags/portable/</link>
+    <description>Recent content in Portable on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 23 Mar 2017 15:29:12 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/portable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Another instance is currently closing… (Portable app error)</title>
+      <link>/p1217/</link>
+      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
+      
+      <guid>/p1217/</guid>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;#8220;portables&amp;#8221; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
+    </item>
+    
+  </channel>
+</rss>

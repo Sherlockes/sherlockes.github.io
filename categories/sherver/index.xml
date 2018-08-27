@@ -22,6 +22,26 @@ ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el direc
     </item>
     
     <item>
+      <title>Error al exportar base de datos de WordPress en Synology webStation</title>
+      <link>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+    </item>
+    
+    <item>
+      <title>Copia de seguridad de la base de datos de WordPress</title>
+      <link>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
+El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
+    </item>
+    
+    <item>
       <title>Se cierra el círculo, vuelve el servidor casero.</title>
       <link>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</link>
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>

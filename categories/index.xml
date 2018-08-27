@@ -66,6 +66,24 @@
     </item>
     
     <item>
+      <title>Software</title>
+      <link>/categories/software/</link>
+      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
+      
+      <guid>/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synology</title>
+      <link>/categories/synology/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/synology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tasker</title>
       <link>/categories/tasker/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
@@ -80,6 +98,15 @@
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>/categories/wordpress/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/wordpress/</guid>
       <description></description>
     </item>
     

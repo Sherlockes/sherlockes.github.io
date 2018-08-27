@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synology on Sherblog</title>
+    <link>/categories/synology/</link>
+    <description>Recent content in Synology on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/synology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Error al exportar base de datos de WordPress en Synology webStation</title>
+      <link>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+    </item>
+    
+  </channel>
+</rss>

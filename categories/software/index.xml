@@ -6,20 +6,19 @@
     <description>Recent content in Software on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Mar 2017 15:29:12 +0000</lastBuildDate>
     
 	<atom:link href="/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>De Garmin a Google drive</title>
-      <link>/de-garmin-a-google-drive/</link>
-      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      <title>Another instance is currently closing… (Portable app error)</title>
+      <link>/p1217/</link>
+      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
       
-      <guid>/de-garmin-a-google-drive/</guid>
-      <description>&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;</description>
+      <guid>/p1217/</guid>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;#8220;portables&amp;#8221; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
   </channel>

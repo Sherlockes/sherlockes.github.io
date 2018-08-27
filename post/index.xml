@@ -123,6 +123,18 @@ Una primera impresión me informa de que no es nadie conocido y, a priori, un an
     </item>
     
     <item>
+      <title>Barrancos del sur de Zaragoza</title>
+      <link>/barrancos-del-sur-de-zaragoza/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/barrancos-del-sur-de-zaragoza/</guid>
+      <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
+Ver pantalla completa
+También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
+Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
+    </item>
+    
+    <item>
       <title>Desactivar el TouchPad en Linux Mint</title>
       <link>/desactivar-el-touchpad-en-linux-mint/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
@@ -185,6 +197,16 @@ Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las 
     </item>
     
     <item>
+      <title>Error al exportar base de datos de WordPress en Synology webStation</title>
+      <link>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+    </item>
+    
+    <item>
       <title>Openstreetsmap en Gps Garmin</title>
       <link>/openstreetsmap-en-gps-garmin/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
@@ -201,6 +223,26 @@ Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps d
       
       <guid>/deshabilitar-cache-en-chrome/</guid>
       <description>Segun un artículo de Acceso Directo, la cache del navegador se entiende como &amp;ldquo;un lugar de almacenamiento temporal que se encuentra en la computadora y que guarda archivos que han sido descargados por el navegador para mostrar sitios. Dentro de estos archivos se encuentran aquellos documentos necesarios para la visualización de un sitio como archivos html, hojas de estilo de CSS, sripts de JavaScript, gráficos, imágenes y contenido multimedia en general&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Copia de seguridad de la base de datos de WordPress</title>
+      <link>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
+El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Flujo de trabajo con imágenes en WordPress</title>
+      <link>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</guid>
+      <description>Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.
+Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes.</description>
     </item>
     
     <item>
@@ -268,6 +310,16 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       
       <guid>/al-fin-se-ve-la-luz/</guid>
       <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
+    </item>
+    
+    <item>
+      <title>Another instance is currently closing… (Portable app error)</title>
+      <link>/p1217/</link>
+      <pubDate>Thu, 23 Mar 2017 15:29:12 +0000</pubDate>
+      
+      <guid>/p1217/</guid>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;#8220;portables&amp;#8221; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
   </channel>
