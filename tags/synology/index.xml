@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synology on Sherblog</title>
+    <link>/tags/synology/</link>
+    <description>Recent content in Synology on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/synology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Descarga fallida. No working transports found</title>
+      <link>/descarga-fallida.-no-working-transports-found/</link>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/descarga-fallida.-no-working-transports-found/</guid>
+      <description>Después de la instalación de WordPress en el servidor Synology al intentar actualizar los temas o los plugins me encuentro con el siguiente error.
+Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de que la solución es bastante sencilla y basta con habilitar la extensión &amp;ldquo;Curl&amp;rdquo; dentro de la configuración de php de la aplicación Web Station tal y como se puede ver en la siguiente captura de pantalla.</description>
+    </item>
+    
+    <item>
+      <title>Instalación manual de WordPress en Synology</title>
+      <link>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</link>
+      <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
+Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
+    </item>
+    
+  </channel>
+</rss>

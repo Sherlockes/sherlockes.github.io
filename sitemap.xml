@@ -138,6 +138,16 @@
   </url>
   
   <url>
+    <loc>/descarga-fallida.-no-working-transports-found/</loc>
+    <lastmod>2017-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</loc>
+    <lastmod>2017-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</loc>
     <lastmod>2017-02-22T00:00:00+00:00</lastmod>
   </url>
@@ -362,6 +372,12 @@
   <url>
     <loc>/categories/sherver/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/synology/</loc>
+    <lastmod>2017-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
