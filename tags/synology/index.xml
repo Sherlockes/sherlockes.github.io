@@ -31,5 +31,15 @@ Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de
 Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
     </item>
     
+    <item>
+      <title>Backup de la web al Nas mediante ftp y ssh en Synology</title>
+      <link>/backup-de-la-web-al-nas-mediante-ftp-y-ssh-en-synology/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/backup-de-la-web-al-nas-mediante-ftp-y-ssh-en-synology/</guid>
+      <description>Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al Nas que tengo en casa, de una forma automática y periódica.
+Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión ftp. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas.</description>
+    </item>
+    
   </channel>
 </rss>
