@@ -6,10 +6,30 @@
     <description>Recent content in Synology on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/synology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Copiar ssh key desde Synology</title>
+      <link>/copiar-ssh-key-desde-synology/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/copiar-ssh-key-desde-synology/</guid>
+      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
+    </item>
+    
+    <item>
+      <title>Error al exportar base de datos de WordPress en Synology webStation</title>
+      <link>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+    </item>
     
     <item>
       <title>Descarga fallida. No working transports found</title>
@@ -39,6 +59,15 @@ Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;W
       <guid>/backup-de-la-web-al-nas-mediante-ftp-y-ssh-en-synology/</guid>
       <description>Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al Nas que tengo en casa, de una forma automática y periódica.
 Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión ftp. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas.</description>
+    </item>
+    
+    <item>
+      <title>Se cierra el círculo, vuelve el servidor casero.</title>
+      <link>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</guid>
+      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año.</description>
     </item>
     
   </channel>
