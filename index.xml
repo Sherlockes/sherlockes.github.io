@@ -81,6 +81,17 @@ Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y e
     </item>
     
     <item>
+      <title>Raspberry configurando rclone sin entorno gráfico</title>
+      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
+      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
+La instalación es realmente sencilla gracias al script que hay en la web oficial
+curl https://rclone.</description>
+    </item>
+    
+    <item>
       <title>De Garmin a Google drive</title>
       <link>/de-garmin-a-google-drive/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>

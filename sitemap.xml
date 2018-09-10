@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/de-garmin-a-google-drive/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
   </url>
@@ -290,7 +295,7 @@
   
   <url>
     <loc>/tags/desarrollo/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -362,13 +367,19 @@
   
   <url>
     <loc>/categories/raspberry/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/raspberry/</loc>
-    <lastmod>2018-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rclone/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
