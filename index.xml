@@ -6,10 +6,21 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry configurando rclone sin entorno gráfico</title>
+      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
+      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
+La instalación es realmente sencilla gracias al script que hay en la web oficial
+curl https://rclone.</description>
+    </item>
     
     <item>
       <title>Apurada de frenada</title>
@@ -78,17 +89,6 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
       <guid>/instalando-windows-7/</guid>
       <description>El problema, un sistema lento Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.
 Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10.</description>
-    </item>
-    
-    <item>
-      <title>Raspberry configurando rclone sin entorno gráfico</title>
-      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
-      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
-      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
-La instalación es realmente sencilla gracias al script que hay en la web oficial
-curl https://rclone.</description>
     </item>
     
     <item>
@@ -534,15 +534,6 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       <guid>/</guid>
       <description>&amp;mdash;wwQ title: &amp;ldquo;Insertar en Twitter enlaces a Hugo con imagen&amp;rdquo; date: &amp;ldquo;2018-07-27&amp;rdquo; description: &amp;ldquo;Si te encuentras con que los enlaces&amp;rdquo; thumbnail: &amp;ldquo;images/20180726_hugo_twitter_card_00.jpg&amp;rdquo; disable_comments: true authorbox: false toc: false mathjax: false categories: - &amp;ldquo;Hugo&amp;rdquo; - &amp;ldquo;Sherver&amp;rdquo; draft: false
 weight: 5 El problemapap Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>ZpñQ</description>
     </item>
     
   </channel>

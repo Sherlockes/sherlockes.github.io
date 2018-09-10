@@ -6,7 +6,7 @@
     <description>Recent content in Raspberry Pi desde cero on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 10 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Raspberry configurando rclone sin entorno gráfico</title>
       <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
-      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
       <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
