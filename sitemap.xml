@@ -193,10 +193,6 @@
   </url>
   
   <url>
-    <loc>/escribir-aqu%C3%AD-el-t%C3%ADtulo/</loc>
-  </url>
-  
-  <url>
     <loc>/reinicio-programado-con-tasker-en-android/</loc>
   </url>
   
@@ -293,25 +289,20 @@
   </url>
   
   <url>
-    <loc>/categories/categoria/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/desarrollo/</loc>
-    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
+    <loc>/tags/desarrollo/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/desarrollo/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <loc>/categories/desarrollo/</loc>
+    <lastmod>2018-05-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -334,14 +325,14 @@
   </url>
   
   <url>
-    <loc>/categories/gps/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <loc>/tags/gps/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/gps/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>/categories/gps/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -413,11 +404,6 @@
   <url>
     <loc>/tags/synology/</loc>
     <lastmod>2018-08-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tag1/</loc>
     <priority>0</priority>
   </url>
   
