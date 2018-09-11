@@ -358,15 +358,6 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/</guid>
-      <description>Probando a añadir directamente más contenido&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
       <description>&amp;mdash;wwQ title: &amp;ldquo;Insertar en Twitter enlaces a Hugo con imagen&amp;rdquo; date: &amp;ldquo;2018-07-27&amp;rdquo; description: &amp;ldquo;Si te encuentras con que los enlaces&amp;rdquo; thumbnail: &amp;ldquo;images/20180726_hugo_twitter_card_00.jpg&amp;rdquo; disable_comments: true authorbox: false toc: false mathjax: false categories: - &amp;ldquo;Hugo&amp;rdquo; - &amp;ldquo;Sherver&amp;rdquo; draft: false
 weight: 5 El problemapap Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡.</description>
     </item>
