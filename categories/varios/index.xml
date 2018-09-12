@@ -6,10 +6,20 @@
     <description>Recent content in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Historia del alojamiento del blog</title>
+      <link>/historia-del-alojamiento-del-blog/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/historia-del-alojamiento-del-blog/</guid>
+      <description>Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.
+ Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.</description>
+    </item>
     
     <item>
       <title>Adios WordPress</title>
