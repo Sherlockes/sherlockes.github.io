@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmail on Sherblog</title>
+    <link>/tags/gmail/</link>
+    <description>Recent content in Gmail on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 14 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatizando la limpieza de Gmail</title>
+      <link>/automatizando-la-limpieza-de-gmail/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/automatizando-la-limpieza-de-gmail/</guid>
+      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
+    </item>
+    
+  </channel>
+</rss>

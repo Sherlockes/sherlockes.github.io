@@ -168,6 +168,11 @@
   </url>
   
   <url>
+    <loc>/automatizando-la-limpieza-de-gmail/</loc>
+    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</loc>
     <lastmod>2016-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -188,8 +193,23 @@
   </url>
   
   <url>
+    <loc>/en-que-apps-android-me-he-gastado-dinero/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/excesivo-gasto-de-bater%C3%ADa-de-los-servicios-de-google-play/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aver%C3%ADa-de-las-roldanas-del-cambio/</loc>
     <lastmod>2015-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aplicaciones-para-rastrear-personas-coches-perros/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -283,6 +303,18 @@
   </url>
   
   <url>
+    <loc>/categories/android/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/apps/</loc>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/averias/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -315,6 +347,12 @@
   <url>
     <loc>/tags/fontaner%C3%ADa/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gmail/</loc>
+    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -421,7 +459,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-08-16T00:00:00+00:00</lastmod>
+    <lastmod>2016-03-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
