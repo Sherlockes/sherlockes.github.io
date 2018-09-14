@@ -71,5 +71,16 @@ Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;W
 Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión ftp. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas.</description>
     </item>
     
+    <item>
+      <title>Instalar WordPress en cinco minutos.  Mito o realidad.</title>
+      <link>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</link>
+      <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</guid>
+      <description>Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.
+Los pasos a realizar son los siguiente:
+ Descargar la última versión de es.wordpress.org Descomprimir el instalador Conexión ftp y subir archivos Acceder al panel de control Entrar en bases de datos MySQL Crear nueva base de datos Crear un nuevo usario MySQL Añadir usuario a base de datos Asignar privilegios al usuario Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.</description>
+    </item>
+    
   </channel>
 </rss>

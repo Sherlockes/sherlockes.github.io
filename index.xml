@@ -424,6 +424,17 @@ Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada
     </item>
     
     <item>
+      <title>Instalar WordPress en cinco minutos.  Mito o realidad.</title>
+      <link>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</link>
+      <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</guid>
+      <description>Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.
+Los pasos a realizar son los siguiente:
+ Descargar la última versión de es.wordpress.org Descomprimir el instalador Conexión ftp y subir archivos Acceder al panel de control Entrar en bases de datos MySQL Crear nueva base de datos Crear un nuevo usario MySQL Añadir usuario a base de datos Asignar privilegios al usuario Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.</description>
+    </item>
+    
+    <item>
       <title>Aplicaciones para rastrear personas, coches, perros…</title>
       <link>/aplicaciones-para-rastrear-personas-coches-perros/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -594,6 +605,15 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       <guid>/raspberry-descargando-wordpress/</guid>
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
  sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.</description>
+    </item>
+    
+    <item>
+      <title>La discriminación rural en el servicio telefónico</title>
+      <link>/p906/</link>
+      <pubDate>Thu, 15 Oct 2015 22:23:41 +0000</pubDate>
+      
+      <guid>/p906/</guid>
+      <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
     </item>
     
   </channel>
