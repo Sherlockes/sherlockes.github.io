@@ -3,12 +3,12 @@
   <channel>
     <title>Mis usos de Tasker on Sherblog</title>
     <link>/post/tasker/</link>
-    <description>Contenido reciente in Mis usos de Tasker en Sherblog</description>
+    <description>Recent content in Mis usos de Tasker on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/post/tasker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/tasker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,45 +17,8 @@
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/como-ahorrar-bater%C3%ADa-en-el-trabajo-con-tasker/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Desde hace mucho tiempo tengo la suerte o desgracia de no llevar el móvil encima mientras estoy en el trabajo, se queda en la taquilla del vestuario y la mayoría de los días allí permanece sin tocarlo esperando a que se acabe la jornada.&lt;/p&gt;
-
-&lt;p&gt;Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los problemas que se me plantea es el gasto de batería ya que la taquilla es una perfecta jaula de faraday y el teléfono invierte mucho esfuerzo en buscar conectividad móvil.&lt;/p&gt;
-
-&lt;p&gt;Desactivar los datos es una buena forma de minimizar el gasto de batería, pero es muy latoso tener que estar activando y desactivando esta opción de forma manual. Por esto he creado en Tasker un perfil que lo automatiza.&lt;/p&gt;
-
-&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
-
-&lt;p&gt;Usando Tasker, para saber cuando estoy en el trabajo sin tener que yo hacer nada hay varias posibilidades, usando la localización GPS, mediante las antenas de telefonía cercanas o mediante las redes wifi cercanas.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Tasker dispone de un plugin de pago &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.joaomgcd.autolocation&#34;&gt;Autolocation&lt;/a&gt; que todavía no he probado y que, con un coste de 2€, puede ser útil si utilizas varias ubicaciones para gestionar Tasker.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;La primera implica un gran gasto de batería que es lo que queremos evitar y la segunda solo es precisa cuando te encuentras en una zona con mucha densidad de antenas (Que no es mi caso). Descartadas las dos primeras, me quedo con la detección de ubicación basándome en las redes wifi cercanas (No hace falta que se efectúe la conexión a ninguna de ellas, solo detectar que está cerca)&lt;/p&gt;
-
-&lt;p&gt;Software necesario:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tasker (2.99E) disponible en la &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;amp;hl=es&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Con todo lo anterior, tal y como se puede ver en la imagen posterior tengo creados dos perfiles&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;En el trabajo -&amp;gt; Cuando detecta próxima la wifi del trabajo se activa este perfil, su tarea de entrada la empleo para otros menesteres.&lt;/li&gt;
-&lt;li&gt;Ahorrar bateria en el trabajo -&amp;gt; Tiene dos condiciones de activación, que el perfil &amp;ldquo;En el trabajo&amp;rdquo; esté activo y que la pantalla del móvil esté apagada. cuando se cumplan estas condiciones se desactivarán los datos móviles del teléfono.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;uno que me detecta cuando estoy en el trabajo En Tasker, crearemos un perfil con dos condiciones de activación. * Detectar cerca la red wifi del trabajo * Tener la pantalla del móvil apagada La tarea de entrada apagará los datos y la de salida los encenderá.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180210_ahorrar_bateria_tajo_01.jpg&#34; alt=&#34;Perfiles de ahorro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Así de simple, de esta forma mientras estoy en el trabajo los datos móviles solo se activan cuando tengo la pantalla encendida.&lt;/p&gt;
-</description>
+      <description>El problema Desde hace mucho tiempo tengo la suerte o desgracia de no llevar el móvil encima mientras estoy en el trabajo, se queda en la taquilla del vestuario y la mayoría de los días allí permanece sin tocarlo esperando a que se acabe la jornada.
+Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los problemas que se me plantea es el gasto de batería ya que la taquilla es una perfecta jaula de faraday y el teléfono invierte mucho esfuerzo en buscar conectividad móvil.</description>
     </item>
     
     <item>
@@ -64,38 +27,7 @@
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/apagar-la-pantalla-con-tasker-en-android/</guid>
-      <description>&lt;p&gt;La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma. Muchos terminales ofrecen la posibilidad del bloqueo y desbloqueo con un doble toque. Es una opción realmente útil que yo usaba mientras tuve instalado el firmware oficial del fabricante pero que perdí al mudarme a Lineage de forma que ahora solo funciona de forma nativa bien para encender la pantalla o bien para apagarla desde la pantalla de bloqueo. Para combatir esta carencia he creado una pequeña tarea dentro de Tasker basada en el plugin &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin&#34;&gt;Secure Settings&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Software necesario:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tasker (2.99E) disponible en la &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;amp;hl=es&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Plugin Secure Settings (gratis) disponible en la &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.intangibleobject.securesettings.plugin&amp;amp;hl=es&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pasos a seguir:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crear una nueva tarea&lt;/li&gt;
-&lt;li&gt;Añadir una nueva acción&lt;/li&gt;
-&lt;li&gt;Seleccionar Plugin&lt;/li&gt;
-&lt;li&gt;Seleccionar Secure Settings&lt;/li&gt;
-&lt;li&gt;En el menú &amp;#8220;Configuración&amp;#8221; pulsar sobre el lápiz&lt;/li&gt;
-&lt;li&gt;En el menú &amp;#8220;Dev Admin Actions&amp;#8221; seleccionar &amp;#8220;Lock Device&amp;#8221;&lt;/li&gt;
-&lt;li&gt;Marcar la opción &amp;#8220;Device Admin Enabled&amp;#8221;&lt;/li&gt;
-&lt;li&gt;Guardar los cambios y volver atrás&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Desde el botón central de la barra inferior podemos asignar una imagen a la tarea y ya la tenemos terminada. Debería quedar algo así.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180109_tasker_pantalla_01.jpg&#34; alt=&#34;pantalla tasker&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ahora solo resta agregar un widget con un acceso directo a esta tarea en la pantalla que deseemos de nuestro launcher y cuando lo pulsemos se apagará la pantalla.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180109_tasker_pantalla_02.jpg&#34; alt=&#34;boton apagar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple, rápido y efectivo. Si quieres puedes descargar desde &lt;a href=&#34;/files/tasker_apagar_pantalla.tsk.xml&#34;&gt;aquí&lt;/a&gt; la tarea para importarla en tu aplicación Tasker.&lt;/p&gt;
-</description>
+      <description>La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma. Muchos terminales ofrecen la posibilidad del bloqueo y desbloqueo con un doble toque.</description>
     </item>
     
     <item>
@@ -104,16 +36,8 @@
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tasker/</guid>
-      <description>&lt;p&gt;Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos años y en su día no costaba los 200€. Estoy seguro de que todo lo que hago con el podría hacerlo con uno de gama alta pero creo que es más interesante hacerlo con este para así demostrar que la tecnología avanza en este aspecto mucho más deprisa de lo que necesitamos.&lt;/p&gt;
-
-&lt;p&gt;Hace tiempo que dejé de lado el firmware del fabricante para instalar Lineage (Esta batalla para otro artículo) y además rootear (También lo contaré) el terminal que, aunque para la mayoría de posibilidades no es necesario, en alguna ocasión hace falta para poder llevar a cabo determinadas acciones.&lt;/p&gt;
-
-&lt;p&gt;Para todas las automatizaciones y acciones personalizas utilizo la app &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;#038;hl=es&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Tasker para Android&lt;/a&gt;, no es gratis pero solo cuesta 3€ y por todo lo que ofrece merece la pena esta pequeña inversión.&lt;/p&gt;
-
-&lt;p&gt;El la red hay infinidad de recetas para Tasker que no siempre son útiles en el día a día. A lo largo de los próximos artículos iré publicando las que yo utilizo habitualmente y que me hacen ahorrar un tiempo muy valioso.&lt;/p&gt;
-</description>
+      <description>Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.
+Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos años y en su día no costaba los 200€.</description>
     </item>
     
     <item>
@@ -122,34 +46,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reinicio-programado-con-tasker-en-android/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El Problema&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. &lt;/p&gt;
-
-&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
-
-&lt;p&gt;Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.&lt;/p&gt;
-
-&lt;p&gt;Software necesario:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tasker (2.99E) disponible en la &lt;a href=&#34;https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;amp;hl=es&#34;&gt;Play Store&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En primer lugar creamos una nueva tarea, le asignamos el nombre de &amp;ldquo;reiniciar&amp;rdquo;, añadimos una acción y desde el menú &amp;ldquo;Sistema&amp;rdquo; elegimos la opción &amp;ldquo;Reiniciar&amp;rdquo; y dejamos el tipo como &amp;ldquo;Normal&amp;rdquo;, atrás y tendremos lo siguiente:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180116_tasker_reiniciar_01.jpg&#34; alt=&#34;tarea reiniciar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Desde la pestaña &amp;ldquo;Perfiles&amp;rdquo; creamos un nuevo perfil al que le incluiremos dos condiciones, una condición de &amp;ldquo;dia&amp;rdquo; para que se ejecute los lunes, miércoles y viernes, y otra condición de &amp;ldquo;hora&amp;rdquo; para que se ejecute a las 2:00 AM. Ya solo resta asignarle que ejecute la acción &amp;ldquo;reiniciar&amp;rdquo; cuando se cumplan las condiciones y quedará como el siguiente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180116_tasker_reiniciar_02.jpg&#34; alt=&#34;perfil reiniciar&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Un consejo: Para añadir dos condiciones a un perfil deberemos mantener pulsado sobre la primera condición para asignar una nueva.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Y ya está, puedes descargar desde aquí la&lt;/p&gt;
-</description>
+      <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.</description>
     </item>
     
   </channel>

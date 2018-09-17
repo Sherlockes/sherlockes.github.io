@@ -3,12 +3,12 @@
   <channel>
     <title>Posts on Sherblog</title>
     <link>/post/</link>
-    <description>Contenido reciente in Posts en Sherblog</description>
+    <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,25 +17,8 @@
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/historia-del-alojamiento-del-blog/</guid>
-      <description>&lt;p&gt;Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Diciembre de 2007.&lt;/em&gt; Un &lt;a href=&#34;/al-fin-se-ve-la-luz/&#34;&gt;Pentium II&lt;/a&gt; reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Julio de 2008.&lt;/em&gt; En la búsqueda de un alojamiento gratuito encuentro &lt;a href=&#34;http://110mb.com/&#34;&gt;110mb&lt;/a&gt;. En principio ofrece todo lo que necesito pero las limitaciones de espacio me hacen seguir buscando mientras estoy ahí alojado&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Septiembre de 2008.&lt;/em&gt; &lt;a href=&#34;https://www.000webhost.com/&#34;&gt;000webhost&lt;/a&gt; ha sido el alojamiento donde más tiempo he estado instalado hasta ahora. Espacio ilimitado, transferencia ilimitada y además gratuito. Solo los tiempos de carga que poco a poco se fueron haciendo más lentos y varios ataques que dejaron todas las web del servidor caídas durante semanas hicieron que me planteara un alojamiento de pago.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Agosto de 2015.&lt;/em&gt; La facilidad de migración, la buena relacción calidad-precio y un cupón con un suculento descuento de por vida hicieron que me migrara a &lt;a href=&#34;https://www.hosting24.com/&#34;&gt;Hosting24&lt;/a&gt;
-Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo por ~50€.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Agosto de 2017.&lt;/em&gt; La fiebre del podcasting y &lt;a href=&#34;https://www.jmramirez.pro/culturanas/&#34;&gt;Jose Manuel Ramirez&lt;/a&gt; hicieron que adquiriera un Nas de Synology, concretamente un Ds216+II. Lo compré en &lt;a href=&#34;https://qloudea.com&#34;&gt;Qloudea&lt;/a&gt; a principios de año y uno de los objetivos era que el alojamiento de la web en el NAS fuera una realidad antes de que tuviera que renovar la suscripción del alojamiento para verano.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Octubre de 2017.&lt;/em&gt; A mediados de Julio compré en Amazon una &lt;a href=&#34;https://www.amazon.es/dp/B01CD5VC92/ref=pe_3310721_189395781_TE_dp_3&#34;&gt;RaspberryPi 3&lt;/a&gt; no sin cierta reticiencia y miedo a que terminara en un cajón como el arduino. Con el NAS tenía cubierto con creces las necesidades de alojamiento para la web pero tenerlo encendido todo el día me parece matar moscas a cañonazos así que paso a instalar un servidor web en la placa de la frambuesa que tengo encendida todo el día con una tarjeta de memoria de 32Gb.  De momento, creo que la RaspBerry es la solución perfecta para mis necesidades de alojamiento pero estoy seguro de que no será la definitiva&amp;hellip; ¿Que nos depararán los próximos diez años?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Junio de 2018.&lt;/em&gt; Problemas de acceso puntuales que no soy capaz de resolver y la casualidad de que Hugo se cruce en mi vida hacen que le de un profundo cambio a la web pasando del contenido dinámico de &lt;a href=&#34;https://es.wordpress.org&#34;&gt;WordPress&lt;/a&gt; al estático de &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; y del alojamiento en la Raspberry de mi casa a los servidores gratuitos de &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; . Resulta un proceso largo y laborioso del que termino encantado con el cambio.  Además consigo el paso a una navegación segura mediante SSL.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.
+ Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.</description>
     </item>
     
     <item>
@@ -44,107 +27,7 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/publicar-desde-iawriter/</guid>
-      <description>
-
-&lt;h3 id=&#34;publicar-solo-con-el-editor-de-texto&#34;&gt;Publicar solo con el editor de texto&lt;/h3&gt;
-
-&lt;p&gt;Hace un tiempo que estoy intentando escribir en Markdown y para WordPress he estado utilizando el Plugin &lt;a href=&#34;https://wordpress.org/plugins/wp-markdown/&#34;&gt;Wp-MarkDown&lt;/a&gt; que me ha permitido realizar la maquetación del post directamente en Markdown. Una vez que he dejado atrás WordPress en favor de Hugo uno de mis objetivos de los últimos meses ha sido poder publicar en el blog simplemente usando un editor de texto.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, no sin algo de esfuerzo, al final lo he conseguido. Gracias a Hugo cómo CMS este post que ahora estoy escribiendo lo puedo publicar en mi blog de una forma rápida y sencilla en Markdown directamente desde la aplicación &lt;a href=&#34;https://ia.net/writer&#34;&gt;iaWritter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Las etapas del proceso son las siguientes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Parto de un archivo de texto con extensión *.md que renombro con la estructura &amp;ldquo;fecha_nombre_archivo.md&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Escribo el contenido del Post&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hasta aquí todo el proceso que he de realizar de forma manual. El resto se realiza de forma automática según la siguiente secuencia.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Iawriter guarda el archivo de texto en mi unidad de Google Drive en una carpeta específica para los post de la web.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Gracias a rclone la Raspberry es capaz de sincronizar tanto la carpeta &amp;ldquo;content&amp;rdquo; como la &amp;ldquo;static&amp;rdquo; con la nube de Google Drive mediante un proceso en crontab que se ejecuta cada hora&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Para crear el proceso que se ejecute cada hora  se utiliza el comando &lt;code&gt;crontab -e&lt;/code&gt; añadiendo al final la línea &amp;ldquo;0 * * * * /home/pi/sherblog/publicar.sh&amp;rdquo; donde &amp;ldquo;publicar.sh&amp;rdquo; es el script ejecutable que realiza todas las operaciones.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La misma secuencia de comandos busca en la carpeta &amp;ldquo;post&amp;rdquo; algún archivo sin cabecera para incluirle una genérica que luego será fácil de editar.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Antes de colocar la cabecera, el script comprueba que el archivo no se ha modificado en la última hora para de esta forma &amp;ldquo;garantizar&amp;rdquo; que no se está trabajando en el y no crear problemas de sincronización.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Con los cambios efectuados en los archivos sin cabecera se realiza la sincronización inversa hacia la nube de Google.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tras sincronizar la carpeta, el script construye toda la web estática a partir de los post y archivos de configuración.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Resulta interesante conocer que para hacer referencia al comando &amp;ldquo;hugo&amp;rdquo; hay que usar en el script la ruta completa que en mi caso quedará &amp;ldquo;/usr/local/bin/hugo&amp;rdquo;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Con la web regenerada se suben los cambios a mi cuenta de github donde tengo publicada la web de forma completamente gratuita.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
-# -*- ENCODING: UTF-8 -*-
-
-#Sincroniza el contenido de la nube de Google Drive con las carpetas locales
-rclone sync -v GoogleDrive:/Sherblog/content/ /home/pi/sherblog/content/
-rclone sync -v GoogleDrive:/Sherblog/static/ /home/pi/sherblog/static/
-
-#Cambio al directorio de contenidos
-cd ~/sherblog/content/post
-
-#Busca archivos sin cabecera para añadirle una genérica
-grep -r -L &amp;quot;\-\-\-&amp;quot; * |
-while read fname
-do
-  #Minutos que han de pasar desde la ultima modificación para encabezado
-  minmin=30
-
-  #Calculo de los minutos pasados desde la ultima modificacion
-  umodsg=$(date +%s -r &amp;quot;$fname&amp;quot;)
-  ahorasg=$(date +%s)
-  minpasados=$(((ahorasg - umodsg)/60))
-  echo Han pasado $minpasados de los $minmin minutos desde la modificación de &amp;quot;$fname&amp;quot;
-
-  #Inserta la cabecera si han pasado más de 65 minutos
-  if [ $minpasados -gt $minmin ]; then
-    echo Colocando la cabecera a &amp;quot;$fname&amp;quot;
-    cat cabecera.md &amp;quot;$fname&amp;quot; &amp;gt; temp &amp;amp;&amp;amp; mv temp &amp;quot;$fname&amp;quot;
-  fi
-done
-
-#Sincroniza los archivos de la nube con los modificados en local
-rclone sync -v /home/pi/sherblog/content/ GoogleDrive:/Sherblog/content/
-
-#Genera la web estática en Hugo
-cd ~/sherblog
-/usr/local/bin/hugo
-
-#Sube los cambios generados en la web a GitHub
-cd ~/sherblog/git/sherlockes.github.io
-git add --all
-git commit -m &amp;quot;Update&amp;quot;
-git push -u origin master
-
-exit 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Y ya está. La web actualizada sin usar nada más que iawriter. Ahora resta idear un método sencillo para subir las imágenes, quizás IFTTT sea una buena opción, pero esto para otro día&amp;hellip;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A fecha de hoy (Octubre de 2010) el sistema funciona a las mil maravillas en Android pero IAWriter en IOS da algún problema a la hora de guardar los archivos en Google Drive, espero se solvente con alguna actualización.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Publicar solo con el editor de texto Hace un tiempo que estoy intentando escribir en Markdown y para WordPress he estado utilizando el Plugin Wp-MarkDown que me ha permitido realizar la maquetación del post directamente en Markdown. Una vez que he dejado atrás WordPress en favor de Hugo uno de mis objetivos de los últimos meses ha sido poder publicar en el blog simplemente usando un editor de texto.</description>
     </item>
     
     <item>
@@ -153,44 +36,7 @@ exit 0
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/apurada-de-frenada/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma.  Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro.  Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.&lt;/p&gt;
-
-&lt;p&gt;Toca planificar una ruta de retorno &amp;ldquo;segura&amp;rdquo; e ir pensando en cambiar las pastillas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_01.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pues si, he apurado demasiado la pastilla, hasta el punto de que el soporte metálico de la misma ha rozado con el disco.  Por suerte el disco no presenta, según mi criterio, nigún desperfecto que obligue a cambiarlo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_03.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Todos los frenos de disco hidráulicos que he usado en mis bicicletas hasta ahora han sido Shimano y el cambio de pastillas no tiene ninguna complejidad siguiendo estos pasos&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No tocar la maneta de freno hasta haber colocado las pastillas nuevas&lt;/li&gt;
-&lt;li&gt;Quitar el pasador que sujeta las pastillas&lt;/li&gt;
-&lt;li&gt;Quitar las pastillas viejas&lt;/li&gt;
-&lt;li&gt;Limpiar y lubricar el alojamiento de las pastillas y los pistones&lt;/li&gt;
-&lt;li&gt;Quitar todos los restos de lubricante&lt;/li&gt;
-&lt;li&gt;Montar  de nuevo las pastillas viejas&lt;/li&gt;
-&lt;li&gt;Apalancar con un destornillador grande entre las pastillas para que retornen los pistones (Si no retornan de todo no cabrá el disco entre las pastillas al colocar las nuevas)&lt;/li&gt;
-&lt;li&gt;Quitar las pastillas viejas&lt;/li&gt;
-&lt;li&gt;Limpiar nuevamente el alojamiento de las pastillas&lt;/li&gt;
-&lt;li&gt;Colocar las pastillas nuevas&lt;/li&gt;
-&lt;li&gt;Colocar el pasador&lt;/li&gt;
-&lt;li&gt;Comprobar el funcionamiento&lt;/li&gt;
-&lt;li&gt;Alinear la pinza o el disco si es necesario&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Por si las images anteriores no resultan muy aclaratorias, aquí se puede ver la diferencia entre una de las pastillas que he quitado y la otra nueva que he colocado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_02.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Podía haber sido mucho peor si en casa no hubiera tenido unas pastillas que compré hace un tiempo ya que habría tenido que ir a comprarlas o esperar a que me llegase el envío&amp;hellip;&lt;/p&gt;
-</description>
+      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro. Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.</description>
     </item>
     
     <item>
@@ -199,24 +45,8 @@ exit 0
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/cubierta-ko-decathlon-ok/</guid>
-      <description>&lt;p&gt;Con menos de tres meses montada en la rueda trasera de la bicicleta de carretera, la cubierta &lt;a href=&#34;https://www.decathlon.es/neum-resist-5-700x25-protect-id_8386929.html&#34;&gt;BTWIN Resist Protect&lt;/a&gt; que compré en Decathlon presenta este aspecto.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170720_cubierta_btwin_ko.jpg&#34; alt=&#34;cubierta&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna causa probable más allá de un defecto de fabricación ya que la cubierta no ha sido especialmente expuesta a malas condiciones atmosféricas y la presión de inflado ha estado siempre dentro de los valores recomendados por el fabricante.&lt;/p&gt;
-
-&lt;p&gt;Apenas cuesta 15€ y lleva más de 1000km rodados pero me sabe malo tener que tirar una cubierta sin haberla desgastado, así que me dirijo al Decathlon donde la compré con la intención de que me den alguna explicación aunque sin mucha esperanza por obtener algún tipo de reembolso.&lt;/p&gt;
-
-&lt;p&gt;Pues bien. Sin necesidad de presentar el ticket de compra, simplemente con la tarjeta de fidelización del centro y sólo con ver la cubierta, el comercial me hace un reembolso del valor completo del producto sin poner ningún tipo de traba.&lt;/p&gt;
-
-&lt;p&gt;Un diez por la atención al cliente en Decathlon aunque un cero por la calidad de este producto de su marca.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Un año después me ha vuelto a pasar, el mismo modelo de cubierta y la misma tienda Decathlon aunque esta vez la compré en Mayo por 10€ y la he quitado en Agosto con algo menos de 2000 km rodados. Nuevamente me han devuelto el dinero sin ningún problema y he hecho unos cuantos kilómetros gratis. Consecuencia, me voy de la tienda nuevamente a casa con el mismo modelo de cubierta y a ver que tal va esta.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180813_cubierta_ko.jpg&#34; alt=&#34;cubierta&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Con menos de tres meses montada en la rueda trasera de la bicicleta de carretera, la cubierta BTWIN Resist Protect que compré en Decathlon presenta este aspecto.
+Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna causa probable más allá de un defecto de fabricación ya que la cubierta no ha sido especialmente expuesta a malas condiciones atmosféricas y la presión de inflado ha estado siempre dentro de los valores recomendados por el fabricante.</description>
     </item>
     
     <item>
@@ -225,34 +55,8 @@ exit 0
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/copiar-ssh-key-desde-synology/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ssh-keygen
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.pub&amp;rdquo; que es el que deberemos copiar al equipo que queremos acceder.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Para el caso del usuario root dentro de Synology es tan sencillo como después de haber accedido via terminal con la cuenta de un administrador introducir el comando &lt;code&gt;sudo -i&lt;/code&gt; con la misma contraseña del administrador.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;La copia de las llaves ssh de un equipo a otro es un procedimiento que , aunque en un perfecto ingles, está documentado en la web oficial de &lt;a href=&#34;https://www.ssh.com/ssh/copy-id&#34;&gt;ssh&lt;/a&gt; pero en el momento que intentamos llevarlo a cabo nos encontramos con que el comando &amp;ldquo;ssh-copy-id&amp;rdquo; no está accesible en la terminal de Synology (Al menos en DSM 6.2)&lt;/p&gt;
-
-&lt;p&gt;De momento no cunde el pánico pues parece sencillo instalar esta utilidad mediante el comando &lt;code&gt;sudo apt-get install ssh-copy-id&lt;/code&gt; pero la cosa se complica cuando me doy cuenta de que en Synology no es posible instalar paquetes mediante apt-get o aptitude.&lt;/p&gt;
-
-&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
-
-&lt;p&gt;Tras una breve navegación por la web he encontrado una solución usando el comando &amp;ldquo;cat&amp;rdquo; utilizado para concatenar archivos y mostrarlos como salida según se muestra en el siguiente código.  Tan solo hay que introducir el nombre de usuario e ip del equipo al que queremos copiar las llaves.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cat ~/.ssh/id_rsa.pub | ssh &amp;lt;usuario&amp;gt;@&amp;lt;ip_equipo&amp;gt; &#39;cat &amp;gt;&amp;gt; .ssh/authorized_keys &amp;amp;&amp;amp; echo &amp;quot;Llave copiada&amp;quot;&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Y ya está, ahora nuestro nas Synology deberá poder acceder al equipo remoto via ssh sin tener que introducir la contraseña.&lt;/p&gt;
-</description>
+      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
     </item>
     
     <item>
@@ -261,48 +65,8 @@ exit 0
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Ya tenemos nuestra web en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; y resulta que cuando queremos compartir un enlace al mismo en &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡.  No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.&lt;/p&gt;
-
-&lt;p&gt;No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; para generar las tarjetas (Cards) tal y como se comenta en su sección de &lt;a href=&#34;https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html&#34;&gt;desarrolladores&lt;/a&gt; donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.&lt;/p&gt;
-
-&lt;p&gt;Es decir, &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; necesita unos metadatos que &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no está enviando.&lt;/p&gt;
-
-&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
-
-&lt;p&gt;En todos los encabezados de los artículos tengo, entre otros, insertados los siguiente campos&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;title: &amp;quot;Enlaces con imagen en Twitter a Hugo&amp;quot;
-description: &amp;quot;Te interesa leer si los links que compartes o comparten en Twitter de tu web en Hugo Salen sin imagen&amp;quot;
-thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pues bien, el reto pasa por reaprovechar estos campos para generar los metadatos que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; está buscando para generar su tarjeta de enlace.  Hay varias opciones, pero la más práctica que he encontrado es editar el archivo &amp;ldquo;header.html&amp;rdquo; dentro de la carpeta &amp;ldquo;layouts/partials&amp;rdquo; e incluir en el &amp;ldquo;head&amp;rdquo; a continuación de los metas de &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; estas líneas:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;meta name=&amp;quot;twitter:card&amp;quot; content=&amp;quot;{{ .Params.description }}&amp;quot; /&amp;gt;
-&amp;lt;meta name=&amp;quot;twitter:title&amp;quot; content=&amp;quot;{{ .Params.title }}&amp;quot; /&amp;gt;
-{{ if (.Params.thumbnail) }}&amp;lt;meta name=&amp;quot;twitter:image&amp;quot; content=&amp;quot;http://sherblog.pro/{{ .Params.thumbnail }}&amp;quot; /&amp;gt;
-{{else}}&amp;lt;meta name=&amp;quot;twitter:image&amp;quot; content=&amp;quot;http://sherblog.pro/images/logo.png&amp;quot; /&amp;gt;
-{{end}}
-&amp;lt;meta name=&amp;quot;twitter:creator&amp;quot; content=&amp;quot;@sherblogpro&amp;quot;&amp;gt;
-&amp;lt;meta name=&amp;quot;twitter:site&amp;quot; content=&amp;quot;sherblog.pro&amp;quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Bastante sencillo, cada metadato corresponde a un parámetro de nuestro archivo con una particularidad para el caso de las imágenes y es que hace distinción para el caso en que no encuentre el parámetro &amp;ldquo;thumbnail&amp;rdquo; que utilice en su lugar una imagen fija.&lt;/p&gt;
-
-&lt;h3 id=&#34;comprobando-la-solución&#34;&gt;Comprobando la solución&lt;/h3&gt;
-
-&lt;p&gt;Podrías dedicarte a enviar y borrar tweets para comprobar que funciona la solución que hemos adoptado pero &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; nos proporciona una herramienta más sencilla mediante su &lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;validador de tarjetas&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180726_hugo_twitter_card_01.jpg&#34; alt=&#34;CardsGen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Esta es una web en la que pegas el enlace que quieres comprobar y te muestra la tarjeta generada y los posibles problemas que encuentra en su generación.  Tras las modificaciones en el &amp;ldquo;header.html&amp;rdquo; la tarjeta generada aparece así.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180726_hugo_twitter_card_02.jpg&#34; alt=&#34;CardsGen&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.
+No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de Twitter para generar las tarjetas (Cards) tal y como se comenta en su sección de desarrolladores donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</description>
     </item>
     
     <item>
@@ -311,18 +75,7 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/adios-wordpress/</guid>
-      <description>&lt;p&gt;Ya han pasado algo más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.&lt;/p&gt;
-
-&lt;p&gt;Atrás he dejado los tiempos en que el diseño de la web me traía de cabeza, ahora solo pienso en crear contenido de la mayor calidad posible sin pensar en darle una u otra forma.&lt;/p&gt;
-
-&lt;p&gt;Desde que una Raspberry se cruzó en mi camino he aprendido muchísimo y una de las utilidades que le he encontrado es como servidor web para esta página. Pero el error 504 me ha traído de cabeza y no he sabido dar con la solución, hay veces que la web carga y otras que no por tardar mucho tiempo en dar una respuesta el servidor.&lt;/p&gt;
-
-&lt;p&gt;Buscando alternativas encontré &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, un entorno de desarrollo para crear webs estáticas que desde un primer momento me pareció interesante y que después de un tiempo trabajando con el ya estoy en condiciones de decir&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Adiós WordPress y hola Hugo!!!&lt;/p&gt;
-
-&lt;p&gt;P.D. Prometo contar mis experiencias y espero que a alguien le sirvan, ya que la documentación de &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; en castellano brilla por su ausencia.&lt;/p&gt;
-</description>
+      <description>Ya han pasado algo más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.</description>
     </item>
     
     <item>
@@ -331,43 +84,9 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/fuga-en-cisterna-roca/</guid>
-      <description>&lt;p&gt;Hace unos días que la cisterna del &lt;a href=&#34;https://www.roca.es/catalogo/colecciones/colecciones-bano/the-gap-066-14.0316/inodoro-completo-rimless-compacto-adosado-pared-salida-dual-incluye-taza-cisterna-alimentacion-lateral-tapa-amortiguada-342737..H-341731..0-801732..4#!A34273700H+A341731000+A801732004&#34;&gt;inodoro Roca&lt;/a&gt; de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.&lt;/p&gt;
-
-&lt;p&gt;Antes de ponerse manos a la obra no está de mas dar una vuelta por &lt;a href=&#34;https://www.youtube.com/results?search_query=fuga+cisterna+roca&#34;&gt;Youtube&lt;/a&gt;, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mal cierre del mecanismo de llenado (fuga por el sobradero)&lt;/li&gt;
-&lt;li&gt;Mal sello del mecanismo descargador (fuga por el descargador)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Antes de ponerme manos a la obra ya parece que tengo claro por que fuga mi cisterna con simplemente acercar la oreja a la misma. Tras llenar la cisterna el mecanismo de llenado permanece cerrado hasta que pasado un tiempo vuelve a abrir un poco. Esto indica que el descargador no está haciendo bien el sello, está dejando escapar agua y el mecanismo de llenado tiene que reponerla.&lt;/p&gt;
-
-&lt;p&gt;Manos a la obra y la primera dificultad, desmontar el doble pulsador para poder quitar la tapa y si es posible, sin romper nada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_03.jpg&#34; alt=&#34;Quitar doble pulsador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Con la tapa ya quitada y la cisterna vacía ya puedo desmontar el mecanismo del descargador para poder sacar la junta del cierre tal y como se muestra en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_02.jpg&#34; alt=&#34;Desmontar descargador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A primera vista la junta parece en buen estado pues el inhodoro no es muy antiguo pero mirándola más detenidamente podemos ver&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_01.jpg&#34; alt=&#34;Junta con ampollas&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip; Unas pequeñas ampollas que he marcado en color rojo para que sean más fácilmente visibles. De las más grandes, dos de ellas están situadas en el perímetro exterior por lo que no deberían afectar a la estanqueidad del descargador. La tercera está situada justo en la línea que marca el apoyo entre el descargador y la base de la cisterna por lo que creo que es esta la que deja pasar el agua.&lt;/p&gt;
-
-&lt;p&gt;Toca cambiar la junta en en &lt;a href=&#34;https://www.amazon.es/gp/product/B00JKMT0F0/ref=ox_sc_act_title_1?smid=A1AT7YVPFBWXBL&amp;amp;psc=1&#34;&gt;Amazon&lt;/a&gt; a día de hoy cuesta apenas 2€ pero con dos meses de plazo de entrega por lo que opto por comprarla en un comercio local a 2.5€&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Así leída la batalla ha parecido simple pero no ha sido así ya que he tenido que desmontar varias veces, desincrustar toda la cal acumulada y hacer muchas pruebas en varios días para terminar dándome cuenta de que el problema era causado por una simple burbuja de aire en la junta del descargador.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para terminar, resulta curioso que si buscas en &lt;a href=&#34;https://www.google.es/search?q=fuga+inodoro+roca&amp;amp;oq=fuga+inodoro+roca&#34;&gt;Google &amp;ldquo;fuga inodoro roca&amp;rdquo;&lt;/a&gt; sólo obtengas videos de Youtube de aficionados, tutoriales de grandes almacenes, webs de fontanería y anuncios para comprar &amp;ldquo;retretes&amp;rdquo;. Pero más curioso resulta como en la web oficial de roca puedas sin ningún problema descargar la ficha del producto, las medidas exactas e incluso un diseño en 3D para que los arquitectos y diseñadores lo incrusten en sus presentaciones pero no haya ni rastro del &lt;a href=&#34;http://www.roca.com/RocaResourceServlet/resources/getMainResource?idObject=%7BB658E11A-2CAD-4E7A-954E-BD46209CB2EF%7D&#34;&gt;manual de servicio&lt;/a&gt; que sólo he podido encontrar con la referencia de la junta después de comprada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_04.jpg&#34; alt=&#34;Etiqueta junta&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Hace unos días que la cisterna del inodoro Roca de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.
+Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
+Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:</description>
     </item>
     
     <item>
@@ -376,52 +95,8 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/ordenar-listas-en-google-keep/</guid>
-      <description>
-
-&lt;p&gt;Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La sincronización entre dispositivos&lt;/li&gt;
-&lt;li&gt;La compartición con otras personas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Un tiempo atrás, antes de que descubriera &lt;a href=&#34;https://ia.net/writer&#34;&gt;iawriter&lt;/a&gt;, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.&lt;/p&gt;
-
-&lt;p&gt;En mi lista de la compra hay unos cien artículos de uso cotidiano o comida que en casa compramos habitualmente, cada uno con una casilla de verificacion para marcar si hay en casa o es necesario comprar.&lt;/p&gt;
-
-&lt;p&gt;Gracias a la sincronización entre dispositivos, es posible chequear esta lista de la compra desde el móvil, la tablet, el pc&amp;hellip; Además, la lista la tengo compartida con mi señora de forma que cualquiera de los dos podemos añadir o seleccionar los artículos que hay que comprar o a sido comprado.&lt;/p&gt;
-
-&lt;p&gt;Para seleccionar los artículos a comprar lo suelo hacer de dos formas, bien hago un repaso general a la lista y veo de lo que ya yo hay existencia en casa o bien se me ocurre un en particular para añadir a la lista. Para el primer caso es muy sencillo, cojo la lista desde el principio y analizo. Hay, no hay, necesito, no necesito&amp;hellip; El problema viene cuando solo quiero seleccionar un articulo en particular de la lista cuando este no está ordenada alfabéticamente.&lt;/p&gt;
-
-&lt;h3 id=&#34;el-problema-ordenar-alfabéticamente-una-lista&#34;&gt;El problema. Ordenar alfabéticamente una lista&lt;/h3&gt;
-
-&lt;p&gt;Pues si, toda esta parrafada para explicar un método sencillo y rápido con el que ordenar la lista de Google Keep con casillas de verificación ya que el método de arrastrar las filas hasta su posición correcta es un verdadero lío que puede llegar a ser desesperante para listas largas.&lt;/p&gt;
-
-&lt;h3 id=&#34;una-solución-sencilla&#34;&gt;Una solución sencilla&lt;/h3&gt;
-
-&lt;p&gt;A priori se me ocurrieron varias opciones pero la más rápida y práctica para realizar creo que es la siguiente.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desmarcar todos los elementos&lt;/li&gt;
-&lt;li&gt;Ocultar casillas de verificación&lt;/li&gt;
-&lt;li&gt;Seleccionar y cortar todo el texto&lt;/li&gt;
-&lt;li&gt;Ir a &lt;a href=&#34;https://www.textfixer.com/tools/alphabetical-order.php&#34;&gt;Textfixer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Seleccionar como separador de entrada el salto de línea.&lt;/li&gt;
-&lt;li&gt;Pegar el texto en el primer cuadro de texto&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Alfabetizar tu texto&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Copiar el texto del segundo cuadro&lt;/li&gt;
-&lt;li&gt;Pegarlo en la nota de Google Keep&lt;/li&gt;
-&lt;li&gt;Mostrar casillas de verificación&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y ya está!!! Nuestra lista perfectamente ordenada. Para los que no quieren perder cinco minutos en leer todo el artículo, aquí un vídeo de solo uno en el que se muestra todo el proceso.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Oi1nYKWou8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
+ La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</description>
     </item>
     
     <item>
@@ -430,66 +105,8 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/instalando-windows-7/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema-un-sistema-lento&#34;&gt;El problema, un sistema lento&lt;/h3&gt;
-
-&lt;p&gt;Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.&lt;/p&gt;
-
-&lt;h3 id=&#34;windows-7-vs-windows-10&#34;&gt;Windows 7 Vs Windows 10&lt;/h3&gt;
-
-&lt;p&gt;Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10. Seguro que me estoy perdiendo cientos de buenas características pero ya he dejado atrás los tiempos en los que el sistema operativo era una experiencia, ahora sólo lo considero una herramienta.&lt;/p&gt;
-
-&lt;h3 id=&#34;restauración-o-instalación-limpia&#34;&gt;Restauración o instalación limpia&lt;/h3&gt;
-
-&lt;p&gt;El pc con el que estoy luchando es un Packard Bell de sobremesa con un i3 al que después del primer arranque le cree unos Cd&amp;rsquo;s (o puede que fuera dvd) de restauración para los casos de emergencia como este pero, sinceramente, después de tantos años y varias mudanzas no tengo ni idea de donde están estas copias de seguridad. Según lo anterior parece obvio que voy a tener que realizar una instalación del sistema desde cero.&lt;/p&gt;
-
-&lt;h3 id=&#34;software-original-o-pirata&#34;&gt;Software original o pirata&lt;/h3&gt;
-
-&lt;p&gt;Ya han quedado atrás los años del pirateo y de probar software que no necesito. Ahora siempre que puedo uso software libre o gratuito y si la aplicación lo merece y el precio es razonable no me importa pagar ya que todos merecemos ver recompensado nuestro esfuerzo.&lt;/p&gt;
-
-&lt;h3 id=&#34;que-versión-de-windows-7-instalar&#34;&gt;Que versión de Windows 7 instalar&lt;/h3&gt;
-
-&lt;p&gt;Starter Edition, Home Basic, Home Premium, Pro, Enterprise, Ultimate&amp;hellip; Son varias las alternativas y, aunque creo con con cualquiera de ellas me puedo apañar, después de haber funcionado durante estos años con la versión Home Premium la intención es dar un paso hacia delante (Si el precio no se dispara) y pasar a la versión Pro ya que según lo que he podido leer y entender las versiones Enterprise y Ultimate ofrecen características que son mucho más útiles en un entorno empresarial.&lt;/p&gt;
-
-&lt;h3 id=&#34;cuanto-dinero-cuesta-windows-7-pro&#34;&gt;Cuanto dinero cuesta Windows 7 Pro&lt;/h3&gt;
-
-&lt;p&gt;Aquí va la parte más divertida del problema que hoy se nos presenta. ¿Donde compro una instalación de Windows 7 Pro? ¿Cuanto cuesta? El primer sitio donde busco es Amazon y resulta curioso como, a partir de 30€, hay una increíble disparidad de precios para un mismo producto, unos discos de instalación con una licencia válida.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_amazon_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt; &lt;img src=&#34;/images/20180419_win7_amazon_02.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Está claro, 200€ no voy a pagar por una instalación de windows que dentro de dos años ya no recibirá actualizaciones pero 27€ parece un precio razonable que no descarto aunque hay que seguir con el estudio de mercado previo a la compra. Acto seguido busco en ebay y&amp;hellip; increíble!!! Hay licencias de Windows 7 Pro a partir de poco más de dos euros.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_ebay_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unos días atrás he oido a &lt;a href=&#34;http://www.vidasenred.com/&#34;&gt;Converso72&lt;/a&gt; hablar de estas licencias de Windows originales que se venden por Ebay. Al parece provienen de fabricantes de Pc&amp;rsquo;s que compran a Microsoft miles de licencias OEM para sus productos y les quedan muchas sin utilizar. Converso ha comprado una pero no ha dicho todavía cual ha sido el resultado de la compra aunque por este precio, me tiro a la piscina. Busco un vendedor de más confianza y que haya vendido bastantes y al final me decanto por esta de poco menos de 6€.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_ebay_02.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.ebay.es/itm/Microsoft-Windows-7-Professional-32-64-ESD-Multilanguage-Original-License-Key/263335278671?hash=item3d5001784f:g:~y4AAOSwXrdaEzgJ&#34;&gt;Aquí&lt;/a&gt; el enlace por si a alguien os interesa.&lt;/p&gt;
-
-&lt;h3 id=&#34;he-pagado-y-ahora-que&#34;&gt;He pagado, y ahora que?&lt;/h3&gt;
-
-&lt;p&gt;Poco tiempo dura la espera, así como recibo el correo del pago de PayPal recibo tambien un correo del vendedor con el número de licencia y un enlace para descargar la iso de la instalación.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_correo_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bueno, por lo menos ha mandado algo y además muy rápido, esto empieza bien. Puesto que no me fio del contenido que haya en el enlace de Mega que me ha mandado el vendedor, cojo el número de serie que acabo de comprar y voy a la web de descargas de &lt;a href=&#34;https://www.microsoft.com/es-es/software-download/windows7&#34;&gt;Windows 7 de Microsoft&lt;/a&gt;. Al verificar el número de serie recibido me encuentro con lo siguiente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_error_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Upsss¡¡¡ Problemas? Espero que no me hayan timado y que este error sólo sea debido a que este servicio de descargas de Microsoft no es válido para licencias OEM con las que los fabricantes dotan de Windows a los ordenadores que venden. Con esto, el siguiente paso es ir al enlade de Mega que he recivido en el correo electrónico y descargar la ISO.&lt;/p&gt;
-
-&lt;h3 id=&#34;tengo-la-iso-pero-no-tengo-cd-s&#34;&gt;Tengo la ISO, pero no tengo Cd&amp;rsquo;s&lt;/h3&gt;
-
-&lt;p&gt;Hace una década, raro era el día que no tenía en casa más de cincuenta cd&amp;rsquo;s o dvd&amp;rsquo;s &amp;ldquo;vírgenes&amp;rdquo; para grabar contenido, pero ahora&amp;hellip; todo ha cambiado y hace mucho tiempo que ni compro ni utilizo estos soportes físicos. Una vez más toca utilizar &lt;a href=&#34;https://rufus.akeo.ie/?locale&#34;&gt;Rufus&lt;/a&gt; para crear un Usb de arranque donde grabaré la imagen de Windows 7 Pro que he descargado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_rufus_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ya-está-windows-instalado&#34;&gt;Ya está Windows instalado&lt;/h3&gt;
-
-&lt;p&gt;El proceso de instalación es coser y cantar, selecciono el usb como primer sistema de arranque, introduzco el número de serie y sólo resta tener un poco de paciencia con las actualizaciones. Como resultado, un pc de casi ocho años que, gracias a un disco ssd y la instalación limpia de windows 7 es capaz de arrancar el sistema en apenas 20 segundos. Se acabó la pereza por encender el ordenador.&lt;/p&gt;
-</description>
+      <description>El problema, un sistema lento Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.
+Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10.</description>
     </item>
     
     <item>
@@ -500,21 +117,7 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <guid>/de-garmin-a-google-drive/</guid>
       <description>&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
 
-&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;
-
-&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
-
-&lt;p&gt;No pido mucho, fijar un objetivo anual, uno mensual y un seguimiento diario de los kilómetros. Hacerlo en &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; o &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt; aunque es posible, es muy pesado por lo que para mi gusto pienso que resulta mucho más práctico hacerlo en una hoja de cálculo donde guardaré los datos de todas las salidas.&lt;/p&gt;
-
-&lt;p&gt;Pero&amp;hellip; ¿Como paso la información de cada salida a una hoja de cálculo? Resulta obvio que la introdución a mano de todos los datos no me lo planteo, debe ser de una forma automática&lt;/p&gt;
-
-&lt;p&gt;Pues bien, la solución que he encontrado es muy simple. Como ya he mencionado anteriormente, Garmin Connect y Strava los tengo sincronizados de forma que en el momento que termino la ruta el GPS la envía al primero y consecuentemente al segundo.&lt;/p&gt;
-
-&lt;p&gt;A continuación y gracias a &lt;a href=&#34;https://ifttt.com&#34;&gt;IFTTT&lt;/a&gt; tengo creada una receta para que cada vez que aparece una nueva ruta en mi perfil de Strava se añada una nueva línea a una hoja de cálculo en Google Drive. Para terminar ya solo resta formatear la información recibida en una segunda hoja para poderla tratar y generar mis estadísticas, pero esto ya lo contaré otro día&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Simple y efectivo, ahora cada nueva salida con la bicicleta aparecerá reflejada en mi hoja de estadísticas de &lt;a href=&#34;https://www.google.es/drive/apps.html&#34;&gt;Google Drive&lt;/a&gt; sin que tenga que mediar para nada.&lt;/p&gt;
-
-&lt;p&gt;Y esto es todo por hoy, pero día comentaré en profundidad todas las hojas y fórmulas dentro del archivo de Google Sheets dice va a parar la información de todas mis rutas en bicicleta.&lt;/p&gt;</description>
+&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -523,46 +126,8 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/telegram-vs-whatsapp/</guid>
-      <description>
-
-&lt;h3 id=&#34;conoces-telegram&#34;&gt;¿Conoces Telegram?&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es &lt;a href=&#34;https://www.telegram.org/&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos. Además, como complemento a todas estas distribuciones existe una versión &lt;a href=&#34;https://web.telegram.org/#/login&#34;&gt;web&lt;/a&gt; de la que no puedo sacar ninguna conclusión porque hasta ahora no he tenido que utilizar.&lt;/p&gt;
-
-&lt;p&gt;Pero esto sólo es la punta del iceberg, a continuación dejo una pequeña lista de todo lo que habitualmente hago con Telegram y que me resultaría imposible con otras aplicaciones de mensajería instantánea.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Contactar con otras personas o que estas lo hagan contigo sin necesidad de conocer el número de teléfono haciendo uso del nombre de usuario. Tan simple como mandar un mensaje o llamar a &lt;em&gt;@nombre_de_usuario&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar notas, páginas y archivos de forma temporal en el apartado &amp;ldquo;mensajes guardados&amp;rdquo; hasta que son ubicados o gestionados de forma definitiva. Es más rápido y eficiente hacerlo así que instalar otra aplicación específica para notas.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Existen muchos canales a los que te puedes suscribir para descargar libros, películas y series. Yo las descargo mediante la aplicación de escritorio para posteriormente recodificarlas y guardarlas en el NAS Synology de forma que puedan ser reproducidas en cualquier momento por el flamante DsVideo. Aunque si lo prefieres, sólo tienes que descargar el archivo y reproducirlo en el mismo dispositivo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Recibir ofertas de tiendas online como Amazon, Aliexpress o Gearbest mediante canales especializados. No es necesario estar constantemente recibiendo notificaciones de estos canales ya que es posible silenciarlos indefinidamente y sólo comprobar las novedades cuando &amp;ldquo;tienes un rato&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Ademas de conversaciones con otros usuarios, canales y grupos, puedes añadir bots a tu lista de conversaciones, tan sólo hay que buscarlos, añadirlos e iniciarlos. Gracias a esto, es posible recibir una notificación diaria con el tiempo que va a hacer de la mano del &lt;a href=&#34;https://telegram.me/weatherman_bot&#34;&gt;@weatherman_bot&lt;/a&gt; o &lt;a href=&#34;https://telegram.me/aemetbot&#34;&gt;@aemetbot&lt;/a&gt; (Este último para localidades españolas).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar los psd&amp;rsquo;s creados con mis retoques fotográficos en Photoshop por si alguna vez tengo que volver a utilizarlos en un canal privado propio, con la única limitación de 1.5gb por archivo, sin un máximo de archivos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar programas descargados e instalados en un canal propio por si es necesaria una reinstalacion del mismo modo que en el caso anterior. En ningún caso lo utilizo como copia se seguridad, simplemente como un sitio donde guardar archivos que no quiero borrar pero que no sería trájico perder.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hacer seguimiento de envíos mediante el bot &lt;a href=&#34;https://telegram.me/MiTrackingBot&#34;&gt;@MiTrackingBot&lt;/a&gt; de forma que informa mediante un mensaje cada vez que hay una actualización en cualquiera de los envíos que estoy siguiendo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Visualización de la evolución del precio de los productos de Amazon al estilo www.camelcamelcamel.com pero de forma más sencilla gracias al bot &lt;a href=&#34;https://telegram.me/amazonglobalbot&#34;&gt;@AmazonGlobalBot&lt;/a&gt;. Existen otras alternativas para la evolución y búsqueda en Ebay pero no he sido capaz de hacerlas funcionar.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Convertir y poder descargar videos de YouTube en archivos de audio mp3 de una forma rápida y sencilla mediante &lt;a href=&#34;https://telegram.me/ytaudiobot&#34;&gt;@YTAudioBot&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Convertir cualquier imagen o documento en un archivo descargable por otro usuario desde el propio navegador gracias a la bots &lt;a href=&#34;https://telegram.me/imageuploadbot&#34;&gt;@ImageUploadBot&lt;/a&gt;y &lt;a href=&#34;https://telegram.me/tlgurbot&#34;&gt;@tlgurbot&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Que mejor forma de saber si uno tiene que dejar de ir a trabajar por saber que le ha tocado el Euromillón que comprobándolo mediante una notificación de Telegram. Simplemente hay que usar &lt;a href=&#34;https://telegram.me/euromillionsbot&#34;&gt;@EuromillionsBot&lt;/a&gt; para comprobar los resultados o recibir la notificación cuano haya unos nuevos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Compartir archivos o fotografias con otros usuarios para que estos puedan acceder a los mismos mediante una descarga directa en el explorador es tan sencillo como enviarselo a &lt;a href=&#34;https://telegram.me/uploadsbot&#34;&gt;@UploadsBot&lt;/a&gt; o &lt;a href=&#34;https://telegram.me/tlgurbot&#34;&gt;tlgurbot&lt;/a&gt; y cualquiera de los dos te devolverán un enlace para la descarga del archivo.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bueno, creo que no me dejo nada, aunque Telegram tiene cientos de posibilidades más gracias a sus bots, las de la lista anterior son las que utilizo diariamente.&lt;/p&gt;
-</description>
+      <description>¿Conoces Telegram? Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es Telegram.
+La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos.</description>
     </item>
     
     <item>
@@ -571,22 +136,9 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/como-he-ganado-100-sin-quererlo/</guid>
-      <description>&lt;p&gt;Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.&lt;/p&gt;
-
-&lt;p&gt;Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.&lt;/p&gt;
-
-&lt;p&gt;Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta. Resumiendo, una subcontrata de una aseguradora que me quiere vender un seguro.&lt;/p&gt;
-
-&lt;p&gt;En condiciones normales les hubiera dicho que no me interesa pero hoy no es así, me puedo permitir el lujo de escuchar &amp;ldquo;el sermón&amp;rdquo; mientras sigo haciendo los trabajos de bricolaje y además mi seguro de automóvil se renueva el mes próximo y no esta de más escuchar ofertas.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, después de unos minutos de recopilación y actualización de datos personales, la señorita me da una cifra. No voy a entrar en nombres de compañías ni cantidades exactas, simplemente un resumen, el seguro que me ofrecen con las mismas coberturas y características equivalentes resulta 100€ más barato que el que ahora poseo.&lt;/p&gt;
-
-&lt;p&gt;Llegados a este punto dejo el destornillador y los cables a un lado y me centro en el cambio de compañía aseguradora. Por suerte, en mi nube personal tengo guardado el código de cuenta cliente de mi banco por lo que puedo realizar todas las gestiones para dar de alta mi nuevo seguro.&lt;/p&gt;
-
-&lt;p&gt;Pero todavía resta una parte muy importante, dar de baja mi seguro actual. Sin ir a ningún sitio me doy de alta en la web de la aseguradora en cuestión (Más de cinco años con ellos y todavía no lo había hecho) y busco un teléfono de contacto para tramitar la baja ya que de forma online no hay manera. Llamo y me informan de que es necesaria una solicitud por correo ordinario o electrónico adjuntando mis datos personales y de póliza así como una fotocopia del DNI. Los datos de la póliza los obtengo de la web de la aseguradora en la que recientemente me he registrado y el DNI nuevamente de mi nube personal, no tengo ni siquiera que ir a la guantera del coche a buscar los papeles. Redacto y envío el correo electrónico y les llamo otra vez por teléfono para asegurarme de la recepción del mismo y de que no es necesario nada más para la gestión.&lt;/p&gt;
-
-&lt;p&gt;Y ya esta!!! Sorprendentemente no me han puesto ningún problema y he ahorrado 100€ sin moverme del sitio y en menos de una hora.&lt;/p&gt;
-</description>
+      <description>Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.
+Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.
+Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta.</description>
     </item>
     
     <item>
@@ -595,14 +147,10 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/barrancos-del-sur-de-zaragoza/</guid>
-      <description>&lt;p&gt;Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;500px&#34; height=&#34;300px&#34; frameBorder=&#34;0&#34; src=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false&#34;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825&#34;&gt;Ver pantalla completa&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;También puedes descargar el archivo desde &lt;a href=&#34;/files/brrzgz.gpx&#34;&gt;aquí&lt;/a&gt; para abrirlo con con &lt;a href=&#34;https://www.google.es/intl/es_es/earth/download/ge/agree.html&#34;&gt;Google Earth&lt;/a&gt; o tu editor preferido.&lt;/p&gt;
-
-&lt;p&gt;Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉&lt;/p&gt;
-</description>
+      <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
+Ver pantalla completa
+También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
+Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
     </item>
     
     <item>
@@ -615,40 +163,7 @@ thumbnail: &amp;quot;images/20180712_wordpress_hugo.jpg&amp;quot;
 
 &lt;p&gt;En mi vuelta a linux, llevo unos días trabajando en un portátil y todavía no estoy muy acostumbrado a trabajar sobre el teclado con las manos tan juntas. Uno de los problemas con los que me encuentro es que los dedos gordos hay momentos en los que me rozan con el TouchPad y llegan a mover el cursor de posición, pudiendo cambiar el punto de inserción de texto o incluso borrar parte de lo ya escrito. No es un gran problema, pero hay veces que llega a ser molesto por la pérdida de tiempo o incluso información.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;He probado varias soluciones a este problema y voy a exponerlas aquí. Antes de nada, lo que a continuación escribo ten claro que lo he efectuado sobre la versión 18.3 de Linux Mint no garantizo su funcionamiento en otras versiones, distribuciones o plataformas.&lt;/p&gt;
-
-&lt;h3 id=&#34;solución-1-8211-desactivar-el-panel-mientras-se-escribe&#34;&gt;Solución 1 &amp;#8211; Desactivar el panel mientras se escribe&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_1.jpg&#34; alt=&#34;Desactivar panel LMint&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La primera solución que se me pone delante es la deshabilitación temporal del TouchPad mientras se esté escribiendo. El tiempo de deshabilitación es personalizable tal y como se puede ver en la imagen superior. He probado con un tiempo de 2 segundos y la verdad es que el resultado es bastante bueno y creo que esta es la mejor solución para mantener activo el panel pero sin que moleste mientras se escribe.&lt;/p&gt;
-
-&lt;h3 id=&#34;solución-2-8211-desactivar-el-panel-y-trabajar-con-ratón&#34;&gt;Solución 2 &amp;#8211; Desactivar el panel y trabajar con ratón.&lt;/h3&gt;
-
-&lt;p&gt;Personalmente, prefiero trabajar con el ratón que con el panel táctil, me parece más cómodo y preciso aunque tiene el problema de que tienes que cargar con un aparato más. Por esto he probado con esta segunda alternativa que pasa por desactivar el TouchPad desde el menú &amp;#8220;Ratón y panel táctil&amp;#8221;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_2.jpg&#34; alt=&#34;Desactivar panel LMint&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La solución es perfectamente válida, pero presenta un pequeño problema y es que si no conectas el ratón el panel sigue deshabilitado y no hay forma de mover el cursor. Aunque es posible reactivar el panel mediante el uso del teclado, es un poco incómodo si te ocurre a menudo.&lt;/p&gt;
-
-&lt;h3 id=&#34;solución-3-8211-touchpad-indicator&#34;&gt;Solución 3 &amp;#8211; Touchpad Indicator&lt;/h3&gt;
-
-&lt;p&gt;Esta tercera, y de momento última solución pasa por instalar &lt;a href=&#34;https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/&#34;&gt;&amp;#8220;Touchpad Indicator&amp;#8221;&lt;/a&gt;. Este software ya advierte el autor de que lleva tiempo sin actualizarse, pero a día de hoy es perfectamente válido y funcional, con apenas tres líneas de código y menos de 2mb podemos instalarlo.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:atareao/atareao
-sudo apt-get update
-sudo apt-get install touchpad-indicator
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;y al mismo tiempo dar un repaso al blog de &lt;a href=&#34;https://www.atareao.es/&#34;&gt;El atareao&lt;/a&gt; donde puedes encontrar infinidad de soluciones para linux. Cuando esté instalado, lo arrancamos y aparecerá junto a los iconos de la barra de inicio. Click y abrimos las preferencias.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_3.jpg&#34; alt=&#34;Preferencias Touchpad Indicator&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No voy a explicar todas las características de esta aplicación, ya que su autor las expone perfectamente en el enlace anterior. Solo reseñar la que para el problema de hoy me ha resultado útil y es que al conectar un ratón al ordenador se deshabilita el panel táctil.&lt;/p&gt;
-
-&lt;p&gt;De momento me quedo con esta tercera solución pero no se si será la definitiva. Si tienes alguna otra no dudes en dejar un comentario.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -657,50 +172,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/portatil-viejo-nueva-vida.--mi-vuelta-a-linux/</guid>
-      <description>
-
-&lt;h3 id=&#34;la-joya-de-la-corona&#34;&gt;La joya de la corona&lt;/h3&gt;
-
-&lt;p&gt;Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles. El primero que he cogido es un Packard Bell EasyNote con 2.7Gb de Ram y las siguientes especificaciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180126_easynote_01.jpg&#34; alt=&#34;Especificaciones Packark Bell EasyNote&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si, has leido bien, es un ordenador personal fabricado en 2007 que lo puedes comprar de segunda mano por menos de &lt;a href=&#34;http://www.ebay.es/itm/Portatil-Packard-Bell-EasyNote-Mx52-Amd-Turion-X2-1-6ghz-3Gb-RAM-Ati-X1200-/282591622764&#34;&gt;80€&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180126_easynote_02.jpg&#34; alt=&#34;Packard Bell EasyNote&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Le conecto el cargador, lo enciendo y para mi arranca un fantástico Windows Vista con el que da pena trabajar por la lentitud del mismo.&lt;/p&gt;
-
-&lt;p&gt;Todavía no he probado ningún disco duro SSD y hace un tiempo que voy detrás de hacerlo así que creo que esta puede ser una gran oportunidad. Infinidad de marcas y modelos hacen difícil la decisión, lo único que tengo claro es que tiene que ser de 2.5&amp;#8243; y que no hace falta que sea de más de 120GB (incluso con 60Gb me apaño). Opto por la garantía de una marca conocida comprando este &lt;a href=&#34;https://www.amazon.es/Kingston-SSD-Now-UV400-s%C3%B3lido/dp/B01FJ4UN76/ref=sr_1_8/257-7834010-9926429?ie=UTF8&amp;amp;amp;qid=1517074188&amp;amp;amp;sr=8-8&amp;amp;amp;keywords=ssd&#34;&gt;Kingston&lt;/a&gt; aunque me suponga tener que invertir unos euros de más.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180128_ssd_kingstone_01.jpg&#34; alt=&#34;ssd kingstone 120gb&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Algo de miedo si que hay por que el disco no funcione en un pc tan &amp;#8220;viejo&amp;#8221; pero tengo a Amazon de mi lado para darme un poco de tranquilidad por si tengo que devolverlo. Un par de días, un destornillador y ya estoy listo para la operación&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180128_ssd_easynote_01.jpg&#34; alt=&#34;EasyNote y SSD Kingstone&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sólo hay que quitar la batería, un par de tornillos de la tapa con sus correspondientes pegatinas protectoras, sacar el disco estirando para atrás tirando de la lengüeta y cambiar el soporte al disco ssd para terminar invirtiendo estas operaciones. Complejidad, ninguna, sólo un poco de cuidado de estirar hacia atrás y luego levantar cuando el disco ya está totalmente desconectado.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;y-ahora-8230-que-le-instalo&#34;&gt;Y ahora&amp;#8230; que le instalo?&lt;/h3&gt;
-
-&lt;p&gt;La verdad es que no he perdido mucho tiempo en la toma de esta decisión y aunque se me pasara levemente la instalación de Chromium OS (Que no descarto terminar provándolo en alguna otra antigualla), he oido hablar tanto de las bondades de Linux Mint en lo que se refiere a facilidad de instalación y compatibilidad con la mayoría del hardware que no valoro ninguna otra posibilidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180128_logo_mint_01.jpg&#34; alt=&#34;Logo Linux Mint&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La instalación es coser y cantar siguiendo este detallado &lt;a href=&#34;https://ubunlog.com/instalar-linux-mint-desde-usb/&#34;&gt;tutorial&lt;/a&gt; para instalarlo desde un pendrive usb.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Si en el proceso de instalación pide una contraseña tras apagarse la pantalla, usa &amp;#8220;mint&amp;#8221; y no hagas como yo que lo volví a instalar pensando que había introducido mal la contraseña.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Si has configurado la red wifi antes de realizar el proceso de instalación podrás completar la distribución de Linux con software de terceros que será descargado.&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí, paciencia con los cambios y constancia para intentar hacer lo mismo que hago con Windows y el equipo de sobremesa, iremos informando&amp;#8230;&lt;/p&gt;
-</description>
+      <description>La joya de la corona Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.
+Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles.</description>
     </item>
     
     <item>
@@ -709,27 +182,7 @@ sudo apt-get install touchpad-indicator
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/los-podcast-que-escucho-enero-de-2018/</guid>
-      <description>&lt;p&gt;Hace ya casi dos años que escucho podcast de una forma continuada y aunque no voy a exponer aquí todos los que escucho, si voy a hacer una pequeña clasificación con los más importantes de mi &amp;ldquo;podcather&amp;rdquo;. En esta lista solo incluiré los podcast de los que al menos he escuchado un día entero, es decir, que sumando la duración de todos los &amp;ldquo;episodios&amp;rdquo; al menos he escuchado 24 horas. Están ordenados de mayor a menor tiempo de reproducción.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/feed_fg_f19822_filtro_1.xml&#34;&gt;Vidas en red&lt;/a&gt; -&amp;gt; Converso es uno de los más polifacéticos de mi larga lista de podcasters. Política, actualidad, tecnología, movilidad y algo de linux son algunos de los temas que toca. Un tipo interesante al que merece la pena escuchar. Todo esto y mucho más en su &lt;a href=&#34;http://www.vidasenred.com/&#34;&gt;Isla&lt;/a&gt; que debes añadir a tu lector de feeds.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feedpress.me/daytoday&#34;&gt;Day to day&lt;/a&gt; -&amp;gt; Santiago Pascual nos deleita casi a diario con sus más variopintas historias mientras conduce la furgoneta. Tecnología y circunstancias de la vida cotidiana es lo que podemos escuchar en este podcast. Técnicamente no es de los podcast más avanzados que escucho pero el tío es un gran comunicador.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/podcast-wintablet-info_fg_f1111914_filtro_1.xml&#34;&gt;Wintablet.info&lt;/a&gt; -&amp;gt; Largas tertulias a través de hangout con una periodicidad indeterminada y una serie de &amp;ldquo;sospechosos habibuales&amp;rdquo; que saben de lo que hablan. Windows, Linux, chromebooks y temas de actualidad de software es lo que podemos escuchar en este podcast. Enseñan y divierten a partes iguales.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jmramirez.pro/masqueteclas/feed/&#34;&gt;Masqueteclas&lt;/a&gt; -&amp;gt; Mientras conduce su coche de camino al instituto donde imparte clases, &lt;a href=&#34;https://www.jmramirez.pro&#34;&gt;José Manuel Ramirez&lt;/a&gt; cargado con su Iphone nos comenta casi todas las mañanas temas tecnológicos de una forma breve y concisa. Nas, Workflow, apple y un sinfín de &amp;ldquo;chuches tecnológicas&amp;rdquo; son solo una muestra de lo que se puede escuchar en este podcast.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fernan.com.es/podcast/feed/&#34;&gt;WordPress Diario&lt;/a&gt; -&amp;gt; Desde esta ventana, &lt;a href=&#34;https://www.fernan.com.es/&#34;&gt;Fernan Diez&lt;/a&gt; nos cuenta todos los entresijos de WordPress a diario, bueno, de lunes a viernes. WordPress, diseño web, plugins y markering online son los aspectos fundamentales que se tocan en este podcast. Técnicamente es fácil de seguir y te ayuda a aprender y descubrir nuevas formas de trabajar con WordPress. Una forma de vender su contenido y servicios de la que nos podemos aprovechar.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/predicneitor-geek_fg_f1165758_filtro_1.xml&#34;&gt;Predicneitor Geek&lt;/a&gt; -&amp;gt; Básicamente hace &amp;ldquo;reviews&amp;rdquo; de smartphones aunque a veces toca otros temas. Un chico joven que se define como &amp;ldquo;Geek&amp;rdquo;. Aunque ahora apenas lo escucho todavía permanece en mi lista de los más escuchados.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://podcast.mixx.io/index.rss&#34;&gt;Mixx.io&lt;/a&gt; -&amp;gt; En este podcast de actualidad tecnológica, &lt;a href=&#34;https://www.mixx.io&#34;&gt;Alex Barredo&lt;/a&gt; (Redactor de la Vanguardia) nos hace un breve resumen diario de todo lo que acontece en el mundo de la tecnología. Unos minutos muy bien aprovechados y estructurados por parte de un gran profesional.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://potencia.pro/feed/podcast&#34;&gt;Potencia Pro&lt;/a&gt; -&amp;gt; Menuda pareja, Miguel Angel Terrón y Flavia Bernardez hacen este podcast de frecuencia indeterminada sobre el mundo WordPress. Ambos trabajan para Joan Boluda por lo que saben de lo que están hablando. Puede que no se aprenda mucho desde el punto de vista técnico, pero la verdad es que resulta muy entretenido.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/salmorejo-geek_fg_f1206500_filtro_1.xml&#34;&gt;Salmorejo Geek&lt;/a&gt; -&amp;gt; Un tipo cachondo este Yoyo Fernandez que, después de conducir su tractor nos habla sobre tecnología y el mundo linux. Tiene varios podcasts pero en este saca su faceta más técnica hablando de distribuciones Linux y actualidad tecnológica.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jmramirez.pro/culturanas/feed/&#34;&gt;Cultura Nas&lt;/a&gt; -&amp;gt; Si quieres o tienes un Nas no puedes dejar de escuchar este podcast. &lt;a href=&#34;https://www.jmramirez.pro&#34;&gt;José Manuel Ramirez&lt;/a&gt;, el profesor de instituto de Masqueteclas, y &lt;a href=&#34;https://www.qloudea.com&#34;&gt;David Aragón&lt;/a&gt;, comunnity manager en Qloudea, hablan única y exclusivamente sobre servidores Nas, actualidad, novedades, modos de funcionamiento y resolución de preguntas. Cada vez les cuesta más tiempo grabar, pero es uno de mis obligatorios para escuchar.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feedpress.me/hablogeek&#34;&gt;Hablo Geek&lt;/a&gt; -&amp;gt; Más que un podcast, casi es una enciclopedia en formato de audio. Con la escusa de practicar el castellano, &lt;a href=&#34;https://hatoum.com/&#34;&gt;Federico Hatoum&lt;/a&gt; se prepara un par de temas tecnológicos al mes y los expone con total claridad, muchas veces acompañado de un invitado. Aunque no trate todos los temas con mucha profundidad, este podcast es perfecto para aprender &amp;ldquo;de todo un poco&amp;rdquo;. Me encanta¡¡¡&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feeds.feedburner.com/ugeek&#34;&gt;UGeek&lt;/a&gt; -&amp;gt; Un podcast para escuchar con tranquilidad y del que se puede aprender mucho. &lt;a href=&#34;https://ugeek.github.io/&#34;&gt;Angel&lt;/a&gt; es un tío &amp;ldquo;templao&amp;rdquo; que nos habla de GNU-Linux, servidores, Raspberry Pi y muchos más temas tecnológicamente interesantes sin miedo a la consola de comandos. Tiene unas rachas de mayor publicación que otras, pero merece la pena esperar, nunca defrauda.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/podcast-reality-cracking_fg_f159955_filtro_1.xml&#34;&gt;Reality Cracking&lt;/a&gt; -&amp;gt; Mhyst es simplemente un pensador, toca infinidad de temas sin dar nada por supuesto y iendo siempre mucho más allá de la versión oficial. Ahora hace un tiempo que no publica, se ha dado un descanso y espero que vuelva. Si no lo has escuchado tienes oportunidad de hacerlo en la infinidad de podcast atemporales que tiene en su canal.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.spreaker.com/show/1388485/episodes/feed&#34;&gt;La Tecnología para todos&lt;/a&gt; -&amp;gt; En este podcast de caracter formativo y divulgativo, &lt;a href=&#34;https://programarfacil.com/&#34;&gt;Luis del Valle&lt;/a&gt; nos habla sobre todo lo relaccionado con el mundo maker. Arduino, programación, IoT, Raspberry Pi y mucho más es lo que aquí puedes escuchar. Es muy dificil abarcar todo que aquí se trata, pero un episodio cada quincena se puede seguir.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y aquí acaba la lista por ahora, dentro de un tiempo volveré a realizarla añadiendo nuevos podcast.&lt;/p&gt;
-</description>
+      <description>Hace ya casi dos años que escucho podcast de una forma continuada y aunque no voy a exponer aquí todos los que escucho, si voy a hacer una pequeña clasificación con los más importantes de mi &amp;ldquo;podcather&amp;rdquo;. En esta lista solo incluiré los podcast de los que al menos he escuchado un día entero, es decir, que sumando la duración de todos los &amp;ldquo;episodios&amp;rdquo; al menos he escuchado 24 horas. Están ordenados de mayor a menor tiempo de reproducción.</description>
     </item>
     
     <item>
@@ -738,39 +191,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</guid>
-      <description>&lt;p&gt;Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.&lt;/p&gt;
-
-&lt;p&gt;El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.&lt;/p&gt;
-
-&lt;p&gt;Poco más adelante compruebo que al hacer el contrapedal con los piñones pequeños a la piñonera le cuesta girar al revés y va como a trompicones. Paro un momento a ver que puede ser el origen de este comportamiento anómalo y veo que hay entre la roldana inferior y la pata del cambio unas hierbas que pueden comprometer su correcto funcionamiento. Hace dos años ya tuve un &lt;a href=&#34;/avería-de-las-roldanas-del-cambio/&#34;&gt;problema similar&lt;/a&gt; con una de las rulinas por lo que autoconvenzo rápidamente de que el problema puede venir por ahí.&lt;/p&gt;
-
-&lt;p&gt;Unos kilómetros más adelante el problema se amplifica apareciendo un ruido extraño a vuelta de rueda cuando dejo de pedalear. Parece que la culpa no va a ser de las roldanas y empiezo a pensar que puede haber algún problema con el núcleo de la rueda trasera similar a &lt;a href=&#34;/avería-en-el-núcleo-shimano-fh-m475/&#34;&gt;esto que me ocurrió&lt;/a&gt; hace ya casi cinco años.&lt;/p&gt;
-
-&lt;p&gt;Poco tarda en terminar de complicarse el problema y me encuentro con que no puedo dejar de dar pedales ya que en el momento que lo hago la piñonera sigue girando y hace que se salga la cadena del plato con el consiguiente riesgo de que se enrede en el buje, la biela, la pata del cambio o la rueda y provoque una avería mayor o incluso una caída.&lt;/p&gt;
-
-&lt;p&gt;Pues nada toca volver a casa sin parar de darle a los pedales, con piñones grandes y frenando en las bajadas. Mientras se pasan muchas cosas por la cabeza:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bastará con desmontar el buje y el núcleo, limpiarlo y engrasarlo?&lt;/li&gt;
-&lt;li&gt;¿Se habrá roto el buje o solo el núcleo?&lt;/li&gt;
-&lt;li&gt;La rueda todavía no tiene dos años. ¿Lo cubrirá la garantía?&lt;/li&gt;
-&lt;li&gt;¿Que hago, la llevo a la tienda donde la compré o intento apañarla yo mismo?&lt;/li&gt;
-&lt;li&gt;¿Como se ha podido romper si no lleva la rueda 2000 kilómetros?&lt;/li&gt;
-&lt;li&gt;¿Será por que dedico al mantenimiento de la bici menos tiempo que antes?&lt;/li&gt;
-&lt;li&gt;¿Será por que el casete 11-46 hace trabajar demasiado al buje y el núcleo&lt;/li&gt;
-&lt;li&gt;¿Le monto un 11-42 la próxima vez para evitar que vuelva a ocurrir?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;En fin, todas estas dudas y seguro que alguna más que ahora no me acuerdo, me asaltan los menos de diez kilómetros de vuelta a casa. Cuando ya estoy llegando miro hacia un lado y al ver la sombra que produce la bicicleta algo me llama la atención. El plástico que proteje los radios de la rueda trasera de los descuelgues de cadena desde el piñón grande está anormalmente descentrado. Apoyo la bicicleta en la puerta del garaje miro el plástico protector y&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20171231_plastico_cassete_01.jpg&#34; alt=&#34;cassete&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pues si, la avería más tonta que hasta la fecha me ha ocurrido. No se si se aprecia bien en la imagen pero el problema es sencillo, una de las patillas que fija el plástico protector a los radios tiene la pestaña rota, se ha movido y se ha colocado por delante de los radios. De esta forma, los radios están siendo forzados contra la araña por parte del plástico. El problema es sencillo y la solución también.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20171231_plastico_cassete_03.jpg&#34; alt=&#34;cassete&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Puesto que el plástico ya está roto no voy a perder tiempo en desmontar la rueda y el cassete para sacarlo.&lt;/p&gt;
-</description>
+      <description>Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.
+El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.</description>
     </item>
     
     <item>
@@ -779,28 +201,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
-      <description>&lt;p&gt;Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes. Estas alternativas están ordenadas de mayor a menor rapidez y de menor a mayor efectividad, es decir, la primera es la más rápida pero no siempre funciona y la última no falla nunca pero es mas laboriosa.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Lo primero que intento es comprobar la existencia del favicon en la ruta predeterminada &amp;ldquo;&lt;a href=&#34;http://www.midominio.con/favicon.ico&amp;quot;&#34;&gt;http://www.midominio.con/favicon.ico&amp;quot;&lt;/a&gt; y si existe introduzco esta ruta en la casilla de importación del gestor de contraseñas. Algunas veces la importación directa no funciona y lo que hago es descargar el icono a mi pc para luego importarlo en el gestor de contraseñas.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cuando el favicon no se encuentra en la ruta predeterminada, lo que hago es usar un servicio de terceros para descargarlo o importarlo directamente al gestor. Existen varios servicios en la red gracias a los cuales se puede descargar el icono correspondiente a un dominio. Personalmente utilizo de forma indistinta cualquiera de los dos primeros y me quedo con el que primero me da un resultado.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/s2/favicons?domain=www.dominio.com&#34;&gt;https://www.google.com/s2/favicons?domain=www.dominio.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://api.statvoo.com/favicon/?url=www.dominio.com&#34;&gt;https://api.statvoo.com/favicon/?url=www.dominio.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://grabicon.com/icon?domain=www.dominio.com&#34;&gt;http://grabicon.com/icon?domain=www.dominio.com&lt;/a&gt; (necesario registro)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Cuando todo lo anterior falla hay que recurrir al buscador de imágenes de Google, bien para buscar el icono directamente (mucha suerte hay que tener) o para descargar una imagen que luego convierto a icono mediante el servicio online &lt;a href=&#34;http://icoconvert.com&#34;&gt;icoconvert&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hasta ahora con estos tres métodos he tenido suficiente pero si los tres fallan siempre se puede hacer una captura de pantalla de la web deseada y convertir su logo o imagen de cabecera en un icono con la aplicación que ha usado en el punto anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;
+El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes.</description>
     </item>
     
     <item>
@@ -809,25 +211,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/de-google-earth-a-mapa-para-garmin-en-5-minutos/</guid>
-      <description>&lt;p&gt;Desde hace muchos años, utilizo &lt;a href=&#34;http://www.elgps.com/foroGPS/viewtopic.php?f=41&amp;amp;t=8646&#34;&gt;Topohispania&lt;/a&gt; para la navegación en bicicleta con el Garmin Edge.&lt;/p&gt;
-
-&lt;p&gt;Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es &lt;a href=&#34;http://www.foromtb.com/threads/paso-a-paso-crear-un-mapa-para-superponerlo-al-topohispania.888466/&#34;&gt;esto&lt;/a&gt;, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.&lt;/p&gt;
-
-&lt;p&gt;Busco un poco más y doy con la web &lt;a href=&#34;http://www.javawa.nl&#34;&gt;javawa&lt;/a&gt; que ofrece todo lo necesario con sólo seguir unos pocos pasos.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dibujar el/los track en Google Earth (si son varios usar una carpeta)&lt;/li&gt;
-&lt;li&gt;Guardar lugar como&amp;#8230;(la ruta o la carpeta con varias) usando la extensión kml&lt;/li&gt;
-&lt;li&gt;Usar &lt;a href=&#34;http://gpsvisualizer&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.gpsvisualizer.com&#34;&gt;http://www.gpsvisualizer.com&lt;/a&gt;&lt;/a&gt; para convertir el archivo *.kml a *.gpx&lt;/li&gt;
-&lt;li&gt;Abrir IMGFromGPX (Se puede descargar desde &lt;a href=&#34;http://www.javawa.nl/imgfromgpx_en.html&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Arrastrar el archivo *.gpx a la ventana de IMGFromGPX&lt;/li&gt;
-&lt;li&gt;Seleccionar color y formato para la línea y nombre para el mapa&lt;/li&gt;
-&lt;li&gt;Crear mapa (Seleccionar la opción &amp;ldquo;Include creation of gmapsupp.img file&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;Copiar el archivo gmapsupp.img al directorio raiz del gps (Atención, no sobreescribir)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y ya está, que habíamos quedado que esto se hacía en cinco minutos¡¡¡&lt;/p&gt;
-</description>
+      <description>Desde hace muchos años, utilizo Topohispania para la navegación en bicicleta con el Garmin Edge.
+Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es esto, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.</description>
     </item>
     
     <item>
@@ -836,14 +221,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
-      <description>&lt;p&gt;Hace unos días que publiqué el &lt;a href=&#34;/copia-de-seguridad-de-la-base-de-datos-de-wordpress/&#34;&gt;modo&lt;/a&gt; en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el &lt;a href=&#34;https://es.wordpress.org/plugins/wp-db-backup&#34;&gt;plugin&lt;/a&gt; para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.&lt;/p&gt;
-
-&lt;p&gt;Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.&lt;/p&gt;
-
-&lt;p&gt;La solución es simple, sólo hace falta habilitar la extensión &amp;ldquo;zip&amp;rdquo; de la configuración de php del Synology WebStation tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;![error_db][1]&lt;/p&gt;
-</description>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
     </item>
     
     <item>
@@ -852,34 +231,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/openstreetsmap-en-gps-garmin/</guid>
-      <description>&lt;p&gt;Para el que no lo conozca, &lt;a href=&#34;https://www.openstreetmap.org&#34;&gt;OpenStreetMap&lt;/a&gt; (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante &lt;a href=&#34;http://garmin.openstreetmap.nl&#34;&gt;esta&lt;/a&gt; web.&lt;/p&gt;
-
-&lt;p&gt;El proceso para la descarga es sencillo:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Seleccionas el tipo de mapa (Recomiendo Generic Routable (new style))&lt;/li&gt;
-&lt;li&gt;Seleccionas el pais&lt;/li&gt;
-&lt;li&gt;Descargas el mapa&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si quieres, es posible la personalización de las zonas de covertura del mapa mediante la habilitación de la selección manual y seleccionando las zonas que deseeamos para nuestro mapa, dejamos nuestra dirección de correo y la web nos enviará un mensaje con un link para descargar el mapa.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Las ventajas de estos mapas están más que claras. Son unos mapas gratuitos y de libre distribución. Además hay una gran comunidad detrás de la actualizaciones e incluso uno mismo puede realizar modificaciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero no todo son buenas noticias, después de unos meses utilizándolos en mi experimentado edge 605 he terminado desinstalandolos por dos importantes razones. Por un lado, en las zonas rurales son muchos los caminos que no aparecen reflejados en la cartografía. Por otro lado, para ver dibujados los caminos hay que poner un nivel de zoom alto, en el momento que amplias al área de visualización desaparecen los caminos y ya solo puedes ver carreteras.&lt;/p&gt;
-
-&lt;p&gt;Con todo, recomiendo probarlos para que cada uno pueda sacar sus propias conclusiones e incluso dejar comentarios.&lt;/p&gt;
-</description>
+      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
+Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
     </item>
     
     <item>
@@ -888,22 +241,7 @@ sudo apt-get install touchpad-indicator
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/deshabilitar-cache-en-chrome/</guid>
-      <description>&lt;p&gt;Segun un artículo de &lt;a href=&#34;http://acceso-directo.com/todo-lo-que-necesitas-saber-sobre-el-cache-del-navegador/&#34;&gt;Acceso Directo&lt;/a&gt;, la cache del navegador se entiende como &amp;ldquo;un lugar de almacenamiento temporal que se encuentra en la computadora y que guarda archivos que han sido descargados por el navegador para mostrar sitios. Dentro de estos archivos se encuentran aquellos documentos necesarios para la visualización de un sitio como archivos html, hojas de estilo de CSS, sripts de JavaScript, gráficos, imágenes y contenido multimedia en general&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Sin duda ganamos velocidad y reducimos el tráfico de datos pero puede llegar a ser un profundo dolor de cabeza cuando estamos desarrollando una web ya que una simple recarga de la página puede llegar a no mostrarnos los cambios que estamos realizando. En Chrome podemos evitar esta cache mientras estamos modificando la web de una forma muy sencilla con solo tres pasos.&lt;/p&gt;
-
-&lt;p&gt;1.- Abrimos en una pestaña la web que queremos visualizar sin cache&lt;/p&gt;
-
-&lt;p&gt;2.- Pulsamos &amp;ldquo;Ctrl+May+I&amp;rdquo; para acceder al modo de desarrollador.&lt;/p&gt;
-
-&lt;p&gt;3.- Pulsamos &amp;ldquo;F1&amp;rdquo; para acceder a los ajustes.&lt;/p&gt;
-
-&lt;p&gt;4.- En el apartado &amp;ldquo;Network&amp;rdquo; marcamos la opción &amp;ldquo;Disable cache (while DevTools is open)&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170411_cache_01.jpg&#34; alt=&#34;cache&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí, el navegador no tendrá en cuenta la caché almacenada de una web mientras tengamos abierto el modo de desarrollador.&lt;/p&gt;
-</description>
+      <description>Segun un artículo de Acceso Directo, la cache del navegador se entiende como &amp;ldquo;un lugar de almacenamiento temporal que se encuentra en la computadora y que guarda archivos que han sido descargados por el navegador para mostrar sitios. Dentro de estos archivos se encuentran aquellos documentos necesarios para la visualización de un sitio como archivos html, hojas de estilo de CSS, sripts de JavaScript, gráficos, imágenes y contenido multimedia en general&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -912,95 +250,8 @@ sudo apt-get install touchpad-indicator
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
-      <description>&lt;p&gt;Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.&lt;/p&gt;
-
-&lt;p&gt;El plugin de WordPress &lt;a href=&#34; https://es.wordpress.org/plugins/wp-db-backup/&#34;&gt;WP-DB-Backup&lt;/a&gt; es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos. La configuración es muy sencilla, una vez que el plugin está instalado y activo vamos al menú &amp;ldquo;Herramientas - Copia de respaldo&amp;rdquo; del escritorio de WordPress y bajamos hasta la opción &amp;ldquo;Respaldo Programado&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_db_backup_01.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Seleccionamos la frecuencia del respaldo y las tablas adicionales a respaldar, introducimos la dirección de correo a la que vamos a enviar el respaldo y pulsamos el botón &amp;ldquo;Respaldo Programado&amp;rdquo; para guardar la configuración.&lt;/p&gt;
-
-&lt;p&gt;A continuación vamos a crear un programa dentro de Google Apps Script que nos guardará el archivo adjunto en una carpeta de nuestra unidad de Google Drive y borrará el correo electrónico.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;// Declaración de variables
-var ahora = new Date();
-var correos = GmailApp.search(&amp;quot;subject:(*SherBlog Copia de seguridad de la base de datos*) has:attachment&amp;quot;);
-var carpeta = DriveApp.searchFolders(&amp;quot;title contains &#39;sherblog_db_backups&#39;&amp;quot;).next();
-var archivos = new Array();
- 
-// Matrices para distintos rangos de antiguedad 10-20-40-80-160 
-var d10 = new Array();
-var d20 = new Array();
-var d40 = new Array();
-var d80 = new Array();
-var d160 = new Array();
- 
-function backup_db() {
-  
-  // Guardar los archivos adjuntos y borra los correos
-  for (var x=0; x&amp;lt;correos.length; x++) {
-    var mensaje = correos[x].getMessages()[0];
-    var adjuntos = mensaje.getAttachments();
-    carpeta.createFile(adjuntos[0]);
-    correos[x].moveToTrash();
-  }
-                 
-  // Genera matriz con los archivos ya existentes en carpeta
-  archivos = carpeta.getFiles();
-  
-  while (archivos.hasNext()) {
-    archivo = archivos.next();
-    // Asigna cada archivo al rango de antiguedad y borra los obsoletos
-    if(dias(archivo)&amp;gt;5 &amp;amp;&amp;amp; dias(archivo)&amp;lt;11){d10.push(archivo)};
-    if(dias(archivo)&amp;gt;10 &amp;amp;&amp;amp; dias(archivo)&amp;lt;21){d20.push(archivo)};
-    if(dias(archivo)&amp;gt;20 &amp;amp;&amp;amp; dias(archivo)&amp;lt;41){d40.push(archivo)};
-    if(dias(archivo)&amp;gt;40 &amp;amp;&amp;amp; dias(archivo)&amp;lt;81){d80.push(archivo)};
-    if(dias(archivo)&amp;gt;80 &amp;amp;&amp;amp; dias(archivo)&amp;lt;161){d160.push(archivo)};
-    if(dias(archivo)&amp;gt;160){archivo.setTrashed(true)};
-  }
-               
-  // Borrar los archivos recientes de cada rango
-  limpiar(d10);
-  limpiar(d20);
-  limpiar(d40);
-  limpiar(d80);
-  limpiar(d160); 
-}
- 
-// función para contar los días de antiguedad de un archivo
-function dias(archiv){
-  return(Math.round((ahora - archiv.getLastUpdated())/1000/60/60/24));
-}
- 
-// Función para eliminar los archivos mas recientes de una matriz
-function limpiar(matriz){
-  while (matriz.length&amp;gt;1){
-    if(dias(matriz[0])&amp;gt;dias(matriz[1])){
-      matriz[1].setTrashed(true);  //Elimina el archivo más reciente
-      matriz.splice(1,1);  //Elimina la entrada de la matriz correspondiente al archivo borrado
-    }else{
-      matriz[0].setTrashed(true);
-      matriz.splice(0,1);
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Con esto ya tenemos guardada en nuestra unidad de Google Drive una copia de seguridad de la base de datos de WordPress de la web.&lt;/p&gt;
-
-&lt;p&gt;Para el tema del guardado de versiones he optado por un sistema tan simple como efectivo, tal y como se puede ver en el código se guardan los siguientes archivos.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un archivo por cada uno de los cinco últimos días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 5 y 10 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 10 y 20 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 20 y 40 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 40 y 80 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 80 y 160 días&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y con esto creo que tengo más que suficiente para cubrir mis necesidades ocupando un espacio limitado.&lt;/p&gt;
-</description>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
+El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
     </item>
     
     <item>
@@ -1009,38 +260,8 @@ function limpiar(matriz){
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</guid>
-      <description>&lt;p&gt;Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.&lt;/p&gt;
-
-&lt;p&gt;Para todo esto utilizo &lt;a href=&#34;http://www.faststone.org/FSCaptureDetail.htm&#34;&gt;Faststone Capture&lt;/a&gt; en su versión portable que puedes descargar desde &lt;a href=&#34;http://www.faststone.org/FSCapturerDownload.htm&#34;&gt;aquí&lt;/a&gt;. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes. Si, la aplicación no es gratis pero puedes probar una versión de 30 días completamente funcional para ver si te interesa desembolsar los 20$. También puedes encontrar una medicina &lt;a href=&#34;https://www.crackhex.ch/topic/1630-faststone-capture-84-serial-keygen/&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El programa consta en principio de una pequeña barra flotante tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_01.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No voy a describir todas las opciones que tiene el programa ya que para eso ya está la &lt;a href=&#34;http://www.faststone.org/FSCaptureDetail.htm&#34;&gt;web del creador&lt;/a&gt;. Simplemente mostrar como yo lo utilizo cuando necesito una captura de pantalla o redimensionar una imagen para incrustar en un artículo.&lt;/p&gt;
-
-&lt;p&gt;En caso de tener que redimensionar una imagen es tan simple como arrastrarla desde el explorador de archivos hasta la barra flotante de Faststone y se abrirá un pequeño editor de imágenes donde podemos recortar, redimendionar y guardar la imagen ajustándola a nuestras necesidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_02.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si lo que necesitamos es una captura de pantalla, Faststone nos ofrece varias opciones de hacerlo, por ventana, por area&amp;hellip; y después varias destinos para la captura realizada. Personalmente utilizo el editor como destino para ajustar el tamaño de la imagen y renombrarla adecuadamente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_03.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A la hora de renombrar las imágenes resulta interesante utilizar un método para que luego la biblioteca no sea un caos. Personalmente yo utilizo el formato fecha_identificación_número&amp;rdquo; de forma que los nombres de las imágenes de este post serán del tipo: 20170330_faststone_01.jpg&lt;/p&gt;
-
-&lt;p&gt;Una vez que tenemos listas todas las imágenes ya las podemos importar desde nuestro ordenador hasta la biblioteca de medios de WordPress en nuestro servidor mediante el menú del escritorio de WordPress &amp;ldquo;Medios - Añadir nuevo&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_04.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finalmente ya sólo resta incrustar las imágenes en el post, si utilizamos el código que automáticamente nos genera WordPress desde la biblioteca, en el post nos aparecerá algo como lo siguiente:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_05.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Prefiero utilizar rutas relativas por si hay que realizar alguna migración y puesto que la imagen ya está redimensionada a nuestras necesidades no es necesario especificar ancho y alto. Para la alineación utilizo etiquetas html externas de forma que el código para incrustar una imagen en mis post queda así.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_06.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.
+Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes.</description>
     </item>
     
     <item>
@@ -1049,35 +270,8 @@ function limpiar(matriz){
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
-      <description>&lt;p&gt;Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.&lt;/p&gt;
-
-&lt;p&gt;Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación.  Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170322_another_instance_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No hace falta ser un erudito en la lengua de Shakespeare para darse cuenta de que el problema es que hay otra instancia del mismo programa que se está intentando cerrar actualemnte (o eso es lo que piensa el sistema operativo).  Abro el administrador de tareas y&amp;#8230; nada, no se está ejecutando otra versión de Google Earth así que opto por la principal solución en informática, reiniciar¡¡¡&lt;/p&gt;
-
-&lt;p&gt;El reinicio no produce ninguna diferencia sustancial y al volver a arrancar windows e intentar lanzar el programa el error persiste por lo cual toca buscar un poco por la red.&lt;/p&gt;
-
-&lt;p&gt;Aunque el encontrar una solución me lleva un tiempo resulta un éxito, ya que funciona perfectamente el primer remedio que encuentro. Dentro de la carpeta &amp;ldquo;Data&amp;rdquo; podemos encontrar un archivo de congiguración con el nombre &amp;ldquo;PortableApps.comLauncherRuntimeData-GoogleEarthPortable&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170322_another_instance_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si abrimos con el bloc de notas o cualquier editor de texto el archivo podremos ver algo como lo siguiente:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;padding-left: 30px;&amp;quot;&amp;gt;
-  &amp;lt;code&amp;gt;&amp;lt;br/&amp;gt;
-[PortableApps.comLauncher]&amp;lt;br/&amp;gt;
-Status=stopping&amp;lt;br/&amp;gt;
-PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
-[FailedRegistryKeys]&amp;lt;br/&amp;gt;
--=true&amp;lt;br/&amp;gt;
-&amp;lt;/code&amp;gt;
-&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pues bien, la solución a nuestro problema pasa por cambiar en la segunda línea la palabra &amp;ldquo;stopping&amp;rdquo;por &amp;ldquo;stopped&amp;rdquo;, guardar los cambios y nuestra aplicación portable ya se podrá ejecutar sin ningún problema.&lt;/p&gt;
-</description>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
     <item>
@@ -1086,20 +280,8 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/descarga-fallida.-no-working-transports-found/</guid>
-      <description>&lt;p&gt;Después de la instalación de WordPress en el servidor Synology al intentar actualizar los temas o los plugins me encuentro con el siguiente error.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de que la solución es bastante sencilla y basta con habilitar la extensión &amp;ldquo;Curl&amp;rdquo; dentro de la configuración de php de la aplicación Web Station tal y como se puede ver en la siguiente captura de pantalla.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aplicamos los cambios, probamos de nuevo a actualizar el tema, sin reinicio de la aplicación, del servidor ni nada y&amp;hellip; ya funciona¡¡¡&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Que todos los problemas sean como este.&lt;/p&gt;
-</description>
+      <description>Después de la instalación de WordPress en el servidor Synology al intentar actualizar los temas o los plugins me encuentro con el siguiente error.
+Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de que la solución es bastante sencilla y basta con habilitar la extensión &amp;ldquo;Curl&amp;rdquo; dentro de la configuración de php de la aplicación Web Station tal y como se puede ver en la siguiente captura de pantalla.</description>
     </item>
     
     <item>
@@ -1108,86 +290,8 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
-      <description>&lt;p&gt;Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este &lt;a href=&#34;https://www.jmramirez.pro/tutorial/web-en-un-synology-con-wordpress/&#34;&gt;tutorial&lt;/a&gt;, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.&lt;/p&gt;
-
-&lt;p&gt;Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos. Tras instalar &amp;ldquo;Web Station&amp;rdquo; seleccionaremos Apache como servidor y la versión de php. Para &amp;ldquo;Maria Db&amp;rdquo; es muy importante generar una contraseña para el usuario root después de instalarlo. Con esto ya podemos iniciar la instalación propia de WordPress.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;¡¡¡Es importante hacer los pasos según indico a continuación y olvídate de acceder o editar el contenido del NAS desde el explorador del pc en lugar de hacerlo desde el entorno de DSM para no tener problemas con los permisos.¡¡¡&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Accedemos a la &lt;a href=&#34;https://es.wordpress.org/&#34;&gt;web en castellano de WordPress&lt;/a&gt; y copiamos la dirección del enlace de la descarga de la última versión.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abrimos Download Station desde DSM y añadimos una nueva descarga con la dirección que hemos copiado.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Extraemos el contenido del archivo descargado en la la carpeta compartida &amp;ldquo;web&amp;rdquo; que se ha creado en el raiz.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Renombramos la carpeta, en este caso le he puesto el nombre &amp;ldquo;tuto&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ya podemos acceder a la instalación web de WordPress para lo cual en el navegador introduciremos la ip del Nas seguido de la carpeta de wordpress. En este caso introduciré &lt;a href=&#34;http://192.168.1.200/tuto&#34;&gt;http://192.168.1.200/tuto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_05.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abrimos PhpMyAdmin desde otra pestaña del navegador (&lt;a href=&#34;http://192.168.1.200/phpMyAdmin/&#34;&gt;http://192.168.1.200/phpMyAdmin/&lt;/a&gt; ojo con las mayúsculas) y accedemos con el usuario root y la contraseña que hemos cambiado en Maria Db con anterioridad. Accedemos al menú &amp;ldquo;Cuentas de Usuarios&amp;rdquo; y clickamos en &amp;ldquo;Agregar cuenta de usuario&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_06.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Introducimos en nombre para el usuario y la contraseña (en nuestro caso he utilizado &amp;ldquo;tuto&amp;rdquo; como usuario y &amp;ldquo;tuto123&amp;rdquo; como pass, pero no tiene por que coincidir con el nombre de la carpeta donde hemos descomprimido la instalación de WordPress, aunque simplifica bastante) y rellenamos el cuadro &amp;ldquo;Crear base de datos con el mismo nombre y otorgar todos los privilegios&amp;rdquo;. Pinchamos en el botón &amp;ldquo;Continuar&amp;rdquo; y si todo ha ido bien nos aparecerá en la parte superior un cuadro como este.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_07.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ya podemos cerrar la pestaña del navegador de phpMyAdmin y volver a &lt;a href=&#34;http://192.168.1.200/tuto&#34;&gt;http://192.168.1.200/tuto&lt;/a&gt; para pinchar en el botón &amp;ldquo;¡Vamos a ello¡&amp;rdquo;. Modificaremos los campos de &amp;ldquo;Nombre de base de datos&amp;rdquo;, &amp;ldquo;Nombre de usuario&amp;rdquo; y &amp;ldquo;contraseña&amp;rdquo; con los que hemos creado en el paso anterior en phpMyAdmin.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_08.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Si todo ha ido bien, al enviar el formulario nos aparecerá lo siguiente.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_09.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;El sistema no ha podido modificar el archivo &amp;ldquo;wp-config.php&amp;rdquo;. Para seguir adelante necesitamos tener instalado el paquete &amp;ldquo;Editor de texto&amp;rdquo; en DSM. Desde &amp;ldquo;File Station&amp;rdquo; en la carpeta &amp;ldquo;web/tuto&amp;rdquo; renombraremos el archivo &amp;ldquo;wp-config-sample.php&amp;rdquo; a &amp;ldquo;wp-config.php&amp;rdquo;, lo editaremos (Botón derecho y &amp;ldquo;Abrir con editor de texto&amp;rdquo;) de forma que borraremos todo el texto y lo sustituiremos por lo que nos ha sugerido el instalador en el paso anterior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_10.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Con el archivo editado ya podemos &amp;ldquo;Ejecutar la instalación&amp;rdquo; para en la siguiente pantalla introducir en título del sitio y crear un usuario de administración con su correspondiente contraseña. Añadimos nuestra dirección de correo electrónico y rellenamos el cuadro para que Google de momento no indexe nuestro sitio (Ya lo hará después cuando lo tengamos más arregladito)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_11.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pinchamos en &amp;ldquo;Instalar WordPress&amp;rdquo;, esperamos unos segundos y&amp;hellip;. Voila¡¡¡&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_12.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ya podemos acceder a nuestro sitio con el usuario y contraseña que hemos creado en el paso anterior. De aquí en adelante&amp;hellip; horas y horas para añadir contenido y darle formato.&lt;/p&gt;
-</description>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
+Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
     </item>
     
     <item>
@@ -1196,29 +300,8 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/backup-de-la-web-al-nas-mediante-ftp-y-ssh-en-synology/</guid>
-      <description>&lt;p&gt;Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al &lt;a href=&#34;https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red&#34;&gt;Nas&lt;/a&gt; que tengo en casa, de una forma automática y periódica.&lt;/p&gt;
-
-&lt;p&gt;Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión &lt;a href=&#34;https://es.wikipedia.org/wiki/File_Transfer_Protocol&#34;&gt;ftp&lt;/a&gt;. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas. Otro día veremos como gestionar la copia de seguridad de la base de datos de WordPress.&lt;/p&gt;
-
-&lt;p&gt;En primer lugar crearemos un archivo de texto del tipo &amp;ldquo;backup.sh&amp;rdquo; en un directorio del nas al que nuestro usuario tenga acceso e introduciremos el siguiente código&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;wget -m ftp://usuario:pass@tusitio.es/public_html/blog/wp-content -P /ruta
-tar -zcvf /ruta/$(date +%Y-%m-%d)_bkp_tusitio.tar.gz /ruta/tusitio.es
-rm -r /ruta/tusitio.es
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;La primera línea copia mediante una conexión ftp la carpeta &amp;ldquo;wp-content&amp;rdquo; desde tusitio.es a la ruta que le especifiques de tu nas. La segunda comprime la carpeta anterior a un archivo &amp;ldquo;fecha_bkp_tusitio.tar.gz&amp;rdquo; y la tercera elimina la carpeta descargada para solo quedarnos con el archivo comprimido.&lt;/p&gt;
-
-&lt;p&gt;Con lo anterior ahora sólo resta crear desde el panel de control de DSM una tarea programada para que el archivo de líneas de comando se ejecute con la periodicidad que deseemos.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/IcIhnV0Xif8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Una forma rápida, sencilla y completamente transparente para el usuario de forma que sólo nos tenemos que preocupar de ir borrando las copias de seguridad antiguas para que no ocupen mucho espacio en el NAS.&lt;/p&gt;
-</description>
+      <description>Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al Nas que tengo en casa, de una forma automática y periódica.
+Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión ftp. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas.</description>
     </item>
     
     <item>
@@ -1227,14 +310,7 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</guid>
-      <description>&lt;p&gt;Han pasado diez años desde que intenté por primera vez montar un &lt;a href=&#34;/al-fin-se-ve-la-luz/&#34;&gt;servidor web casero&lt;/a&gt;, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año. Sinceramente no me acuerdo exactamente si fue por la factura de la luz, por el ruido que producía en mi habitación o simplemente por culpa de una avería, pero pasado un tiempo lo apagué y pasé a alojar la web en un hosting gratuito. La aventura no era sostenible pero mereció la pena todo el esfuerzo por lo aprendido en el camino. Como resumen de todo esto podéis var una vuelta por la categoría &lt;a href=&#34;/categories/sherver/&#34;&gt;Sherver&lt;/a&gt; de los artículos de la web y ver los más antiguos.&lt;/p&gt;
-
-&lt;p&gt;Ahora, pasado todo este tiempo vuelvo a intentarlo y todo gracias a &lt;a href=&#34;https://www.jmramirez.pro&#34;&gt;José Manuel Ramirez&lt;/a&gt; y su podcast &lt;a href=&#34;https://www.jmramirez.pro/culturanas/&#34;&gt;Cultura NAS&lt;/a&gt; que si no has escuchado nunca te invito a que lo hagas. Esta vez la aventura va a ser más fácil aunque más cara ya que se centra en un &lt;a href=&#34;https://www.synology.com/es-es/products/DS216+II&#34;&gt;Synology 216+II&lt;/a&gt; que he comprado en &lt;a href=&#34;http://qloudea.com/&#34;&gt;Qloudea&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160222_ds216II_01.jpg&#34; alt=&#34;Nas&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;El gasto ha sido grande, pero las posibilidades son muchas y poco a poco intentaré configurarlo y dejar aquí mis aventuras con el mismo para la posteridad.&lt;/p&gt;
-</description>
+      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año.</description>
     </item>
     
     <item>
@@ -1243,40 +319,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/automatizando-la-limpieza-de-gmail/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.&lt;/p&gt;
-
-&lt;p&gt;Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Para mi, todos estos son mensajes de segunda categoría, es decir, no pasa nada si alguno se queda sin leer y no los leo a diario. Por esto tienden a acumularse y la mayoría de ellos cuando los lees ya no tienen relevancia puesto que suelen ser promociones temporales. Me resulta muy fácil acumular cientos de mensajes en esta pestaña y de vez en cuando tengo que perder tiempo en borrar los antiguos. Para ello utilizo un filtro que me busque todos los mensajes de la pestaña promociones con mas de diez días en la bandeja de entrada, los selecciono y los borro.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cierto es que esta operación supone un gasto de tiempo pequeño, pero me pregunto&amp;hellip; ¿Podrá automatizarse esto? Pues si, y de una forma bastante sencilla usando &lt;a href=&#34;https://www.google.com/script/start/&#34;&gt;Google Apps Script&lt;/a&gt;. Tan sencillo como entrar en &lt;a href=&#34;https://drive.google.com/drive/u/0/my-drive&#34;&gt;Google Drive&lt;/a&gt; y crear un nuevo &amp;ldquo;Google Apps Script&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aparece un nuevo proyecto en blanco en el que incluiremos la siguiente función:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function limpiar_propaganda() {
-  var filtro = GmailApp.search(&#39;category:promotions older_than:10d&#39;);
-  for (var i = 0; i &amp;amp;lt; filtro.length; i++) {
-    filtro[i].moveToTrash();
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Lo guardamos, le damos nombre y fijamos los activadores del proyecto activo a una ejecución por hora o lo que cada uno considere adecuado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A partir de ahora y de forma automática, cada hora se borrarán los correos con promociones de más de diez días de antigüedad.&lt;/p&gt;
-</description>
+      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
     </item>
     
     <item>
@@ -1285,34 +329,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</guid>
-      <description>&lt;p&gt;Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los &lt;a href=&#34;http://ritcheylogic.com/wcs-ergo-true-grip&#34;&gt;Ritchey WCS True Grip Ergo&lt;/a&gt; con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.&lt;/p&gt;
-
-&lt;p&gt;Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€. Pero esto sólo es el precio de catalogo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_chain.jpg&#34; alt=&#34;chainreaction&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Navegando un poco por la red no es difícil encontrar mejores precios.  En &lt;a href=&#34;http://www.bicimarket.com/Componentes-Punos-y-Cintas-Ritchey-WCS-True-Grip-Ergo-p12234.html&#34;&gt;bicimarket&lt;/a&gt;, una tienda española, están a la venta por un poco menos de 11€ y en &lt;a href=&#34;http://www.chainreactioncycles.com/es/es/punos-de-espuma-ergo-ritchey-wcs-truegrip/rp-prod39256&#34;&gt;chainreaction&lt;/a&gt;, quizás la mayor tienda de componentes para la bicicleta a nivel mundial, por apenas 9€.  Eso sí, en las dos tiendas al precio anterior hay que sumar los 6 o 7 euros respectivamente de gastos de envío.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_bici.jpg&#34; alt=&#34;bicimarket&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como los puños me corren cierta prisa ya que los que llevo están llegando al final de sus días y no necesito comprar nada más, los gastos de envio suponen un incremento de más del 50% en el precio final.  Por esto sigo buscando alguna alternativa que me abarate el coste.&lt;/p&gt;
-
-&lt;p&gt;Buscando en Amazon me encuentro con que tienen a la venta los puños que estoy buscando y como cliente premium este producto es uno de los que los gastos de envío son gratis por lo que el precio final de los puños queda por debajo de los 9€ puestos en casa.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_amazon.jpg&#34; alt=&#34;amazon&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Los puños llegan rápido y en aparentes buenas condiciones tal y como suele ocurrir con las compras en Amazon, pero los instalo en la bicicleta y transcurridas unas pocas semanas esto es lo que ocurre.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160608_puno_ritchey.jpg&#34; alt=&#34;puno&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sin haberles dado un mal uso ni mojado o lavado ambos puños comienzan a rajarse progresivamente hasta el punto de hacerlos inservibles y tengo que cambiarlos.&lt;/p&gt;
-
-&lt;p&gt;Descartó por completo que yo haya sido el culpable de este deterioro por lo que mi reflexión viene aquí, ¿Se han roto los puños de forma prematura por un defecto de fabricación o simplemente han llegado a su fecha de caducidad antes de que los comprase?  Amazon vende muchos productos de todo tipo pero&amp;hellip; ¿Cuánto tiempo habrá pasado desde que comprara este lote de puños?&lt;/p&gt;
-
-&lt;p&gt;Evidentemente dejo mi opinión negativa junto con una fotografía en la web de amazon con lo que las estrellas del producto bajan a poco más de dos tal y como puede verse en la imagen anterior. En otras webs que he dejado valoraciones negativas ante productos de poca calidad el vendedor se ha puesto en contacto conmigo pero hasta la fecha Amazon no lo ha hecho.&lt;/p&gt;
-
-&lt;p&gt;Y como moraleja de todo esto&amp;hellip; Cuando te apetezca un kebab compraló en el sitio que más venda pues cambiará el rulo más a menudo.&lt;/p&gt;
-</description>
+      <description>Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los Ritchey WCS True Grip Ergo con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.
+Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€.</description>
     </item>
     
     <item>
@@ -1321,30 +339,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/fixie-o-single-speed/</guid>
-      <description>&lt;p&gt;Hace mucho tiempo que quería probar la experiencia de ir en fixie por la ciudad ya que la web está repleta de comentarios sobre sus bondades.&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Hace varios meses que circulo con una Single Speed con la que estoy muy contento. La rueda trasera esta montada sobre un buje flip-flop por lo que convertir la bicicleta de una sola velocidad en una fixie es tan sencillo como darle la vuelta a la rueda.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, hace unos días me decidí a dar el paso y tras tan sólo tres días de circular en fixie entre el tráfico básicamente no encuentro más que desventajas a su uso frente a la Single Speed. Es posible que el uso de la fixie con pedales automáticos o calas mejore la experiencia frente a su uso con pedales de plataforma sin calas que yo he empleado pero no creo que el cambio sea tan radical como para combatir todas las desventajas que a continuación paso a enumerar.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Es necesario un alto grado de habilidad en el manejo de la bici para desenvolverte con Soltura.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Si en un momento determinado te olvidas de que vas montado en una fixie y dejas de dar pedales te vas a dar un buen susto.&lt;/li&gt;
-&lt;li&gt;Te cansas más ya que las piernas están constantemente transmitiendo potencia a la rueda trasera.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Aunque los puristas lo hacen, personalmente me parece que ir sin freno delantero es una temeridad por lo que no aligeras la bici frente a una Single Speed.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;En las cuestas abajo no puedes dejar que se lance la bicicleta y tienes que ir reteniendo con las piernas. Si en un momento de te sueltan los pies de los pedales más vale que lleves freno delantero.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Subir y bajar los bordillos se vuelve más complicado, ya que hay que tirar del manillar mientras das &amp;nbsp;pedales.&amp;nbsp;&lt;/li&gt;
-&lt;li&gt;Parar en un punto exacto para mantener el equilibrio no es nada fácil, ya que en la mayoría de los casos no vas a quedar en este punto con las bielas en posición horizontal.&lt;/li&gt;
-&lt;li&gt;Si parar con exactitud es complicado, tan difícil es arrancar cuando has parado con las bielas &amp;nbsp;en una posición cercana a la vertical ya que apenas se puede transmitir potencia.&lt;/li&gt;
-&lt;li&gt;Los elementos de la transmisión sufren un mayor desgaste al trabajar tanto en aceleración como en frenado.&lt;/li&gt;
-&lt;li&gt;En pasos estrechos no puedes no puedes aprovechar la inercia que llevas para conseguir precisión y equilibrio.&lt;/li&gt;
-&lt;li&gt;Así como las zapatas están pensadas para frenar no ocurre lo mismo con las rodillas. Si eres alguien &amp;nbsp;con mucha inercia tus rodillas van a sufrir en las frenadas.&amp;nbsp;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Con todo lo anterior no soy capaz de encontrar ninguna &amp;nbsp;ventaja al uso de la fixie frente a la Single Speed por lo que me quedo con esta última para mis desplazamientos diarios.&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Si eres de los puristas que defienden el uso de fixies o simplemente eres capaz de ver en ellas alguna ventaja que yo no he visto&amp;hellip;&lt;/p&gt;
-</description>
+      <description>Hace mucho tiempo que quería probar la experiencia de ir en fixie por la ciudad ya que la web está repleta de comentarios sobre sus bondades.&amp;nbsp;
+Hace varios meses que circulo con una Single Speed con la que estoy muy contento. La rueda trasera esta montada sobre un buje flip-flop por lo que convertir la bicicleta de una sola velocidad en una fixie es tan sencillo como darle la vuelta a la rueda.</description>
     </item>
     
     <item>
@@ -1353,30 +349,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/lo-barato-no-siempre-es-suficiente/</guid>
-      <description>&lt;p&gt;Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en &lt;a href=&#34;http://www.banggood.com&#34;&gt;Banggood&lt;/a&gt; a la búsqueda de un repuesto bueno, bonito y sobre todo barato.&lt;/p&gt;
-
-&lt;p&gt;Termine comprando por menos de 2$ &lt;a href=&#34;http://www.banggood.com/Replacement-USB-Side-Door-Cover-Case-Cap-Repair-Part-For-GoPro-Hero-3-3-Plus-4-p-1026853.html&#34;&gt;esta&lt;/a&gt; tapa de repuesto.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Siempre acostumbro a mirar las valoraciones y comentarios de otros compradores para ver si se trata de un buen producto, en este caso, en el momento de la compra sólo hay una valoración, la cual le otorga 5 estrellas pero que pinta demasiado &amp;ldquo;aséptica&amp;rdquo;. De todos modos, la inversión no es muy grande y se puede asumir el riesgo.&lt;/p&gt;
-
-&lt;p&gt;Ya al tacto me doy cuenta de que el plástico es mucho más rígido que la original y además cuando intento colocarla en el alojamiento me doy cuenta de que no encaja perfectamente tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como uno tiene la sangre latina, se empeña en que la tapa tiene que encajar en el alojamiento y a base de hacer fuerza lo hace, pero en el momento de quitarla&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como se puede ver en la imagen la tapa se parte sin duda alguna debido a la excesiva rigidez del plástico.&lt;/p&gt;
-
-&lt;p&gt;Mi primera acción es escribir un comentario negativo en el producto de la web de Banggood para evitar así que otra gente compre este producto y les ocurra lo mismo que a mi. Veo que a alguien le ha pasado lo mismo hace unos días pero con todo recomienda su compra y luego hacer unos retoques a la tapa. Dejo mi valoración negativa y a los dos días otro usuario hace lo mismo que yo. A ambos nos invitan a que le reportemos imágenes de la rotura y como no encaja, hago lo propio y todavía estoy a la espera de respuesta.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No creo ni espero que me devuelvan el dinero, mi principal interés es que retiren el producto de la tienda o en el peor de los casos que con mi comentario negativo nadie vuelva a comprarlo.&lt;/p&gt;
-</description>
+      <description>Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en Banggood a la búsqueda de un repuesto bueno, bonito y sobre todo barato.
+Termine comprando por menos de 2$ esta tapa de repuesto.</description>
     </item>
     
     <item>
@@ -1385,64 +359,7 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/no-compres-en-ikea/</guid>
-      <description>&lt;p&gt;Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Te hacen un presupuesto de acuerdo al diseño que necesitas.&lt;/li&gt;
-&lt;li&gt;Solicitas y pagas una verificación.&lt;/li&gt;
-&lt;li&gt;El verificador comprueba in situ que el diseño presupuestado es viable.&lt;/li&gt;
-&lt;li&gt;Con el presupuesto verificado se realiza un pedido y se fija un día de transporte y montaje.&lt;/li&gt;
-&lt;li&gt;Pagas la cocina.&lt;/li&gt;
-&lt;li&gt;Transporte de materiales.&lt;/li&gt;
-&lt;li&gt;Montaje de la cocina.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Si todo va bien este proceso son cinco días con los correspondientes tiempos de espera dependiendo de la disponibilidad del verificador, transportista, montador y los materiales. En mi caso la cocina quedó verificada el día 30 de diciembre de 2015. El diseño era completamente viable a los ojos del verificador de forma que ese mismo día deje la cocina pagada. Con esto ya sólo restaba un día de transporte de materiales previsto para el 27 de enero y otro de montaje para el día siguiente. Pues bien, a continuación paso a detallar como se llegó a complicar la cosa&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;21/1/16 - Me llaman de Ikea para cambiar el día del montaje por no haber disposición del montador.&lt;/p&gt;
-
-&lt;p&gt;27/1/16 - Primer Transporte de materiales sin incidencias.&lt;/p&gt;
-
-&lt;p&gt;28/1/16 - Primer día de montaje previsto, queda pospuesto por no haber disposición del montador.&lt;/p&gt;
-
-&lt;p&gt;5/2/16 - Segundo día de montaje, queda sin montar parte de la isla alegando el montador por faltar piezas como consecuencia, según su opinión, de una mala verificación.&lt;/p&gt;
-
-&lt;p&gt;8/2/16 - Como nadie se pone en contacto conmigo, voy por primera vez a atención al Cliente de la tienda de Ikea para abrir la incidencia del montaje. Me devuelven el dinero del material sobrante y se realiza el pedido con el material necesario. Básicamente sólo es necesario cambiar dos cajones por unas puertas con bisagras para debajo del fregadero ya que los primeros interfieren con los tubos de desagüe y agua sanitaria. Tanto a la persona que me realiza el presupuesto en Ikea como al verificador in situ les había planteado esta posibilidad y ninguno de los dos vieron ningún problema.&lt;/p&gt;
-
-&lt;p&gt;12/2/16 - Me llaman de Ikea para informar del transporte del 24 y montaje del 25.&lt;/p&gt;
-
-&lt;p&gt;22/2/16 - Me llaman de Ikea para conformar la entrega del día 24. Me pilla en el monte con la bicicleta y no estoy seguro de haber entendido bien fecha y hora. Intento llamar por teléfono para asegurarme pero no consigo nada a cambio de los 5€ del coste de la llamada.&lt;/p&gt;
-
-&lt;p&gt;22/2/16 - Para asegurarme de la fecha y la hora de la entrega que anteriormente se me había informado voy por segunda vez a atención al Cliente de la tienda de Ikea. Me lo confirman.&lt;/p&gt;
-
-&lt;p&gt;24/2/16 - Segundo día de transporte previsto para la entrega de materiales para cubrir la incidencia, no traen nada. Como es poco lo llevará el montador según me avisan por teléfono después de llevar unas horas esperando.&lt;/p&gt;
-
-&lt;p&gt;25/2/16 - Tercer día de montaje, esperando desde las 14:00 y después de hacerle varias llamadas, aparece a las 21:00 para sólo comprobar la situación del montaje.&lt;/p&gt;
-
-&lt;p&gt;26/2/16 - Como consecuencia de lo anterior voy por tercera vez a atención al cliente de la tienda de Ikea para comprobar la situación de la incidencia. Me informan que tengo que pagar más materiales además de los ya añadidos el día 8/2/16 al pedido inicial. Nadie me explica por ni para qué. Quedan pendientes del pago a su entrega.&lt;/p&gt;
-
-&lt;p&gt;8/3/16 - Me llaman de Ikea para informar de la no existencia del material necesario e informar de las nuevas fechas de transporte y montaje&lt;/p&gt;
-
-&lt;p&gt;9/3/16 -Tercer día de transporte, no traen nada según el aviso anterior de Ikea.&lt;/p&gt;
-
-&lt;p&gt;11/3/16 - Cuarto día de montaje, no avisan de que no van a ir, les llamo y confirman la no asistencia.&lt;/p&gt;
-
-&lt;p&gt;6/4/16 - Cuarto día de transporte. La mercancía, aunque no tengo claro si la necesaria o prevista llega correctamente tras un aviso vía sms. Llamo a la empresa de montaje para asegurarme del horario en el que van a realizar el montaje al día siguiente y me dicen que a partir de las ocho de la mañana.&lt;/p&gt;
-
-&lt;p&gt;7/4/16 - Quinto día de montaje. A las ocho no vienen, los llamo a las diez, me dicen que “están con un remate” y cuando acaben vienen. Los llamo a las doce y me dicen que el horario previsto era de ocho a cinco. No acude nadie, los llamo a las cinco y media y ya no me atienden la llamada. Esa misma tarde y ya por cuarta vez desde que comenzó esta guerra, voy a atención al cliente de la tienda de Ikea para poner una reclamación por el servicio prestado. Tras hablar con varios responsables se llega al acuerdo de realizar el montaje al día siguiente a las 15:00 y la reclamación queda sin poner.&lt;/p&gt;
-
-&lt;p&gt;8/4/16 - Sexto día de montaje. El montador aparece a las 15:00 tal y como estaba previsto pero aparece sólo por lo que tengo que ayudarle a cargar con los materiales pesados y sostener la encimera mientras él la corta. Alrededor de las 19:00 se tiene que ir, sin dar motivos, quedando sin terminar el montaje.&lt;/p&gt;
-
-&lt;p&gt;9/4/16 - Me llaman desde la central de transporte y montaje para informarme de que el montador vendrá el lunes 11-4-16 a las 10:00. Pido puntualidad para poder cuadrar mis horarios.&lt;/p&gt;
-
-&lt;p&gt;11/4/16 - Séptimo día de montaje. Cuando ya estoy esperando al servicio de montaje, el montador me llama diciendo que va a llegar una hora más tarde. Llega a las 11:30, una hora y media después de lo inicialmente previsto. Termina con el montaje a excepción de las puertas del fregadero que al parecer no estaban entre los materiales que habían llegado el día 6/4/16, tampoco las bisagras. El técnico contacta con la central y esta a su vez con Ikea para entre todos justificar que las puertas no estaban porque yo no había ido a buscarlas personalmente a Ikea. Cuando el montador se marcha y por quinta vez voy a atención al cliente de Ikea, esta vez acudo directamente al departamento de cocinas donde me atienden los responsables. Les explico toda esta batalla, pido las puertas y un impreso para presentar una reclamación y me voy a casa con ambos.&lt;/p&gt;
-
-&lt;p&gt;15/4/16 - El montador que ha venido los dos últimos días demuestra, a nivel personal, un poco de formalidad y me llama para preguntar por el estado de las puertas que faltaban por montar, le explico que ya estoy cansado del servicio de su empresa y que no estoy dispuesto a perder más tiempo por ellos. Me pondré yo las puertas.&lt;/p&gt;
-
-&lt;p&gt;18/4/16 - Voy por sexta vez a atención al cliente de Ikea para presentar la queja y reclamación formal. Unas horas más tarde me llaman de la central de Ikea en Asturias para informarme de que como consecuencia de la incidencia abierta me van a compensar económicamente. Esa misma tarde vuelvo a Ikea para informarme de la compensación. Me ofrecen un 20% del coste del montaje, apenas 116€ que para nada cubren todo el tiempo que he perdido y los desperfectos del montaje por lo que renuncio a ellos para seguir adelante con la reclamación formal.&lt;/p&gt;
-
-&lt;p&gt;Como resumen, cuatro días de transporte, siete días de montaje, siete pases por el servicio de atención al cliente de Ikea y un sinfín de llamadas realizadas para el montaje de una cocina que se debería haber terminado con un día de transporte y otro de montaje.&lt;/p&gt;
-</description>
+      <description>Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:</description>
     </item>
     
     <item>
@@ -1451,26 +368,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/en-que-apps-android-me-he-gastado-dinero/</guid>
-      <description>&lt;p&gt;Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.&lt;/p&gt;
-
-&lt;p&gt;Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.&lt;/p&gt;
-
-&lt;p&gt;Estas son las tres aplicaciones que recientemente he comprado en la Play Store.&lt;/p&gt;
-
-&lt;p&gt;1.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&#34;&gt;Podcast Addict&lt;/a&gt;. Hace todo lo que necesito para escuchar los podcast y aunque los gurús del tema utilizan PocketCast yo me he decidido por usar esta alternativa ya que el autor pone a disposición de todo el que quiera una versión gratuita completamente funcional con una simple publicidad en la parte baja de la app. La probé durante un par de meses hasta comprobar que tiene todo lo que necesito e hice la donación de 2.59€ para quitar la publicidad de la aplicación. Totalmente recomendable si escuchas Podcast.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_podcast_addict_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time Gps Tracker&lt;/a&gt;. Ya he hablado de esta aplicación &lt;a href=&#34;/aplicaciones-para-rastrear-personas-coches-perros/&#34;&gt;anteriormente&lt;/a&gt;, es simple, muy eficiente y 100% recomendable para la gente que sale al monte de excursión o a hacer deporte. Cualquiera con una conexión a internet y un navegador puede ver donde estás en tiempo real mientras estés ejecutando la aplicación. Con un buen ajuste el gasto de batería es ínfimo. La versión gratuita muestra publicidad en la zona inferior que puedes evitar con el pago de la suscripción anual de 3.6€. Es un poco latoso lo de pagar todos los años, pero la verdad es que uso mucho la aplicación y me es de gran utilidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_rtt2_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;3.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=gudaps.smartdataswitch&#34;&gt;Smart Data Switch Pro&lt;/a&gt;. Si quieres un ahorro de batería importante y no te importa no recibir mensajes y notificaciones de forma instantánea esta es tu aplicación. La tengo configurada para activar la conexión de datos 1 minuto cada media hora y la batería dura mucho más. En este caso no hay versión gratuita y he usado durante un tiempo una versión pirata pero creo que ya es momento de demostrar el agradecimiento al autor por el trabajo bien hecho y la he comprado, al fin y al cabo sólo son 1.29€.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_smart_data_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hoy por hoy estás son las únicas aplicaciones de pago que utilizo en mi terminal android, el resto que llevo instaladas son gratuitas.&lt;/p&gt;
-</description>
+      <description>Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.
+Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.</description>
     </item>
     
     <item>
@@ -1479,54 +378,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/excesivo-gasto-de-bater%C3%ADa-de-los-servicios-de-google-play/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El Problema&lt;/h3&gt;
-
-&lt;p&gt;Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.&lt;/p&gt;
-
-&lt;p&gt;Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo. Hay cientos de articulos por la red haciendo referencia a este problema pero ninguno de ellos consigue darme la solución al problema.&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí realizo la siguiente secuencia de comprobaciones y sucesos para dar solución al problema.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Comprobar los &amp;ldquo;Wakelocks&amp;rdquo; que mantienen el teléfono despierto en todo momento. Las aplicaciones gratuitas que he usado no me han dado ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modificar los ajustes de privacidad de Cyanogen para que los servicios de google no sean capaces de despertar ni mantener despierto el dispositivo. Con esto sólo consigo problemas de estabilidad en el teléfono y ningún resultado en el gasto de batería.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usando la aplicación &amp;ldquo;Cpu Spy&amp;rdquo; hago un gran avance y me doy cuenta de que el problema principal reside en que el teléfono no entra nunca en el modo &amp;ldquo;Deep Sleep&amp;rdquo; y se mantiene a la frecuencia mínima de 200Mhz provocando así un gasto innecesario de batería cuando no es necesario el procesador.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instalo la aplicación &amp;ldquo;Deep Sleep Battery Saver Pro&amp;rdquo; ya que dice servir para poner el teléfono en el modo de sueño profundo de acuerdo a los ajustes que pongas en la aplicación. Tras la instalación y ajustar la aplicación, el teléfono comienza a entrar en el modo de sueño profundo, pero es simplemente es un espejismo, ya que al día siguiente y después de un reinicio deja de hacerlo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pruebo varias aplicaciones de ahorro de energía que no merece la pena ni nombrar ya que con ninguna de ellas consigo ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;LLegados a este punto me veo obligado a realizar alguna acción más drástica y realizo una restauración del teléfono a los valores de fábrica. En un primer momento la solución parece ser la buena, pero apenas unas horas después me doy cuenta de que el teléfono vuelve a las andadas por lo que no he conseguido tampoco nada.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Buscando un poco por la red doy con una versión de Cyanogen para el Samsung Galaxy S2 i9100 basada en Android Lollipop 5.1.1. Se trata de la CM 12.1 y como durante más de un año he estado encantado con la CM 11 por lo que me parece una buena alternativa y me dispongo a instalarla.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;La descargo desde el propio teléfono y la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; de Cyanogen. En apenas unos minutos y de una sencilla manera consigo tener instalada la última versión de android en un smartphone del que casi han pasado casi 5 años desde su lanzamiento. La instalación de Android ha sido un éxito, pero me encuentro con el problema de que no tengo las &amp;ldquo;google apps&amp;rdquo;. Ni la versión que recomienda Cyanogen ni otras alternativas que he visto por la red han funcionado. Hoy por hoy no soy capaz de llevar un teléfono Android sin &amp;ldquo;Play Store&amp;rdquo;, &amp;ldquo;Youtube&amp;rdquo;, &amp;ldquo;Gmail&amp;rdquo;, &amp;ldquo;Google Chrome&amp;rdquo; ni mi agenda de contactos por lo que sigo en la búsqueda por una solución.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Bueno, pues si la 5.1.1 no funciona me tendré que conformar con la 4.4.4 que hasta ahora había tenido instalada, es decir, la misma CM 11 que ya llevaba. No dispongo de la imagen de CM 11 para flashear por que, si mal no recuerdo, la instalé desde la app CM Installer. No me cuesta mucho encontrarla, la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; pero me encuentro con el mismo problema de las &amp;ldquo;Google Apps&amp;rdquo; que había tenido con CM 12.1.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Quizás en este momento tenía que haber intentado instalar CM 11 de la misma forma que lo hice hace un año pero sin la &amp;ldquo;Play Store&amp;rdquo; en el teléfono no es tan fácil instalar la app &amp;ldquo;CM Installer&amp;rdquo; por lo que me salto este paso.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Llegados a este punto dejo de lado Cyanogen para optar por la última distribución que Samsung liberó como &amp;ldquo;firmware&amp;rdquo; oficial. Cual es mi sorpresa cuando veo que desde la web de las descargas Samsung el archivo para descargar está alojado en un servidor externo del que ha sido borrado. Fracaso del camino legal.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Busco otra distribución basada en Android 4.4.4. Por suerte, a pesar se ser el Samsung Galaxy S2 modelo i9100 un terminal bastante antiguo todavía hay mucha gente que lo utiliza y no es dificil encontar &amp;ldquo;firmwares&amp;rdquo; alternativos al oficial.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;No tardo mucho en dar con &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, una fusión que promete la ligereza y ahorro de bateria de las SlimRoms y la versatilidad y estabilidad de Cyanogen. Siguiendo las instrucciones del creador de la Rom apenas tardo unos minutos en &amp;ldquo;flashear&amp;rdquo; los archivos necesarios y tener nuevamente el teléfono operativo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_slimsaber.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Está claro que si manejas un terminal de casi cinco años no buscas en el un rendimiento espectacular ni unos grandes efectos visuales. Simplemente una buena estabilidad y un gasto de batería decente es lo que pretende conseguir &lt;a href=&#34;https://www.androidfilehost.com/?w=profile&amp;amp;uid=9390169635556425739&#34;&gt;FusionJack&lt;/a&gt; con la creación de &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, combinando en esta Rom la ligereza de &lt;a href=&#34;http://slimroms.net&#34;&gt;SlimRom&lt;/a&gt; y algunas de las buenas características de &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;Cyanogen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Todo un éxito, los dos días de continuo trasteo con el teléfono han merecido la pena, mi arcaico S2 funciona como la seda¡¡¡&lt;/p&gt;
-</description>
+      <description>El Problema Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.
+Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo.</description>
     </item>
     
     <item>
@@ -1535,48 +388,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/aver%C3%ADa-de-las-roldanas-del-cambio/</guid>
-      <description>
-
-&lt;p&gt;La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.&lt;/p&gt;
-
-&lt;p&gt;Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada y sólo permite el giro en un sentido, por suerte es que que permite avanzar a la bicicleta por lo que no me impide llegar a casa montado sobre la misma.&lt;/p&gt;
-
-&lt;p&gt;Después de un primer diagnóstico, todo indica que el rodamiento sellado de la roldana inferior está destrozado, el sello se ha roto parcialmente y la jaula que sujeta las bolas se ha partido actuando como trinquete y no dejando girar la roldana hacia detrás. Una buena ración de grasa y quitar las partes de la jaula sueltas me permite seguir funcionando con la bicicleta unos días hasta que consigo los repuestos.&lt;/p&gt;
-
-&lt;h3 id=&#34;cambio-de-las-roldanas&#34;&gt;Cambio de las roldanas&lt;/h3&gt;
-
-&lt;p&gt;Para trabajar mejor opto por desmontar la rueda y la cadena, operaciones que cuestan un par de minutos pero que facilitan notablemente el trabajo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_01.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;En la imagen superior se puede ver el rastro de grasa que ha ido saliendo del rodamiento durante los apenas cien kilómetros que he hecho desde que detecté la avería hasta el momento del cambio de las roldanas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_02.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cada una de las roldanas va fijada con un tornillo allen pasante que une las dos piezas del tensor y las roldanas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_03.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Quitando los dos tornillos nos quedaremos en la mano con las dos roldanas y medio tensor. En la imagen se puede ver como exteriormente las roldanas no están ni a mitad de uso y todavía no han cogido el aspecto, una lástima que la vida del rodamiento haya llegado a su fin.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_04.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Las roldanas que he comprado son polivalentes ya que sirven para muchos modelos de cambio, tan sólo hay que complementarlas con la pieza adecuada dentro de las que vienen en el kit de montaje&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_05.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Se montan los dos espaciadores con un poco de lubricante en el centro de cada una de las roldanas y ya están preparadas para el montaje. Hay que preparar especial atención en colocar las roldanas en su posición correcta, la superior más cerca del cambio y la inferior en el extremo del tensor. Nunca está de más antes de realizar el montaje final realizar una limpieza a fondo de toda la zona con un trapo y algo de desengrasante, evitaremos posibles crujidos, lograremos un mejor funcionamiento y prolongaremos la vida de los componentes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_06.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;como-evitar-esta-avería&#34;&gt;Como evitar esta avería&lt;/h3&gt;
-
-&lt;p&gt;Tal y como se puede ver en la siguiente imagen, esta avería ha sido provocada por la rotura del sello del rodamiento de la roldana inferior que posteriormente ha provocado la rotura de la jaula interior del rodamiento por pérdida del lubricante.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_07.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;El desencadenante de todo este proceso ha sido un pequeño trozo de cuerda de las que se emplean para las balas de paja que se enrolló en la roldana y que poco a poco ha ido rompiendo el rodamiento. De haberme dado cuenta de esta circunstancia se podría haber desmontado la roldana y limpiado de restos de cuerda para prolongar la vida de la roldana durante varios miles de kilómetros más. De esta forma la reparación me ha costado 17€ y una hora de trabajo.&lt;/p&gt;
-</description>
+      <description>La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.
+Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada y sólo permite el giro en un sentido, por suerte es que que permite avanzar a la bicicleta por lo que no me impide llegar a casa montado sobre la misma.</description>
     </item>
     
     <item>
@@ -1585,39 +398,9 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</guid>
-      <description>&lt;p&gt;Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a realizar son los siguiente:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Descargar la última versión de es.wordpress.org&lt;/li&gt;
-&lt;li&gt;Descomprimir el instalador&lt;/li&gt;
-&lt;li&gt;Conexión ftp y subir archivos&lt;/li&gt;
-&lt;li&gt;Acceder al panel de control&lt;/li&gt;
-&lt;li&gt;Entrar en bases de datos MySQL&lt;/li&gt;
-&lt;li&gt;Crear nueva base de datos&lt;/li&gt;
-&lt;li&gt;Crear un nuevo usario MySQL&lt;/li&gt;
-&lt;li&gt;Añadir usuario a base de datos&lt;/li&gt;
-&lt;li&gt;Asignar privilegios al usuario&lt;/li&gt;
-&lt;li&gt;Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.php&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Modificar wp-config.php con la información de acceso a la base de datos MySQL&lt;/li&gt;
-&lt;li&gt;Accede a tu blog y automáticamente se redireccionará &amp;ldquo;www.tublog.com/wp-config/install.php&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Rellena la info necesaria&lt;/li&gt;
-&lt;li&gt;Ya está listo¡¡¡&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Esta es la enésima vez que lo instalo, así que tengo claro todos los pasos a realizar y como llevarlos a cabo. Es muy probable que a un usuario nobel le cueste algo más de tiempo. Puedes ver todo el proceso en el siguiente vídeo (No te de vergüenza hacer la ventana grande que el vídeo está en HD).&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/AlPUmGfGXK4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Tal y como era de esperar la instalación ha durado más de cinco minutos pero también es verdad de que la he realizado a un ritmo normal y sin ningún tipo de preparativo por lo que no descarto que con una mejor conexión a internet y optimizando tiempos se pueda conseguir.&lt;/p&gt;
-
-&lt;p&gt;Con todo, poco más de ocho minutos es un tiempo irrisorio para la potencia y posibilidades que nos despliega un gestor de contenido como WordPress.&lt;/p&gt;
-</description>
+      <description>Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.
+Los pasos a realizar son los siguiente:
+ Descargar la última versión de es.wordpress.org Descomprimir el instalador Conexión ftp y subir archivos Acceder al panel de control Entrar en bases de datos MySQL Crear nueva base de datos Crear un nuevo usario MySQL Añadir usuario a base de datos Asignar privilegios al usuario Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.</description>
     </item>
     
     <item>
@@ -1626,29 +409,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/aplicaciones-para-rastrear-personas-coches-perros/</guid>
-      <description>&lt;p&gt;En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo &lt;a href=&#34;https://play.google.com/store/apps/details?id=app.alpify&amp;amp;hl=es&#34;&gt;Alpify&lt;/a&gt; o &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.telefonica.my112&amp;amp;hl=es&#34;&gt;My112&lt;/a&gt; para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_01.jpg&#34; alt=&#34;imagen&#34; /&gt;
-&lt;img src=&#34;/images/20150901_emergencia_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo. Ademas, no siempre es una emergencia lo que tiene lugar y simplemente alguno de tus familiares puede estar preocupado por tu tardanza en la excursión por el monte.&lt;/p&gt;
-
-&lt;p&gt;En mis salidas en bicicleta, desde hace varios años utilizo &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time GPS Tracker II&lt;/a&gt; que por el momento sólo está disponible para android.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La aplicación es realmente simple de manejar aunque la configuración es un poco mas laboriosa. Hay que registrarse en la web de Greenalp e introducir estos datos del registro en la configuración de la aplicación del teléfono, arrancas la aplicación e inicias el seguimiento del botón de arriba a la derecha. A partir de aquí cualquiera podrá ver tu ubicación con simplemente acceder desde una navegador a esta dirección.&lt;/p&gt;
-
-&lt;p&gt;_&lt;a href=&#34;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&#34;&gt;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Donde tienes que cambiar el usuario por el que tu te hayas creado anteriormente y quien tenga curiosidad por saber donde estás podrá verlo en un pantallazo como el siguiente gracias a Google Maps.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero no es oro todo lo que reluce, esta y todas las aplicaciones como Real Time GPS Tracker II presentan dos grandes problemas, el gasto de batería causado por la conexión de datos y el gps y la posible pérdida de cobertura o conectividad. Para minimizar el gasto de batería se puede modificar desde la pantalla de configuración la frecuencia con la que el teléfono conecta el GPS para buscar su ubicación y mandar los datos al servidor. Yo lo tengo configurado para que lo haga cada diez minutos con lo que el gasto de batería es prácticamente despreciable.&lt;/p&gt;
-
-&lt;p&gt;No he pretendido con esto hacer un manual de funcionamiento de la aplicación.&lt;/p&gt;
-</description>
+      <description>En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo Alpify o My112 para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.
+En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo.</description>
     </item>
     
     <item>
@@ -1657,24 +419,8 @@ rm -r /ruta/tusitio.es
       <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
       
       <guid>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</guid>
-      <description>&lt;p&gt;Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).&lt;/p&gt;
-
-&lt;p&gt;Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar. En una avería rara, ya que te bajas de la bici, miras y no ves nada roto, todo está en su sitio pero no hay manera de que ande la bici.&lt;/p&gt;
-
-&lt;p&gt;En un primer momento, lo único que se me pasa por la cabeza es que se ha partido el muelle de los trinquetes así que me dispongo a desmontar el núcleo del buje de la rueda trasera. Tras una larga batalla que prometo contar otro día accedo a la pieza que soporta los trinquetes y el muelle.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_roto.jpg&#34; alt=&#34;Nucleo roto&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como es la primera vez que veo esta pieza, lo único que me llama la atención es que parece que en los trinquetes hay cierto grado de desgaste, si los comparamos con la misma pieza en buen estado&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_sano.jpg&#34; alt=&#34;Nucleo sano&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pues si, los trinquetes están destrozados y la más clara muestra es que entre la grasa y las bolas del interior del núcleo han salido los restos de las uñas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_unas.jpg&#34; alt=&#34;Nucleo unas&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No he sido capaz de encontrar en la red trinquetes de repuesto y el núcleo suelto cuesta lo mismo que el buje completo, así que he comprado el &lt;a href=&#34;http://www.chainreactioncycles.com/Models.aspx?ModelID=38215&#34;&gt;buje&lt;/a&gt; y he cambiado el núcleo roto por el sano.&lt;/p&gt;
-</description>
+      <description>Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).
+Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar.</description>
     </item>
     
     <item>
@@ -1683,8 +429,7 @@ rm -r /ruta/tusitio.es
       <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
       
       <guid>/al-fin-se-ve-la-luz/</guid>
-      <description>&lt;p&gt;Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página.  En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.&lt;/p&gt;
-</description>
+      <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
     </item>
     
     <item>
@@ -1693,38 +438,7 @@ rm -r /ruta/tusitio.es
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>
-
-&lt;h3 id=&#34;artículos-que-estoy-escribiendo&#34;&gt;Artículos que estoy escribiendo&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;20180801_hugo_raspberry&lt;/li&gt;
-&lt;li&gt;20180806_hugo_github_pass&lt;/li&gt;
-&lt;li&gt;20180917_hugo_sobreescribir_css&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;artículos-por-escribir&#34;&gt;Artículos por escribir&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Que hace Tasker al subir a la bici&lt;/li&gt;
-&lt;li&gt;Igualando volumen bluetooth&lt;/li&gt;
-&lt;li&gt;Merece la pena el pirateo?&lt;/li&gt;
-&lt;li&gt;Markdown en Windows, Linux y Android&lt;/li&gt;
-&lt;li&gt;Esponjas quitamanchas del Mercadona&lt;/li&gt;
-&lt;li&gt;vpn a través de Raspberry y Android&lt;/li&gt;
-&lt;li&gt;Publicar desde Google Docs&lt;/li&gt;
-&lt;li&gt;Como gestiono mis contraseñas.&lt;/li&gt;
-&lt;li&gt;Y cuando la Raspberry muera&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Duelo de calcetines&lt;/li&gt;
-&lt;li&gt;Mis aplicaciones en Android&lt;/li&gt;
-&lt;li&gt;Delicious ha muerto. Pocket&lt;/li&gt;
-&lt;li&gt;Docker en Raspberry.  Primeros pasos&lt;/li&gt;
-&lt;li&gt;Volviendo a &lt;a href=&#34;https://sourceforge.net/projects/gpxeditor&#34;&gt;gpx editor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Probando Zerotier&lt;/li&gt;
-&lt;li&gt;rclone en Raspberry, como usar&lt;/li&gt;
-&lt;li&gt;Crear un svg a partir de un jpg&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180806_hugo_github_pass 20180917_hugo_sobreescribir_css  Artículos por escribir  Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona vpn a través de Raspberry y Android Publicar desde Google Docs Como gestiono mis contraseñas. Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto. Pocket Docker en Raspberry.</description>
     </item>
     
     <item>
@@ -1733,26 +447,7 @@ rm -r /ruta/tusitio.es
       <pubDate>Thu, 15 Oct 2015 22:23:41 +0000</pubDate>
       
       <guid>/p906/</guid>
-      <description>&lt;p&gt;Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.&lt;/p&gt;
-
-&lt;p&gt;Como una gran parte de la población mis necesidades en cuanto al servicio telefónico se ven cubiertas con una línea de teléfono fijo con internet en casa y un teléfono móvil con conexión de datos. Tengo que decir que tanto en el pueblo como en la ciudad mis necesidades están cubiertas aunque con unas sutiles diferencias.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1.- El precio.&lt;/strong&gt; Mientras que en la ciudad pago 44.21€, en el pueblo pago la nada despreciable cantidad de 66.38€. Una diferencia de más de 22€ al més, o lo que es lo mismo, estoy pagando un 50% más en mi servicio telefónico por vivir en el pueblo.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2.- El internet en casa.&lt;/strong&gt; En la ciudad dispongo de una línea de fibra óptica con 30 megas de velocidad de descarga, no es ninguna maravilla pero más que suficiente para un uso normal de la web. En el pueblo no ha llegado (ni llegará) la fibra óptica, por lo que dispongo del clásico adsl a través del cable telefónico con la famosa velocidad de &amp;ldquo;Hasta 10 Megas&amp;rdquo; que es el mayor timo legal de la historia ya que con esta simple frase pueden cobrarte algo sin darte nada. A lo que vamos, por supuesto no llegan los 10 Megas sin que apenas lo hacen 3 en el mejor de los casos (y dando gracias ya que al cambiar de contrato a los &amp;ldquo;hasta 10 megas&amp;rdquo; me lo limitaron a 1). Todo esto aferrándose a la distancia hasta la centralita.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3.- Conexión de datos en el móvil.&lt;/strong&gt; Voy a dejar de lado la conectividad 4G que en los pueblos no está ni se le espera para centarme en la capacidad de descarga, los famosos &amp;ldquo;Megas o Gigas&amp;rdquo;. Aquí es donde tiene lugar la circunstancia más curiosa de todas ya que con la tarifa de la ciudad dispongo de 3 Gigas de datos y con la del pueblo sólo dispongo de 1 Giga. En su día, la operadora a la que pago en el pueblo duplicaba esta capacidad de descarga de forma gratuita con la única condición de aceptar un servicio de televisión también gratuito. Pero en el pueblo yo no pude pasar de 1 Giga a 2 Gigas por que no me podían garantizar el servicio de televisión debido a la escasa velocidad de la conexión a internet en el teléfono fijo.&lt;/p&gt;
-
-&lt;p&gt;Resumiendo, &lt;em&gt;&lt;strong&gt;en el pueblo pago un 50% mas, tengo 15 veces menos velocidad en el internet de casa, la tercera parte de la conexión de datos del móvil&lt;/strong&gt;&lt;/em&gt; y sólo me queda resignarme ya que hasta la fecha no he sido capaz de encontrar un servicio telefónico mejor en el pueblo a causa de la &amp;ldquo;cobertura indirecta&amp;rdquo; de la línea fija.&lt;/p&gt;
-
-&lt;p&gt;Se me olvidaba, todo esto gracias a Orange y Movistar.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-  &lt;img src=&#34;http://www.sherver.synology.me/sherblog/wp-content/uploads/20151016_movistar_orange.jpg&#34; alt=&#34;20151016_movistar_orange&#34; width=&#34;358&#34; /&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Si alguien tiene una sugerencia con la que pueda pagar menos o conseguir un mejor servicio telefónico en el pueblo que no dude en dejar un comentario.&lt;/p&gt;
-</description>
+      <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
     </item>
     
   </channel>

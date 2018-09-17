@@ -3,12 +3,12 @@
   <channel>
     <title>Bricolaje on Sherblog</title>
     <link>/tags/bricolaje/</link>
-    <description>Contenido reciente in Bricolaje en Sherblog</description>
+    <description>Recent content in Bricolaje on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/bricolaje/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/bricolaje/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,43 +17,9 @@
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/fuga-en-cisterna-roca/</guid>
-      <description>&lt;p&gt;Hace unos días que la cisterna del &lt;a href=&#34;https://www.roca.es/catalogo/colecciones/colecciones-bano/the-gap-066-14.0316/inodoro-completo-rimless-compacto-adosado-pared-salida-dual-incluye-taza-cisterna-alimentacion-lateral-tapa-amortiguada-342737..H-341731..0-801732..4#!A34273700H+A341731000+A801732004&#34;&gt;inodoro Roca&lt;/a&gt; de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.&lt;/p&gt;
-
-&lt;p&gt;Antes de ponerse manos a la obra no está de mas dar una vuelta por &lt;a href=&#34;https://www.youtube.com/results?search_query=fuga+cisterna+roca&#34;&gt;Youtube&lt;/a&gt;, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mal cierre del mecanismo de llenado (fuga por el sobradero)&lt;/li&gt;
-&lt;li&gt;Mal sello del mecanismo descargador (fuga por el descargador)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Antes de ponerme manos a la obra ya parece que tengo claro por que fuga mi cisterna con simplemente acercar la oreja a la misma. Tras llenar la cisterna el mecanismo de llenado permanece cerrado hasta que pasado un tiempo vuelve a abrir un poco. Esto indica que el descargador no está haciendo bien el sello, está dejando escapar agua y el mecanismo de llenado tiene que reponerla.&lt;/p&gt;
-
-&lt;p&gt;Manos a la obra y la primera dificultad, desmontar el doble pulsador para poder quitar la tapa y si es posible, sin romper nada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_03.jpg&#34; alt=&#34;Quitar doble pulsador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Con la tapa ya quitada y la cisterna vacía ya puedo desmontar el mecanismo del descargador para poder sacar la junta del cierre tal y como se muestra en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_02.jpg&#34; alt=&#34;Desmontar descargador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A primera vista la junta parece en buen estado pues el inhodoro no es muy antiguo pero mirándola más detenidamente podemos ver&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_01.jpg&#34; alt=&#34;Junta con ampollas&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip; Unas pequeñas ampollas que he marcado en color rojo para que sean más fácilmente visibles. De las más grandes, dos de ellas están situadas en el perímetro exterior por lo que no deberían afectar a la estanqueidad del descargador. La tercera está situada justo en la línea que marca el apoyo entre el descargador y la base de la cisterna por lo que creo que es esta la que deja pasar el agua.&lt;/p&gt;
-
-&lt;p&gt;Toca cambiar la junta en en &lt;a href=&#34;https://www.amazon.es/gp/product/B00JKMT0F0/ref=ox_sc_act_title_1?smid=A1AT7YVPFBWXBL&amp;amp;psc=1&#34;&gt;Amazon&lt;/a&gt; a día de hoy cuesta apenas 2€ pero con dos meses de plazo de entrega por lo que opto por comprarla en un comercio local a 2.5€&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Así leída la batalla ha parecido simple pero no ha sido así ya que he tenido que desmontar varias veces, desincrustar toda la cal acumulada y hacer muchas pruebas en varios días para terminar dándome cuenta de que el problema era causado por una simple burbuja de aire en la junta del descargador.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para terminar, resulta curioso que si buscas en &lt;a href=&#34;https://www.google.es/search?q=fuga+inodoro+roca&amp;amp;oq=fuga+inodoro+roca&#34;&gt;Google &amp;ldquo;fuga inodoro roca&amp;rdquo;&lt;/a&gt; sólo obtengas videos de Youtube de aficionados, tutoriales de grandes almacenes, webs de fontanería y anuncios para comprar &amp;ldquo;retretes&amp;rdquo;. Pero más curioso resulta como en la web oficial de roca puedas sin ningún problema descargar la ficha del producto, las medidas exactas e incluso un diseño en 3D para que los arquitectos y diseñadores lo incrusten en sus presentaciones pero no haya ni rastro del &lt;a href=&#34;http://www.roca.com/RocaResourceServlet/resources/getMainResource?idObject=%7BB658E11A-2CAD-4E7A-954E-BD46209CB2EF%7D&#34;&gt;manual de servicio&lt;/a&gt; que sólo he podido encontrar con la referencia de la junta después de comprada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_04.jpg&#34; alt=&#34;Etiqueta junta&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Hace unos días que la cisterna del inodoro Roca de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.
+Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
+Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:</description>
     </item>
     
     <item>
@@ -62,54 +28,8 @@
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/excesivo-gasto-de-bater%C3%ADa-de-los-servicios-de-google-play/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El Problema&lt;/h3&gt;
-
-&lt;p&gt;Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.&lt;/p&gt;
-
-&lt;p&gt;Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo. Hay cientos de articulos por la red haciendo referencia a este problema pero ninguno de ellos consigue darme la solución al problema.&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí realizo la siguiente secuencia de comprobaciones y sucesos para dar solución al problema.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Comprobar los &amp;ldquo;Wakelocks&amp;rdquo; que mantienen el teléfono despierto en todo momento. Las aplicaciones gratuitas que he usado no me han dado ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modificar los ajustes de privacidad de Cyanogen para que los servicios de google no sean capaces de despertar ni mantener despierto el dispositivo. Con esto sólo consigo problemas de estabilidad en el teléfono y ningún resultado en el gasto de batería.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usando la aplicación &amp;ldquo;Cpu Spy&amp;rdquo; hago un gran avance y me doy cuenta de que el problema principal reside en que el teléfono no entra nunca en el modo &amp;ldquo;Deep Sleep&amp;rdquo; y se mantiene a la frecuencia mínima de 200Mhz provocando así un gasto innecesario de batería cuando no es necesario el procesador.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instalo la aplicación &amp;ldquo;Deep Sleep Battery Saver Pro&amp;rdquo; ya que dice servir para poner el teléfono en el modo de sueño profundo de acuerdo a los ajustes que pongas en la aplicación. Tras la instalación y ajustar la aplicación, el teléfono comienza a entrar en el modo de sueño profundo, pero es simplemente es un espejismo, ya que al día siguiente y después de un reinicio deja de hacerlo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pruebo varias aplicaciones de ahorro de energía que no merece la pena ni nombrar ya que con ninguna de ellas consigo ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;LLegados a este punto me veo obligado a realizar alguna acción más drástica y realizo una restauración del teléfono a los valores de fábrica. En un primer momento la solución parece ser la buena, pero apenas unas horas después me doy cuenta de que el teléfono vuelve a las andadas por lo que no he conseguido tampoco nada.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Buscando un poco por la red doy con una versión de Cyanogen para el Samsung Galaxy S2 i9100 basada en Android Lollipop 5.1.1. Se trata de la CM 12.1 y como durante más de un año he estado encantado con la CM 11 por lo que me parece una buena alternativa y me dispongo a instalarla.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;La descargo desde el propio teléfono y la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; de Cyanogen. En apenas unos minutos y de una sencilla manera consigo tener instalada la última versión de android en un smartphone del que casi han pasado casi 5 años desde su lanzamiento. La instalación de Android ha sido un éxito, pero me encuentro con el problema de que no tengo las &amp;ldquo;google apps&amp;rdquo;. Ni la versión que recomienda Cyanogen ni otras alternativas que he visto por la red han funcionado. Hoy por hoy no soy capaz de llevar un teléfono Android sin &amp;ldquo;Play Store&amp;rdquo;, &amp;ldquo;Youtube&amp;rdquo;, &amp;ldquo;Gmail&amp;rdquo;, &amp;ldquo;Google Chrome&amp;rdquo; ni mi agenda de contactos por lo que sigo en la búsqueda por una solución.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Bueno, pues si la 5.1.1 no funciona me tendré que conformar con la 4.4.4 que hasta ahora había tenido instalada, es decir, la misma CM 11 que ya llevaba. No dispongo de la imagen de CM 11 para flashear por que, si mal no recuerdo, la instalé desde la app CM Installer. No me cuesta mucho encontrarla, la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; pero me encuentro con el mismo problema de las &amp;ldquo;Google Apps&amp;rdquo; que había tenido con CM 12.1.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Quizás en este momento tenía que haber intentado instalar CM 11 de la misma forma que lo hice hace un año pero sin la &amp;ldquo;Play Store&amp;rdquo; en el teléfono no es tan fácil instalar la app &amp;ldquo;CM Installer&amp;rdquo; por lo que me salto este paso.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Llegados a este punto dejo de lado Cyanogen para optar por la última distribución que Samsung liberó como &amp;ldquo;firmware&amp;rdquo; oficial. Cual es mi sorpresa cuando veo que desde la web de las descargas Samsung el archivo para descargar está alojado en un servidor externo del que ha sido borrado. Fracaso del camino legal.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Busco otra distribución basada en Android 4.4.4. Por suerte, a pesar se ser el Samsung Galaxy S2 modelo i9100 un terminal bastante antiguo todavía hay mucha gente que lo utiliza y no es dificil encontar &amp;ldquo;firmwares&amp;rdquo; alternativos al oficial.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;No tardo mucho en dar con &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, una fusión que promete la ligereza y ahorro de bateria de las SlimRoms y la versatilidad y estabilidad de Cyanogen. Siguiendo las instrucciones del creador de la Rom apenas tardo unos minutos en &amp;ldquo;flashear&amp;rdquo; los archivos necesarios y tener nuevamente el teléfono operativo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_slimsaber.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Está claro que si manejas un terminal de casi cinco años no buscas en el un rendimiento espectacular ni unos grandes efectos visuales. Simplemente una buena estabilidad y un gasto de batería decente es lo que pretende conseguir &lt;a href=&#34;https://www.androidfilehost.com/?w=profile&amp;amp;uid=9390169635556425739&#34;&gt;FusionJack&lt;/a&gt; con la creación de &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, combinando en esta Rom la ligereza de &lt;a href=&#34;http://slimroms.net&#34;&gt;SlimRom&lt;/a&gt; y algunas de las buenas características de &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;Cyanogen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Todo un éxito, los dos días de continuo trasteo con el teléfono han merecido la pena, mi arcaico S2 funciona como la seda¡¡¡&lt;/p&gt;
-</description>
+      <description>El Problema Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.
+Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo.</description>
     </item>
     
   </channel>

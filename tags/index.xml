@@ -3,12 +3,12 @@
   <channel>
     <title>Tags on Sherblog</title>
     <link>/tags/</link>
-    <description>Contenido reciente in Tags en Sherblog</description>
+    <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

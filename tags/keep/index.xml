@@ -3,12 +3,12 @@
   <channel>
     <title>Keep on Sherblog</title>
     <link>/tags/keep/</link>
-    <description>Contenido reciente in Keep en Sherblog</description>
+    <description>Recent content in Keep on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 27 May 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/keep/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/keep/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,52 +17,8 @@
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/ordenar-listas-en-google-keep/</guid>
-      <description>
-
-&lt;p&gt;Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La sincronización entre dispositivos&lt;/li&gt;
-&lt;li&gt;La compartición con otras personas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Un tiempo atrás, antes de que descubriera &lt;a href=&#34;https://ia.net/writer&#34;&gt;iawriter&lt;/a&gt;, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.&lt;/p&gt;
-
-&lt;p&gt;En mi lista de la compra hay unos cien artículos de uso cotidiano o comida que en casa compramos habitualmente, cada uno con una casilla de verificacion para marcar si hay en casa o es necesario comprar.&lt;/p&gt;
-
-&lt;p&gt;Gracias a la sincronización entre dispositivos, es posible chequear esta lista de la compra desde el móvil, la tablet, el pc&amp;hellip; Además, la lista la tengo compartida con mi señora de forma que cualquiera de los dos podemos añadir o seleccionar los artículos que hay que comprar o a sido comprado.&lt;/p&gt;
-
-&lt;p&gt;Para seleccionar los artículos a comprar lo suelo hacer de dos formas, bien hago un repaso general a la lista y veo de lo que ya yo hay existencia en casa o bien se me ocurre un en particular para añadir a la lista. Para el primer caso es muy sencillo, cojo la lista desde el principio y analizo. Hay, no hay, necesito, no necesito&amp;hellip; El problema viene cuando solo quiero seleccionar un articulo en particular de la lista cuando este no está ordenada alfabéticamente.&lt;/p&gt;
-
-&lt;h3 id=&#34;el-problema-ordenar-alfabéticamente-una-lista&#34;&gt;El problema. Ordenar alfabéticamente una lista&lt;/h3&gt;
-
-&lt;p&gt;Pues si, toda esta parrafada para explicar un método sencillo y rápido con el que ordenar la lista de Google Keep con casillas de verificación ya que el método de arrastrar las filas hasta su posición correcta es un verdadero lío que puede llegar a ser desesperante para listas largas.&lt;/p&gt;
-
-&lt;h3 id=&#34;una-solución-sencilla&#34;&gt;Una solución sencilla&lt;/h3&gt;
-
-&lt;p&gt;A priori se me ocurrieron varias opciones pero la más rápida y práctica para realizar creo que es la siguiente.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desmarcar todos los elementos&lt;/li&gt;
-&lt;li&gt;Ocultar casillas de verificación&lt;/li&gt;
-&lt;li&gt;Seleccionar y cortar todo el texto&lt;/li&gt;
-&lt;li&gt;Ir a &lt;a href=&#34;https://www.textfixer.com/tools/alphabetical-order.php&#34;&gt;Textfixer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Seleccionar como separador de entrada el salto de línea.&lt;/li&gt;
-&lt;li&gt;Pegar el texto en el primer cuadro de texto&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Alfabetizar tu texto&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Copiar el texto del segundo cuadro&lt;/li&gt;
-&lt;li&gt;Pegarlo en la nota de Google Keep&lt;/li&gt;
-&lt;li&gt;Mostrar casillas de verificación&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y ya está!!! Nuestra lista perfectamente ordenada. Para los que no quieren perder cinco minutos en leer todo el artículo, aquí un vídeo de solo uno en el que se muestra todo el proceso.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Oi1nYKWou8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
+ La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</description>
     </item>
     
   </channel>

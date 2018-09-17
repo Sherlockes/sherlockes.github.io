@@ -3,12 +3,12 @@
   <channel>
     <title>Gmail on Sherblog</title>
     <link>/tags/gmail/</link>
-    <description>Contenido reciente in Gmail en Sherblog</description>
+    <description>Recent content in Gmail on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 14 Oct 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,40 +17,8 @@
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/automatizando-la-limpieza-de-gmail/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.&lt;/p&gt;
-
-&lt;p&gt;Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Para mi, todos estos son mensajes de segunda categoría, es decir, no pasa nada si alguno se queda sin leer y no los leo a diario. Por esto tienden a acumularse y la mayoría de ellos cuando los lees ya no tienen relevancia puesto que suelen ser promociones temporales. Me resulta muy fácil acumular cientos de mensajes en esta pestaña y de vez en cuando tengo que perder tiempo en borrar los antiguos. Para ello utilizo un filtro que me busque todos los mensajes de la pestaña promociones con mas de diez días en la bandeja de entrada, los selecciono y los borro.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cierto es que esta operación supone un gasto de tiempo pequeño, pero me pregunto&amp;hellip; ¿Podrá automatizarse esto? Pues si, y de una forma bastante sencilla usando &lt;a href=&#34;https://www.google.com/script/start/&#34;&gt;Google Apps Script&lt;/a&gt;. Tan sencillo como entrar en &lt;a href=&#34;https://drive.google.com/drive/u/0/my-drive&#34;&gt;Google Drive&lt;/a&gt; y crear un nuevo &amp;ldquo;Google Apps Script&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aparece un nuevo proyecto en blanco en el que incluiremos la siguiente función:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function limpiar_propaganda() {
-  var filtro = GmailApp.search(&#39;category:promotions older_than:10d&#39;);
-  for (var i = 0; i &amp;amp;lt; filtro.length; i++) {
-    filtro[i].moveToTrash();
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Lo guardamos, le damos nombre y fijamos los activadores del proyecto activo a una ejecución por hora o lo que cada uno considere adecuado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A partir de ahora y de forma automática, cada hora se borrarán los correos con promociones de más de diez días de antigüedad.&lt;/p&gt;
-</description>
+      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
     </item>
     
   </channel>

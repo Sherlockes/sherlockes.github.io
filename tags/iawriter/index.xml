@@ -3,12 +3,12 @@
   <channel>
     <title>Iawriter on Sherblog</title>
     <link>/tags/iawriter/</link>
-    <description>Contenido reciente in Iawriter en Sherblog</description>
+    <description>Recent content in Iawriter on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 04 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/iawriter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/iawriter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,107 +17,7 @@
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/publicar-desde-iawriter/</guid>
-      <description>
-
-&lt;h3 id=&#34;publicar-solo-con-el-editor-de-texto&#34;&gt;Publicar solo con el editor de texto&lt;/h3&gt;
-
-&lt;p&gt;Hace un tiempo que estoy intentando escribir en Markdown y para WordPress he estado utilizando el Plugin &lt;a href=&#34;https://wordpress.org/plugins/wp-markdown/&#34;&gt;Wp-MarkDown&lt;/a&gt; que me ha permitido realizar la maquetación del post directamente en Markdown. Una vez que he dejado atrás WordPress en favor de Hugo uno de mis objetivos de los últimos meses ha sido poder publicar en el blog simplemente usando un editor de texto.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, no sin algo de esfuerzo, al final lo he conseguido. Gracias a Hugo cómo CMS este post que ahora estoy escribiendo lo puedo publicar en mi blog de una forma rápida y sencilla en Markdown directamente desde la aplicación &lt;a href=&#34;https://ia.net/writer&#34;&gt;iaWritter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Las etapas del proceso son las siguientes.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Parto de un archivo de texto con extensión *.md que renombro con la estructura &amp;ldquo;fecha_nombre_archivo.md&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;Escribo el contenido del Post&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hasta aquí todo el proceso que he de realizar de forma manual. El resto se realiza de forma automática según la siguiente secuencia.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Iawriter guarda el archivo de texto en mi unidad de Google Drive en una carpeta específica para los post de la web.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Gracias a rclone la Raspberry es capaz de sincronizar tanto la carpeta &amp;ldquo;content&amp;rdquo; como la &amp;ldquo;static&amp;rdquo; con la nube de Google Drive mediante un proceso en crontab que se ejecuta cada hora&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Para crear el proceso que se ejecute cada hora  se utiliza el comando &lt;code&gt;crontab -e&lt;/code&gt; añadiendo al final la línea &amp;ldquo;0 * * * * /home/pi/sherblog/publicar.sh&amp;rdquo; donde &amp;ldquo;publicar.sh&amp;rdquo; es el script ejecutable que realiza todas las operaciones.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La misma secuencia de comandos busca en la carpeta &amp;ldquo;post&amp;rdquo; algún archivo sin cabecera para incluirle una genérica que luego será fácil de editar.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Antes de colocar la cabecera, el script comprueba que el archivo no se ha modificado en la última hora para de esta forma &amp;ldquo;garantizar&amp;rdquo; que no se está trabajando en el y no crear problemas de sincronización.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Con los cambios efectuados en los archivos sin cabecera se realiza la sincronización inversa hacia la nube de Google.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Tras sincronizar la carpeta, el script construye toda la web estática a partir de los post y archivos de configuración.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Resulta interesante conocer que para hacer referencia al comando &amp;ldquo;hugo&amp;rdquo; hay que usar en el script la ruta completa que en mi caso quedará &amp;ldquo;/usr/local/bin/hugo&amp;rdquo;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Con la web regenerada se suben los cambios a mi cuenta de github donde tengo publicada la web de forma completamente gratuita.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/sh
-# -*- ENCODING: UTF-8 -*-
-
-#Sincroniza el contenido de la nube de Google Drive con las carpetas locales
-rclone sync -v GoogleDrive:/Sherblog/content/ /home/pi/sherblog/content/
-rclone sync -v GoogleDrive:/Sherblog/static/ /home/pi/sherblog/static/
-
-#Cambio al directorio de contenidos
-cd ~/sherblog/content/post
-
-#Busca archivos sin cabecera para añadirle una genérica
-grep -r -L &amp;quot;\-\-\-&amp;quot; * |
-while read fname
-do
-  #Minutos que han de pasar desde la ultima modificación para encabezado
-  minmin=30
-
-  #Calculo de los minutos pasados desde la ultima modificacion
-  umodsg=$(date +%s -r &amp;quot;$fname&amp;quot;)
-  ahorasg=$(date +%s)
-  minpasados=$(((ahorasg - umodsg)/60))
-  echo Han pasado $minpasados de los $minmin minutos desde la modificación de &amp;quot;$fname&amp;quot;
-
-  #Inserta la cabecera si han pasado más de 65 minutos
-  if [ $minpasados -gt $minmin ]; then
-    echo Colocando la cabecera a &amp;quot;$fname&amp;quot;
-    cat cabecera.md &amp;quot;$fname&amp;quot; &amp;gt; temp &amp;amp;&amp;amp; mv temp &amp;quot;$fname&amp;quot;
-  fi
-done
-
-#Sincroniza los archivos de la nube con los modificados en local
-rclone sync -v /home/pi/sherblog/content/ GoogleDrive:/Sherblog/content/
-
-#Genera la web estática en Hugo
-cd ~/sherblog
-/usr/local/bin/hugo
-
-#Sube los cambios generados en la web a GitHub
-cd ~/sherblog/git/sherlockes.github.io
-git add --all
-git commit -m &amp;quot;Update&amp;quot;
-git push -u origin master
-
-exit 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Y ya está. La web actualizada sin usar nada más que iawriter. Ahora resta idear un método sencillo para subir las imágenes, quizás IFTTT sea una buena opción, pero esto para otro día&amp;hellip;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;A fecha de hoy (Octubre de 2010) el sistema funciona a las mil maravillas en Android pero IAWriter en IOS da algún problema a la hora de guardar los archivos en Google Drive, espero se solvente con alguna actualización.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description>Publicar solo con el editor de texto Hace un tiempo que estoy intentando escribir en Markdown y para WordPress he estado utilizando el Plugin Wp-MarkDown que me ha permitido realizar la maquetación del post directamente en Markdown. Una vez que he dejado atrás WordPress en favor de Hugo uno de mis objetivos de los últimos meses ha sido poder publicar en el blog simplemente usando un editor de texto.</description>
     </item>
     
   </channel>
