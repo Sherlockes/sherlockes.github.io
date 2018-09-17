@@ -3,12 +3,12 @@
   <channel>
     <title>Linux on Sherblog</title>
     <link>/categories/linux/</link>
-    <description>Recent content in Linux on Sherblog</description>
+    <description>Contenido reciente in Linux en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 18 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,7 +21,40 @@
 
 &lt;p&gt;En mi vuelta a linux, llevo unos días trabajando en un portátil y todavía no estoy muy acostumbrado a trabajar sobre el teclado con las manos tan juntas. Uno de los problemas con los que me encuentro es que los dedos gordos hay momentos en los que me rozan con el TouchPad y llegan a mover el cursor de posición, pudiendo cambiar el punto de inserción de texto o incluso borrar parte de lo ya escrito. No es un gran problema, pero hay veces que llega a ser molesto por la pérdida de tiempo o incluso información.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;He probado varias soluciones a este problema y voy a exponerlas aquí. Antes de nada, lo que a continuación escribo ten claro que lo he efectuado sobre la versión 18.3 de Linux Mint no garantizo su funcionamiento en otras versiones, distribuciones o plataformas.&lt;/p&gt;
+
+&lt;h3 id=&#34;solución-1-8211-desactivar-el-panel-mientras-se-escribe&#34;&gt;Solución 1 &amp;#8211; Desactivar el panel mientras se escribe&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_1.jpg&#34; alt=&#34;Desactivar panel LMint&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La primera solución que se me pone delante es la deshabilitación temporal del TouchPad mientras se esté escribiendo. El tiempo de deshabilitación es personalizable tal y como se puede ver en la imagen superior. He probado con un tiempo de 2 segundos y la verdad es que el resultado es bastante bueno y creo que esta es la mejor solución para mantener activo el panel pero sin que moleste mientras se escribe.&lt;/p&gt;
+
+&lt;h3 id=&#34;solución-2-8211-desactivar-el-panel-y-trabajar-con-ratón&#34;&gt;Solución 2 &amp;#8211; Desactivar el panel y trabajar con ratón.&lt;/h3&gt;
+
+&lt;p&gt;Personalmente, prefiero trabajar con el ratón que con el panel táctil, me parece más cómodo y preciso aunque tiene el problema de que tienes que cargar con un aparato más. Por esto he probado con esta segunda alternativa que pasa por desactivar el TouchPad desde el menú &amp;#8220;Ratón y panel táctil&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_2.jpg&#34; alt=&#34;Desactivar panel LMint&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La solución es perfectamente válida, pero presenta un pequeño problema y es que si no conectas el ratón el panel sigue deshabilitado y no hay forma de mover el cursor. Aunque es posible reactivar el panel mediante el uso del teclado, es un poco incómodo si te ocurre a menudo.&lt;/p&gt;
+
+&lt;h3 id=&#34;solución-3-8211-touchpad-indicator&#34;&gt;Solución 3 &amp;#8211; Touchpad Indicator&lt;/h3&gt;
+
+&lt;p&gt;Esta tercera, y de momento última solución pasa por instalar &lt;a href=&#34;https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/&#34;&gt;&amp;#8220;Touchpad Indicator&amp;#8221;&lt;/a&gt;. Este software ya advierte el autor de que lleva tiempo sin actualizarse, pero a día de hoy es perfectamente válido y funcional, con apenas tres líneas de código y menos de 2mb podemos instalarlo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install touchpad-indicator
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;y al mismo tiempo dar un repaso al blog de &lt;a href=&#34;https://www.atareao.es/&#34;&gt;El atareao&lt;/a&gt; donde puedes encontrar infinidad de soluciones para linux. Cuando esté instalado, lo arrancamos y aparecerá junto a los iconos de la barra de inicio. Click y abrimos las preferencias.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180127_touchpad_3.jpg&#34; alt=&#34;Preferencias Touchpad Indicator&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No voy a explicar todas las características de esta aplicación, ya que su autor las expone perfectamente en el enlace anterior. Solo reseñar la que para el problema de hoy me ha resultado útil y es que al conectar un ratón al ordenador se deshabilita el panel táctil.&lt;/p&gt;
+
+&lt;p&gt;De momento me quedo con esta tercera solución pero no se si será la definitiva. Si tienes alguna otra no dudes en dejar un comentario.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,8 +63,50 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/portatil-viejo-nueva-vida.--mi-vuelta-a-linux/</guid>
-      <description>La joya de la corona Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.
-Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles.</description>
+      <description>
+
+&lt;h3 id=&#34;la-joya-de-la-corona&#34;&gt;La joya de la corona&lt;/h3&gt;
+
+&lt;p&gt;Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.&lt;/p&gt;
+
+&lt;p&gt;Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles. El primero que he cogido es un Packard Bell EasyNote con 2.7Gb de Ram y las siguientes especificaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180126_easynote_01.jpg&#34; alt=&#34;Especificaciones Packark Bell EasyNote&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si, has leido bien, es un ordenador personal fabricado en 2007 que lo puedes comprar de segunda mano por menos de &lt;a href=&#34;http://www.ebay.es/itm/Portatil-Packard-Bell-EasyNote-Mx52-Amd-Turion-X2-1-6ghz-3Gb-RAM-Ati-X1200-/282591622764&#34;&gt;80€&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180126_easynote_02.jpg&#34; alt=&#34;Packard Bell EasyNote&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le conecto el cargador, lo enciendo y para mi arranca un fantástico Windows Vista con el que da pena trabajar por la lentitud del mismo.&lt;/p&gt;
+
+&lt;p&gt;Todavía no he probado ningún disco duro SSD y hace un tiempo que voy detrás de hacerlo así que creo que esta puede ser una gran oportunidad. Infinidad de marcas y modelos hacen difícil la decisión, lo único que tengo claro es que tiene que ser de 2.5&amp;#8243; y que no hace falta que sea de más de 120GB (incluso con 60Gb me apaño). Opto por la garantía de una marca conocida comprando este &lt;a href=&#34;https://www.amazon.es/Kingston-SSD-Now-UV400-s%C3%B3lido/dp/B01FJ4UN76/ref=sr_1_8/257-7834010-9926429?ie=UTF8&amp;amp;amp;qid=1517074188&amp;amp;amp;sr=8-8&amp;amp;amp;keywords=ssd&#34;&gt;Kingston&lt;/a&gt; aunque me suponga tener que invertir unos euros de más.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180128_ssd_kingstone_01.jpg&#34; alt=&#34;ssd kingstone 120gb&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Algo de miedo si que hay por que el disco no funcione en un pc tan &amp;#8220;viejo&amp;#8221; pero tengo a Amazon de mi lado para darme un poco de tranquilidad por si tengo que devolverlo. Un par de días, un destornillador y ya estoy listo para la operación&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180128_ssd_easynote_01.jpg&#34; alt=&#34;EasyNote y SSD Kingstone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sólo hay que quitar la batería, un par de tornillos de la tapa con sus correspondientes pegatinas protectoras, sacar el disco estirando para atrás tirando de la lengüeta y cambiar el soporte al disco ssd para terminar invirtiendo estas operaciones. Complejidad, ninguna, sólo un poco de cuidado de estirar hacia atrás y luego levantar cuando el disco ya está totalmente desconectado.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;y-ahora-8230-que-le-instalo&#34;&gt;Y ahora&amp;#8230; que le instalo?&lt;/h3&gt;
+
+&lt;p&gt;La verdad es que no he perdido mucho tiempo en la toma de esta decisión y aunque se me pasara levemente la instalación de Chromium OS (Que no descarto terminar provándolo en alguna otra antigualla), he oido hablar tanto de las bondades de Linux Mint en lo que se refiere a facilidad de instalación y compatibilidad con la mayoría del hardware que no valoro ninguna otra posibilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180128_logo_mint_01.jpg&#34; alt=&#34;Logo Linux Mint&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La instalación es coser y cantar siguiendo este detallado &lt;a href=&#34;https://ubunlog.com/instalar-linux-mint-desde-usb/&#34;&gt;tutorial&lt;/a&gt; para instalarlo desde un pendrive usb.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Si en el proceso de instalación pide una contraseña tras apagarse la pantalla, usa &amp;#8220;mint&amp;#8221; y no hagas como yo que lo volví a instalar pensando que había introducido mal la contraseña.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si has configurado la red wifi antes de realizar el proceso de instalación podrás completar la distribución de Linux con software de terceros que será descargado.&lt;/p&gt;
+
+&lt;p&gt;A partir de aquí, paciencia con los cambios y constancia para intentar hacer lo mismo que hago con Windows y el equipo de sobremesa, iremos informando&amp;#8230;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

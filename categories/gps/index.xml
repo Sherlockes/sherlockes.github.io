@@ -3,12 +3,12 @@
   <channel>
     <title>Gps on Sherblog</title>
     <link>/categories/gps/</link>
-    <description>Recent content in Gps on Sherblog</description>
+    <description>Contenido reciente in Gps en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/gps/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/gps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,7 +19,21 @@
       <guid>/de-garmin-a-google-drive/</guid>
       <description>&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
 
-&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;</description>
+&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;
+
+&lt;h3 id=&#34;la-solución&#34;&gt;La solución&lt;/h3&gt;
+
+&lt;p&gt;No pido mucho, fijar un objetivo anual, uno mensual y un seguimiento diario de los kilómetros. Hacerlo en &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; o &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt; aunque es posible, es muy pesado por lo que para mi gusto pienso que resulta mucho más práctico hacerlo en una hoja de cálculo donde guardaré los datos de todas las salidas.&lt;/p&gt;
+
+&lt;p&gt;Pero&amp;hellip; ¿Como paso la información de cada salida a una hoja de cálculo? Resulta obvio que la introdución a mano de todos los datos no me lo planteo, debe ser de una forma automática&lt;/p&gt;
+
+&lt;p&gt;Pues bien, la solución que he encontrado es muy simple. Como ya he mencionado anteriormente, Garmin Connect y Strava los tengo sincronizados de forma que en el momento que termino la ruta el GPS la envía al primero y consecuentemente al segundo.&lt;/p&gt;
+
+&lt;p&gt;A continuación y gracias a &lt;a href=&#34;https://ifttt.com&#34;&gt;IFTTT&lt;/a&gt; tengo creada una receta para que cada vez que aparece una nueva ruta en mi perfil de Strava se añada una nueva línea a una hoja de cálculo en Google Drive. Para terminar ya solo resta formatear la información recibida en una segunda hoja para poderla tratar y generar mis estadísticas, pero esto ya lo contaré otro día&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Simple y efectivo, ahora cada nueva salida con la bicicleta aparecerá reflejada en mi hoja de estadísticas de &lt;a href=&#34;https://www.google.es/drive/apps.html&#34;&gt;Google Drive&lt;/a&gt; sin que tenga que mediar para nada.&lt;/p&gt;
+
+&lt;p&gt;Y esto es todo por hoy, pero día comentaré en profundidad todas las hojas y fórmulas dentro del archivo de Google Sheets dice va a parar la información de todas mis rutas en bicicleta.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,8 +42,25 @@
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/de-google-earth-a-mapa-para-garmin-en-5-minutos/</guid>
-      <description>Desde hace muchos años, utilizo Topohispania para la navegación en bicicleta con el Garmin Edge.
-Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es esto, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.</description>
+      <description>&lt;p&gt;Desde hace muchos años, utilizo &lt;a href=&#34;http://www.elgps.com/foroGPS/viewtopic.php?f=41&amp;amp;t=8646&#34;&gt;Topohispania&lt;/a&gt; para la navegación en bicicleta con el Garmin Edge.&lt;/p&gt;
+
+&lt;p&gt;Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es &lt;a href=&#34;http://www.foromtb.com/threads/paso-a-paso-crear-un-mapa-para-superponerlo-al-topohispania.888466/&#34;&gt;esto&lt;/a&gt;, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.&lt;/p&gt;
+
+&lt;p&gt;Busco un poco más y doy con la web &lt;a href=&#34;http://www.javawa.nl&#34;&gt;javawa&lt;/a&gt; que ofrece todo lo necesario con sólo seguir unos pocos pasos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dibujar el/los track en Google Earth (si son varios usar una carpeta)&lt;/li&gt;
+&lt;li&gt;Guardar lugar como&amp;#8230;(la ruta o la carpeta con varias) usando la extensión kml&lt;/li&gt;
+&lt;li&gt;Usar &lt;a href=&#34;http://gpsvisualizer&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.gpsvisualizer.com&#34;&gt;http://www.gpsvisualizer.com&lt;/a&gt;&lt;/a&gt; para convertir el archivo *.kml a *.gpx&lt;/li&gt;
+&lt;li&gt;Abrir IMGFromGPX (Se puede descargar desde &lt;a href=&#34;http://www.javawa.nl/imgfromgpx_en.html&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Arrastrar el archivo *.gpx a la ventana de IMGFromGPX&lt;/li&gt;
+&lt;li&gt;Seleccionar color y formato para la línea y nombre para el mapa&lt;/li&gt;
+&lt;li&gt;Crear mapa (Seleccionar la opción &amp;ldquo;Include creation of gmapsupp.img file&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Copiar el archivo gmapsupp.img al directorio raiz del gps (Atención, no sobreescribir)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y ya está, que habíamos quedado que esto se hacía en cinco minutos¡¡¡&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -38,8 +69,34 @@ Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las 
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/openstreetsmap-en-gps-garmin/</guid>
-      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
-Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
+      <description>&lt;p&gt;Para el que no lo conozca, &lt;a href=&#34;https://www.openstreetmap.org&#34;&gt;OpenStreetMap&lt;/a&gt; (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante &lt;a href=&#34;http://garmin.openstreetmap.nl&#34;&gt;esta&lt;/a&gt; web.&lt;/p&gt;
+
+&lt;p&gt;El proceso para la descarga es sencillo:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seleccionas el tipo de mapa (Recomiendo Generic Routable (new style))&lt;/li&gt;
+&lt;li&gt;Seleccionas el pais&lt;/li&gt;
+&lt;li&gt;Descargas el mapa&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si quieres, es posible la personalización de las zonas de covertura del mapa mediante la habilitación de la selección manual y seleccionando las zonas que deseeamos para nuestro mapa, dejamos nuestra dirección de correo y la web nos enviará un mensaje con un link para descargar el mapa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Las ventajas de estos mapas están más que claras. Son unos mapas gratuitos y de libre distribución. Además hay una gran comunidad detrás de la actualizaciones e incluso uno mismo puede realizar modificaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero no todo son buenas noticias, después de unos meses utilizándolos en mi experimentado edge 605 he terminado desinstalandolos por dos importantes razones. Por un lado, en las zonas rurales son muchos los caminos que no aparecen reflejados en la cartografía. Por otro lado, para ver dibujados los caminos hay que poner un nivel de zoom alto, en el momento que amplias al área de visualización desaparecen los caminos y ya solo puedes ver carreteras.&lt;/p&gt;
+
+&lt;p&gt;Con todo, recomiendo probarlos para que cada uno pueda sacar sus propias conclusiones e incluso dejar comentarios.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

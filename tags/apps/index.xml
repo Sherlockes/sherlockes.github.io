@@ -3,12 +3,12 @@
   <channel>
     <title>Apps on Sherblog</title>
     <link>/tags/apps/</link>
-    <description>Recent content in Apps on Sherblog</description>
+    <description>Contenido reciente in Apps en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,8 +17,26 @@
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/en-que-apps-android-me-he-gastado-dinero/</guid>
-      <description>Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.
-Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.</description>
+      <description>&lt;p&gt;Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.&lt;/p&gt;
+
+&lt;p&gt;Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.&lt;/p&gt;
+
+&lt;p&gt;Estas son las tres aplicaciones que recientemente he comprado en la Play Store.&lt;/p&gt;
+
+&lt;p&gt;1.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&#34;&gt;Podcast Addict&lt;/a&gt;. Hace todo lo que necesito para escuchar los podcast y aunque los gurús del tema utilizan PocketCast yo me he decidido por usar esta alternativa ya que el autor pone a disposición de todo el que quiera una versión gratuita completamente funcional con una simple publicidad en la parte baja de la app. La probé durante un par de meses hasta comprobar que tiene todo lo que necesito e hice la donación de 2.59€ para quitar la publicidad de la aplicación. Totalmente recomendable si escuchas Podcast.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160315_podcast_addict_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time Gps Tracker&lt;/a&gt;. Ya he hablado de esta aplicación &lt;a href=&#34;/aplicaciones-para-rastrear-personas-coches-perros/&#34;&gt;anteriormente&lt;/a&gt;, es simple, muy eficiente y 100% recomendable para la gente que sale al monte de excursión o a hacer deporte. Cualquiera con una conexión a internet y un navegador puede ver donde estás en tiempo real mientras estés ejecutando la aplicación. Con un buen ajuste el gasto de batería es ínfimo. La versión gratuita muestra publicidad en la zona inferior que puedes evitar con el pago de la suscripción anual de 3.6€. Es un poco latoso lo de pagar todos los años, pero la verdad es que uso mucho la aplicación y me es de gran utilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160315_rtt2_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=gudaps.smartdataswitch&#34;&gt;Smart Data Switch Pro&lt;/a&gt;. Si quieres un ahorro de batería importante y no te importa no recibir mensajes y notificaciones de forma instantánea esta es tu aplicación. La tengo configurada para activar la conexión de datos 1 minuto cada media hora y la batería dura mucho más. En este caso no hay versión gratuita y he usado durante un tiempo una versión pirata pero creo que ya es momento de demostrar el agradecimiento al autor por el trabajo bien hecho y la he comprado, al fin y al cabo sólo son 1.29€.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160315_smart_data_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hoy por hoy estás son las únicas aplicaciones de pago que utilizo en mi terminal android, el resto que llevo instaladas son gratuitas.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,8 +45,29 @@ Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/aplicaciones-para-rastrear-personas-coches-perros/</guid>
-      <description>En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo Alpify o My112 para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.
-En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo.</description>
+      <description>&lt;p&gt;En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo &lt;a href=&#34;https://play.google.com/store/apps/details?id=app.alpify&amp;amp;hl=es&#34;&gt;Alpify&lt;/a&gt; o &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.telefonica.my112&amp;amp;hl=es&#34;&gt;My112&lt;/a&gt; para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_01.jpg&#34; alt=&#34;imagen&#34; /&gt;
+&lt;img src=&#34;/images/20150901_emergencia_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo. Ademas, no siempre es una emergencia lo que tiene lugar y simplemente alguno de tus familiares puede estar preocupado por tu tardanza en la excursión por el monte.&lt;/p&gt;
+
+&lt;p&gt;En mis salidas en bicicleta, desde hace varios años utilizo &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time GPS Tracker II&lt;/a&gt; que por el momento sólo está disponible para android.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La aplicación es realmente simple de manejar aunque la configuración es un poco mas laboriosa. Hay que registrarse en la web de Greenalp e introducir estos datos del registro en la configuración de la aplicación del teléfono, arrancas la aplicación e inicias el seguimiento del botón de arriba a la derecha. A partir de aquí cualquiera podrá ver tu ubicación con simplemente acceder desde una navegador a esta dirección.&lt;/p&gt;
+
+&lt;p&gt;_&lt;a href=&#34;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&#34;&gt;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Donde tienes que cambiar el usuario por el que tu te hayas creado anteriormente y quien tenga curiosidad por saber donde estás podrá verlo en un pantallazo como el siguiente gracias a Google Maps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero no es oro todo lo que reluce, esta y todas las aplicaciones como Real Time GPS Tracker II presentan dos grandes problemas, el gasto de batería causado por la conexión de datos y el gps y la posible pérdida de cobertura o conectividad. Para minimizar el gasto de batería se puede modificar desde la pantalla de configuración la frecuencia con la que el teléfono conecta el GPS para buscar su ubicación y mandar los datos al servidor. Yo lo tengo configurado para que lo haga cada diez minutos con lo que el gasto de batería es prácticamente despreciable.&lt;/p&gt;
+
+&lt;p&gt;No he pretendido con esto hacer un manual de funcionamiento de la aplicación.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -3,12 +3,12 @@
   <channel>
     <title>A Pedales on Sherblog</title>
     <link>/categories/a-pedales/</link>
-    <description>Recent content in A Pedales on Sherblog</description>
+    <description>Contenido reciente in A Pedales en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/a-pedales/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/a-pedales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,44 @@
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/apurada-de-frenada/</guid>
-      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro. Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.</description>
+      <description>
+
+&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
+
+&lt;p&gt;Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma.  Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro.  Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.&lt;/p&gt;
+
+&lt;p&gt;Toca planificar una ruta de retorno &amp;ldquo;segura&amp;rdquo; e ir pensando en cambiar las pastillas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_01.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pues si, he apurado demasiado la pastilla, hasta el punto de que el soporte metálico de la misma ha rozado con el disco.  Por suerte el disco no presenta, según mi criterio, nigún desperfecto que obligue a cambiarlo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_03.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Todos los frenos de disco hidráulicos que he usado en mis bicicletas hasta ahora han sido Shimano y el cambio de pastillas no tiene ninguna complejidad siguiendo estos pasos&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No tocar la maneta de freno hasta haber colocado las pastillas nuevas&lt;/li&gt;
+&lt;li&gt;Quitar el pasador que sujeta las pastillas&lt;/li&gt;
+&lt;li&gt;Quitar las pastillas viejas&lt;/li&gt;
+&lt;li&gt;Limpiar y lubricar el alojamiento de las pastillas y los pistones&lt;/li&gt;
+&lt;li&gt;Quitar todos los restos de lubricante&lt;/li&gt;
+&lt;li&gt;Montar  de nuevo las pastillas viejas&lt;/li&gt;
+&lt;li&gt;Apalancar con un destornillador grande entre las pastillas para que retornen los pistones (Si no retornan de todo no cabrá el disco entre las pastillas al colocar las nuevas)&lt;/li&gt;
+&lt;li&gt;Quitar las pastillas viejas&lt;/li&gt;
+&lt;li&gt;Limpiar nuevamente el alojamiento de las pastillas&lt;/li&gt;
+&lt;li&gt;Colocar las pastillas nuevas&lt;/li&gt;
+&lt;li&gt;Colocar el pasador&lt;/li&gt;
+&lt;li&gt;Comprobar el funcionamiento&lt;/li&gt;
+&lt;li&gt;Alinear la pinza o el disco si es necesario&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Por si las images anteriores no resultan muy aclaratorias, aquí se puede ver la diferencia entre una de las pastillas que he quitado y la otra nueva que he colocado.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180821_pastillas_02.jpg&#34; alt=&#34;pastilla&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Podía haber sido mucho peor si en casa no hubiera tenido unas pastillas que compré hace un tiempo ya que habría tenido que ir a comprarlas o esperar a que me llegase el envío&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -26,8 +63,24 @@
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/cubierta-ko-decathlon-ok/</guid>
-      <description>Con menos de tres meses montada en la rueda trasera de la bicicleta de carretera, la cubierta BTWIN Resist Protect que compré en Decathlon presenta este aspecto.
-Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna causa probable más allá de un defecto de fabricación ya que la cubierta no ha sido especialmente expuesta a malas condiciones atmosféricas y la presión de inflado ha estado siempre dentro de los valores recomendados por el fabricante.</description>
+      <description>&lt;p&gt;Con menos de tres meses montada en la rueda trasera de la bicicleta de carretera, la cubierta &lt;a href=&#34;https://www.decathlon.es/neum-resist-5-700x25-protect-id_8386929.html&#34;&gt;BTWIN Resist Protect&lt;/a&gt; que compré en Decathlon presenta este aspecto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170720_cubierta_btwin_ko.jpg&#34; alt=&#34;cubierta&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna causa probable más allá de un defecto de fabricación ya que la cubierta no ha sido especialmente expuesta a malas condiciones atmosféricas y la presión de inflado ha estado siempre dentro de los valores recomendados por el fabricante.&lt;/p&gt;
+
+&lt;p&gt;Apenas cuesta 15€ y lleva más de 1000km rodados pero me sabe malo tener que tirar una cubierta sin haberla desgastado, así que me dirijo al Decathlon donde la compré con la intención de que me den alguna explicación aunque sin mucha esperanza por obtener algún tipo de reembolso.&lt;/p&gt;
+
+&lt;p&gt;Pues bien. Sin necesidad de presentar el ticket de compra, simplemente con la tarjeta de fidelización del centro y sólo con ver la cubierta, el comercial me hace un reembolso del valor completo del producto sin poner ningún tipo de traba.&lt;/p&gt;
+
+&lt;p&gt;Un diez por la atención al cliente en Decathlon aunque un cero por la calidad de este producto de su marca.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Un año después me ha vuelto a pasar, el mismo modelo de cubierta y la misma tienda Decathlon aunque esta vez la compré en Mayo por 10€ y la he quitado en Agosto con algo menos de 2000 km rodados. Nuevamente me han devuelto el dinero sin ningún problema y he hecho unos cuantos kilómetros gratis. Consecuencia, me voy de la tienda nuevamente a casa con el mismo modelo de cubierta y a ver que tal va esta.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180813_cubierta_ko.jpg&#34; alt=&#34;cubierta&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -36,10 +89,14 @@ Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna cau
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/barrancos-del-sur-de-zaragoza/</guid>
-      <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
-Ver pantalla completa
-También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
-Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
+      <description>&lt;p&gt;Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;500px&#34; height=&#34;300px&#34; frameBorder=&#34;0&#34; src=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false&#34;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825&#34;&gt;Ver pantalla completa&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;También puedes descargar el archivo desde &lt;a href=&#34;/files/brrzgz.gpx&#34;&gt;aquí&lt;/a&gt; para abrirlo con con &lt;a href=&#34;https://www.google.es/intl/es_es/earth/download/ge/agree.html&#34;&gt;Google Earth&lt;/a&gt; o tu editor preferido.&lt;/p&gt;
+
+&lt;p&gt;Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -48,8 +105,39 @@ Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y s
       <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</guid>
-      <description>Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.
-El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.</description>
+      <description>&lt;p&gt;Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.&lt;/p&gt;
+
+&lt;p&gt;El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.&lt;/p&gt;
+
+&lt;p&gt;Poco más adelante compruebo que al hacer el contrapedal con los piñones pequeños a la piñonera le cuesta girar al revés y va como a trompicones. Paro un momento a ver que puede ser el origen de este comportamiento anómalo y veo que hay entre la roldana inferior y la pata del cambio unas hierbas que pueden comprometer su correcto funcionamiento. Hace dos años ya tuve un &lt;a href=&#34;/avería-de-las-roldanas-del-cambio/&#34;&gt;problema similar&lt;/a&gt; con una de las rulinas por lo que autoconvenzo rápidamente de que el problema puede venir por ahí.&lt;/p&gt;
+
+&lt;p&gt;Unos kilómetros más adelante el problema se amplifica apareciendo un ruido extraño a vuelta de rueda cuando dejo de pedalear. Parece que la culpa no va a ser de las roldanas y empiezo a pensar que puede haber algún problema con el núcleo de la rueda trasera similar a &lt;a href=&#34;/avería-en-el-núcleo-shimano-fh-m475/&#34;&gt;esto que me ocurrió&lt;/a&gt; hace ya casi cinco años.&lt;/p&gt;
+
+&lt;p&gt;Poco tarda en terminar de complicarse el problema y me encuentro con que no puedo dejar de dar pedales ya que en el momento que lo hago la piñonera sigue girando y hace que se salga la cadena del plato con el consiguiente riesgo de que se enrede en el buje, la biela, la pata del cambio o la rueda y provoque una avería mayor o incluso una caída.&lt;/p&gt;
+
+&lt;p&gt;Pues nada toca volver a casa sin parar de darle a los pedales, con piñones grandes y frenando en las bajadas. Mientras se pasan muchas cosas por la cabeza:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bastará con desmontar el buje y el núcleo, limpiarlo y engrasarlo?&lt;/li&gt;
+&lt;li&gt;¿Se habrá roto el buje o solo el núcleo?&lt;/li&gt;
+&lt;li&gt;La rueda todavía no tiene dos años. ¿Lo cubrirá la garantía?&lt;/li&gt;
+&lt;li&gt;¿Que hago, la llevo a la tienda donde la compré o intento apañarla yo mismo?&lt;/li&gt;
+&lt;li&gt;¿Como se ha podido romper si no lleva la rueda 2000 kilómetros?&lt;/li&gt;
+&lt;li&gt;¿Será por que dedico al mantenimiento de la bici menos tiempo que antes?&lt;/li&gt;
+&lt;li&gt;¿Será por que el casete 11-46 hace trabajar demasiado al buje y el núcleo&lt;/li&gt;
+&lt;li&gt;¿Le monto un 11-42 la próxima vez para evitar que vuelva a ocurrir?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En fin, todas estas dudas y seguro que alguna más que ahora no me acuerdo, me asaltan los menos de diez kilómetros de vuelta a casa. Cuando ya estoy llegando miro hacia un lado y al ver la sombra que produce la bicicleta algo me llama la atención. El plástico que proteje los radios de la rueda trasera de los descuelgues de cadena desde el piñón grande está anormalmente descentrado. Apoyo la bicicleta en la puerta del garaje miro el plástico protector y&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20171231_plastico_cassete_01.jpg&#34; alt=&#34;cassete&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pues si, la avería más tonta que hasta la fecha me ha ocurrido. No se si se aprecia bien en la imagen pero el problema es sencillo, una de las patillas que fija el plástico protector a los radios tiene la pestaña rota, se ha movido y se ha colocado por delante de los radios. De esta forma, los radios están siendo forzados contra la araña por parte del plástico. El problema es sencillo y la solución también.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20171231_plastico_cassete_03.jpg&#34; alt=&#34;cassete&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Puesto que el plástico ya está roto no voy a perder tiempo en desmontar la rueda y el cassete para sacarlo.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -58,8 +146,25 @@ El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tr
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/de-google-earth-a-mapa-para-garmin-en-5-minutos/</guid>
-      <description>Desde hace muchos años, utilizo Topohispania para la navegación en bicicleta con el Garmin Edge.
-Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es esto, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.</description>
+      <description>&lt;p&gt;Desde hace muchos años, utilizo &lt;a href=&#34;http://www.elgps.com/foroGPS/viewtopic.php?f=41&amp;amp;t=8646&#34;&gt;Topohispania&lt;/a&gt; para la navegación en bicicleta con el Garmin Edge.&lt;/p&gt;
+
+&lt;p&gt;Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es &lt;a href=&#34;http://www.foromtb.com/threads/paso-a-paso-crear-un-mapa-para-superponerlo-al-topohispania.888466/&#34;&gt;esto&lt;/a&gt;, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.&lt;/p&gt;
+
+&lt;p&gt;Busco un poco más y doy con la web &lt;a href=&#34;http://www.javawa.nl&#34;&gt;javawa&lt;/a&gt; que ofrece todo lo necesario con sólo seguir unos pocos pasos.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dibujar el/los track en Google Earth (si son varios usar una carpeta)&lt;/li&gt;
+&lt;li&gt;Guardar lugar como&amp;#8230;(la ruta o la carpeta con varias) usando la extensión kml&lt;/li&gt;
+&lt;li&gt;Usar &lt;a href=&#34;http://gpsvisualizer&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://www.gpsvisualizer.com&#34;&gt;http://www.gpsvisualizer.com&lt;/a&gt;&lt;/a&gt; para convertir el archivo *.kml a *.gpx&lt;/li&gt;
+&lt;li&gt;Abrir IMGFromGPX (Se puede descargar desde &lt;a href=&#34;http://www.javawa.nl/imgfromgpx_en.html&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Arrastrar el archivo *.gpx a la ventana de IMGFromGPX&lt;/li&gt;
+&lt;li&gt;Seleccionar color y formato para la línea y nombre para el mapa&lt;/li&gt;
+&lt;li&gt;Crear mapa (Seleccionar la opción &amp;ldquo;Include creation of gmapsupp.img file&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Copiar el archivo gmapsupp.img al directorio raiz del gps (Atención, no sobreescribir)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Y ya está, que habíamos quedado que esto se hacía en cinco minutos¡¡¡&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -68,8 +173,34 @@ Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las 
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/openstreetsmap-en-gps-garmin/</guid>
-      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
-Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
+      <description>&lt;p&gt;Para el que no lo conozca, &lt;a href=&#34;https://www.openstreetmap.org&#34;&gt;OpenStreetMap&lt;/a&gt; (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante &lt;a href=&#34;http://garmin.openstreetmap.nl&#34;&gt;esta&lt;/a&gt; web.&lt;/p&gt;
+
+&lt;p&gt;El proceso para la descarga es sencillo:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seleccionas el tipo de mapa (Recomiendo Generic Routable (new style))&lt;/li&gt;
+&lt;li&gt;Seleccionas el pais&lt;/li&gt;
+&lt;li&gt;Descargas el mapa&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si quieres, es posible la personalización de las zonas de covertura del mapa mediante la habilitación de la selección manual y seleccionando las zonas que deseeamos para nuestro mapa, dejamos nuestra dirección de correo y la web nos enviará un mensaje con un link para descargar el mapa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Las ventajas de estos mapas están más que claras. Son unos mapas gratuitos y de libre distribución. Además hay una gran comunidad detrás de la actualizaciones e incluso uno mismo puede realizar modificaciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20170426_openstreetmaps_garmin_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pero no todo son buenas noticias, después de unos meses utilizándolos en mi experimentado edge 605 he terminado desinstalandolos por dos importantes razones. Por un lado, en las zonas rurales son muchos los caminos que no aparecen reflejados en la cartografía. Por otro lado, para ver dibujados los caminos hay que poner un nivel de zoom alto, en el momento que amplias al área de visualización desaparecen los caminos y ya solo puedes ver carreteras.&lt;/p&gt;
+
+&lt;p&gt;Con todo, recomiendo probarlos para que cada uno pueda sacar sus propias conclusiones e incluso dejar comentarios.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -78,8 +209,34 @@ Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps d
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</guid>
-      <description>Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los Ritchey WCS True Grip Ergo con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.
-Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€.</description>
+      <description>&lt;p&gt;Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los &lt;a href=&#34;http://ritcheylogic.com/wcs-ergo-true-grip&#34;&gt;Ritchey WCS True Grip Ergo&lt;/a&gt; con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.&lt;/p&gt;
+
+&lt;p&gt;Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€. Pero esto sólo es el precio de catalogo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_chain.jpg&#34; alt=&#34;chainreaction&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Navegando un poco por la red no es difícil encontrar mejores precios.  En &lt;a href=&#34;http://www.bicimarket.com/Componentes-Punos-y-Cintas-Ritchey-WCS-True-Grip-Ergo-p12234.html&#34;&gt;bicimarket&lt;/a&gt;, una tienda española, están a la venta por un poco menos de 11€ y en &lt;a href=&#34;http://www.chainreactioncycles.com/es/es/punos-de-espuma-ergo-ritchey-wcs-truegrip/rp-prod39256&#34;&gt;chainreaction&lt;/a&gt;, quizás la mayor tienda de componentes para la bicicleta a nivel mundial, por apenas 9€.  Eso sí, en las dos tiendas al precio anterior hay que sumar los 6 o 7 euros respectivamente de gastos de envío.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_bici.jpg&#34; alt=&#34;bicimarket&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Como los puños me corren cierta prisa ya que los que llevo están llegando al final de sus días y no necesito comprar nada más, los gastos de envio suponen un incremento de más del 50% en el precio final.  Por esto sigo buscando alguna alternativa que me abarate el coste.&lt;/p&gt;
+
+&lt;p&gt;Buscando en Amazon me encuentro con que tienen a la venta los puños que estoy buscando y como cliente premium este producto es uno de los que los gastos de envío son gratis por lo que el precio final de los puños queda por debajo de los 9€ puestos en casa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160713_ritchey_amazon.jpg&#34; alt=&#34;amazon&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Los puños llegan rápido y en aparentes buenas condiciones tal y como suele ocurrir con las compras en Amazon, pero los instalo en la bicicleta y transcurridas unas pocas semanas esto es lo que ocurre.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20160608_puno_ritchey.jpg&#34; alt=&#34;puno&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sin haberles dado un mal uso ni mojado o lavado ambos puños comienzan a rajarse progresivamente hasta el punto de hacerlos inservibles y tengo que cambiarlos.&lt;/p&gt;
+
+&lt;p&gt;Descartó por completo que yo haya sido el culpable de este deterioro por lo que mi reflexión viene aquí, ¿Se han roto los puños de forma prematura por un defecto de fabricación o simplemente han llegado a su fecha de caducidad antes de que los comprase?  Amazon vende muchos productos de todo tipo pero&amp;hellip; ¿Cuánto tiempo habrá pasado desde que comprara este lote de puños?&lt;/p&gt;
+
+&lt;p&gt;Evidentemente dejo mi opinión negativa junto con una fotografía en la web de amazon con lo que las estrellas del producto bajan a poco más de dos tal y como puede verse en la imagen anterior. En otras webs que he dejado valoraciones negativas ante productos de poca calidad el vendedor se ha puesto en contacto conmigo pero hasta la fecha Amazon no lo ha hecho.&lt;/p&gt;
+
+&lt;p&gt;Y como moraleja de todo esto&amp;hellip; Cuando te apetezca un kebab compraló en el sitio que más venda pues cambiará el rulo más a menudo.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -88,8 +245,30 @@ Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la ve
       <pubDate>Wed, 29 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/fixie-o-single-speed/</guid>
-      <description>Hace mucho tiempo que quería probar la experiencia de ir en fixie por la ciudad ya que la web está repleta de comentarios sobre sus bondades.&amp;nbsp;
-Hace varios meses que circulo con una Single Speed con la que estoy muy contento. La rueda trasera esta montada sobre un buje flip-flop por lo que convertir la bicicleta de una sola velocidad en una fixie es tan sencillo como darle la vuelta a la rueda.</description>
+      <description>&lt;p&gt;Hace mucho tiempo que quería probar la experiencia de ir en fixie por la ciudad ya que la web está repleta de comentarios sobre sus bondades.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Hace varios meses que circulo con una Single Speed con la que estoy muy contento. La rueda trasera esta montada sobre un buje flip-flop por lo que convertir la bicicleta de una sola velocidad en una fixie es tan sencillo como darle la vuelta a la rueda.&lt;/p&gt;
+
+&lt;p&gt;Pues bien, hace unos días me decidí a dar el paso y tras tan sólo tres días de circular en fixie entre el tráfico básicamente no encuentro más que desventajas a su uso frente a la Single Speed. Es posible que el uso de la fixie con pedales automáticos o calas mejore la experiencia frente a su uso con pedales de plataforma sin calas que yo he empleado pero no creo que el cambio sea tan radical como para combatir todas las desventajas que a continuación paso a enumerar.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Es necesario un alto grado de habilidad en el manejo de la bici para desenvolverte con Soltura.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Si en un momento determinado te olvidas de que vas montado en una fixie y dejas de dar pedales te vas a dar un buen susto.&lt;/li&gt;
+&lt;li&gt;Te cansas más ya que las piernas están constantemente transmitiendo potencia a la rueda trasera.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Aunque los puristas lo hacen, personalmente me parece que ir sin freno delantero es una temeridad por lo que no aligeras la bici frente a una Single Speed.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;En las cuestas abajo no puedes dejar que se lance la bicicleta y tienes que ir reteniendo con las piernas. Si en un momento de te sueltan los pies de los pedales más vale que lleves freno delantero.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Subir y bajar los bordillos se vuelve más complicado, ya que hay que tirar del manillar mientras das &amp;nbsp;pedales.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Parar en un punto exacto para mantener el equilibrio no es nada fácil, ya que en la mayoría de los casos no vas a quedar en este punto con las bielas en posición horizontal.&lt;/li&gt;
+&lt;li&gt;Si parar con exactitud es complicado, tan difícil es arrancar cuando has parado con las bielas &amp;nbsp;en una posición cercana a la vertical ya que apenas se puede transmitir potencia.&lt;/li&gt;
+&lt;li&gt;Los elementos de la transmisión sufren un mayor desgaste al trabajar tanto en aceleración como en frenado.&lt;/li&gt;
+&lt;li&gt;En pasos estrechos no puedes no puedes aprovechar la inercia que llevas para conseguir precisión y equilibrio.&lt;/li&gt;
+&lt;li&gt;Así como las zapatas están pensadas para frenar no ocurre lo mismo con las rodillas. Si eres alguien &amp;nbsp;con mucha inercia tus rodillas van a sufrir en las frenadas.&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Con todo lo anterior no soy capaz de encontrar ninguna &amp;nbsp;ventaja al uso de la fixie frente a la Single Speed por lo que me quedo con esta última para mis desplazamientos diarios.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Si eres de los puristas que defienden el uso de fixies o simplemente eres capaz de ver en ellas alguna ventaja que yo no he visto&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -98,8 +277,48 @@ Hace varios meses que circulo con una Single Speed con la que estoy muy contento
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/aver%C3%ADa-de-las-roldanas-del-cambio/</guid>
-      <description>La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.
-Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada y sólo permite el giro en un sentido, por suerte es que que permite avanzar a la bicicleta por lo que no me impide llegar a casa montado sobre la misma.</description>
+      <description>
+
+&lt;p&gt;La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.&lt;/p&gt;
+
+&lt;p&gt;Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada y sólo permite el giro en un sentido, por suerte es que que permite avanzar a la bicicleta por lo que no me impide llegar a casa montado sobre la misma.&lt;/p&gt;
+
+&lt;p&gt;Después de un primer diagnóstico, todo indica que el rodamiento sellado de la roldana inferior está destrozado, el sello se ha roto parcialmente y la jaula que sujeta las bolas se ha partido actuando como trinquete y no dejando girar la roldana hacia detrás. Una buena ración de grasa y quitar las partes de la jaula sueltas me permite seguir funcionando con la bicicleta unos días hasta que consigo los repuestos.&lt;/p&gt;
+
+&lt;h3 id=&#34;cambio-de-las-roldanas&#34;&gt;Cambio de las roldanas&lt;/h3&gt;
+
+&lt;p&gt;Para trabajar mejor opto por desmontar la rueda y la cadena, operaciones que cuestan un par de minutos pero que facilitan notablemente el trabajo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_01.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En la imagen superior se puede ver el rastro de grasa que ha ido saliendo del rodamiento durante los apenas cien kilómetros que he hecho desde que detecté la avería hasta el momento del cambio de las roldanas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_02.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cada una de las roldanas va fijada con un tornillo allen pasante que une las dos piezas del tensor y las roldanas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_03.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quitando los dos tornillos nos quedaremos en la mano con las dos roldanas y medio tensor. En la imagen se puede ver como exteriormente las roldanas no están ni a mitad de uso y todavía no han cogido el aspecto, una lástima que la vida del rodamiento haya llegado a su fin.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_04.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Las roldanas que he comprado son polivalentes ya que sirven para muchos modelos de cambio, tan sólo hay que complementarlas con la pieza adecuada dentro de las que vienen en el kit de montaje&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_05.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Se montan los dos espaciadores con un poco de lubricante en el centro de cada una de las roldanas y ya están preparadas para el montaje. Hay que preparar especial atención en colocar las roldanas en su posición correcta, la superior más cerca del cambio y la inferior en el extremo del tensor. Nunca está de más antes de realizar el montaje final realizar una limpieza a fondo de toda la zona con un trapo y algo de desengrasante, evitaremos posibles crujidos, lograremos un mejor funcionamiento y prolongaremos la vida de los componentes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_06.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;como-evitar-esta-avería&#34;&gt;Como evitar esta avería&lt;/h3&gt;
+
+&lt;p&gt;Tal y como se puede ver en la siguiente imagen, esta avería ha sido provocada por la rotura del sello del rodamiento de la roldana inferior que posteriormente ha provocado la rotura de la jaula interior del rodamiento por pérdida del lubricante.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20151103_roldana_07.jpg&#34; alt=&#34;Roldana&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El desencadenante de todo este proceso ha sido un pequeño trozo de cuerda de las que se emplean para las balas de paja que se enrolló en la roldana y que poco a poco ha ido rompiendo el rodamiento. De haberme dado cuenta de esta circunstancia se podría haber desmontado la roldana y limpiado de restos de cuerda para prolongar la vida de la roldana durante varios miles de kilómetros más. De esta forma la reparación me ha costado 17€ y una hora de trabajo.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -108,8 +327,24 @@ Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada
       <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
       
       <guid>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</guid>
-      <description>Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).
-Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar.</description>
+      <description>&lt;p&gt;Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).&lt;/p&gt;
+
+&lt;p&gt;Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar. En una avería rara, ya que te bajas de la bici, miras y no ves nada roto, todo está en su sitio pero no hay manera de que ande la bici.&lt;/p&gt;
+
+&lt;p&gt;En un primer momento, lo único que se me pasa por la cabeza es que se ha partido el muelle de los trinquetes así que me dispongo a desmontar el núcleo del buje de la rueda trasera. Tras una larga batalla que prometo contar otro día accedo a la pieza que soporta los trinquetes y el muelle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_roto.jpg&#34; alt=&#34;Nucleo roto&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Como es la primera vez que veo esta pieza, lo único que me llama la atención es que parece que en los trinquetes hay cierto grado de desgaste, si los comparamos con la misma pieza en buen estado&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_sano.jpg&#34; alt=&#34;Nucleo sano&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pues si, los trinquetes están destrozados y la más clara muestra es que entre la grasa y las bolas del interior del núcleo han salido los restos de las uñas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20130307_nucleo_unas.jpg&#34; alt=&#34;Nucleo unas&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No he sido capaz de encontrar en la red trinquetes de repuesto y el núcleo suelto cuesta lo mismo que el buje completo, así que he comprado el &lt;a href=&#34;http://www.chainreactioncycles.com/Models.aspx?ModelID=38215&#34;&gt;buje&lt;/a&gt; y he cambiado el núcleo roto por el sano.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

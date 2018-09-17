@@ -3,12 +3,12 @@
   <channel>
     <title>Raspberry Pi desde cero on Sherblog</title>
     <link>/post/raspberry/</link>
-    <description>Recent content in Raspberry Pi desde cero on Sherblog</description>
+    <description>Contenido reciente in Raspberry Pi desde cero en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/raspberry/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/post/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,199 @@
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
-      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
-La instalación es realmente sencilla gracias al script que hay en la web oficial
-curl https://rclone.</description>
+      <description>&lt;p&gt;En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. &lt;a href=&#34;https://rclone.org&#34;&gt;Rclone&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La instalación es realmente sencilla gracias al script que hay en la web oficial&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;curl https://rclone.org/install.sh | sudo bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Podemos comprobar que se ha instalado correctemente mediante el comando&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rclone -V
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hasta aquí bastante sencillo, el problema viene en el momento que intentamos configurar cualquiera de las nubes ya que, a priori, es necessario un entorno gráfico para conseguir el código de autorización a través del navegador web.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Por la red circulan varios tutoriales para realizar esta configuración de las nubes mediante navegadores web en línea de comando en modo texto y&amp;hellip; después de probar varios no he conseguido que me funcione ninguno para esta operación.  A unos del falla el javascript&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En ausencia de entorno gráfico en  la Raspberry voy a utilizar el viejo portatil con linux Mint desde el que accedo a la misma para realizar esta configuración.&lt;/p&gt;
+
+&lt;p&gt;Empezamos a añadir una nueva nube mediante&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rclone config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;y nos aparecen las suigiente opciones&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;No remotes found - make a new one
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Optamos por &amp;ldquo;n&amp;rdquo; para añadir una nueva nube remota.  En mi caso voy a realizar una sincroización con Google Drive por lo que cuando se me solicita el nombre utilizo &amp;ldquo;gdrive&amp;rdquo; y ante la opción &amp;ldquo;storage&amp;rdquo; selecciono el 11 que es el correspondiente a Google Drive.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Type of storage to configure.
+Enter a string value. Press Enter for the default (&amp;quot;&amp;quot;).
+Choose a number from below, or type in your own value
+ 1 / Alias for a existing remote
+   \ &amp;quot;alias&amp;quot;
+ 2 / Amazon Drive
+   \ &amp;quot;amazon cloud drive&amp;quot;
+ 3 / Amazon S3 Compliant Storage Providers (AWS, Ceph, Dreamhost, IBM COS, Minio)
+   \ &amp;quot;s3&amp;quot;
+ 4 / Backblaze B2
+   \ &amp;quot;b2&amp;quot;
+ 5 / Box
+   \ &amp;quot;box&amp;quot;
+ 6 / Cache a remote
+   \ &amp;quot;cache&amp;quot;
+ 7 / Dropbox
+   \ &amp;quot;dropbox&amp;quot;
+ 8 / Encrypt/Decrypt a remote
+   \ &amp;quot;crypt&amp;quot;
+ 9 / FTP Connection
+   \ &amp;quot;ftp&amp;quot;
+10 / Google Cloud Storage (this is not Google Drive)
+   \ &amp;quot;google cloud storage&amp;quot;
+11 / Google Drive
+   \ &amp;quot;drive&amp;quot;
+12 / Hubic
+   \ &amp;quot;hubic&amp;quot;
+13 / JottaCloud
+   \ &amp;quot;jottacloud&amp;quot;
+14 / Local Disk
+   \ &amp;quot;local&amp;quot;
+15 / Mega
+   \ &amp;quot;mega&amp;quot;
+16 / Microsoft Azure Blob Storage
+   \ &amp;quot;azureblob&amp;quot;
+17 / Microsoft OneDrive
+   \ &amp;quot;onedrive&amp;quot;
+18 / OpenDrive
+   \ &amp;quot;opendrive&amp;quot;
+19 / Openstack Swift (Rackspace Cloud Files, Memset Memstore, OVH)
+   \ &amp;quot;swift&amp;quot;
+20 / Pcloud
+   \ &amp;quot;pcloud&amp;quot;
+21 / QingCloud Object Storage
+   \ &amp;quot;qingstor&amp;quot;
+22 / SSH/SFTP Connection
+   \ &amp;quot;sftp&amp;quot;
+23 / Webdav
+   \ &amp;quot;webdav&amp;quot;
+24 / Yandex Disk
+   \ &amp;quot;yandex&amp;quot;
+25 / http Connection
+   \ &amp;quot;http&amp;quot;
+Storage&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A continuación, las opciones &amp;ldquo;client_id&amp;rdquo; y &amp;ldquo;client_secret&amp;rdquo; las dejo en blanco.  La siguiente opción es el tipo de acceso que voy a necesitar, sólo lectura, lectura y escritura&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt; 1 / Full access all files, excluding Application Data Folder.
+   \ &amp;quot;drive&amp;quot;
+ 2 / Read-only access to file metadata and file contents.
+   \ &amp;quot;drive.readonly&amp;quot;
+   / Access to files created by rclone only.
+ 3 | These are visible in the drive website.
+   | File authorization is revoked when the user deauthorizes the app.
+   \ &amp;quot;drive.file&amp;quot;
+   / Allows read and write access to the Application Data folder.
+ 4 | This is not visible in the drive website.
+   \ &amp;quot;drive.appfolder&amp;quot;
+   / Allows read-only access to file metadata but
+ 5 | does not allow any access to read or download file content.
+   \ &amp;quot;drive.metadata.readonly&amp;quot;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Selecciono &amp;ldquo;1&amp;rdquo; puesto que quiero tanto poder leer como escribir en las carpetas de la nube.&lt;/p&gt;
+
+&lt;p&gt;Ahora, la opcion &amp;ldquo;ID of the root folder&amp;rdquo; la dejo en blanco para poder acceder a toda la nube.  Deja tambien en blanco la opción &amp;ldquo;Service Account Credentials JSON file path&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;La siguiente opción es la configuración avanzada que no necesitamos.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Edit advanced config? (y/n)
+y) Yes
+n) No
+y/n&amp;gt; n
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Y ahora llega lo más interesante del post.  Cuando se nos pregunta por la configuración automática debemos seleccionar la opción &amp;ldquo;No&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Ya ha llegado el momento de la arte más interesante de este post para la que abriremos una nueva sesion de terminal pero en este caso directamente en la instalación de Linux Mint que tengo instalada en el portatil.  Hay que tener instalado Rclone tambien en esta máquina con navegador completo y entorno gráfico.  Si no lo tengo, lo instalo y a continuación ejecuto el siguiente comando.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rclone authorize &amp;quot;drive&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;He usado la opción &amp;ldquo;drive&amp;rdquo; por estar configurando una cuenta de Google Drive, para el resto de servicios hay que revisar la lista en la que anteriormente hemos seleccionado el tipo de nube para ver la opción que debemos poner entrecomillada.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si todo ha ido bien se nos abrirá el navegador en Linux Mint y nos pedirá la cuente de Google Drive a la que queremos dar permiso tal y como se muestra en la siguiente imagen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180910_raspberry_rclone_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tras permitir el acceso a Rclone a nuestra nube de google drive, si todo ha ido bien  nos aparece una ventana tan simple como expresiva&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/images/20180910_raspberry_rclone_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y ya podemos cerrar el navegador para volver a la sesión de terminal sobre Linux Mint en la que aparecerá algo así&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Log in and authorize rclone for access
+Waiting for code...
+Got code
+Paste the following into your remote machine ---&amp;gt;
+{&amp;quot;access_token&amp;quot;:&amp;quot;ya29.GlsUErbFcat-9A3rWwjFXtLPnZyHTuaRiNMp9-Dshye44tciu3Ad1syvXrtCqXau_3N8gYt7d4bRzDsTlRVeF79Qcf8Id-IBvwW_wr88s-PELgRs9KKaf&amp;quot;,&amp;quot;token_type&amp;quot;:&amp;quot;Bearer&amp;quot;,&amp;quot;refresh_token&amp;quot;:&amp;quot;1/90zRjxj0d7fDh-W979DbnJ6xscxcsKto0ekygRo-97yOns&amp;quot;,&amp;quot;expiry&amp;quot;:&amp;quot;2018-09-10T18:22:45.52936872+02:00&amp;quot;}
+&amp;lt;---End pasteConfigure this as a team drive?
+y) Yes
+n) No
+y/n&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Y&amp;hellip; después de todo este trabajo y de intentar documentar sobre la marcha el &lt;a href=&#34;https://rclone.org/remote_setup/&#34;&gt;método oficial &lt;/a&gt; que debería funcionar resulta que me aparece un error por faltar el parámetro &amp;ldquo;Code&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Failed to configure token: failed to get token: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  &amp;quot;error&amp;quot; : &amp;quot;invalid_grant&amp;quot;,
+  &amp;quot;error_description&amp;quot; : &amp;quot;Malformed auth code.&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Toca probar el plan&amp;rdquo;b&amp;rdquo; que consiste en configurar la nube desde la instalación de Linux Mint y posterior mente copiar el archivo de configuración a la Raspberry. Con todo lo explicado anteriormente no creo que sea necesario más para configurar Google Drive en Rclone instalado sobre Linux Mint, sólo restaba en la últime opción escoger la opción &amp;ldquo;Si&amp;rdquo; en la configuración automática y se nos abre el navegador para permitir el acceso.&lt;/p&gt;
+
+&lt;p&gt;Con la nube configurada en Linux Mint hay que buscar el archivo de configuración de rclone que en mi caso se encuentra en &amp;ldquo;/home/sherlockes/.config/rclone/rclone.conf&amp;rdquo; para el caso de la instalación sobre el portatil  y en &amp;ldquo;/home/pi/.config/rclone/rclone.conf&amp;rdquo; para el caso de la Raspberry.&lt;/p&gt;
+
+&lt;p&gt;Es posible copiar directamente el archivo de una máquina a otra a través de ssh mediante el comando scp&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;scp /home/sherlockes/.config/rclone/rclone.conf pi@192.168.1.203:/home/pi/.config/rclone/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Y con esto ya debería estar configurada la nube de Google Drive en la instalación de rclone de la raspberry, la mejor muestra es que al introcudir el comando &amp;ldquo;rclone config&amp;rdquo; en una sesión de la terminal sobre la Raspberry nos aparecerá algo como lo siguiente.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Current remotes:
+
+Name                 Type
+====                 ====
+GoogleDrive          drive
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;En la que podremos ver la que ya tenemos una nube añadida.  Para otro día el modo de realizar la sincronización o copia de contenidos desde la nube hasa la Raspberry.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,8 +218,62 @@ curl https://rclone.</description>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-montaje-y-ssh/</guid>
-      <description>Montaje y acceso ssh Ya tengo lo que creo que necesito. Una Raspberry, una tarjeta micro sd, una fuente de alimentación y un cable de red. Total 59€ de inversión inicial que supongo no se quedarán ahí.
-Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como empezar con el cacharro, ya que estos días desde que lo pedí todo hasta que me ha llegado no me he preocupado de nada.</description>
+      <description>
+
+&lt;h3 id=&#34;montaje-y-acceso-ssh&#34;&gt;Montaje y acceso ssh&lt;/h3&gt;
+
+&lt;p&gt;Ya tengo lo que creo que necesito.  Una &lt;a href=&#34;https://www.amazon.es/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;Raspberry&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B013UDL58E/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;tarjeta micro sd&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B01DDFFOYK/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;fuente de alimentación&lt;/a&gt; y un &lt;a href=&#34;https://www.amazon.es/gp/product/B001U3ZRBS/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;cable de red&lt;/a&gt;.  Total 59€ de inversión inicial que supongo no se quedarán ahí.&lt;/p&gt;
+
+&lt;p&gt;Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como empezar con el cacharro, ya que estos días desde que lo pedí todo hasta que me ha llegado no me he preocupado de nada.  Primer jarro de agua fría, ya que veo que necesito un ratón, un teclado y un cable hdmi según la &lt;a href=&#34;https://www.raspberrypi.org/learning/hardware-guide&#34;&gt;guía oficial&lt;/a&gt;.  Pero antes de que sumerja en una profunda frustración navego un poco por la red y veo que es posible configurarla sin monitor ni teclado tal y como se explica en &lt;a href=&#34;https://www.innerzaurus.com/diy/raspberry-pi/configurar-una-raspberry-pi-sin-monitor-ni-teclado&#34;&gt;esta web&lt;/a&gt; o en &lt;a href=&#34;http://algoentremanos.com/raspberry-pi-2-raspberry-pi-b-como-configurar-tu-nueva-raspberry-pi-sin-teclados-o-pantallas-extra&#34;&gt;esta otra&lt;/a&gt;.  Hay esperanza de poder seguir adelante sin gastar más dinero.&lt;/p&gt;
+
+&lt;p&gt;Bueno, ya estamos metidos en el fregado&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Descargamos &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspbian&#34;&gt;Raspbian&lt;/a&gt; (La versión Lite que pesa menos)&lt;/li&gt;
+&lt;li&gt;Descargamos &lt;a href=&#34;https://www.sdcard.org/downloads/formatter_4&#34;&gt;SD Card Formatter&lt;/a&gt; para formatear la tarjeta de memoria&lt;/li&gt;
+&lt;li&gt;Descargamos &lt;a href=&#34;https://sourceforge.net/projects/win32diskimager&#34;&gt;Win32 Disk Imager&lt;/a&gt; para grabar la imagen en la tarjeta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Con la fuente de alimentación ha venido una pequeña caja transparente y unos disipadores para los microcontroladores, faena de cirujano para montar todo y ya está el hardware preparado.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Se descomprime la imagen de Rasbian (Winzip, Winrar&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Se formatea la tarjeta de memoria con SD Card Formatter&lt;/li&gt;
+&lt;li&gt;Se graba la imagen en la tarjeta con Win32 Disk Imager&lt;/li&gt;
+&lt;li&gt;En el directorio raiz hay que crear un archivo &amp;ldquo;ssh&amp;rdquo; sin extensión&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Una altermativa al uso de SD Card Formatter y Win32 Disk Imager es usar Rufus, un software gratuito con una versión portable que puedes descargar desde &lt;a href=&#34;http://rufus.akeo.ie&#34;&gt;http://rufus.akeo.ie&lt;/a&gt; y hacemos los los pasos en uno creando un disco de arranque con una imagen DD a partir de la imagen descargada.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Al intentar crear el archivo &amp;ldquo;ssh&amp;rdquo; que habilita el terminal para poder manejar la Raspberry en remoto me encuentro con el primer problema, y es que al intentar crear el archivo me dice que la tarjeta está protegida contra la escritura.  No se si es problema del lector de tarjetas, del adaptador de SD a MicroSD o del propio windows pero el caso es que monto la MicroSD en un lector de tarjetas usb y me deja crear el archivo sin ningún problema.&lt;/p&gt;
+
+&lt;p&gt;Ya está todo listo para conectar la Raspberry al router mediante el cable de red, introducir la tarjeta de memoria y conectarle la fuente de alimentación.  No se cuanto tiempo hay que esperar para que el sistema arranque, pero como voy escribiendo al tiempo que hago las cosas, soy lo suficientemente lento para que el sistema haya arrancado cuando estoy listo para dar el siguiente paso.  Ahora necesito otras dos utilidades para seguir adelante, una para averiguar la dirección ip con la que se ha conectado la Raspberry a la red y para conectarme mediante ssh.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Para averiguar la ip utilizo &lt;a href=&#34;http://www.the-sz.com/products/portscan&#34;&gt;PortScan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Para conectarme mediante ssh uso &lt;a href=&#34;http://www.putty.org&#34;&gt;Putty&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Averiguo que la Raspberry se ha conectado a la ip 192.168.1.107 y ya puedo arrancar Putty y logarme con el usuario &amp;ldquo;pi&amp;rdquo; y el password &amp;ldquo;raspberry&amp;rdquo;.  Ya estamos inmersos en la terminal y podemos entrar en la configuración mediante la siguiente línea de comandos.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo raspi-config&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cambiamos la contraseña para el usuario &amp;ldquo;pi&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Cambiamos la codificación al castellano (ES_ ES.UTF8)&lt;/li&gt;
+&lt;li&gt;Cambiamos la hora a la de Madrid&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install rpi-update
+sudo rpi-update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Y hasta aquí el primer día, apagamos la Raspberry y mañana más&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -38,8 +282,62 @@ Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como emp
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-red-y-wifi/</guid>
-      <description>Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &amp;ldquo;/etc/dhcpcd.conf&amp;rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
-interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&amp;gt; Ctrl + o Salimos del editor nano =&amp;gt; Ctrl + x Reiniciamos la Raspberry =&amp;gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&amp;gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.</description>
+      <description>
+
+&lt;h3 id=&#34;configurar-red-y-wifi&#34;&gt;Configurar red y wifi&lt;/h3&gt;
+
+&lt;p&gt;Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio.  Para ello, en primer lugar hay que editar el archivo &amp;ldquo;/etc/dhcpcd.conf&amp;rdquo; mediante la instrucción &lt;code&gt;sudo nano /etc/dhcpcd.conf&lt;/code&gt; e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface eth0
+
+static ip_address=192.168.1.202/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guardamos el archivo =&amp;gt; Ctrl + o&lt;/li&gt;
+&lt;li&gt;Salimos del editor nano =&amp;gt; Ctrl + x&lt;/li&gt;
+&lt;li&gt;Reiniciamos la Raspberry =&amp;gt; sudo reboot&lt;/li&gt;
+&lt;li&gt;Nos logamos de nuevo a través de la nueva ip&lt;/li&gt;
+&lt;li&gt;Comprobamos que ha funcionado =&amp;gt; ip a&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.  Para configurar la red inalámbrica hay que editar el archivo &amp;ldquo;/etc/wpa_supplicant/wpa_supplicant.conf&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;y añadimos las siguientes líneas deacuerdo a la red wifi que nos queremos conectar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;network={
+    ssid=&amp;quot;elnombredetured&amp;quot;
+    psk=&amp;quot;elpassworddetured&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora volvemos a editar el archivo &amp;ldquo;etc/dhcpcd.conf&amp;rdquo; y añadimos al final las siguientes líneas&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface wlan0
+
+static ip_address=192.168.0.2/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Guardamos el archivo =&amp;gt; Ctrl + o&lt;/li&gt;
+&lt;li&gt;Salimos del editor nano =&amp;gt; Ctrl + x&lt;/li&gt;
+&lt;li&gt;Apagamos la Raspberry =&amp;gt; sudo shutdown&lt;/li&gt;
+&lt;li&gt;Quitamos la alimentación de las Raspberry&lt;/li&gt;
+&lt;li&gt;Quitamos el cable de red&lt;/li&gt;
+&lt;li&gt;Conectamos de nuevo la alimentación&lt;/li&gt;
+&lt;li&gt;Nos logamos de nuevo a través de la misma ip que antes&lt;/li&gt;
+&lt;li&gt;Comprobamos que ha funcionado =&amp;gt; ip a&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pues nada, ya tenemos la Raspberry con las conexiones de red configuradas para poder funcionar con o sin cable conectado al router.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -48,8 +346,46 @@ interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 sta
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-apache-y-php/</guid>
-      <description>Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &amp;ldquo;index.html&amp;rdquo;, crearemos un archivo &amp;ldquo;index.php&amp;rdquo; en el que escribiremos un mensaje &amp;ldquo;hola mundo&amp;rdquo; y reiniciaremos el servidor.
-cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;quot;hola mundo&amp;quot;; ?&amp;gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &amp;ldquo;hola mundo&amp;rdquo;.</description>
+      <description>
+
+&lt;h3 id=&#34;instalando-php-y-apache&#34;&gt;Instalando PhP y Apache&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para comprobar la correcta instalación de php borraremos el archivo &amp;ldquo;index.html&amp;rdquo;, crearemos un archivo &amp;ldquo;index.php&amp;rdquo; en el que escribiremos un mensaje &amp;ldquo;hola mundo&amp;rdquo; y reiniciaremos el servidor.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /var/www/html
+sudo rm index.html
+sudo nano index.php
+
+   &amp;lt;?php echo &amp;quot;hola mundo&amp;quot;; ?&amp;gt;
+   Pulsar control-x
+   Pulsar y
+   Pulsar intro
+
+sudo service apache2 restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &amp;ldquo;hola mundo&amp;rdquo;.  Antes de seguir adelante, modificaremos el archivo de configuración de php para que nos permita subir al servidor archivos de hasta 8Mb.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/php/7.0/apache2/php.ini
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Buscamos el tamaño máximo de subida de los archivos&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Pulsamos control-w
+upload_max_filesize
+Cambiamos 2M por algo más adecuado
+
+upload_max_filesize = 8M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Guardamos los cambios, salimos de nano y reiniciamos de nuevo apache&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo service apache2 restart
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -58,8 +394,39 @@ cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;q
       <pubDate>Wed, 04 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-mysql-y-db/</guid>
-      <description>Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
- sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &amp;ldquo;root&amp;rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.</description>
+      <description>
+
+&lt;h3 id=&#34;instalando-mysql&#34;&gt;Instalando Mysql&lt;/h3&gt;
+
+&lt;p&gt;El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+sudo apt-get install mysql-server mysql-client -y
+&lt;/code&gt;
+Al terminar la instalación nos pedirá una contraseña para el usuario &amp;ldquo;root&amp;rdquo;.  Es muy importante que no se quede en blanco para dar seguridad a la base de datos.  Introducimos la que nos apetezca.  Además para securizar más la instalación ejecutamos el siguiente comando
+&lt;code&gt;
+sudo mysql_secure_installation
+&lt;/code&gt;
+Respondiendo a las preguntas de la siguiente forma.
+  * Change the root password? [Y/n] n
+  * Remove anonymous users? [Y/n] y
+  * Disallow root login remotely? [Y/n] y
+  * Remove test database and access to it? [Y/n] y
+  * Reload privilege tables now? [Y/n] y&lt;/p&gt;
+
+&lt;p&gt;Accedemos a la consola de MySql con el siguiente comando tras el cual se nos solicitará la contraseña correspondiente al usuario &amp;ldquo;root&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mysql -u root -p&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Ya estamos listos para crear la base de datos, el usuario que la manejará y asignación al segundo todos los privilegios sobre la primera.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;CREATE DATABASE dbwordpress;
+CREATE USER wpuser@localhost IDENTIFIED BY &#39;wpP455w0rd&#39;;
+GRANT ALL PRIVILEGES ON dbwordpress.* TO wpuser@localhost;
+FLUSH PRIVILEGES;
+exit;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -68,13 +435,46 @@ cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;q
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-y-docker/</guid>
-      <description>Manejando contenedores con Docker Instalar Docker
- sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
-sudo curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;)/gpg | sudo apt-key add -
-sudo echo &amp;ldquo;deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;) $(lsb_release -cs) stable&amp;rdquo; | sudo tee /etc/apt/sources.list.d/docker.list
-sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker 
-añadir tu usuario al grupo de docker
-sudo gpasswd -a ${USER} docker</description>
+      <description>
+
+&lt;h3 id=&#34;manejando-contenedores-con-docker&#34;&gt;Manejando contenedores con Docker&lt;/h3&gt;
+
+&lt;p&gt;Instalar Docker&lt;br /&gt;
+&lt;code&gt;
+sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common&lt;/p&gt;
+
+&lt;p&gt;sudo curl -fsSL &lt;a href=&#34;https://download.docker.com/linux/$(&#34;&gt;https://download.docker.com/linux/$(&lt;/a&gt;. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;)/gpg | sudo apt-key add -&lt;/p&gt;
+
+&lt;p&gt;sudo echo &amp;ldquo;deb [arch=armhf] &lt;a href=&#34;https://download.docker.com/linux/$(&#34;&gt;https://download.docker.com/linux/$(&lt;/a&gt;. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;) &lt;br /&gt;
+     $(lsb_release -cs) stable&amp;rdquo; | &lt;br /&gt;
+    sudo tee /etc/apt/sources.list.d/docker.list&lt;/p&gt;
+
+&lt;p&gt;sudo apt update
+sudo apt install docker-ce
+sudo systemctl enable docker
+sudo systemctl start docker
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;añadir tu usuario al grupo de docker&lt;br /&gt;
+&lt;code&gt;sudo gpasswd -a ${USER} docker&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;eliminar todos los contenedores con un solo comando&lt;br /&gt;
+&lt;code&gt;docker rm $(docker ps -a -q)&lt;/code&gt;
+&lt;code&gt;docker rm $(docker container ls -a -q)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;arrancar un contenedor&lt;br /&gt;
+&lt;code&gt;docker run --name NOMBRE -p PUERTO_INTERNO:PUERTO_EXTERNO -d nginx&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;instalando-wordpress&#34;&gt;Instalando Wordpress&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Enlaces&lt;br /&gt;
+  * &lt;a href=&#34;https://ugeek.github.io//instalar-docker-en-raspberry/&#34;&gt;UGeek - Instalar Docker en Raspbian&lt;/a&gt;
+  * &lt;a href=&#34;https://rekkeb.wordpress.com/2015/03/19/docker-elimina-todos-los-contenedores-con-un-solo-comando&#34;&gt;Rekkeb - Eliminar todos contenedores&lt;/a&gt;
+  * &lt;a href=&#34;https://hub.docker.com/r/jsurf/rpi-mariadb/&#34;&gt;Jsurf - MariaDB for Raspberry Pi&lt;/a&gt;
+  * &lt;a href=&#34;https://www.upcloud.com/support/wordpress-with-docker/&#34;&gt;UpCloud - Install WordPress with Docker&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -83,8 +483,31 @@ sudo gpasswd -a ${USER} docker</description>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-servidor-vpn/</guid>
-      <description>Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
- Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.pivpn.io | bash  Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.</description>
+      <description>
+
+&lt;h3 id=&#34;instalando-un-servidor-vpn&#34;&gt;Instalando un servidor VPN&lt;/h3&gt;
+
+&lt;p&gt;Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Acceder de forma segura a nuestra red local desde fuera de ella&lt;/li&gt;
+&lt;li&gt;Conseguir una navegación segura en redes wifi públicas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt update
+sudo apt upgrade
+curl -L https://install.pivpn.io | bash
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de &lt;a href=&#34;https://www.atareao.es/tutorial/raspberry-pi-primeros-pasos/acceder-a-la-red-local-desde-fuera&#34;&gt;El Atareao&lt;/a&gt; donde lo explica pormenorizadamente.&lt;/p&gt;
+
+&lt;p&gt;Tras la instalación y reiniciar la Raspberry hay que crear un nuevo cliente mediánte el comando&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pivpn add
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nos pedirá un nombre de usuario y contraseña y generará un archivo *ovpn en la carpeta &amp;ldquo;ovpns&amp;rdquo; dentro del &amp;ldquo;home&amp;rdquo; de nuestro usuario.  Sólo resta copiar este archivo al terminal desde el que nos queremos conectar y usar el nombre de usuario y contraseña que hemos seleccionado.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -93,8 +516,12 @@ sudo gpasswd -a ${USER} docker</description>
       <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-acceso-desde-el-exterior/</guid>
-      <description>Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
-Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.</description>
+      <description>&lt;p&gt;Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo.  Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.&lt;/p&gt;
+
+&lt;p&gt;Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.168.1.202.  Esto lo realizaremos desde la configuración del router accediendo al panel de administración web en la dirección 192.168.1.1.  No merece la pena el esfuerzo de dar más explicaciones de los pasos concretos a realizar pues cada router es distinto&lt;/p&gt;
+
+&lt;p&gt;Por otro lado necesitamos saber que dirección ip pública tiene adjudicada nuestro router en cada momento para poder acceder desde el exterior a este.  Para ello yo utilizo un servicio de dns dinámico como es &lt;a href=&#34;https://www.noip.com/&#34;&gt;No-ip&lt;/a&gt; para que continuamente compruebe la ip pública de router y la relaccione con un nombre de dominio fijo.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -103,8 +530,20 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
       <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-reinicios-peri%C3%B3dicos/</guid>
-      <description>Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea</description>
+      <description>
+
+&lt;h3 id=&#34;reiniciar-la-raspberry-a-diario&#34;&gt;Reiniciar la Raspberry a diario&lt;/h3&gt;
+
+&lt;p&gt;Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo crontab -e
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;nos abre un archivo al que le añadiremos la siguiente línea&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;00 04 * * 0 /sbin/reboot
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -113,8 +552,68 @@ sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea</
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-copia-de-seguridad/</guid>
-      <description>Antes de pensar en como realizar una copia de seguridad para las instalaciones de WordPress y Dokuwiki que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.
-En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldquo;wp-content&amp;rdquo;. Para el caso de la Wiki, aquí podemos ver las carpetas necesarias que se recomienda guardar aunque yo he optado por prescindir de las versiones antiguas de páginas y archivos multimedia.</description>
+      <description>&lt;p&gt;Antes de pensar en como realizar una copia de seguridad para las instalaciones de &lt;a href=&#34;http://es.wordpress.org&#34;&gt;WordPress&lt;/a&gt; y &lt;a href=&#34;https://www.dokuwiki.org&#34;&gt;Dokuwiki&lt;/a&gt; que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.&lt;/p&gt;
+
+&lt;p&gt;En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldquo;wp-content&amp;rdquo;.  Para el caso de la Wiki, &lt;a href=&#34;https://www.dokuwiki.org/faq:backup&#34;&gt;aquí&lt;/a&gt; podemos ver las carpetas necesarias que se recomienda guardar aunque yo he optado por prescindir de las versiones antiguas de páginas y archivos multimedia.&lt;/p&gt;
+
+&lt;p&gt;La copia de seguridad la realizaré en tres pasos:
+  - Copia desde el directorio de apache hasta un directorio de Backups en la Raspberry mediante rsync y cron
+  - Copia desde la Raspberry a un directorio del NAS mediante ftp
+  - Copia de seguridad versionada desde el NAS hasta Google Drive mediante HyperBackup&lt;/p&gt;
+
+&lt;p&gt;Pues bien, para comenzar creamos una carpeta en el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi llamada &amp;ldquo;scripts&amp;rdquo; y en ella creamos el archivo &amp;ldquo;bckps.sh&amp;rdquo; al que dotaremos de pemisos de ejecución (sudo chmod 700 bckps.sh) con el siguiente código:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+# -*- ENCODING: UTF-8 -*-
+
+# Borra el directorio backups y lo vuelve a crear
+rm -rf /home/pi/backups/
+mkdir /home/pi/backups/
+
+# Copia la carpeta wp-content de sherblog.pro a backups
+mkdir /home/pi/backups/sherblog/
+rsync -rtv /var/www/html/sherblog/wp-content /home/pi/backups/sherblog
+
+# Crea la carpeta wiki y copia en ella configuración y datos de sherlowiki
+mkdir /home/pi/backups/sherlowiki
+rsync -rtv /var/www/html/wiki/conf /home/pi/backups/sherlowiki/
+mkdir /home/pi/backups/sherlowiki/data
+rsync -rtv /var/www/html/wiki/data/pages /home/pi/backups/sherlowiki/data/
+rsync -rtv /var/www/html/wiki/data/meta /home/pi/backups/sherlowiki/data/
+rsync -rtv /var/www/html/wiki/data/media /home/pi/backups/sherlowiki/data/
+rsync -rtv /var/www/html/wiki/data/media_meta /home/pi/backups/sherlowiki/data/
+
+# Exporta, comprime y borra el original de la base de datos de sherblog.pro
+mkdir /home/pi/backups/sherblog/db/
+mysqldump -u&amp;lt;usuario&amp;gt; -p&amp;lt;contraseña&amp;gt; sherblog &amp;gt; /home/pi/backups/sherblog/db/sherblog.sql
+cd /home/pi/backups/sherblog/db/
+tar -zcvf $(date +%Y%m%d)_sherblog_sql.tgz sherblog.sql
+rm sherblog.sql
+exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora editamos el crontab&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;crontab -e
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;e introducimos al final una nueva tarea mediante la sentencia&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@daily /home/pi/scripts/bckps.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Con esto una vez al día se ejecutará la tarea de copias de seguridad incluidas en el archivo &amp;ldquo;bckps.sh&amp;rdquo;.  Es posible que hay que reiniciar el cron para que funcione la ejecución correctamente.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;service cron restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;El siguiente paso es copiar la carpeta &amp;ldquo;backups&amp;rdquo; de la raspberry al NAS, para lo que, desde este segundo y mediante al programador de tareas, ejecuto una vez al día la siguiente instrucción:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget -m -N ftp://pi:password@192.168.1.202/backups -P /volume1/backups
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Desde aquí, crear una copia de seguridad en Synology con la aplicación de DSM Hyperbackup sobre google drive ya es coser y cantar.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -123,7 +622,20 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       <pubDate>Sun, 08 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-instalando-dokuwiki/</guid>
-      <description>Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas. Su sintaxis es similar a la de MediaWiki, aunque a diferencia de este software, la información se almacena en archivos de texto planos, por lo que no requiere el uso de una base de datos.</description>
+      <description>
+
+&lt;h3 id=&#34;que-es-dokuwiki&#34;&gt;Que es DokuWiki&lt;/h3&gt;
+
+&lt;p&gt;Según la &lt;a href=&#34;https://es.wikipedia.org/wiki/DokuWiki&#34;&gt;Wikipedia&lt;/a&gt;, &lt;a href=&#34;https://www.dokuwiki.org/dokuwiki&#34;&gt;DokuWiki&lt;/a&gt; es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas. Su sintaxis es similar a la de MediaWiki, aunque a diferencia de este software, la información se almacena en archivos de texto planos, por lo que no requiere el uso de una base de datos. DokuWiki fue creado por Andreas Göhr en junio de 2004. Desde su inclusión en distribuciones Linux como Debian y Gentoo en 2005, DokuWiki experimentó un rápido crecimiento en popularidad.&lt;/p&gt;
+
+&lt;h3 id=&#34;instalando-dokuwiki&#34;&gt;Instalando DokuWiki&lt;/h3&gt;
+
+&lt;p&gt;Instalarlo en la Raspberry no tiene mayor dificultad&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+sudo apt-get install dokuwiki
+&lt;/code&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -132,8 +644,16 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-instalando-wordpress/</guid>
-      <description>Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.168.1.202/sherblog/</description>
+      <description>
+
+&lt;h3 id=&#34;instalando-wordpress&#34;&gt;Instalando WordPress&lt;/h3&gt;
+
+&lt;p&gt;Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+&lt;a href=&#34;http://192.168.1.202/sherblog/&#34;&gt;http://192.168.1.202/sherblog/&lt;/a&gt;
+&lt;/code&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -142,9 +662,35 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-servidor-ftp/</guid>
-      <description>Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&amp;hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
-Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.</description>
+      <description>
+
+&lt;h3 id=&#34;instalando-vsftpd&#34;&gt;Instalando VSftpD&lt;/h3&gt;
+
+&lt;p&gt;Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&amp;hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cd ~
+sudo apt-get update
+sudo apt-get install vsftpd -y
+sudo nano /etc/vsftpd.conf
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+local_enable=YES
+write_enable=YES
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;*** Actualización ***
+//Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &amp;ldquo;pi&amp;rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &amp;ldquo;www-data&amp;rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//&lt;/p&gt;
+
+&lt;p&gt;Guardamos los cambios y reiniciamos el servidor para que tengan efecto.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+sudo service vsftpd restart
+&lt;/code&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -153,8 +699,80 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-descargando-wordpress/</guid>
-      <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
- sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.</description>
+      <description>
+
+&lt;h3 id=&#34;descargando-wordpress&#34;&gt;Descargando WordPress&lt;/h3&gt;
+
+&lt;p&gt;En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi.  Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[&lt;a href=&#34;http://es.wordpress.org]&#34;&gt;http://es.wordpress.org]&lt;/a&gt;] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+sudo mkdir /var/www/html/sherblog/
+cd ~
+wget &lt;a href=&#34;http://wordpress.org/latest.tar.gz&#34;&gt;http://wordpress.org/latest.tar.gz&lt;/a&gt;
+tar -xzvf latest.tar.gz
+sudo mv wordpress/* /var/www/html/sherblog
+sudo rm latest.tar.gz
+sudo rm -rf wordpress
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Las líneas de arriba realizan la siguiente secuencia:
+  * Crea un directorio en la raiz de apache para instalar WordPress
+  * Iniciarse en el directorio &amp;ldquo;home&amp;rdquo; de Pi
+  * Descargar la última versión de WordPress (En inglés)
+  * Descomprime el archivo descargado
+  * Mueve el contenido de la carpeta extraida a &amp;ldquo;/var/www/html/sherblog&amp;rdquo;
+  * Borra el archivo descargado
+  * Borra la carpeta vacía&lt;/p&gt;
+
+&lt;p&gt;Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &amp;ldquo;wp-config&amp;rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+cd /var/www/html/sherblog
+sudo cp wp-config-sample.php wp-config.php
+sudo nano wp-config.php
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;define(&amp;lsquo;DB_NAME&amp;rsquo;, &amp;lsquo;dbwordpress&amp;rsquo;);&lt;br /&gt;
+define(&amp;lsquo;DB_USER&amp;rsquo;, &amp;lsquo;wpuser&amp;rsquo;);&lt;br /&gt;
+define(&amp;lsquo;DB_PASSWORD&amp;rsquo;, &amp;lsquo;wpP455w0rd&amp;rsquo;);\&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+sudo chown -R pi:pi /var/www/html/sherblog
+sudo mkdir /var/www/html/sherblog/wp-content/uploads
+sudo chown -R www-data:www-data /var/www/html/sherblog/wp-content/uploads
+sudo nano /etc/apache2/sites-available/000-default.conf
+sudo service apache2 restart
+sudo touch /var/www/html/sherblog/.htaccess
+sudo chown www-data:www-data /var/www/html/sherblog/.htaccess
+sudo find /var/www/html/ -type d -exec chmod 755 {} \;
+sudo find /var/www/html/ -type f -exec chmod 644 {} \;
+sudo restart
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cambiamos a Pi como propietario de la carpeta &amp;ldquo;sherblog&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Creamos la carpeta &amp;ldquo;uploads&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Cambiamos a apache2 como propietario de la carpeta &amp;ldquo;uploads&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Editamos el archivo &amp;ldquo;virtual host&amp;rdquo; de apache2 y añadimos &amp;ldquo;AllowOverride All&amp;rdquo; para la carpeta /var/www/html/sherblog, añdimos el siguiente párafo y guardamos los cambios.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;
+&lt;Directory /var/www/html/sherblog&gt;
+    AllowOverride All
+&lt;/Directory&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reiniciamos Apache&lt;/li&gt;
+&lt;li&gt;Creamos el archivo .htaccess&lt;/li&gt;
+&lt;li&gt;Cambiamos el propietario del archivo a apache2&lt;/li&gt;
+&lt;li&gt;Cambiamos los premisos para los directorio y archivos de WordPress&lt;/li&gt;
+&lt;li&gt;Reiniciamos la Raspberry y el servidor web ya está listo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;** Actualización **
+&amp;gt; Para poder gestionar a través del FTP me he visto obligado a Poner las carpetas con permisos 775 y a los archivos 664 ya que el usuario con con el que me conecto no es el propietario de las carpetas y archivos aunque si pertenece al mismo grupo.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

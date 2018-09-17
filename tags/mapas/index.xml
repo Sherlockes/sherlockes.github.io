@@ -3,12 +3,12 @@
   <channel>
     <title>Mapas on Sherblog</title>
     <link>/tags/mapas/</link>
-    <description>Recent content in Mapas on Sherblog</description>
+    <description>Contenido reciente in Mapas en Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/mapas/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/mapas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,10 +17,14 @@
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/barrancos-del-sur-de-zaragoza/</guid>
-      <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
-Ver pantalla completa
-También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
-Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
+      <description>&lt;p&gt;Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&#34;500px&#34; height=&#34;300px&#34; frameBorder=&#34;0&#34; src=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false&#34;&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href=&#34;https://umap.openstreetmap.fr/es/map/barrancos-de-zaragoza_241825&#34;&gt;Ver pantalla completa&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;También puedes descargar el archivo desde &lt;a href=&#34;/files/brrzgz.gpx&#34;&gt;aquí&lt;/a&gt; para abrirlo con con &lt;a href=&#34;https://www.google.es/intl/es_es/earth/download/ge/agree.html&#34;&gt;Google Earth&lt;/a&gt; o tu editor preferido.&lt;/p&gt;
+
+&lt;p&gt;Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉&lt;/p&gt;
+</description>
     </item>
     
   </channel>
