@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/publicar-desde-iawriter/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/apurada-de-frenada/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
   </url>
@@ -311,6 +316,10 @@
   </url>
   
   <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/a-pedales/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -377,14 +386,14 @@
   </url>
   
   <url>
-    <loc>/tags/gps/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>/categories/gps/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/gps/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <loc>/tags/gps/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -396,7 +405,13 @@
   
   <url>
     <loc>/categories/hugo/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/iawriter/</loc>
+    <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
