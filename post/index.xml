@@ -450,15 +450,5 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>Uno de los problemas con los que me he encontrado recientemente en la edición de la web es la modificación del css para reducir un poco el tamaño de la imagen de cabecera dentro de cada post (Thumbnail) para el tema Mainroad
-La hoja de estilos del tema está ubicada en &amp;ldquo;/themes/mainroad/static/css/style.css&amp;rdquo; y en ella podemos encontrar la clase que hace referencia a esta imagen de cabecera del post.</description>
-    </item>
-    
   </channel>
 </rss>
