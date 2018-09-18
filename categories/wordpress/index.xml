@@ -3,12 +3,12 @@
   <channel>
     <title>Wordpress on Sherblog</title>
     <link>/categories/wordpress/</link>
-    <description>Recent content in Wordpress on Sherblog</description>
+    <description>Contenido reciente de la categoria... in Wordpress on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
