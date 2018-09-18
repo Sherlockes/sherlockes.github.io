@@ -3,12 +3,12 @@
   <channel>
     <title>Android on Sherblog</title>
     <link>/categories/android/</link>
-    <description>Contenido reciente in Android en Sherblog</description>
+    <description>Recent content in Android on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,26 +17,8 @@
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/en-que-apps-android-me-he-gastado-dinero/</guid>
-      <description>&lt;p&gt;Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.&lt;/p&gt;
-
-&lt;p&gt;Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.&lt;/p&gt;
-
-&lt;p&gt;Estas son las tres aplicaciones que recientemente he comprado en la Play Store.&lt;/p&gt;
-
-&lt;p&gt;1.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&#34;&gt;Podcast Addict&lt;/a&gt;. Hace todo lo que necesito para escuchar los podcast y aunque los gurús del tema utilizan PocketCast yo me he decidido por usar esta alternativa ya que el autor pone a disposición de todo el que quiera una versión gratuita completamente funcional con una simple publicidad en la parte baja de la app. La probé durante un par de meses hasta comprobar que tiene todo lo que necesito e hice la donación de 2.59€ para quitar la publicidad de la aplicación. Totalmente recomendable si escuchas Podcast.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_podcast_addict_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time Gps Tracker&lt;/a&gt;. Ya he hablado de esta aplicación &lt;a href=&#34;/aplicaciones-para-rastrear-personas-coches-perros/&#34;&gt;anteriormente&lt;/a&gt;, es simple, muy eficiente y 100% recomendable para la gente que sale al monte de excursión o a hacer deporte. Cualquiera con una conexión a internet y un navegador puede ver donde estás en tiempo real mientras estés ejecutando la aplicación. Con un buen ajuste el gasto de batería es ínfimo. La versión gratuita muestra publicidad en la zona inferior que puedes evitar con el pago de la suscripción anual de 3.6€. Es un poco latoso lo de pagar todos los años, pero la verdad es que uso mucho la aplicación y me es de gran utilidad.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_rtt2_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;3.- &lt;a href=&#34;https://play.google.com/store/apps/details?id=gudaps.smartdataswitch&#34;&gt;Smart Data Switch Pro&lt;/a&gt;. Si quieres un ahorro de batería importante y no te importa no recibir mensajes y notificaciones de forma instantánea esta es tu aplicación. La tengo configurada para activar la conexión de datos 1 minuto cada media hora y la batería dura mucho más. En este caso no hay versión gratuita y he usado durante un tiempo una versión pirata pero creo que ya es momento de demostrar el agradecimiento al autor por el trabajo bien hecho y la he comprado, al fin y al cabo sólo son 1.29€.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_smart_data_logo.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hoy por hoy estás son las únicas aplicaciones de pago que utilizo en mi terminal android, el resto que llevo instaladas son gratuitas.&lt;/p&gt;
-</description>
+      <description>Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.
+Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.</description>
     </item>
     
     <item>
@@ -45,54 +27,8 @@
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/excesivo-gasto-de-bater%C3%ADa-de-los-servicios-de-google-play/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El Problema&lt;/h3&gt;
-
-&lt;p&gt;Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.&lt;/p&gt;
-
-&lt;p&gt;Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo. Hay cientos de articulos por la red haciendo referencia a este problema pero ninguno de ellos consigue darme la solución al problema.&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí realizo la siguiente secuencia de comprobaciones y sucesos para dar solución al problema.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Comprobar los &amp;ldquo;Wakelocks&amp;rdquo; que mantienen el teléfono despierto en todo momento. Las aplicaciones gratuitas que he usado no me han dado ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modificar los ajustes de privacidad de Cyanogen para que los servicios de google no sean capaces de despertar ni mantener despierto el dispositivo. Con esto sólo consigo problemas de estabilidad en el teléfono y ningún resultado en el gasto de batería.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Usando la aplicación &amp;ldquo;Cpu Spy&amp;rdquo; hago un gran avance y me doy cuenta de que el problema principal reside en que el teléfono no entra nunca en el modo &amp;ldquo;Deep Sleep&amp;rdquo; y se mantiene a la frecuencia mínima de 200Mhz provocando así un gasto innecesario de batería cuando no es necesario el procesador.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Instalo la aplicación &amp;ldquo;Deep Sleep Battery Saver Pro&amp;rdquo; ya que dice servir para poner el teléfono en el modo de sueño profundo de acuerdo a los ajustes que pongas en la aplicación. Tras la instalación y ajustar la aplicación, el teléfono comienza a entrar en el modo de sueño profundo, pero es simplemente es un espejismo, ya que al día siguiente y después de un reinicio deja de hacerlo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pruebo varias aplicaciones de ahorro de energía que no merece la pena ni nombrar ya que con ninguna de ellas consigo ningún resultado.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;LLegados a este punto me veo obligado a realizar alguna acción más drástica y realizo una restauración del teléfono a los valores de fábrica. En un primer momento la solución parece ser la buena, pero apenas unas horas después me doy cuenta de que el teléfono vuelve a las andadas por lo que no he conseguido tampoco nada.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Buscando un poco por la red doy con una versión de Cyanogen para el Samsung Galaxy S2 i9100 basada en Android Lollipop 5.1.1. Se trata de la CM 12.1 y como durante más de un año he estado encantado con la CM 11 por lo que me parece una buena alternativa y me dispongo a instalarla.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;La descargo desde el propio teléfono y la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; de Cyanogen. En apenas unos minutos y de una sencilla manera consigo tener instalada la última versión de android en un smartphone del que casi han pasado casi 5 años desde su lanzamiento. La instalación de Android ha sido un éxito, pero me encuentro con el problema de que no tengo las &amp;ldquo;google apps&amp;rdquo;. Ni la versión que recomienda Cyanogen ni otras alternativas que he visto por la red han funcionado. Hoy por hoy no soy capaz de llevar un teléfono Android sin &amp;ldquo;Play Store&amp;rdquo;, &amp;ldquo;Youtube&amp;rdquo;, &amp;ldquo;Gmail&amp;rdquo;, &amp;ldquo;Google Chrome&amp;rdquo; ni mi agenda de contactos por lo que sigo en la búsqueda por una solución.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Bueno, pues si la 5.1.1 no funciona me tendré que conformar con la 4.4.4 que hasta ahora había tenido instalada, es decir, la misma CM 11 que ya llevaba. No dispongo de la imagen de CM 11 para flashear por que, si mal no recuerdo, la instalé desde la app CM Installer. No me cuesta mucho encontrarla, la &amp;ldquo;flasheo&amp;rdquo; a través del &amp;ldquo;recovery&amp;rdquo; pero me encuentro con el mismo problema de las &amp;ldquo;Google Apps&amp;rdquo; que había tenido con CM 12.1.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Quizás en este momento tenía que haber intentado instalar CM 11 de la misma forma que lo hice hace un año pero sin la &amp;ldquo;Play Store&amp;rdquo; en el teléfono no es tan fácil instalar la app &amp;ldquo;CM Installer&amp;rdquo; por lo que me salto este paso.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Llegados a este punto dejo de lado Cyanogen para optar por la última distribución que Samsung liberó como &amp;ldquo;firmware&amp;rdquo; oficial. Cual es mi sorpresa cuando veo que desde la web de las descargas Samsung el archivo para descargar está alojado en un servidor externo del que ha sido borrado. Fracaso del camino legal.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Busco otra distribución basada en Android 4.4.4. Por suerte, a pesar se ser el Samsung Galaxy S2 modelo i9100 un terminal bastante antiguo todavía hay mucha gente que lo utiliza y no es dificil encontar &amp;ldquo;firmwares&amp;rdquo; alternativos al oficial.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;No tardo mucho en dar con &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, una fusión que promete la ligereza y ahorro de bateria de las SlimRoms y la versatilidad y estabilidad de Cyanogen. Siguiendo las instrucciones del creador de la Rom apenas tardo unos minutos en &amp;ldquo;flashear&amp;rdquo; los archivos necesarios y tener nuevamente el teléfono operativo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160315_slimsaber.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Está claro que si manejas un terminal de casi cinco años no buscas en el un rendimiento espectacular ni unos grandes efectos visuales. Simplemente una buena estabilidad y un gasto de batería decente es lo que pretende conseguir &lt;a href=&#34;https://www.androidfilehost.com/?w=profile&amp;amp;uid=9390169635556425739&#34;&gt;FusionJack&lt;/a&gt; con la creación de &lt;a href=&#34;http://forum.xda-developers.com/galaxy-s2/development-derivatives/rom-slimsaber-i9100-t2350201&#34;&gt;SlimSaber&lt;/a&gt;, combinando en esta Rom la ligereza de &lt;a href=&#34;http://slimroms.net&#34;&gt;SlimRom&lt;/a&gt; y algunas de las buenas características de &lt;a href=&#34;http://www.cyanogenmod.org/&#34;&gt;Cyanogen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Todo un éxito, los dos días de continuo trasteo con el teléfono han merecido la pena, mi arcaico S2 funciona como la seda¡¡¡&lt;/p&gt;
-</description>
+      <description>El Problema Desde hace varios años tengo como teléfono un Samsung Galaxy S2, últimamente un i9100 liberado de Orange y anteriormente un shv-e120s libre comprado a los chinos. En los últimos días he tenido serios problemas de batería con el i9100 corriendo la versión de Cyanogen CM11.
+Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo.</description>
     </item>
     
     <item>
@@ -101,29 +37,8 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/aplicaciones-para-rastrear-personas-coches-perros/</guid>
-      <description>&lt;p&gt;En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo &lt;a href=&#34;https://play.google.com/store/apps/details?id=app.alpify&amp;amp;hl=es&#34;&gt;Alpify&lt;/a&gt; o &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.telefonica.my112&amp;amp;hl=es&#34;&gt;My112&lt;/a&gt; para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_01.jpg&#34; alt=&#34;imagen&#34; /&gt;
-&lt;img src=&#34;/images/20150901_emergencia_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo. Ademas, no siempre es una emergencia lo que tiene lugar y simplemente alguno de tus familiares puede estar preocupado por tu tardanza en la excursión por el monte.&lt;/p&gt;
-
-&lt;p&gt;En mis salidas en bicicleta, desde hace varios años utilizo &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.greenalp.realtimetracker2&#34;&gt;Real Time GPS Tracker II&lt;/a&gt; que por el momento sólo está disponible para android.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;La aplicación es realmente simple de manejar aunque la configuración es un poco mas laboriosa. Hay que registrarse en la web de Greenalp e introducir estos datos del registro en la configuración de la aplicación del teléfono, arrancas la aplicación e inicias el seguimiento del botón de arriba a la derecha. A partir de aquí cualquiera podrá ver tu ubicación con simplemente acceder desde una navegador a esta dirección.&lt;/p&gt;
-
-&lt;p&gt;_&lt;a href=&#34;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&#34;&gt;http://www.greenalp.com/RealTimeTracker/index.php?guestmode=1&amp;amp;viewuser=USUARIO&amp;amp;fs=1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Donde tienes que cambiar el usuario por el que tu te hayas creado anteriormente y quien tenga curiosidad por saber donde estás podrá verlo en un pantallazo como el siguiente gracias a Google Maps.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20150901_emergencia_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pero no es oro todo lo que reluce, esta y todas las aplicaciones como Real Time GPS Tracker II presentan dos grandes problemas, el gasto de batería causado por la conexión de datos y el gps y la posible pérdida de cobertura o conectividad. Para minimizar el gasto de batería se puede modificar desde la pantalla de configuración la frecuencia con la que el teléfono conecta el GPS para buscar su ubicación y mandar los datos al servidor. Yo lo tengo configurado para que lo haga cada diez minutos con lo que el gasto de batería es prácticamente despreciable.&lt;/p&gt;
-
-&lt;p&gt;No he pretendido con esto hacer un manual de funcionamiento de la aplicación.&lt;/p&gt;
-</description>
+      <description>En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo Alpify o My112 para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.
+En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo.</description>
     </item>
     
   </channel>

@@ -3,12 +3,12 @@
   <channel>
     <title>Varios on Sherblog</title>
     <link>/categories/varios/</link>
-    <description>Contenido reciente in Varios en Sherblog</description>
+    <description>Recent content in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,25 +17,8 @@
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/historia-del-alojamiento-del-blog/</guid>
-      <description>&lt;p&gt;Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Diciembre de 2007.&lt;/em&gt; Un &lt;a href=&#34;/al-fin-se-ve-la-luz/&#34;&gt;Pentium II&lt;/a&gt; reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Julio de 2008.&lt;/em&gt; En la búsqueda de un alojamiento gratuito encuentro &lt;a href=&#34;http://110mb.com/&#34;&gt;110mb&lt;/a&gt;. En principio ofrece todo lo que necesito pero las limitaciones de espacio me hacen seguir buscando mientras estoy ahí alojado&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Septiembre de 2008.&lt;/em&gt; &lt;a href=&#34;https://www.000webhost.com/&#34;&gt;000webhost&lt;/a&gt; ha sido el alojamiento donde más tiempo he estado instalado hasta ahora. Espacio ilimitado, transferencia ilimitada y además gratuito. Solo los tiempos de carga que poco a poco se fueron haciendo más lentos y varios ataques que dejaron todas las web del servidor caídas durante semanas hicieron que me planteara un alojamiento de pago.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Agosto de 2015.&lt;/em&gt; La facilidad de migración, la buena relacción calidad-precio y un cupón con un suculento descuento de por vida hicieron que me migrara a &lt;a href=&#34;https://www.hosting24.com/&#34;&gt;Hosting24&lt;/a&gt;
-Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo por ~50€.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Agosto de 2017.&lt;/em&gt; La fiebre del podcasting y &lt;a href=&#34;https://www.jmramirez.pro/culturanas/&#34;&gt;Jose Manuel Ramirez&lt;/a&gt; hicieron que adquiriera un Nas de Synology, concretamente un Ds216+II. Lo compré en &lt;a href=&#34;https://qloudea.com&#34;&gt;Qloudea&lt;/a&gt; a principios de año y uno de los objetivos era que el alojamiento de la web en el NAS fuera una realidad antes de que tuviera que renovar la suscripción del alojamiento para verano.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Octubre de 2017.&lt;/em&gt; A mediados de Julio compré en Amazon una &lt;a href=&#34;https://www.amazon.es/dp/B01CD5VC92/ref=pe_3310721_189395781_TE_dp_3&#34;&gt;RaspberryPi 3&lt;/a&gt; no sin cierta reticiencia y miedo a que terminara en un cajón como el arduino. Con el NAS tenía cubierto con creces las necesidades de alojamiento para la web pero tenerlo encendido todo el día me parece matar moscas a cañonazos así que paso a instalar un servidor web en la placa de la frambuesa que tengo encendida todo el día con una tarjeta de memoria de 32Gb.  De momento, creo que la RaspBerry es la solución perfecta para mis necesidades de alojamiento pero estoy seguro de que no será la definitiva&amp;hellip; ¿Que nos depararán los próximos diez años?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;em&gt;Junio de 2018.&lt;/em&gt; Problemas de acceso puntuales que no soy capaz de resolver y la casualidad de que Hugo se cruce en mi vida hacen que le de un profundo cambio a la web pasando del contenido dinámico de &lt;a href=&#34;https://es.wordpress.org&#34;&gt;WordPress&lt;/a&gt; al estático de &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; y del alojamiento en la Raspberry de mi casa a los servidores gratuitos de &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt; . Resulta un proceso largo y laborioso del que termino encantado con el cambio.  Además consigo el paso a una navegación segura mediante SSL.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.
+ Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.</description>
     </item>
     
     <item>
@@ -44,18 +27,7 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/adios-wordpress/</guid>
-      <description>&lt;p&gt;Ya han pasado algo más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.&lt;/p&gt;
-
-&lt;p&gt;Atrás he dejado los tiempos en que el diseño de la web me traía de cabeza, ahora solo pienso en crear contenido de la mayor calidad posible sin pensar en darle una u otra forma.&lt;/p&gt;
-
-&lt;p&gt;Desde que una Raspberry se cruzó en mi camino he aprendido muchísimo y una de las utilidades que le he encontrado es como servidor web para esta página. Pero el error 504 me ha traído de cabeza y no he sabido dar con la solución, hay veces que la web carga y otras que no por tardar mucho tiempo en dar una respuesta el servidor.&lt;/p&gt;
-
-&lt;p&gt;Buscando alternativas encontré &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, un entorno de desarrollo para crear webs estáticas que desde un primer momento me pareció interesante y que después de un tiempo trabajando con el ya estoy en condiciones de decir&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Adiós WordPress y hola Hugo!!!&lt;/p&gt;
-
-&lt;p&gt;P.D. Prometo contar mis experiencias y espero que a alguien le sirvan, ya que la documentación de &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; en castellano brilla por su ausencia.&lt;/p&gt;
-</description>
+      <description>Ya han pasado algo más de diez años desde que empecé con WordPress y la verdad es que no he conseguido aprender mucho más allá del uso de unos cuantos plugins. Lo he intentado varias veces pero siempre me he encontrado con el mismo problema y es que aprender a manejar las tripas de este sistema de gestión de contenidos es mucho trabajo cuando solo lo vas a utilizar para gestionar una web.</description>
     </item>
     
     <item>
@@ -64,43 +36,9 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/fuga-en-cisterna-roca/</guid>
-      <description>&lt;p&gt;Hace unos días que la cisterna del &lt;a href=&#34;https://www.roca.es/catalogo/colecciones/colecciones-bano/the-gap-066-14.0316/inodoro-completo-rimless-compacto-adosado-pared-salida-dual-incluye-taza-cisterna-alimentacion-lateral-tapa-amortiguada-342737..H-341731..0-801732..4#!A34273700H+A341731000+A801732004&#34;&gt;inodoro Roca&lt;/a&gt; de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.&lt;/p&gt;
-
-&lt;p&gt;Antes de ponerse manos a la obra no está de mas dar una vuelta por &lt;a href=&#34;https://www.youtube.com/results?search_query=fuga+cisterna+roca&#34;&gt;Youtube&lt;/a&gt;, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mal cierre del mecanismo de llenado (fuga por el sobradero)&lt;/li&gt;
-&lt;li&gt;Mal sello del mecanismo descargador (fuga por el descargador)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Antes de ponerme manos a la obra ya parece que tengo claro por que fuga mi cisterna con simplemente acercar la oreja a la misma. Tras llenar la cisterna el mecanismo de llenado permanece cerrado hasta que pasado un tiempo vuelve a abrir un poco. Esto indica que el descargador no está haciendo bien el sello, está dejando escapar agua y el mecanismo de llenado tiene que reponerla.&lt;/p&gt;
-
-&lt;p&gt;Manos a la obra y la primera dificultad, desmontar el doble pulsador para poder quitar la tapa y si es posible, sin romper nada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_03.jpg&#34; alt=&#34;Quitar doble pulsador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Con la tapa ya quitada y la cisterna vacía ya puedo desmontar el mecanismo del descargador para poder sacar la junta del cierre tal y como se muestra en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_02.jpg&#34; alt=&#34;Desmontar descargador&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A primera vista la junta parece en buen estado pues el inhodoro no es muy antiguo pero mirándola más detenidamente podemos ver&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_01.jpg&#34; alt=&#34;Junta con ampollas&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;hellip; Unas pequeñas ampollas que he marcado en color rojo para que sean más fácilmente visibles. De las más grandes, dos de ellas están situadas en el perímetro exterior por lo que no deberían afectar a la estanqueidad del descargador. La tercera está situada justo en la línea que marca el apoyo entre el descargador y la base de la cisterna por lo que creo que es esta la que deja pasar el agua.&lt;/p&gt;
-
-&lt;p&gt;Toca cambiar la junta en en &lt;a href=&#34;https://www.amazon.es/gp/product/B00JKMT0F0/ref=ox_sc_act_title_1?smid=A1AT7YVPFBWXBL&amp;amp;psc=1&#34;&gt;Amazon&lt;/a&gt; a día de hoy cuesta apenas 2€ pero con dos meses de plazo de entrega por lo que opto por comprarla en un comercio local a 2.5€&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Así leída la batalla ha parecido simple pero no ha sido así ya que he tenido que desmontar varias veces, desincrustar toda la cal acumulada y hacer muchas pruebas en varios días para terminar dándome cuenta de que el problema era causado por una simple burbuja de aire en la junta del descargador.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para terminar, resulta curioso que si buscas en &lt;a href=&#34;https://www.google.es/search?q=fuga+inodoro+roca&amp;amp;oq=fuga+inodoro+roca&#34;&gt;Google &amp;ldquo;fuga inodoro roca&amp;rdquo;&lt;/a&gt; sólo obtengas videos de Youtube de aficionados, tutoriales de grandes almacenes, webs de fontanería y anuncios para comprar &amp;ldquo;retretes&amp;rdquo;. Pero más curioso resulta como en la web oficial de roca puedas sin ningún problema descargar la ficha del producto, las medidas exactas e incluso un diseño en 3D para que los arquitectos y diseñadores lo incrusten en sus presentaciones pero no haya ni rastro del &lt;a href=&#34;http://www.roca.com/RocaResourceServlet/resources/getMainResource?idObject=%7BB658E11A-2CAD-4E7A-954E-BD46209CB2EF%7D&#34;&gt;manual de servicio&lt;/a&gt; que sólo he podido encontrar con la referencia de la junta después de comprada.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180606_junta_roca_ampollas_04.jpg&#34; alt=&#34;Etiqueta junta&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Hace unos días que la cisterna del inodoro Roca de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.
+Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
+Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:</description>
     </item>
     
     <item>
@@ -109,52 +47,8 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/ordenar-listas-en-google-keep/</guid>
-      <description>
-
-&lt;p&gt;Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;La sincronización entre dispositivos&lt;/li&gt;
-&lt;li&gt;La compartición con otras personas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Un tiempo atrás, antes de que descubriera &lt;a href=&#34;https://ia.net/writer&#34;&gt;iawriter&lt;/a&gt;, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.&lt;/p&gt;
-
-&lt;p&gt;En mi lista de la compra hay unos cien artículos de uso cotidiano o comida que en casa compramos habitualmente, cada uno con una casilla de verificacion para marcar si hay en casa o es necesario comprar.&lt;/p&gt;
-
-&lt;p&gt;Gracias a la sincronización entre dispositivos, es posible chequear esta lista de la compra desde el móvil, la tablet, el pc&amp;hellip; Además, la lista la tengo compartida con mi señora de forma que cualquiera de los dos podemos añadir o seleccionar los artículos que hay que comprar o a sido comprado.&lt;/p&gt;
-
-&lt;p&gt;Para seleccionar los artículos a comprar lo suelo hacer de dos formas, bien hago un repaso general a la lista y veo de lo que ya yo hay existencia en casa o bien se me ocurre un en particular para añadir a la lista. Para el primer caso es muy sencillo, cojo la lista desde el principio y analizo. Hay, no hay, necesito, no necesito&amp;hellip; El problema viene cuando solo quiero seleccionar un articulo en particular de la lista cuando este no está ordenada alfabéticamente.&lt;/p&gt;
-
-&lt;h3 id=&#34;el-problema-ordenar-alfabéticamente-una-lista&#34;&gt;El problema. Ordenar alfabéticamente una lista&lt;/h3&gt;
-
-&lt;p&gt;Pues si, toda esta parrafada para explicar un método sencillo y rápido con el que ordenar la lista de Google Keep con casillas de verificación ya que el método de arrastrar las filas hasta su posición correcta es un verdadero lío que puede llegar a ser desesperante para listas largas.&lt;/p&gt;
-
-&lt;h3 id=&#34;una-solución-sencilla&#34;&gt;Una solución sencilla&lt;/h3&gt;
-
-&lt;p&gt;A priori se me ocurrieron varias opciones pero la más rápida y práctica para realizar creo que es la siguiente.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Desmarcar todos los elementos&lt;/li&gt;
-&lt;li&gt;Ocultar casillas de verificación&lt;/li&gt;
-&lt;li&gt;Seleccionar y cortar todo el texto&lt;/li&gt;
-&lt;li&gt;Ir a &lt;a href=&#34;https://www.textfixer.com/tools/alphabetical-order.php&#34;&gt;Textfixer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Seleccionar como separador de entrada el salto de línea.&lt;/li&gt;
-&lt;li&gt;Pegar el texto en el primer cuadro de texto&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Alfabetizar tu texto&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Copiar el texto del segundo cuadro&lt;/li&gt;
-&lt;li&gt;Pegarlo en la nota de Google Keep&lt;/li&gt;
-&lt;li&gt;Mostrar casillas de verificación&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y ya está!!! Nuestra lista perfectamente ordenada. Para los que no quieren perder cinco minutos en leer todo el artículo, aquí un vídeo de solo uno en el que se muestra todo el proceso.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Oi1nYKWou8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
+ La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</description>
     </item>
     
     <item>
@@ -163,66 +57,8 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/instalando-windows-7/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema-un-sistema-lento&#34;&gt;El problema, un sistema lento&lt;/h3&gt;
-
-&lt;p&gt;Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.&lt;/p&gt;
-
-&lt;h3 id=&#34;windows-7-vs-windows-10&#34;&gt;Windows 7 Vs Windows 10&lt;/h3&gt;
-
-&lt;p&gt;Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10. Seguro que me estoy perdiendo cientos de buenas características pero ya he dejado atrás los tiempos en los que el sistema operativo era una experiencia, ahora sólo lo considero una herramienta.&lt;/p&gt;
-
-&lt;h3 id=&#34;restauración-o-instalación-limpia&#34;&gt;Restauración o instalación limpia&lt;/h3&gt;
-
-&lt;p&gt;El pc con el que estoy luchando es un Packard Bell de sobremesa con un i3 al que después del primer arranque le cree unos Cd&amp;rsquo;s (o puede que fuera dvd) de restauración para los casos de emergencia como este pero, sinceramente, después de tantos años y varias mudanzas no tengo ni idea de donde están estas copias de seguridad. Según lo anterior parece obvio que voy a tener que realizar una instalación del sistema desde cero.&lt;/p&gt;
-
-&lt;h3 id=&#34;software-original-o-pirata&#34;&gt;Software original o pirata&lt;/h3&gt;
-
-&lt;p&gt;Ya han quedado atrás los años del pirateo y de probar software que no necesito. Ahora siempre que puedo uso software libre o gratuito y si la aplicación lo merece y el precio es razonable no me importa pagar ya que todos merecemos ver recompensado nuestro esfuerzo.&lt;/p&gt;
-
-&lt;h3 id=&#34;que-versión-de-windows-7-instalar&#34;&gt;Que versión de Windows 7 instalar&lt;/h3&gt;
-
-&lt;p&gt;Starter Edition, Home Basic, Home Premium, Pro, Enterprise, Ultimate&amp;hellip; Son varias las alternativas y, aunque creo con con cualquiera de ellas me puedo apañar, después de haber funcionado durante estos años con la versión Home Premium la intención es dar un paso hacia delante (Si el precio no se dispara) y pasar a la versión Pro ya que según lo que he podido leer y entender las versiones Enterprise y Ultimate ofrecen características que son mucho más útiles en un entorno empresarial.&lt;/p&gt;
-
-&lt;h3 id=&#34;cuanto-dinero-cuesta-windows-7-pro&#34;&gt;Cuanto dinero cuesta Windows 7 Pro&lt;/h3&gt;
-
-&lt;p&gt;Aquí va la parte más divertida del problema que hoy se nos presenta. ¿Donde compro una instalación de Windows 7 Pro? ¿Cuanto cuesta? El primer sitio donde busco es Amazon y resulta curioso como, a partir de 30€, hay una increíble disparidad de precios para un mismo producto, unos discos de instalación con una licencia válida.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_amazon_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt; &lt;img src=&#34;/images/20180419_win7_amazon_02.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Está claro, 200€ no voy a pagar por una instalación de windows que dentro de dos años ya no recibirá actualizaciones pero 27€ parece un precio razonable que no descarto aunque hay que seguir con el estudio de mercado previo a la compra. Acto seguido busco en ebay y&amp;hellip; increíble!!! Hay licencias de Windows 7 Pro a partir de poco más de dos euros.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_ebay_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unos días atrás he oido a &lt;a href=&#34;http://www.vidasenred.com/&#34;&gt;Converso72&lt;/a&gt; hablar de estas licencias de Windows originales que se venden por Ebay. Al parece provienen de fabricantes de Pc&amp;rsquo;s que compran a Microsoft miles de licencias OEM para sus productos y les quedan muchas sin utilizar. Converso ha comprado una pero no ha dicho todavía cual ha sido el resultado de la compra aunque por este precio, me tiro a la piscina. Busco un vendedor de más confianza y que haya vendido bastantes y al final me decanto por esta de poco menos de 6€.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_ebay_02.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.ebay.es/itm/Microsoft-Windows-7-Professional-32-64-ESD-Multilanguage-Original-License-Key/263335278671?hash=item3d5001784f:g:~y4AAOSwXrdaEzgJ&#34;&gt;Aquí&lt;/a&gt; el enlace por si a alguien os interesa.&lt;/p&gt;
-
-&lt;h3 id=&#34;he-pagado-y-ahora-que&#34;&gt;He pagado, y ahora que?&lt;/h3&gt;
-
-&lt;p&gt;Poco tiempo dura la espera, así como recibo el correo del pago de PayPal recibo tambien un correo del vendedor con el número de licencia y un enlace para descargar la iso de la instalación.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_correo_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Bueno, por lo menos ha mandado algo y además muy rápido, esto empieza bien. Puesto que no me fio del contenido que haya en el enlace de Mega que me ha mandado el vendedor, cojo el número de serie que acabo de comprar y voy a la web de descargas de &lt;a href=&#34;https://www.microsoft.com/es-es/software-download/windows7&#34;&gt;Windows 7 de Microsoft&lt;/a&gt;. Al verificar el número de serie recibido me encuentro con lo siguiente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_error_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Upsss¡¡¡ Problemas? Espero que no me hayan timado y que este error sólo sea debido a que este servicio de descargas de Microsoft no es válido para licencias OEM con las que los fabricantes dotan de Windows a los ordenadores que venden. Con esto, el siguiente paso es ir al enlade de Mega que he recivido en el correo electrónico y descargar la ISO.&lt;/p&gt;
-
-&lt;h3 id=&#34;tengo-la-iso-pero-no-tengo-cd-s&#34;&gt;Tengo la ISO, pero no tengo Cd&amp;rsquo;s&lt;/h3&gt;
-
-&lt;p&gt;Hace una década, raro era el día que no tenía en casa más de cincuenta cd&amp;rsquo;s o dvd&amp;rsquo;s &amp;ldquo;vírgenes&amp;rdquo; para grabar contenido, pero ahora&amp;hellip; todo ha cambiado y hace mucho tiempo que ni compro ni utilizo estos soportes físicos. Una vez más toca utilizar &lt;a href=&#34;https://rufus.akeo.ie/?locale&#34;&gt;Rufus&lt;/a&gt; para crear un Usb de arranque donde grabaré la imagen de Windows 7 Pro que he descargado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20180419_win7_rufus_01.jpg&#34; alt=&#34;Win7Pro&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ya-está-windows-instalado&#34;&gt;Ya está Windows instalado&lt;/h3&gt;
-
-&lt;p&gt;El proceso de instalación es coser y cantar, selecciono el usb como primer sistema de arranque, introduzco el número de serie y sólo resta tener un poco de paciencia con las actualizaciones. Como resultado, un pc de casi ocho años que, gracias a un disco ssd y la instalación limpia de windows 7 es capaz de arrancar el sistema en apenas 20 segundos. Se acabó la pereza por encender el ordenador.&lt;/p&gt;
-</description>
+      <description>El problema, un sistema lento Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.
+Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10.</description>
     </item>
     
     <item>
@@ -231,46 +67,8 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/telegram-vs-whatsapp/</guid>
-      <description>
-
-&lt;h3 id=&#34;conoces-telegram&#34;&gt;¿Conoces Telegram?&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es &lt;a href=&#34;https://www.telegram.org/&#34;&gt;Telegram&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos. Además, como complemento a todas estas distribuciones existe una versión &lt;a href=&#34;https://web.telegram.org/#/login&#34;&gt;web&lt;/a&gt; de la que no puedo sacar ninguna conclusión porque hasta ahora no he tenido que utilizar.&lt;/p&gt;
-
-&lt;p&gt;Pero esto sólo es la punta del iceberg, a continuación dejo una pequeña lista de todo lo que habitualmente hago con Telegram y que me resultaría imposible con otras aplicaciones de mensajería instantánea.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Contactar con otras personas o que estas lo hagan contigo sin necesidad de conocer el número de teléfono haciendo uso del nombre de usuario. Tan simple como mandar un mensaje o llamar a &lt;em&gt;@nombre_de_usuario&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar notas, páginas y archivos de forma temporal en el apartado &amp;ldquo;mensajes guardados&amp;rdquo; hasta que son ubicados o gestionados de forma definitiva. Es más rápido y eficiente hacerlo así que instalar otra aplicación específica para notas.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Existen muchos canales a los que te puedes suscribir para descargar libros, películas y series. Yo las descargo mediante la aplicación de escritorio para posteriormente recodificarlas y guardarlas en el NAS Synology de forma que puedan ser reproducidas en cualquier momento por el flamante DsVideo. Aunque si lo prefieres, sólo tienes que descargar el archivo y reproducirlo en el mismo dispositivo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Recibir ofertas de tiendas online como Amazon, Aliexpress o Gearbest mediante canales especializados. No es necesario estar constantemente recibiendo notificaciones de estos canales ya que es posible silenciarlos indefinidamente y sólo comprobar las novedades cuando &amp;ldquo;tienes un rato&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Ademas de conversaciones con otros usuarios, canales y grupos, puedes añadir bots a tu lista de conversaciones, tan sólo hay que buscarlos, añadirlos e iniciarlos. Gracias a esto, es posible recibir una notificación diaria con el tiempo que va a hacer de la mano del &lt;a href=&#34;https://telegram.me/weatherman_bot&#34;&gt;@weatherman_bot&lt;/a&gt; o &lt;a href=&#34;https://telegram.me/aemetbot&#34;&gt;@aemetbot&lt;/a&gt; (Este último para localidades españolas).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar los psd&amp;rsquo;s creados con mis retoques fotográficos en Photoshop por si alguna vez tengo que volver a utilizarlos en un canal privado propio, con la única limitación de 1.5gb por archivo, sin un máximo de archivos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Guardar programas descargados e instalados en un canal propio por si es necesaria una reinstalacion del mismo modo que en el caso anterior. En ningún caso lo utilizo como copia se seguridad, simplemente como un sitio donde guardar archivos que no quiero borrar pero que no sería trájico perder.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hacer seguimiento de envíos mediante el bot &lt;a href=&#34;https://telegram.me/MiTrackingBot&#34;&gt;@MiTrackingBot&lt;/a&gt; de forma que informa mediante un mensaje cada vez que hay una actualización en cualquiera de los envíos que estoy siguiendo.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Visualización de la evolución del precio de los productos de Amazon al estilo www.camelcamelcamel.com pero de forma más sencilla gracias al bot &lt;a href=&#34;https://telegram.me/amazonglobalbot&#34;&gt;@AmazonGlobalBot&lt;/a&gt;. Existen otras alternativas para la evolución y búsqueda en Ebay pero no he sido capaz de hacerlas funcionar.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Convertir y poder descargar videos de YouTube en archivos de audio mp3 de una forma rápida y sencilla mediante &lt;a href=&#34;https://telegram.me/ytaudiobot&#34;&gt;@YTAudioBot&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Convertir cualquier imagen o documento en un archivo descargable por otro usuario desde el propio navegador gracias a la bots &lt;a href=&#34;https://telegram.me/imageuploadbot&#34;&gt;@ImageUploadBot&lt;/a&gt;y &lt;a href=&#34;https://telegram.me/tlgurbot&#34;&gt;@tlgurbot&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Que mejor forma de saber si uno tiene que dejar de ir a trabajar por saber que le ha tocado el Euromillón que comprobándolo mediante una notificación de Telegram. Simplemente hay que usar &lt;a href=&#34;https://telegram.me/euromillionsbot&#34;&gt;@EuromillionsBot&lt;/a&gt; para comprobar los resultados o recibir la notificación cuano haya unos nuevos.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Compartir archivos o fotografias con otros usuarios para que estos puedan acceder a los mismos mediante una descarga directa en el explorador es tan sencillo como enviarselo a &lt;a href=&#34;https://telegram.me/uploadsbot&#34;&gt;@UploadsBot&lt;/a&gt; o &lt;a href=&#34;https://telegram.me/tlgurbot&#34;&gt;tlgurbot&lt;/a&gt; y cualquiera de los dos te devolverán un enlace para la descarga del archivo.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bueno, creo que no me dejo nada, aunque Telegram tiene cientos de posibilidades más gracias a sus bots, las de la lista anterior son las que utilizo diariamente.&lt;/p&gt;
-</description>
+      <description>¿Conoces Telegram? Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es Telegram.
+La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos.</description>
     </item>
     
     <item>
@@ -279,22 +77,9 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/como-he-ganado-100-sin-quererlo/</guid>
-      <description>&lt;p&gt;Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.&lt;/p&gt;
-
-&lt;p&gt;Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.&lt;/p&gt;
-
-&lt;p&gt;Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta. Resumiendo, una subcontrata de una aseguradora que me quiere vender un seguro.&lt;/p&gt;
-
-&lt;p&gt;En condiciones normales les hubiera dicho que no me interesa pero hoy no es así, me puedo permitir el lujo de escuchar &amp;ldquo;el sermón&amp;rdquo; mientras sigo haciendo los trabajos de bricolaje y además mi seguro de automóvil se renueva el mes próximo y no esta de más escuchar ofertas.&lt;/p&gt;
-
-&lt;p&gt;Pues bien, después de unos minutos de recopilación y actualización de datos personales, la señorita me da una cifra. No voy a entrar en nombres de compañías ni cantidades exactas, simplemente un resumen, el seguro que me ofrecen con las mismas coberturas y características equivalentes resulta 100€ más barato que el que ahora poseo.&lt;/p&gt;
-
-&lt;p&gt;Llegados a este punto dejo el destornillador y los cables a un lado y me centro en el cambio de compañía aseguradora. Por suerte, en mi nube personal tengo guardado el código de cuenta cliente de mi banco por lo que puedo realizar todas las gestiones para dar de alta mi nuevo seguro.&lt;/p&gt;
-
-&lt;p&gt;Pero todavía resta una parte muy importante, dar de baja mi seguro actual. Sin ir a ningún sitio me doy de alta en la web de la aseguradora en cuestión (Más de cinco años con ellos y todavía no lo había hecho) y busco un teléfono de contacto para tramitar la baja ya que de forma online no hay manera. Llamo y me informan de que es necesaria una solicitud por correo ordinario o electrónico adjuntando mis datos personales y de póliza así como una fotocopia del DNI. Los datos de la póliza los obtengo de la web de la aseguradora en la que recientemente me he registrado y el DNI nuevamente de mi nube personal, no tengo ni siquiera que ir a la guantera del coche a buscar los papeles. Redacto y envío el correo electrónico y les llamo otra vez por teléfono para asegurarme de la recepción del mismo y de que no es necesario nada más para la gestión.&lt;/p&gt;
-
-&lt;p&gt;Y ya esta!!! Sorprendentemente no me han puesto ningún problema y he ahorrado 100€ sin moverme del sitio y en menos de una hora.&lt;/p&gt;
-</description>
+      <description>Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.
+Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.
+Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta.</description>
     </item>
     
     <item>
@@ -303,27 +88,7 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/los-podcast-que-escucho-enero-de-2018/</guid>
-      <description>&lt;p&gt;Hace ya casi dos años que escucho podcast de una forma continuada y aunque no voy a exponer aquí todos los que escucho, si voy a hacer una pequeña clasificación con los más importantes de mi &amp;ldquo;podcather&amp;rdquo;. En esta lista solo incluiré los podcast de los que al menos he escuchado un día entero, es decir, que sumando la duración de todos los &amp;ldquo;episodios&amp;rdquo; al menos he escuchado 24 horas. Están ordenados de mayor a menor tiempo de reproducción.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/feed_fg_f19822_filtro_1.xml&#34;&gt;Vidas en red&lt;/a&gt; -&amp;gt; Converso es uno de los más polifacéticos de mi larga lista de podcasters. Política, actualidad, tecnología, movilidad y algo de linux son algunos de los temas que toca. Un tipo interesante al que merece la pena escuchar. Todo esto y mucho más en su &lt;a href=&#34;http://www.vidasenred.com/&#34;&gt;Isla&lt;/a&gt; que debes añadir a tu lector de feeds.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feedpress.me/daytoday&#34;&gt;Day to day&lt;/a&gt; -&amp;gt; Santiago Pascual nos deleita casi a diario con sus más variopintas historias mientras conduce la furgoneta. Tecnología y circunstancias de la vida cotidiana es lo que podemos escuchar en este podcast. Técnicamente no es de los podcast más avanzados que escucho pero el tío es un gran comunicador.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/podcast-wintablet-info_fg_f1111914_filtro_1.xml&#34;&gt;Wintablet.info&lt;/a&gt; -&amp;gt; Largas tertulias a través de hangout con una periodicidad indeterminada y una serie de &amp;ldquo;sospechosos habibuales&amp;rdquo; que saben de lo que hablan. Windows, Linux, chromebooks y temas de actualidad de software es lo que podemos escuchar en este podcast. Enseñan y divierten a partes iguales.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jmramirez.pro/masqueteclas/feed/&#34;&gt;Masqueteclas&lt;/a&gt; -&amp;gt; Mientras conduce su coche de camino al instituto donde imparte clases, &lt;a href=&#34;https://www.jmramirez.pro&#34;&gt;José Manuel Ramirez&lt;/a&gt; cargado con su Iphone nos comenta casi todas las mañanas temas tecnológicos de una forma breve y concisa. Nas, Workflow, apple y un sinfín de &amp;ldquo;chuches tecnológicas&amp;rdquo; son solo una muestra de lo que se puede escuchar en este podcast.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fernan.com.es/podcast/feed/&#34;&gt;WordPress Diario&lt;/a&gt; -&amp;gt; Desde esta ventana, &lt;a href=&#34;https://www.fernan.com.es/&#34;&gt;Fernan Diez&lt;/a&gt; nos cuenta todos los entresijos de WordPress a diario, bueno, de lunes a viernes. WordPress, diseño web, plugins y markering online son los aspectos fundamentales que se tocan en este podcast. Técnicamente es fácil de seguir y te ayuda a aprender y descubrir nuevas formas de trabajar con WordPress. Una forma de vender su contenido y servicios de la que nos podemos aprovechar.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/predicneitor-geek_fg_f1165758_filtro_1.xml&#34;&gt;Predicneitor Geek&lt;/a&gt; -&amp;gt; Básicamente hace &amp;ldquo;reviews&amp;rdquo; de smartphones aunque a veces toca otros temas. Un chico joven que se define como &amp;ldquo;Geek&amp;rdquo;. Aunque ahora apenas lo escucho todavía permanece en mi lista de los más escuchados.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://podcast.mixx.io/index.rss&#34;&gt;Mixx.io&lt;/a&gt; -&amp;gt; En este podcast de actualidad tecnológica, &lt;a href=&#34;https://www.mixx.io&#34;&gt;Alex Barredo&lt;/a&gt; (Redactor de la Vanguardia) nos hace un breve resumen diario de todo lo que acontece en el mundo de la tecnología. Unos minutos muy bien aprovechados y estructurados por parte de un gran profesional.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://potencia.pro/feed/podcast&#34;&gt;Potencia Pro&lt;/a&gt; -&amp;gt; Menuda pareja, Miguel Angel Terrón y Flavia Bernardez hacen este podcast de frecuencia indeterminada sobre el mundo WordPress. Ambos trabajan para Joan Boluda por lo que saben de lo que están hablando. Puede que no se aprenda mucho desde el punto de vista técnico, pero la verdad es que resulta muy entretenido.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/salmorejo-geek_fg_f1206500_filtro_1.xml&#34;&gt;Salmorejo Geek&lt;/a&gt; -&amp;gt; Un tipo cachondo este Yoyo Fernandez que, después de conducir su tractor nos habla sobre tecnología y el mundo linux. Tiene varios podcasts pero en este saca su faceta más técnica hablando de distribuciones Linux y actualidad tecnológica.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.jmramirez.pro/culturanas/feed/&#34;&gt;Cultura Nas&lt;/a&gt; -&amp;gt; Si quieres o tienes un Nas no puedes dejar de escuchar este podcast. &lt;a href=&#34;https://www.jmramirez.pro&#34;&gt;José Manuel Ramirez&lt;/a&gt;, el profesor de instituto de Masqueteclas, y &lt;a href=&#34;https://www.qloudea.com&#34;&gt;David Aragón&lt;/a&gt;, comunnity manager en Qloudea, hablan única y exclusivamente sobre servidores Nas, actualidad, novedades, modos de funcionamiento y resolución de preguntas. Cada vez les cuesta más tiempo grabar, pero es uno de mis obligatorios para escuchar.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feedpress.me/hablogeek&#34;&gt;Hablo Geek&lt;/a&gt; -&amp;gt; Más que un podcast, casi es una enciclopedia en formato de audio. Con la escusa de practicar el castellano, &lt;a href=&#34;https://hatoum.com/&#34;&gt;Federico Hatoum&lt;/a&gt; se prepara un par de temas tecnológicos al mes y los expone con total claridad, muchas veces acompañado de un invitado. Aunque no trate todos los temas con mucha profundidad, este podcast es perfecto para aprender &amp;ldquo;de todo un poco&amp;rdquo;. Me encanta¡¡¡&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://feeds.feedburner.com/ugeek&#34;&gt;UGeek&lt;/a&gt; -&amp;gt; Un podcast para escuchar con tranquilidad y del que se puede aprender mucho. &lt;a href=&#34;https://ugeek.github.io/&#34;&gt;Angel&lt;/a&gt; es un tío &amp;ldquo;templao&amp;rdquo; que nos habla de GNU-Linux, servidores, Raspberry Pi y muchos más temas tecnológicamente interesantes sin miedo a la consola de comandos. Tiene unas rachas de mayor publicación que otras, pero merece la pena esperar, nunca defrauda.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ivoox.com/podcast-reality-cracking_fg_f159955_filtro_1.xml&#34;&gt;Reality Cracking&lt;/a&gt; -&amp;gt; Mhyst es simplemente un pensador, toca infinidad de temas sin dar nada por supuesto y iendo siempre mucho más allá de la versión oficial. Ahora hace un tiempo que no publica, se ha dado un descanso y espero que vuelva. Si no lo has escuchado tienes oportunidad de hacerlo en la infinidad de podcast atemporales que tiene en su canal.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.spreaker.com/show/1388485/episodes/feed&#34;&gt;La Tecnología para todos&lt;/a&gt; -&amp;gt; En este podcast de caracter formativo y divulgativo, &lt;a href=&#34;https://programarfacil.com/&#34;&gt;Luis del Valle&lt;/a&gt; nos habla sobre todo lo relaccionado con el mundo maker. Arduino, programación, IoT, Raspberry Pi y mucho más es lo que aquí puedes escuchar. Es muy dificil abarcar todo que aquí se trata, pero un episodio cada quincena se puede seguir.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y aquí acaba la lista por ahora, dentro de un tiempo volveré a realizarla añadiendo nuevos podcast.&lt;/p&gt;
-</description>
+      <description>Hace ya casi dos años que escucho podcast de una forma continuada y aunque no voy a exponer aquí todos los que escucho, si voy a hacer una pequeña clasificación con los más importantes de mi &amp;ldquo;podcather&amp;rdquo;. En esta lista solo incluiré los podcast de los que al menos he escuchado un día entero, es decir, que sumando la duración de todos los &amp;ldquo;episodios&amp;rdquo; al menos he escuchado 24 horas. Están ordenados de mayor a menor tiempo de reproducción.</description>
     </item>
     
     <item>
@@ -332,28 +97,8 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
-      <description>&lt;p&gt;Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes. Estas alternativas están ordenadas de mayor a menor rapidez y de menor a mayor efectividad, es decir, la primera es la más rápida pero no siempre funciona y la última no falla nunca pero es mas laboriosa.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Lo primero que intento es comprobar la existencia del favicon en la ruta predeterminada &amp;ldquo;&lt;a href=&#34;http://www.midominio.con/favicon.ico&amp;quot;&#34;&gt;http://www.midominio.con/favicon.ico&amp;quot;&lt;/a&gt; y si existe introduzco esta ruta en la casilla de importación del gestor de contraseñas. Algunas veces la importación directa no funciona y lo que hago es descargar el icono a mi pc para luego importarlo en el gestor de contraseñas.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Cuando el favicon no se encuentra en la ruta predeterminada, lo que hago es usar un servicio de terceros para descargarlo o importarlo directamente al gestor. Existen varios servicios en la red gracias a los cuales se puede descargar el icono correspondiente a un dominio. Personalmente utilizo de forma indistinta cualquiera de los dos primeros y me quedo con el que primero me da un resultado.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.google.com/s2/favicons?domain=www.dominio.com&#34;&gt;https://www.google.com/s2/favicons?domain=www.dominio.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://api.statvoo.com/favicon/?url=www.dominio.com&#34;&gt;https://api.statvoo.com/favicon/?url=www.dominio.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://grabicon.com/icon?domain=www.dominio.com&#34;&gt;http://grabicon.com/icon?domain=www.dominio.com&lt;/a&gt; (necesario registro)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Cuando todo lo anterior falla hay que recurrir al buscador de imágenes de Google, bien para buscar el icono directamente (mucha suerte hay que tener) o para descargar una imagen que luego convierto a icono mediante el servicio online &lt;a href=&#34;http://icoconvert.com&#34;&gt;icoconvert&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hasta ahora con estos tres métodos he tenido suficiente pero si los tres fallan siempre se puede hacer una captura de pantalla de la web deseada y convertir su logo o imagen de cabecera en un icono con la aplicación que ha usado en el punto anterior.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;
+El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes.</description>
     </item>
     
     <item>
@@ -362,22 +107,7 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/deshabilitar-cache-en-chrome/</guid>
-      <description>&lt;p&gt;Segun un artículo de &lt;a href=&#34;http://acceso-directo.com/todo-lo-que-necesitas-saber-sobre-el-cache-del-navegador/&#34;&gt;Acceso Directo&lt;/a&gt;, la cache del navegador se entiende como &amp;ldquo;un lugar de almacenamiento temporal que se encuentra en la computadora y que guarda archivos que han sido descargados por el navegador para mostrar sitios. Dentro de estos archivos se encuentran aquellos documentos necesarios para la visualización de un sitio como archivos html, hojas de estilo de CSS, sripts de JavaScript, gráficos, imágenes y contenido multimedia en general&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Sin duda ganamos velocidad y reducimos el tráfico de datos pero puede llegar a ser un profundo dolor de cabeza cuando estamos desarrollando una web ya que una simple recarga de la página puede llegar a no mostrarnos los cambios que estamos realizando. En Chrome podemos evitar esta cache mientras estamos modificando la web de una forma muy sencilla con solo tres pasos.&lt;/p&gt;
-
-&lt;p&gt;1.- Abrimos en una pestaña la web que queremos visualizar sin cache&lt;/p&gt;
-
-&lt;p&gt;2.- Pulsamos &amp;ldquo;Ctrl+May+I&amp;rdquo; para acceder al modo de desarrollador.&lt;/p&gt;
-
-&lt;p&gt;3.- Pulsamos &amp;ldquo;F1&amp;rdquo; para acceder a los ajustes.&lt;/p&gt;
-
-&lt;p&gt;4.- En el apartado &amp;ldquo;Network&amp;rdquo; marcamos la opción &amp;ldquo;Disable cache (while DevTools is open)&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170411_cache_01.jpg&#34; alt=&#34;cache&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A partir de aquí, el navegador no tendrá en cuenta la caché almacenada de una web mientras tengamos abierto el modo de desarrollador.&lt;/p&gt;
-</description>
+      <description>Segun un artículo de Acceso Directo, la cache del navegador se entiende como &amp;ldquo;un lugar de almacenamiento temporal que se encuentra en la computadora y que guarda archivos que han sido descargados por el navegador para mostrar sitios. Dentro de estos archivos se encuentran aquellos documentos necesarios para la visualización de un sitio como archivos html, hojas de estilo de CSS, sripts de JavaScript, gráficos, imágenes y contenido multimedia en general&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -386,35 +116,8 @@ Espacio ilimitado, transferencia ilimitada y un nombre de dominio incluido todo 
       <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
-      <description>&lt;p&gt;Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.&lt;/p&gt;
-
-&lt;p&gt;Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación.  Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170322_another_instance_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No hace falta ser un erudito en la lengua de Shakespeare para darse cuenta de que el problema es que hay otra instancia del mismo programa que se está intentando cerrar actualemnte (o eso es lo que piensa el sistema operativo).  Abro el administrador de tareas y&amp;#8230; nada, no se está ejecutando otra versión de Google Earth así que opto por la principal solución en informática, reiniciar¡¡¡&lt;/p&gt;
-
-&lt;p&gt;El reinicio no produce ninguna diferencia sustancial y al volver a arrancar windows e intentar lanzar el programa el error persiste por lo cual toca buscar un poco por la red.&lt;/p&gt;
-
-&lt;p&gt;Aunque el encontrar una solución me lleva un tiempo resulta un éxito, ya que funciona perfectamente el primer remedio que encuentro. Dentro de la carpeta &amp;ldquo;Data&amp;rdquo; podemos encontrar un archivo de congiguración con el nombre &amp;ldquo;PortableApps.comLauncherRuntimeData-GoogleEarthPortable&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170322_another_instance_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si abrimos con el bloc de notas o cualquier editor de texto el archivo podremos ver algo como lo siguiente:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p style=&amp;quot;padding-left: 30px;&amp;quot;&amp;gt;
-  &amp;lt;code&amp;gt;&amp;lt;br/&amp;gt;
-[PortableApps.comLauncher]&amp;lt;br/&amp;gt;
-Status=stopping&amp;lt;br/&amp;gt;
-PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
-[FailedRegistryKeys]&amp;lt;br/&amp;gt;
--=true&amp;lt;br/&amp;gt;
-&amp;lt;/code&amp;gt;
-&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Pues bien, la solución a nuestro problema pasa por cambiar en la segunda línea la palabra &amp;ldquo;stopping&amp;rdquo;por &amp;ldquo;stopped&amp;rdquo;, guardar los cambios y nuestra aplicación portable ya se podrá ejecutar sin ningún problema.&lt;/p&gt;
-</description>
+      <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
+Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
     </item>
     
     <item>
@@ -423,40 +126,8 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>/automatizando-la-limpieza-de-gmail/</guid>
-      <description>
-
-&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
-
-&lt;p&gt;Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.&lt;/p&gt;
-
-&lt;p&gt;Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Para mi, todos estos son mensajes de segunda categoría, es decir, no pasa nada si alguno se queda sin leer y no los leo a diario. Por esto tienden a acumularse y la mayoría de ellos cuando los lees ya no tienen relevancia puesto que suelen ser promociones temporales. Me resulta muy fácil acumular cientos de mensajes en esta pestaña y de vez en cuando tengo que perder tiempo en borrar los antiguos. Para ello utilizo un filtro que me busque todos los mensajes de la pestaña promociones con mas de diez días en la bandeja de entrada, los selecciono y los borro.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cierto es que esta operación supone un gasto de tiempo pequeño, pero me pregunto&amp;hellip; ¿Podrá automatizarse esto? Pues si, y de una forma bastante sencilla usando &lt;a href=&#34;https://www.google.com/script/start/&#34;&gt;Google Apps Script&lt;/a&gt;. Tan sencillo como entrar en &lt;a href=&#34;https://drive.google.com/drive/u/0/my-drive&#34;&gt;Google Drive&lt;/a&gt; y crear un nuevo &amp;ldquo;Google Apps Script&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aparece un nuevo proyecto en blanco en el que incluiremos la siguiente función:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;function limpiar_propaganda() {
-  var filtro = GmailApp.search(&#39;category:promotions older_than:10d&#39;);
-  for (var i = 0; i &amp;amp;lt; filtro.length; i++) {
-    filtro[i].moveToTrash();
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Lo guardamos, le damos nombre y fijamos los activadores del proyecto activo a una ejecución por hora o lo que cada uno considere adecuado.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20161014_promociones_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A partir de ahora y de forma automática, cada hora se borrarán los correos con promociones de más de diez días de antigüedad.&lt;/p&gt;
-</description>
+      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
     </item>
     
     <item>
@@ -465,30 +136,8 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/lo-barato-no-siempre-es-suficiente/</guid>
-      <description>&lt;p&gt;Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en &lt;a href=&#34;http://www.banggood.com&#34;&gt;Banggood&lt;/a&gt; a la búsqueda de un repuesto bueno, bonito y sobre todo barato.&lt;/p&gt;
-
-&lt;p&gt;Termine comprando por menos de 2$ &lt;a href=&#34;http://www.banggood.com/Replacement-USB-Side-Door-Cover-Case-Cap-Repair-Part-For-GoPro-Hero-3-3-Plus-4-p-1026853.html&#34;&gt;esta&lt;/a&gt; tapa de repuesto.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Siempre acostumbro a mirar las valoraciones y comentarios de otros compradores para ver si se trata de un buen producto, en este caso, en el momento de la compra sólo hay una valoración, la cual le otorga 5 estrellas pero que pinta demasiado &amp;ldquo;aséptica&amp;rdquo;. De todos modos, la inversión no es muy grande y se puede asumir el riesgo.&lt;/p&gt;
-
-&lt;p&gt;Ya al tacto me doy cuenta de que el plástico es mucho más rígido que la original y además cuando intento colocarla en el alojamiento me doy cuenta de que no encaja perfectamente tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como uno tiene la sangre latina, se empeña en que la tapa tiene que encajar en el alojamiento y a base de hacer fuerza lo hace, pero en el momento de quitarla&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Como se puede ver en la imagen la tapa se parte sin duda alguna debido a la excesiva rigidez del plástico.&lt;/p&gt;
-
-&lt;p&gt;Mi primera acción es escribir un comentario negativo en el producto de la web de Banggood para evitar así que otra gente compre este producto y les ocurra lo mismo que a mi. Veo que a alguien le ha pasado lo mismo hace unos días pero con todo recomienda su compra y luego hacer unos retoques a la tapa. Dejo mi valoración negativa y a los dos días otro usuario hace lo mismo que yo. A ambos nos invitan a que le reportemos imágenes de la rotura y como no encaja, hago lo propio y todavía estoy a la espera de respuesta.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20160604_gopro_door_banggood_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No creo ni espero que me devuelvan el dinero, mi principal interés es que retiren el producto de la tienda o en el peor de los casos que con mi comentario negativo nadie vuelva a comprarlo.&lt;/p&gt;
-</description>
+      <description>Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en Banggood a la búsqueda de un repuesto bueno, bonito y sobre todo barato.
+Termine comprando por menos de 2$ esta tapa de repuesto.</description>
     </item>
     
     <item>
@@ -497,64 +146,7 @@ PluginsDir=C:/users/AppData/Local/Temp/nso5C00.tmp&amp;lt;br/&amp;gt;
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/no-compres-en-ikea/</guid>
-      <description>&lt;p&gt;Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Te hacen un presupuesto de acuerdo al diseño que necesitas.&lt;/li&gt;
-&lt;li&gt;Solicitas y pagas una verificación.&lt;/li&gt;
-&lt;li&gt;El verificador comprueba in situ que el diseño presupuestado es viable.&lt;/li&gt;
-&lt;li&gt;Con el presupuesto verificado se realiza un pedido y se fija un día de transporte y montaje.&lt;/li&gt;
-&lt;li&gt;Pagas la cocina.&lt;/li&gt;
-&lt;li&gt;Transporte de materiales.&lt;/li&gt;
-&lt;li&gt;Montaje de la cocina.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Si todo va bien este proceso son cinco días con los correspondientes tiempos de espera dependiendo de la disponibilidad del verificador, transportista, montador y los materiales. En mi caso la cocina quedó verificada el día 30 de diciembre de 2015. El diseño era completamente viable a los ojos del verificador de forma que ese mismo día deje la cocina pagada. Con esto ya sólo restaba un día de transporte de materiales previsto para el 27 de enero y otro de montaje para el día siguiente. Pues bien, a continuación paso a detallar como se llegó a complicar la cosa&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;21/1/16 - Me llaman de Ikea para cambiar el día del montaje por no haber disposición del montador.&lt;/p&gt;
-
-&lt;p&gt;27/1/16 - Primer Transporte de materiales sin incidencias.&lt;/p&gt;
-
-&lt;p&gt;28/1/16 - Primer día de montaje previsto, queda pospuesto por no haber disposición del montador.&lt;/p&gt;
-
-&lt;p&gt;5/2/16 - Segundo día de montaje, queda sin montar parte de la isla alegando el montador por faltar piezas como consecuencia, según su opinión, de una mala verificación.&lt;/p&gt;
-
-&lt;p&gt;8/2/16 - Como nadie se pone en contacto conmigo, voy por primera vez a atención al Cliente de la tienda de Ikea para abrir la incidencia del montaje. Me devuelven el dinero del material sobrante y se realiza el pedido con el material necesario. Básicamente sólo es necesario cambiar dos cajones por unas puertas con bisagras para debajo del fregadero ya que los primeros interfieren con los tubos de desagüe y agua sanitaria. Tanto a la persona que me realiza el presupuesto en Ikea como al verificador in situ les había planteado esta posibilidad y ninguno de los dos vieron ningún problema.&lt;/p&gt;
-
-&lt;p&gt;12/2/16 - Me llaman de Ikea para informar del transporte del 24 y montaje del 25.&lt;/p&gt;
-
-&lt;p&gt;22/2/16 - Me llaman de Ikea para conformar la entrega del día 24. Me pilla en el monte con la bicicleta y no estoy seguro de haber entendido bien fecha y hora. Intento llamar por teléfono para asegurarme pero no consigo nada a cambio de los 5€ del coste de la llamada.&lt;/p&gt;
-
-&lt;p&gt;22/2/16 - Para asegurarme de la fecha y la hora de la entrega que anteriormente se me había informado voy por segunda vez a atención al Cliente de la tienda de Ikea. Me lo confirman.&lt;/p&gt;
-
-&lt;p&gt;24/2/16 - Segundo día de transporte previsto para la entrega de materiales para cubrir la incidencia, no traen nada. Como es poco lo llevará el montador según me avisan por teléfono después de llevar unas horas esperando.&lt;/p&gt;
-
-&lt;p&gt;25/2/16 - Tercer día de montaje, esperando desde las 14:00 y después de hacerle varias llamadas, aparece a las 21:00 para sólo comprobar la situación del montaje.&lt;/p&gt;
-
-&lt;p&gt;26/2/16 - Como consecuencia de lo anterior voy por tercera vez a atención al cliente de la tienda de Ikea para comprobar la situación de la incidencia. Me informan que tengo que pagar más materiales además de los ya añadidos el día 8/2/16 al pedido inicial. Nadie me explica por ni para qué. Quedan pendientes del pago a su entrega.&lt;/p&gt;
-
-&lt;p&gt;8/3/16 - Me llaman de Ikea para informar de la no existencia del material necesario e informar de las nuevas fechas de transporte y montaje&lt;/p&gt;
-
-&lt;p&gt;9/3/16 -Tercer día de transporte, no traen nada según el aviso anterior de Ikea.&lt;/p&gt;
-
-&lt;p&gt;11/3/16 - Cuarto día de montaje, no avisan de que no van a ir, les llamo y confirman la no asistencia.&lt;/p&gt;
-
-&lt;p&gt;6/4/16 - Cuarto día de transporte. La mercancía, aunque no tengo claro si la necesaria o prevista llega correctamente tras un aviso vía sms. Llamo a la empresa de montaje para asegurarme del horario en el que van a realizar el montaje al día siguiente y me dicen que a partir de las ocho de la mañana.&lt;/p&gt;
-
-&lt;p&gt;7/4/16 - Quinto día de montaje. A las ocho no vienen, los llamo a las diez, me dicen que “están con un remate” y cuando acaben vienen. Los llamo a las doce y me dicen que el horario previsto era de ocho a cinco. No acude nadie, los llamo a las cinco y media y ya no me atienden la llamada. Esa misma tarde y ya por cuarta vez desde que comenzó esta guerra, voy a atención al cliente de la tienda de Ikea para poner una reclamación por el servicio prestado. Tras hablar con varios responsables se llega al acuerdo de realizar el montaje al día siguiente a las 15:00 y la reclamación queda sin poner.&lt;/p&gt;
-
-&lt;p&gt;8/4/16 - Sexto día de montaje. El montador aparece a las 15:00 tal y como estaba previsto pero aparece sólo por lo que tengo que ayudarle a cargar con los materiales pesados y sostener la encimera mientras él la corta. Alrededor de las 19:00 se tiene que ir, sin dar motivos, quedando sin terminar el montaje.&lt;/p&gt;
-
-&lt;p&gt;9/4/16 - Me llaman desde la central de transporte y montaje para informarme de que el montador vendrá el lunes 11-4-16 a las 10:00. Pido puntualidad para poder cuadrar mis horarios.&lt;/p&gt;
-
-&lt;p&gt;11/4/16 - Séptimo día de montaje. Cuando ya estoy esperando al servicio de montaje, el montador me llama diciendo que va a llegar una hora más tarde. Llega a las 11:30, una hora y media después de lo inicialmente previsto. Termina con el montaje a excepción de las puertas del fregadero que al parecer no estaban entre los materiales que habían llegado el día 6/4/16, tampoco las bisagras. El técnico contacta con la central y esta a su vez con Ikea para entre todos justificar que las puertas no estaban porque yo no había ido a buscarlas personalmente a Ikea. Cuando el montador se marcha y por quinta vez voy a atención al cliente de Ikea, esta vez acudo directamente al departamento de cocinas donde me atienden los responsables. Les explico toda esta batalla, pido las puertas y un impreso para presentar una reclamación y me voy a casa con ambos.&lt;/p&gt;
-
-&lt;p&gt;15/4/16 - El montador que ha venido los dos últimos días demuestra, a nivel personal, un poco de formalidad y me llama para preguntar por el estado de las puertas que faltaban por montar, le explico que ya estoy cansado del servicio de su empresa y que no estoy dispuesto a perder más tiempo por ellos. Me pondré yo las puertas.&lt;/p&gt;
-
-&lt;p&gt;18/4/16 - Voy por sexta vez a atención al cliente de Ikea para presentar la queja y reclamación formal. Unas horas más tarde me llaman de la central de Ikea en Asturias para informarme de que como consecuencia de la incidencia abierta me van a compensar económicamente. Esa misma tarde vuelvo a Ikea para informarme de la compensación. Me ofrecen un 20% del coste del montaje, apenas 116€ que para nada cubren todo el tiempo que he perdido y los desperfectos del montaje por lo que renuncio a ellos para seguir adelante con la reclamación formal.&lt;/p&gt;
-
-&lt;p&gt;Como resumen, cuatro días de transporte, siete días de montaje, siete pases por el servicio de atención al cliente de Ikea y un sinfín de llamadas realizadas para el montaje de una cocina que se debería haber terminado con un día de transporte y otro de montaje.&lt;/p&gt;
-</description>
+      <description>Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:</description>
     </item>
     
   </channel>

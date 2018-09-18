@@ -3,12 +3,12 @@
   <channel>
     <title>Wordpress on Sherblog</title>
     <link>/categories/wordpress/</link>
-    <description>Contenido reciente in Wordpress en Sherblog</description>
+    <description>Recent content in Wordpress on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,14 +17,8 @@
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
-      <description>&lt;p&gt;Hace unos días que publiqué el &lt;a href=&#34;/copia-de-seguridad-de-la-base-de-datos-de-wordpress/&#34;&gt;modo&lt;/a&gt; en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el &lt;a href=&#34;https://es.wordpress.org/plugins/wp-db-backup&#34;&gt;plugin&lt;/a&gt; para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.&lt;/p&gt;
-
-&lt;p&gt;Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.&lt;/p&gt;
-
-&lt;p&gt;La solución es simple, sólo hace falta habilitar la extensión &amp;ldquo;zip&amp;rdquo; de la configuración de php del Synology WebStation tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;![error_db][1]&lt;/p&gt;
-</description>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
+Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
     </item>
     
     <item>
@@ -33,95 +27,8 @@
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
-      <description>&lt;p&gt;Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.&lt;/p&gt;
-
-&lt;p&gt;El plugin de WordPress &lt;a href=&#34; https://es.wordpress.org/plugins/wp-db-backup/&#34;&gt;WP-DB-Backup&lt;/a&gt; es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos. La configuración es muy sencilla, una vez que el plugin está instalado y activo vamos al menú &amp;ldquo;Herramientas - Copia de respaldo&amp;rdquo; del escritorio de WordPress y bajamos hasta la opción &amp;ldquo;Respaldo Programado&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_db_backup_01.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Seleccionamos la frecuencia del respaldo y las tablas adicionales a respaldar, introducimos la dirección de correo a la que vamos a enviar el respaldo y pulsamos el botón &amp;ldquo;Respaldo Programado&amp;rdquo; para guardar la configuración.&lt;/p&gt;
-
-&lt;p&gt;A continuación vamos a crear un programa dentro de Google Apps Script que nos guardará el archivo adjunto en una carpeta de nuestra unidad de Google Drive y borrará el correo electrónico.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;// Declaración de variables
-var ahora = new Date();
-var correos = GmailApp.search(&amp;quot;subject:(*SherBlog Copia de seguridad de la base de datos*) has:attachment&amp;quot;);
-var carpeta = DriveApp.searchFolders(&amp;quot;title contains &#39;sherblog_db_backups&#39;&amp;quot;).next();
-var archivos = new Array();
- 
-// Matrices para distintos rangos de antiguedad 10-20-40-80-160 
-var d10 = new Array();
-var d20 = new Array();
-var d40 = new Array();
-var d80 = new Array();
-var d160 = new Array();
- 
-function backup_db() {
-  
-  // Guardar los archivos adjuntos y borra los correos
-  for (var x=0; x&amp;lt;correos.length; x++) {
-    var mensaje = correos[x].getMessages()[0];
-    var adjuntos = mensaje.getAttachments();
-    carpeta.createFile(adjuntos[0]);
-    correos[x].moveToTrash();
-  }
-                 
-  // Genera matriz con los archivos ya existentes en carpeta
-  archivos = carpeta.getFiles();
-  
-  while (archivos.hasNext()) {
-    archivo = archivos.next();
-    // Asigna cada archivo al rango de antiguedad y borra los obsoletos
-    if(dias(archivo)&amp;gt;5 &amp;amp;&amp;amp; dias(archivo)&amp;lt;11){d10.push(archivo)};
-    if(dias(archivo)&amp;gt;10 &amp;amp;&amp;amp; dias(archivo)&amp;lt;21){d20.push(archivo)};
-    if(dias(archivo)&amp;gt;20 &amp;amp;&amp;amp; dias(archivo)&amp;lt;41){d40.push(archivo)};
-    if(dias(archivo)&amp;gt;40 &amp;amp;&amp;amp; dias(archivo)&amp;lt;81){d80.push(archivo)};
-    if(dias(archivo)&amp;gt;80 &amp;amp;&amp;amp; dias(archivo)&amp;lt;161){d160.push(archivo)};
-    if(dias(archivo)&amp;gt;160){archivo.setTrashed(true)};
-  }
-               
-  // Borrar los archivos recientes de cada rango
-  limpiar(d10);
-  limpiar(d20);
-  limpiar(d40);
-  limpiar(d80);
-  limpiar(d160); 
-}
- 
-// función para contar los días de antiguedad de un archivo
-function dias(archiv){
-  return(Math.round((ahora - archiv.getLastUpdated())/1000/60/60/24));
-}
- 
-// Función para eliminar los archivos mas recientes de una matriz
-function limpiar(matriz){
-  while (matriz.length&amp;gt;1){
-    if(dias(matriz[0])&amp;gt;dias(matriz[1])){
-      matriz[1].setTrashed(true);  //Elimina el archivo más reciente
-      matriz.splice(1,1);  //Elimina la entrada de la matriz correspondiente al archivo borrado
-    }else{
-      matriz[0].setTrashed(true);
-      matriz.splice(0,1);
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Con esto ya tenemos guardada en nuestra unidad de Google Drive una copia de seguridad de la base de datos de WordPress de la web.&lt;/p&gt;
-
-&lt;p&gt;Para el tema del guardado de versiones he optado por un sistema tan simple como efectivo, tal y como se puede ver en el código se guardan los siguientes archivos.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Un archivo por cada uno de los cinco últimos días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 5 y 10 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 10 y 20 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 20 y 40 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 40 y 80 días&lt;/li&gt;
-&lt;li&gt;Un archivo con una antigüedad entre 80 y 160 días&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Y con esto creo que tengo más que suficiente para cubrir mis necesidades ocupando un espacio limitado.&lt;/p&gt;
-</description>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
+El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
     </item>
     
     <item>
@@ -130,38 +37,8 @@ function limpiar(matriz){
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</guid>
-      <description>&lt;p&gt;Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.&lt;/p&gt;
-
-&lt;p&gt;Para todo esto utilizo &lt;a href=&#34;http://www.faststone.org/FSCaptureDetail.htm&#34;&gt;Faststone Capture&lt;/a&gt; en su versión portable que puedes descargar desde &lt;a href=&#34;http://www.faststone.org/FSCapturerDownload.htm&#34;&gt;aquí&lt;/a&gt;. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes. Si, la aplicación no es gratis pero puedes probar una versión de 30 días completamente funcional para ver si te interesa desembolsar los 20$. También puedes encontrar una medicina &lt;a href=&#34;https://www.crackhex.ch/topic/1630-faststone-capture-84-serial-keygen/&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El programa consta en principio de una pequeña barra flotante tal y como se puede ver en la siguiente imagen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_01.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No voy a describir todas las opciones que tiene el programa ya que para eso ya está la &lt;a href=&#34;http://www.faststone.org/FSCaptureDetail.htm&#34;&gt;web del creador&lt;/a&gt;. Simplemente mostrar como yo lo utilizo cuando necesito una captura de pantalla o redimensionar una imagen para incrustar en un artículo.&lt;/p&gt;
-
-&lt;p&gt;En caso de tener que redimensionar una imagen es tan simple como arrastrarla desde el explorador de archivos hasta la barra flotante de Faststone y se abrirá un pequeño editor de imágenes donde podemos recortar, redimendionar y guardar la imagen ajustándola a nuestras necesidades.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_02.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si lo que necesitamos es una captura de pantalla, Faststone nos ofrece varias opciones de hacerlo, por ventana, por area&amp;hellip; y después varias destinos para la captura realizada. Personalmente utilizo el editor como destino para ajustar el tamaño de la imagen y renombrarla adecuadamente.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_03.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A la hora de renombrar las imágenes resulta interesante utilizar un método para que luego la biblioteca no sea un caos. Personalmente yo utilizo el formato fecha_identificación_número&amp;rdquo; de forma que los nombres de las imágenes de este post serán del tipo: 20170330_faststone_01.jpg&lt;/p&gt;
-
-&lt;p&gt;Una vez que tenemos listas todas las imágenes ya las podemos importar desde nuestro ordenador hasta la biblioteca de medios de WordPress en nuestro servidor mediante el menú del escritorio de WordPress &amp;ldquo;Medios - Añadir nuevo&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_04.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finalmente ya sólo resta incrustar las imágenes en el post, si utilizamos el código que automáticamente nos genera WordPress desde la biblioteca, en el post nos aparecerá algo como lo siguiente:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_05.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Prefiero utilizar rutas relativas por si hay que realizar alguna migración y puesto que la imagen ya está redimensionada a nuestras necesidades no es necesario especificar ancho y alto. Para la alineación utilizo etiquetas html externas de forma que el código para incrustar una imagen en mis post queda así.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170330_faststone_06.jpg&#34; alt=&#34;Imagen&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.
+Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes.</description>
     </item>
     
     <item>
@@ -170,20 +47,8 @@ function limpiar(matriz){
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/descarga-fallida.-no-working-transports-found/</guid>
-      <description>&lt;p&gt;Después de la instalación de WordPress en el servidor Synology al intentar actualizar los temas o los plugins me encuentro con el siguiente error.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de que la solución es bastante sencilla y basta con habilitar la extensión &amp;ldquo;Curl&amp;rdquo; dentro de la configuración de php de la aplicación Web Station tal y como se puede ver en la siguiente captura de pantalla.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aplicamos los cambios, probamos de nuevo a actualizar el tema, sin reinicio de la aplicación, del servidor ni nada y&amp;hellip; ya funciona¡¡¡&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170215_descarga_fallida_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Que todos los problemas sean como este.&lt;/p&gt;
-</description>
+      <description>Después de la instalación de WordPress en el servidor Synology al intentar actualizar los temas o los plugins me encuentro con el siguiente error.
+Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de que la solución es bastante sencilla y basta con habilitar la extensión &amp;ldquo;Curl&amp;rdquo; dentro de la configuración de php de la aplicación Web Station tal y como se puede ver en la siguiente captura de pantalla.</description>
     </item>
     
     <item>
@@ -192,86 +57,8 @@ function limpiar(matriz){
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
-      <description>&lt;p&gt;Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este &lt;a href=&#34;https://www.jmramirez.pro/tutorial/web-en-un-synology-con-wordpress/&#34;&gt;tutorial&lt;/a&gt;, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.&lt;/p&gt;
-
-&lt;p&gt;Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos. Tras instalar &amp;ldquo;Web Station&amp;rdquo; seleccionaremos Apache como servidor y la versión de php. Para &amp;ldquo;Maria Db&amp;rdquo; es muy importante generar una contraseña para el usuario root después de instalarlo. Con esto ya podemos iniciar la instalación propia de WordPress.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;¡¡¡Es importante hacer los pasos según indico a continuación y olvídate de acceder o editar el contenido del NAS desde el explorador del pc en lugar de hacerlo desde el entorno de DSM para no tener problemas con los permisos.¡¡¡&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Accedemos a la &lt;a href=&#34;https://es.wordpress.org/&#34;&gt;web en castellano de WordPress&lt;/a&gt; y copiamos la dirección del enlace de la descarga de la última versión.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_01.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abrimos Download Station desde DSM y añadimos una nueva descarga con la dirección que hemos copiado.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_02.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Extraemos el contenido del archivo descargado en la la carpeta compartida &amp;ldquo;web&amp;rdquo; que se ha creado en el raiz.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_03.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Renombramos la carpeta, en este caso le he puesto el nombre &amp;ldquo;tuto&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_04.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ya podemos acceder a la instalación web de WordPress para lo cual en el navegador introduciremos la ip del Nas seguido de la carpeta de wordpress. En este caso introduciré &lt;a href=&#34;http://192.168.1.200/tuto&#34;&gt;http://192.168.1.200/tuto&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_05.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Abrimos PhpMyAdmin desde otra pestaña del navegador (&lt;a href=&#34;http://192.168.1.200/phpMyAdmin/&#34;&gt;http://192.168.1.200/phpMyAdmin/&lt;/a&gt; ojo con las mayúsculas) y accedemos con el usuario root y la contraseña que hemos cambiado en Maria Db con anterioridad. Accedemos al menú &amp;ldquo;Cuentas de Usuarios&amp;rdquo; y clickamos en &amp;ldquo;Agregar cuenta de usuario&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_06.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Introducimos en nombre para el usuario y la contraseña (en nuestro caso he utilizado &amp;ldquo;tuto&amp;rdquo; como usuario y &amp;ldquo;tuto123&amp;rdquo; como pass, pero no tiene por que coincidir con el nombre de la carpeta donde hemos descomprimido la instalación de WordPress, aunque simplifica bastante) y rellenamos el cuadro &amp;ldquo;Crear base de datos con el mismo nombre y otorgar todos los privilegios&amp;rdquo;. Pinchamos en el botón &amp;ldquo;Continuar&amp;rdquo; y si todo ha ido bien nos aparecerá en la parte superior un cuadro como este.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_07.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ya podemos cerrar la pestaña del navegador de phpMyAdmin y volver a &lt;a href=&#34;http://192.168.1.200/tuto&#34;&gt;http://192.168.1.200/tuto&lt;/a&gt; para pinchar en el botón &amp;ldquo;¡Vamos a ello¡&amp;rdquo;. Modificaremos los campos de &amp;ldquo;Nombre de base de datos&amp;rdquo;, &amp;ldquo;Nombre de usuario&amp;rdquo; y &amp;ldquo;contraseña&amp;rdquo; con los que hemos creado en el paso anterior en phpMyAdmin.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_08.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Si todo ha ido bien, al enviar el formulario nos aparecerá lo siguiente.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_09.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;El sistema no ha podido modificar el archivo &amp;ldquo;wp-config.php&amp;rdquo;. Para seguir adelante necesitamos tener instalado el paquete &amp;ldquo;Editor de texto&amp;rdquo; en DSM. Desde &amp;ldquo;File Station&amp;rdquo; en la carpeta &amp;ldquo;web/tuto&amp;rdquo; renombraremos el archivo &amp;ldquo;wp-config-sample.php&amp;rdquo; a &amp;ldquo;wp-config.php&amp;rdquo;, lo editaremos (Botón derecho y &amp;ldquo;Abrir con editor de texto&amp;rdquo;) de forma que borraremos todo el texto y lo sustituiremos por lo que nos ha sugerido el instalador en el paso anterior.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_10.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Con el archivo editado ya podemos &amp;ldquo;Ejecutar la instalación&amp;rdquo; para en la siguiente pantalla introducir en título del sitio y crear un usuario de administración con su correspondiente contraseña. Añadimos nuestra dirección de correo electrónico y rellenamos el cuadro para que Google de momento no indexe nuestro sitio (Ya lo hará después cuando lo tengamos más arregladito)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_11.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Pinchamos en &amp;ldquo;Instalar WordPress&amp;rdquo;, esperamos unos segundos y&amp;hellip;. Voila¡¡¡&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;/images/20170228_wordpress_manual_12.jpg&#34; alt=&#34;imagen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Ya podemos acceder a nuestro sitio con el usuario y contraseña que hemos creado en el paso anterior. De aquí en adelante&amp;hellip; horas y horas para añadir contenido y darle formato.&lt;/p&gt;
-</description>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
+Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
     </item>
     
     <item>
@@ -280,29 +67,8 @@ function limpiar(matriz){
       <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/backup-de-la-web-al-nas-mediante-ftp-y-ssh-en-synology/</guid>
-      <description>&lt;p&gt;Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al &lt;a href=&#34;https://es.wikipedia.org/wiki/Almacenamiento_conectado_en_red&#34;&gt;Nas&lt;/a&gt; que tengo en casa, de una forma automática y periódica.&lt;/p&gt;
-
-&lt;p&gt;Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión &lt;a href=&#34;https://es.wikipedia.org/wiki/File_Transfer_Protocol&#34;&gt;ftp&lt;/a&gt;. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas. Otro día veremos como gestionar la copia de seguridad de la base de datos de WordPress.&lt;/p&gt;
-
-&lt;p&gt;En primer lugar crearemos un archivo de texto del tipo &amp;ldquo;backup.sh&amp;rdquo; en un directorio del nas al que nuestro usuario tenga acceso e introduciremos el siguiente código&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;wget -m ftp://usuario:pass@tusitio.es/public_html/blog/wp-content -P /ruta
-tar -zcvf /ruta/$(date +%Y-%m-%d)_bkp_tusitio.tar.gz /ruta/tusitio.es
-rm -r /ruta/tusitio.es
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;La primera línea copia mediante una conexión ftp la carpeta &amp;ldquo;wp-content&amp;rdquo; desde tusitio.es a la ruta que le especifiques de tu nas. La segunda comprime la carpeta anterior a un archivo &amp;ldquo;fecha_bkp_tusitio.tar.gz&amp;rdquo; y la tercera elimina la carpeta descargada para solo quedarnos con el archivo comprimido.&lt;/p&gt;
-
-&lt;p&gt;Con lo anterior ahora sólo resta crear desde el panel de control de DSM una tarea programada para que el archivo de líneas de comando se ejecute con la periodicidad que deseemos.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/IcIhnV0Xif8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Una forma rápida, sencilla y completamente transparente para el usuario de forma que sólo nos tenemos que preocupar de ir borrando las copias de seguridad antiguas para que no ocupen mucho espacio en el NAS.&lt;/p&gt;
-</description>
+      <description>Esta vez y como casi siempre el objetivo es sencillo, crear una copia de seguridad del contenido de una página web al Nas que tengo en casa, de una forma automática y periódica.
+Después de valorar varias alternativas, la que me ha parecido más apropiada es mediante una conexión ftp. Puesto que esta web trabaja bajo WordPress resultará suficiente la copia de la carpeta &amp;ldquo;wp-content&amp;rdquo; desde el servidor del hosting a nuestro Nas.</description>
     </item>
     
     <item>
@@ -311,39 +77,9 @@ rm -r /ruta/tusitio.es
       <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</guid>
-      <description>&lt;p&gt;Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.&lt;/p&gt;
-
-&lt;p&gt;Los pasos a realizar son los siguiente:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Descargar la última versión de es.wordpress.org&lt;/li&gt;
-&lt;li&gt;Descomprimir el instalador&lt;/li&gt;
-&lt;li&gt;Conexión ftp y subir archivos&lt;/li&gt;
-&lt;li&gt;Acceder al panel de control&lt;/li&gt;
-&lt;li&gt;Entrar en bases de datos MySQL&lt;/li&gt;
-&lt;li&gt;Crear nueva base de datos&lt;/li&gt;
-&lt;li&gt;Crear un nuevo usario MySQL&lt;/li&gt;
-&lt;li&gt;Añadir usuario a base de datos&lt;/li&gt;
-&lt;li&gt;Asignar privilegios al usuario&lt;/li&gt;
-&lt;li&gt;Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.php&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Modificar wp-config.php con la información de acceso a la base de datos MySQL&lt;/li&gt;
-&lt;li&gt;Accede a tu blog y automáticamente se redireccionará &amp;ldquo;www.tublog.com/wp-config/install.php&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Rellena la info necesaria&lt;/li&gt;
-&lt;li&gt;Ya está listo¡¡¡&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Esta es la enésima vez que lo instalo, así que tengo claro todos los pasos a realizar y como llevarlos a cabo. Es muy probable que a un usuario nobel le cueste algo más de tiempo. Puedes ver todo el proceso en el siguiente vídeo (No te de vergüenza hacer la ventana grande que el vídeo está en HD).&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/AlPUmGfGXK4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;Tal y como era de esperar la instalación ha durado más de cinco minutos pero también es verdad de que la he realizado a un ritmo normal y sin ningún tipo de preparativo por lo que no descarto que con una mejor conexión a internet y optimizando tiempos se pueda conseguir.&lt;/p&gt;
-
-&lt;p&gt;Con todo, poco más de ocho minutos es un tiempo irrisorio para la potencia y posibilidades que nos despliega un gestor de contenido como WordPress.&lt;/p&gt;
-</description>
+      <description>Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.
+Los pasos a realizar son los siguiente:
+ Descargar la última versión de es.wordpress.org Descomprimir el instalador Conexión ftp y subir archivos Acceder al panel de control Entrar en bases de datos MySQL Crear nueva base de datos Crear un nuevo usario MySQL Añadir usuario a base de datos Asignar privilegios al usuario Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.</description>
     </item>
     
   </channel>
