@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sincronizar WordPress en local y servidor</title>
+	<meta name="description" content="Está muy bien tener una instalación de WordPress en un servidor local de pruebas que puedas sincronizar con el servidor de producción cuando todo lo tengas listo, aquí te muestro como hacerlo.">
+
+	
+	<meta name="twitter:card" content="Está muy bien tener una instalación de WordPress en un servidor local de pruebas que puedas sincronizar con el servidor de producción cuando todo lo tengas listo, aquí te muestro como hacerlo." />
+	<meta name="twitter:title" content="Sincronizar WordPress en local y servidor" />
+	<meta name="twitter:image" content="http://sherblog.pro/images/20151006_wordpress_db_sync.jpg" />
+	
+	<meta name="twitter:creator" content="@sherblogpro">
+	<meta name="twitter:site" content="sherblog.pro" />
+	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
+
+	<meta name="generator" content="Hugo 0.42.1" />
+	<meta property="og:title" content="Sincronizar WordPress en local y servidor" />
+<meta property="og:description" content="Está muy bien tener una instalación de WordPress en un servidor local de pruebas que puedas sincronizar con el servidor de producción cuando todo lo tengas listo, aquí te muestro como hacerlo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/sincronizar-wordpress-en-local-y-servidor/" />
+
+
+
+<meta property="article:published_time" content="2015-10-06T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2015-10-06T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sincronizar WordPress en local y servidor"/>
+<meta name="twitter:description" content="Está muy bien tener una instalación de WordPress en un servidor local de pruebas que puedas sincronizar con el servidor de producción cuando todo lo tengas listo, aquí te muestro como hacerlo."/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	
+	
+	<link rel="stylesheet" href="/css/custom.css">
+	<script src="/js/custom.js"></script>
+
+
+
+	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
+	
+</head>
+<body class="body body-right-sidebar">
+	<div class="container container-outer">
+		<header class="header">
+			<div class="container container-inner">
+				<div class="logo" role="banner">
+					<a class="logo__link" href="/" title="Sherblog" rel="home">
+						<div class="logo__title">Sherblog</div>
+						<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu">
+	<ul class="menu__list">
+		<li class="menu__item"><a class="menu__link" href="/post/raspberry/">RASPBERRY PI</a></li>
+		<li class="menu__item"><a class="menu__link" href="/post/tasker/">TASKER</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+
+<main class="main content">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Sincronizar WordPress en local y servidor</h1><div class="post__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2015-10-06T00:00:00">2015-10-06</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/wordpress" rel="category">Wordpress</a></span>
+</span></div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/images/20151006_wordpress_db_sync.jpg" alt="Sincronizar WordPress en local y servidor">
+		</figure><div class="post__content clearfix">
+			
+
+<p>Si de algo carece WordPress, o al menos yo no he sido capaz de encontrarlo después de mucho navegar por la red, es de un entorno de desarrollo en local. A que me refiero, cada vez que nos ponemos a realizar modificaciones en la web algo más allá que publicar un post nos encontramos con la tediosa labor de descargar, modificar, guardar, subir y comprobar cada modificación hasta que conseguimos dejar la web a nuestro gusto.</p>
+
+<p>Pues bien, lo que yo busco es una forma sencilla de crear una copia de nuestra web en el ordenador de casa para poder trabajar sobre esta en las modificaciones y una vez estén terminadas subirlas al servidor. De esta forma el proceso se simplifica bastante ya que únicamente hay que realizar las modificaciones, guardarlas y comprobar si funcionan. Antes de empezar necesitamos cuatro puntos imprescindibles.</p>
+
+<ol>
+<li>Montar un servidor de pruebas</li>
+<li>Instalar WordPress en el servidor local</li>
+<li>Copiar los archivos de la web</li>
+<li>Copiar la base de datos</li>
+</ol>
+
+<h3 id="montar-un-servidor-de-pruebas">Montar un servidor de pruebas</h3>
+
+<p>Básicamente necesitamos montar un servidor apache en local y phpmyadmin para la gestión de la base de datos de WordPress. Hay muchos programas para hacerlo, la que yo utilizo desde hace varios años es <a href="https://www.apachefriends.org/es/index.html">Xampp</a>.</p>
+
+<p><img src="/images/20150929_xampp_logo.jpg" alt="imagen" /></p>
+
+<p>Es sencillo, hay versión para windows, linux y mac, ofrece lo que necesitamos (y algo más para los inquietos) y además tiene una versión portable para los que no quieren otro programa a instalar que deje el pc lleno de basura. No voy a entrar en más detalles sobre la instalación y configuración porque hay cientos de tutoriales en la web, simplemente cuando lo tengas instalado y hayas arrancado apache y phpmyadmin al escribir &ldquo;<a href="http://localhost&quot;">http://localhost&quot;</a> en el explorador de internet deberás ver algo como lo siguiente.</p>
+
+<p><img src="/images/20150929_xampp_install.jpg" alt="imagen" /></p>
+
+<h3 id="instalar-wordpress-en-el-servidor-local">Instalar WordPress en el servidor local</h3>
+
+<p>Tan sencillo como seguir los pasos de su famosa instalación en cinco minutos que puedes ver en <a href="/images/20150929_xampp_install.jpg">wordpress.org</a>. Además si has sido capaz de instalar WordPress en un hosting online, hacerlo en un servidor local no tiene que plantearte ningún problema.</p>
+
+<h3 id="copiar-los-archivos-de-la-web">Copiar los archivos de la web</h3>
+
+<p>Para este paso necesitamos un cliente ftp para descargar la carpeta &ldquo;wp-content&rdquo; de nuestro hosting online y con ella sobreescribir la correspondiente carpeta del blog recientemente creado en el servidor local. Personalmente utilizo <a href="https://filezilla-project.org">FileZilla</a> por ser sencillo, potente, ligero y sobretodo gratuito.</p>
+
+<p><img src="/images/20150929_filezilla_01.jpg" alt="imagen" /></p>
+
+<p>Llegados a este punto tenemos en nuestra web online y el servidor local los mismos archivos con una pequeña salvedad, el archivo de configuración &ldquo;wp-config.php&rdquo;. Si queremos ser meticulosos y unificar estos archivos de configuración en uno válido para ambos servidores habrá que realizar alguna modificación en el mismo en la sección de conexión a la base de datos. Donde aparece algo como esto.</p>
+
+<pre><code>// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'db_yourserver');
+/** MySQL database username */
+define('DB_USER', 'db_yourserver_user');
+/** MySQL database password */
+define('DB_PASSWORD', 'db_yourserver_user_password');
+/** MySQL hostname */
+define('DB_HOST', 'yourserver_hostname');
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+</code></pre>
+
+<p>lo cambiaremos por esto otro</p>
+
+<pre><code>// ** MySQL settings - You can get this info from your web host ** //
+if ($_SERVER[&quot;HTTP_HOST&quot;] === 'yourserver.com') {
+  $db_name = 'db_yourserver';
+  $user_name = 'db_yourserver_user';
+  $password = 'db_yourserver_user_password';
+  $hostname =  'yourserver_hostname';
+} else if ($_SERVER[&quot;HTTP_HOST&quot;] === 'localhost') {
+  $db_name = 'db_local';
+  $user_name = 'root';
+  $password = '';
+   $hostname =  'localhost';
+}
+/** The name of the database for WordPress */
+define('DB_NAME', $db_name);
+/** MySQL database username */
+define('DB_USER', $user_name);
+/** MySQL database password */
+define('DB_PASSWORD', $password);
+/** MySQL hostname */
+define('DB_HOST', $hostname);
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
+</code></pre>
+
+<p>Con esto ya podemos tener exactamente los mismos archivos en nuestra web online y la réplica local por lo que a partir de ahora una servirá de copia de seguridad de la otra, siempre y cuando las vayamos sincronizando habitualmente tras realizar modificaciones en el sistema de archivos. Ahora es posible habilitar la navegación sincronizada de Filezilla y la comparación de directorios desde el gestor de sitios del programa en la pestaña &ldquo;avanzado&rdquo;.</p>
+
+<p><img src="/images/20151006_filezilla_compare.jpg" alt="imagen" /></p>
+
+<p>De esta forma navegaremos al mismo tiempo en las dos pestañas y, gracias al código de colores, será más rápido y sencillo identificar los archivos modificados y actualizarlos.</p>
+
+<p><img src="/images/20151006_filezilla_compare_02.jpg" alt="imagen" /></p>
+
+<h3 id="copiar-la-base-de-datos">Copiar la base de datos</h3>
+
+<p>Llegados a este punto nos encontramos con la labor más delicada de todas, la sincronización de la base de datos. Voy a exponer dos métodos, uno completamente manual y otro semiautomático. Sin duda alguna el segundo es mucho más rápido y sencillo aunque no está de más conocer el primero para saber los pasos que sigue el segundo.</p>
+
+<p>En primer lugar accedemos a la base de datos que gobierna nuestro blog online desde phpmyadmin y nos situamos en la pestaña &ldquo;Exportar&rdquo; tal y como muestra la siguiente imagen.</p>
+
+<p><img src="/images/20151006_export_phpmyadmin.jpg" alt="imagen" /></p>
+
+<p>Exportamos las tablas de nuestra base de datos a un archivo &ldquo;sql&rdquo;. Ahora hay que modificar la base de datos para que los enlaces en lugar de apuntar a &ldquo;www.mipagina.com&rdquo; lo hagan a &ldquo;localhost/mipagina&rdquo;. El proceso es sencillo, abres el bloc de notas o cualquier editor de código fuente, buscas una cadena y la reemplazas con la otra. Para este tipo de ediciones yo utilizo [Notepad++<a href="https://notepad-plus-plus.org">14</a>] por ser rápido, sencillo, gratuito y portable.</p>
+
+<p><img src="/images/20151005_notepad.jpg" alt="imagen" /></p>
+
+<p>en mi caso busco la cadena &ldquo;www.sherblog.es/blog&rdquo; y la cambio por &ldquo;localhost/blog&rdquo; que son las correspondientes carpetas en online y local.</p>
+
+<p><img src="/images/20151006_buscar_reemplazar.jpg" alt="imagen" /></p>
+
+<p>A continuación accedemos a la base de datos de nuestro blog local a través de phpMyadmin e importamos dentro de esta el archivo &ldquo;*.sql&rdquo; que acabamos de editar de una forma similar a como anteriormente hemos exportado la base de datos online. Seleccionamos el archivo, seleccionamos el formato SQL y &ldquo;Continuar&rdquo;.</p>
+
+<p><img src="/images/20151006_phpmyadmin_importar.jpg" alt="imagen" /></p>
+
+<p>Hasta aquí el método manual para la sincronización de las bases de datos. Por suerte hay una alternativa más rápida y sencilla a través de un plugin de WordPress. Se trata de <a href="https://github.com/wp-sync-db/wp-sync-db">wp-sync-db</a>. Este plugin no se puede encontrar a través del buscador de WordPress, hay que descargarlo de la web y copiarlo a la carpeta plugins de tu blog. No tengo claro la relación que mantiene con <a href="https://wordpress.org/plugins/wp-migrate-db/">wp-migrate-db</a> así como tampoco soy capaz de ver las diferencias entre uno y la versión pro del otro. Yo utilizo <a href="https://github.com/wp-sync-db/wp-sync-db">wp-sync-db</a>.</p>
+
+<p>El primer paso es instalar y activar el plugin tanto en el blog online como en el local. Una vez instalado y desde la versión online acudimos al menú &ldquo;herramientas&rdquo; del panel de control de WordPress y abrimos &ldquo;Migrate Db&rdquo;. En la pestaña &ldquo;Settings&rdquo; marcamos la primera opción para permitir que nuestro blog local pueda conectarse, exportar y descargar la base de datos de este blog online tal y como se muestra en la siguiente imagen.</p>
+
+<p><img src="/images/20150930_wp_sync_db_02.jpg" alt="imagen" /></p>
+
+<p>Copiamos el enlace que aparece en el cuadro &ldquo;Connection Info&rdquo; y ya podemos cerrar el blog online para abrir la imagen en nuestro servidor local. Accedemos a la configuración del plugin y selecionamos la opción &ldquo;Pull&rdquo; para reemplazar la base de datos de nuestro blog local por la del remoto. Añadimos las cadenas de texto a reemplazar, unos cuantos ticks de configuración y ya está lista la sincronización.</p>
+
+<p><img src="/images/20150930_wp_sync_db_01.jpg" alt="imagen" /></p>
+
+<p>Si prefieres ver el vídeo oficial antes que mi torpe interpretación, aquí está el link de <a href="https://www.youtube.com/watch?t=345&amp;v=fHFcH4bCzmU">youtube</a>.</p>
+
+<p>Y con esto, si todo ha ido bien ya deberías tener dos copias sincronizadas de tu blog.</p>
+
+			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
+		</div>
+		
+	</article>
+	
+	
+<nav class="post-nav row clearfix">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/aplicaciones-para-rastrear-personas-coches-perros/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Aplicaciones para rastrear personas, coches, perros…</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/el-l%C3%A1tex-y-las-maxxis-se-llevan-mal/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">El látex y las maxxis se llevan mal</p></a>
+	</div>
+</nav>
+	
+</main>
+
+<aside class="sidebar">
+	
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Lo último...</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/historia-del-alojamiento-del-blog/">Historia del alojamiento del blog</a></li>
+			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
+			<li class="widget__item"><a class="widget__link" href="/publicar-desde-iawriter/">Publicar desde iaWriter</a></li>
+			<li class="widget__item"><a class="widget__link" href="/apurada-de-frenada/">Apurada de frenada</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cubierta-ko-decathlon-ok/">Cubierta KO, Decathlon OK</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categorias</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/a-pedales">A pedales</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/android">Android</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/gps">Gps</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/hardware">Hardware</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/hugo">Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/linux">Linux</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/raspberry">Raspberry</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/sherver">Sherver</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/tasker">Tasker</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/varios">Varios</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wordpress">Wordpress</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Mis redes sociales</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/sherblog.es" target="_blank">
+				<svg class="widget-social__link-icon icon-facebook" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
+				<span>Facebook</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/sherblogpro" target="_blank">
+				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Strava" rel="noopener noreferrer" href="https://www.strava.com/athletes/11156844" target="_blank">
+				<svg class="widget-social__link-icon icon-Strava" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path
+     id="path3723"
+     d="M 148.68422,219.94575 118.86844,161 l 17.31578,0.005 17.31578,0.005 12.32699,23.9954 C 172.60684,198.20207 178.34254,209 178.57299,209 178.80344,209 184.3956,198.2 191,185 l 12.008,-24 h 16.996 c 9.3478,0 16.97134,0.3375 16.94121,0.75 -0.0301,0.4125 -13.19264,26.93809 -29.25,58.94575 L 178.5,278.89149 Z M 42,159.50168 C 42,158.5198 120.50481,2.0000114 120.99703,2.0005325 121.51325,2.001079 201,158.42106 201,159.43637 201,159.74637 190.53188,160 177.7375,160 H 154.47501 L 138.4875,127.91974 C 129.69438,110.27559 122.17195,95.629873 121.771,95.373696 121.37005,95.117519 113.72327,109.55364 104.77816,127.45396 L 88.514317,160 H 65.257158 C 52.465721,160 42,159.77576 42,159.50168 Z"/></svg>
+				<span>Strava</span>
+			</a>
+		</div>
+		</div>
+</div>
+
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/apps" title="Apps">Apps</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/facebook" title="Facebook">Facebook</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/fontaner%c3%ada" title="Fontanería">Fontanería</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/fotograf%c3%ada" title="Fotografía">Fotografía</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gmail" title="Gmail">Gmail</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/google" title="Google">Google</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gopro" title="Gopro">Gopro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gps" title="Gps">Gps</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/iawriter" title="Iawriter">Iawriter</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/keep" title="Keep">Keep</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/synology" title="Synology">Synology</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer">
+			<div class="container container-inner">
+				<div class="footer__copyright">&copy; 2018 Sherblog. <span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y el tema <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> editado por Sherlockes.</span></div>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script></body>
+</html>

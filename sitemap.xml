@@ -218,6 +218,21 @@
   </url>
   
   <url>
+    <loc>/publicar-autom%C3%A1ticamente-en-facebook-al-hacerlo-en-wordpress/</loc>
+    <lastmod>2015-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/el-l%C3%A1tex-y-las-maxxis-se-llevan-mal/</loc>
+    <lastmod>2015-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sincronizar-wordpress-en-local-y-servidor/</loc>
+    <lastmod>2015-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aplicaciones-para-rastrear-personas-coches-perros/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -230,6 +245,10 @@
   <url>
     <loc>/al-fin-se-ve-la-luz/</loc>
     <lastmod>2007-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</loc>
   </url>
   
   <url>
@@ -358,8 +377,19 @@
   </url>
   
   <url>
+    <loc>/tags/facebook/</loc>
+    <lastmod>2015-10-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/fontaner%C3%ADa/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fotograf%C3%ADa/</loc>
     <priority>0</priority>
   </url>
   

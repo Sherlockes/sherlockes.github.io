@@ -404,6 +404,34 @@ Los pasos a realizar son los siguiente:
     </item>
     
     <item>
+      <title>Publicar automáticamente en Facebook al hacerlo en WordPress</title>
+      <link>/publicar-autom%C3%A1ticamente-en-facebook-al-hacerlo-en-wordpress/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publicar-autom%C3%A1ticamente-en-facebook-al-hacerlo-en-wordpress/</guid>
+      <description>Que algo sencillo se convierta en un dolor de cabeza es una de las cosas que más frustra. He estado mucho tiempo buscando una forma rápida y sencilla de que mis publicaciones en el blog se conviertan también en entradas de mi página en Facebook para que al menos mis &amp;ldquo;amigos&amp;rdquo; tengan la oportunidad de enterarse de los artículos que escribo y los lean en caso de que les interese.</description>
+    </item>
+    
+    <item>
+      <title>El látex y las maxxis se llevan mal</title>
+      <link>/el-l%C3%A1tex-y-las-maxxis-se-llevan-mal/</link>
+      <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/el-l%C3%A1tex-y-las-maxxis-se-llevan-mal/</guid>
+      <description>Hace unos meses hice un artículo sobre las ventajas e inconvenientes de usar la mezcla casera a base de látex como líquido sellante en neumáticos tubeless de la bicicleta de montaña. Habitualmente compro las cubiertas en www.cubiertasmtb.com y para el caso de las maxxis el fabricante recomienda usar blackseal como líquido sellante.
+Pues bien, nunca sabes si esta recomendación está justificada para garantizar un correcto funcionamiento de la cubierta o simplemente por el beneficio económico del fabricante.</description>
+    </item>
+    
+    <item>
+      <title>Sincronizar WordPress en local y servidor</title>
+      <link>/sincronizar-wordpress-en-local-y-servidor/</link>
+      <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/sincronizar-wordpress-en-local-y-servidor/</guid>
+      <description>Si de algo carece WordPress, o al menos yo no he sido capaz de encontrarlo después de mucho navegar por la red, es de un entorno de desarrollo en local. A que me refiero, cada vez que nos ponemos a realizar modificaciones en la web algo más allá que publicar un post nos encontramos con la tediosa labor de descargar, modificar, guardar, subir y comprobar cada modificación hasta que conseguimos dejar la web a nuestro gusto.</description>
+    </item>
+    
+    <item>
       <title>Aplicaciones para rastrear personas, coches, perros…</title>
       <link>/aplicaciones-para-rastrear-personas-coches-perros/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -430,6 +458,15 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       
       <guid>/al-fin-se-ve-la-luz/</guid>
       <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
+    </item>
+    
+    <item>
+      <title>Crear panorámica a partir de un vídeo</title>
+      <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
+      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
     </item>
     
     <item>

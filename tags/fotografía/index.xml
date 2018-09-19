@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fotografía on Sherblog</title>
+    <link>/tags/fotograf%C3%ADa/</link>
+    <description>Recent content in Fotografía on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    
+	<atom:link href="/tags/fotograf%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crear panorámica a partir de un vídeo</title>
+      <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
+      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -149,5 +149,14 @@ Termine comprando por menos de 2$ esta tapa de repuesto.</description>
       <description>Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:</description>
     </item>
     
+    <item>
+      <title>Crear panorámica a partir de un vídeo</title>
+      <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
+      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
+    </item>
+    
   </channel>
 </rss>
