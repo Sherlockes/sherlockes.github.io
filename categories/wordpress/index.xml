@@ -100,5 +100,26 @@ Los pasos a realizar son los siguiente:
       <description>Si de algo carece WordPress, o al menos yo no he sido capaz de encontrarlo después de mucho navegar por la red, es de un entorno de desarrollo en local. A que me refiero, cada vez que nos ponemos a realizar modificaciones en la web algo más allá que publicar un post nos encontramos con la tediosa labor de descargar, modificar, guardar, subir y comprobar cada modificación hasta que conseguimos dejar la web a nuestro gusto.</description>
     </item>
     
+    <item>
+      <title>Marcos de imágenes en WordPress</title>
+      <link>/marcos-de-im%C3%A1genes-en-wordpress/</link>
+      <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/marcos-de-im%C3%A1genes-en-wordpress/</guid>
+      <description>Escribiendo hoy un post he encontrado la solución a un problema que ya se me había planteado anteriormente y hasta ahora no había sido capaz de encontrar de una forma sencilla como esta. Se trata de los marcos alrededor de las imágenes en WordPress.
+Por defecto, si insertamos en la entrada una imagen desde la galería en una entrada de WordPress el código que se genera es el siguiente
+&amp;lt;img src=&amp;quot;sherblog/wp-content/uploads/Homer.</description>
+    </item>
+    
+    <item>
+      <title>Migrando WordPress a otro servidor</title>
+      <link>/migrando-wordpress-a-otro-servidor/</link>
+      <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/migrando-wordpress-a-otro-servidor/</guid>
+      <description>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &amp;ldquo;www.sherver.site88.net&amp;rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &amp;ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&amp;rdquo;.
+Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.</description>
+    </item>
+    
   </channel>
 </rss>
