@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Acceder a Github via ssh sin password</title>
+      <link>/acceder-a-github-via-ssh-sin-password/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/acceder-a-github-via-ssh-sin-password/</guid>
+      <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.
+La solución Antes de nada nombrar que me conecto a Github a través de la Raspberry Pi en la que tengo alojada mi web y otros servicios.</description>
+    </item>
+    
+    <item>
       <title>Adios WordPress</title>
       <link>/adios-wordpress/</link>
       <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>

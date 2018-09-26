@@ -71,6 +71,16 @@ ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el direc
     </item>
     
     <item>
+      <title>Acceder a Github via ssh sin password</title>
+      <link>/acceder-a-github-via-ssh-sin-password/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/acceder-a-github-via-ssh-sin-password/</guid>
+      <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.
+La solución Antes de nada nombrar que me conecto a Github a través de la Raspberry Pi en la que tengo alojada mi web y otros servicios.</description>
+    </item>
+    
+    <item>
       <title>Insertar en Twitter enlaces a Hugo con imagen</title>
       <link>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
@@ -524,6 +534,16 @@ Pues bien, antes de planificar una ruta en btt por la zona he intentado buscar e
     </item>
     
     <item>
+      <title>Liquido anti-pinchazos casero. Pros y contras</title>
+      <link>/liquido-anti-pinchazos-casero.-pros-y-contras/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/liquido-anti-pinchazos-casero.-pros-y-contras/</guid>
+      <description>Después de varios años empleando líquido anti-pinchazos en las ruedas de la bicicleta estas son las conclusiones a las que he llegado.
+En ningún momento voy a poner en duda el funcionamiento de los líquidos comerciales ya que es complicado que aguante en el mercado algo que no sirve para lo que ha sido concebido. El problema está básicamente en el precio. Aproximadamente, para la rueda de una bicicleta de montaña habrá que gastarse unos 6€ en los 100 ml que se necesitan.</description>
+    </item>
+    
+    <item>
       <title>Avería en el núcleo shimano fh-m475</title>
       <link>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</link>
       <pubDate>Tue, 14 May 2013 00:00:00 +0000</pubDate>
@@ -557,7 +577,7 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180806_hugo_github_pass  Artículos por escribir  Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona vpn a través de Raspberry y Android Publicar desde Google Docs Como gestiono mis contraseñas. Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto. Pocket Docker en Raspberry.</description>
+      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry  Artículos por escribir  Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona vpn a través de Raspberry y Android Publicar desde Google Docs Como gestiono mis contraseñas. Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto. Pocket Docker en Raspberry.</description>
     </item>
     
     <item>
