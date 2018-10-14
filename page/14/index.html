@@ -76,6 +76,29 @@
 
 		</div><article class="list__item post">
 	<figure class="list__thumbnail">
+		<a href="/raspberry-acceso-desde-el-exterior/">
+			<img src="/images/20180410_raspberry_noip.jpg" alt="Raspberry Acceso desde el exterior" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/raspberry-acceso-desde-el-exterior/" rel="bookmark">Raspberry Acceso desde el exterior</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-04-10T00:00:00">2018-04-10</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
+Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.
+		</div>
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
 		<a href="/raspberry-reinicios-peri%C3%B3dicos/">
 			<img src="/images/20180501_raspberry_reinicio.jpg" alt="Raspberry Reinicios periódicos" />
 		</a>
@@ -165,30 +188,6 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
  http://192.168.1.202/sherblog/
 		</div>
 	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-servidor-ftp/">
-			<img src="/images/20180406_raspberry_vsftpd.jpg" alt="Raspberry Servidor ftp" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/raspberry-servidor-ftp/" rel="bookmark">Raspberry Servidor ftp</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-04-06T00:00:00">2018-04-06</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
-Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
-		</div>
-	</div>
 </article>
 		
 
@@ -208,11 +207,11 @@ Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurán
 	<h4 class="widget__title">Lo último...</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/">Gestión de usuarios y passwords</a></li>
 			<li class="widget__item"><a class="widget__link" href="/historia-del-alojamiento-del-blog/">Historia del alojamiento del blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
 			<li class="widget__item"><a class="widget__link" href="/publicar-desde-iawriter/">Publicar desde iaWriter</a></li>
 			<li class="widget__item"><a class="widget__link" href="/apurada-de-frenada/">Apurada de frenada</a></li>
-			<li class="widget__item"><a class="widget__link" href="/cubierta-ko-decathlon-ok/">Cubierta KO, Decathlon OK</a></li>
 		</ul>
 	</div>
 </div>
@@ -280,6 +279,7 @@ Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurán
 		<a class="widget-taglist__link widget__link btn" href="/tags/gps" title="Gps">Gps</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/iawriter" title="Iawriter">Iawriter</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/keep" title="Keep">Keep</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/keepass" title="Keepass">Keepass</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>

@@ -6,10 +6,20 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 12 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gestión de usuarios y passwords</title>
+      <link>/gesti%C3%B3n-de-usuarios-y-passwords/</link>
+      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/gesti%C3%B3n-de-usuarios-y-passwords/</guid>
+      <description>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios. Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:
+ Contraseñas distintas para cada servicio No usar palabras, nombres, fechas&amp;hellip; No usar sólo letras Longitud suficiente (más de diez caracteres) Accesibles desde cualquier lugar Guardadas en un lugar seguro  No voy a entrar a valorar las alternativas que existen y que cumplen con las características de arriba, simplemente voy a exponer el método que yo utilizo en la actualidad y como hago para garantizar lo que, a mi modo de ver, es una seguridad suficiente.</description>
+    </item>
     
     <item>
       <title>Historia del alojamiento del blog</title>
@@ -577,7 +587,7 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180926_emacs_desde_cero  Artículos por escribir  Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona vpn a través de Raspberry y Android Publicar desde Google Docs Como gestiono mis contraseñas. Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto. Pocket Docker en Raspberry.</description>
+      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180926_emacs_desde_cero  Artículos por escribir  Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto. Pocket Docker en Raspberry.</description>
     </item>
     
     <item>

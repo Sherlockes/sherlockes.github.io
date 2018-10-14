@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Gestión de usuarios y passwords</title>
+	<meta name="description" content="Con todos los servicios web que se usan hoy en día, alguna forma que que utilizar para la gestión de los nombres de usuario y contraseñas">
+
+	
+	<meta name="twitter:card" content="Con todos los servicios web que se usan hoy en día, alguna forma que que utilizar para la gestión de los nombres de usuario y contraseñas" />
+	<meta name="twitter:title" content="Gestión de usuarios y passwords" />
+	<meta name="twitter:image" content="http://sherblog.pro/images/20181009_gestion_passwords_00.jpg" />
+	
+	<meta name="twitter:creator" content="@sherblogpro">
+	<meta name="twitter:site" content="sherblog.pro" />
+	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
+
+	<meta name="generator" content="Hugo 0.49" />
+	<meta property="og:title" content="Gestión de usuarios y passwords" />
+<meta property="og:description" content="Con todos los servicios web que se usan hoy en día, alguna forma que que utilizar para la gestión de los nombres de usuario y contraseñas" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/gesti%C3%B3n-de-usuarios-y-passwords/" /><meta property="article:published_time" content="2018-10-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-10-09T00:00:00&#43;00:00"/>
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Gestión de usuarios y passwords"/>
+<meta name="twitter:description" content="Con todos los servicios web que se usan hoy en día, alguna forma que que utilizar para la gestión de los nombres de usuario y contraseñas"/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<script type="text/javascript" src="/js/scripts.js"></script>
+	
+	
+	<link rel="stylesheet" href="/css/custom.css">
+	<script src="/js/custom.js"></script>
+
+
+
+	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
+	
+</head>
+<body class="body body-right-sidebar">
+	<div class="container container-outer">
+		<header class="header">
+			<div class="container container-inner">
+				<div class="logo" role="banner">
+					<a class="logo__link" href="/" title="Sherblog" rel="home">
+						<div class="logo__title">Sherblog</div>
+						<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu">
+	<ul class="menu__list">
+		<li class="menu__item"><a class="menu__link" href="/post/raspberry/">RASPBERRY PI</a></li>
+		<li class="menu__item"><a class="menu__link" href="/post/tasker/">TASKER</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+
+<main class="main content">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Gestión de usuarios y passwords</h1><div class="post__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-10-09T00:00:00">2018-10-09</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/varios" rel="category">Varios</a></span>
+</span></div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/images/20181009_gestion_passwords_00.jpg" alt="Gestión de usuarios y passwords">
+		</figure><div class="post__content clearfix">
+			
+
+<p>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios.  Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:</p>
+
+<ul>
+<li>Contraseñas distintas para cada servicio</li>
+<li>No usar palabras, nombres, fechas&hellip;</li>
+<li>No usar sólo letras</li>
+<li>Longitud suficiente (más de diez caracteres)</li>
+<li>Accesibles desde cualquier lugar</li>
+<li>Guardadas en un lugar seguro</li>
+</ul>
+
+<p>No voy a entrar a valorar las alternativas que existen y que cumplen con las características de arriba, simplemente voy a exponer el método que yo utilizo en la actualidad y como hago para garantizar lo que, a mi modo de ver, es una seguridad suficiente.</p>
+
+<p>Desde hace años utilizo <a href="https://keepass.info">Keepass</a> por ser una utilidad de código abierto que puedo utilizar en Windows, Linux, IOS y Android.</p>
+
+<h3 id="contraseñas-distintas-y-adecuadas-para-cada-servicio">Contraseñas distintas y adecuadas para cada servicio</h3>
+
+<p>Sin duda alguna es una locura utilizar la misma contraseña en varios servicios ya que un fallo de seguridad en uno de ellos que deje tu contraseña a las vista significará dejar al descubierto todos los sitios en los que empleas esa misma contraseña.  Está muy extendido el uso de patrones según los cuales todas las contraseñas son distintas pero comparten una parte común y a partir de un patrón y del nombre del servicio para el que la creamos se genera una nueva contraseña.  Este sistema lo estuve utilizando un tiempo por ofrecer mucha facilidad a la hora de recordar las contraseñas era presenta el gran problema de si el patrón que utilizas queda desvelado también quedan a la vista todas tus contraseñas.</p>
+
+<p>Por todo lo anterior,  en la actualidad cuando tengo que darme de alta en un nuevo servicio, a la hora de introducir la contraseña dejo que sea <a href="https://keepass.info">KeePass</a> el que me la genere de forma automática.</p>
+
+<p>Nada de usar palabras (fácilmente obtenibles con un ataque por diccionario), nombres ni fechas.  Lo mejor es utilizar una combinación de letras, números y símbolos con una longitud adecuada (yo utilizo 16 dígitos)</p>
+
+<h3 id="guárdalas-en-un-lugar-seguro-y-accesible">Guárdalas en un lugar seguro y accesible</h3>
+
+<p>A pesar de que hay que instalar la aplicación <a href="https://keepass.info">Keepass</a> en cada uno de los dispositivos en los que quieras acceder a tus contraseñas luego estas no las tengo guardadas en ninguno de ellos sino que acceden todos ellas a una base de datos encriptada común que tengo alojado en <a href="https://www.google.es/drive/">Google Drive</a>.</p>
+
+<p>Por supuesto, realizo una copia de seguridad periódica en mi NAS de forma que no dependo de la buena voluntad de Google para servirme el archivo de contraseñas.</p>
+
+<h3 id="que-guardo-además">Que guardo además&hellip;</h3>
+
+<p>En el archivo de base de datos de Keepass no sólo la contraseña está encriptada, toda la información guardada lo está y para cada entrada la información que guardo es la siguiente:</p>
+
+<ul>
+<li>Nombre de usuario</li>
+<li>Contraseña</li>
+<li>Contraseña anterior</li>
+<li>Dirección de correo electrónico registrada</li>
+<li>URL del servicio registrado</li>
+<li>Favicon de la web del servicio</li>
+</ul>
+
+<h3 id="como-lo-uso-en-cada-entorno">Como lo uso en cada entorno</h3>
+
+<p>Para cada sistema operativo que utilizo hay unas sensibles diferencias en el modo de acceder a la base de datos.</p>
+
+<ul>
+<li><p>En Windows utilizo <a href="https://keepass.info">Keepass</a> combinado con la utilidad de Google <a href="https://www.google.com/drive/download/backup-and-sync/">Backup &amp; Sync</a> para sincronizar la base de datos en Google Drive con un directorio local y así poder leerla o modificarla.</p></li>
+
+<li><p>En Android utilizo <a href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android">Keepass2Android</a> que directamente es capaz de acceder a la base de datos por lo que no hace falta ninguna sincronización de archivos.</p></li>
+
+<li><p>En IOS utilizo <a href="https://itunes.apple.com/us/app/minikeepass/id451661808">MiniKeePass</a> la cual no es capaz de acceder directamente a la nube por lo que tengo que acceder manualmente mediante la aplicación nativa de <a href="https://itunes.apple.com/es/app/google-drive-almacenamiento/id507874739">Google Drive</a> y una vez seleccionado al archivo correspondiente a la base de datos hay que marcar la opción &ldquo;Abrir en&hellip;&rdquo; y seleccionar &ldquo;Copiar en MiniKeePass&rdquo;.  Una copia de la base de datos se guardará en local por lo que si es necesario consultar una contraseña que no he modificado recientemente puedo abrir directamente la base de datos desde la aplicación MiniKeePass.</p></li>
+
+<li><p>En Linux durante un tiempo he estado usando una combinación de <a href="https://keepass.info">KeePass</a> y <a href="https://rclone.org/">Rclone</a> para sincronicar la base de datos con la nube y posteriormente abrir con la aplicación KeePass el archivo local.  En la actualidad utilizo <a href="https://keeweb.info/">KeeWeb</a> ya que la aplicación permite acceder directamente a los archivos guardados en la nube y no requiere una sincronizacion previa.</p></li>
+</ul>
+
+			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
+		</div>
+		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/keepass/" rel="tag">Keepass</a></li>
+	</ul>
+</div>
+	</article>
+	
+	
+<nav class="post-nav row clearfix">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/historia-del-alojamiento-del-blog/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Historia del alojamiento del blog</p></a>
+	</div>
+</nav>
+	
+</main>
+
+<aside class="sidebar">
+	
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Lo último...</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/">Gestión de usuarios y passwords</a></li>
+			<li class="widget__item"><a class="widget__link" href="/historia-del-alojamiento-del-blog/">Historia del alojamiento del blog</a></li>
+			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
+			<li class="widget__item"><a class="widget__link" href="/publicar-desde-iawriter/">Publicar desde iaWriter</a></li>
+			<li class="widget__item"><a class="widget__link" href="/apurada-de-frenada/">Apurada de frenada</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categorias</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/a-pedales">A pedales</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/android">Android</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/gps">Gps</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/hardware">Hardware</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/hugo">Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/linux">Linux</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/raspberry">Raspberry</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/sherver">Sherver</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/tasker">Tasker</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/varios">Varios</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wordpress">Wordpress</a></li>
+		</ul>
+	</div>
+</div>
+	
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Mis redes sociales</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/sherblog.es" target="_blank">
+				<svg class="widget-social__link-icon icon-facebook" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
+				<span>Facebook</span>
+			</a>
+		</div>
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/sherblogpro" target="_blank">
+				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
+				<span>Twitter</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Strava" rel="noopener noreferrer" href="https://www.strava.com/athletes/11156844" target="_blank">
+				<svg class="widget-social__link-icon icon-Strava" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path
+     id="path3723"
+     d="M 148.68422,219.94575 118.86844,161 l 17.31578,0.005 17.31578,0.005 12.32699,23.9954 C 172.60684,198.20207 178.34254,209 178.57299,209 178.80344,209 184.3956,198.2 191,185 l 12.008,-24 h 16.996 c 9.3478,0 16.97134,0.3375 16.94121,0.75 -0.0301,0.4125 -13.19264,26.93809 -29.25,58.94575 L 178.5,278.89149 Z M 42,159.50168 C 42,158.5198 120.50481,2.0000114 120.99703,2.0005325 121.51325,2.001079 201,158.42106 201,159.43637 201,159.74637 190.53188,160 177.7375,160 H 154.47501 L 138.4875,127.91974 C 129.69438,110.27559 122.17195,95.629873 121.771,95.373696 121.37005,95.117519 113.72327,109.55364 104.77816,127.45396 L 88.514317,160 H 65.257158 C 52.465721,160 42,159.77576 42,159.50168 Z"/></svg>
+				<span>Strava</span>
+			</a>
+		</div>
+		</div>
+</div>
+
+	
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/apps" title="Apps">Apps</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/facebook" title="Facebook">Facebook</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/fontaner%c3%ada" title="Fontanería">Fontanería</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/fotograf%c3%ada" title="Fotografía">Fotografía</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gmail" title="Gmail">Gmail</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/google" title="Google">Google</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gopro" title="Gopro">Gopro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gps" title="Gps">Gps</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/iawriter" title="Iawriter">Iawriter</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/keep" title="Keep">Keep</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/keepass" title="Keepass">Keepass</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/synology" title="Synology">Synology</a>
+	</div>
+</div>
+</aside>
+	</div>
+		<footer class="footer">
+			<div class="container container-inner">
+				<div class="footer__copyright">&copy; 2018 Sherblog. <span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y el tema <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> editado por Sherlockes.</span></div>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script></body>
+</html>
