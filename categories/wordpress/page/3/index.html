@@ -92,6 +92,31 @@
 Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.
 		</div>
 	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/wordpress-k.o.-fatal-error.-allowed-memory-size/">
+			<img src="/images/20130515_wordpress_php.jpg" alt="WordPress K.O. Fatal error. Allowed memory size" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/wordpress-k.o.-fatal-error.-allowed-memory-size/" rel="bookmark">WordPress K.O. Fatal error. Allowed memory size</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2013-05-14T00:00:00">2013-05-14</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/wordpress" rel="category">Wordpress</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Hoy he intentado administrar el blog y me he encontrado con este pantallazo
+Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.
+En el archivo en el archivo &ldquo;wp-config.php&rdquo; hay que añadir las siguientes líneas
+/** Ampliación de memoria*/ define('WP_MEMORY_LIMIT', '96M');  Y a funcionar de nuevo!
+		</div>
+	</div>
 </article>
 
 		
@@ -186,6 +211,7 @@ Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde v
 		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/sherlodj" title="Sherlodj">Sherlodj</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/synology" title="Synology">Synology</a>
 	</div>
 </div>
