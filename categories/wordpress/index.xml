@@ -133,5 +133,15 @@ En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir 
 /** Ampliación de memoria*/ define(&#39;WP_MEMORY_LIMIT&#39;, &#39;96M&#39;);  Y a funcionar de nuevo!</description>
     </item>
     
+    <item>
+      <title>Backup de WordPress en Google Drive</title>
+      <link>/backup-de-wordpress-en-google-drive/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/backup-de-wordpress-en-google-drive/</guid>
+      <description>Estamos de nuevo aquí para buscar la solución a un problema que tarde o temprano todo webmaster debe afrontar como es crear una copia de seguridad para nuestra web en WordPress. Como siempre, intentaré buscar algo sencillo, práctico y sobre todo gratuito.
+Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;. No he probado otros, pero por el precio y características Google Drive es una buena alternativa.</description>
+    </item>
+    
   </channel>
 </rss>
