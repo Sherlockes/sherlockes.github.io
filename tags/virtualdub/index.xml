@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Virtualdub on Sherblog</title>
+    <link>/tags/virtualdub/</link>
+    <description>Recent content in Virtualdub on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 06 Mar 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/virtualdub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Insertar un título a un vídeo con Virtualdub (Otra forma)</title>
+      <link>/insertar-un-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub-otra-forma/</link>
+      <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/insertar-un-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub-otra-forma/</guid>
+      <description>Hace casi un año expuse aquí una forma de incluir un título delante de un vídeo con VirtualDub de una forma rápida y sencilla. El caso es que si el vídeo en cuestión lleva sonido el asunto no es tan fácil haciéndolo de esta manera ya que al programa no le gusta unir vídeos con diferencias en la pista de audio.
+En el siguiente videotutorial muestro otra forma de incluir este título de una forma más fácil todavía (Aunque menos intuitiva) haciendo uso del filtro &amp;ldquo;logo&amp;rdquo; y de las curvas de opacidad del mismo.</description>
+    </item>
+    
+    <item>
+      <title>Insertar título a un vídeo con VirtualDub</title>
+      <link>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</link>
+      <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</guid>
+      <description>Seguro que hay cientos de alternativas que nos permiten anteponer un título de cierta duración a una secuencia de vídeo. No se si esta será la mejor forma de hacerlo, aunque está claro que es una forma rápida, sencilla, libre y gratuita, lo cual la hace digna de ser considerada como una muy buena solución.
+Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;rdquo;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
+    </item>
+    
+  </channel>
+</rss>
