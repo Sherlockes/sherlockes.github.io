@@ -333,6 +333,21 @@
   </url>
   
   <url>
+    <loc>/abrir-archivos-raw-con-gimp-portable/</loc>
+    <lastmod>2011-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cambiar-el-casquillo-interior-de-un-fox-rp2/</loc>
+    <lastmod>2011-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cuando-una-rueda-pierde-aire-y-no-est%C3%A1-pinchada/</loc>
+    <lastmod>2011-07-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</loc>
     <lastmod>2011-03-24T00:00:00+00:00</lastmod>
   </url>
@@ -340,6 +355,10 @@
   <url>
     <loc>/al-fin-se-ve-la-luz/</loc>
     <lastmod>2007-12-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cambiando-los-casquillos-del-fox-rp2/</loc>
   </url>
   
   <url>
@@ -497,6 +516,12 @@
   <url>
     <loc>/tags/gdrive/</loc>
     <lastmod>2012-12-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gimp/</loc>
+    <lastmod>2011-10-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -693,6 +693,36 @@ TrackList:
     </item>
     
     <item>
+      <title>Abrir archivos RAW con Gimp Portable</title>
+      <link>/abrir-archivos-raw-con-gimp-portable/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/abrir-archivos-raw-con-gimp-portable/</guid>
+      <description>Cada vez son más las cámaras fotográficas capaces de guardar las instantáneas en formato Raw. No voy a analizar todas las ventajas e inconvenientes de guardar la información de esta manera aunque hay que tener claro que la principal razón para usarla es que no existe pérdida de datos por el procesado interno de la cámara.
+Gimp no es capaz de forma nativa de manejar este formato por lo que será necesaria la ayuda de Ufraw, también gratuito y de libre distribución como Gimp, para abrir este tipo de archivos.</description>
+    </item>
+    
+    <item>
+      <title>Cambiar el casquillo interior de un Fox RP2</title>
+      <link>/cambiar-el-casquillo-interior-de-un-fox-rp2/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/cambiar-el-casquillo-interior-de-un-fox-rp2/</guid>
+      <description>En un artículo anterior ya expliqué como sustituir los casquillos exteriores de este amortiguador, el caso es que apenas un mes después ha vuelto a aparecer la tediosa holgura y tras estudiar más detenidamente el problema he visto que el recubrimiento del casquillo interior del ojo del amortiguador está desgastado de forma que no ajusta bien con los casquillos exteriores.
+Tras buscar un poco en la web, encuentro una tienda española que vende estos casquillos a un precio razonable de 4 €.</description>
+    </item>
+    
+    <item>
+      <title>Cuando una rueda pierde aire y no está pinchada…</title>
+      <link>/cuando-una-rueda-pierde-aire-y-no-est%C3%A1-pinchada/</link>
+      <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/cuando-una-rueda-pierde-aire-y-no-est%C3%A1-pinchada/</guid>
+      <description>Si ocurre que al coger la bicicleta al día siguiente de arreglar un pinchazo notas que la rueda está deshinchada puede ser un contratiempo, pero si la rueda se te queda sin aire en el monte a más de una hora de camino de ninguna parte el asunto es una putada.
+El problema se agrava si desmontas la cámara, buscas el pinchazo y te das cuenta que la rueda no está pinchada.</description>
+    </item>
+    
+    <item>
       <title>Insertar título a un vídeo con VirtualDub</title>
       <link>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</link>
       <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
@@ -709,6 +739,16 @@ Una vez utilizaremos VirtualDub como principal programa en la edición y de form
       
       <guid>/al-fin-se-ve-la-luz/</guid>
       <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
+    </item>
+    
+    <item>
+      <title>Cambiando los casquillos del Fox RP2</title>
+      <link>/cambiando-los-casquillos-del-fox-rp2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cambiando-los-casquillos-del-fox-rp2/</guid>
+      <description>Un buen día, al levantar la bicicleta cogiéndola por el sillín noto una holgura de unos cuantos milímetros en la parte trasera de la bici que no tengo muy claro de donde viene. Tras descartar problemas con el buje o el eje trasero comienzo a revisar las articulaciones del basculante.
+Sólo hicieron falta unos minutos para darme cuenta de que el causante del problema era una holgura que había aparecido entre los casquillo y el alojamiento de los mismos en la unión entre el amortiguador Fox RP2 y la bieleta del basculante de la Giant Trance X3.</description>
     </item>
     
     <item>

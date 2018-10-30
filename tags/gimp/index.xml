@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gimp on Sherblog</title>
+    <link>/tags/gimp/</link>
+    <description>Recent content in Gimp on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 09 Oct 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/gimp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Abrir archivos RAW con Gimp Portable</title>
+      <link>/abrir-archivos-raw-con-gimp-portable/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/abrir-archivos-raw-con-gimp-portable/</guid>
+      <description>Cada vez son más las cámaras fotográficas capaces de guardar las instantáneas en formato Raw. No voy a analizar todas las ventajas e inconvenientes de guardar la información de esta manera aunque hay que tener claro que la principal razón para usarla es que no existe pérdida de datos por el procesado interno de la cámara.
+Gimp no es capaz de forma nativa de manejar este formato por lo que será necesaria la ayuda de Ufraw, también gratuito y de libre distribución como Gimp, para abrir este tipo de archivos.</description>
+    </item>
+    
+  </channel>
+</rss>
