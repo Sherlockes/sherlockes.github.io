@@ -492,6 +492,15 @@ Pues bien, nunca sabes si esta recomendación está justificada para garantizar 
     </item>
     
     <item>
+      <title>Crear panorámica a partir de un vídeo</title>
+      <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
+      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
+    </item>
+    
+    <item>
       <title>Aplicaciones para rastrear personas, coches, perros…</title>
       <link>/aplicaciones-para-rastrear-personas-coches-perros/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -723,6 +732,27 @@ El problema se agrava si desmontas la cámara, buscas el pinchazo y te das cuent
     </item>
     
     <item>
+      <title>Tirando HDR con compacta en automático</title>
+      <link>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</link>
+      <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</guid>
+      <description>A estas alturas de partido no vamos a entrar en lo que es un HDR, ya que para esto está la Wikipedia. Este post resulta como consecuencia de una experiencia hace unos días en el monte al intentar hacer una foto en la que no era posible que no aparecieran zonas quemadas o subexpuestas.
+Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempos de exposición, valores de ISO o control de la cámara en manual.</description>
+    </item>
+    
+    <item>
+      <title>Error en WordPress (Elegir la base de datos)</title>
+      <link>/error-en-wordpress-elegir-la-base-de-datos/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/error-en-wordpress-elegir-la-base-de-datos/</guid>
+      <description>Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
+    </item>
+    
+    <item>
       <title>Insertar título a un vídeo con VirtualDub</title>
       <link>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</link>
       <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
@@ -730,6 +760,16 @@ El problema se agrava si desmontas la cámara, buscas el pinchazo y te das cuent
       <guid>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</guid>
       <description>Seguro que hay cientos de alternativas que nos permiten anteponer un título de cierta duración a una secuencia de vídeo. No se si esta será la mejor forma de hacerlo, aunque está claro que es una forma rápida, sencilla, libre y gratuita, lo cual la hace digna de ser considerada como una muy buena solución.
 Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;rdquo;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
+    </item>
+    
+    <item>
+      <title>Creando un vídeo panorámico a partir de una fotografía</title>
+      <link>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</guid>
+      <description>Una vez más, una solución sencilla a un problema sencillo. Esta vez estamos buscando la creación de un vídeo que realice un barrido a una fotografía panorámica creada anteriormente.
+Buscando un poco en la red he encontrado un software gratuito que es capaz de hacer esto de una forma rápida y sencilla. Se trata de WPanorama que combinado con VirtualDub para la compresión del resultado hacen la solución perfecta a este problema.</description>
     </item>
     
     <item>
@@ -749,15 +789,6 @@ Una vez utilizaremos VirtualDub como principal programa en la edición y de form
       <guid>/cambiando-los-casquillos-del-fox-rp2/</guid>
       <description>Un buen día, al levantar la bicicleta cogiéndola por el sillín noto una holgura de unos cuantos milímetros en la parte trasera de la bici que no tengo muy claro de donde viene. Tras descartar problemas con el buje o el eje trasero comienzo a revisar las articulaciones del basculante.
 Sólo hicieron falta unos minutos para darme cuenta de que el causante del problema era una holgura que había aparecido entre los casquillo y el alojamiento de los mismos en la unión entre el amortiguador Fox RP2 y la bieleta del basculante de la Giant Trance X3.</description>
-    </item>
-    
-    <item>
-      <title>Crear panorámica a partir de un vídeo</title>
-      <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
-      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
     </item>
     
     <item>

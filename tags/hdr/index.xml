@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hdr on Sherblog</title>
+    <link>/tags/hdr/</link>
+    <description>Recent content in Hdr on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 13 May 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/hdr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tirando HDR con compacta en automático</title>
+      <link>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</link>
+      <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</guid>
+      <description>A estas alturas de partido no vamos a entrar en lo que es un HDR, ya que para esto está la Wikipedia. Este post resulta como consecuencia de una experiencia hace unos días en el monte al intentar hacer una foto en la que no era posible que no aparecieran zonas quemadas o subexpuestas.
+Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempos de exposición, valores de ISO o control de la cámara en manual.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -243,6 +243,11 @@
   </url>
   
   <url>
+    <loc>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</loc>
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aplicaciones-para-rastrear-personas-coches-perros/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url>
@@ -348,8 +353,23 @@
   </url>
   
   <url>
+    <loc>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</loc>
+    <lastmod>2011-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/error-en-wordpress-elegir-la-base-de-datos/</loc>
+    <lastmod>2011-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</loc>
     <lastmod>2011-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</loc>
+    <lastmod>2011-03-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -359,10 +379,6 @@
   
   <url>
     <loc>/cambiando-los-casquillos-del-fox-rp2/</loc>
-  </url>
-  
-  <url>
-    <loc>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</loc>
   </url>
   
   <url>
@@ -497,6 +513,12 @@
   </url>
   
   <url>
+    <loc>/categories/dise%C3%B1o/</loc>
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/facebook/</loc>
     <lastmod>2015-10-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -505,11 +527,6 @@
   <url>
     <loc>/tags/fontaner%C3%ADa/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/fotograf%C3%ADa/</loc>
     <priority>0</priority>
   </url>
   
@@ -562,6 +579,12 @@
   </url>
   
   <url>
+    <loc>/tags/hdr/</loc>
+    <lastmod>2011-05-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/hugo/</loc>
     <lastmod>2018-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -600,6 +623,12 @@
   <url>
     <loc>/tags/mapas/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/panoramica/</loc>
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

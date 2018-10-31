@@ -143,5 +143,16 @@ En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir 
 Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;. No he probado otros, pero por el precio y características Google Drive es una buena alternativa.</description>
     </item>
     
+    <item>
+      <title>Error en WordPress (Elegir la base de datos)</title>
+      <link>/error-en-wordpress-elegir-la-base-de-datos/</link>
+      <pubDate>Tue, 10 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/error-en-wordpress-elegir-la-base-de-datos/</guid>
+      <description>Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
+    </item>
+    
   </channel>
 </rss>

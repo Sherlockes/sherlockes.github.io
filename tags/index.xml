@@ -75,15 +75,6 @@
     </item>
     
     <item>
-      <title>Fotografía</title>
-      <link>/tags/fotograf%C3%ADa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fotograf%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gdrive</title>
       <link>/tags/gdrive/</link>
       <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
@@ -138,6 +129,15 @@
     </item>
     
     <item>
+      <title>Hdr</title>
+      <link>/tags/hdr/</link>
+      <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hdr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Iawriter</title>
       <link>/tags/iawriter/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
@@ -179,6 +179,15 @@
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/mapas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Panoramica</title>
+      <link>/tags/panoramica/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/panoramica/</guid>
       <description></description>
     </item>
     

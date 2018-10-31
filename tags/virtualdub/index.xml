@@ -31,5 +31,15 @@ En el siguiente videotutorial muestro otra forma de incluir este título de una 
 Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;rdquo;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
     </item>
     
+    <item>
+      <title>Creando un vídeo panorámico a partir de una fotografía</title>
+      <link>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</link>
+      <pubDate>Tue, 08 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</guid>
+      <description>Una vez más, una solución sencilla a un problema sencillo. Esta vez estamos buscando la creación de un vídeo que realice un barrido a una fotografía panorámica creada anteriormente.
+Buscando un poco en la red he encontrado un software gratuito que es capaz de hacer esto de una forma rápida y sencilla. Se trata de WPanorama que combinado con VirtualDub para la compresión del resultado hacen la solución perfecta a este problema.</description>
+    </item>
+    
   </channel>
 </rss>
