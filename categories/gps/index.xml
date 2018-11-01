@@ -52,5 +52,14 @@ Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps d
 Pues bien, antes de planificar una ruta en btt por la zona he intentado buscar en la web el perímetro que delimita este campo de maniobras para invadirlo lo menos posible y cual ha sido mi sorpresa al ver que hay muy poca información al respecto y la que hay es poco concreta o anticuada como esta o incluso errónea como esta otra.</description>
     </item>
     
+    <item>
+      <title>Editando tracks con GPX Editor</title>
+      <link>/editando-tracks-con-gpx-editor/</link>
+      <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/editando-tracks-con-gpx-editor/</guid>
+      <description>Los archivos GPX son simples archivos de texto con formato XML de forma que para modificar una ruta lo único que hace falta es un editor de texto y algo de tiempo. Es un método simple pero tedioso que funciona y con el que podemos eliminar puntos de la ruta o incluso combinar varias. El problema de este método es que puede acabar con la paciencia de cualquiera, ya que hay que editar el archivo con un programa y luego abrirlo con otro para ver los resultados de la edición con el inevitable sistema de prueba y error.</description>
+    </item>
+    
   </channel>
 </rss>
