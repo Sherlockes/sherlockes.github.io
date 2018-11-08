@@ -148,7 +148,7 @@ Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y e
       <guid>/de-garmin-a-google-drive/</guid>
       <description>&lt;h3 id=&#34;el-problema&#34;&gt;El problema&lt;/h3&gt;
 
-&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas. &lt;/p&gt;</description>
+&lt;p&gt;Desde hace muchos años, en todos mis paseos en bicicleta me acompaña un GPS Garmin (Antes un Edge 605 y ahora un Edge 1000) que tengo ligado al servicio de &lt;a href=&#34;https://connect.garmin.com&#34;&gt;Garmin Connect&lt;/a&gt; y indirectamente a &lt;a href=&#34;https://www.strava.com&#34;&gt;Strava&lt;/a&gt;. He visto como van evolucionando ambos servicios online a lo largo del tiempo y algo de lo que a mi gusto ambos cojean es en la personalización de las estadísticas.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -202,17 +202,15 @@ Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y s
       <guid>/desactivar-el-touchpad-en-linux-mint/</guid>
       <description>&lt;h3 id=&#34;el-problema-mis-dedos-8230&#34;&gt;El problema, mis dedos&amp;#8230;&lt;/h3&gt;
 
-&lt;p&gt;En mi vuelta a linux, llevo unos días trabajando en un portátil y todavía no estoy muy acostumbrado a trabajar sobre el teclado con las manos tan juntas. Uno de los problemas con los que me encuentro es que los dedos gordos hay momentos en los que me rozan con el TouchPad y llegan a mover el cursor de posición, pudiendo cambiar el punto de inserción de texto o incluso borrar parte de lo ya escrito. No es un gran problema, pero hay veces que llega a ser molesto por la pérdida de tiempo o incluso información.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;En mi vuelta a linux, llevo unos días trabajando en un portátil y todavía no estoy muy acostumbrado a trabajar sobre el teclado con las manos tan juntas. Uno de los problemas con los que me encuentro es que los dedos gordos hay momentos en los que me rozan con el TouchPad y llegan a mover el cursor de posición, pudiendo cambiar el punto de inserción de texto o incluso borrar parte de lo ya escrito. No es un gran problema, pero hay veces que llega a ser molesto por la pérdida de tiempo o incluso información.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Portatil viejo, nueva vida.  Mi vuelta a Linux</title>
-      <link>/portatil-viejo-nueva-vida.--mi-vuelta-a-linux/</link>
+      <link>/portatil-viejo-nueva-vida.-mi-vuelta-a-linux/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/portatil-viejo-nueva-vida.--mi-vuelta-a-linux/</guid>
+      <guid>/portatil-viejo-nueva-vida.-mi-vuelta-a-linux/</guid>
       <description>La joya de la corona Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.
 Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles.</description>
     </item>
@@ -454,10 +452,10 @@ Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada
     
     <item>
       <title>Instalar WordPress en cinco minutos.  Mito o realidad.</title>
-      <link>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</link>
+      <link>/instalar-wordpress-en-cinco-minutos.-mito-o-realidad./</link>
       <pubDate>Wed, 21 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>/instalar-wordpress-en-cinco-minutos.--mito-o-realidad./</guid>
+      <guid>/instalar-wordpress-en-cinco-minutos.-mito-o-realidad./</guid>
       <description>Desde wordpress.org presumen de poder instalar su sistema de gestión de contenidos en tan sólo cinco minutos y a continuación me dispongo a comprobar si es un mito o una realidad.
 Los pasos a realizar son los siguiente:
  Descargar la última versión de es.wordpress.org Descomprimir el instalador Conexión ftp y subir archivos Acceder al panel de control Entrar en bases de datos MySQL Crear nueva base de datos Crear un nuevo usario MySQL Añadir usuario a base de datos Asignar privilegios al usuario Renombrar el archivo &amp;ldquo;wp-config-sample&amp;rdquo; en la carpeta raiz de la instalación por &amp;ldquo;wp-config.</description>
@@ -606,10 +604,10 @@ En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir 
     
     <item>
       <title>SherloDj – In Session 2012 Vol.2</title>
-      <link>/sherlodj--in-session-2012-vol.2/</link>
+      <link>/sherlodj-in-session-2012-vol.2/</link>
       <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>/sherlodj--in-session-2012-vol.2/</guid>
+      <guid>/sherlodj-in-session-2012-vol.2/</guid>
       <description>Gracias a House-Mixes.com casi dos horitas con algunos de los mejores temas dance de 2012.
 SherloDj In Session 2k12 Vol.2 by Sherlockes on House-Mixes.com
 
@@ -687,10 +685,10 @@ En el siguiente videotutorial muestro otra forma de incluir este título de una 
     
     <item>
       <title>SherloDj – In Session 2k11</title>
-      <link>/sherlodj--in-session-2k11/</link>
+      <link>/sherlodj-in-session-2k11/</link>
       <pubDate>Sun, 25 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>/sherlodj--in-session-2k11/</guid>
+      <guid>/sherlodj-in-session-2k11/</guid>
       <description>Aquí el último resultado del último &amp;ldquo;juguete&amp;rdquo;. Casi 100 minutos de música con treinta de los mejores temas dance de 2011.
 SherloDj - In Session 2k11 by Sherlockes on House-Mixes.com
 
@@ -824,10 +822,10 @@ Manos a la obra, en el siguiente vídeo dejo los pasos a seguir para desmontar y
     
     <item>
       <title>Time-Lapse / Stop-Motion con VirtualDub</title>
-      <link>/time-lapse-/-stop-motion-con-virtualdub/</link>
+      <link>/time-lapse-stop-motion-con-virtualdub/</link>
       <pubDate>Wed, 28 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>/time-lapse-/-stop-motion-con-virtualdub/</guid>
+      <guid>/time-lapse-stop-motion-con-virtualdub/</guid>
       <description>Resumiendo bastante, podemos definir Time-Lapse y Stop-Motion como dos técnicas fotográficas que permiten crear un vídeo a partir de una secuencia de imágenes.
 En el mercado hay muchos programas capaces de hacer esta labor e incluso hay algumos específicos que es lo único que saben hacer. Pero una vez más vamos a utilizar VirtualDub como ya hemos hecho en otras ocasiones y para muy diferentes propositos.
   Si tienes problemas de visión te aconsejo que maximices el vídeo y lo pauses en cada paso hasta haber entendido todo el contenido del mismo.</description>
