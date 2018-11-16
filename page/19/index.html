@@ -21,7 +21,7 @@
 <meta property="og:description" content="Hay muchas formas de hacer las cosas, aquí dejo la mía por si a alguien le puede servir." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2018-04-04T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-04-02T00:00:00&#43;00:00"/>
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sherblog"/>
@@ -75,6 +75,52 @@
 <hr />
 
 		</div><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-red-y-wifi/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry red y wifi" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/raspberry-red-y-wifi/" rel="bookmark">Raspberry red y wifi</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-04-02T00:00:00">2018-04-02</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
+		</div>
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-apache-y-php/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry apache y php" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/raspberry-apache-y-php/" rel="bookmark">Raspberry apache y php</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-04-03T00:00:00">2018-04-03</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
+cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
+		</div>
+	</div>
+</article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="/raspberry-mysql-y-db/">
 			<img src="/images/raspberry_logo.png" alt="Raspberry mysql y DB" />
@@ -146,52 +192,6 @@ sudo gpasswd -a ${USER} docker
 		<div class="list__excerpt post__content">
 			Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
  Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.pivpn.io | bash  Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.
-		</div>
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-acceso-desde-el-exterior/">
-			<img src="/images/20180410_raspberry_noip.jpg" alt="Raspberry Acceso desde el exterior" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/raspberry-acceso-desde-el-exterior/" rel="bookmark">Raspberry Acceso desde el exterior</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-04-10T00:00:00">2018-04-10</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
-Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.
-		</div>
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-reinicios-peri%C3%B3dicos/">
-			<img src="/images/20180501_raspberry_reinicio.jpg" alt="Raspberry Reinicios periódicos" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/raspberry-reinicios-peri%C3%B3dicos/" rel="bookmark">Raspberry Reinicios periódicos</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-04-10T00:00:00">2018-04-10</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea
 		</div>
 	</div>
 </article>
@@ -293,6 +293,8 @@ sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea
 		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/panoramica" title="Panoramica">Panoramica</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/photomatix" title="Photomatix">Photomatix</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/photoshop" title="Photoshop">Photoshop</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/sherlodj" title="Sherlodj">Sherlodj</a>
