@@ -5,7 +5,7 @@
 # Updated on 20181120
 # Created on 20181106
 # Developed by Sherlockes
-# www.sherblog.pro
+# www.sherblog.pro/files/raspiconfig.sh
 # Description
 #	- Firmware & Packages update
 #	- Change Pi password
