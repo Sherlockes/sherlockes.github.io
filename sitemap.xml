@@ -423,6 +423,16 @@
   </url>
   
   <url>
+    <loc>/trekbuddy-0.9.83-en-un-htc-touch-diamond/</loc>
+    <lastmod>2009-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</loc>
+    <lastmod>2008-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/al-fin-se-ve-la-luz/</loc>
     <lastmod>2007-12-30T00:00:00+00:00</lastmod>
   </url>
@@ -771,6 +781,12 @@
   <url>
     <loc>/tags/tracks/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/trekbuddy/</loc>
+    <lastmod>2009-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
