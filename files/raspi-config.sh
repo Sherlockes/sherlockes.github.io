@@ -1,8 +1,8 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 
-# Script de configuración de Raspberry
-# Updated on 20181106
+# Raspberry custom init config script
+# Updated on 20181120
 # Created on 20181106
 # Developed by Sherlockes
 # www.sherblog.pro
@@ -15,11 +15,11 @@
 #	- Install Pi-Hole
 #	- Install Hugo
 #	- Install Rclone
-# - Installing pivpn server
+#   - Installing pivpn server
 #	- Schedule daily restart
 
 #Definiciones
-password1="TUCONTRASEÑA" # Nueva contraseña para el usuario Pi
+password1="YOURPASS" # New Pi user pass
 ipadress=192.168.1.202 # New IP Direction
 gateway=192.168.1.1 # Router IP
 
@@ -32,7 +32,7 @@ sudo apt-get upgrade -y
 sudo apt-get install rpi-update
 sudo rpi-update
 
-### configurando la red
+### Network Config
 sudo echo 'interface eth0' >> /etc/dhcpcd.conf
 sudo echo 'static ip_address=$ipadress/24' >> /etc/dhcpcd.conf
 sudo echo 'static routers=$gateway' >> /etc/dhcpcd.conf
