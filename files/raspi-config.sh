@@ -73,7 +73,10 @@ rm $installer
 ### Installing vpn server
 curl -L https://install.pivpn.io | bash
 
-### Forzar un reinicio diario de la raspberry a las 4 de la madrugada
+### Schedule Raspberry reboot at 4 A.M.
 echo "00 04 * * * /sbin/reboot" | cat > cron
 sudo crontab cron
 rm cron
+
+### Raspberry Reboot
+sudo reboot
