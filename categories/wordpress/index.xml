@@ -154,5 +154,15 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
     </item>
     
+    <item>
+      <title>Problema con WP-DB-Backup</title>
+      <link>/problema-con-wp-db-backup/</link>
+      <pubDate>Wed, 18 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/problema-con-wp-db-backup/</guid>
+      <description>A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &amp;ldquo;No estás autorizado para acceder a esta página&amp;rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.
+Para el que no lo sepa, la única misión de este complemento es realizar una copia de seguridad de la base de datos que gestiona wordpress bajo demanda del usuario o programada con una cierta frecuencia.</description>
+    </item>
+    
   </channel>
 </rss>
