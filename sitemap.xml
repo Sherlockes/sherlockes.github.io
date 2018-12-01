@@ -438,6 +438,16 @@
   </url>
   
   <url>
+    <loc>/sincronizar-contactos-entre-htc-y-gmail/</loc>
+    <lastmod>2009-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tilt-shift-con-photoshop/</loc>
+    <lastmod>2009-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</loc>
     <lastmod>2008-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -785,6 +795,12 @@
   <url>
     <loc>/categories/tasker/</loc>
     <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tilt-shift/</loc>
+    <lastmod>2009-01-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

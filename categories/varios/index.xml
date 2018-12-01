@@ -216,5 +216,15 @@ TrackList:
 04.- Bon Jovi - It&amp;rsquo;s my life (Albert Neve RMX)</description>
     </item>
     
+    <item>
+      <title>Sincronizar contactos entre HTC y Gmail</title>
+      <link>/sincronizar-contactos-entre-htc-y-gmail/</link>
+      <pubDate>Sat, 07 Feb 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/sincronizar-contactos-entre-htc-y-gmail/</guid>
+      <description>Hace unos días ha caído en mis manos una HTC Diamond a la que estoy intentando meterle mano.
+El primer problema con el que me encuentro es la sincronización de los contactos ya que el chisme en cuestión se lleva muy bién con su queridísimo Microsoft Outlook (Que los colegas del señor Gates te dejarán probar por un módico precio) pero no quiere saber nada de cualquier otro cliente de correo electrónico.</description>
+    </item>
+    
   </channel>
 </rss>
