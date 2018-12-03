@@ -448,6 +448,11 @@
   </url>
   
   <url>
+    <loc>/los-servidores-de-emule-ca%C3%ADdos/</loc>
+    <lastmod>2009-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</loc>
     <lastmod>2008-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -645,14 +650,14 @@
   </url>
   
   <url>
-    <loc>/tags/gps/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>/categories/gps/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/gps/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <loc>/tags/gps/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
