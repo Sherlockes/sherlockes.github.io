@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/script-de-configuraci%C3%B3n-para-raspberry/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/cuando-una-app-deja-ko-a-android/</loc>
     <lastmod>2018-11-29T00:00:00+00:00</lastmod>
   </url>
@@ -453,6 +458,16 @@
   </url>
   
   <url>
+    <loc>/herramienta-para-la-btt/</loc>
+    <lastmod>2008-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/error-al-actualizar-nokia-pc-suite/</loc>
+    <lastmod>2008-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</loc>
     <lastmod>2008-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -468,6 +483,10 @@
   
   <url>
     <loc>/cambiando-los-casquillos-del-fox-rp2/</loc>
+  </url>
+  
+  <url>
+    <loc>/copia-de-seguridad-de-gmail/</loc>
   </url>
   
   <url>
@@ -698,6 +717,12 @@
   </url>
   
   <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/linux/</loc>
     <lastmod>2018-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -747,13 +772,13 @@
   
   <url>
     <loc>/categories/raspberry/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/raspberry/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -763,8 +788,14 @@
   </url>
   
   <url>
+    <loc>/tags/shell/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2018-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>

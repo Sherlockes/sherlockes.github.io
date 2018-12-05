@@ -891,6 +891,24 @@ Como primera medida (Si no la habías tomado anteriormente) es activar la Red Ka
     </item>
     
     <item>
+      <title>Herramienta para la BTT</title>
+      <link>/herramienta-para-la-btt/</link>
+      <pubDate>Sat, 22 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/herramienta-para-la-btt/</guid>
+      <description>Cuando se usa la bicicleta de una forma más o menos frecuente esta necesita un mantenimiento continuo para lo cual se puede optar por llevar la bicicleta a la tienda para que la arreglen y perder tiempo (tanto de tansporte como de estancia en el taller) y dinero o bien invertir este dinero en adquirir algunas herramientas básicas y el tiempo en la experiencia necesaria para realizar tus propias reparaciones.</description>
+    </item>
+    
+    <item>
+      <title>Error al actualizar Nokia Pc Suite</title>
+      <link>/error-al-actualizar-nokia-pc-suite/</link>
+      <pubDate>Fri, 03 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/error-al-actualizar-nokia-pc-suite/</guid>
+      <description>Todo funciona correctamente, puedes instalar programas en el teléfono, copiar archivos y hacer copias de seguridad de agenda y mensajes mediante &amp;ldquo;Nokia Pc suite&amp;rdquo; pero un buen día aparece un cartelillo junto al icono de este programa ofreciéndote una actualización del mismo. Seguro que no sabes que más te puede ofrecer pero te tiras a la piscina y le das a actualizar. Tremenda cagada, ya que de aquí en adelante lo único que vas a conseguir al conectar el teléfono via usb es un precioso mensaje de error que dice &amp;ldquo;Cannot install USB Phone parent&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Que hacer sin un móvil de última generación</title>
       <link>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</link>
       <pubDate>Wed, 09 Jan 2008 00:00:00 +0000</pubDate>
@@ -930,12 +948,22 @@ Sólo hicieron falta unos minutos para darme cuenta de que el causante del probl
     </item>
     
     <item>
+      <title>Copia de seguridad de Gmail</title>
+      <link>/copia-de-seguridad-de-gmail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/copia-de-seguridad-de-gmail/</guid>
+      <description>El gran problema de la informática es que en un momento puedes perder el trabajo de muchos años a causa de un simple problema en el disco duro si no tenemos una copia de seguridad de nuestros archivos.
+Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratuito que existe pero no hay que olvidar que está todavía en fase beta y que sus servidores son tan susceptible a las averías o hackers como el pc de casa por lo que es muy importante realizar periódicamente una copia de seguridad de los correos electrónicos que tenemos en nuestra cuenta de Gmail.</description>
+    </item>
+    
+    <item>
       <title>Lo que tengo pendiente de escribir...</title>
       <link>/lo-que-tengo-pendiente-de-escribir.../</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180926_emacs_desde_cero 20181106_raspberry_config_script 20181129_instalando_orbi  Artículos por escribir  Mis extensiones en Visual Studio Code Cuando la wifi mata Android Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
+      <description>Artículos que estoy escribiendo  20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Mis extensiones en Visual Studio Code Cuando la wifi mata Android Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
     </item>
     
     <item>

@@ -6,10 +6,20 @@
     <description>Contenido reciente de la categoria... in Raspberry on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Script de configuración para Raspberry</title>
+      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
+      <description>Está claro que de las partes más tediosas del caharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
+ Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</description>
+    </item>
     
     <item>
       <title>Raspberry configurando rclone sin entorno gráfico</title>
@@ -160,7 +170,7 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
     <item>
       <title>Raspberry Pi desde cero</title>
       <link>/post/raspberry/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/raspberry/</guid>
       <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.

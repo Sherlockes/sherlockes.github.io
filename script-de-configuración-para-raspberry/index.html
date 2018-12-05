@@ -16,12 +16,12 @@
 	<meta name="twitter:site" content="sherblog.pro" />
 	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
 
-	<meta name="generator" content="Hugo 0.51" />
+	<meta name="generator" content="Hugo 0.52" />
 	<meta property="og:title" content="Script de configuración para Raspberry" />
 <meta property="og:description" content="La batalla por corregir una fuga de agua en una cisterna Roca de doble pulsador." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/script-de-configuraci%C3%B3n-para-raspberry/" /><meta property="article:published_time" content="2018-11-20T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-11-20T00:00:00&#43;00:00"/>
+<meta property="og:url" content="/script-de-configuraci%C3%B3n-para-raspberry/" /><meta property="article:published_time" content="2018-12-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-04T00:00:00&#43;00:00"/>
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Script de configuración para Raspberry"/>
@@ -70,7 +70,7 @@
 		<header class="post__header">
 			<h1 class="post__title">Script de configuración para Raspberry</h1><div class="post__meta meta">
 <svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-11-20T00:00:00">2018-11-20</time>
+<time class="post__meta-date meta-date" datetime="2018-12-04T00:00:00">2018-12-04</time>
 <span class="post__meta-categories meta-categories">
 	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
 	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">raspberry</a></span>
@@ -79,7 +79,20 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20181106_raspberry_config_script_00.jpg" alt="Script de configuración para Raspberry">
 		</figure><div class="post__content clearfix">
-			<p>Está claro que de las partes más tediosas del caharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso.</p>
+			<p>Está claro que de las partes más tediosas del caharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.</p>
+
+<ul>
+<li>Actualiza el firmware de la placa y los paquetes de Raspbian</li>
+<li>Cambia la contraseña para el usuario Pi</li>
+<li>Configura la IP y la puerta de enlace al router</li>
+<li>configura el huso horario y el idioma</li>
+<li>Instala Git</li>
+<li>Instala Pi-Hole</li>
+<li>Instala Hugo</li>
+<li>Instala Rclone</li>
+<li>Instala el servidor pivpn</li>
+<li>Programa un reinicio diario</li>
+</ul>
 
 <p>Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</p>
 
@@ -97,7 +110,103 @@ chmod +x raspi-config.sh
 <pre><code>./raspi-config.sh
 </code></pre>
 
-<p>[/files/raspi-config.sh]</p>
+<p>La instalación no es completamente desatendida y requiere que estemos intesactuando con la misma en varios puntos.</p>
+
+<ul>
+<li>Seleccionar el área geográfica (Europa y Madrid)</li>
+<li>Configurar la codificación local (en-GB.UTF-8 y es-ES.UTF-8)</li>
+<li>Seleccionar eth0 como interface de Pi-hole</li>
+<li>Seleccionar Google como el proveedor DNS</li>
+<li>En la IP estática de Pi-Hole sustituir la existente por la que hemos configurado en el instalador</li>
+<li>Modificar la puerta de acceso si es necesario</li>
+<li>Habilitar la interface administrativa, el servidor web y las consultas de Pi-Hole</li>
+</ul>
+
+<p>Con todo lo anterior el script de configuración queda de la siguiente forma</p>
+
+<pre><code>#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
+# Raspberry custom init config script
+# Updated on 20181120
+# Created on 20181106
+# Developed by Sherlockes
+# www.sherblog.pro/files/raspiconfig.sh
+# Description
+#   - Firmware &amp; Packages update
+#   - Change Pi password
+#   - Configure local network
+#   - Configure timezone &amp; locale
+#   - Install Git
+#   - Install Pi-Hole
+#   - Install Hugo
+#   - Install Rclone
+# - Installing pivpn server
+#   - Schedule daily restart
+
+#Definiciones
+password1=&quot;YOURPASS&quot; # New Pi user pass
+ipadress=192.168.1.202 # New IP Direction
+gateway=192.168.1.1 # Router IP
+
+# Modificamos el password para el usuario pi
+sudo echo -e &quot;raspberry\n$password1\n$password1&quot; | passwd pi
+
+### Updating...
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install rpi-update
+sudo rpi-update
+
+### Network Config
+sudo echo 'interface eth0' &gt;&gt; /etc/dhcpcd.conf
+sudo echo 'static ip_address=$ipadress/24' &gt;&gt; /etc/dhcpcd.conf
+sudo echo 'static routers=$gateway' &gt;&gt; /etc/dhcpcd.conf
+sudo echo 'static domain_name_servers=$gateway' &gt;&gt; /etc/dhcpcd.conf
+
+### Change Timezone &amp; Locale
+sudo dpkg-reconfigure tzdata
+sudo dpkg-reconfigure locales
+
+### Installing Git
+sudo apt-get install git -y
+sudo apt-get install jq -y
+
+### Installing Pi-hole Web interface http://ip/admin
+curl -sSL https://install.pi-hole.net | bash
+sudo echo -e &quot;$password1\n$password1&quot; | pihole -a -p
+
+### Installing latest version of Hugo
+curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest \
+| grep &quot;browser_download_url.*hugo_[^extended].*_Linux-ARM\.deb&quot; \
+| cut -d &quot;:&quot; -f 2,3 \
+| tr -d \&quot; \
+| wget -qi -
+installer=&quot;$(find . -name &quot;*Linux-ARM.deb&quot;)&quot;
+sudo dpkg -i $installer
+rm $installer
+
+### Installing Rclone
+curl -s https://api.github.com/repos/ncw/rclone/releases/latest \
+| grep &quot;browser_download_url.*rclone-[^extended].*-linux-arm\.deb&quot; \
+| cut -d &quot;:&quot; -f 2,3 \
+| tr -d \&quot; \
+| wget -qi -
+installer=&quot;$(find . -name &quot;*linux-arm.deb&quot;)&quot;
+sudo dpkg -i $installer
+rm $installer
+
+### Installing vpn server
+curl -L https://install.pivpn.io | bash
+
+### Schedule Raspberry reboot at 4 A.M.
+echo &quot;00 04 * * * /sbin/reboot&quot; | cat &gt; cron
+sudo crontab cron
+rm cron
+
+### Raspberry Reboot
+sudo reboot
+</code></pre>
 
 			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
 		</div>
@@ -114,7 +223,7 @@ chmod +x raspi-config.sh
 	
 <nav class="post-nav row clearfix">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Gestión de usuarios y passwords</p></a>
+		<a class="post-nav__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Raspberry configurando rclone sin entorno gráfico</p></a>
 	</div>
 </nav>
 	
@@ -128,10 +237,10 @@ chmod +x raspi-config.sh
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/script-de-configuraci%C3%B3n-para-raspberry/">Script de configuración para Raspberry</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cuando-una-app-deja-ko-a-android/">Cuando una App deja KO a Android</a></li>
 			<li class="widget__item"><a class="widget__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/">Gestión de usuarios y passwords</a></li>
 			<li class="widget__item"><a class="widget__link" href="/historia-del-alojamiento-del-blog/">Historia del alojamiento del blog</a></li>
 			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
-			<li class="widget__item"><a class="widget__link" href="/publicar-desde-iawriter/">Publicar desde iaWriter</a></li>
 		</ul>
 	</div>
 </div>
@@ -216,6 +325,7 @@ chmod +x raspi-config.sh
 		<a class="widget-taglist__link widget__link btn" href="/tags/sherlodj" title="Sherlodj">Sherlodj</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/software" title="Software">Software</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/synology" title="Synology">Synology</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tilt-shift" title="Tilt shift">Tilt shift</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/tracks" title="Tracks">Tracks</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/trekbuddy" title="Trekbuddy">Trekbuddy</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/virtualdub" title="Virtualdub">Virtualdub</a>

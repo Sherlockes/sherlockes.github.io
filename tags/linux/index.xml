@@ -6,7 +6,7 @@
     <description>Recent content in Linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 20 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,11 @@
     <item>
       <title>Script de configuración para Raspberry</title>
       <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
-      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
-      <description>Está claro que de las partes más tediosas del caharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso.
-Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.
-wget https://sherblog.pro/files/raspi-config.sh chmod +x raspi-config.sh  Con el comando nano raspi-config.sh editamos los siguientes parámetros * Contraseña para el usuario &amp;ldquo;pi&amp;rdquo; * Ip fija de nuestra red local que queremos asignar a la raspberry * Ip del router o puerta de enlace</description>
+      <description>Está claro que de las partes más tediosas del caharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
+ Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</description>
     </item>
     
   </channel>
