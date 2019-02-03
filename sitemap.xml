@@ -674,14 +674,14 @@
   </url>
   
   <url>
-    <loc>/categories/gps/</loc>
-    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
+    <loc>/tags/gps/</loc>
+    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/gps/</loc>
-    <lastmod>2018-02-25T00:00:00+00:00</lastmod>
+    <loc>/categories/gps/</loc>
+    <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -722,14 +722,14 @@
   </url>
   
   <url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
+    <loc>/tags/linux/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <loc>/categories/linux/</loc>
+    <lastmod>2018-02-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
