@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gestión de usuarios y passwords</title>
+      <link>/gesti%C3%B3n-de-usuarios-y-passwords/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/gesti%C3%B3n-de-usuarios-y-passwords/</guid>
+      <description>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios. Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:
+ Contraseñas distintas para cada servicio No usar palabras, nombres, fechas&amp;hellip; No usar sólo letras Longitud suficiente (más de diez caracteres) Accesibles desde cualquier lugar Guardadas en un lugar seguro  No voy a entrar a valorar las alternativas que existen y que cumplen con las características de arriba, simplemente voy a exponer el método que yo utilizo en la actualidad y como hago para garantizar lo que, a mi modo de ver, es una seguridad suficiente.</description>
+    </item>
     
     <item>
       <title>Redimensionar imágenes desde la línea de comandos</title>
@@ -30,16 +40,6 @@ Habitualmente uso Gimp para el retoque y ajuste de imágenes.</description>
       <guid>/cuando-una-app-deja-ko-a-android/</guid>
       <description>No se si es un problema de tener un teléfono android, de que este tenga casi cuatro años, de que sobre el corra Lineage OS en lugar de la distribución del fabricante, de que esté rooteado o simplemente ha sido un bug en una aplicación que durante varias horas me ha provocado un fuerte dolor de cabeza.
 Todo empieza al intentar instalar el pack de router y satélite Orbi de Netgear que requiere la App del propio fabricante</description>
-    </item>
-    
-    <item>
-      <title>Gestión de usuarios y passwords</title>
-      <link>/gesti%C3%B3n-de-usuarios-y-passwords/</link>
-      <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/gesti%C3%B3n-de-usuarios-y-passwords/</guid>
-      <description>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios. Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:
- Contraseñas distintas para cada servicio No usar palabras, nombres, fechas&amp;hellip; No usar sólo letras Longitud suficiente (más de diez caracteres) Accesibles desde cualquier lugar Guardadas en un lugar seguro  No voy a entrar a valorar las alternativas que existen y que cumplen con las características de arriba, simplemente voy a exponer el método que yo utilizo en la actualidad y como hago para garantizar lo que, a mi modo de ver, es una seguridad suficiente.</description>
     </item>
     
     <item>

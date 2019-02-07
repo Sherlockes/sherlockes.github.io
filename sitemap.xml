@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/gesti%C3%B3n-de-usuarios-y-passwords/</loc>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/redimensionar-im%C3%A1genes-desde-la-l%C3%ADnea-de-comandos/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
   </url>
@@ -15,11 +20,6 @@
   <url>
     <loc>/cuando-una-app-deja-ko-a-android/</loc>
     <lastmod>2018-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/gesti%C3%B3n-de-usuarios-y-passwords/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -728,7 +728,7 @@
   
   <url>
     <loc>/tags/keepass/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -782,7 +782,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -817,7 +817,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -876,7 +876,7 @@
   
   <url>
     <loc>/categories/varios/</loc>
-    <lastmod>2018-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
