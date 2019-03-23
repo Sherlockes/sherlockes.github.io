@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/primeros-pasos-con-zerotier/</loc>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/los-podcast-que-escucho.-febrero-de-2019/</loc>
     <lastmod>2019-03-07T00:00:00+00:00</lastmod>
   </url>
@@ -782,13 +787,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/raspberry/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -817,7 +822,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -828,7 +833,7 @@
   
   <url>
     <loc>/categories/sherver/</loc>
-    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
