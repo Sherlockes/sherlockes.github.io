@@ -10,7 +10,7 @@
 	
 	<meta name="twitter:card" content="Una larga historia de como me he visto obligado a pasar de la VPN al uso de ZeroTier" />
 	<meta name="twitter:title" content="Primeros pasos con Zerotier" />
-	<meta name="twitter:image" content="http://sherblog.pro/images/titulo_00.jpg" />
+	<meta name="twitter:image" content="http://sherblog.pro/images/20190314_probando_zerotier_00.jpg" />
 	
 	<meta name="twitter:creator" content="@sherblogpro">
 	<meta name="twitter:site" content="sherblog.pro" />
@@ -78,7 +78,7 @@
 </span></div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/images/titulo_00.jpg" alt="Primeros pasos con Zerotier">
+			<img src="/images/20190314_probando_zerotier_00.jpg" alt="Primeros pasos con Zerotier">
 		</figure>
 <div class="post__toc toc">
 	<div class="toc__title">Contenido</div>
@@ -94,7 +94,9 @@
 <ul>
 <li><a href="#zetorier-one-en-la-raspberry">Zetorier One en la Raspberry</a></li>
 <li><a href="#zerotier-en-el-nas-synology-ds216-ii">Zerotier en el NAS Synology DS216+II</a></li>
+<li><a href="#zerotier-en-android">ZeroTier en Android</a></li>
 </ul></li>
+<li><a href="#zerotier-instalado-y-ahora-que">Zerotier instalado, y ahora que&hellip;</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -109,7 +111,7 @@
 
 <h2 id="el-diagnóstico">El diagnóstico</h2>
 
-<p>A priori el fallo puede venir de varios sitios por lo que me dispongo a ir decayendo uno tras otro.</p>
+<p>A priori el fallo puede venir de varios sitios por lo que me dispongo a ir excluyendo uno tras otro.</p>
 
 <ul>
 <li>El cliente</li>
@@ -184,6 +186,51 @@ sudo zerotier-cli join 78898a1265hfg34b
 <p>Aquí la cosa se complica un poco más. Primero tenemos que determinar la versión a descargar según la arquitectura del procesador de nuestro nas.  Para Synology se puede buscar <a href="https://github.com/SynoCommunity/spksrc/wiki/Architecture-per-Synology-model">aquí</a>.  Para el caso de mi Synology DS216+II es fácil determinar que necesito descargar la versión <a href="https://download.zerotier.com/RELEASES/1.2.8/dist/zerotier-1.2.8r0-syn-braswell-6.1.spk">braswell (x64)</a>.</p>
 
 <p><img src="/images/20190314_probando_zerotier_05.jpg" alt="imagen" /></p>
+
+<p>Con el archivo *.spk descargado ya podemos instalarlo en nuestro NAS, para lo cual realizeremos una instalación manual desde el centro de paquetes y seleccionando el archivo descargado en nuestro pc.</p>
+
+<p><img src="/images/20190314_probando_zerotier_06.jpg" alt="imagen" /></p>
+
+<p>A partir de aquí no resta más que abrir la aplicación e introducir en el recuadro de la esquina inferior derecha (Si, tambien hay que pulsar el botón &ldquo;Join&rdquo;) el identificador de la red que hemos creado para unirnos a esta.</p>
+
+<p><img src="/images/20190314_probando_zerotier_07.jpg" alt="imagen" /></p>
+
+<p>Por último hay que aceptar esta nueva onexión a las red desde la web de <a href="https://my.zerotier.com">zeroTier</a>.</p>
+
+<h3 id="zerotier-en-android">ZeroTier en Android</h3>
+
+<p>Aquí nos encontramos con un problema &ldquo;importante&rdquo; y es que la única manera oficial de instalar la aplicación Zerotioer One es desde la tienda <a href="https://play.google.com/store/apps/details?id=com.zerotier.one&amp;hl=es">Google Play</a> por lo que deberas tener instalados en tu terminal los servicios de Google.  Cierto es que por la web no es complicado encontrar apk&rsquo;s con la aplicación para descargar pero al no ser sitios soportados por el fabricante con son fuentes para nada confiables.</p>
+
+<p>Con la aplicación ya instalada y abierta sólo hay que seguir tres pasos tal y como se puede ver en la siguiente imagen.
+- Pulsar para añadir una nueva red
+- Introducir el identificador de red y añadirla
+- Activar la red y comprobar que estamos &ldquo;ONLINE&rdquo;</p>
+
+<blockquote>
+<p>En la barra superior de notificaciones podremos ver como ha aparecido una &ldquo;llave&rdquo; que indica que estamos bajo una conexión VPN</p>
+</blockquote>
+
+<p><img src="/images/20190314_probando_zerotier_08.jpg" alt="imagen" /></p>
+
+<p>Ahora y del mismo modo que en los casos anteriores tendremos que permitir el aceso a la red de este dispositivos desde  la web de <a href="https://my.zerotier.com">Zerotier</a>.</p>
+
+<blockquote>
+<p>Para realizar esta conexión en movilidad sin el amparo de una red wifi deberemos activar la opción &ldquo;Use Cellular Data&rdquo; desde el menú de configuración.</p>
+</blockquote>
+
+<h2 id="zerotier-instalado-y-ahora-que">Zerotier instalado, y ahora que&hellip;</h2>
+
+<p>Se suele dar el caso de que estoy fuera de casa y necesito acceder a la Raspberry o el NAS que tienen instalado Zerotier.  Antes de nada necesito conocer la IP que Zerotier ha asignado al dispositivo que necesito conectarme.  En mi caso se puede ver en la siguiente imagen como la Raspberry ha adquirido la IP 192.168.191.168</p>
+
+<p><img src="/images/20190314_probando_zerotier_09.jpg" alt="imagen" /></p>
+
+<p>Con todo lo anterior ya estoy preparado para acceder desde fuera de mi red local a la Raspberry.  Utilizaré una aplicación u otra dependiendo del servicio al que me quiera conectarme</p>
+
+<ul>
+<li>Chrome para acceder al servidor web</li>
+<li>Termux para acceder a través de ssh</li>
+<li>ES Explorador de archivos para acceder a través de samba o ftp</li>
+</ul>
 
 			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
 		</div>
