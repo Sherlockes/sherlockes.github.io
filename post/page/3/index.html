@@ -22,7 +22,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/post/" />
 
-<meta property="og:updated_time" content="2018-07-27T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-08-09T00:00:00&#43;00:00"/>
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -71,6 +71,29 @@
 		<header class="page-header">
 			<h1 class="page-header__title">Posts</h1>
 		</header><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/copiar-ssh-key-desde-synology/">
+			<img src="/images/20180809_ssh_key_synology.jpg" alt="Copiar ssh key desde Synology" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/copiar-ssh-key-desde-synology/" rel="bookmark">Copiar ssh key desde Synology</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-08-09T00:00:00">2018-08-09</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/sherver" rel="category">Sherver</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &ldquo;Terminal y snmp&rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &ldquo;.ssh&rdquo; de modo en entre otros archivos se genera un &ldquo;id_rsa.
+		</div>
+	</div>
+</article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="/acceder-a-github-via-ssh-sin-password/">
 			<img src="/images/20180806_hugo_github_pass_00.jpg" alt="Acceder a Github via ssh sin password" />
@@ -162,29 +185,6 @@ Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seg
 Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:
 		</div>
 	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/ordenar-listas-en-google-keep/">
-			<img src="/images/20180523_ordenar_lista_google_keep.jpg" alt="Ordenar listas en Google Keep" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/ordenar-listas-en-google-keep/" rel="bookmark">Ordenar listas en Google Keep</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-05-27T00:00:00">2018-05-27</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/varios" rel="category">Varios</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
- La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.
-		</div>
-	</div>
 </article>
 
 		
@@ -204,10 +204,10 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/primeros-pasos-con-zerotier/">Primeros pasos con Zerotier</a></li>
+			<li class="widget__item"><a class="widget__link" href="/primeros-pasos-con-zerotier/">Primeros pasos con Zerotier</a></li>
 			<li class="widget__item"><a class="widget__link" href="/los-podcast-que-escucho.-febrero-de-2019/">Los podcast que escucho. Febrero de 2019</a></li>
 			<li class="widget__item"><a class="widget__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/">Gestión de usuarios y passwords</a></li>
 			<li class="widget__item"><a class="widget__link" href="/redimensionar-im%C3%A1genes-desde-la-l%C3%ADnea-de-comandos/">Redimensionar imágenes desde la línea de comandos</a></li>
-			<li class="widget__item"><a class="widget__link" href="/script-de-configuraci%C3%B3n-para-raspberry/">Script de configuración para Raspberry</a></li>
 		</ul>
 	</div>
 </div>
