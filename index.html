@@ -99,28 +99,6 @@
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
-		<a href="/primeros-pasos-con-zerotier/">
-			<img src="/images/20190314_probando_zerotier_00.jpg" alt="Primeros pasos con Zerotier" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/primeros-pasos-con-zerotier/" rel="bookmark">Primeros pasos con Zerotier</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2019-03-27T00:00:00">2019-03-27</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/sherver" rel="category">Sherver</a>, <a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión. Después de varias pruebas y de mucho tiempo funcionando de un día para otro y sin tocar ninguna configurando el sistema ha dejado de funcionar.
-		</div>
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
 		<a href="/los-podcast-que-escucho.-febrero-de-2019/">
 			<img src="/images/20180121_homer_headphones.jpg" alt="Los podcast que escucho. Febrero de 2019" />
 		</a>
@@ -189,6 +167,29 @@ Si solo fueran unas pocas fotos no me hubiera planteado &ldquo;automatizar&rdquo
 Habitualmente uso Gimp para el retoque y ajuste de imágenes.
 		</div>
 	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/script-de-configuraci%C3%B3n-para-raspberry/">
+			<img src="/images/20181106_raspberry_config_script_00.jpg" alt="Script de configuración para Raspberry" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/script-de-configuraci%C3%B3n-para-raspberry/" rel="bookmark">Script de configuración para Raspberry</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-12-04T00:00:00">2018-12-04</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
+ Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.
+		</div>
+	</div>
 </article>
 		
 
@@ -208,10 +209,10 @@ Habitualmente uso Gimp para el retoque y ajuste de imágenes.
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/primeros-pasos-con-zerotier/">Primeros pasos con Zerotier</a></li>
-			<li class="widget__item"><a class="widget__link" href="/primeros-pasos-con-zerotier/">Primeros pasos con Zerotier</a></li>
 			<li class="widget__item"><a class="widget__link" href="/los-podcast-que-escucho.-febrero-de-2019/">Los podcast que escucho. Febrero de 2019</a></li>
 			<li class="widget__item"><a class="widget__link" href="/gesti%C3%B3n-de-usuarios-y-passwords/">Gestión de usuarios y passwords</a></li>
 			<li class="widget__item"><a class="widget__link" href="/redimensionar-im%C3%A1genes-desde-la-l%C3%ADnea-de-comandos/">Redimensionar imágenes desde la línea de comandos</a></li>
+			<li class="widget__item"><a class="widget__link" href="/script-de-configuraci%C3%B3n-para-raspberry/">Script de configuración para Raspberry</a></li>
 		</ul>
 	</div>
 </div>
