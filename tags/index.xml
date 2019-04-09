@@ -6,161 +6,17 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Apps</title>
-      <link>/tags/apps/</link>
-      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      <title>Podcast</title>
+      <link>/tags/podcast/</link>
+      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Averias</title>
-      <link>/tags/averias/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/averias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Backup</title>
-      <link>/tags/backup/</link>
-      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/backup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bash</title>
-      <link>/tags/bash/</link>
-      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bricolaje</title>
-      <link>/tags/bricolaje/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bricolaje/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Desarrollo</title>
-      <link>/tags/desarrollo/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/desarrollo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Facebook</title>
-      <link>/tags/facebook/</link>
-      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/facebook/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fontanería</title>
-      <link>/tags/fontaner%C3%ADa/</link>
-      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/fontaner%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gdrive</title>
-      <link>/tags/gdrive/</link>
-      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gdrive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gimp</title>
-      <link>/tags/gimp/</link>
-      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gimp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gmail</title>
-      <link>/tags/gmail/</link>
-      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gmail/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>/tags/google/</link>
-      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gopro</title>
-      <link>/tags/gopro/</link>
-      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gopro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gps</title>
-      <link>/tags/gps/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hdr</title>
-      <link>/tags/hdr/</link>
-      <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hdr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Iawriter</title>
-      <link>/tags/iawriter/</link>
-      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/iawriter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keep</title>
-      <link>/tags/keep/</link>
-      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/keep/</guid>
+      <guid>/tags/podcast/</guid>
       <description></description>
     </item>
     
@@ -174,7 +30,16 @@
     </item>
     
     <item>
-      <title>Linux</title>
+      <title>bash</title>
+      <link>/tags/bash/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
       <link>/tags/linux/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -183,56 +48,20 @@
     </item>
     
     <item>
-      <title>Mantenimiento</title>
-      <link>/tags/mantenimiento/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      <title>shell</title>
+      <link>/tags/shell/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mantenimiento/</guid>
+      <guid>/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mapas</title>
-      <link>/tags/mapas/</link>
-      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      <title>Desarrollo</title>
+      <link>/tags/desarrollo/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mapas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Panoramica</title>
-      <link>/tags/panoramica/</link>
-      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/panoramica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photomatix</title>
-      <link>/tags/photomatix/</link>
-      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/photomatix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photoshop</title>
-      <link>/tags/photoshop/</link>
-      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/photoshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Podcast</title>
-      <link>/tags/podcast/</link>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/podcast/</guid>
+      <guid>/tags/desarrollo/</guid>
       <description></description>
     </item>
     
@@ -246,38 +75,29 @@
     </item>
     
     <item>
-      <title>Server</title>
-      <link>/tags/server/</link>
-      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      <title>iAWriter</title>
+      <link>/tags/iawriter/</link>
+      <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/server/</guid>
+      <guid>/tags/iawriter/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shell</title>
-      <link>/tags/shell/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <title>mantenimiento</title>
+      <link>/tags/mantenimiento/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shell/</guid>
+      <guid>/tags/mantenimiento/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sherlodj</title>
-      <link>/tags/sherlodj/</link>
-      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      <title>Averias</title>
+      <link>/tags/averias/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sherlodj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>/tags/software/</link>
-      <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/software/</guid>
+      <guid>/tags/averias/</guid>
       <description></description>
     </item>
     
@@ -291,16 +111,61 @@
     </item>
     
     <item>
-      <title>Tilt Shift</title>
-      <link>/tags/tilt-shift/</link>
-      <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
+      <title>Bricolaje</title>
+      <link>/tags/bricolaje/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tilt-shift/</guid>
+      <guid>/tags/bricolaje/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tracks</title>
+      <title>Fontanería</title>
+      <link>/tags/fontaner%C3%ADa/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fontaner%C3%ADa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>/tags/google/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep</title>
+      <link>/tags/keep/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/keep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPS</title>
+      <link>/tags/gps/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapas</title>
+      <link>/tags/mapas/</link>
+      <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mapas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracks</title>
       <link>/tags/tracks/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
@@ -309,7 +174,133 @@
     </item>
     
     <item>
-      <title>Trekbuddy</title>
+      <title>Gmail</title>
+      <link>/tags/gmail/</link>
+      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gmail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gopro</title>
+      <link>/tags/gopro/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gopro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apps</title>
+      <link>/tags/apps/</link>
+      <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facebook</title>
+      <link>/tags/facebook/</link>
+      <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/facebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>panoramica</title>
+      <link>/tags/panoramica/</link>
+      <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/panoramica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SherloDj</title>
+      <link>/tags/sherlodj/</link>
+      <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sherlodj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backup</title>
+      <link>/tags/backup/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gdrive</title>
+      <link>/tags/gdrive/</link>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gdrive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualdub</title>
+      <link>/tags/virtualdub/</link>
+      <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/virtualdub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gimp</title>
+      <link>/tags/gimp/</link>
+      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hdr</title>
+      <link>/tags/hdr/</link>
+      <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hdr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>/tags/software/</link>
+      <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photomatix</title>
+      <link>/tags/photomatix/</link>
+      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/photomatix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>photoshop</title>
+      <link>/tags/photoshop/</link>
+      <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/photoshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trekbuddy</title>
       <link>/tags/trekbuddy/</link>
       <pubDate>Thu, 19 Feb 2009 00:00:00 +0000</pubDate>
       
@@ -318,11 +309,20 @@
     </item>
     
     <item>
-      <title>Virtualdub</title>
-      <link>/tags/virtualdub/</link>
-      <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
+      <title>tilt-shift</title>
+      <link>/tags/tilt-shift/</link>
+      <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtualdub/</guid>
+      <guid>/tags/tilt-shift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>server</title>
+      <link>/tags/server/</link>
+      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/server/</guid>
       <description></description>
     </item>
     

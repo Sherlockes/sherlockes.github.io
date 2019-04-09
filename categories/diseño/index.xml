@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Diseño on Sherblog</title>
+    <title>diseño on Sherblog</title>
     <link>/categories/dise%C3%B1o/</link>
-    <description>Contenido reciente de la categoria... in Diseño on Sherblog</description>
+    <description>Contenido reciente de la categoria... in diseño on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>

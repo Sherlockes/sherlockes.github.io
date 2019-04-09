@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on Sherblog</title>
+    <title>bash on Sherblog</title>
     <link>/tags/bash/</link>
-    <description>Recent content in Bash on Sherblog</description>
+    <description>Recent content in bash on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>

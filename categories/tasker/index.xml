@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tasker on Sherblog</title>
@@ -6,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Tasker on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/tasker/index.xml" rel="self" type="application/rss+xml" />
     
@@ -52,7 +51,7 @@ Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos
     <item>
       <title>Mis usos de Tasker</title>
       <link>/post/tasker/</link>
-      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/tasker/</guid>
       <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
