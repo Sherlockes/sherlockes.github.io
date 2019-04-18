@@ -714,6 +714,11 @@
   </url>
   
   <url>
+    <loc>/post/tasker/</loc>
+    <lastmod>2018-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/tasker/</loc>
     <lastmod>2018-06-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -747,11 +752,6 @@
     <loc>/categories/gps/</loc>
     <lastmod>2018-03-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/tasker/</loc>
-    <lastmod>2018-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
