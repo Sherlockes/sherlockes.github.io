@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 07 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>darktable</title>
+      <link>/tags/darktable/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/darktable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gimp</title>
+      <link>/tags/gimp/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gtumb</title>
+      <link>/tags/gtumb/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gtumb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trimage</title>
+      <link>/tags/trimage/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/trimage/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Podcast</title>
@@ -251,15 +287,6 @@
       <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>/tags/virtualdub/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gimp</title>
-      <link>/tags/gimp/</link>
-      <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gimp/</guid>
       <description></description>
     </item>
     
