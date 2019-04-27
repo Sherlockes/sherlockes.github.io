@@ -6,7 +6,7 @@
     <description>Recent content in Desarrollo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 10 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/desarrollo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@ curl https://rclone.</description>
     <item>
       <title>Raspberry Montaje y ssh</title>
       <link>/raspberry-montaje-y-ssh/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-montaje-y-ssh/</guid>
       <description>Montaje y acceso ssh Ya tengo lo que creo que necesito. Una Raspberry, una tarjeta micro sd, una fuente de alimentación y un cable de red. Total 59€ de inversión inicial que supongo no se quedarán ahí.
@@ -170,7 +170,7 @@ Este simple concepto añade infinidad de características a tus dispositivos and
     <item>
       <title>Raspberry Pi desde cero</title>
       <link>/post/raspberry/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/raspberry/</guid>
       <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.

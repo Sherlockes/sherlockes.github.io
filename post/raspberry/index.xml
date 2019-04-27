@@ -6,7 +6,7 @@
     <description>Recent content in Raspberry Pi desde cero on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
@@ -35,7 +35,7 @@ curl https://rclone.</description>
     <item>
       <title>Raspberry Montaje y ssh</title>
       <link>/raspberry-montaje-y-ssh/</link>
-      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-montaje-y-ssh/</guid>
       <description>Montaje y acceso ssh Ya tengo lo que creo que necesito. Una Raspberry, una tarjeta micro sd, una fuente de alimentación y un cable de red. Total 59€ de inversión inicial que supongo no se quedarán ahí.
