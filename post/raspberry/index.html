@@ -163,32 +163,7 @@ Lo siguiente&hellip; Hugo</p>
 </span></div>
 		</header>
 		<div class="list__excerpt post__content">
-			En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo. Rclone
-La instalación es realmente sencilla gracias al script que hay en la web oficial
-curl https://rclone.
-		</div>
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-montaje-y-ssh/">
-			<img src="/images/raspberry_logo.png" alt="Raspberry Montaje y ssh" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/raspberry-montaje-y-ssh/" rel="bookmark">Raspberry Montaje y ssh</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2019-04-26T00:00:00">2019-04-26</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Montaje y acceso ssh Ya tengo lo que creo que necesito. Una Raspberry, una tarjeta micro sd, una fuente de alimentación y un cable de red. Total 59€ de inversión inicial que supongo no se quedarán ahí.
-Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como empezar con el cacharro, ya que estos días desde que lo pedí todo hasta que me ha llegado no me he preocupado de nada.
+			En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -211,7 +186,6 @@ Rápidamente me vengo arriba y entro el la web de Raspberry Pi para ver como emp
 		</header>
 		<div class="list__excerpt post__content">
 			Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
-interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -234,7 +208,30 @@ interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 sta
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
-cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
+cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?
+		</div>
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-mysql-y-db/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry mysql y DB" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/raspberry-mysql-y-db/" rel="bookmark">Raspberry mysql y DB</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-04-04T00:00:00">2018-04-04</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
+ sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &ldquo;root&rdquo;.
 		</div>
 	</div>
 </article>

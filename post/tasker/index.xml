@@ -27,7 +27,7 @@ Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los 
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/apagar-la-pantalla-con-tasker-en-android/</guid>
-      <description>La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma. Muchos terminales ofrecen la posibilidad del bloqueo y desbloqueo con un doble toque.</description>
+      <description>La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma.</description>
     </item>
     
     <item>
@@ -36,8 +36,7 @@ Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los 
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tasker/</guid>
-      <description>Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.
-Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos años y en su día no costaba los 200€.</description>
+      <description>Es fácil caer en la compra compulsiva de un teléfono de 1000€ con el que la mayoría de usuarios sólo son capaces de hacer mejores fotos que con otro de 200. Lo difícil es hacer con un teléfono de 200€ lo que la mayoría de usuarios no saben hacer con uno de 1000.</description>
     </item>
     
     <item>
@@ -46,7 +45,7 @@ Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reinicio-programado-con-tasker-en-android/</guid>
-      <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.</description>
+      <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema.</description>
     </item>
     
   </channel>

@@ -123,29 +123,6 @@ Lo siguiente&hellip; Hugo</p>
 
 		</div><article class="list__item post">
 	<figure class="list__thumbnail">
-		<a href="/raspberry-mysql-y-db/">
-			<img src="/images/raspberry_logo.png" alt="Raspberry mysql y DB" />
-		</a>
-	</figure>
-	<div class="list__content clearfix">
-		<header class="list__header">
-			<h3 class="list__title post__title ">
-				<a href="/raspberry-mysql-y-db/" rel="bookmark">Raspberry mysql y DB</a>
-			</h3><div class="list__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2018-04-04T00:00:00">2018-04-04</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</span></div>
-		</header>
-		<div class="list__excerpt post__content">
-			Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
- sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &ldquo;root&rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.
-		</div>
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
 		<a href="/raspberry-y-docker/">
 			<img src="/images/20180501_raspberry_docker.jpg" alt="Raspberry y Docker" />
 		</a>
@@ -167,9 +144,7 @@ Lo siguiente&hellip; Hugo</p>
  sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
 sudo curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo &ldquo;$ID&rdquo;)/gpg | sudo apt-key add -
 sudo echo &ldquo;deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo &ldquo;$ID&rdquo;) $(lsb_release -cs) stable&rdquo; | sudo tee /etc/apt/sources.list.d/docker.list
-sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker 
-añadir tu usuario al grupo de docker
-sudo gpasswd -a ${USER} docker
+sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -192,7 +167,7 @@ sudo gpasswd -a ${USER} docker
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
- Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.pivpn.io | bash  Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.
+ Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -238,7 +213,29 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		</header>
 		<div class="list__excerpt post__content">
 			Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea
+		</div>
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-copia-de-seguridad/">
+			<img src="/images/20180409_raspberry_backup.jpg" alt="Raspberry Copia de seguridad" />
+		</a>
+	</figure>
+	<div class="list__content clearfix">
+		<header class="list__header">
+			<h3 class="list__title post__title ">
+				<a href="/raspberry-copia-de-seguridad/" rel="bookmark">Raspberry Copia de seguridad</a>
+			</h3><div class="list__meta meta">
+<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+<time class="post__meta-date meta-date" datetime="2018-04-09T00:00:00">2018-04-09</time>
+<span class="post__meta-categories meta-categories">
+	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</span></div>
+		</header>
+		<div class="list__excerpt post__content">
+			Antes de pensar en como realizar una copia de seguridad para las instalaciones de WordPress y Dokuwiki que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.
+En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp-content&rdquo;.
 		</div>
 	</div>
 </article>

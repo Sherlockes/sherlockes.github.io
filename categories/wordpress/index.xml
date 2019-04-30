@@ -16,8 +16,7 @@
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
-      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
-Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.</description>
     </item>
     
     <item>
@@ -26,8 +25,7 @@ Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pru
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
-      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
-El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.</description>
     </item>
     
     <item>
@@ -37,7 +35,7 @@ El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo ele
       
       <guid>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</guid>
       <description>Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.
-Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes.</description>
+Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí.</description>
     </item>
     
     <item>
@@ -56,8 +54,7 @@ Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
-      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
-Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.</description>
     </item>
     
     <item>
@@ -106,8 +103,7 @@ Los pasos a realizar son los siguiente:
       
       <guid>/marcos-de-im%C3%A1genes-en-wordpress/</guid>
       <description>Escribiendo hoy un post he encontrado la solución a un problema que ya se me había planteado anteriormente y hasta ahora no había sido capaz de encontrar de una forma sencilla como esta. Se trata de los marcos alrededor de las imágenes en WordPress.
-Por defecto, si insertamos en la entrada una imagen desde la galería en una entrada de WordPress el código que se genera es el siguiente
-&amp;lt;img src=&amp;quot;sherblog/wp-content/uploads/Homer.</description>
+Por defecto, si insertamos en la entrada una imagen desde la galería en una entrada de WordPress el código que se genera es el siguiente</description>
     </item>
     
     <item>
@@ -116,8 +112,7 @@ Por defecto, si insertamos en la entrada una imagen desde la galería en una ent
       <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
       
       <guid>/migrando-wordpress-a-otro-servidor/</guid>
-      <description>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &amp;ldquo;www.sherver.site88.net&amp;rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &amp;ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&amp;rdquo;.
-Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.</description>
+      <description>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &amp;ldquo;www.sherver.site88.net&amp;rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &amp;ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -127,9 +122,7 @@ Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde v
       
       <guid>/wordpress-k.o.-fatal-error.-allowed-memory-size/</guid>
       <description>Hoy he intentado administrar el blog y me he encontrado con este pantallazo
-Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.
-En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir las siguientes líneas
-/** Ampliación de memoria*/ define(&#39;WP_MEMORY_LIMIT&#39;, &#39;96M&#39;);  Y a funcionar de nuevo!</description>
+Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.</description>
     </item>
     
     <item>
@@ -139,7 +132,7 @@ En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir 
       
       <guid>/backup-de-wordpress-en-google-drive/</guid>
       <description>Estamos de nuevo aquí para buscar la solución a un problema que tarde o temprano todo webmaster debe afrontar como es crear una copia de seguridad para nuestra web en WordPress. Como siempre, intentaré buscar algo sencillo, práctico y sobre todo gratuito.
-Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;. No he probado otros, pero por el precio y características Google Drive es una buena alternativa.</description>
+Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -149,8 +142,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en
       
       <guid>/error-en-wordpress-elegir-la-base-de-datos/</guid>
       <description>Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.</description>
     </item>
     
     <item>
@@ -159,8 +151,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en
       <pubDate>Wed, 18 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>/problema-con-wp-db-backup/</guid>
-      <description>A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &amp;ldquo;No estás autorizado para acceder a esta página&amp;rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.
-Para el que no lo sepa, la única misión de este complemento es realizar una copia de seguridad de la base de datos que gestiona wordpress bajo demanda del usuario o programada con una cierta frecuencia.</description>
+      <description>A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &amp;ldquo;No estás autorizado para acceder a esta página&amp;rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.</description>
     </item>
     
   </channel>

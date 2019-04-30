@@ -18,8 +18,7 @@
       
       <guid>/flujo-de-im%C3%A1genes-en-linux/</guid>
       <description>El origen de las imágenes Las imágenes con las que suelo tratar más habitualmente tienen dos procedencias claramente diferenciadas.
-Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con que necesito incluir alguna imagen para el mismo. Desde que uso Linux Mint el flujo ha cambiado notablemente ya que ahora uso simplemente la captura de pantalla nativa y Gimp para la edición.
- Para capturar un area de pantalla al portapapeles uso el atajo de teclado Ctrl + Mays + ImprPant (Importante tenerlo punsado un segundo hasta que el cursor cambia por una cruz con la que seleccionar el area a capturar).</description>
+Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con que necesito incluir alguna imagen para el mismo. Desde que uso Linux Mint el flujo ha cambiado notablemente ya que ahora uso simplemente la captura de pantalla nativa y Gimp para la edición.</description>
     </item>
     
     <item>
@@ -28,7 +27,7 @@ Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con 
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/primeros-pasos-con-zerotier/</guid>
-      <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión. Después de varias pruebas y de mucho tiempo funcionando de un día para otro y sin tocar ninguna configurando el sistema ha dejado de funcionar.</description>
+      <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión.</description>
     </item>
     
     <item>
@@ -37,8 +36,7 @@ Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con 
       <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/los-podcast-que-escucho.-febrero-de-2019/</guid>
-      <description>100% - Cien días y cien podcast Ahora ya no tengo muy claro cuando empecé a escuchar podcast (Creo que sobre 2016), lo que si puedo afirmar es que por lo menos he escuchado cien días de podcast tal y como muestra mi aplicación de cabecera en android Podcast Addict
-Me considero un escucha avanzado de Podcast y desde hace varios años los escucho en Podcast Addict ya que es una aplicación que me ofrece todo lo que necesito.</description>
+      <description>100% - Cien días y cien podcast Ahora ya no tengo muy claro cuando empecé a escuchar podcast (Creo que sobre 2016), lo que si puedo afirmar es que por lo menos he escuchado cien días de podcast tal y como muestra mi aplicación de cabecera en android Podcast Addict</description>
     </item>
     
     <item>
@@ -47,8 +45,7 @@ Me considero un escucha avanzado de Podcast y desde hace varios años los escuch
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/gesti%C3%B3n-de-usuarios-y-passwords/</guid>
-      <description>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios. Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:
- Contraseñas distintas para cada servicio No usar palabras, nombres, fechas&amp;hellip; No usar sólo letras Longitud suficiente (más de diez caracteres) Accesibles desde cualquier lugar Guardadas en un lugar seguro  No voy a entrar a valorar las alternativas que existen y que cumplen con las características de arriba, simplemente voy a exponer el método que yo utilizo en la actualidad y como hago para garantizar lo que, a mi modo de ver, es una seguridad suficiente.</description>
+      <description>Cada día son más los servicios web a los que estamos subscritos y parece evidente que hace falta una gestión adecuada de las contraseñas que utilizamos para acceder a cada uno de estos servicios. Cada uno maneja este tema a su gusto pero creo que para hacerlo de una forma “segura” hay que cumplir con los siguientes requisitos:</description>
     </item>
     
     <item>
@@ -58,8 +55,7 @@ Me considero un escucha avanzado de Podcast y desde hace varios años los escuch
       
       <guid>/redimensionar-im%C3%A1genes-desde-la-l%C3%ADnea-de-comandos/</guid>
       <description>Hace unos días me encontré con un problema a la hora de mandar imprimir unas fotografías y es que dentro de las seleccionadas había diversos tamaños por lo que tuve que igualarlas.
-Si solo fueran unas pocas fotos no me hubiera planteado &amp;ldquo;automatizar&amp;rdquo; la tarea pero al tratarse de casi cien fotografías me da pereza hacerlo una a una manualmente mediante.
-Habitualmente uso Gimp para el retoque y ajuste de imágenes.</description>
+Si solo fueran unas pocas fotos no me hubiera planteado &amp;ldquo;automatizar&amp;rdquo; la tarea pero al tratarse de casi cien fotografías me da pereza hacerlo una a una manualmente mediante.</description>
     </item>
     
     <item>
@@ -68,8 +64,7 @@ Habitualmente uso Gimp para el retoque y ajuste de imágenes.</description>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/cuando-una-app-deja-ko-a-android/</guid>
-      <description>No se si es un problema de tener un teléfono android, de que este tenga casi cuatro años, de que sobre el corra Lineage OS en lugar de la distribución del fabricante, de que esté rooteado o simplemente ha sido un bug en una aplicación que durante varias horas me ha provocado un fuerte dolor de cabeza.
-Todo empieza al intentar instalar el pack de router y satélite Orbi de Netgear que requiere la App del propio fabricante</description>
+      <description>No se si es un problema de tener un teléfono android, de que este tenga casi cuatro años, de que sobre el corra Lineage OS en lugar de la distribución del fabricante, de que esté rooteado o simplemente ha sido un bug en una aplicación que durante varias horas me ha provocado un fuerte dolor de cabeza.</description>
     </item>
     
     <item>
@@ -79,7 +74,7 @@ Todo empieza al intentar instalar el pack de router y satélite Orbi de Netgear 
       
       <guid>/historia-del-alojamiento-del-blog/</guid>
       <description>Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.
- Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux. Aprendí muchísimo pero el ruido que producía y el alto consumo eléctrico hicieron que pasados unos meses le buscara una alternativa.</description>
+ Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux.</description>
     </item>
     
     <item>
@@ -97,7 +92,7 @@ Todo empieza al intentar instalar el pack de router y satélite Orbi de Netgear 
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/apurada-de-frenada/</guid>
-      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro. Paro un momento, miro la pinza de freno por si algo se ha introducido en ella y lo que veo es que las pastilla de freno están completamente desgastadas.</description>
+      <description>El problema Una mañana perfecta para pasear con la bici se ha visto truncada por falta de mantenimiento en la misma. Todo transcurría de forma correcta con la bicicleta de montaña hasta que en un pequeño tramo de descenso el freno delantelo ha empezado ha hacer un ruido bastante raro.</description>
     </item>
     
     <item>
@@ -116,8 +111,7 @@ Completamente cuarteada a lo largo de todo el flanco de la rueda sin ninguna cau
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/copiar-ssh-key-desde-synology/</guid>
-      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
-ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
+      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.</description>
     </item>
     
     <item>
@@ -126,8 +120,7 @@ ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el direc
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/acceder-a-github-via-ssh-sin-password/</guid>
-      <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.
-La solución Antes de nada nombrar que me conecto a Github a través de la Raspberry Pi en la que tengo alojada mi web y otros servicios.</description>
+      <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.</description>
     </item>
     
     <item>
@@ -136,8 +129,7 @@ La solución Antes de nada nombrar que me conecto a Github a través de la Raspb
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.
-No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de Twitter para generar las tarjetas (Cards) tal y como se comenta en su sección de desarrolladores donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</description>
+      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.</description>
     </item>
     
     <item>
@@ -156,8 +148,7 @@ No tardo mucho en encontrar información para darme cuenta de que todo pasa por 
       
       <guid>/fuga-en-cisterna-roca/</guid>
       <description>Hace unos días que la cisterna del inodoro Roca de casa fuga y aunque apenas es apreciable a la vista resulta inquietante saber que los euros de la factura del agua se estén escapando por el váter.
-Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
-Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:</description>
+Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.</description>
     </item>
     
     <item>
@@ -176,8 +167,7 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/instalando-windows-7/</guid>
-      <description>El problema, un sistema lento Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.
-Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y el pc en el que voy a instalarlo no es precisamente de última generación por lo que no siquiera valoro la instalación de Windows 10.</description>
+      <description>El problema, un sistema lento Varios años después necesito instalar Windows en un pc, ya me he cansado de tener que esperar diez minutos hasta que arranque el sistema después de casi siete años de que la instalación de Windows 7 home Premium este acumulando kilos y kilos de basura informática.</description>
     </item>
     
     <item>
@@ -198,7 +188,7 @@ Windows 7 Vs Windows 10 Hoy por hoy Windows 7 me ofrece todo lo que necesito y e
       
       <guid>/telegram-vs-whatsapp/</guid>
       <description>¿Conoces Telegram? Si eres de los que solo usa WhatsApp como aplicación de mensajería instantánea aquí tienes una oportunidad de abrir los ojos antes otra alternativa mucho más potente que es Telegram.
-La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo. En mi caso la tengo instalada en mi teléfono Android, en el Ipad, en el pc de sobremesa con Windows y en el portatil con Linux pudiéndola utilizar en todo momento en cualquiera de ellos.</description>
+La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera de puede utilizar en varios dispositivos al mismo tiempo.</description>
     </item>
     
     <item>
@@ -208,8 +198,7 @@ La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera 
       
       <guid>/como-he-ganado-100-sin-quererlo/</guid>
       <description>Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.
-Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.
-Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta.</description>
+Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.</description>
     </item>
     
     <item>
@@ -220,8 +209,7 @@ Una primera impresión me informa de que no es nadie conocido y, a priori, un an
       <guid>/barrancos-del-sur-de-zaragoza/</guid>
       <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
 Ver pantalla completa
-También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
-Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
+También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.</description>
     </item>
     
     <item>
@@ -241,8 +229,7 @@ Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y s
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/portatil-viejo-nueva-vida.-mi-vuelta-a-linux/</guid>
-      <description>La joya de la corona Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.
-Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrastra tanto que se han vuelto inservibles.</description>
+      <description>La joya de la corona Hace tiempo que se me pasa por la cabeza probar un chromebook ya que mi viejo sobremesa se está volviendo lento y cada día da más pereza ponerlo en marcha. Aunque más pereza me da gastarme más de 250€ en un equipo que me puede facilitar mucho el trabajo en movilidad pero que no es mucho más que un navegador web.</description>
     </item>
     
     <item>
@@ -261,8 +248,7 @@ El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tr
       <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
-      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;
-El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes.</description>
+      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;</description>
     </item>
     
     <item>
@@ -272,7 +258,7 @@ El primer paso es descargar el icono de la web. Para esto empleo la siguiente li
       
       <guid>/de-google-earth-a-mapa-para-garmin-en-5-minutos/</guid>
       <description>Desde hace muchos años, utilizo Topohispania para la navegación en bicicleta con el Garmin Edge.
-Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta. Lo primero que escuentro es esto, un tutorial de 2012 que emplea un sinfín de utilidades ya difíciles de encontrar y que echa para atrás sólo de ver la amplitud del mismo.</description>
+Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las sendas y barrancos que no salen en Topohispania y que están por los lugares que circulo habitualmente para superponerlo en el gps de la bicicleta.</description>
     </item>
     
     <item>
@@ -281,8 +267,7 @@ Recientemente, me ha vuelto a picar la curiosidad de como crear un mapa con las 
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
-      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
-Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.</description>
     </item>
     
     <item>
@@ -291,8 +276,7 @@ Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pru
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/openstreetsmap-en-gps-garmin/</guid>
-      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
-Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
+      <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).</description>
     </item>
     
     <item>
@@ -310,8 +294,7 @@ Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps d
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
-      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
-El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.</description>
     </item>
     
     <item>
@@ -321,7 +304,7 @@ El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo ele
       
       <guid>/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/</guid>
       <description>Al publicar un post en WordPress una de las cosas que más pereza da es la inclusión de imágenes ya que hay que capturarlas, recortarlas, guardarlas, renombrarlas, subirlas al servidor e incrustarlas en el post. En este proceso pueden intervenir varias utilidades y programas por lo que resulta laborioso.
-Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí. Una pequeña pero potente utilidad que cubre todas las fases arriba mencionadas para la edición de imágenes.</description>
+Para todo esto utilizo Faststone Capture en su versión portable que puedes descargar desde aquí.</description>
     </item>
     
     <item>
@@ -331,7 +314,7 @@ Para todo esto utilizo Faststone Capture en su versión portable que puedes desc
       
       <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
       <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
-Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
+Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación.</description>
     </item>
     
     <item>
@@ -350,8 +333,7 @@ Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
-      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
-Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.</description>
     </item>
     
     <item>
@@ -370,7 +352,7 @@ Después de valorar varias alternativas, la que me ha parecido más apropiada es
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</guid>
-      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año.</description>
+      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo.</description>
     </item>
     
     <item>
@@ -380,7 +362,7 @@ Después de valorar varias alternativas, la que me ha parecido más apropiada es
       
       <guid>/automatizando-la-limpieza-de-gmail/</guid>
       <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
-Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo.</description>
     </item>
     
     <item>
@@ -389,8 +371,7 @@ Haciendo una estimación aproximada, creo que recibo un correo electrónico cada
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</guid>
-      <description>Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los Ritchey WCS True Grip Ergo con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.
-Tal y como se puede ver en la imagen de cabecera, el fabricante los pone a la venta por 13€.</description>
+      <description>Después de casi cinco años y varios miles de kilómetros montados sobre la bicicleta ha llegado el momento del cambio de los puños del manillar de la bicicleta de montaña reacondicionada a la carretera. Durante todo este tiempo he usado los Ritchey WCS True Grip Ergo con los que estoy muy contento, por lo que para nada me planteo un cambio de modelo.</description>
     </item>
     
     <item>
@@ -409,8 +390,7 @@ Hace varios meses que circulo con una Single Speed con la que estoy muy contento
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>/lo-barato-no-siempre-es-suficiente/</guid>
-      <description>Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en Banggood a la búsqueda de un repuesto bueno, bonito y sobre todo barato.
-Termine comprando por menos de 2$ esta tapa de repuesto.</description>
+      <description>Cuando cacharreas con la Gopro más o menos habitualmente y la conectas muchas veces al ordenador, lo más probable es que pierdas o rompas la tapa lateral que cubre el puerto USB y HDMI. Pues bien, hace unos días que me desapareció esta tapa de plástico y tras una infructuosa búsqueda me sumergí en Banggood a la búsqueda de un repuesto bueno, bonito y sobre todo barato.</description>
     </item>
     
     <item>
@@ -419,7 +399,7 @@ Termine comprando por menos de 2$ esta tapa de repuesto.</description>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/no-compres-en-ikea/</guid>
-      <description>Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa. El asunto se complica un poco más cuando lo que quieres comprar es una cocina entera y los pasos a seguir son los siguientes:</description>
+      <description>Comprar un jarrón en Ikea es realmente sencillo, cuando tu pasas junto a el, lo echas al carro, lo pagas al pasar por caja y al llegar a casa lo pones en la estantería. En dos horas el jarrón pasa de estar en la estantería de Ikea a hacerlo en la de tu casa.</description>
     </item>
     
     <item>
@@ -429,7 +409,7 @@ Termine comprando por menos de 2$ esta tapa de repuesto.</description>
       
       <guid>/en-que-apps-android-me-he-gastado-dinero/</guid>
       <description>Si dejamos de lado alguna distribución de windows que ha venido instalada con los ordenadores que ido comprando durante los últimos tiempos, han pasado 17 años desde que gasté el último dinero en software.
-Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación. La compra la realizo por un lado para no ver la publicidad en la zona inferior de la pantalla y por otro como reconocimiento al trabajo bien hecho por parte del creador.</description>
+Recientemente he comprado tres aplicaciones android, ninguna de ellas al azar ya que en los tres casos he realizado el desembolso después de varios meses de usar la aplicación.</description>
     </item>
     
     <item>
@@ -448,8 +428,7 @@ Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&am
       <pubDate>Tue, 03 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>/aver%C3%ADa-de-las-roldanas-del-cambio/</guid>
-      <description>La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.
-Rápidamente me doy cuenta de que la roldana inferior del cambio está bloqueada y sólo permite el giro en un sentido, por suerte es que que permite avanzar a la bicicleta por lo que no me impide llegar a casa montado sobre la misma.</description>
+      <description>La mayoría de las averías en la bicicleta son fruto del desgaste o mal mantenimiento de las piezas que la componen. La última que he tenido ha sido bastante curiosa y ha tenido lugar en plena ruta cuando sin previo aviso la cadena no giraba al darle hacia atrás a los pedales.</description>
     </item>
     
     <item>
@@ -478,8 +457,7 @@ Los pasos a realizar son los siguiente:
       <pubDate>Sat, 10 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>/el-l%C3%A1tex-y-las-maxxis-se-llevan-mal/</guid>
-      <description>Hace unos meses hice un artículo sobre las ventajas e inconvenientes de usar la mezcla casera a base de látex como líquido sellante en neumáticos tubeless de la bicicleta de montaña. Habitualmente compro las cubiertas en www.cubiertasmtb.com y para el caso de las maxxis el fabricante recomienda usar blackseal como líquido sellante.
-Pues bien, nunca sabes si esta recomendación está justificada para garantizar un correcto funcionamiento de la cubierta o simplemente por el beneficio económico del fabricante.</description>
+      <description>Hace unos meses hice un artículo sobre las ventajas e inconvenientes de usar la mezcla casera a base de látex como líquido sellante en neumáticos tubeless de la bicicleta de montaña. Habitualmente compro las cubiertas en www.cubiertasmtb.com y para el caso de las maxxis el fabricante recomienda usar blackseal como líquido sellante.</description>
     </item>
     
     <item>
@@ -497,7 +475,7 @@ Pues bien, nunca sabes si esta recomendación está justificada para garantizar 
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</guid>
-      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo. Pues bien, el problema pasa por la forma de convertir el vídeo tomado en una fotografía panorámica.</description>
+      <description>Hasta hace un tiempo, en mis salidas con la bicicleta a la caza de vértices geodésicos cargaba con una cámara fotográfica digital compacta. Para hacer una vista panorámica desde el vértice tomaba varias instantáneas que luego fundía con paciencia y photoshop. Ahora cargo con la pequeña Gopro y realizo un barrido panorámico en vídeo.</description>
     </item>
     
     <item>
@@ -506,8 +484,7 @@ Pues bien, nunca sabes si esta recomendación está justificada para garantizar 
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>/aplicaciones-para-rastrear-personas-coches-perros/</guid>
-      <description>En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo Alpify o My112 para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.
-En principio parecen muy útiles pero desde mi punto de vista tienen un gran problema y es que si vas solo y tras un accidente quedas inconsciente no va a haber nadie que saque el teléfono, abra la aplicación y pulse el botón gordo.</description>
+      <description>En los últimos meses estás floreciendo aplicaciones para teléfonos móviles del tipo Alpify o My112 para usar en caso de emergencia. Su funcionamiento es muy simple, si te pasa algo cuando estás solo y necesitas la ayuda de un equipo de emergencia lo único que tienes que hacer es sacar el teléfono, abrir la aplicación y pulsar un botón gordo.</description>
     </item>
     
     <item>
@@ -517,8 +494,7 @@ En principio parecen muy útiles pero desde mi punto de vista tienen un gran pro
       
       <guid>/mantenimiento-pedales-shimano-spd/</guid>
       <description>En todas mis bicicletas de montaña llevo pedales shimano, 520, 540 o Xt con más de cuatro años de antigüedad el par más nuevo de todos los que utilizo.
-Pues bien, de siempre se ha dicho que los pedales Shimano no necesitan casi mantenimiento y aquí voy a intentar exponer que es lo para mí significa ese &amp;ldquo;casi&amp;rdquo;.
-Mantenimiento habitual Esta es la parte fácil, rápida y sencilla pero no por ello menos importante ni necesaria.</description>
+Pues bien, de siempre se ha dicho que los pedales Shimano no necesitan casi mantenimiento y aquí voy a intentar exponer que es lo para mí significa ese &amp;ldquo;casi&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -528,8 +504,7 @@ Mantenimiento habitual Esta es la parte fácil, rápida y sencilla pero no por e
       
       <guid>/marcos-de-im%C3%A1genes-en-wordpress/</guid>
       <description>Escribiendo hoy un post he encontrado la solución a un problema que ya se me había planteado anteriormente y hasta ahora no había sido capaz de encontrar de una forma sencilla como esta. Se trata de los marcos alrededor de las imágenes en WordPress.
-Por defecto, si insertamos en la entrada una imagen desde la galería en una entrada de WordPress el código que se genera es el siguiente
-&amp;lt;img src=&amp;quot;sherblog/wp-content/uploads/Homer.</description>
+Por defecto, si insertamos en la entrada una imagen desde la galería en una entrada de WordPress el código que se genera es el siguiente</description>
     </item>
     
     <item>
@@ -538,8 +513,7 @@ Por defecto, si insertamos en la entrada una imagen desde la galería en una ent
       <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
       
       <guid>/migrando-wordpress-a-otro-servidor/</guid>
-      <description>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &amp;ldquo;www.sherver.site88.net&amp;rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &amp;ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&amp;rdquo;.
-Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.</description>
+      <description>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &amp;ldquo;www.sherver.site88.net&amp;rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &amp;ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -548,8 +522,7 @@ Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde v
       <pubDate>Thu, 30 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>/per%C3%ADmetro-cenad-del-boe-a-gpx/</guid>
-      <description>Todos los que circulen por la zona de Zaragoza con la bicicleta de montaña serán conocedores de que justo al norte de la capital aragonesa se encuentra situado el Centro de Adiestramiento &amp;ldquo;San Gregorio&amp;rdquo; CENAD también conocido como &amp;ldquo;Campo de maniobras&amp;rdquo; donde los militares hacen sus entrenamientos poniéndose más o menos pesados al invadir su intimidad.
-Pues bien, antes de planificar una ruta en btt por la zona he intentado buscar en la web el perímetro que delimita este campo de maniobras para invadirlo lo menos posible y cual ha sido mi sorpresa al ver que hay muy poca información al respecto y la que hay es poco concreta o anticuada como esta o incluso errónea como esta otra.</description>
+      <description>Todos los que circulen por la zona de Zaragoza con la bicicleta de montaña serán conocedores de que justo al norte de la capital aragonesa se encuentra situado el Centro de Adiestramiento &amp;ldquo;San Gregorio&amp;rdquo; CENAD también conocido como &amp;ldquo;Campo de maniobras&amp;rdquo; donde los militares hacen sus entrenamientos poniéndose más o menos pesados al invadir su intimidad.</description>
     </item>
     
     <item>
@@ -559,7 +532,7 @@ Pues bien, antes de planificar una ruta en btt por la zona he intentado buscar e
       
       <guid>/liquido-anti-pinchazos-casero.-pros-y-contras/</guid>
       <description>Después de varios años empleando líquido anti-pinchazos en las ruedas de la bicicleta estas son las conclusiones a las que he llegado.
-En ningún momento voy a poner en duda el funcionamiento de los líquidos comerciales ya que es complicado que aguante en el mercado algo que no sirve para lo que ha sido concebido. El problema está básicamente en el precio. Aproximadamente, para la rueda de una bicicleta de montaña habrá que gastarse unos 6€ en los 100 ml que se necesitan.</description>
+En ningún momento voy a poner en duda el funcionamiento de los líquidos comerciales ya que es complicado que aguante en el mercado algo que no sirve para lo que ha sido concebido.</description>
     </item>
     
     <item>
@@ -589,7 +562,7 @@ La cosa no pinta bien, puedo bajar piñones pero no es posible subirlos, de form
       
       <guid>/aver%C3%ADa-en-el-n%C3%BAcleo-shimano-fh-m475/</guid>
       <description>Esta es la segunda vez que tengo que volver a casa andando por una avería en la bicicleta (En la primera la rueda delantera se quedó como un ocho tras una caída y pegaba en las botellas de la horquilla).
-Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda. He tenido suerte puesto que, no me he caído y no he terminado con los dientes en el manillar.</description>
+Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&amp;#8221; y han dejado de mover la rueda.</description>
     </item>
     
     <item>
@@ -599,9 +572,7 @@ Subiendo una pronunciada pendiente los pedales se han quedado &amp;#8220;locos&a
       
       <guid>/wordpress-k.o.-fatal-error.-allowed-memory-size/</guid>
       <description>Hoy he intentado administrar el blog y me he encontrado con este pantallazo
-Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.
-En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir las siguientes líneas
-/** Ampliación de memoria*/ define(&#39;WP_MEMORY_LIMIT&#39;, &#39;96M&#39;);  Y a funcionar de nuevo!</description>
+Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.</description>
     </item>
     
     <item>
@@ -615,8 +586,7 @@ SherloDj In Session 2k12 Vol.2 by Sherlockes on House-Mixes.com
 
 01.- Mr Sidy - Tu Nao Me Enganas Mais (2012 Etho Exclusive Rmx)
 02.- Lolita Jolie - Non Non Non (Rob &amp;amp; Chris Remix)
-03.- F.B.S Vs White Label - WTF (Chris Ferres &amp;amp; Dj Pro Bootleg)
-04.- Rihanna - Where Have You Been (Andy Young Bootleg)</description>
+03.- F.</description>
     </item>
     
     <item>
@@ -625,9 +595,7 @@ SherloDj In Session 2k12 Vol.2 by Sherlockes on House-Mixes.com
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>/alinear-patilla-de-cambio-doblada/</guid>
-      <description>La patilla del cambio es una de las piezas más olvidadas de la bici pero con una función importantísima. Del conjunto cuadro, cambio y patilla, esta última es el elemento más débil (y barato) de forma que ante una caída o piedra en el camino que golpee el cambio se partirá, evitando con ello que se produzcan daños más serios en el cuadro.
-![2]
-Es una avería relativamente común partir la patilla del cambio.</description>
+      <description>La patilla del cambio es una de las piezas más olvidadas de la bici pero con una función importantísima. Del conjunto cuadro, cambio y patilla, esta última es el elemento más débil (y barato) de forma que ante una caída o piedra en el camino que golpee el cambio se partirá, evitando con ello que se produzcan daños más serios en el cuadro.</description>
     </item>
     
     <item>
@@ -637,7 +605,7 @@ Es una avería relativamente común partir la patilla del cambio.</description>
       
       <guid>/pinchazos-en-tubeless/</guid>
       <description>Como una imagen vale más que mil palabras y para una imagen, mejor un vídeo, aquí una muestra de con una rueda con más de diez pinchazos se puede circular tan ricamente. Refresca la página si no puedes ver el vídeo.
-  Cada mancha negra es un pinchazo por el que va supurando el &amp;ldquo;moco&amp;rdquo; que lleva para sellar los agujeros. A pesar de llevar más de diez pinchazos y no haber rellenado líquido en más de cuatro meses, la rueda va como una seda y sólo requiere inflarla una vez al mes.</description>
+  Cada mancha negra es un pinchazo por el que va supurando el &amp;ldquo;moco&amp;rdquo; que lleva para sellar los agujeros.</description>
     </item>
     
     <item>
@@ -647,7 +615,7 @@ Es una avería relativamente común partir la patilla del cambio.</description>
       
       <guid>/backup-de-wordpress-en-google-drive/</guid>
       <description>Estamos de nuevo aquí para buscar la solución a un problema que tarde o temprano todo webmaster debe afrontar como es crear una copia de seguridad para nuestra web en WordPress. Como siempre, intentaré buscar algo sencillo, práctico y sobre todo gratuito.
-Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;. No he probado otros, pero por el precio y características Google Drive es una buena alternativa.</description>
+Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en la nube&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -661,9 +629,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en
 Casi dos horitas con algunos de los mejores temas dance de 2012.
 01.- Freemasons Ft. Siedah Garnett - Rain Down Love (QiDD Rmx)
 02.- Mike-D - Lie To Me (Discovery DJ Club Mix)
-03.- Sak Noel - Paso The Nini Anthem (Tamir Assayag Sax Bootleg)
-04.- Zaira Ft EL 3Mendo - Fly Andry (J Mix)
-05.- Dony Ft. Elena - Hot Girls (Lain Christoph Rmx)</description>
+03.- Sak Noel - Paso The Nini Anthem (Tamir Assayag Sax Bootleg)</description>
     </item>
     
     <item>
@@ -672,8 +638,7 @@ Casi dos horitas con algunos de los mejores temas dance de 2012.
       <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
       
       <guid>/insertar-un-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub-otra-forma/</guid>
-      <description>Hace casi un año expuse aquí una forma de incluir un título delante de un vídeo con VirtualDub de una forma rápida y sencilla. El caso es que si el vídeo en cuestión lleva sonido el asunto no es tan fácil haciéndolo de esta manera ya que al programa no le gusta unir vídeos con diferencias en la pista de audio.
-En el siguiente videotutorial muestro otra forma de incluir este título de una forma más fácil todavía (Aunque menos intuitiva) haciendo uso del filtro &amp;ldquo;logo&amp;rdquo; y de las curvas de opacidad del mismo.</description>
+      <description>Hace casi un año expuse aquí una forma de incluir un título delante de un vídeo con VirtualDub de una forma rápida y sencilla. El caso es que si el vídeo en cuestión lleva sonido el asunto no es tan fácil haciéndolo de esta manera ya que al programa no le gusta unir vídeos con diferencias en la pista de audio.</description>
     </item>
     
     <item>
@@ -697,8 +662,7 @@ SherloDj - In Session 2k11 by Sherlockes on House-Mixes.com
 TrackList:
 01.- Example - Kickstarts (Afrojack Remix)
 02.- Edith - Living Without You (DJ Kuba and Neitan Rmx)
-03.- Carlos Jean ft Electric Nana - Lead the Way (El hormiguero RMX)
-04.- Bon Jovi - It&amp;rsquo;s my life (Albert Neve RMX)</description>
+03.- Carlos Jean ft Electric Nana - Lead the Way (El hormiguero RMX)</description>
     </item>
     
     <item>
@@ -707,8 +671,7 @@ TrackList:
       <pubDate>Sun, 09 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>/abrir-archivos-raw-con-gimp-portable/</guid>
-      <description>Cada vez son más las cámaras fotográficas capaces de guardar las instantáneas en formato Raw. No voy a analizar todas las ventajas e inconvenientes de guardar la información de esta manera aunque hay que tener claro que la principal razón para usarla es que no existe pérdida de datos por el procesado interno de la cámara.
-Gimp no es capaz de forma nativa de manejar este formato por lo que será necesaria la ayuda de Ufraw, también gratuito y de libre distribución como Gimp, para abrir este tipo de archivos.</description>
+      <description>Cada vez son más las cámaras fotográficas capaces de guardar las instantáneas en formato Raw. No voy a analizar todas las ventajas e inconvenientes de guardar la información de esta manera aunque hay que tener claro que la principal razón para usarla es que no existe pérdida de datos por el procesado interno de la cámara.</description>
     </item>
     
     <item>
@@ -717,8 +680,7 @@ Gimp no es capaz de forma nativa de manejar este formato por lo que será necesa
       <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>/cambiar-el-casquillo-interior-de-un-fox-rp2/</guid>
-      <description>En un artículo anterior ya expliqué como sustituir los casquillos exteriores de este amortiguador, el caso es que apenas un mes después ha vuelto a aparecer la tediosa holgura y tras estudiar más detenidamente el problema he visto que el recubrimiento del casquillo interior del ojo del amortiguador está desgastado de forma que no ajusta bien con los casquillos exteriores.
-Tras buscar un poco en la web, encuentro una tienda española que vende estos casquillos a un precio razonable de 4 €.</description>
+      <description>En un artículo anterior ya expliqué como sustituir los casquillos exteriores de este amortiguador, el caso es que apenas un mes después ha vuelto a aparecer la tediosa holgura y tras estudiar más detenidamente el problema he visto que el recubrimiento del casquillo interior del ojo del amortiguador está desgastado de forma que no ajusta bien con los casquillos exteriores.</description>
     </item>
     
     <item>
@@ -727,8 +689,7 @@ Tras buscar un poco en la web, encuentro una tienda española que vende estos ca
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>/cuando-una-rueda-pierde-aire-y-no-est%C3%A1-pinchada/</guid>
-      <description>Si ocurre que al coger la bicicleta al día siguiente de arreglar un pinchazo notas que la rueda está deshinchada puede ser un contratiempo, pero si la rueda se te queda sin aire en el monte a más de una hora de camino de ninguna parte el asunto es una putada.
-El problema se agrava si desmontas la cámara, buscas el pinchazo y te das cuenta que la rueda no está pinchada.</description>
+      <description>Si ocurre que al coger la bicicleta al día siguiente de arreglar un pinchazo notas que la rueda está deshinchada puede ser un contratiempo, pero si la rueda se te queda sin aire en el monte a más de una hora de camino de ninguna parte el asunto es una putada.</description>
     </item>
     
     <item>
@@ -737,8 +698,7 @@ El problema se agrava si desmontas la cámara, buscas el pinchazo y te das cuent
       <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
       
       <guid>/tirando-hdr-con-compacta-en-autom%C3%A1tico/</guid>
-      <description>A estas alturas de partido no vamos a entrar en lo que es un HDR, ya que para esto está la Wikipedia. Este post resulta como consecuencia de una experiencia hace unos días en el monte al intentar hacer una foto en la que no era posible que no aparecieran zonas quemadas o subexpuestas.
-Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempos de exposición, valores de ISO o control de la cámara en manual.</description>
+      <description>A estas alturas de partido no vamos a entrar en lo que es un HDR, ya que para esto está la Wikipedia. Este post resulta como consecuencia de una experiencia hace unos días en el monte al intentar hacer una foto en la que no era posible que no aparecieran zonas quemadas o subexpuestas.</description>
     </item>
     
     <item>
@@ -748,8 +708,7 @@ Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempo
       
       <guid>/error-en-wordpress-elegir-la-base-de-datos/</guid>
       <description>Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.</description>
     </item>
     
     <item>
@@ -758,8 +717,7 @@ Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempo
       <pubDate>Thu, 24 Mar 2011 00:00:00 +0000</pubDate>
       
       <guid>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</guid>
-      <description>Seguro que hay cientos de alternativas que nos permiten anteponer un título de cierta duración a una secuencia de vídeo. No se si esta será la mejor forma de hacerlo, aunque está claro que es una forma rápida, sencilla, libre y gratuita, lo cual la hace digna de ser considerada como una muy buena solución.
-Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;rdquo;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
+      <description>Seguro que hay cientos de alternativas que nos permiten anteponer un título de cierta duración a una secuencia de vídeo. No se si esta será la mejor forma de hacerlo, aunque está claro que es una forma rápida, sencilla, libre y gratuita, lo cual la hace digna de ser considerada como una muy buena solución.</description>
     </item>
     
     <item>
@@ -769,7 +727,7 @@ Una vez utilizaremos VirtualDub como principal programa en la edición y de form
       
       <guid>/creando-un-v%C3%ADdeo-panor%C3%A1mico-a-partir-de-una-fotograf%C3%ADa/</guid>
       <description>Una vez más, una solución sencilla a un problema sencillo. Esta vez estamos buscando la creación de un vídeo que realice un barrido a una fotografía panorámica creada anteriormente.
-Buscando un poco en la red he encontrado un software gratuito que es capaz de hacer esto de una forma rápida y sencilla. Se trata de WPanorama que combinado con VirtualDub para la compresión del resultado hacen la solución perfecta a este problema.</description>
+Buscando un poco en la red he encontrado un software gratuito que es capaz de hacer esto de una forma rápida y sencilla.</description>
     </item>
     
     <item>
@@ -779,7 +737,7 @@ Buscando un poco en la red he encontrado un software gratuito que es capaz de ha
       
       <guid>/la-ruta-perfecta-por-los-meandros-del-ebro/</guid>
       <description>Después de algunos miles de kilómetros dando vueltas por la zona, creo que estoy en condiciones de dibujar lo que para mi es la ruta perfecta para bicicleta de montaña por la extraordinaria zona de los meandros del Ebro.
-Son apenas 45 kilómetros que a priori pueden parecer cortos pero que cuesta hacer en menos de tres horas. La ruta tiene de todo, subidas de hasta un 30% de desnivel, senderos, bajadas técnicas y por desgracia un par de kilómetros de carretera.</description>
+Son apenas 45 kilómetros que a priori pueden parecer cortos pero que cuesta hacer en menos de tres horas.</description>
     </item>
     
     <item>
@@ -789,7 +747,7 @@ Son apenas 45 kilómetros que a priori pueden parecer cortos pero que cuesta hac
       
       <guid>/2010-a-pedales-y-sobre-ruedas/</guid>
       <description>Aquí un pequeño resumen de lo que ha sido el 2010 sobre la bicicleta.
-   Número de actividades 240     Distancia total 10012 Km   Tiempo total 498 horas   Ganancia de altura 104027 m   Velocidad media 20.5 km/h   Distancia máxima 87.4 km   Tiempo máximo 3:54 horas   Ganancia altura máxima 1304 m    </description>
+   Número de actividades 240     Distancia total 10012 Km   Tiempo total 498 horas   Ganancia de altura 104027 m   Velocidad media 20.5 km/h   Distancia máxima 87.</description>
     </item>
     
     <item>
@@ -798,7 +756,7 @@ Son apenas 45 kilómetros que a priori pueden parecer cortos pero que cuesta hac
       <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
       
       <guid>/editando-tracks-con-gpx-editor/</guid>
-      <description>Los archivos GPX son simples archivos de texto con formato XML de forma que para modificar una ruta lo único que hace falta es un editor de texto y algo de tiempo. Es un método simple pero tedioso que funciona y con el que podemos eliminar puntos de la ruta o incluso combinar varias. El problema de este método es que puede acabar con la paciencia de cualquiera, ya que hay que editar el archivo con un programa y luego abrirlo con otro para ver los resultados de la edición con el inevitable sistema de prueba y error.</description>
+      <description>Los archivos GPX son simples archivos de texto con formato XML de forma que para modificar una ruta lo único que hace falta es un editor de texto y algo de tiempo. Es un método simple pero tedioso que funciona y con el que podemos eliminar puntos de la ruta o incluso combinar varias.</description>
     </item>
     
     <item>
@@ -807,8 +765,7 @@ Son apenas 45 kilómetros que a priori pueden parecer cortos pero que cuesta hac
       <pubDate>Mon, 21 Jun 2010 00:00:00 +0000</pubDate>
       
       <guid>/mi-primer-fracaso-con-piezas-light/</guid>
-      <description>Está claro que contra menos pese la bicicleta más rápido iremos con ella pero hay que tener en cuenta dos límites muy importantes, el precio y la resistencia. Cuando encuentras un componente a un coste razonable es muy fácil caer en la tentación de saltarse la segunda frontera. Esto me ocurrió con este cierre para la tija del sillín.
-El cuerpo de aluminio con tornillo en titanio, su diseño espectacular y minimalista, sus menos de 10 gramos y los apenas 11 Euros que costaba lo convirtieron en una irresistible tentación.</description>
+      <description>Está claro que contra menos pese la bicicleta más rápido iremos con ella pero hay que tener en cuenta dos límites muy importantes, el precio y la resistencia. Cuando encuentras un componente a un coste razonable es muy fácil caer en la tentación de saltarse la segunda frontera. Esto me ocurrió con este cierre para la tija del sillín.</description>
     </item>
     
     <item>
@@ -818,8 +775,7 @@ El cuerpo de aluminio con tornillo en titanio, su diseño espectacular y minimal
       
       <guid>/mantenimiento-mavic-crossride-delantera/</guid>
       <description>Los dichosos ruidos han vuelto a hacer su aparición, esta vez en forma de &amp;ldquo;clack, clack&amp;hellip;&amp;rdquo; al pedalear depie. Parece que viene de la rueda delantera y más concretamente de la zona del buje ya que los radios están en perfecto estado.
-Manos a la obra, en el siguiente vídeo dejo los pasos a seguir para desmontar y engrasar el buje de la Mavic Crossride delantera.
-  </description>
+Manos a la obra, en el siguiente vídeo dejo los pasos a seguir para desmontar y engrasar el buje de la Mavic Crossride delantera.</description>
     </item>
     
     <item>
@@ -829,8 +785,7 @@ Manos a la obra, en el siguiente vídeo dejo los pasos a seguir para desmontar y
       
       <guid>/time-lapse-/-stop-motion-con-virtualdub/</guid>
       <description>Resumiendo bastante, podemos definir Time-Lapse y Stop-Motion como dos técnicas fotográficas que permiten crear un vídeo a partir de una secuencia de imágenes.
-En el mercado hay muchos programas capaces de hacer esta labor e incluso hay algumos específicos que es lo único que saben hacer. Pero una vez más vamos a utilizar VirtualDub como ya hemos hecho en otras ocasiones y para muy diferentes propositos.
-  Si tienes problemas de visión te aconsejo que maximices el vídeo y lo pauses en cada paso hasta haber entendido todo el contenido del mismo.</description>
+En el mercado hay muchos programas capaces de hacer esta labor e incluso hay algumos específicos que es lo único que saben hacer. Pero una vez más vamos a utilizar VirtualDub como ya hemos hecho en otras ocasiones y para muy diferentes propositos.</description>
     </item>
     
     <item>
@@ -849,8 +804,7 @@ En el mercado hay muchos programas capaces de hacer esta labor e incluso hay alg
       <pubDate>Sat, 21 Nov 2009 00:00:00 +0000</pubDate>
       
       <guid>/como-montar-tu-btt-trucos-y-experiencias/</guid>
-      <description>Una de las mayores satisfacciones que te puede llegar a dar el mundo de la bicicleta es llegar a montar desde cero tu propia montura. Aunque no es una empresa muy complicada, si es importante conocer unos cuantos &amp;ldquo;trucos&amp;rdquo; que te harán la labor mucho más fácil y que voy a intentar exponer a continuación según mi propia experiencia. camion
-Para comenzar es importante trabajar con el cuadro colgado en algun soporte ya que así nos resultará mucho más fácil cualquier operación.</description>
+      <description>Una de las mayores satisfacciones que te puede llegar a dar el mundo de la bicicleta es llegar a montar desde cero tu propia montura. Aunque no es una empresa muy complicada, si es importante conocer unos cuantos &amp;ldquo;trucos&amp;rdquo; que te harán la labor mucho más fácil y que voy a intentar exponer a continuación según mi propia experiencia.</description>
     </item>
     
     <item>
@@ -869,7 +823,7 @@ Para comenzar es importante trabajar con el cuadro colgado en algun soporte ya q
       
       <guid>/hdr-con-photomatix-y-photoshop/</guid>
       <description>A estas alturas de partido, es muy probable que sepas Lo que significa HDR en fotografía pero si no es así, la wikipedia está siempre lista para ayudarte.
-Existen muchos métodos para realizar este tipo de tomas pero ahora me voy a centrar en el que mejores resultados me ha dado hasta ahora, una combinación de Photomatix y Photoshop. Ninguno de los dos programas son gratuítos pero podemos descargar una versión de evaluación y si los resultados no parecen satisfactorios comprarlos o encargarlos a la burra.</description>
+Existen muchos métodos para realizar este tipo de tomas pero ahora me voy a centrar en el que mejores resultados me ha dado hasta ahora, una combinación de Photomatix y Photoshop.</description>
     </item>
     
     <item>
@@ -888,8 +842,7 @@ Existen muchos métodos para realizar este tipo de tomas pero ahora me voy a cen
       <pubDate>Wed, 18 Feb 2009 00:00:00 +0000</pubDate>
       
       <guid>/problema-con-wp-db-backup/</guid>
-      <description>A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &amp;ldquo;No estás autorizado para acceder a esta página&amp;rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.
-Para el que no lo sepa, la única misión de este complemento es realizar una copia de seguridad de la base de datos que gestiona wordpress bajo demanda del usuario o programada con una cierta frecuencia.</description>
+      <description>A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &amp;ldquo;No estás autorizado para acceder a esta página&amp;rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.</description>
     </item>
     
     <item>
@@ -908,8 +861,7 @@ El primer problema con el que me encuentro es la sincronización de los contacto
       <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
       
       <guid>/tilt-shift-con-photoshop/</guid>
-      <description>Para los que escuchen la expresión por primera vez, Tilt-Shift se podría definir en fotografía como el arte de simular una maqueta a partir de la realidad. Para hacerlo directamente con una cámara hay que emplear unos objetivos y lentes que se nos escapan al bolsillo de la mayoría de los mortales por lo que vamos a intentar la modalidad barata que es mediante Photoshop.
-Lo primero que necesitamos es una fotografía cuyo principal requerimiento es que esté tomada desde un punto elevado y distante.</description>
+      <description>Para los que escuchen la expresión por primera vez, Tilt-Shift se podría definir en fotografía como el arte de simular una maqueta a partir de la realidad. Para hacerlo directamente con una cámara hay que emplear unos objetivos y lentes que se nos escapan al bolsillo de la mayoría de los mortales por lo que vamos a intentar la modalidad barata que es mediante Photoshop.</description>
     </item>
     
     <item>
@@ -919,7 +871,7 @@ Lo primero que necesitamos es una fotografía cuyo principal requerimiento es qu
       
       <guid>/los-servidores-de-emule-ca%C3%ADdos/</guid>
       <description>Son malos tiempos para el tema de los servidores de Emule. Es fácil que un buen día te encuentres con que no puedes conectar a ninguno de tu eterna lista de servidores ED2K pero tranquil@, lo principal es mantener la calma.
-Como primera medida (Si no la habías tomado anteriormente) es activar la Red Kademlia. El asunto es tan simple como ir al menú Preferencias-Conexión y en el apartado &amp;ldquo;Red&amp;rdquo; activar la casilla correspondiente a la red Kad.</description>
+Como primera medida (Si no la habías tomado anteriormente) es activar la Red Kademlia.</description>
     </item>
     
     <item>
@@ -937,7 +889,7 @@ Como primera medida (Si no la habías tomado anteriormente) es activar la Red Ka
       <pubDate>Fri, 03 Oct 2008 00:00:00 +0000</pubDate>
       
       <guid>/error-al-actualizar-nokia-pc-suite/</guid>
-      <description>Todo funciona correctamente, puedes instalar programas en el teléfono, copiar archivos y hacer copias de seguridad de agenda y mensajes mediante &amp;ldquo;Nokia Pc suite&amp;rdquo; pero un buen día aparece un cartelillo junto al icono de este programa ofreciéndote una actualización del mismo. Seguro que no sabes que más te puede ofrecer pero te tiras a la piscina y le das a actualizar. Tremenda cagada, ya que de aquí en adelante lo único que vas a conseguir al conectar el teléfono via usb es un precioso mensaje de error que dice &amp;ldquo;Cannot install USB Phone parent&amp;rdquo;.</description>
+      <description>Todo funciona correctamente, puedes instalar programas en el teléfono, copiar archivos y hacer copias de seguridad de agenda y mensajes mediante &amp;ldquo;Nokia Pc suite&amp;rdquo; pero un buen día aparece un cartelillo junto al icono de este programa ofreciéndote una actualización del mismo. Seguro que no sabes que más te puede ofrecer pero te tiras a la piscina y le das a actualizar.</description>
     </item>
     
     <item>
@@ -947,7 +899,7 @@ Como primera medida (Si no la habías tomado anteriormente) es activar la Red Ka
       
       <guid>/que-hacer-sin-un-m%C3%B3vil-de-%C3%BAltima-generaci%C3%B3n/</guid>
       <description>Aquí dejo una muestra de lo que se puede llegar a conseguir con un móvil de penúltima generación. De forma completamente gratuita y legal.
-Como se puede ver en la imagen, se trata de una aplicación GPS pero son muy pocos dispositivos móviles los que llevan integrada una antena GPS por lo que para hacerla funcionar haré uso de una antena autónoma con conexión Bluetooth como esta. Además, dependiendo del tamaño del mapa que utilicemos será necesaria una tarjeta de memoria con capacidad acorde al mismo.</description>
+Como se puede ver en la imagen, se trata de una aplicación GPS pero son muy pocos dispositivos móviles los que llevan integrada una antena GPS por lo que para hacerla funcionar haré uso de una antena autónoma con conexión Bluetooth como esta.</description>
     </item>
     
     <item>
@@ -975,8 +927,7 @@ Lo menos que se merece es una pequeña limpieza por dentro, tanto de polvo como 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/acondicionando-una-horquilla-nueva/</guid>
-      <description>Desmontar y montar la horquilla en una BTT es una operación conocida para todo aquel que se haya leído mi artículo anterior sobre el montaje completo de una bicicleta de montaña. Sin embargo, esta operación se complica cuando compramos una horquilla que no está acondicionada para poder ser colocada directamente en la bicicleta.
-Estas operaciones son cortar el tubo de dirección a nuestra medida necesaria, empotrar la araña y colocar la pista de dirección.</description>
+      <description>Desmontar y montar la horquilla en una BTT es una operación conocida para todo aquel que se haya leído mi artículo anterior sobre el montaje completo de una bicicleta de montaña. Sin embargo, esta operación se complica cuando compramos una horquilla que no está acondicionada para poder ser colocada directamente en la bicicleta.</description>
     </item>
     
     <item>
@@ -985,8 +936,7 @@ Estas operaciones son cortar el tubo de dirección a nuestra medida necesaria, e
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/cambiando-los-casquillos-del-fox-rp2/</guid>
-      <description>Un buen día, al levantar la bicicleta cogiéndola por el sillín noto una holgura de unos cuantos milímetros en la parte trasera de la bici que no tengo muy claro de donde viene. Tras descartar problemas con el buje o el eje trasero comienzo a revisar las articulaciones del basculante.
-Sólo hicieron falta unos minutos para darme cuenta de que el causante del problema era una holgura que había aparecido entre los casquillo y el alojamiento de los mismos en la unión entre el amortiguador Fox RP2 y la bieleta del basculante de la Giant Trance X3.</description>
+      <description>Un buen día, al levantar la bicicleta cogiéndola por el sillín noto una holgura de unos cuantos milímetros en la parte trasera de la bici que no tengo muy claro de donde viene. Tras descartar problemas con el buje o el eje trasero comienzo a revisar las articulaciones del basculante.</description>
     </item>
     
     <item>

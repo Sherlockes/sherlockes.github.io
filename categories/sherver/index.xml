@@ -16,7 +16,7 @@
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/primeros-pasos-con-zerotier/</guid>
-      <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión. Después de varias pruebas y de mucho tiempo funcionando de un día para otro y sin tocar ninguna configurando el sistema ha dejado de funcionar.</description>
+      <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión.</description>
     </item>
     
     <item>
@@ -25,8 +25,7 @@
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/copiar-ssh-key-desde-synology/</guid>
-      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
-ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
+      <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.</description>
     </item>
     
     <item>
@@ -35,8 +34,7 @@ ssh-keygen  Esta llave se guardará dentro de la carpeta del usuario en el direc
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.
-No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de Twitter para generar las tarjetas (Cards) tal y como se comenta en su sección de desarrolladores donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</description>
+      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.</description>
     </item>
     
     <item>
@@ -45,8 +43,7 @@ No tardo mucho en encontrar información para darme cuenta de que todo pasa por 
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</guid>
-      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.
-Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</description>
+      <description>Hace unos días que publiqué el modo en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el plugin para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.</description>
     </item>
     
     <item>
@@ -55,8 +52,7 @@ Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pru
       <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/copia-de-seguridad-de-la-base-de-datos-de-wordpress/</guid>
-      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.
-El plugin de WordPress WP-DB-Backup es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos.</description>
+      <description>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.</description>
     </item>
     
     <item>
@@ -75,8 +71,7 @@ Pues nada, toca &amp;ldquo;Googlear&amp;rdquo; un rato y pronto me doy cuenta de
       <pubDate>Tue, 28 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/instalaci%C3%B3n-manual-de-wordpress-en-synology/</guid>
-      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.
-Antes de comenzar con la instalación de WordPress hay que instalar &amp;ldquo;Web Station&amp;rdquo; como servidor de archivos, &amp;ldquo;Maria Db&amp;rdquo; para el alojamiento de las bases de datos y &amp;ldquo;PhpMyAdmin&amp;rdquo; para gestionar las bases de datos.</description>
+      <description>Desde el centro de paquetes de DSM en posible acceder a la instalación de WordPress de una forma sencilla tal y como puedes es en este tutorial, pero si lo que tu quieres es realizar una instalación manual con la que consigas un mayor control aquí te dejo los pasos a seguir.</description>
     </item>
     
     <item>
@@ -95,7 +90,7 @@ Después de valorar varias alternativas, la que me ha parecido más apropiada es
       <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/se-cierra-el-c%C3%ADrculo-vuelve-el-servidor-casero./</guid>
-      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo. Pero aquel pc reconvertido en servidor aunque cumplía sin problemas su cometido no estaba preparado para hacerlo 24 horas al día y 365 días al año.</description>
+      <description>Han pasado diez años desde que intenté por primera vez montar un servidor web casero, entonces lo hice sobre un viejo Pentium II a 233mhz que ya no utilizaba y en el que puse a correr Debian y LAMP no sin invertir muchas horas de trabajo. En un par de meses conseguí que funcionara todo y esta página estuvo alojada en el durante un tiempo.</description>
     </item>
     
     <item>
