@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/raspberry-montaje-y-ssh/</loc>
+    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/flujo-de-im%C3%A1genes-en-linux/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
   </url>
@@ -593,11 +598,6 @@
     <loc>/categories/raspberry/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/raspberry-montaje-y-ssh/</loc>
-    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>

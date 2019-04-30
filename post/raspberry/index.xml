@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Raspberry Montaje y ssh</title>
+      <link>/raspberry-montaje-y-ssh/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-montaje-y-ssh/</guid>
+      <description>&lt;h3 id=&#34;montaje-y-acceso-ssh&#34;&gt;Montaje y acceso ssh&lt;/h3&gt;
+
+&lt;p&gt;Ya tengo todo lo que creo que necesito.  Una &lt;a href=&#34;https://www.amazon.es/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;Raspberry&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B013UDL58E/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;tarjeta micro sd&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B01DDFFOYK/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;fuente de alimentación&lt;/a&gt; y un [cable de red].  Total 59€ de inversión inicial que supongo no se quedarán ahí.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Script de configuración para Raspberry</title>
       <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
@@ -147,17 +158,6 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       
       <guid>/raspberry-descargando-wordpress/</guid>
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.</description>
-    </item>
-    
-    <item>
-      <title>Raspberry Montaje y ssh</title>
-      <link>/raspberry-montaje-y-ssh/</link>
-      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/raspberry-montaje-y-ssh/</guid>
-      <description>&lt;h3 id=&#34;montaje-y-acceso-ssh&#34;&gt;Montaje y acceso ssh&lt;/h3&gt;
-
-&lt;p&gt;Ya tengo todo lo que creo que necesito.  Una &lt;a href=&#34;https://www.amazon.es/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;Raspberry&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B013UDL58E/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;tarjeta micro sd&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B01DDFFOYK/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;fuente de alimentación&lt;/a&gt; y un [cable de red].  Total 59€ de inversión inicial que supongo no se quedarán ahí.&lt;/p&gt;</description>
     </item>
     
   </channel>
