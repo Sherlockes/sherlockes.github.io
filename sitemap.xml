@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/.hugo-is-deprecated/</loc>
+    <loc>/hugo-is-deprecated/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -594,6 +594,12 @@
   </url>
   
   <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -605,19 +611,7 @@
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/desarrollo/</loc>
-    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/raspberry/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -629,6 +623,12 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/raspberry/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

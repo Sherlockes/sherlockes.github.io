@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Sherblog</title>
+    <title>Hugo on Sherblog</title>
     <link>/categories/hugo/</link>
-    <description>Contenido reciente de la categoria... in hugo on Sherblog</description>
+    <description>Contenido reciente de la categoria... in Hugo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -11,11 +11,11 @@
     
     
     <item>
-      <title>.Hugo is deprecated</title>
-      <link>/.hugo-is-deprecated/</link>
+      <title>Hugo is deprecated</title>
+      <link>/hugo-is-deprecated/</link>
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/.hugo-is-deprecated/</guid>
+      <guid>/hugo-is-deprecated/</guid>
       <description>&lt;p&gt;Cuando no eres un programador avanzado cualquier advertencia o fallo en el momento de la compilación en la fase de producción puede ser un fuerte dolor de cabeza, la función &amp;ldquo;.Hugo&amp;rdquo; parece que va a caer en desuso, a ver como puedo apañarlo&amp;hellip;&lt;/p&gt;</description>
     </item>
     
