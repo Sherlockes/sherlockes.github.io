@@ -80,7 +80,8 @@ sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo sys
       
       <guid>/raspberry-servidor-vpn/</guid>
       <description>Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
- Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt update sudo apt upgrade curl -L https://install.</description>
+ Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas
+sudo apt update sudo apt upgrade curl -L https://install.</description>
     </item>
     
     <item>
