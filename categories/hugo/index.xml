@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Sherblog</title>
+    <title>Hugo on Sherblog</title>
     <link>/categories/hugo/</link>
-    <description>Contenido reciente de la categoria... in hugo on Sherblog</description>
+    <description>Contenido reciente de la categoria... in Hugo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>

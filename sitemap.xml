@@ -594,6 +594,12 @@
   </url>
   
   <url>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -602,12 +608,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -724,13 +724,13 @@
   </url>
   
   <url>
-    <loc>/categories/a-pedales/</loc>
+    <loc>/tags/mantenimiento/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mantenimiento/</loc>
+    <loc>/categories/a-pedales/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
