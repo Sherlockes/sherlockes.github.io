@@ -2,23 +2,20 @@
 <opml version="1.0">
   <head>
     <title>PodcastAddict registration feeds</title>
-    <dateCreated>7 abr. 2019 6:36:07 p. m.</dateCreated>
-    <dateModified>7 abr. 2019 6:36:07 p. m.</dateModified>
+    <dateCreated>12 jun. 2019 9:16:18</dateCreated>
+    <dateModified>12 jun. 2019 9:16:18</dateModified>
   </head>
   <body>
-    <outline text="A Cup of Tea" type="rss" xmlUrl="https://anchor.fm/s/de1584/podcast/rss" htmlUrl="https://anchor.fm/acupoftea" />
-    <outline text="A Ratos Podcast" type="rss" xmlUrl="http://www.ivoox.com/a-ratos-podcast_fg_f1463037_filtro_1.xml" htmlUrl="https://www.ivoox.com/podcast-a-ratos-podcast_sq_f1463037_1.html" />
+    <outline text="A Ratos Podcast" type="rss" xmlUrl="http://www.ivoox.com/a-ratos-podcast_fg_f1463037_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-a-ratos-podcast_sq_f1463037_1.html" />
     <outline text="A veces hablo podcast" type="rss" xmlUrl="http://feeds.feedburner.com/AvecesHabloPodcast" htmlUrl="http://aveceshablo.me" />
     <outline text="Ahora que tengo un rato" type="rss" xmlUrl="http://www.spreaker.com/user/5490713/episodes/feed" htmlUrl="http://www.spreaker.com/user/chinom" />
     <outline text="AppsMac en 8 minutos" type="rss" xmlUrl="http://www.feedpress.me/a8m" htmlUrl="https://avpodcast.net/appsmac8/" />
     <outline text="AppsMac Podcast" type="rss" xmlUrl="http://feedpress.me/aep" htmlUrl="http://avpodcast.net/aep" />
     <outline text="Atareao versión podcast" type="rss" xmlUrl="https://www.atareao.es/mp3-feed" htmlUrl="https://www.atareao.es" />
     <outline text="ATPATG de SantyOky" type="rss" xmlUrl="http://feeds.feedburner.com/AquiTePilloAquiTeGrabo" htmlUrl="http://www.ivoox.com/podcast-atpatg-santyoky_sq_f1489930_1.html" />
-    <outline text="Autodefensa Informática" type="rss" xmlUrl="https://autodefensainformatica.radioalmaina.org/feed/" htmlUrl="https://autodefensainformatica.radioalmaina.org" />
     <outline text="Aventuras sobre dos ruedas - Bicis y motos offroad" type="rss" xmlUrl="https://www.ivoox.com/podcast-chela-clo_fg_f1660557_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-aventuras-sobre-dos-ruedas-bicis-motos_sq_f1660557_1.html" />
     <outline text="Bala Extra" type="rss" xmlUrl="https://feedpress.me/balaextra" htmlUrl="https://avpodcast.net/balaextra/" />
     <outline text="Bateria2x100" type="rss" xmlUrl="https://www.bateria2x100.com/?feed=podcast" htmlUrl="https://www.bateria2x100.com" />
-    <outline text="Biálogos Podcast" type="rss" xmlUrl="http://feedpress.me/bialogos" htmlUrl="http://bialogos.es" />
     <outline text="Binarios" type="rss" xmlUrl="https://cuonda.com/binarios/feed" htmlUrl="https://cuonda.com/binarios" />
     <outline text="Bitácora de Ciberseguridad" type="rss" xmlUrl="http://feedpress.me/ciberseguridad" htmlUrl="http://avpodcast.net/ciberseguridad/" />
     <outline text="Chiringuito digital" type="rss" xmlUrl="http://www.ivoox.com/chiringuito-digital_fg_f197142_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-chiringuito-digital_sq_f197142_1.html" />
@@ -28,7 +25,7 @@
     <outline text="Como y Entreno" type="rss" xmlUrl="http://www.spreaker.com/show/870452/episodes/feed" htmlUrl="http://www.spreaker.com/show/como-y-entreno_1" />
     <outline text="Compilando Podcast" type="rss" xmlUrl="https://compilando.audio/index.php/feed/podcast/" htmlUrl="https://compilando.audio" />
     <outline text="Cosas de modernOS" type="rss" xmlUrl="http://feedpress.me/cosasdmodernos" htmlUrl="https://avpodcast.net/cosasdmodernos/" />
-    <outline text="Cuentos para irse a Dormir" type="rss" xmlUrl="http://www.ivoox.com/cuentos-para-irse-a-dormir_fg_f1256340_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-cuentos-para-irse-a-dormir_sq_f1256340_1.html" />
+    <outline text="Cultura Digital" type="rss" xmlUrl="https://feedpress.me/CulturaDigital" htmlUrl="https://Ricky.es" />
     <outline text="Cultura NAS by másQteclas" type="rss" xmlUrl="https://www.masqueteclas.com/culturanas/feed/" htmlUrl="https://www.masqueteclas.com/culturanas/" />
     <outline text="Daily" type="rss" xmlUrl="http://www.spreaker.com/show/153429/episodes/feed" htmlUrl="http://emilcar.fm/daily" />
     <outline text="David Aragon" type="rss" xmlUrl="https://anchor.fm/s/7003190/podcast/rss" htmlUrl="https://anchor.fm/davidaragon" />
@@ -36,7 +33,6 @@
     <outline text="DekNet" type="rss" xmlUrl="http://www.spreaker.com/user/7472853/episodes/feed" htmlUrl="http://www.spreaker.com/user/dekkar" />
     <outline text="deployando.me" type="rss" xmlUrl="http://deployando.me/feed/podcast" htmlUrl="https://deployando.me/" />
     <outline text="Descargas de mi Mente" type="rss" xmlUrl="http://mx.ivoox.com/es/descargas-mi-mente_fg_f1584288_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-descargas-mi-mente_sq_f1584288_1.html" />
-    <outline text="Diez y cuarto" type="rss" xmlUrl="http://feedpress.me/diezycuarto" htmlUrl="https://www.jmramirez.pro/diezycuarto/" />
     <outline text="Disperso" type="rss" xmlUrl="http://tiempoescaso.es/general/disperso/feed/podcast/" htmlUrl="http://tiempoescaso.es/general/disperso/" />
     <outline text="Divagaciones de Adrián Perales" type="rss" xmlUrl="https://adrianperales.com/category/podcast/divagaciones/feed/" htmlUrl="http://adrianperales.com/divagaciones/" />
     <outline text="Documentales Sonoros" type="rss" xmlUrl="http://www.ivoox.com/podcast-documentales-sonoros_fg_f19701_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-documentales-sonoros_sq_f19701_1.html" />
@@ -52,7 +48,7 @@
     <outline text="Encarecidamente" type="rss" xmlUrl="http://encarecidamente.com/feed/" htmlUrl="http://encarecidamente.com" />
     <outline text="Error de hardware" type="rss" xmlUrl="http://feeds.feedburner.com/ErrorDeHardware" htmlUrl="https://www.spreaker.com/user/joseba_villanueva" />
     <outline text="Escuchando Documentales" type="rss" xmlUrl="http://www.ivoox.com/escuchando-documentales_fg_f1147579_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-escuchando-documentales_sq_f1147579_1.html" />
-    <outline text="Fin de día" type="rss" xmlUrl="http://www.spreaker.com/show/1562515/episodes/feed" htmlUrl="http://www.spreaker.com/show/fin-de-dia" />
+    <outline text="Esto es lo que hay" type="rss" xmlUrl="https://anchor.fm/s/1622680/podcast/rss" htmlUrl="" />
     <outline text="ForeverAlonePodcast" type="rss" xmlUrl="http://www.ivoox.com/podcast-forever-alone-podcast_fg_f119948_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-foreveralonepodcast_sq_f119948_1.html" />
     <outline text="Frecuencia Improvisada" type="rss" xmlUrl="https://www.spreaker.com/show/3232534/episodes/feed" htmlUrl="https://www.spreaker.com/show/frecuencia-improvisada" />
     <outline text="Galego Geek" type="rss" xmlUrl="http://www.ivoox.com/galego-geek_fg_f1588551_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-galego-geek_sq_f1588551_1.html" />
@@ -62,6 +58,7 @@
     <outline text="HabloGeek" type="rss" xmlUrl="http://feedpress.me/hablogeek" htmlUrl="http://5by5.tv/hablogeek" />
     <outline text="Ingenieria Inversa" type="rss" xmlUrl="https://anchor.fm/s/7967c2c/podcast/rss" htmlUrl="https://anchor.fm/IngenieriaInversa" />
     <outline text="Kernel" type="rss" xmlUrl="https://podcast.mixx.io/kernel/index.rss" htmlUrl="https://mixx.io/kernel" />
+    <outline text="La extraña pareja" type="rss" xmlUrl="https://feedpress.me/pareja" htmlUrl="https://laextraapareja.net" />
     <outline text="La Hora Maker" type="rss" xmlUrl="http://lahoramaker.com/feed/podcast/" htmlUrl="http://lahoramaker.com" />
     <outline text="La Tecnología para todos" type="rss" xmlUrl="http://www.spreaker.com/show/1388485/episodes/feed" htmlUrl="https://programarfacil.com/" />
     <outline text="Las Tres Muertes de Mi Padre" type="rss" xmlUrl="https://cuonda.com/las-tres-muertes-de-mi-padre/feed" htmlUrl="https://cuonda.com/las-tres-muertes-de-mi-padre" />
@@ -69,7 +66,6 @@
     <outline text="macKFrancis" type="rss" xmlUrl="http://www.ivoox.com/podcast-mackfrancis_fg_f155136_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-mackfrancis_sq_f155136_1.html" />
     <outline text="Mahjong en 10 minutos" type="rss" xmlUrl="http://www.spreaker.com/show/562444/episodes/feed" htmlUrl="http://www.spreaker.com/show/mahjong_en_10_minutos" />
     <outline text="Maratón Linuxero" type="rss" xmlUrl="http://www.ivoox.com/maraton-linuxero_fg_f1441086_filtro_1.xml" htmlUrl="https://maratonlinuxero.org" />
-    <outline text="Marcogeek" type="rss" xmlUrl="http://www.spreaker.com/user/5929511/episodes/feed" htmlUrl="http://www.spreaker.com/user/marcogeek" />
     <outline text="másQteclas" type="rss" xmlUrl="https://www.masqueteclas.com/masqueteclas/feed/" htmlUrl="https://www.masqueteclas.com/masqueteclas/" />
     <outline text="MazingerAstur" type="rss" xmlUrl="http://feeds.feedburner.com/Mazingerastur" htmlUrl="http://www.ivoox.com/podcast-mazingerastur_sq_f1587887_1.html" />
     <outline text="Mientras me Maquillo" type="rss" xmlUrl="https://anchor.fm/s/67bfefc/podcast/rss" htmlUrl="https://anchor.fm/mientras-me-maquillo" />
@@ -79,9 +75,10 @@
     <outline text="Monos del Espacio" type="rss" xmlUrl="http://www.ivoox.com/feed_fg_f1148042_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-monos-del-espacio_sq_f1148042_1.html" />
     <outline text="Mosqueteroweb Tecnología" type="rss" xmlUrl="http://www.ivoox.com/mosqueteroweb-tecnologia-linux-ajedrez_fg_f1248962_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-mosqueteroweb-tecnologia_sq_f1248962_1.html" />
     <outline text="NASeros Podcast" type="rss" xmlUrl="http://www.ivoox.com/naseros-podcast_fg_f1179187_filtro_1.xml" htmlUrl="https://www.ivoox.com/podcast-naseros-podcast_sq_f1179187_1.html" />
-    <outline text="No Es Asunto Vuestro" type="rss" xmlUrl="https://www.noesasuntovuestro.com/feed/podcast/" htmlUrl="https://www.noesasuntovuestro.com" />
     <outline text="No Soy Un Troll Podcast" type="rss" xmlUrl="http://www.nosoyuntroll.es/feed.xml" htmlUrl="http://www.nosoyuntroll.es/" />
     <outline text="Papá Friki" type="rss" xmlUrl="http://feeds.feedburner.com/papafriki" htmlUrl="" />
+    <outline text="Pasancor. Ediciones Particulares." type="rss" xmlUrl="http://www.ivoox.com/pasancor-ediciones-particulares_fg_f1551424_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-pasancor-ediciones-particulares_sq_f1551424_1.html" />
+    <outline text="PÁSATE A LO ELÉCTRICO" type="rss" xmlUrl="http://www.ivoox.com/pasate-a-lo-electrico_fg_f1611731_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-pasate-a-lo-electrico_sq_f1611731_1.html" />
     <outline text="Podcachitos" type="rss" xmlUrl="http://feedpress.me/podcachitos" htmlUrl="https://avpodcast.net/podcachitos/" />
     <outline text="Podcast Eduardo Collado" type="rss" xmlUrl="http://feeds.feedburner.com/PodcastEduardoCollado" htmlUrl="http://www.ivoox.com/podcast-podcast-eduardo-collado_sq_f1448486_1.html" />
     <outline text="Podcast Linux" type="rss" xmlUrl="http://feedpress.me/podcastlinux" htmlUrl="https://avpodcast.net/podcastlinux/" />
@@ -91,18 +88,19 @@
     <outline text="PODCRASTINANDO" type="rss" xmlUrl="http://feeds.feedburner.com/Podcrastinando" htmlUrl="https://anchor.fm/podcrastinando" />
     <outline text="PostType Podcast - Podcast sobre diseño web y WordPress. Cada martes a las 8am" type="rss" xmlUrl="https://www.dariobf.com/feed/podcast/" htmlUrl="https://www.dariobf.com/" />
     <outline text="Potencia Pro, tu podcast de WordPress" type="rss" xmlUrl="https://potencia.pro/feed/podcast" htmlUrl="https://potencia.pro" />
-    <outline text="Predicneitor Geek" type="rss" xmlUrl="http://www.ivoox.com/predicneitor-geek_fg_f1165758_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-predicneitor-geek_sq_f1165758_1.html" />
     <outline text="Product Designer" type="rss" xmlUrl="https://gallardoramos.com/feed/podcast/" htmlUrl="https://gallardoramos.com" />
     <outline text="Reality bites" type="rss" xmlUrl="https://anchor.fm/s/ed8898/podcast/rss" htmlUrl="https://anchor.fm/heyazorin" />
-    <outline text="Reality Cracking" type="rss" xmlUrl="http://www.ivoox.com/podcast-reality-cracking_fg_f159955_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-reality-cracking_sq_f159955_1.html" />
+    <outline text="Reality Cracking" type="rss" xmlUrl="http://feeds.feedburner.com/rcracking" htmlUrl="https://archive.org/details/realitycracking" />
+    <outline text="Reseteando a @Andichinato" type="rss" xmlUrl="https://www.ivoox.com/podcast-reseteando-a-aandichinato_fg_f1683775_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-reseteando-a-aandichinato_sq_f1683775_1.html" />
     <outline text="RETROMATICA" type="rss" xmlUrl="http://feeds.feedburner.com/RetromaticaToday" htmlUrl="http://www.spreaker.com/show/retromatica" />
     <outline text="Salmorejo Geek" type="rss" xmlUrl="http://www.ivoox.com/salmorejo-geek_fg_f1206500_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-salmorejo-geek_sq_f1206500_1.html" />
-    <outline text="TecnoVidas 3.0 Podcast" type="rss" xmlUrl="http://www.ivoox.com/podcast-podcast-tecnovidas-3-0_fg_f172225_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-tecnovidas-3-0-podcast_sq_f172225_1.html" />
+    <outline text="Tecnocincuentones" type="rss" xmlUrl="https://www.ivoox.com/tecnocincuentones_fg_f1659092_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-tecnocincuentones_sq_f1659092_1.html" />
     <outline text="TED en Español" type="rss" xmlUrl="http://www.ivoox.com/conferencias-ted-espanol_fg_f197583_filtro_1.xml" htmlUrl="https://www.ted.com/read/ted-podcasts/ted-en-espanol" />
+    <outline text="Thor4" type="rss" xmlUrl="http://www.spreaker.com/user/6540362/episodes/feed" htmlUrl="http://www.spreaker.com/user/6540362" />
     <outline text="Todas mis movidas" type="rss" xmlUrl="https://anchor.fm/s/53009bc/podcast/rss" htmlUrl="https://anchor.fm/olivernabani" />
     <outline text="Tomando Un Café" type="rss" xmlUrl="http://www.ivoox.com/tomando-un-cafe_fg_f1483612_filtro_1.xml" htmlUrl="https://rooteando.com" />
-    <outline text="Triunfa con tu blog | Marketing  Ventas Online" type="rss" xmlUrl="http://www.ivoox.com/triunfa-tu-blog-marketing-online_fg_f1323536_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-triunfa-tu-blog-marketing-ventas_sq_f1323536_1.html" />
     <outline text="uGeek - Tecnología, Android, Linux, Servidores y mucho más..." type="rss" xmlUrl="http://feeds.feedburner.com/ugeek" htmlUrl="https://ugeek.github.io/" />
+    <outline text="Un Piscolabis By Marcogeek" type="rss" xmlUrl="http://www.spreaker.com/user/5929511/episodes/feed" htmlUrl="http://www.spreaker.com/user/marcogeek" />
     <outline text="Unos y Ceros (Patxi)" type="rss" xmlUrl="https://www.ivoox.com/podcast-unos-ceros-patxi_fg_f1655570_filtro_1.xml" htmlUrl="http://www.ivoox.com/podcast-unos-ceros-patxi_sq_f1655570_1.html" />
     <outline text="Vacía tu bandeja" type="rss" xmlUrl="https://audioboom.com/channels/4943035.rss" htmlUrl="https://audioboom.com/channel/vacia-tu-bandeja" />
     <outline text="Web Reactiva" type="rss" xmlUrl="https://www.danielprimo.io/podcast/feed.xml" htmlUrl="https://www.danielprimo.io/podcast" />
