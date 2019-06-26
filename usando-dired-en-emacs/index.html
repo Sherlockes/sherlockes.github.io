@@ -94,6 +94,10 @@
 <li><a href="#selección-para-eliminar-flag">Selección para eliminar &ldquo;Flag&rdquo;</a></li>
 <li><a href="#selección-para-editar-archivos-mark">Selección para editar archivos &ldquo;Mark&rdquo;</a></li>
 </ul></li>
+<li><a href="#manejar-archivos-marcados">Manejar archivos marcados</a>
+<ul>
+<li><a href="#un-caso-práctico-emacs-como-gestor-de-dos-paneles">Un caso práctico, emacs como gestor de dos paneles</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#actualizar-el-buffer">Actualizar el buffer</a></li>
 </ul>
@@ -103,9 +107,9 @@
 <div class="post__content clearfix">
 			<p>Después de algún tiempo buscando alternativas para la gestión de ficheros en emacs he tomado la determinación de que lo más práctico va a ser aprender a manejar una de las más potentes y que viene por defecto, Dired.</p>
 
-<p>No pretendo hacer un completo tutorial sobre el uso de Dired ya que soy un recién llegado y todavía no tengo la capacidad para ello, simplemente pretendo reflejar aquí mi aprendizaje para que cualquiera lo pueda usar como una pequeña guía de inicio.  Para un aprendizaje profundo siempre es mejor utilizar fuentes oficiales como [gnu], [wikemacs] o  [ergoemacs].</p>
+<p>No pretendo hacer un completo tutorial sobre el uso de Dired ya que soy un recién llegado y todavía no tengo la capacidad para ello, simplemente pretendo reflejar aquí mi aprendizaje para que cualquiera lo pueda usar como una pequeña guía de inicio.  Para un aprendizaje profundo siempre es mejor utilizar fuentes oficiales como <a href="(https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)">gnu</a>, <a href="(https://wikemacs.org/wiki/Dired)">wikemacs</a> o  <a href="(http://ergoemacs.org/emacs/file_management.html)">ergoemacs</a>.</p>
 
-<p>Como en todos los aspectos de Emacs, hay que ser un privilegiado para aprenderse de memoria desde un principio todos los atajos de teclado que existen. Lo más práctico creo que es una &ldquo;[Reference Card]&rdquo; que podemos imprimir y tener a mano cuando necesitemos alguna consulta.</p>
+<p>Como en todos los aspectos de Emacs, hay que ser un privilegiado para aprenderse de memoria desde un principio todos los atajos de teclado que existen. Lo más práctico creo que es una &ldquo;<a href="(https://www.gnu.org/software/emacs/refcards/pdf/dired-ref.pdf)">Reference Card</a>&rdquo; que podemos imprimir y tener a mano cuando necesitemos alguna consulta.</p>
 
 <h1 id="instalación">Instalación</h1>
 
@@ -138,7 +142,7 @@
 <li>[Del] &gt; Elimina la selección de la línea anterior</li>
 </ul>
 
-<p>Tanto la selección como la deselección son compatibles con el &ldquo;[Argumento prefijo]&rdquo; de Emacs de modo que p.ej podemos selecionar cuatro archivos consecutivos situando el cursor sobre el primero de ellos y con la combinación de teclas <code>C-u 4 d</code></p>
+<p>Tanto la selección como la deselección son compatibles con el &ldquo;<a href="(https://www.emacswiki.org/emacs/PrefixArgument)">Argumento prefijo</a>&rdquo; de Emacs de modo que p.ej podemos selecionar cuatro archivos consecutivos situando el cursor sobre el primero de ellos y con la combinación de teclas <code>C-u 4 d</code></p>
 
 <h3 id="selección-para-editar-archivos-mark">Selección para editar archivos &ldquo;Mark&rdquo;</h3>
 
@@ -151,17 +155,40 @@
 <li>[Del] &gt; Elimina la marca de la línea anterior</li>
 </ul>
 
-<p>En este caso existen muchos más comandos específicos además de moder hacer uso del &ldquo;[Argumento Prefijo]&rdquo; pero aquí sólo muestro los que yo uso habitualmente.</p>
+<p>En este caso existen muchos más comandos específicos además de moder hacer uso del &ldquo;<a href="(https://www.emacswiki.org/emacs/PrefixArgument)">Argumento Prefijo</a>&rdquo; pero aquí sólo muestro los que yo uso habitualmente.</p>
 
-<!--
-## Manejar archivos marcados ##
-Custom-set-variables
-```
-'(dired-dwim-target t)
-```
+<h2 id="manejar-archivos-marcados">Manejar archivos marcados</h2>
 
-* "D" > Elimina los archivos marcados
--->
+<p>Copiar, mover, borrar archivos , comprimirlos,renombrarlos&hellip; y muchas más opciones se realizan con la simple pulsación de una tecla una vez que tenemos seleccionados los archivos con la opción &ldquo;Mark&rdquo;. A continuación sólo las opciones mas comunes.</p>
+
+<ul>
+<li>&ldquo;C&rdquo; &gt; Copiar archivos</li>
+<li>&ldquo;R&rdquo; &gt; Renombrar un archivo o mover varios a otro directorio</li>
+<li>&ldquo;D&rdquo; &gt; Eliminar lo seleccionado</li>
+</ul>
+
+<h3 id="un-caso-práctico-emacs-como-gestor-de-dos-paneles">Un caso práctico, emacs como gestor de dos paneles</h3>
+
+<p>Desde los tiempos de Norton Commander creo que la opción más práctica para los gestores de ficheros es el doble panel.  Emacs es fácilmente convertible a un gestor de arcivos de dos (o más) paneles con el el copiar o mover archivos de uno a otro de una forma sencilla. Para mover un archivo de un directorio a otro haciendo uso de dos paneles seguiremos los siguientes pasos.</p>
+
+<ol>
+<li>Cerrar todos los buffers correspondientes los archivos a mover</li>
+<li>Configurar la variable &ldquo;dired-dwim-target&rdquo; a &ldquo;t&rdquo; (Añadirá la línea &lsquo;(dired-dwim-target t) en Custom-set-variables. (Esto quedará activo para futuras ocasiones)</li>
+<li>Abrimos un bufer de Dired con el directorio conde están los archivos a mover <code>C-x d</code></li>
+<li>En caso de tener que navegar desde el raiz, usamos &ldquo;a&rdquo; sobre cada carpeta para subir niveles</li>
+<li>Marcamos los archivos a mover o copiar con &ldquo;m&rdquo;</li>
+<li>Abrimos un nuevo buffer con el directorio al que queremos mover los arhivos con &ldquo;o&rdquo;</li>
+<li>Con el directorio de destino en el nuevo buffer, volvemos al de origen con <code>C-x o</code></li>
+<li>Para copiar los archivos usamos &ldquo;C&rdquo; y para mover &ldquo;R&rdquo;</li>
+</ol>
+
+<p>Parece un método un poco laborioso pero en el siguiente vídeo se puede ver como apenas son unos cuantos &ldquo;Clicks&rdquo;</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/01XAYge2Qq8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 
 <h1 id="actualizar-el-buffer">Actualizar el buffer</h1>
 
@@ -173,12 +200,6 @@ Custom-set-variables
 <li>&ldquo;k&rdquo; &gt; Borra las líneas seleccionadas sin borrar los archivos</li>
 <li>&ldquo;l&rdquo; &gt; Refresca sólo las líneas que se muestran en el buffer</li>
 </ul>
-
-<p><a href="https://www.emacswiki.org/emacs/PrefixArgument">Argumento Prefijo</a>
-<a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">gnu</a>
-<a href="https://wikemacs.org/wiki/Dired">wikemacs</a>
-<a href="http://ergoemacs.org/emacs/file_management.html">ergoemacs</a>
-<a href="https://www.gnu.org/software/emacs/refcards/pdf/dired-ref.pdf">Reference Card</a></p>
 			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
 		</div>
 		
