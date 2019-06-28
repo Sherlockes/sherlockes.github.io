@@ -21,8 +21,8 @@
 <meta property="og:description" content="Para editar un archivo, algo fundamental es encontrarlo y abrirlo, aquí el método que uso al trabajar con Emacs" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/usando-dired-en-emacs/" />
-<meta property="article:published_time" content="2019-06-19T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-06-19T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2019-06-27T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-06-27T00:00:00&#43;00:00"/>
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Usando Dired en Emacs"/>
@@ -71,7 +71,7 @@
 		<header class="post__header">
 			<h1 class="post__title">Usando Dired en Emacs</h1><div class="post__meta meta">
 <svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2019-06-19T00:00:00">2019-06-19</time>
+<time class="post__meta-date meta-date" datetime="2019-06-27T00:00:00">2019-06-27</time>
 <span class="post__meta-categories meta-categories">
 	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
 	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/emacs" rel="category">emacs</a></span>
@@ -107,9 +107,9 @@
 <div class="post__content clearfix">
 			<p>Después de algún tiempo buscando alternativas para la gestión de ficheros en emacs he tomado la determinación de que lo más práctico va a ser aprender a manejar una de las más potentes y que viene por defecto, Dired.</p>
 
-<p>No pretendo hacer un completo tutorial sobre el uso de Dired ya que soy un recién llegado y todavía no tengo la capacidad para ello, simplemente pretendo reflejar aquí mi aprendizaje para que cualquiera lo pueda usar como una pequeña guía de inicio.  Para un aprendizaje profundo siempre es mejor utilizar fuentes oficiales como <a href="(https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html)">gnu</a>, <a href="(https://wikemacs.org/wiki/Dired)">wikemacs</a> o  <a href="(http://ergoemacs.org/emacs/file_management.html)">ergoemacs</a>.</p>
+<p>No pretendo hacer un completo tutorial sobre el uso de Dired ya que soy un recién llegado y todavía no tengo la capacidad para ello, simplemente pretendo reflejar aquí mi aprendizaje para que cualquiera lo pueda usar como una pequeña guía de inicio.  Para un aprendizaje profundo siempre es mejor utilizar fuentes oficiales como <a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Dired.html">gnu</a>, <a href="https://wikemacs.org/wiki/Dired">wikemacs</a> o  <a href="http://ergoemacs.org/emacs/file_management.html">ergoemacs</a>.</p>
 
-<p>Como en todos los aspectos de Emacs, hay que ser un privilegiado para aprenderse de memoria desde un principio todos los atajos de teclado que existen. Lo más práctico creo que es una &ldquo;<a href="(https://www.gnu.org/software/emacs/refcards/pdf/dired-ref.pdf)">Reference Card</a>&rdquo; que podemos imprimir y tener a mano cuando necesitemos alguna consulta.</p>
+<p>Como en todos los aspectos de Emacs, hay que ser un privilegiado para aprenderse de memoria desde un principio todos los atajos de teclado que existen. Lo más práctico creo que es una &ldquo;<a href="https://www.gnu.org/software/emacs/refcards/pdf/dired-ref.pdfxs">Reference Card</a>&rdquo; que podemos imprimir y tener a mano cuando necesitemos alguna consulta.</p>
 
 <h1 id="instalación">Instalación</h1>
 
@@ -142,7 +142,7 @@
 <li>[Del] &gt; Elimina la selección de la línea anterior</li>
 </ul>
 
-<p>Tanto la selección como la deselección son compatibles con el &ldquo;<a href="(https://www.emacswiki.org/emacs/PrefixArgument)">Argumento prefijo</a>&rdquo; de Emacs de modo que p.ej podemos selecionar cuatro archivos consecutivos situando el cursor sobre el primero de ellos y con la combinación de teclas <code>C-u 4 d</code></p>
+<p>Tanto la selección como la deselección son compatibles con el &ldquo;<a href="https://www.emacswiki.org/emacs/PrefixArgument">Argumento prefijo</a>&rdquo; de Emacs de modo que p.ej podemos selecionar cuatro archivos consecutivos situando el cursor sobre el primero de ellos y con la combinación de teclas <code>C-u 4 d</code></p>
 
 <h3 id="selección-para-editar-archivos-mark">Selección para editar archivos &ldquo;Mark&rdquo;</h3>
 
@@ -155,7 +155,7 @@
 <li>[Del] &gt; Elimina la marca de la línea anterior</li>
 </ul>
 
-<p>En este caso existen muchos más comandos específicos además de moder hacer uso del &ldquo;<a href="(https://www.emacswiki.org/emacs/PrefixArgument)">Argumento Prefijo</a>&rdquo; pero aquí sólo muestro los que yo uso habitualmente.</p>
+<p>En este caso existen muchos más comandos específicos además de moder hacer uso del &ldquo;<a href="https://www.emacswiki.org/emacs/PrefixArgument">Argumento Prefijo</a>&rdquo; pero aquí sólo muestro los que yo uso habitualmente.</p>
 
 <h2 id="manejar-archivos-marcados">Manejar archivos marcados</h2>
 
