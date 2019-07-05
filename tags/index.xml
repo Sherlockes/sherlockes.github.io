@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Markdown</title>
+      <link>/tags/markdown/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>dired</title>
       <link>/tags/dired/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
@@ -291,7 +300,7 @@
     </item>
     
     <item>
-      <title>virtualdub</title>
+      <title>Virtualdub</title>
       <link>/tags/virtualdub/</link>
       <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
       
