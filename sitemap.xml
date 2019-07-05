@@ -651,12 +651,6 @@
   </url>
   
   <url>
-    <loc>/tags/gimp/</loc>
-    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/darktable/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -664,6 +658,12 @@
   
   <url>
     <loc>/categories/dise%C3%B1o/</loc>
+    <lastmod>2019-04-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gimp/</loc>
     <lastmod>2019-04-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
