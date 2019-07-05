@@ -1,23 +1,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emacs on Sherblog</title>
+    <title>emacs on Sherblog</title>
     <link>/categories/emacs/</link>
-    <description>Contenido reciente de la categoria... in Emacs on Sherblog</description>
+    <description>Contenido reciente de la categoria... in emacs on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Editando archivos markdown en emacs</title>
-      <link>/editando-archivos-markdown-en-emacs/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/editando-archivos-markdown-en-emacs/</guid>
-      <description>&lt;p&gt;En mi lucha por utilizar &lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt; en todo mi usos con editor de texto aquí dejo reflejado como para editar archivos &amp;ldquo;Markdown&amp;rdquo; tiene muchas posibilidades.  No pretendo hacer una extensa guía, sólo los comandos que empleo habitualemnte.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Usando Dired en Emacs</title>
