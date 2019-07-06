@@ -651,14 +651,14 @@
   </url>
   
   <url>
-    <loc>/categories/raspberry/</loc>
+    <loc>/post/raspberry/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/raspberry/</loc>
+    <loc>/categories/raspberry/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -752,13 +752,13 @@
   </url>
   
   <url>
-    <loc>/categories/a-pedales/</loc>
+    <loc>/tags/mantenimiento/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mantenimiento/</loc>
+    <loc>/categories/a-pedales/</loc>
     <lastmod>2018-08-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
