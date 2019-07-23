@@ -5,10 +5,19 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry</title>
+      <link>/categories/raspberry/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/raspberry/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Emacs</title>
@@ -20,20 +29,11 @@
     </item>
     
     <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>/categories/hugo/</link>
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Raspberry</title>
-      <link>/categories/raspberry/</link>
-      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/raspberry/</guid>
       <description></description>
     </item>
     
@@ -92,7 +92,7 @@
     </item>
     
     <item>
-      <title>Gps</title>
+      <title>GPS</title>
       <link>/categories/gps/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       

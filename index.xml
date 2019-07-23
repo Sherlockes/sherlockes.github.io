@@ -6,10 +6,19 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry configurando rclone sin entorno gráfico</title>
+      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
+      <description>&lt;p&gt;En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explicar mi experiencia con una de las que yo utilizo. &lt;a href=&#34;https://rclone.org&#34;&gt;Rclone&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Editando archivos markdown en emacs</title>
@@ -123,15 +132,6 @@ Si solo fueran unas pocas fotos no me hubiera planteado &amp;ldquo;automatizar&a
       <guid>/historia-del-alojamiento-del-blog/</guid>
       <description>Parece que fue ayer, pero ya llevo más de diez años escribiendo en este blog y durante todo este tiempo he pasado por varios alojamientos que paso a describir a continuación.
  Diciembre de 2007. Un Pentium II reconvertido a servidor web con el que di mis primeros pasos en el mundo linux.</description>
-    </item>
-    
-    <item>
-      <title>Raspberry configurando rclone sin entorno gráfico</title>
-      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
-      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo.</description>
     </item>
     
     <item>
@@ -1040,7 +1040,7 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20190618_emacs_markdown.md 20190603_mis_backups 20190618_emacs_markdown 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Actualizando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
+      <description>Artículos que estoy escribiendo  20190723_grabar_terminal 20190603_mis_backups 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Actualizando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
     </item>
     
     <item>

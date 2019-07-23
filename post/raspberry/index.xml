@@ -6,10 +6,19 @@
     <description>Recent content in Raspberry Pi desde cero on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/raspberry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry configurando rclone sin entorno gráfico</title>
+      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
+      <description>&lt;p&gt;En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explicar mi experiencia con una de las que yo utilizo. &lt;a href=&#34;https://rclone.org&#34;&gt;Rclone&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Raspberry Montaje y ssh</title>
@@ -30,15 +39,6 @@
       <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
       <description>Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
  Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</description>
-    </item>
-    
-    <item>
-      <title>Raspberry configurando rclone sin entorno gráfico</title>
-      <link>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
-      <description>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor. Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explcar mi experiencia con la que yo utilizo.</description>
     </item>
     
     <item>
