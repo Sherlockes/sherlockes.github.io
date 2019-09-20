@@ -169,15 +169,5 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.</description>
     </item>
     
-    <item>
-      <title>Raspberry Pi desde cero</title>
-      <link>/post/raspberry/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/raspberry/</guid>
-      <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
-En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog.</description>
-    </item>
-    
   </channel>
 </rss>

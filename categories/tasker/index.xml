@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Tasker on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/tasker/index.xml" rel="self" type="application/rss+xml" />
     
@@ -45,16 +45,6 @@ Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los 
       
       <guid>/reinicio-programado-con-tasker-en-android/</guid>
       <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema.</description>
-    </item>
-    
-    <item>
-      <title>Mis usos de Tasker</title>
-      <link>/post/tasker/</link>
-      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/tasker/</guid>
-      <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
-Este simple concepto añade infinidad de características a tus dispositivos android sin que, en la mayoría de los casos, sea necesario un &amp;ldquo;rooteado&amp;rdquo; de los mismos o añadir un nuevo launcher.</description>
     </item>
     
   </channel>

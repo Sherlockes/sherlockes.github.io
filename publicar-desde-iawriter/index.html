@@ -16,13 +16,13 @@
 	<meta name="twitter:site" content="sherblog.pro" />
 	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
 
-	<meta name="generator" content="Hugo 0.55.6" />
+	<meta name="generator" content="Hugo 0.58.3" />
 	<meta property="og:title" content="Publicar desde iaWriter" />
 <meta property="og:description" content="El modo que utilizo para publicar en el blog usando sólo el editor de texto." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/publicar-desde-iawriter/" />
-<meta property="article:published_time" content="2018-09-04T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-09-04T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2018-09-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-09-04T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Publicar desde iaWriter"/>
@@ -126,8 +126,7 @@
 </blockquote>
 
 <ul>
-<li>Con la web regenerada se suben los cambios a mi cuenta de github donde tengo publicada la web de forma completamente gratuita.</li>
-</ul>
+<li><p>Con la web regenerada se suben los cambios a mi cuenta de github donde tengo publicada la web de forma completamente gratuita.</p>
 
 <pre><code class="language-bash">#!/bin/sh
 # -*- ENCODING: UTF-8 -*-
@@ -143,20 +142,20 @@ cd ~/sherblog/content/post
 grep -r -L &quot;\-\-\-&quot; * |
 while read fname
 do
-  #Minutos que han de pasar desde la ultima modificación para encabezado
-  minmin=30
+#Minutos que han de pasar desde la ultima modificación para encabezado
+minmin=30
 
-  #Calculo de los minutos pasados desde la ultima modificacion
-  umodsg=$(date +%s -r &quot;$fname&quot;)
-  ahorasg=$(date +%s)
-  minpasados=$(((ahorasg - umodsg)/60))
-  echo Han pasado $minpasados de los $minmin minutos desde la modificación de &quot;$fname&quot;
+#Calculo de los minutos pasados desde la ultima modificacion
+umodsg=$(date +%s -r &quot;$fname&quot;)
+ahorasg=$(date +%s)
+minpasados=$(((ahorasg - umodsg)/60))
+echo Han pasado $minpasados de los $minmin minutos desde la modificación de &quot;$fname&quot;
 
-  #Inserta la cabecera si han pasado más de 65 minutos
-  if [ $minpasados -gt $minmin ]; then
-    echo Colocando la cabecera a &quot;$fname&quot;
-    cat cabecera.md &quot;$fname&quot; &gt; temp &amp;&amp; mv temp &quot;$fname&quot;
-  fi
+#Inserta la cabecera si han pasado más de 65 minutos
+if [ $minpasados -gt $minmin ]; then
+echo Colocando la cabecera a &quot;$fname&quot;
+cat cabecera.md &quot;$fname&quot; &gt; temp &amp;&amp; mv temp &quot;$fname&quot;
+fi
 done
 
 #Sincroniza los archivos de la nube con los modificados en local
@@ -173,7 +172,8 @@ git commit -m &quot;Update&quot;
 git push -u origin master
 
 exit 0
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>Y ya está. La web actualizada sin usar nada más que iawriter. Ahora resta idear un método sencillo para subir las imágenes, quizás IFTTT sea una buena opción, pero esto para otro día&hellip;</p>
 
@@ -211,11 +211,11 @@ exit 0
 	<h4 class="widget__title">Lo último...</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/backup-de-google-photos/">Backup de Google Photos</a></li>
 			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
 			<li class="widget__item"><a class="widget__link" href="/editando-archivos-markdown-en-emacs/">Editando archivos markdown en emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/usando-dired-en-emacs/">Usando Dired en Emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/hugo-is-deprecated/">Hugo is deprecated</a></li>
-			<li class="widget__item"><a class="widget__link" href="/raspberry-montaje-y-ssh/">Raspberry Montaje y ssh</a></li>
 		</ul>
 	</div>
 </div>
@@ -226,6 +226,7 @@ exit 0
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/categories/a-pedales">A pedales</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/android">Android</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/bash">Bash</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/dise%c3%b1o">Diseño</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/emacs">Emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/gps">Gps</a></li>
@@ -287,6 +288,7 @@ exit 0
 		<a class="widget-taglist__link widget__link btn" href="/tags/gmail" title="Gmail">Gmail</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google" title="Google">Google</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gopro" title="Gopro">Gopro</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/gphoto-sync" title="Gphoto sync">Gphoto sync</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gps" title="Gps">Gps</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gtumb" title="Gtumb">Gtumb</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/hdr" title="Hdr">Hdr</a>
