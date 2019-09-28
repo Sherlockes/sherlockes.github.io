@@ -6,19 +6,10 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Backup de Google Photos</title>
-      <link>/backup-de-google-photos/</link>
-      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/backup-de-google-photos/</guid>
-      <description>&lt;p&gt;Desde principios del mes de Julio de 2019, todos los que realizamos una copia de seguridad de de las imágenes subidas a Google Photos una forma automatizada hemos pasado a tener un problema que cada vez estoy más cerca de solucionar.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Raspberry configurando rclone sin entorno gráfico</title>
@@ -1049,7 +1040,7 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20190703_backup_google_photos 20190603_mis_backups 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Actualizando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
+      <description>Artículos que estoy escribiendo  20190603_mis_backups 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Actualizando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
     </item>
     
     <item>
