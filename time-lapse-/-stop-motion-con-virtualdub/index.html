@@ -1,73 +1,33 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Time-Lapse / Stop-Motion con VirtualDub</title>
-	<meta name="description" content="Time-Lapse / Stop-Motion con VirtualDub">
-
-	<meta name="twitter:card" content="Time-Lapse / Stop-Motion con VirtualDub" />
-	<meta name="twitter:title" content="Time-Lapse / Stop-Motion con VirtualDub" />
-	<meta name="twitter:image" content="http://sherblog.pro/images/logo.png" />
-	
-	<meta name="twitter:creator" content="@sherblogpro">
-	<meta name="twitter:site" content="sherblog.pro" />
-	<meta name="twitter:description" content="Aquí puedes ver todo el post." />
-
-	<meta name="generator" content="Hugo 0.58.3" />
-	<meta property="og:title" content="Time-Lapse / Stop-Motion con VirtualDub" />
-<meta property="og:description" content="Time-Lapse / Stop-Motion con VirtualDub" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/time-lapse-/-stop-motion-con-virtualdub/" />
-<meta property="article:published_time" content="2010-04-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2010-04-28T00:00:00+00:00" />
-
-	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Time-Lapse / Stop-Motion con VirtualDub"/>
-<meta name="twitter:description" content="Time-Lapse / Stop-Motion con VirtualDub"/>
-
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
-	<link rel="stylesheet" href="/css/style.css">
-	<script type="text/javascript" src="/js/scripts.js"></script>
-	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
-	
-</head>
-<body class="body body-right-sidebar">
-	<div class="container container-outer">
-		<header class="header">
-			<div class="container container-inner">
-				<div class="logo" role="banner">
-					<a class="logo__link" href="/" title="Sherblog" rel="home">
-						<div class="logo__title">Sherblog</div>
-						<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
-					</a>
-				</div>
-			</div>
-			
+<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Sherblog" rel="home">
+				<div class="logo__title">Sherblog</div>
+				<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
+			</a>
+		</div>
+		
 <nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menú</span>
+	</button>
 	<ul class="menu__list">
-		<li class="menu__item"><a class="menu__link" href="/post/raspberry/">RASPBERRY PI</a></li>
-		<li class="menu__item"><a class="menu__link" href="/post/tasker/">TASKER</a></li>
+		<li class="menu__item">
+			<a class="menu__link" href="/post/raspberry/">Raspberry Pi</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/post/tasker/">Tasker</a>
+		</li>
 	</ul>
 </nav>
 
-		</header>
-		<div class="wrapper clearfix">
-
+	</div>
+</header>
 
 <main class="main content">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Time-Lapse / Stop-Motion con VirtualDub</h1><div class="post__meta meta">
-<svg class="icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-<time class="post__meta-date meta-date" datetime="2010-04-28T00:00:00">2010-04-28</time>
-<span class="post__meta-categories meta-categories">
-	<svg class="icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta-categories__list"><a class="meta-categories__link" href="/categories/dise%c3%b1o" rel="category">diseño</a></span>
-</span></div>
+			<h1 class="post__title">Time-Lapse / Stop-Motion con VirtualDub</h1><div class="post__meta meta"></div>
 		</header><div class="post__content clearfix">
 			<p>Resumiendo bastante, podemos definir <a href="http://es.wikipedia.org/wiki/Time_lapse">Time-Lapse</a> y <a href="http://es.wikipedia.org/wiki/Stop_motion">Stop-Motion</a> como dos técnicas fotográficas que permiten crear un vídeo a partir de una secuencia de imágenes.</p>
 
@@ -93,7 +53,7 @@
 		</div>
 		
 <div class="post__tags tags clearfix">
-	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item"><a class="tags__link btn" href="/tags/virtualdub/" rel="tag">virtualdub</a></li>
 	</ul>
@@ -101,141 +61,24 @@
 	</article>
 	
 	
-<nav class="post-nav row clearfix">
-	<div class="post-nav__item post-nav__item--prev col-1-2">
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
 		<a class="post-nav__link" href="/2009-a-pedales-y-sobre-ruedas/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">2009 a pedales y sobre ruedas</p></a>
 	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
+	<div class="post-nav__item post-nav__item--next">
 		<a class="post-nav__link" href="/mantenimiento-mavic-crossride-delantera/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">Mantenimiento Mavic Crossride delantera</p></a>
 	</div>
 </nav>
 	
 </main>
 
-<aside class="sidebar">
-	
-	
-<div class="widget-recent widget">
-	<h4 class="widget__title">Lo último...</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/backup-de-google-photos/">Backup de Google Photos</a></li>
-			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
-			<li class="widget__item"><a class="widget__link" href="/editando-archivos-markdown-en-emacs/">Editando archivos markdown en emacs</a></li>
-			<li class="widget__item"><a class="widget__link" href="/usando-dired-en-emacs/">Usando Dired en Emacs</a></li>
-			<li class="widget__item"><a class="widget__link" href="/hugo-is-deprecated/">Hugo is deprecated</a></li>
-		</ul>
-	</div>
-</div>
-	
-<div class="widget-categories widget">
-	<h4 class="widget__title">Categorias</h4>
-	<div class="widget__content">
-		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/categories/a-pedales">A pedales</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/android">Android</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/bash">Bash</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/dise%c3%b1o">Diseño</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/emacs">Emacs</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/gps">Gps</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/hardware">Hardware</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/hugo">Hugo</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/linux">Linux</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/raspberry">Raspberry</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/sherver">Sherver</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/tasker">Tasker</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/varios">Varios</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/wordpress">Wordpress</a></li>
-		</ul>
-	</div>
-</div>
-	
-<div class="widget-social widget">
-	<h4 class="widget-social__title widget__title">Mis redes sociales</h4>
-	<div class="widget-social__content widget__content">
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Facebook" rel="noopener noreferrer" href="https://facebook.com/sherblog.es" target="_blank">
-				<svg class="widget-social__link-icon icon-facebook" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path d="m0 32v288c0 17.5 14.5 32 32 32h288c17.5 0 32-14.5 32-32v-288c0-17.5-14.5-32-32-32h-288c-17.5 0-32 14.5-32 32zm320 0v288h-83v-108h41.5l6-48h-47.5v-31c0-14 3.5-23.5 23.5-23.5h26v-43.5c-4.4-.6-19.8-1.5-37.5-1.5-36.9 0-62 22.2-62 63.5v36h-42v48h42v108h-155v-288z"/></svg>
-				<span>Facebook</span>
-			</a>
-		</div>
+
+<footer class="footer">
+	<div class="container footer__container flex">
 		
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Twitter" rel="noopener noreferrer" href="https://twitter.com/sherblogpro" target="_blank">
-				<svg class="widget-social__link-icon icon-twitter" viewBox="0 0 384 312" width="24" height="24" fill="#fff"><path d="m384 36.9c-14.1 6.3-29.3 10.5-45.2 12.4 16.3-9.7 28.8-25.2 34.6-43.6-15.2 9-32.1 15.6-50 19.1-14.4-15.2-34.9-24.8-57.5-24.8-43.5 0-78.8 35.3-78.8 78.8 0 6.2.7 12.2 2 17.9-65.5-3.3-123.5-34.6-162.4-82.3-6.7 11.6-10.6 25.2-10.6 39.6 0 27.3 13.9 51.4 35 65.6-12.9-.4-25.1-4-35.7-9.9v1c0 38.2 27.2 70 63.2 77.2-6.6 1.8-13.6 2.8-20.8 2.8-5.1 0-10-.5-14.8-1.4 10 31.3 39.1 54.1 73.6 54.7-27 21.1-60.9 33.7-97.8 33.7-6.4 0-12.6-.4-18.8-1.1 34.9 22.4 76.3 35.4 120.8 35.4 144.9 0 224.1-120 224.1-224.1 0-3.4-.1-6.8-.2-10.2 15.4-11.1 28.7-25 39.3-40.8z"/></svg>
-				<span>Twitter</span>
-			</a>
+		<div class="footer__copyright">
+			&copy; 2019 Sherblog.
+			<span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
 		</div>
-		<div class="widget-social__item widget__item">
-			<a class="widget-social__link widget__link btn" title="Strava" rel="noopener noreferrer" href="https://www.strava.com/athletes/11156844" target="_blank">
-				<svg class="widget-social__link-icon icon-Strava" viewBox="0 0 352 352" width="24" height="24" fill="#fff"><path
-     id="path3723"
-     d="M 148.68422,219.94575 118.86844,161 l 17.31578,0.005 17.31578,0.005 12.32699,23.9954 C 172.60684,198.20207 178.34254,209 178.57299,209 178.80344,209 184.3956,198.2 191,185 l 12.008,-24 h 16.996 c 9.3478,0 16.97134,0.3375 16.94121,0.75 -0.0301,0.4125 -13.19264,26.93809 -29.25,58.94575 L 178.5,278.89149 Z M 42,159.50168 C 42,158.5198 120.50481,2.0000114 120.99703,2.0005325 121.51325,2.001079 201,158.42106 201,159.43637 201,159.74637 190.53188,160 177.7375,160 H 154.47501 L 138.4875,127.91974 C 129.69438,110.27559 122.17195,95.629873 121.771,95.373696 121.37005,95.117519 113.72327,109.55364 104.77816,127.45396 L 88.514317,160 H 65.257158 C 52.465721,160 42,159.77576 42,159.50168 Z"/></svg>
-				<span>Strava</span>
-			</a>
-		</div>
-		</div>
-</div>
-
-	
-<div class="widget-taglist widget">
-	<h4 class="widget__title">Tags</h4>
-	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/apps" title="Apps">Apps</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/backup" title="Backup">Backup</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/darktable" title="Darktable">Darktable</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/dired" title="Dired">Dired</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/facebook" title="Facebook">Facebook</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/fontaner%c3%ada" title="Fontanería">Fontanería</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gdrive" title="Gdrive">Gdrive</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gimp" title="Gimp">Gimp</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gmail" title="Gmail">Gmail</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/google" title="Google">Google</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gopro" title="Gopro">Gopro</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gphoto-sync" title="Gphoto sync">Gphoto sync</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gps" title="Gps">Gps</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/gtumb" title="Gtumb">Gtumb</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/hdr" title="Hdr">Hdr</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/iawriter" title="Iawriter">Iawriter</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/keep" title="Keep">Keep</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/keepass" title="Keepass">Keepass</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/linux" title="Linux">Linux</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/markdown" title="Markdown">Markdown</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/panoramica" title="Panoramica">Panoramica</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/photomatix" title="Photomatix">Photomatix</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/photoshop" title="Photoshop">Photoshop</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/server" title="Server">Server</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/shell" title="Shell">Shell</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/sherlodj" title="Sherlodj">Sherlodj</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/software" title="Software">Software</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/synology" title="Synology">Synology</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tilt-shift" title="Tilt shift">Tilt shift</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/tracks" title="Tracks">Tracks</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/trekbuddy" title="Trekbuddy">Trekbuddy</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/trimage" title="Trimage">Trimage</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/virtualdub" title="Virtualdub">Virtualdub</a>
 	</div>
-</div>
-</aside>
-	</div>
-		<footer class="footer">
-			<div class="container container-inner">
-				<div class="footer__copyright">&copy; 2019 Sherblog. <span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y el tema <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> editado por Sherlockes.</span></div>
-			</div>
-		</footer>
-	</div>
-
-<script>
-	var navigation = responsiveNav(".menu", {
-		navClass: "menu--collapse",
-	});
-</script></body>
-</html>
+</footer>
