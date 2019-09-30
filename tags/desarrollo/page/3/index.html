@@ -7,7 +7,6 @@
 	<title>Desarrollo</title>
 	<meta name="description" content="">
 
-	
 	<meta name="twitter:card" content="" />
 	<meta name="twitter:title" content="Desarrollo" />
 	<meta name="twitter:image" content="http://sherblog.pro/images/logo.png" />
@@ -34,13 +33,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	
-	
-	<link rel="stylesheet" href="/css/custom.css">
-	<script src="/js/custom.js"></script>
-
-
-
 	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
 	
 </head>
@@ -89,7 +81,7 @@
 </span></div>
 		</header>
 		<div class="list__excerpt post__content">
-			Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas.
+			Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas. Su sintaxis es similar a la de MediaWiki, aunque a diferencia de este software, la información se almacena en archivos de texto planos, por lo que no requiere el uso de una base de datos.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -112,7 +104,7 @@
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.
+ http://192.168.1.202/sherblog/
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -135,7 +127,8 @@
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.
+ cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
+Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -157,7 +150,8 @@
 </span></div>
 		</header>
 		<div class="list__excerpt post__content">
-			Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &ldquo;home&rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &ldquo;latest.tar.gz&rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &ldquo;wordpress-4.
+			Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &ldquo;home&rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &ldquo;latest.tar.gz&rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &ldquo;wordpress-4.8.2-es_ES.tar.gz&rdquo;
+ sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.
 		</div>
 	</div>
 </article>

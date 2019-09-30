@@ -7,7 +7,6 @@
 	<title>Raspberry</title>
 	<meta name="description" content="">
 
-	
 	<meta name="twitter:card" content="" />
 	<meta name="twitter:title" content="Raspberry" />
 	<meta name="twitter:image" content="http://sherblog.pro/images/logo.png" />
@@ -34,13 +33,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	
-	
-	<link rel="stylesheet" href="/css/custom.css">
-	<script src="/js/custom.js"></script>
-
-
-
 	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
 	
 </head>
@@ -113,6 +105,7 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		</header>
 		<div class="list__excerpt post__content">
 			Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
+sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -135,7 +128,7 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		</header>
 		<div class="list__excerpt post__content">
 			Antes de pensar en como realizar una copia de seguridad para las instalaciones de WordPress y Dokuwiki que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.
-En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp-content&rdquo;.
+En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp-content&rdquo;. Para el caso de la Wiki, aquí podemos ver las carpetas necesarias que se recomienda guardar aunque yo he optado por prescindir de las versiones antiguas de páginas y archivos multimedia.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -157,7 +150,7 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 </span></div>
 		</header>
 		<div class="list__excerpt post__content">
-			Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas.
+			Que es DokuWiki Según la Wikipedia, DokuWiki es un software para gestión de webs colaborativas de tipo wiki, escrito en lenguaje de programación PHP y distribuido en código abierto bajo la licencia GPL. Está enfocado para ser usado por grupos de desarrolladores, grupos de trabajo en general y pequeñas empresas. Su sintaxis es similar a la de MediaWiki, aunque a diferencia de este software, la información se almacena en archivos de texto planos, por lo que no requiere el uso de una base de datos.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -180,7 +173,7 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.
+ http://192.168.1.202/sherblog/
 		</div>
 	</div>
 </article>

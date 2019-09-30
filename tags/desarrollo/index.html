@@ -7,7 +7,6 @@
 	<title>Desarrollo</title>
 	<meta name="description" content="">
 
-	
 	<meta name="twitter:card" content="" />
 	<meta name="twitter:title" content="Desarrollo" />
 	<meta name="twitter:image" content="http://sherblog.pro/images/logo.png" />
@@ -34,13 +33,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	
-	
-	<link rel="stylesheet" href="/css/custom.css">
-	<script src="/js/custom.js"></script>
-
-
-
 	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
 	
 </head>
@@ -136,6 +128,7 @@
 		</header>
 		<div class="list__excerpt post__content">
 			Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -158,7 +151,7 @@
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
-cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?
+cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -181,7 +174,7 @@ cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola
 		</header>
 		<div class="list__excerpt post__content">
 			Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
- sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &ldquo;root&rdquo;.
+ sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &ldquo;root&rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.
 		</div>
 	</div>
 </article>

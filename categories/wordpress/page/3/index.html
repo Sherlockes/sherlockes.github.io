@@ -7,7 +7,6 @@
 	<title>WordPress</title>
 	<meta name="description" content="">
 
-	
 	<meta name="twitter:card" content="" />
 	<meta name="twitter:title" content="WordPress" />
 	<meta name="twitter:image" content="http://sherblog.pro/images/logo.png" />
@@ -34,13 +33,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	<script type="text/javascript" src="/js/scripts.js"></script>
-	
-	
-	<link rel="stylesheet" href="/css/custom.css">
-	<script src="/js/custom.js"></script>
-
-
-
 	<link rel="shortcut icon" href="http://sherblog.pro/favicon.ico">
 	
 </head>
@@ -90,6 +82,7 @@
 		</header>
 		<div class="list__excerpt post__content">
 			En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &ldquo;www.sherver.site88.net&rdquo; que tenía alojada en 000webhost. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&rdquo;.
+Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -113,6 +106,8 @@
 		<div class="list__excerpt post__content">
 			Hoy he intentado administrar el blog y me he encontrado con este pantallazo
 Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.
+En el archivo en el archivo &ldquo;wp-config.php&rdquo; hay que añadir las siguientes líneas
+/** Ampliación de memoria*/ define('WP_MEMORY_LIMIT', '96M');  Y a funcionar de nuevo!
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -135,7 +130,7 @@ Parece que hay un problema de memoria en el servidor. Lo primero que he pensado 
 		</header>
 		<div class="list__excerpt post__content">
 			Estamos de nuevo aquí para buscar la solución a un problema que tarde o temprano todo webmaster debe afrontar como es crear una copia de seguridad para nuestra web en WordPress. Como siempre, intentaré buscar algo sencillo, práctico y sobre todo gratuito.
-Antes de nada necesito un sitio para guardar la copia de seguridad &ldquo;en la nube&rdquo;.
+Antes de nada necesito un sitio para guardar la copia de seguridad &ldquo;en la nube&rdquo;. No he probado otros, pero por el precio y características Google Drive es una buena alternativa.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -159,6 +154,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &ldquo;en la 
 		<div class="list__excerpt post__content">
 			Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.
 		</div>
 	</div>
 </article><article class="list__item post">
@@ -176,6 +172,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &ldquo;en la 
 		</header>
 		<div class="list__excerpt post__content">
 			A raíz de las últimas actualizaciones de WordPress, tengo un problema con el plugin wp-db-backup y es que cuando lo activo e intento acceder a la zona de administración me aparece un hermoso cartel en el que se informa &ldquo;No estás autorizado para acceder a esta página&rdquo; aún después de haber mi nombre de usuario y contraseña como administrador.
+Para el que no lo sepa, la única misión de este complemento es realizar una copia de seguridad de la base de datos que gestiona wordpress bajo demanda del usuario o programada con una cierta frecuencia.
 		</div>
 	</div>
 </article>
