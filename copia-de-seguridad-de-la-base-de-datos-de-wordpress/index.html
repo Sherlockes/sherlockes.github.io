@@ -1,4 +1,34 @@
-<header class="header">
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Copia de seguridad de la base de datos de WordPress - Sherblog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Así es como realizo la copia de seguridad de la base de datos de WordPress hacia Google Drive">
+	<meta property="og:title" content="Copia de seguridad de la base de datos de WordPress" />
+<meta property="og:description" content="Así es como realizo la copia de seguridad de la base de datos de WordPress hacia Google Drive" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/copia-de-seguridad-de-la-base-de-datos-de-wordpress/" />
+<meta property="article:published_time" content="2017-04-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-04-04T00:00:00+00:00" />
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Copia de seguridad de la base de datos de WordPress"/>
+<meta name="twitter:description" content="Así es como realizo la copia de seguridad de la base de datos de WordPress hacia Google Drive"/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
 	<div class="container">
 		<div class="logo">
 			<a class="logo__link" href="/" title="Sherblog" rel="home">
@@ -9,11 +39,14 @@
 		<div class="divider"></div>
 	</div>
 </header>
-
-<main class="main content">
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Copia de seguridad de la base de datos de WordPress</h1><div class="post__meta meta">
+			<h1 class="post__title">Copia de seguridad de la base de datos de WordPress</h1>
+			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
 	<time class="meta__text" datetime="2017-04-04T00:00:00">2017-04-04</time>
@@ -27,7 +60,7 @@
 		</header>
 		<figure class="post__thumbnail">
 			<img src="/images/20170228_db_backup_00.jpg" alt="Copia de seguridad de la base de datos de WordPress">
-		</figure><div class="post__content clearfix">
+		</figure><div class="content post__content clearfix">
 			<p>Hace unos días expliqué como gestiona la copia de seguridad de los archivos de WordPress (la carpeta wp-content) y aquí vamos a ver como hago lo propio con la base de datos. El flujo de trabajo es simple, periódicamente me llega un correo electrónico con la base de datos comprimida como archivo adjunto y guardo ese archivo en mi unidad de Google Drive.</p>
 
 <p>El plugin de WordPress <a href=" https://es.wordpress.org/plugins/wp-db-backup/">WP-DB-Backup</a> es el que se encarga de enviar un correo electrónico periódicamente con la copia de la base de datos. La configuración es muy sencilla, una vez que el plugin está instalado y activo vamos al menú &ldquo;Herramientas - Copia de respaldo&rdquo; del escritorio de WordPress y bajamos hasta la opción &ldquo;Respaldo Programado&rdquo;.</p>
@@ -117,12 +150,11 @@ function limpiar(matriz){
 
 <p>Y con esto creo que tengo más que suficiente para cubrir mis necesidades ocupando un espacio limitado.</p>
 
-			No me apetece perder nada de tiempo con el <a href="https://rgpd.es">RGPD</a> así que si tienes alguna duda, pregunta o sugerencia no dudes en dejarme un <a href="https://twitter.com/sherblogpro">Tweet</a> en @sherblogpro.  Intentaré responderte o complacerte si se o puedo o inventigar en ello para un nuevo post si no lo conozco.
 		</div>
-		
 	</article>
-	
-	
+</main>
+
+
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
 		<a class="post-nav__link" href="/flujo-de-trabajo-con-im%C3%A1genes-en-wordpress/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Flujo de trabajo con imágenes en WordPress</p></a>
@@ -131,11 +163,12 @@ function limpiar(matriz){
 		<a class="post-nav__link" href="/deshabilitar-cache-en-chrome/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">Deshabilitar cache en chrome</p></a>
 	</div>
 </nav>
-	
-</main>
 
 
-<footer class="footer">
+			</div>
+			
+		</div>
+		<footer class="footer">
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
@@ -144,3 +177,7 @@ function limpiar(matriz){
 		</div>
 	</div>
 </footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script></body>
+</html>
