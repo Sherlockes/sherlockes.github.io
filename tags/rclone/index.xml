@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rclone on Sherblog</title>
+    <title>rclone on Sherblog</title>
     <link>/tags/rclone/</link>
-    <description>Recent content in Rclone on Sherblog</description>
+    <description>Recent content in rclone on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rclone en Synology</title>
+      <link>/rclone-en-synology/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/rclone-en-synology/</guid>
+      <description>&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Raspberry configurando rclone sin entorno gráfico</title>

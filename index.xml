@@ -6,10 +6,19 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rclone en Synology</title>
+      <link>/rclone-en-synology/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/rclone-en-synology/</guid>
+      <description>&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Backup de Google Photos</title>
@@ -82,15 +91,6 @@ Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con 
       <title>Primeros pasos con Zerotier</title>
       <link>/primeros-pasos-con-zerotier/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/primeros-pasos-con-zerotier/</guid>
-      <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión. Después de varias pruebas y de mucho tiempo funcionando de un día para otro y sin tocar ninguna configurando el sistema ha dejado de funcionar.</description>
-    </item>
-    
-    <item>
-      <title>Primeros pasos con Zerotier</title>
-      <link>/primeros-pasos-con-zerotier/</link>
-      <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/primeros-pasos-con-zerotier/</guid>
       <description>La situación. Hace unos días que vengo teniendo problemas con la conexión VPN (Servidor VPN) que utilizo para conectarme a la red de mi casa cuando estoy en movilidad. Parece que el problema no está en el servidor VPN que corre sobre la Raspberry B+ ni en el cliente de openvpn que utilizo en mi terminal Android, pero no ha sido fácil llegar a esta conclusión. Después de varias pruebas y de mucho tiempo funcionando de un día para otro y sin tocar ninguna configurando el sistema ha dejado de funcionar.</description>
