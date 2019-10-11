@@ -65,18 +65,18 @@
 
 <p>Si entramos en la web de Rclone podemos ver que la instalación es tan sencilla como una línea de código</p>
 
-<pre><code class="language-curl">
-Pero al hacerlo en el NAS de Synology esta instalación se queda colgada por motivos que todavía desconozco por lo que realizo la instalación de forma manual con los siguientes comandos tal y como se indica en la web oficial
-
+<pre><code>curl https://rclone.org/install.sh | sudo bash
 </code></pre>
 
-<p>curl -O <a href="https://downloads.rclone.org/rclone-current-linux-amd64.zip">https://downloads.rclone.org/rclone-current-linux-amd64.zip</a>
+<p>Pero al hacerlo en el NAS de Synology esta instalación se queda colgada por motivos que todavía desconozco por lo que realizo la instalación de forma manual con los siguientes comandos tal y como se indica en la web oficial</p>
+
+<pre><code>curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
 7z x rclone-current-linux-amd64.zip
 cd rclone-*-linux-amd64
 sudo cp -f rclone /usr/bin/
 sudo chown root:root /usr/bin/rclone
 sudo chmod 755 /usr/bin/rclone
-```</p>
+</code></pre>
 
 <p>Los comandos anteriores realizan las siguientes acciones.
 + Descargar la ultima versión de Rclone
