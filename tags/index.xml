@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sherblog</title>
@@ -165,7 +165,7 @@
     </item>
     
     <item>
-      <title>Synology</title>
+      <title>synology</title>
       <link>/tags/synology/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
