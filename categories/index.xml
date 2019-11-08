@@ -5,10 +5,19 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sherver</title>
@@ -56,7 +65,7 @@
     </item>
     
     <item>
-      <title>Hugo</title>
+      <title>hugo</title>
       <link>/categories/hugo/</link>
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -70,15 +79,6 @@
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/dise%C3%B1o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Varios</title>
-      <link>/categories/varios/</link>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/varios/</guid>
       <description></description>
     </item>
     
@@ -101,7 +101,7 @@
     </item>
     
     <item>
-      <title>GPS</title>
+      <title>gps</title>
       <link>/categories/gps/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
