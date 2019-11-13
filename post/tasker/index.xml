@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mis usos de Tasker on Sherblog</title>
+    <title>Tasker on Sherblog</title>
     <link>/post/tasker/</link>
-    <description>Recent content in Mis usos de Tasker on Sherblog</description>
+    <description>Recent content in Tasker on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 27 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/tasker/index.xml" rel="self" type="application/rss+xml" />
     
