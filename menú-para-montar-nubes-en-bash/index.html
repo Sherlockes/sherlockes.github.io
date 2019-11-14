@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Menú para montar nubes en Bash - Sherblog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Cuando las tareas, por sencillas que sean, son repetitivas lo mejor es automatizarlas.">
+	<meta property="og:title" content="Menú para montar nubes en Bash" />
+<meta property="og:description" content="Cuando las tareas, por sencillas que sean, son repetitivas lo mejor es automatizarlas." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/men%C3%BA-para-montar-nubes-en-bash/" />
+<meta property="article:published_time" content="2019-11-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-11-05T00:00:00+00:00" />
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Menú para montar nubes en Bash"/>
+<meta name="twitter:description" content="Cuando las tareas, por sencillas que sean, son repetitivas lo mejor es automatizarlas."/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Sherblog" rel="home">
+				<div class="logo__title">Sherblog</div>
+				<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menú</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/post/raspberry/">Raspberry Pi desde cero</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/post/tasker/">Tasker</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Menú para montar nubes en Bash</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2019-11-05T00:00:00">2019-11-05</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/varios" rel="category">Varios</a></span>
+</div>
+</div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/images/20191105_script_nubes_00.jpg" alt="Menú para montar nubes en Bash">
+		</figure>
+<div class="post__toc toc">
+	<div class="toc__title">Índice</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#declaración-de-variables">Declaración de variables</a></li>
+<li><a href="#comprobación-de-montaje">Comprobación de montaje</a></li>
+<li><a href="#mostrar-el-menú">Mostrar el menú</a></li>
+<li><a href="#montar-y-desmontar-las-unidades">Montar y desmontar las unidades</a></li>
+<li><a href="#captando-la-decisión-del-usuario">Captando la decisión del usuario</a></li>
+<li><a href="#el-bucle-principal">El bucle principal</a></li>
+</ul></li>
+</ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<p>Ya hace un tiempo que utilizo la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con <a href="https://linuxmint.com/">Linux Mint</a>. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.</p>
+
+<p>Puesto que este script va a estar en una continua modificación y mejora no lo voy a dejar aquí expuesto, si quieres descargarlo tan sólo tienes que acudir a mi repositorio en Github y descargar <a href="https://github.com/sherlockes/SherloScripts/blob/master/sherlomenu">Sherlomenu</a>.</p>
+
+<h2 id="declaración-de-variables">Declaración de variables</h2>
+
+<p>Por cada nube o carpeta remota que vaya a a montar como una unidad en mi unidad local voy a utilizar dos variables, una con la ruta donde voy a montar la unidad y otra con el comando necesario para montarla.</p>
+
+<p>Por ejemplo, para el caso de <a href="https://mega.nz">Mega.nz</a> utilizo estas dos variables</p>
+
+<pre><code>Mega_dir=~/Mega
+Mega_cmd='rclone mount Sherlockes_Mega: $Mega_dir --daemon'
+</code></pre>
+
+<p>Es importante que no se esté utilizando ya la ruta a la carpeta que se ha definido, ya que el script la borrará para asegurar un correcto montaje</p>
+
+<h2 id="comprobación-de-montaje">Comprobación de montaje</h2>
+
+<p>Esta es una función que se encarga de comprobar si la nube que le pasemos como argumento está o no ya montada. Tiene dos funciones</p>
+
+<ul>
+<li>Indicar si el script tiene que montar o desmontar la nube</li>
+<li>Modificar el texto del menú en función del estado actual</li>
+</ul>
+
+<p>La función es la siguiente:</p>
+
+<pre><code class="language-sh">montado (){
+    local carpeta=&quot;$1_dir&quot;
+    if test -d ${!carpeta};
+    then
+	if mountpoint -q ${!carpeta}; then
+	    return 0
+	else
+	    rm -rf ${!carpeta}
+	    return 1
+	fi
+    else
+	return 1
+    fi
+}
+</code></pre>
+
+<p>Podemos ver como en un primer momento se declara la variable local &ldquo;carpeta&rdquo; y se le asigna la unión del primer argumento de la función y &ldquo;_dir&rdquo;. De esta forma, al lamar a <code>montado &quot;Mega&quot;</code> tendremos como valor de la variable &ldquo;carpeta&rdquo; a &ldquo;Mega_dir&rdquo; de la que a continuación haremos uso a través de las variables indirectas.</p>
+
+<blockquote>
+<p>Gracias al uso de variables indirectas es posible obtener el valor de una variable a partir de otra cuyo valor es el nombre de la primera.</p>
+</blockquote>
+
+<p>El primer condicional comienza comprobando la esistencia de &ldquo;carpeta&rdquo; como una ruta existente mediante el comando <code>test</code>. Si la carpeta existe, comprueba si esta está montada y si es así devuelve &ldquo;0&rdquo;, si no está montada la borra y devuelve &ldquo;1&rdquo;. Si la carpeta no existe directamente devuelve &ldquo;1&rdquo;</p>
+
+<h2 id="mostrar-el-menú">Mostrar el menú</h2>
+
+<p>Simplemente una serie de &ldquo;echos&rdquo; anidados que nos mostrará en unas pocas líneas las opciones de las que disponemos.</p>
+
+<pre><code class="language-sh">show_menus() {
+    clear
+    echo &quot;------------------------------------&quot;	
+    echo &quot;--------  www.sherblog.pro  --------&quot;
+    echo &quot;------------------------------------&quot;
+    montado &quot;Sherloflix&quot; &amp;&amp; echo &quot;-- 1. Sherloflix (Desmontar)      --&quot; || echo &quot;-- 1. Sherloflix                  --&quot;
+    montado &quot;Mega&quot; &amp;&amp; echo &quot;-- 2. Mega (Desmontar)            --&quot; || echo &quot;-- 2. Mega                        --&quot;
+    montado &quot;VideoNas&quot; &amp;&amp; echo &quot;-- 3. Videos en Nas (Desmontar)   --&quot; || echo &quot;-- 3. Videos en Ds216+ II         --&quot;
+    echo &quot;-- 4. Backup de Google Photos     --&quot;
+    echo &quot;-- 5. Salir                       --&quot;
+    echo &quot;------------------------------------&quot;
+}
+</code></pre>
+
+<p>En un primer momento borra la pantalla para posteriormente escribir nuevamente el menú. En el caso de las nubes se ha usado una estructura de condicional en una sola linea para comprobar en estado de la nube y así mostrar la descripción de lo que hará el comando en caso de seleccionarlo, es decir, aparecerá &ldquo;Desmontar&rdquo; en caso de que la nube ya esté montada.</p>
+
+<blockquote>
+<p>Las condicionales en uns sólo línea se basan en la siguiente estructura:
+condicion &amp;&amp; si_se_cumple || si_no_se_cumple</p>
+</blockquote>
+
+<h2 id="montar-y-desmontar-las-unidades">Montar y desmontar las unidades</h2>
+
+<p>En la mayoría de los casos que hasta ahora utilizo el montaje de la unidad es tan sencillo como crear la carpeta y ejecutar un comando , la operación inversa pasa por el desmontaje de la carpeta y una posterior eliminación de la misma. Según esto, he creado una función que de forma genérica realiza estas funciones para los distintos casos en función de los argumentos que se le pasen.</p>
+
+<pre><code class="language-sh">des_montar(){
+    local carpeta=&quot;$1_dir&quot;
+    local comando=&quot;$1_cmd&quot;
+    
+    if montado $1;
+    then
+        echo &quot;Desmontando $1...&quot;
+        fusermount -u ${!carpeta}
+        echo &quot;Se va a eliminar la carpeta contenedora...&quot;
+        rm -rf ${!carpeta}
+    else
+        echo &quot;Montando $1...&quot;
+        mkdir ${!carpeta}
+        eval ${!comando}
+    fi
+}
+</code></pre>
+
+<p>El condicional comprueba si el argmento que le pasamos a la función está ya montado. Si está montado procede a desmontar la unidad y borrar la carpeta. Si no lo está, crea la carpeta y ejecuta el comando personalizado.</p>
+
+<blockquote>
+<p>Gracias al uso de variables indirectas y del comando &ldquo;eval&rdquo; podemos guardar dentro de una variable externa a la función un comando y ejecuarlo posteriormente</p>
+</blockquote>
+
+<h2 id="captando-la-decisión-del-usuario">Captando la decisión del usuario</h2>
+
+<p>El script deba captar lo que el usuario quiere hacer, para ello se hace uso de la variable &ldquo;choice&rdquo; y del comando &ldquo;read&rdquo; que combinados nos permiten realizar una función distinta para las distintas posibilidades.</p>
+
+<pre><code class="language-sh">read_options(){
+    local choice
+    read -p &quot;Selecciona una opción [ 1 - 5] &quot; choice
+    case $choice in
+		1) des_montar &quot;Sherloflix&quot; ;;
+		2) des_montar &quot;Mega&quot; ;;
+        3) des_montar &quot;VideoNas&quot; ;;
+        4) Google_Photos ;;      
+	5) exit 0;;
+	*) echo -e &quot;...Error...&quot; &amp;&amp; sleep 2
+    esac
+}
+</code></pre>
+
+<p>Hay una opción para casa nube, una opción para salir y un error que mostrar en caso de que selecciones alguna opción distinta a las previstas.</p>
+
+<h2 id="el-bucle-principal">El bucle principal</h2>
+
+<p>Un simple &ldquo;while true&rdquo; que se ejecuta indefinidamente.</p>
+
+<pre><code class="language-sh">while true
+do
+    sleep 2
+    show_menus
+    read_options
+done
+
+</code></pre>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/bash/" rel="tag">bash</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/rclone/" rel="tag">rclone</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/rclone-en-synology/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Rclone en Synology</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2019 Sherblog.
+			<span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script></body>
+</html>
