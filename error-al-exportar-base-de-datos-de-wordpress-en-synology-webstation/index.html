@@ -76,12 +76,9 @@
 			<img src="/images/20170505_error_export_database_00.jpg" alt="Error al exportar base de datos de WordPress en Synology webStation">
 		</figure><div class="content post__content clearfix">
 			<p>Hace unos días que publiqué el <a href="/copia-de-seguridad-de-la-base-de-datos-de-wordpress/">modo</a> en el que hacía la copia de seguridad de la base de datos de WordPress desde el propio hosting hasta una unidad de Google Drive. Haciendo pruebas para alojar la web en el Nas de Synology me doy cuenta de que el <a href="https://es.wordpress.org/plugins/wp-db-backup">plugin</a> para exportar la base de datos y enviarla por correo electrónico periódicamente no funciona.</p>
-
 <p>Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pruebas y un poco de buceo por la red me doy cuenta que el problema reside en la incapacidad del servidor web para tratar los archivos comprimidos.</p>
-
 <p>La solución es simple, sólo hace falta habilitar la extensión &ldquo;zip&rdquo; de la configuración de php del Synology WebStation tal y como se puede ver en la siguiente imagen.</p>
-
-<p>![error_db][1]</p>
+<p><img src="/images/20170505_error_export_database_01.jpg" alt="error_db"></p>
 
 		</div>
 		<footer class="post__footer">

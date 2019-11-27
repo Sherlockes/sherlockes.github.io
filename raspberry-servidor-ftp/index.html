@@ -75,34 +75,15 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20180406_raspberry_vsftpd.jpg" alt="Raspberry Servidor ftp">
 		</figure><div class="content post__content clearfix">
-			
-
-<h3 id="instalando-vsftpd">Instalando VSftpD</h3>
-
+			<h3 id="instalando-vsftpd">Instalando VSftpD</h3>
 <p>Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.</p>
-
-<p><code>
-cd ~
-sudo apt-get update
-sudo apt-get install vsftpd -y
-sudo nano /etc/vsftpd.conf
-</code></p>
-
+<!-- raw HTML omitted -->
 <p>Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.</p>
-
-<p><code>
-local_enable=YES
-write_enable=YES
-</code></p>
-
+<!-- raw HTML omitted -->
 <p>*** Actualización ***
 //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &ldquo;pi&rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &ldquo;www-data&rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//</p>
-
 <p>Guardamos los cambios y reiniciamos el servidor para que tengan efecto.</p>
-
-<p><code>
-sudo service vsftpd restart
-</code></p>
+<!-- raw HTML omitted -->
 
 		</div>
 		<footer class="post__footer">

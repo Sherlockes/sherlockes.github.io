@@ -76,24 +76,16 @@
 			<img src="/images/20190915_rclone_synology.jpg" alt="Rclone en Synology">
 		</figure><div class="content post__content clearfix">
 			<p>La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.</p>
-
 <p>Si entramos en la web de Rclone podemos ver que la instalación es tan sencilla como una línea de código</p>
-
 <pre><code>curl https://rclone.org/install.sh | sudo bash
-</code></pre>
-
-<p>Pero al hacerlo en el NAS de Synology esta instalación se queda colgada por motivos que todavía desconozco por lo que realizo la instalación de forma manual con los siguientes comandos tal y como se indica en la web oficial</p>
-
+</code></pre><p>Pero al hacerlo en el NAS de Synology esta instalación se queda colgada por motivos que todavía desconozco por lo que realizo la instalación de forma manual con los siguientes comandos tal y como se indica en la web oficial</p>
 <pre><code>curl -O https://downloads.rclone.org/rclone-current-linux-amd64.zip
 7z x rclone-current-linux-amd64.zip
 cd rclone-*-linux-amd64
 sudo cp -f rclone /usr/bin/
 sudo chown root:root /usr/bin/rclone
 sudo chmod 755 /usr/bin/rclone
-</code></pre>
-
-<p>Los comandos anteriores realizan las siguientes acciones.</p>
-
+</code></pre><p>Los comandos anteriores realizan las siguientes acciones.</p>
 <ul>
 <li>Descargar la ultima versión de Rclone</li>
 <li>Descomprimir el archivo descargado</li>
@@ -102,9 +94,7 @@ sudo chmod 755 /usr/bin/rclone
 <li>Establecer a &ldquo;root&rdquo; como el propietario del archivo</li>
 <li>Otorgar los premisos de lectura/escritura necesarios</li>
 </ul>
-
 <p>Si la instalación se ha realizado de forma correcta, el comando <code>rclone version</code> nos mostrará la versión de Rclone instalada.</p>
-
 <p>Recursos útiles&hellip;
 <a href="https://rclone.org/install/#linux-installation-from-precompiled-binary">https://rclone.org/install/#linux-installation-from-precompiled-binary</a>
 <a href="https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools">https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools</a></p>

@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 13 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>diseño</title>
       <link>/categories/dise%C3%B1o/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/dise%C3%B1o/</guid>
       <description></description>
@@ -119,7 +119,7 @@
     </item>
     
     <item>
-      <title>WordPress</title>
+      <title>wordpress</title>
       <link>/categories/wordpress/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       

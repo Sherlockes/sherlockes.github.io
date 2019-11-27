@@ -27,7 +27,6 @@
       
       <guid>/raspberry-montaje-y-ssh/</guid>
       <description>&lt;h3 id=&#34;montaje-y-acceso-ssh&#34;&gt;Montaje y acceso ssh&lt;/h3&gt;
-
 &lt;p&gt;Ya tengo todo lo que creo que necesito.  Una &lt;a href=&#34;https://www.amazon.es/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;Raspberry&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B013UDL58E/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;tarjeta micro sd&lt;/a&gt;, una &lt;a href=&#34;https://www.amazon.es/gp/product/B01DDFFOYK/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;fuente de alimentación&lt;/a&gt; y un &lt;a href=&#34;https://www.amazon.es/gp/product/B001U3ZRBS/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;amp;psc=1&#34;&gt;cable de red&lt;/a&gt;.  Total 59€ de inversión inicial que supongo no se quedarán ahí.&lt;/p&gt;</description>
     </item>
     
@@ -47,8 +46,8 @@
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-red-y-wifi/</guid>
-      <description>Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &amp;ldquo;/etc/dhcpcd.conf&amp;rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
-interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&amp;gt; Ctrl + o Salimos del editor nano =&amp;gt; Ctrl + x Reiniciamos la Raspberry =&amp;gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&amp;gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.</description>
+      <description>Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &amp;ldquo;/etc/dhcpcd.conf&amp;rdquo; mediante la instrucción sudo nano /etc/dhcpcd.confe introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1  Guardamos el archivo =&amp;gt; Ctrl + o Salimos del editor nano =&amp;gt; Ctrl + x Reiniciamos la Raspberry =&amp;gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&amp;gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.</description>
     </item>
     
     <item>
@@ -57,8 +56,8 @@ interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 sta
       <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-apache-y-php/</guid>
-      <description>Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &amp;ldquo;index.html&amp;rdquo;, crearemos un archivo &amp;ldquo;index.php&amp;rdquo; en el que escribiremos un mensaje &amp;ldquo;hola mundo&amp;rdquo; y reiniciaremos el servidor.
-cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;quot;hola mundo&amp;quot;; ?&amp;gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &amp;ldquo;hola mundo&amp;rdquo;.</description>
+      <description>Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y Para comprobar la correcta instalación de php borraremos el archivo &amp;ldquo;index.html&amp;rdquo;, crearemos un archivo &amp;ldquo;index.php&amp;rdquo; en el que escribiremos un mensaje &amp;ldquo;hola mundo&amp;rdquo; y reiniciaremos el servidor.
+cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;quot;hola mundo&amp;quot;; ?&amp;gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &amp;ldquo;hola mundo&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -68,7 +67,9 @@ cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;q
       
       <guid>/raspberry-mysql-y-db/</guid>
       <description>Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
- sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &amp;ldquo;root&amp;rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.</description>
+Accedemos a la consola de MySql con el siguiente comando tras el cual se nos solicitará la contraseña correspondiente al usuario &amp;ldquo;root&amp;rdquo;
+sudo mysql -u root -p
+Ya estamos listos para crear la base de datos, el usuario que la manejará y asignación al segundo todos los privilegios sobre la primera.</description>
     </item>
     
     <item>
@@ -77,13 +78,15 @@ cd /var/www/html sudo rm index.html sudo nano index.php &amp;lt;?php echo &amp;q
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-y-docker/</guid>
-      <description>Manejando contenedores con Docker Instalar Docker
- sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+      <description>Manejando contenedores con Docker Instalar Docker\
+sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
 sudo curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;)/gpg | sudo apt-key add -
-sudo echo &amp;ldquo;deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;) $(lsb_release -cs) stable&amp;rdquo; | sudo tee /etc/apt/sources.list.d/docker.list
-sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker 
-añadir tu usuario al grupo de docker\
-eliminar todos los contenedores con un solo comando\\  docker rm $(docker ps -a -q)```</description>
+sudo echo &amp;ldquo;deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo &amp;ldquo;$ID&amp;rdquo;)
+$(lsb_release -cs) stable&amp;rdquo; |
+sudo tee /etc/apt/sources.list.d/docker.list
+sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo systemctl start docker añadir tu usuario al grupo de docker\
+sudo gpasswd -a ${USER} docker
+eliminar todos los contenedores con un solo comando\</description>
     </item>
     
     <item>
@@ -93,8 +96,7 @@ eliminar todos los contenedores con un solo comando\\  docker rm $(docker ps -a 
       
       <guid>/raspberry-servidor-vpn/</guid>
       <description>Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
- Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas
-sudo apt update sudo apt upgrade curl -L https://install.pivpn.io | bash   Para los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.</description>
+ Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt updatesudo apt upgradecurl -L https://install.pivpn.io | bashPara los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.</description>
     </item>
     
     <item>
@@ -114,7 +116,7 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
       
       <guid>/raspberry-reinicios-peri%C3%B3dicos/</guid>
       <description>Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea</description>
+sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea</description>
     </item>
     
     <item>
@@ -142,8 +144,7 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/raspberry-instalando-wordpress/</guid>
-      <description>Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.168.1.202/sherblog/</description>
+      <description>Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.</description>
     </item>
     
     <item>
@@ -153,8 +154,8 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &amp;ldqu
       
       <guid>/raspberry-servidor-ftp/</guid>
       <description>Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&amp;hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
-Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.</description>
+Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
+*** Actualización *** //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &amp;ldquo;pi&amp;rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &amp;ldquo;www-data&amp;rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//</description>
     </item>
     
     <item>
@@ -164,7 +165,8 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       
       <guid>/raspberry-descargando-wordpress/</guid>
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
- sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.</description>
+Las líneas de arriba realizan la siguiente secuencia:
+ Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &amp;ldquo;home&amp;rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &amp;ldquo;/var/www/html/sherblog&amp;rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &amp;ldquo;wp-config&amp;rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.</description>
     </item>
     
   </channel>

@@ -75,38 +75,23 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20161014_promociones_05.jpg" alt="Automatizando la limpieza de Gmail">
 		</figure><div class="content post__content clearfix">
-			
-
-<h3 id="el-problema">El problema</h3>
-
+			<h3 id="el-problema">El problema</h3>
 <p>Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &ldquo;Promociones&rdquo; creo que este artículo te va a interesar.</p>
-
 <p>Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &ldquo;Promociones&rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</p>
-
-<p><img src="/images/20161014_promociones_01.jpg" alt="imagen" /></p>
-
+<p><img src="/images/20161014_promociones_01.jpg" alt="imagen"></p>
 <p>Para mi, todos estos son mensajes de segunda categoría, es decir, no pasa nada si alguno se queda sin leer y no los leo a diario. Por esto tienden a acumularse y la mayoría de ellos cuando los lees ya no tienen relevancia puesto que suelen ser promociones temporales. Me resulta muy fácil acumular cientos de mensajes en esta pestaña y de vez en cuando tengo que perder tiempo en borrar los antiguos. Para ello utilizo un filtro que me busque todos los mensajes de la pestaña promociones con mas de diez días en la bandeja de entrada, los selecciono y los borro.</p>
-
-<p><img src="/images/20161014_promociones_02.jpg" alt="imagen" /></p>
-
+<p><img src="/images/20161014_promociones_02.jpg" alt="imagen"></p>
 <p>Cierto es que esta operación supone un gasto de tiempo pequeño, pero me pregunto&hellip; ¿Podrá automatizarse esto? Pues si, y de una forma bastante sencilla usando <a href="https://www.google.com/script/start/">Google Apps Script</a>. Tan sencillo como entrar en <a href="https://drive.google.com/drive/u/0/my-drive">Google Drive</a> y crear un nuevo &ldquo;Google Apps Script&rdquo;.</p>
-
-<p><img src="/images/20161014_promociones_03.jpg" alt="imagen" /></p>
-
+<p><img src="/images/20161014_promociones_03.jpg" alt="imagen"></p>
 <p>Aparece un nuevo proyecto en blanco en el que incluiremos la siguiente función:</p>
-
 <pre><code>function limpiar_propaganda() {
   var filtro = GmailApp.search('category:promotions older_than:10d');
   for (var i = 0; i &amp;lt; filtro.length; i++) {
     filtro[i].moveToTrash();
   }
 }
-</code></pre>
-
-<p>Lo guardamos, le damos nombre y fijamos los activadores del proyecto activo a una ejecución por hora o lo que cada uno considere adecuado.</p>
-
-<p><img src="/images/20161014_promociones_04.jpg" alt="imagen" /></p>
-
+</code></pre><p>Lo guardamos, le damos nombre y fijamos los activadores del proyecto activo a una ejecución por hora o lo que cada uno considere adecuado.</p>
+<p><img src="/images/20161014_promociones_04.jpg" alt="imagen"></p>
 <p>A partir de ahora y de forma automática, cada hora se borrarán los correos con promociones de más de diez días de antigüedad.</p>
 
 		</div>

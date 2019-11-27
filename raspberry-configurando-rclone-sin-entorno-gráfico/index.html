@@ -78,56 +78,31 @@
 <div class="post__toc toc">
 	<div class="toc__title">Índice</div>
 	<div class="toc__menu">
-		<nav id="TableOfContents">
-<ul>
-<li><a href="#instalación">Instalación</a></li>
-<li><a href="#configuración-de-la-nube">Configuración de la nube</a></li>
-<li><a href="#encriptación-de-la-nube">Encriptación de la nube</a></li>
-</ul>
-</nav>
+		<nav id="TableOfContents"></nav>
 	</div>
 </div>
 <div class="content post__content clearfix">
 			<p>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explicar mi experiencia con una de las que yo utilizo. <a href="https://rclone.org">Rclone</a></p>
-
-<h1 id="instalación">Instalación</h1>
-
+<h1 id="instalacin">Instalación</h1>
 <p>La instalación es realmente sencilla gracias al script que hay en la web oficial</p>
-
-<pre><code class="language-bash">curl https://rclone.org/install.sh | sudo bash
-</code></pre>
-
-<p>Podemos comprobar que se ha instalado correctemente mediante el comando</p>
-
-<pre><code class="language-bash">rclone -V
-</code></pre>
-
-<h1 id="configuración-de-la-nube">Configuración de la nube</h1>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl https://rclone.org/install.sh | sudo bash
+</code></pre></div><p>Podemos comprobar que se ha instalado correctemente mediante el comando</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rclone -V
+</code></pre></div><h1 id="configuracin-de-la-nube">Configuración de la nube</h1>
 <p>Hasta aquí bastante sencillo, el problema viene en el momento que intentamos configurar cualquiera de las nubes ya que, a priori, es necessario un entorno gráfico para conseguir el código de autorización a través del navegador web.</p>
-
 <blockquote>
 <p>Por la red circulan varios tutoriales para realizar esta configuración de las nubes mediante navegadores web en línea de comando en modo texto y&hellip; después de probar varios no he conseguido que me funcione ninguno para esta operación.  A unos del falla el javascript&hellip;</p>
 </blockquote>
-
 <p>En ausencia de entorno gráfico en  la Raspberry voy a utilizar el viejo portatil con linux Mint desde el que accedo a la misma para realizar esta configuración.</p>
-
 <p>Empezamos a añadir una nueva nube mediante</p>
-
-<pre><code class="language-bash">rclone config
-</code></pre>
-
-<p>y nos aparecen las suigiente opciones</p>
-
-<pre><code class="language-bash">No remotes found - make a new one
-n) New remote
-s) Set configuration password
-q) Quit config
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rclone config
+</code></pre></div><p>y nos aparecen las suigiente opciones</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">No remotes found - make a new one
+n<span style="color:#f92672">)</span> New remote
+s<span style="color:#f92672">)</span> Set configuration password
+q<span style="color:#f92672">)</span> Quit config
 n/s/q&gt;
-</code></pre>
-
-<p>Optamos por &ldquo;n&rdquo; para añadir una nueva nube remota.  En mi caso voy a realizar una sincroización con Google Drive por lo que cuando se me solicita el nombre utilizo &ldquo;gdrive&rdquo; y ante la opción &ldquo;storage&rdquo; selecciono el 11 que es el correspondiente a Google Drive.</p>
-
+</code></pre></div><p>Optamos por &ldquo;n&rdquo; para añadir una nueva nube remota.  En mi caso voy a realizar una sincroización con Google Drive por lo que cuando se me solicita el nombre utilizo &ldquo;gdrive&rdquo; y ante la opción &ldquo;storage&rdquo; selecciono el 11 que es el correspondiente a Google Drive.</p>
 <pre><code>Type of storage to configure.
 Enter a string value. Press Enter for the default (&quot;&quot;).
 Choose a number from below, or type in your own value
@@ -182,60 +157,40 @@ Choose a number from below, or type in your own value
 25 / http Connection
    \ &quot;http&quot;
 Storage&gt; 
-</code></pre>
-
-<p>A continuación, las opciones &ldquo;client_id&rdquo; y &ldquo;client_secret&rdquo; las dejo en blanco.  La siguiente opción es el tipo de acceso que voy a necesitar, sólo lectura, lectura y escritura&hellip;</p>
-
-<pre><code class="language-bash"> 1 / Full access all files, excluding Application Data Folder.
-   \ &quot;drive&quot;
- 2 / Read-only access to file metadata and file contents.
-   \ &quot;drive.readonly&quot;
+</code></pre><p>A continuación, las opciones &ldquo;client_id&rdquo; y &ldquo;client_secret&rdquo; las dejo en blanco.  La siguiente opción es el tipo de acceso que voy a necesitar, sólo lectura, lectura y escritura&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> <span style="color:#ae81ff">1</span> / Full access all files, excluding Application Data Folder.
+   <span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;drive&#34;</span>
+ <span style="color:#ae81ff">2</span> / Read-only access to file metadata and file contents.
+   <span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;drive.readonly&#34;</span>
    / Access to files created by rclone only.
- 3 | These are visible in the drive website.
+ <span style="color:#ae81ff">3</span> | These are visible in the drive website.
    | File authorization is revoked when the user deauthorizes the app.
-   \ &quot;drive.file&quot;
+   <span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;drive.file&#34;</span>
    / Allows read and write access to the Application Data folder.
- 4 | This is not visible in the drive website.
-   \ &quot;drive.appfolder&quot;
+ <span style="color:#ae81ff">4</span> | This is not visible in the drive website.
+   <span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;drive.appfolder&#34;</span>
    / Allows read-only access to file metadata but
- 5 | does not allow any access to read or download file content.
-   \ &quot;drive.metadata.readonly&quot;
+ <span style="color:#ae81ff">5</span> | does not allow any access to read or download file content.
+   <span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;drive.metadata.readonly&#34;</span>
 
-</code></pre>
-
-<p>Selecciono &ldquo;1&rdquo; puesto que quiero tanto poder leer como escribir en las carpetas de la nube.</p>
-
+</code></pre></div><p>Selecciono &ldquo;1&rdquo; puesto que quiero tanto poder leer como escribir en las carpetas de la nube.</p>
 <p>Ahora, la opcion &ldquo;ID of the root folder&rdquo; la dejo en blanco para poder acceder a toda la nube.  Deja tambien en blanco la opción &ldquo;Service Account Credentials JSON file path&rdquo;</p>
-
 <p>La siguiente opción es la configuración avanzada que no necesitamos.</p>
-
-<pre><code class="language-bash">Edit advanced config? (y/n)
-y) Yes
-n) No
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Edit advanced config? <span style="color:#f92672">(</span>y/n<span style="color:#f92672">)</span>
+y<span style="color:#f92672">)</span> Yes
+n<span style="color:#f92672">)</span> No
 y/n&gt; n
-</code></pre>
-
-<p>Y ahora llega lo más interesante del post.  Cuando se nos pregunta por la configuración automática debemos seleccionar la opción &ldquo;No&rdquo;</p>
-
+</code></pre></div><p>Y ahora llega lo más interesante del post.  Cuando se nos pregunta por la configuración automática debemos seleccionar la opción &ldquo;No&rdquo;</p>
 <p>Ya ha llegado el momento de la arte más interesante de este post para la que abriremos una nueva sesion de terminal pero en este caso directamente en la instalación de Linux Mint que tengo instalada en el portatil.  Hay que tener instalado Rclone tambien en esta máquina con navegador completo y entorno gráfico.  Si no lo tengo, lo instalo y a continuación ejecuto el siguiente comando.</p>
-
-<pre><code class="language-bash">rclone authorize &quot;drive&quot;
-</code></pre>
-
-<blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rclone authorize <span style="color:#e6db74">&#34;drive&#34;</span>
+</code></pre></div><blockquote>
 <p>He usado la opción &ldquo;drive&rdquo; por estar configurando una cuenta de Google Drive, para el resto de servicios hay que revisar la lista en la que anteriormente hemos seleccionado el tipo de nube para ver la opción que debemos poner entrecomillada.</p>
 </blockquote>
-
 <p>Si todo ha ido bien se nos abrirá el navegador en Linux Mint y nos pedirá la cuente de Google Drive a la que queremos dar permiso tal y como se muestra en la siguiente imagen.</p>
-
-<p><img src="/images/20180910_raspberry_rclone_01.jpg" alt="imagen" /></p>
-
+<p><img src="/images/20180910_raspberry_rclone_01.jpg" alt="imagen"></p>
 <p>Tras permitir el acceso a Rclone a nuestra nube de google drive, si todo ha ido bien  nos aparece una ventana tan simple como expresiva&hellip;</p>
-
-<p><img src="/images/20180910_raspberry_rclone_02.jpg" alt="imagen" /></p>
-
+<p><img src="/images/20180910_raspberry_rclone_02.jpg" alt="imagen"></p>
 <p>Y ya podemos cerrar el navegador para volver a la sesión de terminal sobre Linux Mint en la que aparecerá algo así</p>
-
 <pre><code>Log in and authorize rclone for access
 Waiting for code...
 Got code
@@ -245,54 +200,37 @@ Paste the following into your remote machine ---&gt;
 y) Yes
 n) No
 y/n&gt;
-</code></pre>
-
-<p>Y&hellip; después de todo este trabajo y de intentar documentar sobre la marcha el <a href="https://rclone.org/remote_setup/">método oficial </a> que debería funcionar resulta que me aparece un error por faltar el parámetro &ldquo;Code&rdquo;</p>
-
-<pre><code class="language-bash">Failed to configure token: failed to get token: oauth2: cannot fetch token: 400 Bad Request
-Response: {
-  &quot;error&quot; : &quot;invalid_grant&quot;,
-  &quot;error_description&quot; : &quot;Malformed auth code.&quot;
-}
-</code></pre>
-
-<p>Toca probar el plan&rdquo;b&rdquo; que consiste en configurar la nube desde la instalación de Linux Mint y posterior mente copiar el archivo de configuración a la Raspberry. Con todo lo explicado anteriormente no creo que sea necesario más para configurar Google Drive en Rclone instalado sobre Linux Mint, sólo restaba en la últime opción escoger la opción &ldquo;Si&rdquo; en la configuración automática y se nos abre el navegador para permitir el acceso.</p>
-
+</code></pre><p>Y&hellip; después de todo este trabajo y de intentar documentar sobre la marcha el <a href="https://rclone.org/remote_setup/">método oficial </a> que debería funcionar resulta que me aparece un error por faltar el parámetro &ldquo;Code&rdquo;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Failed to configure token: failed to get token: oauth2: cannot fetch token: <span style="color:#ae81ff">400</span> Bad Request
+Response: <span style="color:#f92672">{</span>
+  <span style="color:#e6db74">&#34;error&#34;</span> : <span style="color:#e6db74">&#34;invalid_grant&#34;</span>,
+  <span style="color:#e6db74">&#34;error_description&#34;</span> : <span style="color:#e6db74">&#34;Malformed auth code.&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Toca probar el plan&quot;b&rdquo; que consiste en configurar la nube desde la instalación de Linux Mint y posterior mente copiar el archivo de configuración a la Raspberry. Con todo lo explicado anteriormente no creo que sea necesario más para configurar Google Drive en Rclone instalado sobre Linux Mint, sólo restaba en la últime opción escoger la opción &ldquo;Si&rdquo; en la configuración automática y se nos abre el navegador para permitir el acceso.</p>
 <p>Con la nube configurada en Linux Mint hay que buscar el archivo de configuración de rclone que en mi caso se encuentra en &ldquo;/home/sherlockes/.config/rclone/rclone.conf&rdquo; para el caso de la instalación sobre el portatil  y en &ldquo;/home/pi/.config/rclone/rclone.conf&rdquo; para el caso de la Raspberry.</p>
-
 <p>Es posible copiar directamente el archivo de una máquina a otra a través de ssh mediante el comando scp</p>
-
-<pre><code class="language-bash">scp /home/sherlockes/.config/rclone/rclone.conf pi@192.168.1.203:/home/pi/.config/rclone/
-</code></pre>
-
-<p>Y con esto ya debería estar configurada la nube de Google Drive en la instalación de rclone de la raspberry, la mejor muestra es que al introcudir el comando &ldquo;rclone config&rdquo; en una sesión de la terminal sobre la Raspberry nos aparecerá algo como lo siguiente.</p>
-
-<pre><code class="language-bash">Current remotes:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">scp /home/sherlockes/.config/rclone/rclone.conf pi@192.168.1.203:/home/pi/.config/rclone/
+</code></pre></div><p>Y con esto ya debería estar configurada la nube de Google Drive en la instalación de rclone de la raspberry, la mejor muestra es que al introcudir el comando &ldquo;rclone config&rdquo; en una sesión de la terminal sobre la Raspberry nos aparecerá algo como lo siguiente.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Current remotes:
 
 Name                 Type
-====                 ====
+<span style="color:#f92672">=</span><span style="color:#f92672">=</span><span style="color:#f92672">=</span><span style="color:#f92672">=</span>                 <span style="color:#f92672">=</span><span style="color:#f92672">=</span><span style="color:#f92672">=</span><span style="color:#f92672">=</span>
 GoogleDrive          drive
 
-e) Edit existing remote
-n) New remote
-d) Delete remote
-r) Rename remote
-c) Copy remote
-s) Set configuration password
-q) Quit config
+e<span style="color:#f92672">)</span> Edit existing remote
+n<span style="color:#f92672">)</span> New remote
+d<span style="color:#f92672">)</span> Delete remote
+r<span style="color:#f92672">)</span> Rename remote
+c<span style="color:#f92672">)</span> Copy remote
+s<span style="color:#f92672">)</span> Set configuration password
+q<span style="color:#f92672">)</span> Quit config
 e/n/d/r/c/s/q&gt; 
-</code></pre>
-
-<p>En la que podremos ver la que ya tenemos una nube añadida.</p>
-
-<h1 id="encriptación-de-la-nube">Encriptación de la nube</h1>
-
+</code></pre></div><p>En la que podremos ver la que ya tenemos una nube añadida.</p>
+<h1 id="encriptacin-de-la-nube">Encriptación de la nube</h1>
 <p>Es recomendable empezar con una carpeta vacía en la nube en la que queremos subir el contenido encriptado. Para, previamente tal y como he explicado hay que configurar la nube en rclone y luego pasamos a configurar la carpeta encriptada &ldquo;micarpeta&rdquo;.</p>
-
 <p>1- Accedemos a la configuración de Rclone <code>rclone config</code>
-1- Creamos un nuevo remoto <kbd>n</kbd>
+1- Creamos un nuevo remoto <!-- raw HTML omitted -->n<!-- raw HTML omitted -->
 2- Nombramos la carpeta <code>micarpeta</code></p>
-
 <p>Para otro día el modo de realizar la sincronización o copia de contenidos desde la nube hasa la Raspberry.</p>
 		</div>
 		<footer class="post__footer">

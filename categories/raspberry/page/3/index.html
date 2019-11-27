@@ -11,7 +11,6 @@
 <meta property="og:description" content="Un poco de informática, bricolaje, bicicleta y todos los problemas que se me ponen delante en el día a día no está de más documentarlos, a alguiel le puede ayudar..." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/categories/raspberry/" />
-
 <meta property="og:updated_time" content="2019-07-11T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
@@ -86,7 +85,7 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -e  nos abre un archivo al que le añadiremos la siguiente línea
+sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -169,7 +168,6 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.168.1.202/sherblog/
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -197,8 +195,8 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
 Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
+*** Actualización *** //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &ldquo;pi&rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &ldquo;www-data&rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//
 	</div>
 </article>
 </main>

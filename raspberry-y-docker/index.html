@@ -75,49 +75,35 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20180501_raspberry_docker.jpg" alt="Raspberry y Docker">
 		</figure><div class="content post__content clearfix">
-			
-
-<h3 id="manejando-contenedores-con-docker">Manejando contenedores con Docker</h3>
-
-<p>Instalar Docker<br />
-<code>
+			<h3 id="manejando-contenedores-con-docker">Manejando contenedores con Docker</h3>
+<p>Instalar Docker\<br>
+<!-- raw HTML omitted -->
 sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>
-
-<p>sudo curl -fsSL <a href="https://download.docker.com/linux/$(">https://download.docker.com/linux/$(</a>. /etc/os-release; echo &ldquo;$ID&rdquo;)/gpg | sudo apt-key add -</p>
-
-<p>sudo echo &ldquo;deb [arch=armhf] <a href="https://download.docker.com/linux/$(">https://download.docker.com/linux/$(</a>. /etc/os-release; echo &ldquo;$ID&rdquo;) <br />
-     $(lsb_release -cs) stable&rdquo; | <br />
-    sudo tee /etc/apt/sources.list.d/docker.list</p>
-
+<p>sudo curl -fsSL <a href="https://download.docker.com/linux/">https://download.docker.com/linux/</a>$(. /etc/os-release; echo &ldquo;$ID&rdquo;)/gpg | sudo apt-key add -</p>
+<p>sudo echo &ldquo;deb [arch=armhf] <a href="https://download.docker.com/linux/">https://download.docker.com/linux/</a>$(. /etc/os-release; echo &ldquo;$ID&rdquo;)<br>
+$(lsb_release -cs) stable&rdquo; |<br>
+sudo tee /etc/apt/sources.list.d/docker.list</p>
 <p>sudo apt update
 sudo apt install docker-ce
 sudo systemctl enable docker
 sudo systemctl start docker
-</code></p>
-
-<p>añadir tu usuario al grupo de docker\</p>
-
-<pre><code class="language-sudo">
-eliminar todos los contenedores con un solo comando\\
-</code></pre>
-
-<p>docker rm $(docker ps -a -q)```</p>
-
-<pre><code class="language-docker">
-arrancar un contenedor\\
-</code></pre>
-
-<p>docker run &ndash;name NOMBRE -p PUERTO_INTERNO:PUERTO_EXTERNO -d nginx```</p>
-
+<!-- raw HTML omitted --></p>
+<p>añadir tu usuario al grupo de docker\<br>
+<code>sudo gpasswd -a ${USER} docker</code></p>
+<p>eliminar todos los contenedores con un solo comando\<br>
+<code>docker rm $(docker ps -a -q)</code>
+<code>docker rm $(docker container ls -a -q)</code></p>
+<p>arrancar un contenedor\<br>
+<code>docker run --name NOMBRE -p PUERTO_INTERNO:PUERTO_EXTERNO -d nginx</code></p>
 <h3 id="instalando-wordpress">Instalando Wordpress</h3>
-
-<hr />
-
-<p>Enlaces<br />
-  * <a href="https://ugeek.github.io//instalar-docker-en-raspberry/">UGeek - Instalar Docker en Raspbian</a>
-  * <a href="https://rekkeb.wordpress.com/2015/03/19/docker-elimina-todos-los-contenedores-con-un-solo-comando">Rekkeb - Eliminar todos contenedores</a>
-  * <a href="https://hub.docker.com/r/jsurf/rpi-mariadb/">Jsurf - MariaDB for Raspberry Pi</a>
-  * <a href="https://www.upcloud.com/support/wordpress-with-docker/">UpCloud - Install WordPress with Docker</a></p>
+<hr>
+<p>Enlaces\</p>
+<ul>
+<li><a href="https://ugeek.github.io//instalar-docker-en-raspberry/">UGeek - Instalar Docker en Raspbian</a></li>
+<li><a href="https://rekkeb.wordpress.com/2015/03/19/docker-elimina-todos-los-contenedores-con-un-solo-comando">Rekkeb - Eliminar todos contenedores</a></li>
+<li><a href="https://hub.docker.com/r/jsurf/rpi-mariadb/">Jsurf - MariaDB for Raspberry Pi</a></li>
+<li><a href="https://www.upcloud.com/support/wordpress-with-docker/">UpCloud - Install WordPress with Docker</a></li>
+</ul>
 
 		</div>
 		<footer class="post__footer">

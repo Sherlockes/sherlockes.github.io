@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="es">
 <head>
-	<meta name="generator" content="Hugo 0.59.1" />
+	<meta name="generator" content="Hugo 0.60.0" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +12,7 @@
 <meta property="og:description" content="Hay muchas formas de hacer las cosas, aquí dejo la mía por si a alguien le puede servir." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-
-<meta property="og:updated_time" content="2019-11-13T00:00:00+00:00" />
+<meta property="og:updated_time" content="2019-11-27T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sherblog"/>
@@ -61,10 +60,8 @@
 <main class="main list" role="main">
 	<div class="content main__content clearfix">
 		<p>Cuando te encuentras con un problema creo que lo mejor es documentar la solución, nunca sabes si te puede servir de ayuda pasado un tiempo a ti mismo o a otra persona.</p>
-
 <p><strong><a href="/lo-que-tengo-pendiente-de-escribir.../">Estos</a></strong> son los temas sobre los que estoy escribiendo o tengo intención de hacerlo próximamente.  Se aceptan todo tipo de peticiones así que si la tienes no dudes en dejarme un <strong><a href="https://twitter.com/sherblogpro">tweet</a>.</strong></p>
-
-<hr />
+<hr>
 
 	</div>
 	<article class="list__item post">
@@ -120,7 +117,6 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
- http://192.168.1.202/sherblog/
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -148,8 +144,8 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
- cd ~ sudo apt-get update sudo apt-get install vsftpd -y sudo nano /etc/vsftpd.conf 
 Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
+*** Actualización *** //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &ldquo;pi&rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &ldquo;www-data&rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -177,7 +173,8 @@ Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurán
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &ldquo;home&rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &ldquo;latest.tar.gz&rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &ldquo;wordpress-4.8.2-es_ES.tar.gz&rdquo;
- sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.
+Las líneas de arriba realizan la siguiente secuencia:
+ Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &ldquo;home&rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &ldquo;/var/www/html/sherblog&rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &ldquo;wp-config&rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">

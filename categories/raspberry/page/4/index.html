@@ -11,7 +11,6 @@
 <meta property="og:description" content="Un poco de informática, bricolaje, bicicleta y todos los problemas que se me ponen delante en el día a día no está de más documentarlos, a alguiel le puede ayudar..." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/categories/raspberry/" />
-
 <meta property="og:updated_time" content="2019-07-11T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
@@ -86,7 +85,8 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &ldquo;home&rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &ldquo;latest.tar.gz&rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &ldquo;wordpress-4.8.2-es_ES.tar.gz&rdquo;
- sudo mkdir /var/www/html/sherblog/ cd ~ wget http://wordpress.org/latest.tar.gz tar -xzvf latest.tar.gz sudo mv wordpress/* /var/www/html/sherblog sudo rm latest.
+Las líneas de arriba realizan la siguiente secuencia:
+ Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &ldquo;home&rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &ldquo;/var/www/html/sherblog&rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &ldquo;wp-config&rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.
 	</div>
 </article>
 </main>

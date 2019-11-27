@@ -79,66 +79,53 @@
 	<div class="toc__title">Índice</div>
 	<div class="toc__menu">
 		<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#el-origen-de-las-imágenes">El origen de las imágenes</a>
-<ul>
-<li><a href="#capturas-de-pantalla">Capturas de pantalla</a></li>
-<li><a href="#fotografías">Fotografías</a></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#el-origen-de-las-imgenes">El origen de las imágenes</a>
+      <ul>
+        <li><a href="#capturas-de-pantalla">Capturas de pantalla</a></li>
+        <li><a href="#fotografas">Fotografías</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
 	</div>
 </div>
 <div class="content post__content clearfix">
-			
-
-<h2 id="el-origen-de-las-imágenes">El origen de las imágenes</h2>
-
+			<h2 id="el-origen-de-las-imgenes">El origen de las imágenes</h2>
 <p>Las imágenes con las que suelo tratar más habitualmente tienen dos procedencias claramente diferenciadas.</p>
-
 <h3 id="capturas-de-pantalla">Capturas de pantalla</h3>
-
 <p>Cada vez que escribo un post para el blog me encuentro con que necesito incluir alguna imagen para el mismo.  Desde que uso Linux <a href="https://linuxmint.com/">Mint</a> el flujo ha cambiado notablemente ya que ahora uso simplemente la captura de pantalla nativa y <a href="http://www.gimp.org.es/">Gimp</a> para la edición.</p>
-
 <ol>
-<li>Para capturar un area de pantalla al portapapeles uso el atajo de teclado <code>Ctrl + Mays + ImprPant</code> (Importante tenerlo punsado un segundo hasta que el cursor cambia por una cruz con la que seleccionar el area a capturar).  Para el caso de querer seleccionar una ventana entera <code>Ctrl + Alt + ImprPant</code>.  Si quieres saber más mira este artículo sobre <a href="https://www.atareao.es/ubuntu/realizar-una-captura-de-pantalla-en-ubuntu/">capturas</a> de pantalla en Ubuntu y derivados.<br />
-<img src="/images/20190408_flujo_imagenes_linux_01.jpg" alt="imagen_01" /></li>
+<li>Para capturar un area de pantalla al portapapeles uso el atajo de teclado <code>Ctrl + Mays + ImprPant</code> (Importante tenerlo punsado un segundo hasta que el cursor cambia por una cruz con la que seleccionar el area a capturar).  Para el caso de querer seleccionar una ventana entera <code>Ctrl + Alt + ImprPant</code>.  Si quieres saber más mira este artículo sobre <a href="https://www.atareao.es/ubuntu/realizar-una-captura-de-pantalla-en-ubuntu/">capturas</a> de pantalla en Ubuntu y derivados.<br>
+<img src="/images/20190408_flujo_imagenes_linux_01.jpg" alt="imagen_01"></li>
 <li>Abro <a href="http://www.gimp.org.es/">Gimp</a> y pulso <code>Ctrl + Mays + v</code> para crear una nueva imagen a partir del portapapeles.</li>
 <li>Edito lo necesario en la imagen (Recorte, niveles&hellip;)</li>
 <li>Mediante el menú &ldquo;Cuardar para la web&hellip;&rdquo; ajusto finalmente la calidad, tamaño y formato de la imagen a exportar (Gracias a <a href="https://www.atareao.es/podcast/optimizar-imagenes/">atareao</a> por enseñarme a instalarlo mediante <code>sudo apt install gimp-plugin-registry</code>)</li>
 <li>Renombro adecuadamente la imagen para dejarla con la estructura &ldquo;20190408_titulo_02.jpg&rdquo; y la guardo en la corresponiente carpeta para la publicación en el blog (/static/images).</li>
 </ol>
-
 <p>Para el caso de imágenes dentro del post utilizo un ancho de 600 px y para la imagen de cabecera unas dimensiones de 300x200 px. Se que parecen unas dimensiones ridículas pero las considero que tienen una calidad  suficiente y no empeoran la experiencia de usuario consumiendo un gran ancho de banda.</p>
-
-<h3 id="fotografías">Fotografías</h3>
-
+<h3 id="fotografas">Fotografías</h3>
 <p>Cuando la cámara digital <a href="https://www.sony.es/electronics/camaras-lentes-intercambiables/ilce-5000-kit">Sony</a> sale a pasear suele volver con al menos unas decenas de fotos. Atrás quedaron donde cada imagen que tomaba traía consigo un fuerte procesado digital en Photoshop. Ahora simplemente las encuadro (si lo necesitan) y en la que lo merece realizo unos ajustes simples. Para eso sigo los siguientes pasos.</p>
-
 <ol>
-<li>Durante mucho tiempo he estado descargando las imágenes desde la cámara a el pc mediante la conexión usb (La conexión wifi me pareció absurdamente lenta la primera vez que la usé y no he vuelto a emplearla) pero recientemente he puesto a trabajar al <a href="https://qloudea.com/synology-ds216plusii">NAS</a> a mi servicio mediante una tarea en <a href="https://www.synology.com/es-es/knowledgebase/DSM/help/USBCopy/usbcopy_general">USB_Copy</a> que realiza una importación de fotos y vídeos desde la carpeta donde están las fotos en la cámara la la carpeta &ldquo;fotos/00-importadas&rdquo; del NAS.<br />
-<img src="/images/20190408_flujo_imagenes_linux_03.jpg" alt="imagen_03" /><br />
-Tan sencillo como configurar unos pocos parámetros con la cámara conectada al puerto usb frontal del <a href="https://qloudea.com/synology-ds216plusii">NAS</a> y en dos pasos lo tenemos listo.<br />
-<img src="/images/20190408_flujo_imagenes_linux_04.jpg" alt="imagen_04" /><br />
+<li>Durante mucho tiempo he estado descargando las imágenes desde la cámara a el pc mediante la conexión usb (La conexión wifi me pareció absurdamente lenta la primera vez que la usé y no he vuelto a emplearla) pero recientemente he puesto a trabajar al <a href="https://qloudea.com/synology-ds216plusii">NAS</a> a mi servicio mediante una tarea en <a href="https://www.synology.com/es-es/knowledgebase/DSM/help/USBCopy/usbcopy_general">USB_Copy</a> que realiza una importación de fotos y vídeos desde la carpeta donde están las fotos en la cámara la la carpeta &ldquo;fotos/00-importadas&rdquo; del NAS.<br>
+<img src="/images/20190408_flujo_imagenes_linux_03.jpg" alt="imagen_03"> 
+Tan sencillo como configurar unos pocos parámetros con la cámara conectada al puerto usb frontal del <a href="https://qloudea.com/synology-ds216plusii">NAS</a> y en dos pasos lo tenemos listo.<br>
+<img src="/images/20190408_flujo_imagenes_linux_04.jpg" alt="imagen_04"> 
 De esta forma y tal y como lo hemos configurado, cada vez que la cámara se conecte al <a href="https://qloudea.com/synology-ds216plusii">NAS</a> este copiará todas las fotografías a la correspondiente carpeta compartida y eliminará las fotos de la cámara.  Un pitido al principio y al final de la tarea nos indicará que se ha realizado correctamente.</li>
 <li>Cribado selectivo en <a href="https://wiki.gnome.org/Apps/Gthumb">Gthumb</a>. Abro la carpeta donde he descargado las fotos (&ldquo;00-importadas&rdquo;)y de una forma rápida desecho las que técnica o artisticamente no son útiles.  Para poder abrir en <a href="https://wiki.gnome.org/Apps/Gthumb">Gthumb</a> la carpeta del NAS (fotos) donde voy a trabajar con las fotografías necesito montarla en el pc.  Gracias a <a href="https://ugeek.github.io/blog/post/2019-04-04--montando-carpetas-del-servidor-raspberry-en-tu-escritorio.html">UGeek</a> he dado con un sencillo método en el que una sola línea de terminal <code>sshfs usuario@192.168.1.200:../../fotos/ Fotos</code> ejecutada en la carpeta personal hace que monte la carpeta &ldquo;fotos&rdquo; del NAS en la carpeta &ldquo;home/usuario/Fotos&rdquo; del pc.  Para desmontarla tan secillo como <code>fusermount -u ~/carpeta_montaje</code>.</li>
-<li>Renombrado en Gthumb. Aunque la utilidad no es ninguna maravilla, este software permite renombrar varias imágenes a la vez siguiendo un patrón de forma rápida y sencilla. Personalmente uso el patrón del tipo &ldquo;20190408 - descripción num.jpg&rdquo; el cual consigo mediante la platilla <code>%D{ %Y%m%d } - descripcion ###%E</code> tal y como se puede ver en la siguiente imagen.<br />
-<img src="/images/20190408_flujo_imagenes_linux_02.jpg" alt="imagen_02" /></li>
+<li>Renombrado en Gthumb. Aunque la utilidad no es ninguna maravilla, este software permite renombrar varias imágenes a la vez siguiendo un patrón de forma rápida y sencilla. Personalmente uso el patrón del tipo &ldquo;20190408 - descripción num.jpg&rdquo; el cual consigo mediante la platilla <code>%D{ %Y%m%d } - descripcion ###%E</code> tal y como se puede ver en la siguiente imagen.<br>
+<img src="/images/20190408_flujo_imagenes_linux_02.jpg" alt="imagen_02"></li>
 <li>Traslado a carpeta para procesar. Directamente en Gthumb con las imágenes que he seleccionado para renombrar las muevo a otra carpeta llamada &ldquo;01-renombradas&rdquo; donde pueden seguir dos caminos.
-
 <ol>
 <li>Las fotografías que sólo necesitan un recorte o encuadre con unos ajustes básicos lo realizo en Gthumb para después pasarlas a la carpeta &ldquo;02-terminadas&rdquo;</li>
 <li>Las que merecen unos ajustes un poco más avanzados los realizo con Darktable para terminar exportandolas a la carpeta &ldquo;02-terminadas&rdquo;</li>
-</ol></li>
+</ol>
+</li>
 <li>Subir las imágenes terminadas a Google Photos. Hasta ahora lo realizo de forma manual, es decir, abro el servicio web en una pestaña del navegador y desde este selecciono las imágenes de la carpeta &ldquo;02-terminadas&rdquo;.</li>
 <li>Archivar las imágenes en el NAS. Directamente con el gestor de archivos nuevo las imágenes desde la carpeta &ldquo;02-terminadas&rdquo; a la carpeta de archivo del NAS.</li>
 <li>Sincronizar el archivo con Amazon Photos. Gracias a la cuota de Amazon Prime es posible almacenar en sus servidores sin un sobrecoste todas las fotos que quieras. Con la ayuda de <a href="https://www.synology.com/es-es/knowledgebase/DSM/help/CloudSync/cloudsync">Cloudsync</a> de Synology este paso es completamente transparente.
-<img src="/images/20190408_flujo_imagenes_linux_05.jpg" alt="imagen_05" /></li>
+<img src="/images/20190408_flujo_imagenes_linux_05.jpg" alt="imagen_05"></li>
 </ol>
-
 <p>Todavía queda mucho margen de mejora y automatización por lo que, supongo este no será el método definitivo e iré actualizándolo a medida que lo vaya modificando.</p>
 
 		</div>

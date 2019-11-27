@@ -11,7 +11,6 @@
 <meta property="og:description" content="Un poco de informática, bricolaje, bicicleta y todos los problemas que se me ponen delante en el día a día no está de más documentarlos, a alguiel le puede ayudar..." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/tags/desarrollo/" />
-
 <meta property="og:updated_time" content="2019-07-11T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
@@ -113,7 +112,6 @@
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		<h3 id="montaje-y-acceso-ssh">Montaje y acceso ssh</h3>
-
 <p>Ya tengo todo lo que creo que necesito.  Una <a href="https://www.amazon.es/gp/product/B01CD5VC92/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;psc=1">Raspberry</a>, una <a href="https://www.amazon.es/gp/product/B013UDL58E/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">tarjeta micro sd</a>, una <a href="https://www.amazon.es/gp/product/B01DDFFOYK/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;psc=1">fuente de alimentación</a> y un <a href="https://www.amazon.es/gp/product/B001U3ZRBS/ref=oh_aui_detailpage_o00_s01?ie=UTF8&amp;psc=1">cable de red</a>.  Total 59€ de inversión inicial que supongo no se quedarán ahí.</p>
 	</div>
 </article><article class="list__item post">
@@ -141,8 +139,8 @@
 </div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.conf e introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
-interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1   Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
+		Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.confe introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1  Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -169,8 +167,8 @@ interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 sta
 </div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y  Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
-cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart  Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
+		Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
+cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
 	</div>
 </article><article class="list__item post">
 	<figure class="list__thumbnail">
@@ -198,7 +196,9 @@ cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola
 	</header>
 	<div class="content list__excerpt post__content clearfix">
 		Instalando Mysql El motor de WordPress es una base de datos por lo que es necesario un motor que la gestione, usaré MySql y se instala de la siguente forma:
- sudo apt-get install mysql-server mysql-client -y  Al terminar la instalación nos pedirá una contraseña para el usuario &ldquo;root&rdquo;. Es muy importante que no se quede en blanco para dar seguridad a la base de datos. Introducimos la que nos apetezca.
+Accedemos a la consola de MySql con el siguiente comando tras el cual se nos solicitará la contraseña correspondiente al usuario &ldquo;root&rdquo;
+sudo mysql -u root -p
+Ya estamos listos para crear la base de datos, el usuario que la manejará y asignación al segundo todos los privilegios sobre la primera.
 	</div>
 </article>
 </main>

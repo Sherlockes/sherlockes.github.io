@@ -76,16 +76,14 @@
 			<img src="/images/20180409_raspberry_backup.jpg" alt="Raspberry Copia de seguridad">
 		</figure><div class="content post__content clearfix">
 			<p>Antes de pensar en como realizar una copia de seguridad para las instalaciones de <a href="http://es.wordpress.org">WordPress</a> y <a href="https://www.dokuwiki.org">Dokuwiki</a> que hasta ahora hemos instalado en la Raspberry hay que hacerlo en los datos que son estrictamente necesarios para poder restaurar ambas instalaciones ante una pérdida de los mismos.</p>
-
 <p>En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp-content&rdquo;.  Para el caso de la Wiki, <a href="https://www.dokuwiki.org/faq:backup">aquí</a> podemos ver las carpetas necesarias que se recomienda guardar aunque yo he optado por prescindir de las versiones antiguas de páginas y archivos multimedia.</p>
-
-<p>La copia de seguridad la realizaré en tres pasos:
-  - Copia desde el directorio de apache hasta un directorio de Backups en la Raspberry mediante rsync y cron
-  - Copia desde la Raspberry a un directorio del NAS mediante ftp
-  - Copia de seguridad versionada desde el NAS hasta Google Drive mediante HyperBackup</p>
-
+<p>La copia de seguridad la realizaré en tres pasos:</p>
+<ul>
+<li>Copia desde el directorio de apache hasta un directorio de Backups en la Raspberry mediante rsync y cron</li>
+<li>Copia desde la Raspberry a un directorio del NAS mediante ftp</li>
+<li>Copia de seguridad versionada desde el NAS hasta Google Drive mediante HyperBackup</li>
+</ul>
 <p>Pues bien, para comenzar creamos una carpeta en el directorio &ldquo;home&rdquo; del usuario Pi llamada &ldquo;scripts&rdquo; y en ella creamos el archivo &ldquo;bckps.sh&rdquo; al que dotaremos de pemisos de ejecución (sudo chmod 700 bckps.sh) con el siguiente código:</p>
-
 <pre><code>#!/bin/sh
 # -*- ENCODING: UTF-8 -*-
 
@@ -113,29 +111,15 @@ cd /home/pi/backups/sherblog/db/
 tar -zcvf $(date +%Y%m%d)_sherblog_sql.tgz sherblog.sql
 rm sherblog.sql
 exit
-</code></pre>
-
-<p>Ahora editamos el crontab</p>
-
+</code></pre><p>Ahora editamos el crontab</p>
 <pre><code>crontab -e
-</code></pre>
-
-<p>e introducimos al final una nueva tarea mediante la sentencia</p>
-
+</code></pre><p>e introducimos al final una nueva tarea mediante la sentencia</p>
 <pre><code>@daily /home/pi/scripts/bckps.sh
-</code></pre>
-
-<p>Con esto una vez al día se ejecutará la tarea de copias de seguridad incluidas en el archivo &ldquo;bckps.sh&rdquo;.  Es posible que hay que reiniciar el cron para que funcione la ejecución correctamente.</p>
-
+</code></pre><p>Con esto una vez al día se ejecutará la tarea de copias de seguridad incluidas en el archivo &ldquo;bckps.sh&rdquo;.  Es posible que hay que reiniciar el cron para que funcione la ejecución correctamente.</p>
 <pre><code>service cron restart
-</code></pre>
-
-<p>El siguiente paso es copiar la carpeta &ldquo;backups&rdquo; de la raspberry al NAS, para lo que, desde este segundo y mediante al programador de tareas, ejecuto una vez al día la siguiente instrucción:</p>
-
+</code></pre><p>El siguiente paso es copiar la carpeta &ldquo;backups&rdquo; de la raspberry al NAS, para lo que, desde este segundo y mediante al programador de tareas, ejecuto una vez al día la siguiente instrucción:</p>
 <pre><code>wget -m -N ftp://pi:password@192.168.1.202/backups -P /volume1/backups
-</code></pre>
-
-<p>Desde aquí, crear una copia de seguridad en Synology con la aplicación de DSM Hyperbackup sobre google drive ya es coser y cantar.</p>
+</code></pre><p>Desde aquí, crear una copia de seguridad en Synology con la aplicación de DSM Hyperbackup sobre google drive ya es coser y cantar.</p>
 
 		</div>
 		<footer class="post__footer">

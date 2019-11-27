@@ -79,157 +79,118 @@
 	<div class="toc__title">Índice</div>
 	<div class="toc__menu">
 		<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#declaración-de-variables">Declaración de variables</a></li>
-<li><a href="#comprobación-de-montaje">Comprobación de montaje</a></li>
-<li><a href="#mostrar-el-menú">Mostrar el menú</a></li>
-<li><a href="#montar-y-desmontar-las-unidades">Montar y desmontar las unidades</a></li>
-<li><a href="#captando-la-decisión-del-usuario">Captando la decisión del usuario</a></li>
-<li><a href="#el-bucle-principal">El bucle principal</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#declaracin-de-variables">Declaración de variables</a></li>
+    <li><a href="#comprobacin-de-montaje">Comprobación de montaje</a></li>
+    <li><a href="#mostrar-el-men">Mostrar el menú</a></li>
+    <li><a href="#montar-y-desmontar-las-unidades">Montar y desmontar las unidades</a></li>
+    <li><a href="#captando-la-decisin-del-usuario">Captando la decisión del usuario</a></li>
+    <li><a href="#el-bucle-principal">El bucle principal</a></li>
+  </ul>
 </nav>
 	</div>
 </div>
 <div class="content post__content clearfix">
 			<p>Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con <a href="https://linuxmint.com/">Linux Mint</a>. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.</p>
-
 <p>Puesto que este script va a estar en una continua modificación y mejora no lo voy a dejar aquí expuesto, si quieres descargarlo tan sólo tienes que acudir a mi repositorio en Github y descargar <a href="https://github.com/sherlockes/SherloScripts/blob/master/sherlomenu">Sherlomenu</a>.</p>
-
-<h2 id="declaración-de-variables">Declaración de variables</h2>
-
+<h2 id="declaracin-de-variables">Declaración de variables</h2>
 <p>Por cada nube o carpeta remota que vaya a a montar como una unidad en mi unidad local voy a utilizar dos variables, una con la ruta donde voy a montar la unidad y otra con el comando necesario para montarla.</p>
-
 <p>Por ejemplo, para el caso de <a href="https://mega.nz">Mega.nz</a> utilizo estas dos variables</p>
-
 <pre><code>Mega_dir=~/Mega
 Mega_cmd='rclone mount Sherlockes_Mega: $Mega_dir --daemon'
-</code></pre>
-
-<p>Es importante que no se esté utilizando ya la ruta a la carpeta que se ha definido, ya que el script la borrará para asegurar un correcto montaje</p>
-
-<h2 id="comprobación-de-montaje">Comprobación de montaje</h2>
-
+</code></pre><p>Es importante que no se esté utilizando ya la ruta a la carpeta que se ha definido, ya que el script la borrará para asegurar un correcto montaje</p>
+<h2 id="comprobacin-de-montaje">Comprobación de montaje</h2>
 <p>Esta es una función que se encarga de comprobar si la nube que le pasemos como argumento está o no ya montada. Tiene dos funciones</p>
-
 <ul>
 <li>Indicar si el script tiene que montar o desmontar la nube</li>
 <li>Modificar el texto del menú en función del estado actual</li>
 </ul>
-
 <p>La función es la siguiente:</p>
-
-<pre><code class="language-sh">montado (){
-    local carpeta=&quot;$1_dir&quot;
-    if test -d ${!carpeta};
-    then
-	if mountpoint -q ${!carpeta}; then
-	    return 0
-	else
-	    rm -rf ${!carpeta}
-	    return 1
-	fi
-    else
-	return 1
-    fi
-}
-</code></pre>
-
-<p>Podemos ver como en un primer momento se declara la variable local &ldquo;carpeta&rdquo; y se le asigna la unión del primer argumento de la función y &ldquo;_dir&rdquo;. De esta forma, al lamar a <code>montado &quot;Mega&quot;</code> tendremos como valor de la variable &ldquo;carpeta&rdquo; a &ldquo;Mega_dir&rdquo; de la que a continuación haremos uso a través de las variables indirectas.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">montado <span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">{</span>
+    local carpeta<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">_dir</span><span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">if</span> test -d <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>;
+    <span style="color:#66d9ef">then</span>
+	<span style="color:#66d9ef">if</span> mountpoint -q <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>; <span style="color:#66d9ef">then</span>
+	    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">else</span>
+	    rm -rf <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>
+	    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+	<span style="color:#66d9ef">fi</span>
+    <span style="color:#66d9ef">else</span>
+	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">fi</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Podemos ver como en un primer momento se declara la variable local &ldquo;carpeta&rdquo; y se le asigna la unión del primer argumento de la función y &ldquo;_dir&rdquo;. De esta forma, al lamar a <code>montado &quot;Mega&quot;</code> tendremos como valor de la variable &ldquo;carpeta&rdquo; a &ldquo;Mega_dir&rdquo; de la que a continuación haremos uso a través de las variables indirectas.</p>
 <blockquote>
 <p>Gracias al uso de variables indirectas es posible obtener el valor de una variable a partir de otra cuyo valor es el nombre de la primera.</p>
 </blockquote>
-
 <p>El primer condicional comienza comprobando la esistencia de &ldquo;carpeta&rdquo; como una ruta existente mediante el comando <code>test</code>. Si la carpeta existe, comprueba si esta está montada y si es así devuelve &ldquo;0&rdquo;, si no está montada la borra y devuelve &ldquo;1&rdquo;. Si la carpeta no existe directamente devuelve &ldquo;1&rdquo;</p>
-
-<h2 id="mostrar-el-menú">Mostrar el menú</h2>
-
+<h2 id="mostrar-el-men">Mostrar el menú</h2>
 <p>Simplemente una serie de &ldquo;echos&rdquo; anidados que nos mostrará en unas pocas líneas las opciones de las que disponemos.</p>
-
-<pre><code class="language-sh">show_menus() {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">show_menus<span style="color:#f92672">(</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
     clear
-    echo &quot;------------------------------------&quot;	
-    echo &quot;--------  www.sherblog.pro  --------&quot;
-    echo &quot;------------------------------------&quot;
-    montado &quot;Sherloflix&quot; &amp;&amp; echo &quot;-- 1. Sherloflix (Desmontar)      --&quot; || echo &quot;-- 1. Sherloflix                  --&quot;
-    montado &quot;Mega&quot; &amp;&amp; echo &quot;-- 2. Mega (Desmontar)            --&quot; || echo &quot;-- 2. Mega                        --&quot;
-    montado &quot;VideoNas&quot; &amp;&amp; echo &quot;-- 3. Videos en Nas (Desmontar)   --&quot; || echo &quot;-- 3. Videos en Ds216+ II         --&quot;
-    echo &quot;-- 4. Backup de Google Photos     --&quot;
-    echo &quot;-- 5. Salir                       --&quot;
-    echo &quot;------------------------------------&quot;
-}
-</code></pre>
-
-<p>En un primer momento borra la pantalla para posteriormente escribir nuevamente el menú. En el caso de las nubes se ha usado una estructura de condicional en una sola linea para comprobar en estado de la nube y así mostrar la descripción de lo que hará el comando en caso de seleccionarlo, es decir, aparecerá &ldquo;Desmontar&rdquo; en caso de que la nube ya esté montada.</p>
-
+    echo <span style="color:#e6db74">&#34;------------------------------------&#34;</span>	
+    echo <span style="color:#e6db74">&#34;--------  www.sherblog.pro  --------&#34;</span>
+    echo <span style="color:#e6db74">&#34;------------------------------------&#34;</span>
+    montado <span style="color:#e6db74">&#34;Sherloflix&#34;</span> <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;-- 1. Sherloflix (Desmontar)      --&#34;</span> <span style="color:#f92672">||</span> echo <span style="color:#e6db74">&#34;-- 1. Sherloflix                  --&#34;</span>
+    montado <span style="color:#e6db74">&#34;Mega&#34;</span> <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;-- 2. Mega (Desmontar)            --&#34;</span> <span style="color:#f92672">||</span> echo <span style="color:#e6db74">&#34;-- 2. Mega                        --&#34;</span>
+    montado <span style="color:#e6db74">&#34;VideoNas&#34;</span> <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;-- 3. Videos en Nas (Desmontar)   --&#34;</span> <span style="color:#f92672">||</span> echo <span style="color:#e6db74">&#34;-- 3. Videos en Ds216+ II         --&#34;</span>
+    echo <span style="color:#e6db74">&#34;-- 4. Backup de Google Photos     --&#34;</span>
+    echo <span style="color:#e6db74">&#34;-- 5. Salir                       --&#34;</span>
+    echo <span style="color:#e6db74">&#34;------------------------------------&#34;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>En un primer momento borra la pantalla para posteriormente escribir nuevamente el menú. En el caso de las nubes se ha usado una estructura de condicional en una sola linea para comprobar en estado de la nube y así mostrar la descripción de lo que hará el comando en caso de seleccionarlo, es decir, aparecerá &ldquo;Desmontar&rdquo; en caso de que la nube ya esté montada.</p>
 <blockquote>
 <p>Las condicionales en uns sólo línea se basan en la siguiente estructura:
 condicion &amp;&amp; si_se_cumple || si_no_se_cumple</p>
 </blockquote>
-
 <h2 id="montar-y-desmontar-las-unidades">Montar y desmontar las unidades</h2>
-
 <p>En la mayoría de los casos que hasta ahora utilizo el montaje de la unidad es tan sencillo como crear la carpeta y ejecutar un comando , la operación inversa pasa por el desmontaje de la carpeta y una posterior eliminación de la misma. Según esto, he creado una función que de forma genérica realiza estas funciones para los distintos casos en función de los argumentos que se le pasen.</p>
-
-<pre><code class="language-sh">des_montar(){
-    local carpeta=&quot;$1_dir&quot;
-    local comando=&quot;$1_cmd&quot;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">des_montar<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">{</span>
+    local carpeta<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">_dir</span><span style="color:#e6db74">&#34;</span>
+    local comando<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">_cmd</span><span style="color:#e6db74">&#34;</span>
     
-    if montado $1;
-    then
-        echo &quot;Desmontando $1...&quot;
-        fusermount -u ${!carpeta}
-        echo &quot;Se va a eliminar la carpeta contenedora...&quot;
-        rm -rf ${!carpeta}
-    else
-        echo &quot;Montando $1...&quot;
-        mkdir ${!carpeta}
-        eval ${!comando}
-    fi
-}
-</code></pre>
-
-<p>El condicional comprueba si el argmento que le pasamos a la función está ya montado. Si está montado procede a desmontar la unidad y borrar la carpeta. Si no lo está, crea la carpeta y ejecuta el comando personalizado.</p>
-
+    <span style="color:#66d9ef">if</span> montado $1;
+    <span style="color:#66d9ef">then</span>
+        echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Desmontando </span>$1<span style="color:#e6db74">...</span><span style="color:#e6db74">&#34;</span>
+        fusermount -u <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>
+        echo <span style="color:#e6db74">&#34;Se va a eliminar la carpeta contenedora...&#34;</span>
+        rm -rf <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>
+    <span style="color:#66d9ef">else</span>
+        echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Montando </span>$1<span style="color:#e6db74">...</span><span style="color:#e6db74">&#34;</span>
+        mkdir <span style="color:#e6db74">${</span>!carpeta<span style="color:#e6db74">}</span>
+        eval <span style="color:#e6db74">${</span>!comando<span style="color:#e6db74">}</span>
+    <span style="color:#66d9ef">fi</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>El condicional comprueba si el argmento que le pasamos a la función está ya montado. Si está montado procede a desmontar la unidad y borrar la carpeta. Si no lo está, crea la carpeta y ejecuta el comando personalizado.</p>
 <blockquote>
 <p>Gracias al uso de variables indirectas y del comando &ldquo;eval&rdquo; podemos guardar dentro de una variable externa a la función un comando y ejecuarlo posteriormente</p>
 </blockquote>
-
-<h2 id="captando-la-decisión-del-usuario">Captando la decisión del usuario</h2>
-
+<h2 id="captando-la-decisin-del-usuario">Captando la decisión del usuario</h2>
 <p>El script deba captar lo que el usuario quiere hacer, para ello se hace uso de la variable &ldquo;choice&rdquo; y del comando &ldquo;read&rdquo; que combinados nos permiten realizar una función distinta para las distintas posibilidades.</p>
-
-<pre><code class="language-sh">read_options(){
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">read_options<span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">{</span>
     local choice
-    read -p &quot;Selecciona una opción [ 1 - 5] &quot; choice
-    case $choice in
-		1) des_montar &quot;Sherloflix&quot; ;;
-		2) des_montar &quot;Mega&quot; ;;
-        3) des_montar &quot;VideoNas&quot; ;;
-        4) Google_Photos ;;      
-	5) exit 0;;
-	*) echo -e &quot;...Error...&quot; &amp;&amp; sleep 2
-    esac
-}
-</code></pre>
-
-<p>Hay una opción para casa nube, una opción para salir y un error que mostrar en caso de que selecciones alguna opción distinta a las previstas.</p>
-
+    read -p <span style="color:#e6db74">&#34;Selecciona una opción [ 1 - 5] &#34;</span> choice
+    <span style="color:#66d9ef">case</span> $choice in
+		1<span style="color:#f92672">)</span> des_montar <span style="color:#e6db74">&#34;Sherloflix&#34;</span> ;;
+		2<span style="color:#f92672">)</span> des_montar <span style="color:#e6db74">&#34;Mega&#34;</span> ;;
+        3<span style="color:#f92672">)</span> des_montar <span style="color:#e6db74">&#34;VideoNas&#34;</span> ;;
+        4<span style="color:#f92672">)</span> Google_Photos ;;      
+	5<span style="color:#f92672">)</span> exit 0;;
+	*<span style="color:#f92672">)</span> echo -e <span style="color:#e6db74">&#34;...Error...&#34;</span> <span style="color:#f92672">&amp;&amp;</span> sleep <span style="color:#ae81ff">2</span>
+    <span style="color:#66d9ef">esac</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Hay una opción para casa nube, una opción para salir y un error que mostrar en caso de que selecciones alguna opción distinta a las previstas.</p>
 <h2 id="el-bucle-principal">El bucle principal</h2>
-
 <p>Un simple &ldquo;while true&rdquo; que se ejecuta indefinidamente.</p>
-
-<pre><code class="language-sh">while true
-do
-    sleep 2
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#66d9ef">while</span> true
+<span style="color:#66d9ef">do</span>
+    sleep <span style="color:#ae81ff">2</span>
     show_menus
     read_options
-done
+<span style="color:#66d9ef">done</span>
 
-</code></pre>
+</code></pre></div>
 		</div>
 		<footer class="post__footer">
 			

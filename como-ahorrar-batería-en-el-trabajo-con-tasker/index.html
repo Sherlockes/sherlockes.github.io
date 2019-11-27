@@ -75,43 +75,27 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20180210_ahorrar_bateria_tajo_02.jpg" alt="Como ahorrar batería en el trabajo con Tasker">
 		</figure><div class="content post__content clearfix">
-			
-
-<h3 id="el-problema">El problema</h3>
-
+			<h3 id="el-problema">El problema</h3>
 <p>Desde hace mucho tiempo tengo la suerte o desgracia de no llevar el móvil encima mientras estoy en el trabajo, se queda en la taquilla del vestuario y la mayoría de los días allí permanece sin tocarlo esperando a que se acabe la jornada.</p>
-
 <p>Pero esto no quiere decir que no me de ningún quebradero de cabeza, uno de los problemas que se me plantea es el gasto de batería ya que la taquilla es una perfecta jaula de faraday y el teléfono invierte mucho esfuerzo en buscar conectividad móvil.</p>
-
 <p>Desactivar los datos es una buena forma de minimizar el gasto de batería, pero es muy latoso tener que estar activando y desactivando esta opción de forma manual. Por esto he creado en Tasker un perfil que lo automatiza.</p>
-
-<h3 id="la-solución">La solución</h3>
-
+<h3 id="la-solucin">La solución</h3>
 <p>Usando Tasker, para saber cuando estoy en el trabajo sin tener que yo hacer nada hay varias posibilidades, usando la localización GPS, mediante las antenas de telefonía cercanas o mediante las redes wifi cercanas.</p>
-
 <blockquote>
 <p>Tasker dispone de un plugin de pago <a href="https://play.google.com/store/apps/details?id=com.joaomgcd.autolocation">Autolocation</a> que todavía no he probado y que, con un coste de 2€, puede ser útil si utilizas varias ubicaciones para gestionar Tasker.</p>
 </blockquote>
-
 <p>La primera implica un gran gasto de batería que es lo que queremos evitar y la segunda solo es precisa cuando te encuentras en una zona con mucha densidad de antenas (Que no es mi caso). Descartadas las dos primeras, me quedo con la detección de ubicación basándome en las redes wifi cercanas (No hace falta que se efectúe la conexión a ninguna de ellas, solo detectar que está cerca)</p>
-
 <p>Software necesario:</p>
-
 <ul>
 <li>Tasker (2.99E) disponible en la <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es">Play Store</a></li>
 </ul>
-
 <p>Con todo lo anterior, tal y como se puede ver en la imagen posterior tengo creados dos perfiles</p>
-
 <ul>
 <li>En el trabajo -&gt; Cuando detecta próxima la wifi del trabajo se activa este perfil, su tarea de entrada la empleo para otros menesteres.</li>
 <li>Ahorrar bateria en el trabajo -&gt; Tiene dos condiciones de activación, que el perfil &ldquo;En el trabajo&rdquo; esté activo y que la pantalla del móvil esté apagada. cuando se cumplan estas condiciones se desactivarán los datos móviles del teléfono.</li>
 </ul>
-
 <p>uno que me detecta cuando estoy en el trabajo En Tasker, crearemos un perfil con dos condiciones de activación. * Detectar cerca la red wifi del trabajo * Tener la pantalla del móvil apagada La tarea de entrada apagará los datos y la de salida los encenderá.</p>
-
-<p><img src="/images/20180210_ahorrar_bateria_tajo_01.jpg" alt="Perfiles de ahorro" /></p>
-
+<p><img src="/images/20180210_ahorrar_bateria_tajo_01.jpg" alt="Perfiles de ahorro"></p>
 <p>Así de simple, de esta forma mientras estoy en el trabajo los datos móviles solo se activan cuando tengo la pantalla encendida.</p>
 
 		</div>

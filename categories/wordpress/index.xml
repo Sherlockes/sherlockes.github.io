@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WordPress on Sherblog</title>
+    <title>wordpress on Sherblog</title>
     <link>/categories/wordpress/</link>
-    <description>Contenido reciente de la categoria... in WordPress on Sherblog</description>
+    <description>Contenido reciente de la categoria... in wordpress on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
@@ -129,7 +129,7 @@ Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde v
       <description>Hoy he intentado administrar el blog y me he encontrado con este pantallazo
 Parece que hay un problema de memoria en el servidor. Lo primero que he pensado es que mi host gratuito había puesto limitaciones. Tras una breve incursión por la red he encontrado la solución, rápida y sencilla.
 En el archivo en el archivo &amp;ldquo;wp-config.php&amp;rdquo; hay que añadir las siguientes líneas
-/** Ampliación de memoria*/ define(&#39;WP_MEMORY_LIMIT&#39;, &#39;96M&#39;);  Y a funcionar de nuevo!</description>
+/** Ampliación de memoria*/ define(&#39;WP_MEMORY_LIMIT&#39;, &#39;96M&#39;); Y a funcionar de nuevo!</description>
     </item>
     
     <item>
@@ -149,7 +149,7 @@ Antes de nada necesito un sitio para guardar la copia de seguridad &amp;ldquo;en
       
       <guid>/error-en-wordpress-elegir-la-base-de-datos/</guid>
       <description>Un buen día, intentas acceder a tu blog y te encuentras un mensaje como el siguiente.
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # _Error establishing a database connection_ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Aunque la cosa no pinta bien, intentas que no cunda el pánico y accedes directamente a las páginas de administración del blog pero la cosa se pone fea cuando ves un cartel con la siguiente información.
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ # No se pudo elegir base de datos Hemos podido conectar con el servidor de la bases de datos (lo que significa que tu nombre de usuario y la contraseña están correctos) pero no se pudo elegir la base de datos `olivas_blog`.</description>
     </item>
     
