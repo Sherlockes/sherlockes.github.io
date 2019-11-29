@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/unir-varios-pdf-en-linux-desde-la-l%C3%ADnea-de-comandos/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/men%C3%BA-para-montar-nubes-en-bash/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url>
@@ -628,12 +633,27 @@
   </url>
   
   <url>
+    <loc>/categories/design/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/dise%C3%B1o/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/imagemagick/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/poppler-utils/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -750,11 +770,6 @@
   <url>
     <loc>/tags/keepass/</loc>
     <lastmod>2019-02-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
