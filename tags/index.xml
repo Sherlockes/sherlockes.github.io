@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,18 +14,36 @@
     <item>
       <title>bash</title>
       <link>/tags/bash/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Imagemagick</title>
+      <title>imagemagick</title>
       <link>/tags/imagemagick/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/imagemagick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdf</title>
+      <link>/tags/pdf/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/pdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>poppler</title>
+      <link>/tags/poppler/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/poppler/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Poppler</title>
-      <link>/tags/poppler/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/poppler/</guid>
       <description></description>
     </item>
     
@@ -111,7 +120,7 @@
     </item>
     
     <item>
-      <title>gimp</title>
+      <title>Gimp</title>
       <link>/tags/gimp/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -192,7 +201,7 @@
     </item>
     
     <item>
-      <title>Synology</title>
+      <title>synology</title>
       <link>/tags/synology/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       
