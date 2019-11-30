@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Poppler</title>
+      <link>/tags/poppler/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/poppler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>poppler-utils</title>
       <link>/tags/poppler-utils/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
@@ -102,7 +111,7 @@
     </item>
     
     <item>
-      <title>Gimp</title>
+      <title>gimp</title>
       <link>/tags/gimp/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
