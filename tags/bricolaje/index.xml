@@ -32,5 +32,14 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 Desde los ajuste de la batería veo a los &amp;ldquo;Servicios de Google Play&amp;rdquo; con un consumo desorbitado por encima del resto que hace que tenga que cargar el teléfono dos veces al días sin apenas utilizarlo.</description>
     </item>
     
+    <item>
+      <title>Título</title>
+      <link>/t%C3%ADtulo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/t%C3%ADtulo/</guid>
+      <description>&lt;p&gt;Un pequeño resumen del post a modo de introducción&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
