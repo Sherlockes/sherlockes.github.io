@@ -75,7 +75,7 @@
 		<figure class="post__thumbnail">
 			<img src="/images/20150530_migrando_wordpress.jpg" alt="Migrando WordPress a otro servidor">
 		</figure><div class="content post__content clearfix">
-			<p>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &ldquo;<a href="http://www.sherver.site88.net">www.sherver.site88.net</a>&rdquo; que tenía alojada en <a href="http://www.000webhost.com">000webhost</a>. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&rdquo;.</p>
+			<p>En los últimos días y por causas que desconozco me han desaparecido todos los archivos de mi antigua dirección del blog &ldquo;<a href="http://www.sherver.site88.net%22">www.sherver.site88.net&quot;</a> que tenía alojada en <a href="http://www.000webhost.com">000webhost</a>. He intentado la reparación del site por todos los medios, pero la única respuesta que he recibido de parte de los administradores del alojamiento es que &ldquo;esto no hubiera pasado con la modalidad de pago de nuestro alojamiento&rdquo;.</p>
 <p>Bueno, el caso es que he tenido que buscar otro alojamiento para mi blog donde volver a montarlo desde cero y restaurarlo a como estaba hace unos días.</p>
 <h3 id="que-necesito">¿Que necesito?</h3>
 <ul>
@@ -87,7 +87,7 @@
 <li>La copia de seguridad de la base de datos del blog</li>
 <li>La copia de seguridad de la carpeta &ldquo;wp-content&rdquo; del blog</li>
 </ul>
-<p>Pues bien, sin que sirva de precedente, he tirado la casa por la ventana (18€ al año) en <a href="http://www.domain.com">Domain.com</a> y he registrado el dominio <a href="http://www.sherblog.es"><a href="http://www.sherblog.es">www.sherblog.es</a></a>.</p>
+<p>Pues bien, sin que sirva de precedente, he tirado la casa por la ventana (18€ al año) en <a href="http://www.domain.com">Domain.com</a> y he registrado el dominio <a href="http://www.sherblog.es">www.sherblog.es</a>.</p>
 <h3 id="primer-paso-creando-el-nuevo-blog">Primer paso¡¡ Creando el nuevo Blog</h3>
 <p>Crear una nueva instalación de WordPress en el nuevo servidor. Este es un paso del que no voy a dar muchas explicaciones, ya que es un proceso archidocumentado en la web y que pasa básicamente por subir una instalación de wordpress a tu servidor, crear la base de datos, modificar el config.php con la información de la base de datos y finalmente ejecutar el instalador. Si tienes alguna duda, revisa la famosa instalación en 5 minutos de WordPress desde el <a href="https://codex.wordpress.org/es:Instalando_Wordpress">codex</a>.</p>
 <h3 id="segundo-paso-restaurando-los-archivos">Segundo Paso¡¡ Restaurando los archivos</h3>
@@ -95,7 +95,7 @@
 <p><img src="/images/20150530_migrando_wordpress_01.jpg" alt="imagen"></p>
 <h3 id="tercer-paso-editando-la-base-de-datos">Tercer paso¡¡ Editando la base de datos</h3>
 <p>Es muy importante tener una copia de seguridad de la base de datos de WordPress de nuestro blog a la que poder recurrir en este tipo de situaciones. Para realizarla periódicamente, utilizo el plugin de WordPress <a href="http://austinmatzko.com/wordpress-plugins/wp-db-backup/">WP-Db-Backup</a> de forma que una vez a la semana o cuando tu desees llega a tu correo una copia de seguridad de la base de datos.</p>
-<p>En el caso de que tengas que restaurar la base de datos en el mismo servidor es tan simple como importarla directamente desde phpmyadmin pero en el caso que ahora nos atañe vamos a realizar un paso intermedio ya que el direccionamiento del blog ha cambiado, donde antes era &ldquo;<a href="http://www.sherver.site88.net">http://www.sherver.site88.net</a>&rdquo; ahora es &ldquo;<a href="http://www.sherblog.es">http://www.sherblog.es</a>&rdquo;. Realizar este cambio es muy sencillo y sólo requiere una edición de la base de datos con un editor de texto, buscaremos la primera cadena de texto y la sustituiremos por la segunda.</p>
+<p>En el caso de que tengas que restaurar la base de datos en el mismo servidor es tan simple como importarla directamente desde phpmyadmin pero en el caso que ahora nos atañe vamos a realizar un paso intermedio ya que el direccionamiento del blog ha cambiado, donde antes era &ldquo;<a href="http://www.sherver.site88.net%22">http://www.sherver.site88.net&quot;</a> ahora es &ldquo;<a href="http://www.sherblog.es%22">http://www.sherblog.es&quot;</a>. Realizar este cambio es muy sencillo y sólo requiere una edición de la base de datos con un editor de texto, buscaremos la primera cadena de texto y la sustituiremos por la segunda.</p>
 <p><img src="/images/20150530_migrando_wordpress_02.jpg" alt="imagen"></p>
 <h3 id="cuarto-paso-importando-la-base-de-datos">Cuarto paso¡¡ Importando la base de datos</h3>
 <p>Ahora toca abrir la aplicación de phpMyadmin de nuestro servidor, acceder a la base de datos que gobierna el nuevo blog de WordPress e importar encima de ella la copia de seguridad con el direccionamiento modificado que hemos obtenido en el paso anterior.</p>
