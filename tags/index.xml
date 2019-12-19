@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Google Drive</title>
+      <link>/tags/google-drive/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-drive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Scripts</title>
+      <link>/tags/google-scripts/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telegram</title>
+      <link>/tags/telegram/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/telegram/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bash</title>
@@ -120,7 +147,7 @@
     </item>
     
     <item>
-      <title>Gimp</title>
+      <title>gimp</title>
       <link>/tags/gimp/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
