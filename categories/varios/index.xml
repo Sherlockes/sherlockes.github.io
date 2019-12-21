@@ -272,14 +272,5 @@ Lo menos que se merece es una pequeña limpieza por dentro, tanto de polvo como 
 Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratuito que existe pero no hay que olvidar que está todavía en fase beta y que sus servidores son tan susceptible a las averías o hackers como el pc de casa por lo que es muy importante realizar periódicamente una copia de seguridad de los correos electrónicos que tenemos en nuestra cuenta de Gmail.</description>
     </item>
     
-    <item>
-      <title>Título</title>
-      <link>/t%C3%ADtulo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/t%C3%ADtulo/</guid>
-      <description>&lt;p&gt;Un pequeño resumen del post a modo de introducción&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

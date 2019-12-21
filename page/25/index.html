@@ -66,34 +66,6 @@
 	</div>
 	<article class="list__item post">
 	<figure class="list__thumbnail">
-		<a href="/raspberry-acceso-desde-el-exterior/">
-			<img src="/images/20180410_raspberry_noip.jpg" alt="Raspberry Acceso desde el exterior" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/raspberry-acceso-desde-el-exterior/" rel="bookmark">
-			Raspberry Acceso desde el exterior
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-04-10T00:00:00">2018-04-10</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
-Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
 		<a href="/raspberry-reinicios-peri%C3%B3dicos/">
 			<img src="/images/20180501_raspberry_reinicio.jpg" alt="Raspberry Reinicios periódicos" />
 		</a>
@@ -202,6 +174,35 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 	<div class="content list__excerpt post__content clearfix">
 		Instalando WordPress Al fin ha llegado el momento, se han acabado los preliminares y aquí es donde empieza la famosa instalación de WordPress en cinco minutos, tan sólo hay que introducir en nuestro navegador la ruta donde hemos copiado los archivos de instalación y seguir los pasos típicos.
 	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-servidor-ftp/">
+			<img src="/images/20180406_raspberry_vsftpd.jpg" alt="Raspberry Servidor ftp" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/raspberry-servidor-ftp/" rel="bookmark">
+			Raspberry Servidor ftp
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-04-06T00:00:00">2018-04-06</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
+Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
+*** Actualización *** //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &ldquo;pi&rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &ldquo;www-data&rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//
+	</div>
 </article>
 </main>
 
@@ -260,7 +261,7 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/backup" title="Backup">Backup (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash (4)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darktable" title="Darktable">Darktable (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo (14)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dired" title="Dired">Dired (1)</a>
