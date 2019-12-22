@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Sherver</title>
       <link>/categories/sherver/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/sherver/</guid>
       <description></description>
@@ -110,7 +110,7 @@
     </item>
     
     <item>
-      <title>gps</title>
+      <title>GPS</title>
       <link>/categories/gps/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       

@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Sherver on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 08 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/sherver/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Archivos de Telegram al NAS</title>
       <link>/archivos-de-telegram-al-nas/</link>
-      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>/archivos-de-telegram-al-nas/</guid>
       <description>&lt;p&gt;Hace mucho tiempo que llevo buscando un método para descargar archivos desde Telegram (en mi teléfono Android) al NAS sin estar en la misma red local ni usar datos de mi tarifa móvil. Ahora creo que he dado con una forma rápida y sencilla&amp;hellip;&lt;/p&gt;</description>
