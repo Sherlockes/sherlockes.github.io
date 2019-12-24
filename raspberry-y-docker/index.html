@@ -79,8 +79,8 @@
 <p>Instalar Docker\<br>
 <!-- raw HTML omitted -->
 sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>
-<p>sudo curl -fsSL <a href="https://download.docker.com/linux/">https://download.docker.com/linux/</a>$(. /etc/os-release; echo &ldquo;$ID&rdquo;)/gpg | sudo apt-key add -</p>
-<p>sudo echo &ldquo;deb [arch=armhf] <a href="https://download.docker.com/linux/">https://download.docker.com/linux/</a>$(. /etc/os-release; echo &ldquo;$ID&rdquo;)<br>
+<p>sudo curl -fsSL <a href="https://download.docker.com/linux/$(">https://download.docker.com/linux/$(</a>. /etc/os-release; echo &ldquo;$ID&rdquo;)/gpg | sudo apt-key add -</p>
+<p>sudo echo &ldquo;deb [arch=armhf] <a href="https://download.docker.com/linux/$(">https://download.docker.com/linux/$(</a>. /etc/os-release; echo &ldquo;$ID&rdquo;)<br>
 $(lsb_release -cs) stable&rdquo; |<br>
 sudo tee /etc/apt/sources.list.d/docker.list</p>
 <p>sudo apt update
