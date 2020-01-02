@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>diseño</title>
       <link>/categories/dise%C3%B1o/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
@@ -34,15 +43,6 @@
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/categories/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Varios</title>
-      <link>/categories/varios/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/varios/</guid>
       <description></description>
     </item>
     
@@ -74,7 +74,7 @@
     </item>
     
     <item>
-      <title>Emacs</title>
+      <title>emacs</title>
       <link>/categories/emacs/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       

@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/subtotales-en-google-sheets/</loc>
+    <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/extrayendo-la-portada-de-un-pdf/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
   </url>
@@ -668,6 +673,16 @@
   </url>
   
   <url>
+    <loc>/tags/google-sheets/</loc>
+    <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/varios/</loc>
+    <lastmod>2019-12-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/bash/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
   </url>
@@ -714,11 +729,6 @@
   
   <url>
     <loc>/tags/rclone/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/varios/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url>
   
