@@ -11,8 +11,8 @@
 <meta property="og:description" content="El método que empleo para descargar archivos de Telegram al NAS desde Android sin gastar datos." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/archivos-de-telegram-al-nas/" />
-<meta property="article:published_time" content="2019-12-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-12-25T00:00:00+00:00" />
+<meta property="article:published_time" content="2020-01-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-02T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Archivos de Telegram al NAS"/>
@@ -63,7 +63,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-12-25T00:00:00">2019-12-25</time>
+	<time class="meta__text" datetime="2020-01-02T00:00:00">2020-01-02</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -83,7 +83,6 @@
     <li><a href="#de-telegram-a-google-drive-via-bot">De Telegram a Google Drive (Via Bot)</a>
       <ul>
         <li><a href="#getpubliclinkbothttpstmehk-driveupload-bot">@GetPublicLinkBot</a></li>
-        <li><a href="#google-drive-bothttpstmehk-driveupload-bot">GOOGLE DRIVE BOT</a></li>
         <li><a href="#google-drive-uploader-20httpstmedriveuploadbot">Google Drive Uploader 2.0</a></li>
         <li><a href="#google-drive-bothttpstmegdriveit-bot">Google Drive Bot</a></li>
       </ul>
@@ -115,19 +114,6 @@
 <p>Puede parecer que descargar directamente este archivo con la utilidad de Synology es el método más rápido pero nada más lejos de la realidad ya que el paso intermedio por Google Drive nos evita una operación manual y tener el NAS encendido las 24 horas del día.</p>
 </blockquote>
 <p>En la misma respuesta y si previamente hemos dotado al Bot de privilegios de acceso a nuestra cuenta de  Google Drive, también dispondremos de un enlace que nos guardará el archivo en nuestra cuenta de la nube pública de Google.</p>
-<h3 id="google-drive-bothttpstmehk-driveupload-bot"><a href="https://t.me/HK_Driveupload_Bot">GOOGLE DRIVE BOT</a></h3>
-<blockquote>
-<p>20191225 - A día de Navidad de 2019 ha dejado de funcionar, si no resucita lo borraré del Post*</p>
-</blockquote>
-<p>De un solo paso envía los archivos de Telegram que compartas con el a tu unidad de Google Drive. Rápido y sencillo aunque con la limitación de que hay que esperar un minuto desde que has enviado un archivo hasta que envías el siguiente.</p>
-<p>No es tan intuitivo como el anterior, hay que realizar los siguientes pasos</p>
-<ul>
-<li>En el Bot, solicitar la autorización mediante el comando /auth</li>
-<li>Permitir el acceso desde nuestra cuenta de Google</li>
-<li>Copiar el código que Google nos muestra</li>
-<li>En el Bot, usar /authcode + código pegado</li>
-</ul>
-<p>Y ya está listo para que reenvíes al Bot los archivos que quieras descargar.</p>
 <h3 id="google-drive-uploader-20httpstmedriveuploadbot"><a href="https://t.me/driveuploadbot">Google Drive Uploader 2.0</a></h3>
 <p>Ahora (20191225) parece que funciona, tan sencillo como unirse a un canal de difusión del autor, autorizar el acceso a la cuenta de Google Drive al Bot y pegar en el mismo el código de acceso. Si aguanta habrá que hacer una donación&hellip;</p>
 <ul>
@@ -138,11 +124,15 @@
 </ul>
 <h3 id="google-drive-bothttpstmegdriveit-bot"><a href="https://t.me/@Gdriveit_bot">Google Drive Bot</a></h3>
 <p>Ahora (20191225) parece que funciona. Es un Bot con el que puedes descargar 1.5Gb al día, para descargar más hay que pagar, de momento lo estoy usando como método de emergencia.</p>
+<blockquote>
+<p>Este Bot tiene la peculiaridad de que ademas de reenviarle el archivo que deseas descargar hay que responderle desde dentro del mismo con el comando &ldquo;Upload&rdquo;</p>
+</blockquote>
 <h2 id="acondicionando-google-drive">Acondicionando Google Drive</h2>
-<p>Ambos Bot dejan el archivo en la raiz de la cuenta de google Drive, una vez allí utilizo un pequeño programa de <a href="https://script.google.com">Google Scripts</a> para moverlos a la carpeta que posteriormente voy a sincronizar desde el NAS. Este script realiza los siguientes pasos:</p>
+<p>Cada Bot deja el archivo en una carpeta distinta de la cuenta de google Drive (Lo cual no es posible de cambiar en la configuración del Bot), una vez allí utilizo un pequeño programa de <a href="https://script.google.com">Google Scripts</a> para moverlos a la carpeta que posteriormente voy a sincronizar desde el NAS. Este script realiza los siguientes pasos:</p>
 <ul>
 <li>Selecciona la carpeta compartida</li>
-<li>Mueve todos los archivos de la raiz de la unidad a la carpeta compartida</li>
+<li>Crea una matriz con las posible ubicaciones de los Bot</li>
+<li>Mueve todos los archivos de las distintas carpetas a la carpeta compartida</li>
 <li>Si ya llevan más de 24 horas allí, elimina los archivos de la carpeta compartida</li>
 <li>Vacía la papelera de Google Drive</li>
 </ul>
@@ -151,12 +141,22 @@
   var shd_id = &quot;1RoVpSOD0wzGZ-1OPweS9DR55wwndKcbO&quot;
   var shd_folder = DriveApp.getFolderById(shd_id)
   
-  // Mueve los archivo en el raiz a la carpeta compartida
-  var root_files = DriveApp.getRootFolder().getFiles();
-  while (root_files.hasNext()) {
-    var file = root_files.next();
-    shd_folder.addFile(file);
-    DriveApp.getRootFolder().removeFile(file);
+  // Carpetas donde buscar los archivos para mover  
+  var folders_id = [];
+  // Carpeta compartida &quot;driveuploadbot&quot;
+  folders_id.push(&quot;1Lf190bC0KFjWcLywjvCXuNehBSRlGFfS&quot;);
+  // Carpeta compartida &quot;driveuploadbot&quot;
+  folders_id.push(&quot;1qxy6waDIaCl6r8UdkiEm6XZ_DLKFedGF&quot;);
+  
+  for each (var folder_id in folders_id)
+  {
+    var to_move_folder = DriveApp.getFolderById(folder_id)
+    var to_move_files = to_move_folder.getFiles();
+    while (to_move_files.hasNext()) {
+      var file = to_move_files.next();
+      shd_folder.addFile(file);
+      to_move_folder.removeFile(file);
+    }
   }
   
   // Mueve los archivos de la carpeta a la papelera cuando han pasado 24 horas

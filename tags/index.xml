@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Google Drive</title>
       <link>/tags/google-drive/</link>
-      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/google-drive/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Google Scripts</title>
       <link>/tags/google-scripts/</link>
-      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/google-scripts/</guid>
       <description></description>
@@ -32,7 +32,7 @@
     <item>
       <title>telegram</title>
       <link>/tags/telegram/</link>
-      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/telegram/</guid>
       <description></description>
@@ -147,7 +147,7 @@
     </item>
     
     <item>
-      <title>gimp</title>
+      <title>Gimp</title>
       <link>/tags/gimp/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -372,7 +372,7 @@
     </item>
     
     <item>
-      <title>Virtualdub</title>
+      <title>virtualdub</title>
       <link>/tags/virtualdub/</link>
       <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
       
