@@ -6,7 +6,7 @@
     <description>Recent content in Google Sheets on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/google-sheets/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Subtotales en Google Sheets</title>
       <link>/subtotales-en-google-sheets/</link>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/subtotales-en-google-sheets/</guid>
       <description>&lt;p&gt;En este post comentaré las dos formas que utilizo en mis archivos de Google Sheets para hacer cálculos de subtotales de forma &amp;ldquo;dinamica&amp;rdquo;, es decir, en función del valor de otra columna. Para ello utilizo las funciones &amp;ldquo;filter&amp;rdquo; y &amp;ldquo;sumar.si&amp;rdquo;.&lt;/p&gt;</description>
