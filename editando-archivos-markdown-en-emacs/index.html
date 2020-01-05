@@ -76,17 +76,17 @@
 			<img src="/images/20190618_emacs_markdown_00.jpg" alt="Editando archivos markdown en emacs">
 		</figure><div class="content post__content clearfix">
 			<p>En mi lucha por utilizar <a href="https://www.gnu.org/software/emacs/">Emacs</a> en todo mi usos con editor de texto aquí dejo reflejado como para editar archivos &ldquo;Markdown&rdquo; tiene muchas posibilidades.  No pretendo hacer una extensa guía, sólo los comandos que empleo habitualmente.</p>
-<h2 id="instalacin">Instalación</h2>
+<h2 id="instalación-">Instalación</h2>
 <p>La forma más común para trabajar con archivos en formato markdown dentro de <a href="https://www.gnu.org/software/emacs/">Emacs</a> la tenemos gracias a <a href="https://jblevins.org/projects/markdown-mode/">Jason Blevins</a> por desarrolar el &ldquo;Markdown-Mode&rdquo;.  La mejor forma de instalar este paquete es a través del repositorio de MELPA mediante la instrucción <code>M-x package-install RET markdown-mode RET</code> siempre y cuando tengamos el repositorio añadido en la configuración de emacs.</p>
-<h3 id="aadiendo-capacidad-de-previsualizacin">Añadiendo capacidad de previsualización</h3>
-<h4 id="previsualizacin-en-el-navegador">Previsualización en el navegador</h4>
+<h3 id="añadiendo-capacidad-de-previsualización-">Añadiendo capacidad de previsualización</h3>
+<h4 id="previsualización-en-el-navegador-">Previsualización en el navegador</h4>
 <p>En mi caso bajo Linux Mint tengo instalado Pandoc en el sistema operativo mediante la instrucción de consola <code>sudo apt-get install pandoc</code> y posteriormente se edita la variable &ldquo;markdown-command&rdquo; introduciendo el siguiente comando:</p>
 <pre><code>&quot;pandoc -f markdown -t html -s --mathjax --highlight-style=pygments&quot;
 </code></pre><blockquote>
 <p>Recordar que la forma más sencilla de editar una variable es mediante el comando <code>C-h v</code></p>
 </blockquote>
 <p>A continuación podremos realizar una previsualización en el navegador mediante el comando <!-- raw HTML omitted -->C-c C-c p<!-- raw HTML omitted -->.</p>
-<h4 id="previsualizacin-en-tiempo-real">Previsualización en tiempo real</h4>
+<h4 id="previsualización-en-tiempo-real-">Previsualización en tiempo real</h4>
 <p>También podemos realizar una previsualización en tiempo real de lo que vamos escribiendo mediante el comando <!-- raw HTML omitted -->C-c C-c l<!-- raw HTML omitted --> o lo que sería &ldquo;markdown-live-preview-mode&rdquo;.</p>
 <blockquote>
 <p>Antes de ejecutar el modo de previsualización en tiempo real sería interesante definir como queremos partir la pantalla si de forma vertical u horizontal para realizar esta previsualización. Para esta personalización deberemos editar la variable &ldquo;markdown-split-window-direction&rdquo;</p>
@@ -94,7 +94,7 @@
 <p><img src="/images/20190618_emacs_markdown_01.jpg" alt="imagen_01"></p>
 <p>Para cerrar el modo de previsualización en tiempo real volveremos a utilizar el comando <!-- raw HTML omitted -->C-c C-c l<!-- raw HTML omitted --></p>
 <p>Es una pena pero, por defecto, la actualización del buffer de previsualización no se lleva a cabo hasta que se guarda el archivo que estamos editando lo cual supone una pequeña pérdida de tiempo. Para evitar esto hay algunas soluciones que iré probando y cuando de con la que más me guste lo dejaré aquí reflejado.</p>
-<h4 id="previsualizacin-en-un-editor-externo">Previsualización en un editor externo</h4>
+<h4 id="previsualización-en-un-editor-externo-">Previsualización en un editor externo</h4>
 <p>En mi caso tengo instalado en el sistema Typora como editor específico para archivos markdown. Para poder abrirlos en este desde emacs hay que configurar la variable &ldquo;markdown-open-command&rdquo; con el comando:</p>
 <pre><code>&quot;typora&quot;
 </code></pre><p>Ahora ya podemos abrir un archivo markdown en Typora mediante el comando <!-- raw HTML omitted -->C-c C-c o<!-- raw HTML omitted --></p>
@@ -102,14 +102,14 @@
 <pre><code> '(markdown-command &quot;pandoc -f markdown -t html -s --mathjax --highlight-style pygments&quot;)
  '(markdown-open-command &quot;typora&quot;)
  '(markdown-split-window-direction (quote right))
-</code></pre><h2 id="links-e-imgenes">Links e imágenes##</h2>
+</code></pre><h2 id="links-e-imágenes">Links e imágenes##</h2>
 <p>Para añadir links dentro del texto tenemos el comando <!-- raw HTML omitted -->C-c C-l<!-- raw HTML omitted --> y para introducir imágenes <!-- raw HTML omitted -->C-c C-i<!-- raw HTML omitted -->, tras presionarlo podemos insertar la ruta del enlace o imagen o bien la referencia del mismo en caso de que agrupemos todos los enlaces e imágenes al final del archivo.</p>
-<h2 id="encabezados">Encabezados</h2>
+<h2 id="encabezados-">Encabezados</h2>
 <ul>
 <li><!-- raw HTML omitted -->C-c C-s h<!-- raw HTML omitted --> &gt; Introduce un encabezado del mismo nivel que el anterior</li>
 <li><!-- raw HTML omitted -->C-c C-s 3<!-- raw HTML omitted --> &gt; Introduce un encabezado del nivel que pongamos en el número</li>
 </ul>
-<h2 id="estilos-de-texto">Estilos de texto</h2>
+<h2 id="estilos-de-texto-">Estilos de texto</h2>
 <ul>
 <li><!-- raw HTML omitted -->C-c C-s i<!-- raw HTML omitted --> &gt; Cursiva</li>
 <li><!-- raw HTML omitted -->C-c C-s b<!-- raw HTML omitted --> &gt; Negrita</li>

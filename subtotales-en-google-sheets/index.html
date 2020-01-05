@@ -169,33 +169,33 @@
 </table>
 <p>Pues bien, necesito calcular el total de horas de un año específico, con la peculiaridad de que el año está determinado por el valor de otra celda en una segunda tabla que contiene el resumen por años.</p>
 <p>Podría realizarse estás operación mediante unos cuantos pasos y hojas intermedias pero he optado por buscar la opción que lo calcule con una silla fórmula para lo que he encontrado dos opciones.</p>
-<h2 id="usando-la-funcin-sumarsi">Usando la función Sumar.Si</h2>
+<h2 id="usando-la-función-sumarsi-">Usando la función Sumar.Si</h2>
 <p>Google Sheets dispone de la función <a href="https://support.google.com/docs/answer/3093583?hl=es">Sumar.Si</a> que permite sumar dentro de un rango las celdas que cumplan con un determinado criterio. Usando esta posibilidad la función quedará como la siguiente:</p>
 <p><img src="/images/20191220_subtotales_google_sheets_01.jpg" alt="imagen_01"></p>
-<h3 id="parte-1---textomesesa2ayyyy">Parte 1 - TEXTO(Meses!$A$2:$A;&ldquo;yyyy&rdquo;)</h3>
+<h3 id="parte-1---textomesesa2ayyyy-">Parte 1 - TEXTO(Meses!$A$2:$A;&ldquo;yyyy&rdquo;)</h3>
 <p>Dispongo de la fecha entera en la primera columna de la tabla superior (En mi archivo ubicada en la hoja &ldquo;Meses&rdquo; y la Columna &ldquo;A&rdquo;). Mediante la función <a href="https://support.google.com/docs/answer/3094139?hl=es">Texto</a> voy a reformatear los valores de la primera columna (Excepto el primero que es el título) a un formato de año de cuatro dígitos (&ldquo;2019&rdquo;)</p>
-<h3 id="parte-2---criterio">Parte 2 - Criterio</h3>
+<h3 id="parte-2---criterio-">Parte 2 - Criterio</h3>
 <p>Según está en la formula, en la celda A7 de la hoja de cálculo es donde estará el valor del año que quiero sumar cuando este coincida con la parte 1.</p>
-<h3 id="parte-3---rango-a-sumar">Parte 3 - Rango a sumar </h3>
+<h3 id="parte-3---rango-a-sumar--">Parte 3 - Rango a sumar </h3>
 <p>La columna &ldquo;D&rdquo; de la hoja &ldquo;Meses&rdquo; es la que corresponde a los totales de horas que queremos sumar. Nuevamente se suma toda la columna a escepción de la primera fila que corresponde al título de la misma.</p>
-<h3 id="parte-4---sumarsi">Parte 4 - Sumar.Si</h3>
+<h3 id="parte-4---sumarsi-">Parte 4 - Sumar.Si</h3>
 <p>Esta es la función principal y que se encarga de comprobar los valores de la Parte 1 con el criterio de la Parte 2 y cuando se cumpla sumar la Parte 3</p>
-<h3 id="parte-5---arrayformula">Parte 5 - Arrayformula</h3>
+<h3 id="parte-5---arrayformula-">Parte 5 - Arrayformula</h3>
 <p>No tengo claro la misión de la función <a href="https://support.google.com/docs/answer/3093275?hl=es">ArrayFormula</a>, lo que está claro es que el método Sumar.Si tal y como lo he dispuesto no funciona si no lo incluyo como el argmento dentro de la función <a href="https://support.google.com/docs/answer/3093275?hl=es">ArrayFormula</a> para terminar quedando así.</p>
 <p><em><strong>=ARRAYFORMULA(SUMAR.SI(TEXTO(Meses!$A$2:$A;&ldquo;yyyy&rdquo;);A7;Meses!$D$2:$D))</strong></em></p>
 <p>El resultado es bastante límpio y fácil de seguir, sin ningún tipo de columnas intermedias que tanto afean las hojas.</p>
-<h2 id="usando-la-funcin-filter">Usando la función FILTER</h2>
+<h2 id="usando-la-función-filter-">Usando la función FILTER</h2>
 <p>Google Sheets dispone tambien de la avanzada función <a href="https://support.google.com/docs/answer/3093197?hl=es">Filter</a> que es capaz de filtrar una tabla de varias columnas con una o varias condiciones.</p>
 <p><img src="/images/20191220_subtotales_google_sheets_02.jpg" alt="imagen_02"></p>
-<h3 id="parte-1---intervalo">Parte 1 - Intervalo</h3>
+<h3 id="parte-1---intervalo-">Parte 1 - Intervalo</h3>
 <p>En la columna D de la hoja &ldquo;Meses&rdquo; (Excepto la primera fila que es el encabezado dispongo de los totales de horas para cada mes, esta es la columna de la que quiero obtener un subtotal para un mes determinado.</p>
-<h3 id="parte-2---condicin">Parte 2 - Condición</h3>
+<h3 id="parte-2---condición-">Parte 2 - Condición</h3>
 <p>En la columna A de la hoja &ldquo;Meses&rdquo; tengo la fecha correspondiente al primer día del mes para el que he apuntado el total de horas. Cada una de estas fechas las convierto con la función <a href="https://support.google.com/docs/answer/3093061?hl=es">Año</a> y la comparo con la correspondiente casilla en la que está el número de año para el que quiero calcular el subtotal.</p>
-<h3 id="parte-3---filtro">Parte 3 - Filtro</h3>
+<h3 id="parte-3---filtro-">Parte 3 - Filtro</h3>
 <p>La función [Filtro] nos mostrará todos los elementos del intervalo de la &ldquo;Parte 1&rdquo; que cumplan la condición de la &ldquo;Parte 2&rdquo;</p>
-<h3 id="parte-4---suma">Parte 4 - Suma</h3>
+<h3 id="parte-4---suma-">Parte 4 - Suma</h3>
 <p>Con el filtro ya aplicado calcularemos el total del mismo mediante la función <a href="https://support.google.com/docs/answer/3093669?hl=es">Suma</a> y con esto ya casi tendremos terminada la función.</p>
-<h3 id="parte-5---error">Parte 5 - Error</h3>
+<h3 id="parte-5---error-">Parte 5 - Error</h3>
 <p>La función está completa pero presenta un pequeño problema y es que cuando no hay ningún valor dentro del intervalo que cumpla la condición (años futuros para los que no está metido el total de cada mes) presenta un error. Aunque es funcional resulta un poco desagradable a la vista. Lo evitamos con el uso de la función <a href="https://support.google.com/docs/answer/3093304?hl=es">Si.error</a> cuya misión únicamente es dejar la celda en blanco cuando encuentre un error.</p>
 <p><em><strong>=SI.ERROR(SUMA(FILTER(Meses!$D$2:$D;AÑO(Meses!$A$2:$A)=A8));&quot;&quot;)</strong></em></p>
 <p>Aunque haya que hacer la artimaña de la gestión de errores, prefiero utilizar la función <a href="https://support.google.com/docs/answer/3093197?hl=es">Filter</a> a la función <a href="https://support.google.com/docs/answer/3093583?hl=es">Sumar.Si</a> pues es mucho más potente al permitir el uso en una misma función de varias condiciones.</p>
