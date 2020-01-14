@@ -6,10 +6,19 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Radares de tráfico en Android</title>
+      <link>/radares-de-tr%C3%A1fico-en-android/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/radares-de-tr%C3%A1fico-en-android/</guid>
+      <description>&lt;p&gt;En el coche resulta útil un avisador de radares para &amp;ldquo;levantar el pie&amp;rdquo; en determinados momentos o simplemente para ser más riguroso con el respeto de la velocidad máxima de la vía. Para esto también uso Tasker y aquí voy a mostrar cómo lo hago.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Archivos de Telegram al NAS</title>

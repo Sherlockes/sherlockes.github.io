@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +13,18 @@
     <item>
       <title>diseño</title>
       <link>/categories/dise%C3%B1o/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tasker</title>
+      <link>/categories/tasker/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tasker/</guid>
       <description></description>
     </item>
     
@@ -106,15 +115,6 @@
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/gps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tasker</title>
-      <link>/categories/tasker/</link>
-      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/tasker/</guid>
       <description></description>
     </item>
     
