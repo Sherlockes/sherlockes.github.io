@@ -77,10 +77,10 @@
 		</figure><div class="content post__content clearfix">
 			<p>En el coche resulta útil un avisador de radares para &ldquo;levantar el pie&rdquo; en determinados momentos o simplemente para ser más riguroso con el respeto de la velocidad máxima de la vía. Para esto también uso Tasker y aquí voy a mostrar cómo lo hago.</p>
 <h2 id="instalando-">Instalando</h2>
-<p>Un uso más que le estoy dando a [tasker] dentro de mi teléfono Android es para el aviso de radares cuando voy en el coche. Para ello hago uso de la aplicación <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a> y del <a href="https://play.google.com/store/apps/details?id=com.balda.autospeedtrap&amp;hl=es_419">plugin para Tasker</a> que, aunque no son muy intuitivos me permiten una integración total con [tasker]. Una vez que tengamos ambos instalados ya podemos crear la tarea que lo ejecute.</p>
+<p>Un uso más que le estoy dando a <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es">tasker</a> dentro de mi teléfono Android es para el aviso de radares cuando voy en el coche. Para ello hago uso de la aplicación <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a> y del <a href="https://play.google.com/store/apps/details?id=com.balda.autospeedtrap&amp;hl=es_419">plugin para Tasker</a> que, aunque no son muy intuitivos me permiten una integración total con <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es">tasker</a>. Una vez que tengamos ambos instalados ya podemos crear la tarea que lo ejecute.</p>
 <p>En mi caso uso el perfil &ldquo;En el coche&rdquo; con una tarea de entrada y otra de salida tal y como se puede ver en la siguiente imagen.</p>
 <p><img src="/images/20191113_radares_android_01.jpg" alt="imagen_01"></p>
-<p>Cuando [Tasker] detecta que me he conectado al Bluetooth del coche ejecuta la tarea &ldquo;Subir al coche&rdquo; en la cual, entre otras, está la acción para activar el indicador de radares <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a>.</p>
+<p>Cuando <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es">Tasker</a> detecta que me he conectado al Bluetooth del coche ejecuta la tarea &ldquo;Subir al coche&rdquo; en la cual, entre otras, está la acción para activar el indicador de radares <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a>.</p>
 <p><img src="/images/20191113_radares_android_02.jpg" alt="imagen_02"></p>
 <p>La configuración de esta acción es muy simple ya que sólo hay que indicar si comienza el servicio (&ldquo;ACTIVADO&rdquo;) o se detiene el servicio (&ldquo;DESACTIVADO&rdquo;)</p>
 <p><img src="/images/20191113_radares_android_03.jpg" alt="imagen_03"></p>
@@ -89,7 +89,7 @@
 <p>En la tarea de salida del perfil &ldquo;En el coche&rdquo; habrá que incluir la acción para desactivar <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a> para que se detenga el servicio y no gaste más batería de la necesaria.</p>
 </blockquote>
 <h2 id="actualizando-">Actualizando&hellip;</h2>
-<p>Sin duda alguna el gran problema de usar <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a> son las actualizaciones de la base de datos de radares que, lejos de ser automáticas y desatendidas, son un tedioso proceso completamente manual. Para hacerlo un poco más llevadero he creado un script en bash que puedes ver en mi [repositorio] y que descarga los radares desde la web <a href="https://www.todo-poi.es">Todo-poi.es</a>, los acondiciona según los tipos de que dispone <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a>, los renombra y los guarda en una carpeta de Google Drive (Usando rclone).</p>
+<p>Sin duda alguna el gran problema de usar <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a> son las actualizaciones de la base de datos de radares que, lejos de ser automáticas y desatendidas, son un tedioso proceso completamente manual. Para hacerlo un poco más llevadero he creado un script en bash que puedes ver en mi <a href="https://github.com/sherlockes/SherloScripts">repositorio en GitHub</a> y que descarga los radares desde la web <a href="https://www.todo-poi.es">Todo-poi.es</a>, los acondiciona según los tipos de que dispone <a href="https://play.google.com/store/apps/details?id=com.balda.speedtrappro&amp;hl=es">Speed Trap</a>, los renombra y los guarda en una carpeta de Google Drive (Usando rclone).</p>
 <pre><code>#!/bin/bash
 # -*- encoding: utf-8 -*-
 
@@ -188,9 +188,6 @@ rm -rf $carpeta
 </div>
 
 <p>Es una pena tener que hacer este proceso de forma manual, quizás en futuras actualización de la aplicación&hellip;</p>
-<p>[archivo radares]: <a href="https://www.todo-poi.es/radar/GARMIN_RADARES/garminvelocidad">https://www.todo-poi.es/radar/GARMIN_RADARES/garminvelocidad</a> 3xx-5xx-6xx, Zumo, StreetPilot c550, 2720, 2820, 7200 y 7500.zip
-[repositorio]: <a href="https://github.com/sherlockes/SherloScripts">https://github.com/sherlockes/SherloScripts</a>
-[tasker]: <a href="https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es">https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&amp;hl=es</a></p>
 		</div>
 		<footer class="post__footer">
 			
