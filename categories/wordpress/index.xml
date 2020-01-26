@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WordPress on Sherblog</title>
+    <title>Wordpress on Sherblog</title>
     <link>/categories/wordpress/</link>
-    <description>Contenido reciente de la categoria... in WordPress on Sherblog</description>
+    <description>Contenido reciente de la categoria... in Wordpress on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
