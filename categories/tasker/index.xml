@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tasker on Sherblog</title>
+    <title>tasker on Sherblog</title>
     <link>/categories/tasker/</link>
-    <description>Contenido reciente de la categoria... in Tasker on Sherblog</description>
+    <description>Contenido reciente de la categoria... in tasker on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
