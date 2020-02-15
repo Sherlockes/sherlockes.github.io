@@ -73,6 +73,8 @@ Instalación de Moodle Sin duda alguna, la forma más sencilla de instalar Moodl
         <li><a href="#instalación-de-moodle-">Instalación de Moodle</a></li>
         <li><a href="#conexión-mediante-wifi-">Conexión mediante Wifi</a></li>
         <li><a href="#conexión-mediante-ethernet-">Conexión mediante ethernet</a></li>
+        <li><a href="#conexión-mediante-ssh-">Conexión mediante ssh</a></li>
+        <li><a href="#conexión-desde-internet-">Conexión desde internet</a></li>
       </ul>
     </li>
   </ul>
@@ -95,7 +97,39 @@ Instalación de Moodle Sin duda alguna, la forma más sencilla de instalar Moodl
 <pre><code># MoodleBox connection via Ethernet
 # MoodleBox must get an ip address via dhcp
 192.168.1.201 moodlebox.home  moodlebox
-</code></pre>
+</code></pre><p>donde &ldquo;192.168.1.201&rdquo; es la ip que el router le ha asignado a la raspberry.</p>
+<blockquote>
+<p>Si no sabes como averiguar la IP de tu raspberry te remito al <a href="https://sherblog.pro/raspberry-red-y-wifi/">post</a> en que tengo descrito como hacerlo tanto en windows como en linux.</p>
+</blockquote>
+<p>Con este cambio realizado ya podremos aceder a la dirección &ldquo;<a href="http://moodlebox.home/%22">http://moodlebox.home/&quot;</a> desde nuestro navegador para acceder al portal de Moodle.</p>
+<h3 id="conexión-mediante-ssh-">Conexión mediante ssh</h3>
+<p>Por defecto, la ip de la Raspberry no es estática, lo cual supone que, dependiendo de la asignación del router, en un arranque posterior puede adquirir una ip distinta. Para evitarlo tendremos que conectarnos via ssh a la Raspberry (De la que ahora sabemos la ip tal y como hemos visto en el apartado anterior) y modificar el archivo “/etc/dhcpcd.conf” modificando las siguientes líneas:</p>
+<pre><code># Example static IP configuration:
+interface eth0
+static ip_address=192.168.1.201/24
+#static ip6_address=fd51:42f8:caae:d92e::ff/64
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1 8.8.8.8
+
+</code></pre><p>donde 192.168.1.1 es la ip de nuestro router y 192.168.1.201 la ip de la Raspberry.</p>
+<p>Para poder realizar esta modificación nos deberemos conectar via ssh</p>
+<ul>
+<li>En windows usando <a href="https://www.putty.org/">Putty</a> con &ldquo;modlebox&rdquo; de usuario y &ldquo;Moodlebox4$&rdquo; de pass</li>
+<li>En linux mediante &ldquo;ssh <a href="mailto:moodlebox@192.168.1.201">moodlebox@192.168.1.201</a>&rdquo; y &ldquo;Moodlebox4$&rdquo; de pass</li>
+</ul>
+<h3 id="conexión-desde-internet-">Conexión desde internet</h3>
+<p><a href="https://moodlebox.net/en/">MoodleBox</a> está pensado para que la Raspberry esté colocada en clase y los alumnos se conecten a ella via wifi, al termino de la clase, la Raspberry se apaga y va al bolsillo del profesor. ¿Pero, que pasa si queremos dejar la Raspberry en casa del profesor y que los alumnos accedan a ella desde sus propias casas? La operación es un poco más laboriosa, pero perfectamente funcional siguiendo los siguientes pasos:</p>
+<ul>
+<li>En primer lugar necesitamos crear un DNS dinámico que apunte a la dirección IP publica de nuestro router a pesar de que esta pueda variar. Personalmente utilizo el servicio gratuito <a href="https://www.noip.com/">Noip</a> en el que crearemos un &ldquo;Hostname&rdquo; (Se pueden crear hasta tres de forma gratuita) que apunte a la Ip pública de nuestro router. En mi caso he creado &ldquo;locasporlaquimica.ddns.net&rdquo; tal y como se puede ver en la siguiente imagen.</li>
+</ul>
+<p><img src="/images/20200215_raspberry_moodle_01.jpg" alt="imagen_01"></p>
+<p>Con esto no vale, ya que en el momento que cambie la dirección pública del router alguien se lo tendrá que decir a Noip. Para esto, los routers actuales tienen la opción de configurar varios servicios de servidores dinámicos de nombres desde el panel de control.</p>
+<p><img src="/images/20200215_raspberry_moodle_03.jpg" alt="imagen_03"></p>
+<ul>
+<li>Es necesario redireccionar el tráfico de internet que llegue a nuestro router a través del puerto 80 (http) a la ip de nuestra raspberry para lo que tendremos que abrir el puerto 80 desde el panel de control de nuestro router. Cada fabricante es un mundo pero, como referencia del resultado, en mi &ldquo;Orange LiveBox Fibra&rdquo; queda tal que así.</li>
+</ul>
+<p><img src="/images/20200215_raspberry_moodle_02.jpg" alt="imagen_02"></p>
+
 		</div>
 	</article>
 </main>
