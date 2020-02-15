@@ -120,15 +120,29 @@ static domain_name_servers=192.168.1.1 8.8.8.8
 <h3 id="conexión-desde-internet-">Conexión desde internet</h3>
 <p><a href="https://moodlebox.net/en/">MoodleBox</a> está pensado para que la Raspberry esté colocada en clase y los alumnos se conecten a ella via wifi, al termino de la clase, la Raspberry se apaga y va al bolsillo del profesor. ¿Pero, que pasa si queremos dejar la Raspberry en casa del profesor y que los alumnos accedan a ella desde sus propias casas? La operación es un poco más laboriosa, pero perfectamente funcional siguiendo los siguientes pasos:</p>
 <ul>
-<li>En primer lugar necesitamos crear un DNS dinámico que apunte a la dirección IP publica de nuestro router a pesar de que esta pueda variar. Personalmente utilizo el servicio gratuito <a href="https://www.noip.com/">Noip</a> en el que crearemos un &ldquo;Hostname&rdquo; (Se pueden crear hasta tres de forma gratuita) que apunte a la Ip pública de nuestro router. En mi caso he creado &ldquo;locasporlaquimica.ddns.net&rdquo; tal y como se puede ver en la siguiente imagen.</li>
+<li>En primer lugar necesitamos <strong>crear un DNS dinámico</strong> que apunte a la dirección IP publica de nuestro router a pesar de que esta pueda variar. Personalmente utilizo el servicio gratuito <a href="https://www.noip.com/">Noip</a> en el que crearemos un &ldquo;Hostname&rdquo; (Se pueden crear hasta tres de forma gratuita) que apunte a la Ip pública de nuestro router. En mi caso he creado &ldquo;locasporlaquimica.ddns.net&rdquo; tal y como se puede ver en la siguiente imagen.</li>
 </ul>
 <p><img src="/images/20200215_raspberry_moodle_01.jpg" alt="imagen_01"></p>
 <p>Con esto no vale, ya que en el momento que cambie la dirección pública del router alguien se lo tendrá que decir a Noip. Para esto, los routers actuales tienen la opción de configurar varios servicios de servidores dinámicos de nombres desde el panel de control.</p>
 <p><img src="/images/20200215_raspberry_moodle_03.jpg" alt="imagen_03"></p>
 <ul>
-<li>Es necesario redireccionar el tráfico de internet que llegue a nuestro router a través del puerto 80 (http) a la ip de nuestra raspberry para lo que tendremos que abrir el puerto 80 desde el panel de control de nuestro router. Cada fabricante es un mundo pero, como referencia del resultado, en mi &ldquo;Orange LiveBox Fibra&rdquo; queda tal que así.</li>
+<li>Es <strong>necesario redireccionar</strong> el tráfico de internet que llegue a nuestro router a través del puerto 80 (http) a la ip de nuestra raspberry para lo que tendremos que abrir el puerto 80 desde el panel de control de nuestro router. Cada fabricante es un mundo pero, como referencia del resultado, en mi &ldquo;Orange LiveBox Fibra&rdquo; queda tal que así.</li>
 </ul>
 <p><img src="/images/20200215_raspberry_moodle_02.jpg" alt="imagen_02"></p>
+<ul>
+<li>
+<p>Hay que cambiar el nombre de dominio para que <a href="https://moodlebox.net/en/">MoodleBox</a> sea visible desde <a href="https://moodlebox.net/en/help/access-from-internet/">internet</a> con el nombre que en micaso es &ldquo;locasporlaquimica.ddns.net&rdquo; para lo que hay que modificar &ldquo;moodlebox&rdquo; por &ldquo;locasporlaquimica.ddns.net&rdquo; en unos cuantos archivos.</p>
+<ul>
+<li>En la última línea de &ldquo;/etc/hosts&rdquo;</li>
+<li>En &ldquo;/etc/hostname&rdquo;</li>
+<li>En la directiva &ldquo;server_name&rdquo; de &ldquo;/etc/nginx/sites-available/default&rdquo; Config NGinx</li>
+<li>En las variables &ldquo;domain&rdquo; y &ldquo;local&rdquo; de &ldquo;/etc/dnsmasq.conf&rdquo;</li>
+<li>En &ldquo;/var/www/moodle/config.php&rdquo; en la variable de conf &ldquo;wwwroot&rdquo;</li>
+</ul>
+</li>
+</ul>
+<p>Tras esto debe reiniciarse la raspberry y acceder a la dirección <a href="http://locasporlaquimica.ddns.net/admin/tool/replace/index.php">http://locasporlaquimica.ddns.net/admin/tool/replace/index.php</a> para hacer las modificaciones en la base de datos de Moodle mediante la utilidad de reemplazo de cadenas.</p>
+<p>Y con esto la instalación de <a href="https://moodle.org/?lang=es">Moodle</a> sobre la Raspberry ya debería ser visible desde internet.</p>
 
 		</div>
 	</article>
