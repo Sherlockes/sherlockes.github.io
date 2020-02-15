@@ -997,4 +997,9 @@
     <lastmod>2007-12-30T00:00:00+00:00</lastmod>
   </url>
   
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
 </urlset>
