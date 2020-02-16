@@ -6,10 +6,20 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Instalación de Moodle en Raspberry Pi</title>
+      <link>/instalaci%C3%B3n-de-moodle-en-raspberry-pi/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/instalaci%C3%B3n-de-moodle-en-raspberry-pi/</guid>
+      <description>&lt;p&gt;El desarrollo&amp;hellip;
+Recientemente he probado &lt;a href=&#34;https://moodle.org/?lang=es&#34;&gt;Moodle&lt;/a&gt; como plataforma para publicar cursos y me ha parecido una plataforma extremadamente potente. Aquí no voy a desgranar las posibilidades del mismo sino más bien el proceso de como he montado la plataforma sobre una &lt;a href=&#34;https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&#34;&gt;Raspberry Pi 3 Model B&lt;/a&gt; gracias a &lt;a href=&#34;https://moodlebox.net/en/&#34;&gt;MoodleBox&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Radares de tráfico en Android</title>

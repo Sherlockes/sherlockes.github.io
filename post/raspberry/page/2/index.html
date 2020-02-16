@@ -11,7 +11,7 @@
 <meta property="og:description" content="Un resumen de lo que está siendo mi aprendizaje en el mundo de las Raspberry Pi" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/post/raspberry/" />
-<meta property="og:updated_time" content="2019-07-11T00:00:00+00:00" />
+<meta property="og:updated_time" content="2020-02-15T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Raspberry Pi desde cero"/>
@@ -66,12 +66,12 @@
 <p>En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog.  En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</p>
 <p>De esta forma, con el servidor web montado sobre la Raspberry podría tener apagado durante la noche el servidor Nas y así reducir la factura de la luz y el ruido y aumentar la duración del equipo y los discos.</p>
 <h3 id="indice">Indice</h3>
-<p><strong><strong>Primeros días</strong></strong>\<br>
-<a href="/raspberry-montaje-y-ssh/">Montaje y ssh</a>\<br>
-<a href="/raspberry-red-y-wifi/">Configurar red y wifi</a>\<br>
-<a href="/raspberry-apache-y-php/">Apache y Php</a>\<br>
-<a href="/raspberry-mysql-y-db/">MySql y DB</a>\<br>
-<a href="/raspberry-descargando-wordpress/">Descargando WordPress</a>\<br>
+<p><strong><strong>Primeros días</strong></strong><br>
+<a href="/raspberry-montaje-y-ssh/">Montaje y ssh</a><br>
+<a href="/raspberry-red-y-wifi/">Configurar red y wifi</a><br>
+<a href="/raspberry-apache-y-php/">Apache y Php</a><br>
+<a href="/raspberry-mysql-y-db/">MySql y DB</a><br>
+<a href="/raspberry-descargando-wordpress/">Descargando WordPress</a><br>
 <a href="/raspberry-servidor-ftp/">El servidor FTP</a>\<br>
 <a href="/raspberry-instalando-wordpress/">Instalando WordPress</a>\<br>
 <a href="/raspberry-instalando-dokuwiki/">Instalado DokuWiki</a>\<br>
@@ -83,6 +83,7 @@
 <a href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Acceso a las nubes con rclone</a>\<br>
 <a href="/script-de-configuraci%C3%B3n-para-raspberry/">Creando un script de configuración inicial</a>\<br>
 <a href="/raspberry-y-docker/">Docker</a>\<br>
+<a href="">Moodle con MoodleBox</a>\<br>
 Lo siguiente&hellip; Hugo</p>
 <h3 id="enlaces-de-interés">Enlaces de interés</h3>
 <p><a href="https://www.innerzaurus.com/diy/raspberry-pi/configurar-una-raspberry-pi-sin-monitor-ni-teclado">Innerzaurus - Configurar Raspberry sin monitor ni teclado</a>\<br>
@@ -100,6 +101,34 @@ Lo siguiente&hellip; Hugo</p>
 <h3 id="artículos">Artículos</h3>
 
 	</div><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-apache-y-php/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry apache y php" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/raspberry-apache-y-php/" rel="bookmark">
+			Raspberry apache y php
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-04-03T00:00:00">2018-04-03</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Instalando PhP y Apache sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mysql -y Para comprobar la correcta instalación de php borraremos el archivo &ldquo;index.html&rdquo;, crearemos un archivo &ldquo;index.php&rdquo; en el que escribiremos un mensaje &ldquo;hola mundo&rdquo; y reiniciaremos el servidor.
+cd /var/www/html sudo rm index.html sudo nano index.php &lt;?php echo &quot;hola mundo&quot;; ?&gt; Pulsar control-x Pulsar y Pulsar intro sudo service apache2 restart Ahora al acceder desde el navegador a la ip de nuestra raspberry se debería mostrar el mensaje &ldquo;hola mundo&rdquo;.
+	</div>
+</article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="/raspberry-mysql-y-db/">
 			<img src="/images/raspberry_logo.png" alt="Raspberry mysql y DB" />
@@ -220,40 +249,12 @@ eliminar todos los contenedores con un solo comando\
 		Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
 Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.
 	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-reinicios-peri%C3%B3dicos/">
-			<img src="/images/20180501_raspberry_reinicio.jpg" alt="Raspberry Reinicios periódicos" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/raspberry-reinicios-peri%C3%B3dicos/" rel="bookmark">
-			Raspberry Reinicios periódicos
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-04-10T00:00:00">2018-04-10</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
-sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/post/raspberry/">«</a>
-	<span class="pagination__item pagination__item--current">2/3</span>
+	<span class="pagination__item pagination__item--current">2/4</span>
 	<a class="pagination__item pagination__item--next btn" href="/post/raspberry/page/3/">»</a>
 </div>
 
@@ -265,6 +266,7 @@ sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/instalaci%C3%B3n-de-moodle-en-raspberry-pi/">Instalación de Moodle en Raspberry Pi</a></li>
 			<li class="widget__item"><a class="widget__link" href="/radares-de-tr%C3%A1fico-en-android/">Radares de tráfico en Android</a></li>
 			<li class="widget__item"><a class="widget__link" href="/archivos-de-telegram-al-nas/">Archivos de Telegram al NAS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/subtotales-en-google-sheets/">Subtotales en Google Sheets</a></li>
@@ -274,7 +276,6 @@ sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
 			<li class="widget__item"><a class="widget__link" href="/rclone-en-synology/">Rclone en Synology</a></li>
 			<li class="widget__item"><a class="widget__link" href="/backup-de-google-photos/">Backup de Google Photos</a></li>
 			<li class="widget__item"><a class="widget__link" href="/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/">Raspberry configurando rclone sin entorno gráfico</a></li>
-			<li class="widget__item"><a class="widget__link" href="/editando-archivos-markdown-en-emacs/">Editando archivos markdown en emacs</a></li>
 		</ul>
 	</div>
 </div>
@@ -333,6 +334,7 @@ sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
 		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento (20)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/markdown" title="Markdown">Markdown (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/moodle" title="Moodle">Moodle (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/panoramica" title="Panoramica">Panoramica (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pdf" title="Pdf">Pdf (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/photomatix" title="Photomatix">Photomatix (1)</a>
