@@ -57,5 +57,15 @@ Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos
       <description>El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.</description>
     </item>
     
+    <item>
+      <title>Tasker</title>
+      <link>/post/tasker/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tasker/</guid>
+      <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
+Este simple concepto añade infinidad de características a tus dispositivos android sin que, en la mayoría de los casos, sea necesario un &amp;ldquo;rooteado&amp;rdquo; de los mismos o añadir un nuevo launcher.</description>
+    </item>
+    
   </channel>
 </rss>

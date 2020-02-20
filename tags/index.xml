@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Google</title>
+      <link>/tags/google/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Google Drive</title>
       <link>/tags/google-drive/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
@@ -129,6 +138,15 @@
     </item>
     
     <item>
+      <title>Desarrollo</title>
+      <link>/tags/desarrollo/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/desarrollo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rclone</title>
       <link>/tags/rclone/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
@@ -143,15 +161,6 @@
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/gphoto-sync/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Desarrollo</title>
-      <link>/tags/desarrollo/</link>
-      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/desarrollo/</guid>
       <description></description>
     </item>
     
@@ -215,6 +224,15 @@
       <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep</title>
+      <link>/tags/keep/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/keep/</guid>
       <description></description>
     </item>
     
@@ -287,24 +305,6 @@
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/fontaner%C3%ADa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google</title>
-      <link>/tags/google/</link>
-      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keep</title>
-      <link>/tags/keep/</link>
-      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/keep/</guid>
       <description></description>
     </item>
     

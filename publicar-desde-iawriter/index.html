@@ -133,7 +133,7 @@ grep -r -L <span style="color:#e6db74">&#34;\-\-\-&#34;</span> * |
   <span style="color:#75715e">#Calculo de los minutos pasados desde la ultima modificacion</span>
   umodsg<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date +%s -r <span style="color:#e6db74">&#34;</span>$fname<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
   ahorasg<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>date +%s<span style="color:#66d9ef">)</span>
-  minpasados<span style="color:#f92672">=</span><span style="color:#66d9ef">$((</span><span style="color:#f92672">(</span>ahorasg <span style="color:#f92672">-</span> umodsg<span style="color:#f92672">)</span><span style="color:#f92672">/</span><span style="color:#ae81ff">60</span><span style="color:#66d9ef">))</span>
+  minpasados<span style="color:#f92672">=</span><span style="color:#66d9ef">$((</span><span style="color:#f92672">(</span>ahorasg <span style="color:#f92672">-</span> umodsg<span style="color:#f92672">)/</span><span style="color:#ae81ff">60</span><span style="color:#66d9ef">))</span>
   echo Han pasado $minpasados de los $minmin minutos desde la modificación de <span style="color:#e6db74">&#34;</span>$fname<span style="color:#e6db74">&#34;</span>
 
   <span style="color:#75715e">#Inserta la cabecera si han pasado más de 65 minutos</span>

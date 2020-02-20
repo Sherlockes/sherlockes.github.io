@@ -6,7 +6,7 @@
     <description>Recent content in Desarrollo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 11 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/desarrollo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -157,6 +157,26 @@ Instalamos &amp;ldquo;vsftp&amp;rdquo; y editamos el archivo de configuración a
       <description>Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &amp;ldquo;home&amp;rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &amp;ldquo;latest.tar.gz&amp;rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &amp;ldquo;wordpress-4.8.2-es_ES.tar.gz&amp;rdquo;
 Las líneas de arriba realizan la siguiente secuencia:
  Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &amp;ldquo;home&amp;rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &amp;ldquo;/var/www/html/sherblog&amp;rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &amp;ldquo;wp-config&amp;rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi desde cero</title>
+      <link>/post/raspberry/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/raspberry/</guid>
+      <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
+En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog. En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</description>
+    </item>
+    
+    <item>
+      <title>Tasker</title>
+      <link>/post/tasker/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tasker/</guid>
+      <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
+Este simple concepto añade infinidad de características a tus dispositivos android sin que, en la mayoría de los casos, sea necesario un &amp;ldquo;rooteado&amp;rdquo; de los mismos o añadir un nuevo launcher.</description>
     </item>
     
   </channel>

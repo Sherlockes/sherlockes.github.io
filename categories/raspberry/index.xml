@@ -187,5 +187,15 @@ Las líneas de arriba realizan la siguiente secuencia:
  Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &amp;ldquo;home&amp;rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &amp;ldquo;/var/www/html/sherblog&amp;rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &amp;ldquo;wp-config&amp;rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.</description>
     </item>
     
+    <item>
+      <title>Raspberry Pi desde cero</title>
+      <link>/post/raspberry/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/raspberry/</guid>
+      <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
+En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog. En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</description>
+    </item>
+    
   </channel>
 </rss>
