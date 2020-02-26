@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/instalaci%C3%B3n-de-moodle-en-raspberry-pi/</loc>
     <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
@@ -644,16 +649,36 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/moodle/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+    <loc>/categories/hugo/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/moodle/</loc>
     <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -664,16 +689,6 @@
   
   <url>
     <loc>/post/raspberry/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -805,11 +820,6 @@
   <url>
     <loc>/tags/markdown/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>

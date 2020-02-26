@@ -5,10 +5,19 @@
     <description>Contenido reciente de la categoria... in Hugo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Añadir una red social a Hugo con el tema Mainroad</title>
+      <link>/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</guid>
+      <description>&lt;p&gt;Por defecto, el tema &lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt; que utilizo para la creación de este blog tiene la capacidad de mostrar varias redes sociales del autor. Aquí muestro la forma que yo he utilizado para añadir nuevas redes al margen de las preestablecidas.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugo is deprecated</title>
