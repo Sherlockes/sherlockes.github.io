@@ -100,15 +100,12 @@
 </ul>
 <p><img src="/images/20200226_hugo_custom_social_02.jpg" alt="imagen_02"></p>
 <ul>
-<li>
-<p>Con la imagen *.svg modificada, la guardaremos en la carpeta /layouts/partial/svg/ en la raiz del proyecto (No dentro de la carpeta del tema)</p>
-</li>
-<li>
-<p>Copiar el archivo themes/mainroad/layouts/partials/widgets/social.html a /layouts/partials/widgets</p>
-</li>
-<li>
-<p>Editar el archivo /layouts/partials/widgets/social.html añadiendo otro bloque a continuación de los ya existentes para cada una de las redes sociales preestablecidas.</p>
-</li>
+<li>Con la imagen *.svg modificada, la guardaremos en la carpeta /layouts/partial/svg/ en la raiz del proyecto (No dentro de la carpeta del tema)</li>
+</ul>
+<h4 id="editar-el-socialhtml-">Editar el &ldquo;social.html&rdquo;</h4>
+<ul>
+<li>Copiar el archivo themes/mainroad/layouts/partials/widgets/social.html a /layouts/partials/widgets</li>
+<li>Editar el archivo /layouts/partials/widgets/social.html añadiendo otro bloque a continuación de los ya existentes para cada una de las redes sociales preestablecidas.</li>
 </ul>
 <pre><code>  {{- with .Site.Params.widgets.social.strava }}
 		&lt;div class=&quot;widget-social__item widget__item&quot;&gt;
@@ -118,7 +115,8 @@
 			&lt;/a&gt;
 		&lt;/div&gt;
 		{{- end }}
-</code></pre><ul>
+</code></pre><h4 id="configurar-el-configtoml-">Configurar el &ldquo;config.toml&rdquo;</h4>
+<ul>
 <li>Buscar el identificador de la red y añadirlo en [Params.widget.social] dentro del archivo &ldquo;config.toml&rdquo; de la raiz de nuestro proyecto de forma que quede algo parecido a lo siguiente.</li>
 </ul>
 <pre><code>[Params.widgets.social]
