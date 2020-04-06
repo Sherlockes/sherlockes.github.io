@@ -5,10 +5,19 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 26 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
@@ -52,15 +61,6 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/sherver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Varios</title>
-      <link>/categories/varios/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/varios/</guid>
       <description></description>
     </item>
     

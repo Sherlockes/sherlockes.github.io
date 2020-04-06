@@ -5,10 +5,20 @@
     <description>Contenido reciente de la categoria... in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Los podcast que escucho. Febrero de 2019</title>
+      <link>/los-podcast-que-escucho.-febrero-de-2019/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/los-podcast-que-escucho.-febrero-de-2019/</guid>
+      <description>&lt;h1 id=&#34;100---cien-podcast-y-cien-episodios&#34;&gt;100% - Cien Podcast y cien episodios&lt;/h1&gt;
+&lt;p&gt;Así es, tal y como se puede ver en la siguiente imagen he superado los 10000 episodios escuchados en &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&amp;amp;hl=es&#34;&gt;Podcast Addict&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Menú para montar nubes en Bash</title>
@@ -17,17 +27,6 @@
       
       <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
       <description>&lt;p&gt;Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Los podcast que escucho. Febrero de 2019</title>
-      <link>/los-podcast-que-escucho.-febrero-de-2019/</link>
-      <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/los-podcast-que-escucho.-febrero-de-2019/</guid>
-      <description>100% - Cien días y cien podcast Marzo de 2019
-Ahora ya no tengo muy claro cuando empecé a escuchar podcast (Creo que sobre 2016), lo que si puedo afirmar es que por lo menos he escuchado cien días de podcast tal y como muestra mi aplicación de cabecera en android Podcast Addict
-Me considero un escucha avanzado de Podcast y desde hace varios años los escucho en Podcast Addict ya que es una aplicación que me ofrece todo lo que necesito.</description>
     </item>
     
     <item>
