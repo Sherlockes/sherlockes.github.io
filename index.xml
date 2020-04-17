@@ -419,6 +419,15 @@ Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrast
     </item>
     
     <item>
+      <title>Lo que tengo pendiente de escribir...</title>
+      <link>/lo-que-tengo-pendiente-de-escribir.../</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
+      <description>Artículos que estoy escribiendo  20190603_mis_backups80225_barrancos_sur_zaragoza 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi806_github_pass  Artículos por escribir  ActuaPublizcando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bicihugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Como gestiono mis contraseñas.</description>
+    </item>
+    
+    <item>
       <title>Tasker</title>
       <link>/tasker/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
@@ -1177,15 +1186,6 @@ Sólo hicieron falta unos minutos para darme cuenta de que el causante del probl
       <guid>/copia-de-seguridad-de-gmail/</guid>
       <description>El gran problema de la informática es que en un momento puedes perder el trabajo de muchos años a causa de un simple problema en el disco duro si no tenemos una copia de seguridad de nuestros archivos.
 Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratuito que existe pero no hay que olvidar que está todavía en fase beta y que sus servidores son tan susceptible a las averías o hackers como el pc de casa por lo que es muy importante realizar periódicamente una copia de seguridad de los correos electrónicos que tenemos en nuestra cuenta de Gmail.</description>
-    </item>
-    
-    <item>
-      <title>Lo que tengo pendiente de escribir...</title>
-      <link>/lo-que-tengo-pendiente-de-escribir.../</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  20190603_mis_backups 20180801_hugo_raspberry 20180926_emacs_desde_cero 20181129_instalando_orbi  Artículos por escribir  Actualizando la Galaxy Tab Que hago para no quedarme dormido Mis extensiones en Visual Studio Code Que hace Tasker al subir a la bici Igualando volumen bluetooth Merece la pena el pirateo? Markdown en Windows, Linux y Android Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Publicar desde Google Docs Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Mis aplicaciones en Android Delicious ha muerto.</description>
     </item>
     
     <item>
