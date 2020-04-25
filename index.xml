@@ -1335,5 +1335,19 @@ Las líneas de arriba realizan la siguiente secuencia:
       <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>Instalar Brave (Instalación de Brave en Linux Mint)[https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux]
+Instalar Insync (Instalacion de Insync)[https://www.insynchq.com/downloads?start=true]
+Instalar Keeweb Descargamos el paquete .deb desde la web y lo instalamos manualmente. (Keeweb)[https://keeweb.info/]
+Instalar Emacs Desde el repositorio de paquetes de Linux Mint aunque no sea la última versión.
+Crear el archivo de configuración .emacs El archivo de configuración de Emacs llamado &amp;ldquo;.emacs&amp;rdquo; se creará en &amp;ldquo;/home/usuario/&amp;rdquo; y tendrá el siguiente contenido.
+(setq user-init-file &amp;quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.emacs&amp;quot;) (setq user-emacs-directory &amp;quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.</description>
+    </item>
+    
   </channel>
 </rss>
