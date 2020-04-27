@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mi Post-instalación de Linux Mint - Sherblog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="Aquí están todos los pasos que doy después de la instalación de Linux Mint, perfectamente documentado para que no se me olvide...">
+	<meta property="og:title" content="Mi Post-instalación de Linux Mint" />
+<meta property="og:description" content="Aquí están todos los pasos que doy después de la instalación de Linux Mint, perfectamente documentado para que no se me olvide..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/mi-post-instalaci%C3%B3n-de-linux-mint/" />
+<meta property="article:published_time" content="2020-04-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-04-27T00:00:00+00:00" />
+
+	<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mi Post-instalación de Linux Mint"/>
+<meta name="twitter:description" content="Aquí están todos los pasos que doy después de la instalación de Linux Mint, perfectamente documentado para que no se me olvide..."/>
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="/" title="Sherblog" rel="home">
+				<div class="logo__title">Sherblog</div>
+				<div class="logo__tagline">Sólo mi forma de hacer las cosas...</div>
+			</a>
+		</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menú</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/post/raspberry/">Raspberry Pi desde cero</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/post/tasker/">Tasker</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Mi Post-instalación de Linux Mint</h1>
+			<div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2020-04-27T00:00:00">2020-04-27</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/linux" rel="category">linux</a></span>
+</div>
+</div>
+		</header>
+		<figure class="post__thumbnail">
+			<img src="/images/20200425_mint_post_install_00.jpg" alt="Mi Post-instalación de Linux Mint">
+		</figure><div class="content post__content clearfix">
+			<p>Hay cientos de artículos sobre post-instalaciones de sistemas operativos. Este sólo pretendo que me sirva de guía para mi en las futuras instalaciones de linux Mint, aunque si le puede ayudar a alguien&hellip;</p>
+<h2 id="keeweb-gestor-de-contraseñas">Keeweb (Gestor de contraseñas)</h2>
+<p>Descargamos el paquete .deb desde la web de <a href="https://keeweb.info">Keeweb</a> y lo instalamos manualmente. Con esto ya puedo acceder a todos los nombres de usuario y contraseñas que tengo guardadas en una archivo de <a href="https://drive.google.com/">Google Drive</a>.</p>
+<h2 id="brave-navegador-web">Brave (Navegador web)</h2>
+<p>En la actualidad es el navegador que más confianza y fluidez me proporciona. Aunque no está incluido en el gestor de software de Linux Mint, la instalación de <a href="https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux">Brave</a> está perfectamente documentada en su web.</p>
+<h2 id="insync-sincronizador-de-archivos">Insync (Sincronizador de archivos)</h2>
+<p>La mayor parte de los archivos con los que trabajo a diario están en <a href="https://drive.google.com/">Google Drive</a>. La forma más sencilla que conozco para trabajar con estos archivos es mediante el uso de <a href="https://www.insynchq.com/downloads?start=true">Insync</a>.</p>
+<p>Es importante que las carpetas sincronizadas de Google Drive se ubiquen dentro de la ruta &ldquo;/home/sherlockes/Google_Drive/&rdquo; para que el resto de aplicaciones puedan acceder a los archivos de configuración</p>
+<h2 id="instalar-touchpad-indicator-gestor-táctil-portatil">Instalar Touchpad Indicator (Gestor táctil portatil)</h2>
+<p>Para los que somos un poco manazas es fácil que se nos vaya algún pulgar al táctil del portatil mientras escribimos, de forma que nos mueve el puntero a otro punto del documento de forma que, como agaches un momento la cabeza&hellip; ya no estás escribiendo en el punto que lo estabas haciendo.</p>
+<p>Gracias a <a href="https://www.atareao.es">Atareao</a> por haber creado y mantenido <a href="https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/#">Touchpad Indicator</a>, una sencilla utilidad para linux con la que gestionar el panel táctil de los portátiles con múltiples funciones.</p>
+<p>La instalación es tan sencilla como añadir el repositorio, actualizarlo e instalar la aplicación.</p>
+<pre><code>sudo add-apt-repository ppa:atareao/atareao
+sudo apt-get update
+sudo apt-get install touchpad-indicator
+</code></pre><h2 id="instalar-emacs-editor-de-texto">Instalar Emacs (Editor de texto)</h2>
+<p>Desde el repositorio de paquetes de Linux Mint aunque no sea la última versión.</p>
+<h3 id="crear-el-archivo-de-configuración-emacs">Crear el archivo de configuración .emacs</h3>
+<p>El archivo de configuración de Emacs llamado &ldquo;.emacs&rdquo; se creará en &ldquo;/home/usuario/&rdquo; y tendrá el siguiente contenido.</p>
+<pre><code>(setq user-init-file &quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.emacs&quot;)
+(setq user-emacs-directory &quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.emacs.d/&quot;)
+(setq default-directory &quot;/home/sherlockes/&quot;)
+(setenv &quot;HOME&quot; &quot;/home/sherlockes/&quot;)
+(load user-init-file)
+</code></pre><h3 id="inkscape-diseño-vectorial">Inkscape (Diseño vectorial)</h3>
+<p>Desde que empece a trabajar con el, apenas abro Gimp y me he acostumbrado a crear imágenes vectoriales mucho más ligeras y fáciles de redimensionar sin perder calidad.</p>
+<p>En el momento de escribir esto, la ultima versión de <a href="https://inkscape.org/es/release/">Inkscape</a> es la 0.92 y su instalación para derivados de Ubuntu es posible hacerla apartir de repositorios.</p>
+<pre><code>sudo add-apt-repository ppa:inkscape.dev/stable-0.92
+sudo apt update
+sudo apt install inkscape
+</code></pre><p>Y por ahora esto es todo lo que tengo instalado en mi ordenador, poco a poco iré actualizando este post con todas las utilidades y configuraciones que vaya necesitando.</p>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/linux-mint/" rel="tag">linux mint</a></li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="post-nav flex">
+	<div class="post-nav__item post-nav__item--prev">
+		<a class="post-nav__link" href="/insertar-comentarios-en-hugo/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Insertar comentarios en Hugo</p></a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2020 Sherblog.
+			<span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script></body>
+</html>
