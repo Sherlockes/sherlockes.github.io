@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/mi-post-instalaci%C3%B3n-de-linux-mint/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/insertar-comentarios-en-hugo/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
   </url>
@@ -660,37 +655,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/linux-mint/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -700,6 +665,21 @@
   
   <url>
     <loc>/categories/hugo/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -799,6 +779,11 @@
   </url>
   
   <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/poppler-utils/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
@@ -825,6 +810,11 @@
   
   <url>
     <loc>/tags/gphoto-sync/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/linux/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   

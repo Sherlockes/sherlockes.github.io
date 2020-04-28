@@ -6,19 +6,10 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mi Post-instalación de Linux Mint</title>
-      <link>/mi-post-instalaci%C3%B3n-de-linux-mint/</link>
-      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/mi-post-instalaci%C3%B3n-de-linux-mint/</guid>
-      <description>&lt;p&gt;Hay cientos de artículos sobre post-instalaciones de sistemas operativos. Este sólo pretendo que me sirva de guía para mi en las futuras instalaciones de linux Mint, aunque si le puede ayudar a alguien&amp;hellip;&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Insertar comentarios en Hugo</title>
