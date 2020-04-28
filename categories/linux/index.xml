@@ -1,14 +1,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Sherblog</title>
+    <title>linux on Sherblog</title>
     <link>/categories/linux/</link>
-    <description>Contenido reciente de la categoria... in Linux on Sherblog</description>
+    <description>Contenido reciente de la categoria... in linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mi Post-instalación de Linux Mint</title>
+      <link>/mi-post-instalaci%C3%B3n-de-linux-mint/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/mi-post-instalaci%C3%B3n-de-linux-mint/</guid>
+      <description>&lt;p&gt;Hay cientos de artículos sobre post-instalaciones de sistemas operativos. Este sólo pretendo que me sirva de guía para mi en las futuras instalaciones de linux Mint, aunque si le puede ayudar a alguien&amp;hellip;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Backup de Google Photos</title>
