@@ -160,16 +160,6 @@ Las líneas de arriba realizan la siguiente secuencia:
     </item>
     
     <item>
-      <title>Raspberry Pi desde cero</title>
-      <link>/post/raspberry/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/raspberry/</guid>
-      <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
-En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog. En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</description>
-    </item>
-    
-    <item>
       <title>Tasker</title>
       <link>/post/tasker/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
@@ -177,6 +167,16 @@ En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi b
       <guid>/post/tasker/</guid>
       <description>Tasker Tasker es una aplicación para Android que realiza tareas (Conjuntos de acciones) basadas en contextos (aplicaciones, hora, fecha, ubicación, eventos, gestos&amp;hellip;), en perfiles definidos por el usuario o en acciones de widgets ubicadas en la pantalla de inicio.
 Este simple concepto añade infinidad de características a tus dispositivos android sin que, en la mayoría de los casos, sea necesario un &amp;ldquo;rooteado&amp;rdquo; de los mismos o añadir un nuevo launcher.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi desde cero</title>
+      <link>/post/computing/raspberry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/computing/raspberry/</guid>
+      <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
+En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog. En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</description>
     </item>
     
   </channel>

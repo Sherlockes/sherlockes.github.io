@@ -189,10 +189,10 @@ Las líneas de arriba realizan la siguiente secuencia:
     
     <item>
       <title>Raspberry Pi desde cero</title>
-      <link>/post/raspberry/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <link>/post/computing/raspberry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/raspberry/</guid>
+      <guid>/post/computing/raspberry/</guid>
       <description>Antes de nada&amp;hellip; Lo mas importante antes de adquirir una Raspberry es tener un proyecto para ella (y si es posible que no sea muy complicado) para de esta forma fijarnos un objetivo y por el camino poder aprender infinidad de cosas.
 En mi caso el proyecto es usarla como servidor web donde alojar esta wiki y mi blog. En la actualidad tengo ambas páginas instaladas en un Synology Ds216+ y para el tráfico que tienen me parece matar moscas a cañonazos.</description>
     </item>
