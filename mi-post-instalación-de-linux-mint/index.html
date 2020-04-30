@@ -83,12 +83,12 @@
     <li><a href="#keeweb-gestor-de-contraseñas">Keeweb (Gestor de contraseñas)</a></li>
     <li><a href="#brave-navegador-web">Brave (Navegador web)</a></li>
     <li><a href="#insync-sincronizador-de-archivos">Insync (Sincronizador de archivos)</a></li>
-    <li><a href="#instalar-touchpad-indicator-gestor-táctil-portatil">Instalar Touchpad Indicator (Gestor táctil portatil)</a></li>
-    <li><a href="#instalar-emacs-editor-de-texto">Instalar Emacs (Editor de texto)</a>
+    <li><a href="#touchpad-indicator-gestor-táctil-portatil">Touchpad Indicator (Gestor táctil portatil)</a></li>
+    <li><a href="#emacs-editor-de-texto">Emacs (Editor de texto)</a>
       <ul>
-        <li><a href="#crear-el-archivo-de-configuración-emacs">Crear el archivo de configuración .emacs</a></li>
         <li><a href="#inkscape-diseño-vectorial">Inkscape (Diseño vectorial)</a></li>
         <li><a href="#telegram-desktop-mensajería-instantanea-y">Telegram Desktop (Mensajería instantanea y&hellip;)</a></li>
+        <li><a href="#rclone-sincronizar-nubes-desde-terminal">Rclone (Sincronizar nubes desde terminal)</a></li>
       </ul>
     </li>
   </ul>
@@ -104,17 +104,15 @@
 <h2 id="insync-sincronizador-de-archivos">Insync (Sincronizador de archivos)</h2>
 <p>La mayor parte de los archivos con los que trabajo a diario están en <a href="https://drive.google.com/">Google Drive</a>. La forma más sencilla que conozco para trabajar con estos archivos es mediante el uso de <a href="https://www.insynchq.com/downloads?start=true">Insync</a>.</p>
 <p>Es importante que las carpetas sincronizadas de Google Drive se ubiquen dentro de la ruta &ldquo;/home/sherlockes/Google_Drive/&rdquo; para que el resto de aplicaciones puedan acceder a los archivos de configuración</p>
-<h2 id="instalar-touchpad-indicator-gestor-táctil-portatil">Instalar Touchpad Indicator (Gestor táctil portatil)</h2>
+<h2 id="touchpad-indicator-gestor-táctil-portatil">Touchpad Indicator (Gestor táctil portatil)</h2>
 <p>Para los que somos un poco manazas es fácil que se nos vaya algún pulgar al táctil del portatil mientras escribimos, de forma que nos mueve el puntero a otro punto del documento de forma que, como agaches un momento la cabeza&hellip; ya no estás escribiendo en el punto que lo estabas haciendo.</p>
 <p>Gracias a <a href="https://www.atareao.es">Atareao</a> por haber creado y mantenido <a href="https://www.atareao.es/aplicacion/touchpad-indicator-para-ubuntu/#">Touchpad Indicator</a>, una sencilla utilidad para linux con la que gestionar el panel táctil de los portátiles con múltiples funciones.</p>
 <p>La instalación es tan sencilla como añadir el repositorio, actualizarlo e instalar la aplicación.</p>
 <pre><code>sudo add-apt-repository ppa:atareao/atareao
 sudo apt-get update
 sudo apt-get install touchpad-indicator
-</code></pre><h2 id="instalar-emacs-editor-de-texto">Instalar Emacs (Editor de texto)</h2>
-<p>Desde el repositorio de paquetes de Linux Mint aunque no sea la última versión.</p>
-<h3 id="crear-el-archivo-de-configuración-emacs">Crear el archivo de configuración .emacs</h3>
-<p>El archivo de configuración de Emacs llamado &ldquo;.emacs&rdquo; se creará en &ldquo;/home/usuario/&rdquo; y tendrá el siguiente contenido.</p>
+</code></pre><h2 id="emacs-editor-de-texto">Emacs (Editor de texto)</h2>
+<p>Desde el repositorio de paquetes de Linux Mint aunque no sea la última versión. El archivo de configuración de Emacs llamado &ldquo;.emacs&rdquo; se creará en &ldquo;/home/usuario/&rdquo; y tendrá el siguiente contenido.</p>
 <pre><code>(setq user-init-file &quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.emacs&quot;)
 (setq user-emacs-directory &quot;/home/sherlockes/Google_Drive/SherloScripts/emacs/.emacs.d/&quot;)
 (setq default-directory &quot;/home/sherlockes/&quot;)
@@ -128,6 +126,10 @@ sudo apt update
 sudo apt install inkscape
 </code></pre><h3 id="telegram-desktop-mensajería-instantanea-y">Telegram Desktop (Mensajería instantanea y&hellip;)</h3>
 <p>Mis usos de Telegram los puedes ver en este post <a href="https://sherblog.pro/telegram-vs-whatsapp/">Whatsapp Vs Telegram</a> y la instalación es tan simple como descargar <a href="https://telegram.org/dl/desktop/linux">Telegram</a>, descomprimir el archivo y ejecutar la aplicación desde la carpeta descomprimida. Es posible fijar la aplicación a la barra de inicio o crear un lanzador en el escritorio si no eres de los de abrir las aplicaciones desde el teclado&hellip;</p>
+<h3 id="rclone-sincronizar-nubes-desde-terminal">Rclone (Sincronizar nubes desde terminal)</h3>
+<p>Hasta ahora he escrito varios <a href="https://sherblog.pro/tags/rclone/">artículos sobre Rclone</a> en los que explico algunos de mis usos de esta fantástica utilidad para conectar con casi cualquiera de las nubes públicas desde nuestra tarminal. Tal y como podemos comprobar en la web de <a href="https://rclone.org/downloads/">Rclone</a> la instalación es tan simple como una línea de terminal.</p>
+<pre><code>curl https://rclone.org/install.sh | sudo bash
+</code></pre><p>La configuración completa de todas mis nubes la realizo copiando el archivo de respaldo &ldquo;rclone.conf&rdquo; al directorio &ldquo;usuario/.config/rclone/rclone.conf&rdquo;</p>
 
 <p>Y por ahora esto es todo lo que tengo instalado en mi ordenador, poco a poco iré actualizando este post con todas las utilidades y configuraciones que vaya necesitando.</p>
 		</div>
