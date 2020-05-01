@@ -6,10 +6,20 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Menú para montar nubes en Bash</title>
+      <link>/men%C3%BA-para-montar-nubes-en-bash/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Actualización: Parámetro de rclone &lt;a href=&#34;#Allow-other&#34;&gt;&amp;ldquo;allow-other&amp;rdquo;&lt;/a&gt;&lt;/em&gt;
+Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Mi Post-instalación de Linux Mint</title>
@@ -101,15 +111,6 @@ Recientemente he probado &lt;a href=&#34;https://moodle.org/?lang=es&#34;&gt;Moo
       
       <guid>/unir-varios-pdf-en-linux-desde-la-l%C3%ADnea-de-comandos/</guid>
       <description>&lt;p&gt;En la web podemos encontrar una infinidad de servicios para unir varios archivos pdf en uno, pero si no quieres perder tiempo en subir y bajar los archivos a los servidores remotos aquí dejo una forma sencilla para realizar el mismo trabajo con una sola línea en la consola de comandos.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Menú para montar nubes en Bash</title>
-      <link>/men%C3%BA-para-montar-nubes-en-bash/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
-      <description>&lt;p&gt;Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
     </item>
     
     <item>
