@@ -16,8 +16,7 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Actualización: Parámetro de rclone &lt;a href=&#34;#Allow-other&#34;&gt;&amp;ldquo;allow-other&amp;rdquo;&lt;/a&gt;&lt;/em&gt;
-Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: Parámetro de rclone &lt;a href=&#34;#allow-other&#34;&gt;&amp;ldquo;allow-other&amp;rdquo;&lt;/a&gt;.&lt;/strong&gt; Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
     </item>
     
     <item>
