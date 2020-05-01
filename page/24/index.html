@@ -67,29 +67,6 @@
 	<article class="list__item post">
 	<header class="list__header">
 		<h3 class="list__title post__title ">
-			<a href="/la-joya-de-la-corona/" rel="bookmark">
-			La joya de la corona
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2007-12-30T00:00:00">2007-12-30</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/varios" rel="category">varios</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Aquí está la máquina. Hace 10 años era la vanguardia de la tecnología y hoy se ha convertido en&hellip; lo que cada uno quiera pensar.
-Lo menos que se merece es una pequeña limpieza por dentro, tanto de polvo como de componentes innecesarios. La tarjeta de sonido y la disquetera no creo que nos sean muy útiles para el servidor y con un cable ide para el disco duro y el lector de cd será más que suficiente.
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h3 class="list__title post__title ">
 			<a href="/acondicionando-una-horquilla-nueva/" rel="bookmark">
 			Acondicionando una horquilla nueva
 			</a>
@@ -163,6 +140,34 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
 	<div class="content list__excerpt post__content clearfix">
 		El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.
 	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-red-y-wifi/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry red y wifi" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/raspberry-red-y-wifi/" rel="bookmark">
+			Raspberry red y wifi
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-04-02T00:00:00">2018-04-02</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.confe introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1  Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
+	</div>
 </article>
 </main>
 
@@ -179,7 +184,6 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/mathjax-en-hugo/">Mathjax en Hugo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/men%C3%BA-para-montar-nubes-en-bash/">Menú para montar nubes en Bash</a></li>
 			<li class="widget__item"><a class="widget__link" href="/mi-post-instalaci%C3%B3n-de-linux-mint/">Mi Post-instalación de Linux Mint</a></li>
 			<li class="widget__item"><a class="widget__link" href="/insertar-comentarios-en-hugo/">Insertar comentarios en Hugo</a></li>
@@ -189,6 +193,7 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
 			<li class="widget__item"><a class="widget__link" href="/radares-de-tr%C3%A1fico-en-android/">Radares de tráfico en Android</a></li>
 			<li class="widget__item"><a class="widget__link" href="/archivos-de-telegram-al-nas/">Archivos de Telegram al NAS</a></li>
 			<li class="widget__item"><a class="widget__link" href="/subtotales-en-google-sheets/">Subtotales en Google Sheets</a></li>
+			<li class="widget__item"><a class="widget__link" href="/extrayendo-la-portada-de-un-pdf/">Extrayendo la portada de un pdf</a></li>
 		</ul>
 	</div>
 </div>
@@ -205,7 +210,6 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
 			<li class="widget__item"><a class="widget__link" href="/categories/hardware">Hardware</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/hugo">Hugo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/hugovarios">Hugovarios</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/hujo">Hujo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/linux">Linux</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/raspberry">Raspberry</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/sherver">Sherver</a></li>
@@ -251,7 +255,6 @@ Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratu
 		<a class="widget-taglist__link widget__link btn" href="/tags/mantenimiento" title="Mantenimiento">Mantenimiento (20)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mapas" title="Mapas">Mapas (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/markdown" title="Markdown">Markdown (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/mathjax" title="Mathjax">Mathjax (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/moodle" title="Moodle">Moodle (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/panoramica" title="Panoramica">Panoramica (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pdf" title="Pdf">Pdf (1)</a>

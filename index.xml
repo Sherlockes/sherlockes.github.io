@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Mathjax en Hugo</title>
-      <link>/mathjax-en-hugo/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/mathjax-en-hugo/</guid>
-      <description>&lt;p&gt;En un post de Hugo podemos incluir una ecuación matemática insertando una imagen de la misma o ser mucho más elegantes haciéndolo mediante Mathjax. A continuación voy a explicar como lo hago.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Menú para montar nubes en Bash</title>
       <link>/men%C3%BA-para-montar-nubes-en-bash/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
