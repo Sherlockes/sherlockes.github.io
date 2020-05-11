@@ -111,8 +111,8 @@
 <li>El redireccionamiento de puertos</li>
 </ul>
 <p>En un primer momento, después de reconfigurar la conexión en el cliente vnp, de probar con distintos parámetros y de incluso reinstalarlo borrando los datos de configuración, he terminado por descartar que el fallo esté en el cliente.</p>
-<p>Puesto que la Raspberry se reinicia cada <a href="">dos días</a> el servidor PiVPN hace lo propio. Directamente paso a reinstalarlo pero la conexión vpn desde el exterior sigue sin funcionar.</p>
-<p>Otro motivo de error puede ser el redireccionamiento que, gracias a <a href="">NoIp</a>, utilizo para no tener que ir modificando continuamente la Ip dinamica que me asigna el operador telefónico.  Esta redirección parece que funciona correctamente pero con todo intento la conexión vpn sustituyendola por la ip pública asignada en ese momento y el fallo persiste en idéntica situación.</p>
+<p>Puesto que la Raspberry se reinicia cada <a href="/raspberry-reinicios-peri%C3%B3dicos/">dos días</a> el servidor PiVPN hace lo propio. Directamente paso a reinstalarlo pero la conexión vpn desde el exterior sigue sin funcionar.</p>
+<p>Otro motivo de error puede ser el redireccionamiento que, gracias a <a href="/raspberry-acceso-desde-el-exterior/">NoIp</a>, utilizo para no tener que ir modificando continuamente la Ip dinamica que me asigna el operador telefónico.  Esta redirección parece que funciona correctamente pero con todo intento la conexión vpn sustituyendola por la ip pública asignada en ese momento y el fallo persiste en idéntica situación.</p>
 <p>La comunicación vía vpn la vengo realizando en los últimos meses a través del puerto 1194 UDP redireccionado a la ip de la Raspberry. Ya sólo me queda comprobar que esto sigue bien configurado.  Lo compruebo y parece que todo está bien pero voy un paso más allá gracias a un <a href="https://portchecker.co/">chequeador de puertos online</a> y observo como, a pesar de lo que indica la configuración del router, el puerto 1194 UDP no está abierto para mi ip pública.</p>
 <p><img src="/images/20190314_probando_zerotier_02.jpg" alt="imagen"></p>
 <h2 id="el-fallo">El fallo</h2>
