@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/vertices/picones/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vertices/purburell/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/men%C3%BA-para-montar-nubes-en-bash/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -654,12 +664,27 @@
   </url>
   
   <url>
-    <loc>/tags/bash/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vertices/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/vertices/</loc>
+    <lastmod>2020-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bash/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -670,11 +695,6 @@
   
   <url>
     <loc>/tags/rclone/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   

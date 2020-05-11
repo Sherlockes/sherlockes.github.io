@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vertices on Sherblog</title>
+    <link>/categories/vertices/</link>
+    <description>Contenido reciente de la categoria... in vertices on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/categories/vertices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vértice geodésico Picones</title>
+      <link>/vertices/picones/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/vertices/picones/</guid>
+      <description>Una nueva ruta y un nuevo mojón alcanzado (y con este ya van 2), en este caso se trata del vértice geodésico Picones está situado en el término municipal de Velilla de Ebro a una altura de 354 metros.    En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he &#34;conquistado&#34;. Puedes ver más información oficial en la web del Instituto Geográfico Nacional.</description>
+    </item>
+    
+    <item>
+      <title>Vértice geodésico Purburell</title>
+      <link>/vertices/purburell/</link>
+      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/vertices/purburell/</guid>
+      <description>Una nueva ruta y un nuevo mojón alcanzado (y con este ya van 2), en este caso se trata del vértice geodésico Purburell está situado en el término municipal de Sástago a una altura de 417 metros.    En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he &#34;conquistado&#34;. Puedes ver más información oficial en la web del Instituto Geográfico Nacional.</description>
+    </item>
+    
+  </channel>
+</rss>
