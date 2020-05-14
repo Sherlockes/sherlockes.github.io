@@ -532,11 +532,11 @@ Pruebo con otros plugins similares y todos me dan el mismo error y tras unas pru
     </item>
     
     <item>
-      <title>Openstreetsmap en Gps Garmin</title>
-      <link>/openstreetsmap-en-gps-garmin/</link>
+      <title>Openstreetmap en Gps Garmin</title>
+      <link>/openstreetmap-en-gps-garmin/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/openstreetsmap-en-gps-garmin/</guid>
+      <guid>/openstreetmap-en-gps-garmin/</guid>
       <description>Para el que no lo conozca, OpenStreetMap (también conocido como OSM) es un proyecto colaborativo para crear mapas libres y editables. Los mapas se crean utilizando información geográfica capturada con dispositivos GPS móviles, ortofotografías y otras fuentes libres. Esta cartografía, tanto las imágenes creadas como los datos vectoriales almacenados en su base de datos, se distribuye bajo licencia abierta Licencia Abierta de Bases de Datos (en inglés ODbL).
 Desde hace un tiempo hay una forma rápida y sencilla de incluirlos en los gps de la marca Garmin para una navegación por carreteras y caminos mediante esta web.</description>
     </item>
@@ -1175,6 +1175,16 @@ Como primera medida (Si no la habías tomado anteriormente) es activar la Red Ka
     </item>
     
     <item>
+      <title>Copia de seguridad de Gmail</title>
+      <link>/copia-de-seguridad-de-gmail/</link>
+      <pubDate>Fri, 03 Oct 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/copia-de-seguridad-de-gmail/</guid>
+      <description>El gran problema de la informática es que en un momento puedes perder el trabajo de muchos años a causa de un simple problema en el disco duro si no tenemos una copia de seguridad de nuestros archivos.
+Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratuito que existe pero no hay que olvidar que está todavía en fase beta y que sus servidores son tan susceptible a las averías o hackers como el pc de casa por lo que es muy importante realizar periódicamente una copia de seguridad de los correos electrónicos que tenemos en nuestra cuenta de Gmail.</description>
+    </item>
+    
+    <item>
       <title>Error al actualizar Nokia Pc Suite</title>
       <link>/error-al-actualizar-nokia-pc-suite/</link>
       <pubDate>Fri, 03 Oct 2008 00:00:00 +0000</pubDate>
@@ -1230,16 +1240,6 @@ Estas operaciones son cortar el tubo de dirección a nuestra medida necesaria, e
       <guid>/cambiando-los-casquillos-del-fox-rp2/</guid>
       <description>Un buen día, al levantar la bicicleta cogiéndola por el sillín noto una holgura de unos cuantos milímetros en la parte trasera de la bici que no tengo muy claro de donde viene. Tras descartar problemas con el buje o el eje trasero comienzo a revisar las articulaciones del basculante.
 Sólo hicieron falta unos minutos para darme cuenta de que el causante del problema era una holgura que había aparecido entre los casquillo y el alojamiento de los mismos en la unión entre el amortiguador Fox RP2 y la bieleta del basculante de la Giant Trance X3.</description>
-    </item>
-    
-    <item>
-      <title>Copia de seguridad de Gmail</title>
-      <link>/copia-de-seguridad-de-gmail/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/copia-de-seguridad-de-gmail/</guid>
-      <description>El gran problema de la informática es que en un momento puedes perder el trabajo de muchos años a causa de un simple problema en el disco duro si no tenemos una copia de seguridad de nuestros archivos.
-Desde mi punto de vista, GMail es el mejor servicio de correo electrónico gratuito que existe pero no hay que olvidar que está todavía en fase beta y que sus servidores son tan susceptible a las averías o hackers como el pc de casa por lo que es muy importante realizar periódicamente una copia de seguridad de los correos electrónicos que tenemos en nuestra cuenta de Gmail.</description>
     </item>
     
     <item>

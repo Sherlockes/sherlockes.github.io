@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sherver on Sherblog</title>
+    <title>sherver on Sherblog</title>
     <link>/categories/sherver/</link>
-    <description>Contenido reciente de la categoria... in Sherver on Sherblog</description>
+    <description>Contenido reciente de la categoria... in sherver on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
@@ -123,6 +123,16 @@ Después de valorar varias alternativas, la que me ha parecido más apropiada es
       
       <guid>/al-fin-se-ve-la-luz/</guid>
       <description>Después de más de una semana de trastear con mi viejo PII 233MHz, 64 Mb de RAM y 12 Gb de disco al final he conseguido montar en el un servidor linux en que está alojada esta página. En las próximas entradas trataré de explicar cuales han sido los principales problemas desde la instalación de Debian hasta este WordPress de modo que cualquiera de vosotros sea capaz de intentarlo en su propia casa con una inversión económica prácticamente nula.</description>
+    </item>
+    
+    <item>
+      <title>La joya de la corona</title>
+      <link>/la-joya-de-la-corona/</link>
+      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/la-joya-de-la-corona/</guid>
+      <description>Aquí está la máquina. Hace 10 años era la vanguardia de la tecnología y hoy se ha convertido en&amp;hellip; lo que cada uno quiera pensar.
+Lo menos que se merece es una pequeña limpieza por dentro, tanto de polvo como de componentes innecesarios. La tarjeta de sonido y la disquetera no creo que nos sean muy útiles para el servidor y con un cable ide para el disco duro y el lector de cd será más que suficiente.</description>
     </item>
     
   </channel>

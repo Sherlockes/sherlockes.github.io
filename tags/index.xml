@@ -93,15 +93,6 @@
     </item>
     
     <item>
-      <title>Google</title>
-      <link>/tags/google/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/google/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Google Drive</title>
       <link>/tags/google-drive/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
@@ -120,7 +111,7 @@
     </item>
     
     <item>
-      <title>Google Sheets</title>
+      <title>google sheets</title>
       <link>/tags/google-sheets/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
@@ -246,15 +237,6 @@
     </item>
     
     <item>
-      <title>Keep</title>
-      <link>/tags/keep/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/keep/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Keepass</title>
       <link>/tags/keepass/</link>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
@@ -327,6 +309,24 @@
     </item>
     
     <item>
+      <title>google keep</title>
+      <link>/tags/google-keep/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-keep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>garmin</title>
+      <link>/tags/garmin/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/garmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>GPS</title>
       <link>/tags/gps/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
@@ -354,7 +354,34 @@
     </item>
     
     <item>
-      <title>Gmail</title>
+      <title>google earth</title>
+      <link>/tags/google-earth/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-earth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openstreetmap</title>
+      <link>/tags/openstreetmap/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/openstreetmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google chrome</title>
+      <link>/tags/google-chrome/</link>
+      <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gmail</title>
       <link>/tags/gmail/</link>
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
       
@@ -489,11 +516,11 @@
     </item>
     
     <item>
-      <title>server</title>
-      <link>/tags/server/</link>
-      <pubDate>Sun, 30 Dec 2007 00:00:00 +0000</pubDate>
+      <title>emule</title>
+      <link>/tags/emule/</link>
+      <pubDate>Fri, 09 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/server/</guid>
+      <guid>/tags/emule/</guid>
       <description></description>
     </item>
     

@@ -74,20 +74,20 @@
     </item>
     
     <item>
-      <title>Sherver</title>
-      <link>/categories/sherver/</link>
+      <title>productividad</title>
+      <link>/categories/productividad/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/sherver/</guid>
+      <guid>/categories/productividad/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bash</title>
-      <link>/categories/bash/</link>
-      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      <title>sherver</title>
+      <link>/categories/sherver/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/bash/</guid>
+      <guid>/categories/sherver/</guid>
       <description></description>
     </item>
     
@@ -119,11 +119,29 @@
     </item>
     
     <item>
+      <title>windows</title>
+      <link>/categories/windows/</link>
+      <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gps</title>
       <link>/categories/gps/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>a pedalpes</title>
+      <link>/categories/a-pedalpes/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/a-pedalpes/</guid>
       <description></description>
     </item>
     
