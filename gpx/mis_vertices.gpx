@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="41.3377182" lon="-0.2176951">
+<name>mudevar</name>
+</wpt>
 <wpt lat="41.3790035" lon="-0.3656885">
 <name>picones</name>
 </wpt>
@@ -8,6 +11,9 @@
 </wpt>
 <wpt lat="41.3647295" lon="-0.3214985">
 <name>rebollón</name>
+</wpt>
+<wpt lat="41.4662748" lon="-0.2533447">
+<name>retuerta</name>
 </wpt>
 <wpt lat="41.2209547" lon="-0.2976966">
 <name>sasico</name>
