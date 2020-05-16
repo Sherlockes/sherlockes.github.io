@@ -90,29 +90,16 @@
 			
 
 
-
-
-
-
-<p>
+<div>
 Una nueva ruta y un nuevo mojón alcanzado (y con este ya van 6), en este caso se trata del vértice geodésico Rebollón está situado en el término municipal de Sástago  a una altura de 357 metros. 
-</p>
-
-
-
-
-
-
+</div>
+<br>
 <center><a href="https://i.imgur.com/2HXCHZU.jpg"><img src="https://i.imgur.com/2HXCHZUl.jpg" title="Vista del vertice" target="_blank"/></a></center>
 <br>
-
-
-
-
-
-
-<p>En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he "conquistado". Puedes ver más información oficial en la web del <a href="ftp://ftp.geodesia.ign.es/Red_Geodesica/Hoja0413/041351.pdf" target="_blank">Instituto Geográfico Nacional</a>.</p>
-
+<div>
+<br> En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he "conquistado". Puedes ver más información oficial en la web del <a href="ftp://ftp.geodesia.ign.es/Red_Geodesica/Hoja0413/041351.pdf" target="_blank">Instituto Geográfico Nacional</a>.
+</div>
+<br>
 <div id="map" class="map"></div>
 <script type="text/javascript">
 
@@ -151,6 +138,30 @@ mysvg.src = 'data:image/svg+xml,' + encodeURIComponent(svg);
       }),
       offsetY: 25
     })  
+  });
+
+  
+  
+  
+
+  var highlightStyle = new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: '#f00',
+      width: 1
+    }),
+    fill: new ol.style.Fill({
+      color: 'rgba(255,0,0,0.1)'
+    }),
+    text: new ol.style.Text({
+      font: '12px Calibri,sans-serif',
+      fill: new ol.style.Fill({
+        color: '#000'
+      }),
+      stroke: new ol.style.Stroke({
+        color: '#f00',
+        width: 3
+      })
+    })
   });
 
   
@@ -198,6 +209,9 @@ var displayFeatureInfo = function(pixel) {
 
 };
 
+
+
+
   
   
   
@@ -209,7 +223,7 @@ var displayFeatureInfo = function(pixel) {
 
     view: new ol.View({
       center: centro,
-      zoom: 10
+      zoom: 12
     })
   });
 
@@ -224,26 +238,19 @@ var displayFeatureInfo = function(pixel) {
   map.on('click', function(evt) {
     displayFeatureInfo(evt.pixel);
   });
+
+
+
 </script>
 <br>
-
-
-
-
-
-
-
-<p>Aquí una vista panorámica desde el mismo vértice...</p>
-
-<center><a href="https://i.imgur.com/a7YXoKt.jpg"><img src="https://i.imgur.com/a7YXoKth.jpg" title="Vista panorámica desde el vértice" target="_blank"/></a></center>
+<div>
+Aquí una vista panorámica desde el mismo vértice...
+</div>
 <br>
 
+<center><a href="https://i.imgur.com/a7YXoKt.jpg"><img src="https://i.imgur.com/a7YXoKth.jpg" title="Vista panorámica desde el vértice" target="_blank"/></a></center>
 
-
-
-
-
-
+<br>
 
 <p>Por el camino que más al sur rodea la salada de Rebollón en el monte de Sástago podemos llegar hasta el vértice teniendo únicamente que andar unos 200 metros a través de un campo. Las vistas desde el propio mojón quedan muy desmerecidas gracias a un hermoso arbolito aunque si nos desplazamos unos pocos metros, la panorámica en dirección SE de los barrancos de Montler es simplemente espectacular.</p>
 
