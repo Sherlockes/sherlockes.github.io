@@ -6,6 +6,9 @@
 <wpt lat="41.3790035" lon="-0.3656885">
 <name>picones</name>
 </wpt>
+<wpt lat="41.3262571" lon="-0.3048359">
+<name>puntales</name>
+</wpt>
 <wpt lat="41.4302334" lon="-0.2613119">
 <name>purburell</name>
 </wpt>
@@ -19,6 +22,6 @@
 <name>sasico</name>
 </wpt>
 <wpt lat="41.3158493" lon="-0.4597003">
-<name>tres-mojones</name>
+<name>tres_mojones</name>
 </wpt>
 </gpx>
