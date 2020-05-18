@@ -90,16 +90,29 @@
 			
 
 
-<div>
+
+
+
+
+<p>
 Una nueva ruta y un nuevo mojón alcanzado (y con este ya van 6), en este caso se trata del vértice geodésico Picones está situado en el término municipal de Velilla de Ebro  a una altura de 354 metros. 
-</div>
-<br>
+</p>
+
+
+
+
+
+
 <center><a href="https://i.imgur.com/tZbCy46.jpg"><img src="https://i.imgur.com/tZbCy46l.jpg" title="Vista del vertice" target="_blank"/></a></center>
 <br>
-<div>
-<br> En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he "conquistado". Puedes ver más información oficial en la web del <a href="ftp://ftp.geodesia.ign.es/Red_Geodesica/Hoja0413/041342.pdf" target="_blank">Instituto Geográfico Nacional</a>.
-</div>
-<br>
+
+
+
+
+
+
+<p>En el centro del siguiente mapa se puede ver la ubicación del vértice junto con todos los demás que hasta ahora he "conquistado". Puedes ver más información oficial en la web del <a href="ftp://ftp.geodesia.ign.es/Red_Geodesica/Hoja0413/041342.pdf" target="_blank">Instituto Geográfico Nacional</a>.</p>
+
 <div id="map" class="map"></div>
 <script type="text/javascript">
 
@@ -138,30 +151,6 @@ mysvg.src = 'data:image/svg+xml,' + encodeURIComponent(svg);
       }),
       offsetY: 25
     })  
-  });
-
-  
-  
-  
-
-  var highlightStyle = new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: '#f00',
-      width: 1
-    }),
-    fill: new ol.style.Fill({
-      color: 'rgba(255,0,0,0.1)'
-    }),
-    text: new ol.style.Text({
-      font: '12px Calibri,sans-serif',
-      fill: new ol.style.Fill({
-        color: '#000'
-      }),
-      stroke: new ol.style.Stroke({
-        color: '#f00',
-        width: 3
-      })
-    })
   });
 
   
@@ -209,9 +198,6 @@ var displayFeatureInfo = function(pixel) {
 
 };
 
-
-
-
   
   
   
@@ -223,7 +209,7 @@ var displayFeatureInfo = function(pixel) {
 
     view: new ol.View({
       center: centro,
-      zoom: 12
+      zoom: 10
     })
   });
 
@@ -238,19 +224,26 @@ var displayFeatureInfo = function(pixel) {
   map.on('click', function(evt) {
     displayFeatureInfo(evt.pixel);
   });
-
-
-
 </script>
 <br>
-<div>
-Aquí una vista panorámica desde el mismo vértice...
-</div>
-<br>
+
+
+
+
+
+
+
+<p>Aquí una vista panorámica desde el mismo vértice...</p>
 
 <center><a href="https://i.imgur.com/VY8ieZb.jpg"><img src="https://i.imgur.com/VY8ieZbh.jpg" title="Vista panorámica desde el vértice" target="_blank"/></a></center>
-
 <br>
+
+
+
+
+
+
+
 
 <p>Desde Alforque, subimos hacia el monte por Valcenicero para posteriormente afrontar la subida de los Picones. Tras completar la ascensión a la plana, a la derecha queda un campo de cereal al final del cual está situado el mojón. Desde el vértice, en dirección noreste se puede ver toda la ascensión a los Picones, un buen sitio para probar las piernas.</p>
 
