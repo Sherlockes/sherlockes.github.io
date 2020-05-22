@@ -5,7 +5,7 @@
     <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>vertices</title>
       <link>/categories/vertices/</link>
-      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/vertices/</guid>
       <description></description>
