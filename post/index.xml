@@ -812,7 +812,7 @@ En el siguiente videotutorial muestro otra forma de incluir este título de una 
       <pubDate>Sun, 25 Dec 2011 00:00:00 +0000</pubDate>
       
       <guid>/sherlodj-in-session-2k11/</guid>
-      <description>Aquí el último resultado del último &amp;ldquo;juguete&amp;quot;. Casi 100 minutos de música con treinta de los mejores temas dance de 2011.
+      <description>Aquí el último resultado del último &amp;ldquo;juguete&amp;rdquo;. Casi 100 minutos de música con treinta de los mejores temas dance de 2011.
 TrackList:
 01.- Example - Kickstarts (Afrojack Remix)\
 02.- Edith - Living Without You (DJ Kuba and Neitan Rmx)\
@@ -880,7 +880,7 @@ Vamos a pasar esta vez de la reflex, el trípode, apertura del diafragma, tiempo
       
       <guid>/insertar-t%C3%ADtulo-a-un-v%C3%ADdeo-con-virtualdub/</guid>
       <description>Seguro que hay cientos de alternativas que nos permiten anteponer un título de cierta duración a una secuencia de vídeo. No se si esta será la mejor forma de hacerlo, aunque está claro que es una forma rápida, sencilla, libre y gratuita, lo cual la hace digna de ser considerada como una muy buena solución.
-Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;quot;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
+Una vez utilizaremos VirtualDub como principal programa en la edición y de forma auxiliar también se empleará el clásico &amp;ldquo;Paint&amp;rdquo; de windows (Crearemos un título extremadamente simple, para algo más trabajado será necesario un programa de edición gráfica más potente) y &amp;ldquo;VideoInspector&amp;rdquo;, este último un sencillo programa gratuito que nos da información sobre el formato de los vídeos que seleccionemos.</description>
     </item>
     
     <item>
