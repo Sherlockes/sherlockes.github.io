@@ -106,25 +106,25 @@ sudo chmod 755 /usr/bin/rclone
 <pre><code>rclone mount Sherloflix_en: /var/services/video/Sherloflix --allow-other --config=/var/services/homes/sherlockes/.config/rclone/rclone.conf --daemon
 </code></pre><ul>
 <li>
-<p>rclone - Comando principal</p>
+<p><code>rclone</code> - Comando principal</p>
 </li>
 <li>
-<p>mount - Modificador para montar la nube en local</p>
+<p><code>mount</code> - Modificador para montar la nube en local</p>
 </li>
 <li>
-<p>Sherloflix_en - Nombre de la nube configurada en Rclone</p>
+<p><code>Sherloflix_en</code> - Nombre de la nube configurada en Rclone</p>
 </li>
 <li>
-<p>/var/services/video/Sherloflix - Carpeta del NAS donde voy a montar el contenido</p>
+<p><code>/var/services/video/Sherloflix</code> - Carpeta del NAS donde voy a montar el contenido</p>
 </li>
 <li>
-<p>&ndash;allow-other - Argumento para permitr el acceso de otros usuarios</p>
+<p><code>--allow-other</code> - Argumento para permitr el acceso de otros usuarios</p>
 </li>
 <li>
-<p>&ndash;config=/var/services/&hellip;/rclone.conf - Ruta al archivo de configuración</p>
+<p><code>--config=/var/services/.../rclone.conf</code> - Ruta al archivo de configuración</p>
 </li>
 <li>
-<p>&ndash; daemon - Ejecuta el comando como servicio para dejar la nube montada</p>
+<p><code>--daemon</code> - Ejecuta el comando como servicio para dejar la nube montada</p>
 <blockquote>
 <p>Si no tienes claro donde está guardado el archivo de configuración, basta con que ejecutes <code>rclone config file</code> desde la terminal del Nas y te mostrará la ruta del archivo de configuración.</p>
 </blockquote>
@@ -141,7 +141,8 @@ Failed to create file system for &quot;Sherloflix_en:&quot;: didn't find section
 </code></pre><p>Con esto, la nube queda montada en una carpeta del Nas cada vez que este arranca.</p>
 <p>Recursos útiles&hellip;
 <a href="https://rclone.org/install/#linux-installation-from-precompiled-binary">https://rclone.org/install/#linux-installation-from-precompiled-binary</a>
-<a href="https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools">https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools</a></p>
+<a href="https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools">https://superuser.com/questions/406915/extract-7z-files-with-standard-linux-tools</a>
+<a href="https://bitnarios.com/guia-definitiva-synology-como-instalar-configurar-rclone-y-sincronizarlo-con-google-drive/">https://bitnarios.com/guia-definitiva-synology-como-instalar-configurar-rclone-y-sincronizarlo-con-google-drive/</a></p>
 		</div>
 		<footer class="post__footer">
 			
