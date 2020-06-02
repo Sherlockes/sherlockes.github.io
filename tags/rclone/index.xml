@@ -6,10 +6,20 @@
     <description>Recent content in rclone on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/rclone/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rclone en Synology</title>
+      <link>/rclone-en-synology/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/rclone-en-synology/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización:&lt;/strong&gt; Solución al error &amp;ldquo;Couldn&amp;rsquo;t find home directory or read HOME&amp;hellip;&amp;rdquo; en el uso a través del programador de tareas.&lt;/p&gt;
+&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Menú para montar nubes en Bash</title>
@@ -18,15 +28,6 @@
       
       <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Actualización: Parámetro de rclone &lt;a href=&#34;#allow-other&#34;&gt;&amp;ldquo;allow-other&amp;rdquo;&lt;/a&gt;.&lt;/strong&gt; Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rclone en Synology</title>
-      <link>/rclone-en-synology/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/rclone-en-synology/</guid>
-      <description>&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
     </item>
     
     <item>

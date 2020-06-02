@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Rclone en Synology</title>
+      <link>/rclone-en-synology/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/rclone-en-synology/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización:&lt;/strong&gt; Solución al error &amp;ldquo;Couldn&amp;rsquo;t find home directory or read HOME&amp;hellip;&amp;rdquo; en el uso a través del programador de tareas.&lt;/p&gt;
+&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Menú para montar nubes en Bash</title>
@@ -91,15 +101,6 @@
       
       <guid>/unir-varios-pdf-en-linux-desde-la-l%C3%ADnea-de-comandos/</guid>
       <description>&lt;p&gt;En la web podemos encontrar una infinidad de servicios para unir varios archivos pdf en uno, pero si no quieres perder tiempo en subir y bajar los archivos a los servidores remotos aquí dejo una forma sencilla para realizar el mismo trabajo con una sola línea en la consola de comandos.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rclone en Synology</title>
-      <link>/rclone-en-synology/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/rclone-en-synology/</guid>
-      <description>&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -366,7 +367,7 @@ Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrast
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
+      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
     </item>
     
     <item>
