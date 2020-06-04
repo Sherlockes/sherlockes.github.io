@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="41.5785479" lon="-0.8925093">
+<name>cabezo_de_las_zorras</name>
+</wpt>
 <wpt lat="41.0400156" lon="-0.5244597">
 <name>coronas</name>
 </wpt>
@@ -8,6 +11,9 @@
 </wpt>
 <wpt lat="41.0319039" lon="-0.7903796">
 <name>la_sarda</name>
+</wpt>
+<wpt lat="41.444556" lon="-0.9194335">
+<name>loco</name>
 </wpt>
 <wpt lat="41.3377182" lon="-0.2176951">
 <name>mudevar</name>
@@ -47,6 +53,9 @@
 </wpt>
 <wpt lat="41.2039996" lon="-0.4305661">
 <name>sierra</name>
+</wpt>
+<wpt lat="41.451053" lon="-0.8252525">
+<name>sillero</name>
 </wpt>
 <wpt lat="41.3158493" lon="-0.4597003">
 <name>tres_mojones</name>
