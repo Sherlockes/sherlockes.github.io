@@ -5,20 +5,10 @@
     <description>Contenido reciente de la categoria... in sherver on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/sherver/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Rclone en Synology</title>
-      <link>/rclone-en-synology/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/rclone-en-synology/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Actualización:&lt;/strong&gt; Solución al error &amp;ldquo;Couldn&amp;rsquo;t find home directory or read HOME&amp;hellip;&amp;rdquo; en el uso a través del programador de tareas.&lt;/p&gt;
-&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Archivos de Telegram al NAS</title>

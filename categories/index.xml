@@ -20,15 +20,6 @@
     </item>
     
     <item>
-      <title>sherver</title>
-      <link>/categories/sherver/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/sherver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Varios</title>
       <link>/categories/varios/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
@@ -88,6 +79,15 @@
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/productividad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sherver</title>
+      <link>/categories/sherver/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/sherver/</guid>
       <description></description>
     </item>
     

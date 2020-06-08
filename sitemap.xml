@@ -18,11 +18,6 @@
   </url>
   
   <url>
-    <loc>/rclone-en-synology/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/vertices/la_sarda/</loc>
     <lastmod>2020-05-25T00:00:00+00:00</lastmod>
   </url>
@@ -320,11 +315,6 @@
   <url>
     <loc>/apagar-la-pantalla-con-tasker-en-android/</loc>
     <lastmod>2018-02-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/lo-que-tengo-pendiente-de-escribir.../</loc>
-    <lastmod>2018-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -785,27 +775,22 @@
   </url>
   
   <url>
+    <loc>/tags/bash/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/rclone/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/sherver/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/bash/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -886,6 +871,11 @@
   
   <url>
     <loc>/categories/productividad/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/sherver/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   

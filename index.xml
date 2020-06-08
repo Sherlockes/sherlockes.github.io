@@ -39,16 +39,6 @@
     </item>
     
     <item>
-      <title>Rclone en Synology</title>
-      <link>/rclone-en-synology/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/rclone-en-synology/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Actualización:&lt;/strong&gt; Solución al error &amp;ldquo;Couldn&amp;rsquo;t find home directory or read HOME&amp;hellip;&amp;rdquo; en el uso a través del programador de tareas.&lt;/p&gt;
-&lt;p&gt;La instalación de Rclone en un NAS de Synology no es tan fácil como en una instalación linux convencional, a continuación muestro la forma de la que lo he llevado a cabo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Vértice geodésico La_Sarda</title>
       <link>/vertices/la_sarda/</link>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
@@ -615,15 +605,6 @@ Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrast
       
       <guid>/apagar-la-pantalla-con-tasker-en-android/</guid>
       <description>La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma. Muchos terminales ofrecen la posibilidad del bloqueo y desbloqueo con un doble toque.</description>
-    </item>
-    
-    <item>
-      <title>Lo que tengo pendiente de escribir...</title>
-      <link>/lo-que-tengo-pendiente-de-escribir.../</link>
-      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
     </item>
     
     <item>
