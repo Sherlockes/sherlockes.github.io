@@ -1,23 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sherblog</title>
     <link>/categories/</link>
-    <description>Contenido reciente de la categoria... in Categories on Sherblog</description>
+    <description>Recent content in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Varios</title>
-      <link>/categories/varios/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/varios/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>vertices</title>
@@ -25,6 +17,15 @@
       <pubDate>Thu, 04 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/vertices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varios</title>
+      <link>/categories/varios/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/varios/</guid>
       <description></description>
     </item>
     

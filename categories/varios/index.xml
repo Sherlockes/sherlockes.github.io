@@ -1,24 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Varios on Sherblog</title>
     <link>/categories/varios/</link>
-    <description>Contenido reciente de la categoria... in Varios on Sherblog</description>
+    <description>Recent content in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>vertices</title>
-      <link>/vertices/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/vertices/</guid>
-      <description>Mi pruebva&amp;hellip;
-Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
-    </item>
     
     <item>
       <title>Menú para montar nubes en Bash</title>
@@ -106,7 +97,7 @@ Una primera impresión me informa de que no es nadie conocido y, a priori, un an
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
-      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
+      <description>Vértice geodésico Cabezo De Las Zorras  Vértice geodésico Loco  Vértice geodésico Sillero  Vértice geodésico La_Sarda  Vértice geodésico Radihuela  Vértice geodésico Coronas  Vértice geodésico Cuervo  Vértice geodésico Pedreñal  Vértice geodésico Planetas  Vértice geodésico San Martin  Vértice geodésico Señor  Vértice geodésico Sierra  Vértice geodésico Valdelosjubos  Vértice geodésico Puntales  Vértice geodésico Tres Mojones  Vértice geodésico Mudevar  Vértice geodésico Rebollón  Vértice geodésico Retuerta  Vértice geodésico Sasico  Vértice geodésico Picones  Vértice geodésico Purburell  Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.</description>
     </item>
     
     <item>

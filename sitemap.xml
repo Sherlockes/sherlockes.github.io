@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/vertices/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/vertices/cabezo_de_las_zorras/</loc>
     <lastmod>2020-06-04T00:00:00+00:00</lastmod>
   </url>
@@ -766,22 +761,12 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/varios/</loc>
-    <lastmod>2020-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -800,12 +785,22 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/rclone/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/varios/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1162,6 +1157,10 @@
   <url>
     <loc>/tags/emule/</loc>
     <lastmod>2009-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mis-v%C3%A9rtices-geod%C3%A9sicos/</loc>
   </url>
   
   <url>
