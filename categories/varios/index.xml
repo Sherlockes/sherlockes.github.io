@@ -5,10 +5,20 @@
     <description>Contenido reciente de la categoria... in Varios on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/varios/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vertices</title>
+      <link>/vertices/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/vertices/</guid>
+      <description>Mi pruebva&amp;hellip;
+Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
+    </item>
     
     <item>
       <title>Menú para montar nubes en Bash</title>
@@ -88,6 +98,15 @@ La principal ventaja que presenta Telegram VS Whatsapp reside en que la primera 
       <description>Aquí va la historia de como he conseguido ganar 100€ (aunque técnicamente ha sido dejar de gastarlos) sin moverme del sitio y lo que es mejor todavía, sin yo buscarlo.
 Aprovecho para escuchar podcast con los auriculares bluetooth mientras hago bricolaje lejos de mi casa cuando recibo una llamada, como solo tengo que pulsar el botón del auricular para descolgar, lo hago sin saber quien me llama.
 Una primera impresión me informa de que no es nadie conocido y, a priori, un anunciante más que utiliza la plataforma telefónica para intentar realizar una venta.</description>
+    </item>
+    
+    <item>
+      <title>Lo que tengo pendiente de escribir...</title>
+      <link>/lo-que-tengo-pendiente-de-escribir.../</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
+      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
     </item>
     
     <item>

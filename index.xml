@@ -6,10 +6,20 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 04 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>vertices</title>
+      <link>/vertices/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/vertices/</guid>
+      <description>Mi pruebva&amp;hellip;
+Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
+    </item>
     
     <item>
       <title>Vértice geodésico Cabezo De Las Zorras</title>
@@ -605,6 +615,15 @@ Pues bien, por casa tengo varios portátiles viejos en los que Windows se arrast
       
       <guid>/apagar-la-pantalla-con-tasker-en-android/</guid>
       <description>La receta que mas utilizo en Tasker es al mismo tiempo una de las más sencillas. Está claro que si quieres prolongar la duración de la batería de tu teléfono la solución más sencilla pasa por tener la pantalla apagada el mayor tiempo posible. Además, cuando te metes el dispositivo móvil al bolsillo es muy interesante que este tenga la pantalla bloqueada para evitar pulsaciones fantasma. Muchos terminales ofrecen la posibilidad del bloqueo y desbloqueo con un doble toque.</description>
+    </item>
+    
+    <item>
+      <title>Lo que tengo pendiente de escribir...</title>
+      <link>/lo-que-tengo-pendiente-de-escribir.../</link>
+      <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/lo-que-tengo-pendiente-de-escribir.../</guid>
+      <description>Artículos que estoy escribiendo  Todo sobre mis Backups Hugo y Mathjax Hugo y Raspberry Emacs desde cero Mis vértices geodésicos en Hugo  Artículos por escribir  Extraer archivos &amp;ldquo;loquesea.zip.001&amp;rdquo; en Synology Que hago para no quedarme dormido Miniaturas para el blog en Android Instalando y actualizando Rclone Que hace Tasker al subir a la bici hugo a Github automáticamente De la Raspberry a Github Igualando volumen bluetooth Esponjas quitamanchas del Mercadona Cuantos kilómetros hago este año vpn a través de Raspberry y Android Y cuando la Raspberry muera&amp;hellip; Duelo de calcetines Docker en Raspberry.</description>
     </item>
     
     <item>
