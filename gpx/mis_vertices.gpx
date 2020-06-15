@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="41.61045022" lon="-0.95416909">
+<name>cabezo_casellas</name>
+</wpt>
 <wpt lat="41.5785479" lon="-0.8925093">
 <name>cabezo_de_las_zorras</name>
 </wpt>
@@ -11,6 +14,9 @@
 </wpt>
 <wpt lat="41.685935" lon="-0.6998341">
 <name>flora</name>
+</wpt>
+<wpt lat="41.6538822" lon="-0.7427812">
+<name>frances</name>
 </wpt>
 <wpt lat="41.0319039" lon="-0.7903796">
 <name>la_sarda</name>
@@ -62,6 +68,9 @@
 </wpt>
 <wpt lat="41.3158493" lon="-0.4597003">
 <name>tres_mojones</name>
+</wpt>
+<wpt lat="41.6906272" lon="-0.7370697">
+<name>valdeatalaya</name>
 </wpt>
 <wpt lat="41.4370004" lon="-0.3517226">
 <name>valdelosjubos</name>
