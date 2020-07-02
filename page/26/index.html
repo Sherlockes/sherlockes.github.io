@@ -67,11 +67,39 @@
 <main class="main list" role="main">
 	<div class="content main__content clearfix">
 		<p>Cuando te encuentras con un problema creo que lo mejor es documentar la solución, nunca sabes si a otra persona o incluso a ti mismo puede ser de ayuda pasado un tiempo.</p>
-<p><strong><a href="">Estos</a></strong> son los temas sobre los que estoy escribiendo o tengo intención de hacerlo próximamente.  Se aceptan todo tipo de peticiones así que si la tienes no dudes en dejarme un <strong><a href="https://twitter.com/sherblogpro">tweet</a>.</strong></p>
+<p><strong><a href="/lo-que-tengo-pendiente-de-escribir.../">Estos</a></strong> son los temas sobre los que estoy escribiendo o tengo intención de hacerlo próximamente.  Se aceptan todo tipo de peticiones así que si la tienes no dudes en dejarme un <strong><a href="https://twitter.com/sherblogpro">tweet</a>.</strong></p>
 <hr>
 
 	</div>
 	<article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/raspberry-reinicios-peri%C3%B3dicos/">
+			<img src="/images/20180501_raspberry_reinicio.jpg" alt="Raspberry Reinicios periódicos" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/raspberry-reinicios-peri%C3%B3dicos/" rel="bookmark">
+			Raspberry Reinicios periódicos
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-04-10T00:00:00">2018-04-10</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Reiniciar la Raspberry a diario Para que la Raspberry se reinicie al menos una vez al día por si alguno de los servicios se cuelga y no tenemos acceso a ella o no nos damos cuenta del problema he implementado un reinicio diario a las 4:00 AM mediante una tarea programada usando el cron del usuario root
+sudo crontab -enos abre un archivo al que le añadiremos la siguiente línea
+	</div>
+</article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="/raspberry-copia-de-seguridad/">
 			<img src="/images/20180409_raspberry_backup.jpg" alt="Raspberry Copia de seguridad" />
@@ -181,35 +209,6 @@ En el caso de Wordpress, debemos guardar la base de datos y la carpeta &ldquo;wp
 		Instalando VSftpD Aunque no es imprescindible para la instalación y funcionamiento de WordPress, el servidor ftp nos resulta muy util para la instalación automática de plugins, actualizaciones, importaciones&hellip; Por lo que lo incluimos también dentro de la pequeña Raspberry.
 Instalamos &ldquo;vsftp&rdquo; y editamos el archivo de configuración asegurándonos de que están como aparecen a continuación los siguientes paramétros.
 *** Actualización *** //Para que los archivos subidos mediante el cliente ftp (logeado con el usuario &ldquo;pi&rdquo;) al servidor en la raspberry puedan ser leidos y ejecutados por el usuario &ldquo;www-data&rdquo; deberemos modificar tambien el parámetro umask de forma que quede local_umask=022//
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/raspberry-descargando-wordpress/">
-			<img src="/images/raspberry_logo.png" alt="Raspberry Descargando Wordpress" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/raspberry-descargando-wordpress/" rel="bookmark">
-			Raspberry Descargando Wordpress
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-04-05T00:00:00">2018-04-05</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Descargando WordPress En primer lugar descargamos la ultima versión de WordPress a el directorio &ldquo;home&rdquo; del usuario Pi. Si la descargamos en inglés lo haremos mediante el archivo &ldquo;latest.tar.gz&rdquo; pero si la queremos en castellano habrá en entrar en [[http://es.wordpress.org]] y comprobar cual es la versión actual para descargar un archivo del tipo &ldquo;wordpress-4.8.2-es_ES.tar.gz&rdquo;
-Las líneas de arriba realizan la siguiente secuencia:
- Crea un directorio en la raiz de apache para instalar WordPress Iniciarse en el directorio &ldquo;home&rdquo; de Pi Descargar la última versión de WordPress (En inglés) Descomprime el archivo descargado Mueve el contenido de la carpeta extraida a &ldquo;/var/www/html/sherblog&rdquo; Borra el archivo descargado Borra la carpeta vacía  Con esto ya están listos los archivos de WordPress, ahora modificaremos el archivo &ldquo;wp-config&rdquo; con la información de la conexión a la base de datos que hemos creado anteriormente.
 	</div>
 </article>
 </main>
