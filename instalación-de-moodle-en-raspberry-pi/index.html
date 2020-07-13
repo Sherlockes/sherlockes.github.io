@@ -84,11 +84,11 @@
 		</figure><div class="content post__content clearfix">
 			<p>El desarrollo&hellip;
 Recientemente he probado <a href="https://moodle.org/?lang=es">Moodle</a> como plataforma para publicar cursos y me ha parecido una plataforma extremadamente potente. Aquí no voy a desgranar las posibilidades del mismo sino más bien el proceso de como he montado la plataforma sobre una <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">Raspberry Pi 3 Model B</a> gracias a <a href="https://moodlebox.net/en/">MoodleBox</a>.</p>
-<h3 id="instalación-de-moodle-">Instalación de Moodle</h3>
+<h3 id="instalación-de-moodle">Instalación de Moodle</h3>
 <p>Sin duda alguna, la forma más sencilla de instalar <a href="https://moodle.org/?lang=es">Moodle</a> en una Raspberry es mediante el uso de <a href="https://moodlebox.net/en/">moodleBox</a> ya que la propia distribución nos crea un servidor de Moodle sobre una distribución de Raspbian Lite listo para funcionar. Tan sencillo como grabar la <a href="https://moodlebox.net/en/help/download-the-disk-image/">imagen</a> descargada en una MicroSd y arrancar la Raspberry.</p>
-<h3 id="conexión-mediante-wifi-">Conexión mediante Wifi</h3>
+<h3 id="conexión-mediante-wifi">Conexión mediante Wifi</h3>
 <p>Tras arrancar la Raspberry, seleccionaremos la red wifi &ldquo;MoodleBox&rdquo; en el dispositivo desde el que nos queremos conectar, usando como contraseña &ldquo;moodlebox&rdquo; para conectarnos a la red que la propia Raspberry está generando. Una vez conectado accederemos desde el navegador a &ldquo;<a href="http://moodlebox.home">http://moodlebox.home</a>&rdquo; para acceder al portal de Moodle. Si la Raspberry está conectada a internet a través de ethernet, esta hará de router y los dispositivos conectados a la red wifi &ldquo;MoodleBox&rdquo; tambien tendrán acceso a internet a través de la propia Raspberry.</p>
-<h3 id="conexión-mediante-ethernet-">Conexión mediante ethernet</h3>
+<h3 id="conexión-mediante-ethernet">Conexión mediante ethernet</h3>
 <p>Para poder acceder mediante cable ethernet al portal de Moodle de nuestra raspberry antes tenemos que modificar con un editor de texto y privilegios de administrador el archivo &ldquo;hosts&rdquo; de nuestro pc.</p>
 <ul>
 <li>En windows está ubicado en &ldquo;c:\windows\system32\drivers\etc\hosts&rdquo;</li>
@@ -103,7 +103,7 @@ Recientemente he probado <a href="https://moodle.org/?lang=es">Moodle</a> como p
 <p>Si no sabes como averiguar la IP de tu raspberry te remito al <a href="https://sherblog.pro/raspberry-red-y-wifi/">post</a> en que tengo descrito como hacerlo tanto en windows como en linux.</p>
 </blockquote>
 <p>Con este cambio realizado ya podremos aceder a la dirección &ldquo;<a href="http://moodlebox.home/%22">http://moodlebox.home/&quot;</a> desde nuestro navegador para acceder al portal de Moodle.</p>
-<h3 id="conexión-mediante-ssh-">Conexión mediante ssh</h3>
+<h3 id="conexión-mediante-ssh">Conexión mediante ssh</h3>
 <p>Por defecto, la ip de la Raspberry no es estática, lo cual supone que, dependiendo de la asignación del router, en un arranque posterior puede adquirir una ip distinta. Para evitarlo tendremos que conectarnos via ssh a la Raspberry (De la que ahora sabemos la ip tal y como hemos visto en el apartado anterior) y modificar el archivo “/etc/dhcpcd.conf” modificando las siguientes líneas:</p>
 <pre><code># Example static IP configuration:
 interface eth0
@@ -118,7 +118,7 @@ static domain_name_servers=192.168.1.1 8.8.8.8
 <li>En windows usando <a href="https://www.putty.org/">Putty</a> con &ldquo;modlebox&rdquo; de usuario y &ldquo;Moodlebox4$&rdquo; de pass</li>
 <li>En linux mediante &ldquo;ssh <a href="mailto:moodlebox@192.168.1.201">moodlebox@192.168.1.201</a>&rdquo; y &ldquo;Moodlebox4$&rdquo; de pass</li>
 </ul>
-<h3 id="conexión-desde-internet-">Conexión desde internet</h3>
+<h3 id="conexión-desde-internet">Conexión desde internet</h3>
 <p><a href="https://moodlebox.net/en/">MoodleBox</a> está pensado para que la Raspberry esté colocada en clase y los alumnos se conecten a ella via wifi, al termino de la clase, la Raspberry se apaga y va al bolsillo del profesor. ¿Pero, que pasa si queremos dejar la Raspberry en casa del profesor y que los alumnos accedan a ella desde sus propias casas? La operación es un poco más laboriosa, pero perfectamente funcional siguiendo los siguientes pasos:</p>
 <ul>
 <li>En primer lugar necesitamos <strong>crear un DNS dinámico</strong> que apunte a la dirección IP publica de nuestro router a pesar de que esta pueda variar. Personalmente utilizo el servicio gratuito <a href="https://www.noip.com/">Noip</a> en el que crearemos un &ldquo;Hostname&rdquo; (Se pueden crear hasta tres de forma gratuita) que apunte a la Ip pública de nuestro router. En mi caso he creado &ldquo;locasporlaquimica.ddns.net&rdquo; tal y como se puede ver en la siguiente imagen.</li>

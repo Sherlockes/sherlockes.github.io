@@ -90,12 +90,12 @@
 </div>
 <div class="content post__content clearfix">
 			<p>En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explicar mi experiencia con una de las que yo utilizo. <a href="https://rclone.org">Rclone</a></p>
-<h1 id="instalación-">Instalación</h1>
+<h1 id="instalación">Instalación</h1>
 <p>La instalación es realmente sencilla gracias al script que hay en la web oficial</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl https://rclone.org/install.sh | sudo bash
 </code></pre></div><p>Podemos comprobar que se ha instalado correctemente mediante el comando</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rclone -V
-</code></pre></div><h1 id="configuración-de-la-nube-">Configuración de la nube</h1>
+</code></pre></div><h1 id="configuración-de-la-nube">Configuración de la nube</h1>
 <p>Hasta aquí bastante sencillo, el problema viene en el momento que intentamos configurar cualquiera de las nubes ya que, a priori, es necessario un entorno gráfico para conseguir el código de autorización a través del navegador web.</p>
 <blockquote>
 <p>Por la red circulan varios tutoriales para realizar esta configuración de las nubes mediante navegadores web en línea de comando en modo texto y&hellip; después de probar varios no he conseguido que me funcione ninguno para esta operación.  A unos del falla el javascript&hellip;</p>
@@ -233,7 +233,7 @@ s<span style="color:#f92672">)</span> Set configuration password
 q<span style="color:#f92672">)</span> Quit config
 e/n/d/r/c/s/q&gt; 
 </code></pre></div><p>En la que podremos ver la que ya tenemos una nube añadida.</p>
-<h1 id="encriptación-de-la-nube-">Encriptación de la nube</h1>
+<h1 id="encriptación-de-la-nube">Encriptación de la nube</h1>
 <p>Es recomendable empezar con una carpeta vacía en la nube en la que queremos subir el contenido encriptado. Para, previamente tal y como he explicado hay que configurar la nube en rclone y luego pasamos a configurar la carpeta encriptada &ldquo;micarpeta&rdquo;.</p>
 <p>1- Accedemos a la configuración de Rclone <code>rclone config</code>
 1- Creamos un nuevo remoto <!-- raw HTML omitted -->n<!-- raw HTML omitted -->
