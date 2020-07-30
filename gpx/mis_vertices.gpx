@@ -9,6 +9,9 @@
 <wpt lat="41.61946" lon="-1.0344">
 <name>collado_ladrones</name>
 </wpt>
+<wpt lat="41.4212" lon="-1.0240">
+<name>corona_del_fraile</name>
+</wpt>
 <wpt lat="41.0400156" lon="-0.5244597">
 <name>coronas</name>
 </wpt>
@@ -65,6 +68,9 @@
 </wpt>
 <wpt lat="41.4662748" lon="-0.2533447">
 <name>retuerta</name>
+</wpt>
+<wpt lat="41.527" lon="-0.957">
+<name>salinas</name>
 </wpt>
 <wpt lat="41.2603003" lon="-0.5762267">
 <name>san_martin</name>
