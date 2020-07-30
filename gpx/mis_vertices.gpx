@@ -45,6 +45,9 @@
 <wpt lat="41.3790035" lon="-0.3656885">
 <name>picones</name>
 </wpt>
+<wpt lat="41.5271" lon="-1.0692">
+<name>pino</name>
+</wpt>
 <wpt lat="41.1479348" lon="-0.5108071">
 <name>planetas</name>
 </wpt>
@@ -83,6 +86,9 @@
 </wpt>
 <wpt lat="41.6906272" lon="-0.7370697">
 <name>valdeatalaya</name>
+</wpt>
+<wpt lat="41.5108" lon="-1.10933">
+<name>valdejimeno</name>
 </wpt>
 <wpt lat="41.4370004" lon="-0.3517226">
 <name>valdelosjubos</name>
