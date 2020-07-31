@@ -51,6 +51,9 @@
 <wpt lat="41.3790035" lon="-0.3656885">
 <name>picones</name>
 </wpt>
+<wpt lat="41.593" lon="-0.834">
+<name>pilonas</name>
+</wpt>
 <wpt lat="41.5271" lon="-1.0692">
 <name>pino</name>
 </wpt>
@@ -104,5 +107,8 @@
 </wpt>
 <wpt lat="41.4370004" lon="-0.3517226">
 <name>valdelosjubos</name>
+</wpt>
+<wpt lat="41.562" lon="-0.812">
+<name>varillo_de_belchite</name>
 </wpt>
 </gpx>
