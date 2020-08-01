@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <gpx creator="GPS Visualizer http://www.gpsvisualizer.com/" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="40.5915883" lon="-2.8167506">
+<name>berninches</name>
+</wpt>
 <wpt lat="41.61045022" lon="-0.95416909">
 <name>cabezo_casellas</name>
 </wpt>
@@ -26,6 +29,9 @@
 </wpt>
 <wpt lat="41.6538822" lon="-0.7427812">
 <name>frances</name>
+</wpt>
+<wpt lat="40.5539158" lon="-2.7665518">
+<name>laguna</name>
 </wpt>
 <wpt lat="41.0319039" lon="-0.7903796">
 <name>la_sarda</name>
