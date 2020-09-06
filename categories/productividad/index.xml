@@ -6,10 +6,19 @@
     <description>Recent content in productividad on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/productividad/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como descargar el icono de un servicio web</title>
+      <link>/como-descargar-el-icono-de-un-servicio-web/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: Inlusión de IconFinder como método de descarga de iconos.&lt;/strong&gt; Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Subtotales en Google Sheets</title>
@@ -37,16 +46,6 @@
       <guid>/ordenar-listas-en-google-keep/</guid>
       <description>Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
  La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.</description>
-    </item>
-    
-    <item>
-      <title>Como descargar el icono de un servicio web</title>
-      <link>/como-descargar-el-icono-de-un-servicio-web/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
-      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;
-El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes.</description>
     </item>
     
     <item>

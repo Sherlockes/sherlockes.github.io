@@ -6,10 +6,19 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Como descargar el icono de un servicio web</title>
+      <link>/como-descargar-el-icono-de-un-servicio-web/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: Inlusión de IconFinder como método de descarga de iconos.&lt;/strong&gt; Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Raspberry Montaje y ssh</title>
@@ -796,16 +805,6 @@ Pues bien, el telefono que ahora uso es un BQ Aquaris E5, ya ha cumplido los dos
       <guid>/una-aver%C3%ADa-rara-una-soluci%C3%B3n-f%C3%A1cil./</guid>
       <description>Hoy ha sido un día de estos en los que una simple avería es capaz de dar al traste con una buena salida en bicicleta. Por suerte cuando ha tenido lugar ya llevávamos un par de horas de ruta y nos hemos vuelto a casa con un paseo suficiente.
 El primer síntoma de la avería ha aparecido en un tramo cuesta abajo cuando tras pasar unas regachas y al intentar dar a los pedales hacia detrás la cadena hace un extraño hasta casi salirse.</description>
-    </item>
-    
-    <item>
-      <title>Como descargar el icono de un servicio web</title>
-      <link>/como-descargar-el-icono-de-un-servicio-web/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/como-descargar-el-icono-de-un-servicio-web/</guid>
-      <description>Recientemente estoy ordenando y actualizando mi colección de contraseñas para los distintos servicios y webs a los que estoy registrado. Para que cada una quede más correctamente identificada y todo más homogéneo he empezado a descargar el icono correspondiente a cada servicio y así adjuntarlo al nombre se usuario, pass, url&amp;hellip;
-El primer paso es descargar el icono de la web. Para esto empleo la siguiente lista de alternativas de forma que empiezo con la primera y si falla voy probando con las siguientes.</description>
     </item>
     
     <item>
@@ -1684,16 +1683,6 @@ Las líneas de arriba realizan la siguiente secuencia:
       
       <guid>/p906/</guid>
       <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>20200905_encender_nas_android Tener el NAS encendido todo el día puede ser un gasto innecesario. El mío se enciende de forma automática las horas necesarias para las copias de seguridad y lo enciendo de forma remota desde mi teléfono si lo necesito de forma puntual fuera de este horario.
-Hay veces en las que necesito hacer uso del NAS cuando estoy fuera de casa. Para encenderlo hago uso del método &amp;ldquo;wakeonlan&amp;rdquo;</description>
     </item>
     
     <item>
