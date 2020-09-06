@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>synology</title>
+      <link>/tags/synology/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/synology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zerotier</title>
+      <link>/tags/zerotier/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zerotier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>bash</title>
       <link>/tags/bash/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
@@ -278,15 +296,6 @@
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/averias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>synology</title>
-      <link>/tags/synology/</link>
-      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/synology/</guid>
       <description></description>
     </item>
     

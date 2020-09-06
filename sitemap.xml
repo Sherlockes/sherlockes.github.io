@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/encender-el-nas-desde-el-tel%C3%A9fono/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/raspberry-montaje-y-ssh/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -880,7 +885,17 @@
   </url>
   
   <url>
+    <loc>/tags/synology/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/zerotier/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -1087,11 +1102,6 @@
   <url>
     <loc>/tags/averias/</loc>
     <lastmod>2018-08-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/synology/</loc>
-    <lastmod>2018-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>

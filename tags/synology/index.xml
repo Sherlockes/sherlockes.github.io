@@ -6,10 +6,19 @@
     <description>Recent content in synology on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 09 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/synology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Encender el Nas desde el teléfono</title>
+      <link>/encender-el-nas-desde-el-tel%C3%A9fono/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/encender-el-nas-desde-el-tel%C3%A9fono/</guid>
+      <description>&lt;p&gt;Tener el NAS encendido todo el día puede ser un gasto innecesario. El mío se enciende de forma automática las horas necesarias para las copias de seguridad y lo enciendo de forma remota desde mi teléfono si lo necesito de forma puntual fuera de este horario.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Copiar ssh key desde Synology</title>
