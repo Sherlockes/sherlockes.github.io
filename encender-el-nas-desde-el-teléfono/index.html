@@ -86,9 +86,9 @@
 <p>Hay veces en las que necesito hacer uso del NAS cuando estoy fuera de casa. Para encenderlo hago uso del método &ldquo;wakeonlan&rdquo; desde mi teléfono Android y usando como puente la Raspberry.</p>
 <h2 id="configuración-del-nas">Configuración del NAS</h2>
 <p>Como ya he comentado en otras ocasiones, trabajo con un DS216+II de Synology y actualmente estoy con la versión 6.2 de DSM. para permitir el encendido remoto del NAS se debera activar la opción &ldquo;Habilitar WOL en LAN&rdquo; que podremos encontrar dentro del panel de control, Hardware y alimentación, Recuperación de energía.</p>
-<p><img src="images/20200905_encender_nas_android_01.jpg" alt="Image_01"></p>
+<p><img src="/images/20200905_encender_nas_android_01.jpg" alt="Image_01"></p>
 <p>Del NAS además necesito saber la dirección MAC del mismo. Uso linux y para estas labores es muy práctico <a href="https://nmap.org">nmap</a> ya que con la simple instrucción <code>sudo nmap -sP -n ip_del_nas</code> puedo obtener la dirección MAC de un equipo a partir de su IP.</p>
-<p><img src="images/20200905_encender_nas_android_02.jpg" alt="Image_02"></p>
+<p><img src="/images/20200905_encender_nas_android_02.jpg" alt="Image_02"></p>
 <h2 id="configuración-de-la-raspberry">Configuración de la Raspberry</h2>
 <p>Deberá tener activado el servidor ssh. En caso de que utilices la Raspberry en modo &ldquo;Headless&rdquo; sin teclado ni monitor ya lo tendrás activado, si la usas en modo escritorio quizás no, para activarlo&hellip;</p>
 <ul>
@@ -106,7 +106,7 @@ sudo zerotier-cli join 78898a1265hfg34b
 <h2 id="configuración-de-android">Configuración de Android</h2>
 <p>Esta claro que en el teléfono deberá estar instalado Zerotier con la misma red virtual en la que se haya incluido la Raspberry. En el momento de la utilización deberá estar activa la conexión de Zerotier.</p>
 <p>Para lanzar el comando desde el teléfono uso la aplicación <a href="https://play.google.com/store/apps/details?id=com.pd7l.sshbutton&amp;hl=en_US">SSH Button</a>. En primer lugar crearemos un nuevo botón donde&hellip;</p>
-<p><img src="images/20200905_encender_nas_android_03.jpg" alt="Image_03"></p>
+<p><img src="/images/20200905_encender_nas_android_03.jpg" alt="Image_03"></p>
 <ul>
 <li>Label: Nombre que pondremos al botón</li>
 <li>Command: Comando que lanzará, en nuestro caso <code>wakeonlan MAC</code></li>
@@ -118,7 +118,7 @@ sudo zerotier-cli join 78898a1265hfg34b
 <li>SSH port: Puerto que la Raspberry tiene configurado para SSH</li>
 </ul>
 <p>Con esto ya tenemos todo configurado y encender el NAS en remoto deberá ser tan sencillo como habilitar la red de ZeroTier y pulsar en el botón del comando. Yo me he creado pun par de botones, uno para cuando estoy dentro de la misma red que el NAS y otro para cuando estoy fuera. Quizás esto se pueda mejorar, pero ya para otro día&hellip;</p>
-<p><img src="images/20200905_encender_nas_android_04.jpg" alt="Image_04"></p>
+<p><img src="/images/20200905_encender_nas_android_04.jpg" alt="Image_04"></p>
 		</div>
 		<footer class="post__footer">
 			
