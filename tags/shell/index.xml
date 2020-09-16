@@ -6,11 +6,7 @@
     <description>Recent content in shell on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script de configuración para Raspberry</title>
       <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>

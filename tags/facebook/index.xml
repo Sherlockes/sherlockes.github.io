@@ -6,11 +6,7 @@
     <description>Recent content in Facebook on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 13 Oct 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 13 Oct 2015 00:00:00 +0000</lastBuildDate><atom:link href="/tags/facebook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publicar automáticamente en Facebook al hacerlo en WordPress</title>
       <link>/publicar-autom%C3%A1ticamente-en-facebook-al-hacerlo-en-wordpress/</link>

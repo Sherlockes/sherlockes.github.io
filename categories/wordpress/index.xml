@@ -6,11 +6,7 @@
     <description>Recent content in WordPress on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Error al exportar base de datos de WordPress en Synology webStation</title>
       <link>/error-al-exportar-base-de-datos-de-wordpress-en-synology-webstation/</link>

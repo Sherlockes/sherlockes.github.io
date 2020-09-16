@@ -6,11 +6,7 @@
     <description>Recent content in panoramica on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 15 Sep 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/panoramica/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Sep 2015 00:00:00 +0000</lastBuildDate><atom:link href="/tags/panoramica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear panorámica a partir de un vídeo</title>
       <link>/crear-panor%C3%A1mica-a-partir-de-un-v%C3%ADdeo/</link>

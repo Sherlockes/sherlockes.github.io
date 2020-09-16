@@ -6,11 +6,7 @@
     <description>Recent content in trekbuddy on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 19 Feb 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/trekbuddy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 Feb 2009 00:00:00 +0000</lastBuildDate><atom:link href="/tags/trekbuddy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trekbuddy 0.9.83 en un HTC Touch Diamond</title>
       <link>/trekbuddy-0.9.83-en-un-htc-touch-diamond/</link>

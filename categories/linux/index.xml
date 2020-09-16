@@ -6,11 +6,7 @@
     <description>Recent content in linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi Post-instalación de Linux Mint</title>
       <link>/mi-post-instalaci%C3%B3n-de-linux-mint/</link>
