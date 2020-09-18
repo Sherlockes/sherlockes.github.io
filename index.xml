@@ -1691,6 +1691,15 @@ Las líneas de arriba realizan la siguiente secuencia:
     </item>
     
     <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>philips hue bash script control Controlar las luces de Philips hue con un script en bash Hay muchas formas de controlar las luces de Phillis Hue, aquí dejo la que empleo para apagar las luces mediante una simple línea de comando gracias a la Raspberry.Desde que IFTTT se ha pasado al modelo de subscripción, me he visto obligado a buscar alternativas a su uso más económicas que el pago de 10€ al mes de cuota.</description>
+    </item>
+    
+    <item>
       <title>Mis vértices geodésicos</title>
       <link>/mis-v%C3%A9rtices-geod%C3%A9sicos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
