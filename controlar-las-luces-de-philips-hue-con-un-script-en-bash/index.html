@@ -97,7 +97,7 @@
 </div>
 <div class="content post__content clearfix">
 			<p>Hay muchas formas de controlar las luces de Phillis Hue, aquí dejo la que empleo para apagar las luces mediante una simple línea de comando gracias a la Raspberry.</p>
-<p>Desde que [IFTTT] se ha pasado al modelo de subscripción, me he visto obligado a buscar alternativas a su uso más económicas que el pago de 10€ al mes de cuota. Después de dar unas cuantas vueltas por [GitHub] a la búsqueda de scripts para controlar desde la línea de comando las luces de Philips sin ningún éxito me he encontrado con que la solución era mucho más facil de lo que yo pensaba además de estar perfectamente documentada en la web del fabricante. El punto de partida es la web de desarrolladores de [Philips] y seguir unos sencillos pasos.</p>
+<p>Desde que <a href="https://ifttt.com">IFTTT</a> se ha pasado al modelo de subscripción, me he visto obligado a buscar alternativas a su uso más económicas que el pago de 10€ al mes de cuota. Después de dar unas cuantas vueltas por <a href="https://github.com">GitHub</a> a la búsqueda de scripts para controlar desde la línea de comando las luces de Philips sin ningún éxito me he encontrado con que la solución era mucho más facil de lo que yo pensaba además de estar perfectamente documentada en la web del fabricante. El punto de partida es la web de desarrolladores de <a href="https://developers.meethue.com/develop/get-started-2">Philips</a> y seguir unos sencillos pasos.</p>
 <h2 id="conocer-la-ip-del-puente-de-hue">Conocer la IP del puente de Hue</h2>
 <p>La forma mas sencilla de conocer la IP del Bridge es sin duda desde la aplicación del teléfono, en el apartado &ldquo;Ajustes&rdquo; seleccionamos &ldquo;Hue Bridges&rdquo; y abrimos la información del puente que tengamos conectado en nuestra casa. Obtendremos la siguiente info entre la que podemos ver la IP local del puente.</p>
 <p><code>Estado: Conectado Seguridad: Protegido por HTTPS ID: 001788FFFC5G7247 Dirección IP: 192.168.1.94 Dirección MAC: 01:14:68:2E:7B:AC SW: 1940083000</code></p>
@@ -116,7 +116,7 @@
 <h2 id="conociendo-las-bombillas">Conociendo las bombillas</h2>
 <p>Antes de plantearnos la posibilidad de encender una bombilla, deberemos saber como el puente la ha identificado para lo cual lanzaremos el siguiente comando <code>curl -i -H &quot;Accept: application/json&quot; -H &quot;Content-Type: application/json&quot; -X GET http://192.168.1.94/api/&lt;username&gt;/lights</code></p>
 <p><img src="/images/20200918_philips_hue_bash_script_01" alt="Image_01"></p>
-<p>No te asustes de la parrafada, copia el último trozo de texto en json y pégalo en este [visor] online para darle un formato más &ldquo;humano&rdquo; tal y como se puede ver en la siguiente imagen.</p>
+<p>No te asustes de la parrafada, copia el último trozo de texto en json y pégalo en este <a href="http://jsonviewer.stack.hu">visor</a> online para darle un formato más &ldquo;humano&rdquo; tal y como se puede ver en la siguiente imagen.</p>
 <p><img src="/images/20200918_philips_hue_bash_script_02" alt="Image_02"></p>
 <p>Ahora resulta sencillo ver que la bombilla &ldquo;1&rdquo; corresponde con la que hemos llamado &ldquo;Luz de Noel&rdquo; por lo que ya estamos más cerca de poder encenderla.</p>
 <h2 id="encendiendo-la-bombilla">Encendiendo la bombilla</h2>
@@ -125,9 +125,6 @@
 <p>Para apagarla, tan sencillo como cambiar el true por false&hellip; Y hasta aquí lo prometido, una sola línea de comando para encender una bombilla.</p>
 </blockquote>
 <p>De aquí en adelante, gracias a la buena documentación de Philips, se puede hacer lo que necesitemos con esas bombillas.</p>
-<p>[IFTTT]: <a href="https://ifttt.com">https://ifttt.com</a> [GitHub]: <a href="https://github.com">https://github.com</a>
-[Philips]: <a href="https://developers.meethue.com/develop/get-started-2">https://developers.meethue.com/develop/get-started-2</a>
-[Visor]: <a href="http://jsonviewer.stack.hu">http://jsonviewer.stack.hu</a></p>
 		</div>
 		<footer class="post__footer">
 			
