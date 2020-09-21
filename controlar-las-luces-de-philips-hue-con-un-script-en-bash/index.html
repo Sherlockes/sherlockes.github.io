@@ -80,7 +80,7 @@
 </div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/20200918_philips_hue_bash_script_00.jpg" alt="Controlar las luces de Philips hue con un script en bash">
+			<img src="/images/20200918_philips_hue_bash_script_00.jpg" alt="Controlar las luces de Philips hue con un script en bash">
 		</figure>
 <div class="post__toc toc">
 	<div class="toc__title">Índice</div>
@@ -115,9 +115,9 @@
 </blockquote>
 <h2 id="conociendo-las-bombillas">Conociendo las bombillas</h2>
 <p>Antes de plantearnos la posibilidad de encender una bombilla, deberemos saber como el puente la ha identificado para lo cual lanzaremos el siguiente comando <code>curl -i -H &quot;Accept: application/json&quot; -H &quot;Content-Type: application/json&quot; -X GET http://192.168.1.94/api/&lt;username&gt;/lights</code></p>
-<p><img src="/images/20200918_philips_hue_bash_script_01" alt="Image_01"></p>
+<p><img src="/images/20200918_philips_hue_bash_script_01.jpg" alt="Image_01"></p>
 <p>No te asustes de la parrafada, copia el último trozo de texto en json y pégalo en este <a href="http://jsonviewer.stack.hu">visor</a> online para darle un formato más &ldquo;humano&rdquo; tal y como se puede ver en la siguiente imagen.</p>
-<p><img src="/images/20200918_philips_hue_bash_script_02" alt="Image_02"></p>
+<p><img src="/images/20200918_philips_hue_bash_script_02.jpg" alt="Image_02"></p>
 <p>Ahora resulta sencillo ver que la bombilla &ldquo;1&rdquo; corresponde con la que hemos llamado &ldquo;Luz de Noel&rdquo; por lo que ya estamos más cerca de poder encenderla.</p>
 <h2 id="encendiendo-la-bombilla">Encendiendo la bombilla</h2>
 <p>Llegados a este punto, ya tenemos la Ip donde se encuentra localizado el Hub de Pilips, el nombre el usuario autorizado y la identificación de la bombilla que queremos encender. Sólo resta lanzar un comando para encender esta bombilla <code>curl -X PUT -H &quot;Content-Type: application/json&quot; -d '{&quot;on&quot;:true}' &quot;http://&lt;ip_del_hub&gt;/api/&lt;username&gt;/lights/1/state&quot;</code></p>
