@@ -12,7 +12,7 @@
 <meta property="og:description" content="Hay muchas formas de hacer las cosas, aquí dejo la mía por si a alguien le puede servir." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-<meta property="og:updated_time" content="2020-09-06T00:00:00+00:00" />
+<meta property="og:updated_time" content="2020-09-18T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Sherblog"/>
@@ -72,6 +72,34 @@
 
 	</div>
 	<article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/copiar-ssh-key-desde-synology/">
+			<img src="/images/20180809_ssh_key_synology.jpg" alt="Copiar ssh key desde Synology" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/copiar-ssh-key-desde-synology/" rel="bookmark">
+			Copiar ssh key desde Synology
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-08-09T00:00:00">2018-08-09</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/sherver" rel="category">Sherver</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &ldquo;Terminal y snmp&rdquo;) y posteriormente ejecutar el comando.
+ssh-keygen Esta llave se guardará dentro de la carpeta del usuario en el directorio &ldquo;.ssh&rdquo; de modo en entre otros archivos se genera un &ldquo;id_rsa.
+	</div>
+</article><article class="list__item post">
 	<figure class="list__thumbnail">
 		<a href="/acceder-a-github-via-ssh-sin-password/">
 			<img src="/images/20180806_hugo_github_pass_00.jpg" alt="Acceder a Github via ssh sin password" />
@@ -183,34 +211,6 @@ No tardo mucho en encontrar información para darme cuenta de que todo pasa por 
 Antes de ponerse manos a la obra no está de mas dar una vuelta por Youtube, seguro que no soy el primero al que le pasa y rápidamente puedo sacar una conclusión.
 Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razones por la que una cisterna de inodoro puede fugar agua:
 	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="/ordenar-listas-en-google-keep/">
-			<img src="/images/20180523_ordenar_lista_google_keep.jpg" alt="Ordenar listas en Google Keep" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/ordenar-listas-en-google-keep/" rel="bookmark">
-			Ordenar listas en Google Keep
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-05-27T00:00:00">2018-05-27</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/productividad" rel="category">productividad</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Para el que no lo conozca, Google Keep es una pequeña utilidad que sirve básicamente para crear notas y recordatorios. Las opciones que presenta son muy limitadas pero tiene dos características que la dirán de una gran potencia y versatilidad.
- La sincronización entre dispositivos La compartición con otras personas  Un tiempo atrás, antes de que descubriera iawriter, la utilizaba para muchas cosas pero ahora tengo que reconocer que solo la empleo para la lista de la compra.
-	</div>
 </article>
 </main>
 
@@ -227,6 +227,7 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/controlar-las-luces-de-philips-hue-con-un-script-en-bash/">Controlar las luces de Philips hue con un script en bash</a></li>
 			<li class="widget__item"><a class="widget__link" href="/como-descargar-el-icono-de-un-servicio-web/">Como descargar el icono de un servicio web</a></li>
 			<li class="widget__item"><a class="widget__link" href="/encender-el-nas-desde-el-tel%C3%A9fono/">Encender el Nas desde el teléfono</a></li>
 			<li class="widget__item"><a class="widget__link" href="/raspberry-montaje-y-ssh/">Raspberry Montaje y ssh</a></li>
@@ -236,7 +237,6 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 			<li class="widget__item"><a class="widget__link" href="/los-podcast-que-escucho.-abril-de-2020/">Los podcast que escucho. Abril de 2020</a></li>
 			<li class="widget__item"><a class="widget__link" href="/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/">Añadir una red social a Hugo con el tema Mainroad</a></li>
 			<li class="widget__item"><a class="widget__link" href="/instalaci%C3%B3n-de-moodle-en-raspberry-pi/">Instalación de Moodle en Raspberry Pi</a></li>
-			<li class="widget__item"><a class="widget__link" href="/radares-de-tr%C3%A1fico-en-android/">Radares de tráfico en Android</a></li>
 		</ul>
 	</div>
 </div>
@@ -246,6 +246,7 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/categories/a-pedales">A pedales</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/android">Android</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/computing">Computing</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/dise%c3%b1o">Diseño</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/emacs">Emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/gps">Gps</a></li>
@@ -269,7 +270,7 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 		<a class="widget-taglist__link widget__link btn" href="/tags/apps" title="Apps">Apps (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/backup" title="Backup">Backup (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash (5)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash (6)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darktable" title="Darktable">Darktable (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo (16)</a>
@@ -305,6 +306,7 @@ Pues bien, sin ser fontanero, ya tengo claro de que hay principalmente dos razon
 		<a class="widget-taglist__link widget__link btn" href="/tags/openstreetmap" title="Openstreetmap">Openstreetmap (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/panoramica" title="Panoramica">Panoramica (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pdf" title="Pdf">Pdf (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/phillips-hue" title="Phillips hue">Phillips hue (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/photomatix" title="Photomatix">Photomatix (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/photoshop" title="Photoshop">Photoshop (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/podcast" title="Podcast">Podcast (1)</a>
