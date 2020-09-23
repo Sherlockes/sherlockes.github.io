@@ -1700,15 +1700,6 @@ Las líneas de arriba realizan la siguiente secuencia:
     </item>
     
     <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>bash check update web file Script en bash para comprobar la actualización de un archivo de la web Si eres de los que se pega horas refrescando una web para ver si han actualizado un archivo que está colgado, aquí dejo el método que he utilizado para evitar el mal rato mediante un script en bash.Una combinación de &amp;ldquo;Web Scrapping&amp;rdquo; bash y un bot de telegram es lo que he utilizado para esta operacion.</description>
-    </item>
-    
-    <item>
       <title>Mis vértices geodésicos</title>
       <link>/mis-v%C3%A9rtices-geod%C3%A9sicos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
