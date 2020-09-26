@@ -1,3 +1,0 @@
-[submodule "sherblog/sherlockes.github.io"]
-	path = sherblog/sherlockes.github.io
-	url = git+ssh://git@github.com/sherlockes/sherlockes.github.io.git
