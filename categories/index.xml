@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry</title>
+      <link>/categories/raspberry/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/raspberry/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux</title>
       <link>/categories/linux/</link>
@@ -31,15 +40,6 @@
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/productividad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Raspberry</title>
-      <link>/categories/raspberry/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/raspberry/</guid>
       <description></description>
     </item>
     

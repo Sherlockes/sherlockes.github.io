@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language><atom:link href="/post/computing/raspberry/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Script de configuración para Raspberry</title>
+      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: El sía que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt; Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Raspberry Montaje y ssh</title>
       <link>/raspberry-montaje-y-ssh/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
@@ -33,16 +42,6 @@ Recientemente he probado &lt;a href=&#34;https://moodle.org/?lang=es&#34;&gt;Moo
       
       <guid>/raspberry-configurando-rclone-sin-entorno-gr%C3%A1fico/</guid>
       <description>&lt;p&gt;En linux no hay cliente oficial para acceder a Google Drive pero por suerte hay varias utilizades que permiten realizar enta labor.  Hay cientos de post al respecto de la existencia de estas utilidades, por lo que no voy a crear uno más, simplemente voy a explicar mi experiencia con una de las que yo utilizo. &lt;a href=&#34;https://rclone.org&#34;&gt;Rclone&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Script de configuración para Raspberry</title>
-      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
-      <description>Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
- Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</description>
     </item>
     
     <item>

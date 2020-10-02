@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>/tags/bash/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>linux mint</title>
       <link>/tags/linux-mint/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/linux-mint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>/tags/bash/</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bash/</guid>
       <description></description>
     </item>
     
@@ -242,15 +251,6 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>trimage</title>
       <link>/tags/trimage/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
@@ -265,15 +265,6 @@
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/keepass/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shell</title>
-      <link>/tags/shell/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/shell/</guid>
       <description></description>
     </item>
     

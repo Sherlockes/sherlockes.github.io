@@ -6,7 +6,16 @@
     <description>Recent content in linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Mon, 08 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Script de configuración para Raspberry</title>
+      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: El sía que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt; Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Flujo de imágenes en Linux</title>
       <link>/flujo-de-im%C3%A1genes-en-linux/</link>
@@ -16,16 +25,6 @@
       <description>El origen de las imágenes Las imágenes con las que suelo tratar más habitualmente tienen dos procedencias claramente diferenciadas.
 Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con que necesito incluir alguna imagen para el mismo. Desde que uso Linux Mint el flujo ha cambiado notablemente ya que ahora uso simplemente la captura de pantalla nativa y Gimp para la edición.
  Para capturar un area de pantalla al portapapeles uso el atajo de teclado Ctrl + Mays + ImprPant (Importante tenerlo punsado un segundo hasta que el cursor cambia por una cruz con la que seleccionar el area a capturar).</description>
-    </item>
-    
-    <item>
-      <title>Script de configuración para Raspberry</title>
-      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
-      <description>Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial. Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.
- Actualiza el firmware de la placa y los paquetes de Raspbian Cambia la contraseña para el usuario Pi Configura la IP y la puerta de enlace al router configura el huso horario y el idioma Instala Git Instala Pi-Hole Instala Hugo Instala Rclone Instala el servidor pivpn Programa un reinicio diario  Para comenzar descargamos el archivo de configuración y lo dotamos de permisos de ejecución.</description>
     </item>
     
   </channel>
