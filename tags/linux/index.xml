@@ -6,14 +6,15 @@
     <description>Recent content in linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script de configuración para Raspberry</title>
       <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Actualización: El sía que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt; Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: El día que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La parte más tediosa del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Con este Script tengo automatizado el proceso.&lt;/p&gt;</description>
     </item>
     
     <item>

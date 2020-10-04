@@ -6,14 +6,15 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Script de configuración para Raspberry</title>
       <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Actualización: El sía que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt; Está claro que de las partes más tediosas del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Por esto he creado un Script que automatiza este proceso y realiza la siguiente configuración.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Actualización: El día que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;La parte más tediosa del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Con este Script tengo automatizado el proceso.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1696,16 +1697,6 @@ Las líneas de arriba realizan la siguiente secuencia:
       
       <guid>/p906/</guid>
       <description>Está claro que la vida alejada de los grandes núcleos de población trae consigo una serie de ventajas e inconvenientes que hay que asumir, pero hasta cierto punto ya que llega un momento en el que la diferencia en el trato sobrepasa la frontera de la discriminación. Aunque aquí podría tratar varias circunstancias en las que sale a la luz esta discriminación, me voy a centrar únicamente en el servicio telefónico.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>Cambiar orden grub Cambiar el orden de los elementos del grub En mi Pc de sobremesa coexisten Linux Mint y Windows 7, en el GRUB aparecen por defecto en primer lugar las opciones de Linux pero necesito que la opción en la que se produzca el arranque si el usuario no toca nada sea Windows, así lo he conseguido.
-Lo que puede parecer un complejo problema se resuelve con tres líneas de terminal.</description>
     </item>
     
     <item>
