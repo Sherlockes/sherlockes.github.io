@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/cambiar-el-orden-de-los-elementos-del-grub/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/mi-post-instalaci%C3%B3n-de-linux-mint/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -890,17 +895,22 @@
   </url>
   
   <url>
-    <loc>/categories/linux/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <loc>/tags/grub/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/linux-mint/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <loc>/categories/linux/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux-mint/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url>
   

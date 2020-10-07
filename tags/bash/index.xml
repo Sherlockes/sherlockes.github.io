@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>Cambiar el orden de los elementos del grub</title>
+      <link>/cambiar-el-orden-de-los-elementos-del-grub/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/cambiar-el-orden-de-los-elementos-del-grub/</guid>
+      <description>&lt;p&gt;En mi Pc de sobremesa coexisten Linux Mint y Windows 7, en el GRUB aparecen por defecto en primer lugar las opciones de Linux pero necesito que la opción en la que se produzca el arranque si el usuario no toca nada sea Windows, así lo he conseguido.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Controlar las luces de Philips hue con un script en bash</title>
       <link>/controlar-las-luces-de-philips-hue-con-un-script-en-bash/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
