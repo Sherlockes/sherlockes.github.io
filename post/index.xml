@@ -1143,6 +1143,15 @@ Sólo hicieron falta unos minutos para darme cuenta de que el causante del probl
     </item>
     
     <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>usando tunel ssh Usando un tunel ssh para aceder a un servidor remoto Esta vez me encuentro con que tengo que acceder a la configuración de un router remoto n la red del cual tengo &amp;ldquo;infiltrada&amp;rdquo; una Raspberry con Zerotier. Me encuentro en la necesidad de modificar la configuración de un router remoto del que me separan unos cuantos kilómetros y el único as que tengo en la manga es una raspberry que tengo que tengo conectada a el y agregada a mi red privada de zerotier.</description>
+    </item>
+    
+    <item>
       <title>Mis vértices geodésicos</title>
       <link>/mis-v%C3%A9rtices-geod%C3%A9sicos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
