@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 07 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ssh</title>
+      <link>/tags/ssh/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zerotier</title>
+      <link>/tags/zerotier/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/zerotier/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bash</title>
       <link>/tags/bash/</link>
@@ -67,15 +85,6 @@
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/synology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zerotier</title>
-      <link>/tags/zerotier/</link>
-      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/zerotier/</guid>
       <description></description>
     </item>
     
