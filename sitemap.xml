@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/termostato-raspberry/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/usando-un-tunel-ssh-para-aceder-a-un-servidor-remoto/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -871,7 +876,42 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/google-sheets/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/raspberry/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/raspberry/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -885,17 +925,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/ssh/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -912,16 +942,6 @@
   <url>
     <loc>/tags/grub/</loc>
     <lastmod>2020-10-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/raspberry/</loc>
-    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1021,11 +1041,6 @@
   
   <url>
     <loc>/tags/google-scripts/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/google-sheets/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   
