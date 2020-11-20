@@ -11,8 +11,8 @@
 <meta property="og:description" content="Proceso de la creación de un termostato mediante la raspberry en python" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/termostato-raspberry/" />
-<meta property="article:published_time" content="2020-11-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-11-19T00:00:00+00:00" />
+<meta property="article:published_time" content="2020-11-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-20T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Termostato Raspberry"/>
@@ -70,7 +70,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2020-11-19T00:00:00">2020-11-19</time>
+	<time class="meta__text" datetime="2020-11-20T00:00:00">2020-11-20</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -89,7 +89,8 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#captura-de-la-temperatura">Captura de la temperatura</a></li>
+        <li><a href="#archivo-de-configuración">Archivo de configuración</a></li>
+        <li><a href="#captura-de-la-temperatura-interior">Captura de la temperatura interior</a></li>
       </ul>
     </li>
   </ul>
@@ -98,7 +99,31 @@
 </div>
 <div class="content post__content clearfix">
 			<p>Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.</p>
-<h3 id="captura-de-la-temperatura">Captura de la temperatura</h3>
+<h3 id="archivo-de-configuración">Archivo de configuración</h3>
+<p>Puesto que la idea es construir un script que se ejecute cada determinado tiempo, necesito un archivo que dote al sistema de persistencia de algunas variables. Después de barajar varias alternativas, he optado por guardar los datos de configuración en un archivo &ldquo;config.json&rdquo; ubicado en la carpeta raiz del usario que ejecuta el script.</p>
+<p>El manejo de este tipo de archivos en python es muy sencillo y queda sentenciado con sólo seis líneas de código.</p>
+<pre><code>import json
+
+with open('/home/pi/config.json', 'r') as archivo_json:
+    data=archivo_json.read()
+
+datos_json = json.loads(data)
+
+...
+...
+... 
+...
+...
+
+with open(&quot;config.json&quot;, &quot;w&quot;) as archivo_json:
+    json.dump(datos_json, archivo_json, indent = 4)
+</code></pre><p>Al principio del script hay que importar la librería &ldquo;json&rdquo;, abrir el archivo en modo de lectura, leer el contenido y asignar este al dicionario &ldquo;json_data&rdquo;. Una vez realizadas las modificaciones necesarias en el diccionario a lo largo del script principal hay que abrir nuevamente el archivo &ldquo;config.json&rdquo;, aunque esta vez en modo de escritura, y volcar sobre el el contenido del diccionario &ldquo;datos_json&rdquo; modificado.</p>
+<p>La variables utilizadas en el almacenamiento externo de variables son:</p>
+<ul>
+<li>data - Lectura del archivo json</li>
+<li>datos_json - Diccionario de datos con variables</li>
+</ul>
+<h3 id="captura-de-la-temperatura-interior">Captura de la temperatura interior</h3>
 <p>Para tomar la temperatura que tengo en casa voy a utilizar un DHT22 (sensor de humedad y temperatura) que, aunque no es lo más preciso del mundo, es suficientemente barato como para empezar a hacer pruebas. En el artículo de <a href="https://www.atareao.es/podcast/temperatura-con-la-raspberry/">atareao</a> se explica perfectamente como llevar a cabo esta medición. El propio sensor DHT22, una resistencia de 10k y tres cables para conectar al puerto GPIO de la Raspberry es odo lo que he necesitado.</p>
 <p>![Image_01]: /images/20201112_termostato_raspberry_01.jpg</p>
 <p>Necesitamos una librería para capturar los datos del sensor. Esta se instalará en la raspberry medianta el comando <code>sudo pip3 install Adafruit_DHT</code> siempre y cuando tengamos instalado Python3 y el gestos de paquetes pip.</p>
