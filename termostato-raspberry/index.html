@@ -125,7 +125,7 @@ with open(&quot;config.json&quot;, &quot;w&quot;) as archivo_json:
 </ul>
 <h3 id="captura-de-la-temperatura-interior">Captura de la temperatura interior</h3>
 <p>Para tomar la temperatura que tengo en casa voy a utilizar un DHT22 (sensor de humedad y temperatura) que, aunque no es lo más preciso del mundo, es suficientemente barato como para empezar a hacer pruebas. En el artículo de <a href="https://www.atareao.es/podcast/temperatura-con-la-raspberry/">atareao</a> se explica perfectamente como llevar a cabo esta medición. El propio sensor DHT22, una resistencia de 10k y tres cables para conectar al puerto GPIO de la Raspberry es odo lo que he necesitado.</p>
-<p>![Imagen_01]</p>
+<p><img src="/images/20201112_termostato_raspberry_01.jpg" alt="Imagen_01"></p>
 <p>Necesitamos una librería para capturar los datos del sensor. Esta se instalará en la raspberry medianta el comando <code>sudo pip3 install Adafruit_DHT</code> siempre y cuando tengamos instalado Python3 y el gestos de paquetes pip.</p>
 <pre><code>import Adafruit_DHT as dht
 
@@ -147,8 +147,6 @@ real_temp = round(datos_dht[1],2)
 <li>real_hume - Humedad medida y redondeada</li>
 <li>real_temp - Temperatura medida y redondeada</li>
 </ul>
-
-<p>![Imagen_01]: /images/20201112_termostato_raspberry_01.jpg</p>
 		</div>
 		<footer class="post__footer">
 			
