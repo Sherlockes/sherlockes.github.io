@@ -1152,6 +1152,15 @@ Sólo hicieron falta unos minutos para darme cuenta de que el causante del probl
     </item>
     
     <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>image renamer python Script para renombrar imágenes en python en función de la fecha en la que se tomaron Un día te vienen de la guardería con un montón de fotos de tu hijo metidas en una carpeta y cada una con un nombre completamente aleatorio en función del dispositivo con el que se tomaron, algo hay que hacer para renombrarlas. Existen muchas utilidades para renombrar archivos en masa pero todas ellas tienen el mismo problema y es que, si no estás acostumbrado a utilizarlas te va a costar más hacerlo que renombrar a mano todos los archivos que tengas que modificar.</description>
+    </item>
+    
+    <item>
       <title>Mis vértices geodésicos</title>
       <link>/mis-v%C3%A9rtices-geod%C3%A9sicos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
