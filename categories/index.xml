@@ -6,7 +6,25 @@
     <description>Recent content in Categories on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computing</title>
+      <link>/categories/computing/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productividad</title>
+      <link>/categories/productividad/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/productividad/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Raspberry</title>
       <link>/categories/raspberry/</link>
@@ -22,24 +40,6 @@
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>computing</title>
-      <link>/categories/computing/</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/computing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productividad</title>
-      <link>/categories/productividad/</link>
-      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/productividad/</guid>
       <description></description>
     </item>
     
