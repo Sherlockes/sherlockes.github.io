@@ -93,7 +93,7 @@
 <p>Aparece un nuevo proyecto en blanco en el que incluiremos la siguiente función:</p>
 <pre><code>function limpiar_propaganda() {
   var filtro = GmailApp.search('category:promotions older_than:10d');
-  for (var i = 0; i &amp;lt; filtro.length; i++) {
+  for (var i = 0; i &lt; filtro.length; i++) {
     filtro[i].moveToTrash();
   }
 }
