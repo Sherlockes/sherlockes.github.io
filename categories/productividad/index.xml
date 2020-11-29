@@ -6,7 +6,17 @@
     <description>Recent content in productividad on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/productividad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/productividad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automatizando la limpieza de Gmail</title>
+      <link>/automatizando-la-limpieza-de-gmail/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/automatizando-la-limpieza-de-gmail/</guid>
+      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
+Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
+    </item>
+    
     <item>
       <title>Script para renombrar imágenes en python en función de la fecha en la que se tomaron</title>
       <link>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</link>
@@ -79,16 +89,6 @@
       <guid>/another-instance-is-currently-closing-portable-app-error/</guid>
       <description>Atrás han quedado los años en los que probaba e instalaba una ingente cantidad de programas en el pc que luego en su mayoría no empleaba y dejaban tras de sí restos de la instalación.
 Ahora intento utilizar programas &amp;ldquo;portables&amp;rdquo; que, aunque no estoy seguro, entiendo que son más limpios al no dejar tras de si restos de los archivos de instalación. Uno de los que utilizo bastante es Google Earth con el que recientemente he tenido un pequeño problema ya que al intentar ejecutarlo me ha salido el siguiente cuadro de diálogo.</description>
-    </item>
-    
-    <item>
-      <title>Automatizando la limpieza de Gmail</title>
-      <link>/automatizando-la-limpieza-de-gmail/</link>
-      <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/automatizando-la-limpieza-de-gmail/</guid>
-      <description>El problema Si eres de los que realiza compras en internet, no te importa recibir ofertas, usas Gmail como gestor de correo electrónico y usas la pestaña &amp;ldquo;Promociones&amp;rdquo; creo que este artículo te va a interesar.
-Haciendo una estimación aproximada, creo que recibo un correo electrónico cada menos de dos horas de las tiendas y servicios online que utilizo. Estos son mensajes que van directamente a la pestaña &amp;ldquo;Promociones&amp;rdquo; de Gmail por lo que no me molestan con continuas notificaciones.</description>
     </item>
     
     <item>

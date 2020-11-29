@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/automatizando-la-limpieza-de-gmail/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -513,11 +518,6 @@
   </url>
   
   <url>
-    <loc>/automatizando-la-limpieza-de-gmail/</loc>
-    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/la-obsolescencia-prematura-de-unos-pu%C3%B1os/</loc>
     <lastmod>2016-07-13T00:00:00+00:00</lastmod>
   </url>
@@ -881,7 +881,32 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/gmail/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/productividad/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -895,27 +920,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/productividad/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/python/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -1225,11 +1230,6 @@
   </url>
   
   <url>
-    <loc>/tags/gmail/</loc>
-    <lastmod>2016-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/gopro/</loc>
     <lastmod>2016-06-04T00:00:00+00:00</lastmod>
   </url>
@@ -1245,7 +1245,7 @@
   </url>
   
   <url>
-    <loc>/p906/</loc>
+    <loc>/?p=906/</loc>
     <lastmod>2015-10-15T22:23:41+00:00</lastmod>
   </url>
   
