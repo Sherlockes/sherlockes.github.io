@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>/muerte-del-termostato-netatmo/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/usando-un-tunel-ssh-para-aceder-a-un-servidor-remoto/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -945,6 +950,11 @@
   </url>
   
   <url>
+    <loc>/categories/varios/</loc>
+    <lastmod>2020-10-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/linux/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
@@ -1001,11 +1011,6 @@
   
   <url>
     <loc>/tags/rclone/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/varios/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
