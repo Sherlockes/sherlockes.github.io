@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Muerte del termostato netatmo</title>
+      <link>/muerte-del-termostato-netatmo/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/muerte-del-termostato-netatmo/</guid>
+      <description>&lt;p&gt;Hace unos días que el termostato Netatmo dio aviso de batería baja y cual fue mi sorpresa al ver una de las pilas sulfatada a pesar de haber estado funcionando con normalidad durante los tres años que ha durado, ahora no funciona correctamente y esto es lo que he hecho.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Automatizando la limpieza de Gmail</title>
       <link>/automatizando-la-limpieza-de-gmail/</link>
@@ -23,15 +32,6 @@
       
       <guid>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</guid>
       <description>&lt;p&gt;Un día te vienen de la guardería con un montón de fotos de tu hijo metidas en una carpeta y cada una con un nombre completamente aleatorio en función del dispositivo con el que se tomaron, algo hay que hacer para renombrarlas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Muerte del termostato netatmo</title>
-      <link>/muerte-del-termostato-netatmo/</link>
-      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/muerte-del-termostato-netatmo/</guid>
-      <description>&lt;p&gt;Hace unos días que el termostato Netatmo dio aviso de batería baja y cual fue mi sorpresa al ver una de las pilas sulfatada a pesar de haber estado funcionando con normalidad durante los tres años que ha durado, ahora no funciona correctamente y esto es lo que he hecho.&lt;/p&gt;</description>
     </item>
     
     <item>
