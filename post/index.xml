@@ -1169,15 +1169,6 @@ Sólo hicieron falta unos minutos para darme cuenta de que el causante del probl
     </item>
     
     <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/</guid>
-      <description>sincronizar gphotos raspberry Como sincronizar las imágenes de Google Photos desde la Raspberry Hasta ahora había sincronizado mi galería de Google Fotos con el NAS desde el pc de sobremesa con Linux Mint, voy a intentar hacerlo desde la Raspberry para no tener que encender el pc. Estos sonlos paso que he seguido hasta hacer la sincronización. sudo apt-get install python3-pip https://pypi.org/project/gphotos-sync/ pip3 install &amp;ndash;user pipenv ghotos-sync en Raspberry mkdir gphotos-sync cd gphotos-sync pip install gphotos-sync /usr/bin/python3 -m pip install &amp;ndash;upgrade pip pip3 install &amp;ndash;user pipenv pipenv isntall gphotos-sync generar las credenciales https://docs.</description>
-    </item>
-    
-    <item>
       <title>Mis vértices geodésicos</title>
       <link>/mis-v%C3%A9rtices-geod%C3%A9sicos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
