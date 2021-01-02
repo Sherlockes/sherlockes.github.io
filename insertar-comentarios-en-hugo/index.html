@@ -93,8 +93,14 @@ Aquí iremos añadiendo el contenido con el que queremos actualizar la entrada..
 {{&lt; / borrador &gt;}}
 </code></pre><p>Y así de sencillo, cuando queramos que el contenido actualizado se muestre tan solo tenemos que eliminar las primera y última linea.</p>
 <p>Pues bien, como casi todos los artículos los escribo en Emacs me he creado un pequeño atajo de teclado para la inclusión de estos comentarios gracias a <a href="https://github.com/joaotavora/yasnippet">yasnippet</a> para lo cual solo es necesario crear un nuevo atajo desde un archivo markdown de una de las entradas del blog (yas-new-snippet) e incluir el siguiente texto.</p>
-<!-- raw HTML omitted -->
-<p>Lo guardamos (C-x C-w) con el nombre que nos apetezca y ya está listo para utilizarse. Sólo hay que empezar una línea con la palabra comentario y pulsar el tabulador.</p>
+<pre><code># -*- mode: snippet -*-
+# name: comentario
+# key: comentario
+# --
+{{&lt; borrador &gt;}}
+Aquí iremos añadiendo el contenido con el que queremos actualizar la entrada...
+{{&lt; / borrador &gt;}}
+</code></pre><p>Lo guardamos (C-x C-w) con el nombre que nos apetezca y ya está listo para utilizarse. Sólo hay que empezar una línea con la palabra comentario y pulsar el tabulador.</p>
 		</div>
 		<footer class="post__footer">
 			
