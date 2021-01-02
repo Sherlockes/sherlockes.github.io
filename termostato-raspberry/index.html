@@ -11,8 +11,8 @@
 <meta property="og:description" content="Proceso de la creación de un termostato mediante la raspberry en python" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/termostato-raspberry/" />
-<meta property="article:published_time" content="2020-11-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-11-25T00:00:00+00:00" />
+<meta property="article:published_time" content="2021-01-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-02T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Termostato Raspberry"/>
@@ -70,7 +70,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2020-11-25T00:00:00">2020-11-25</time>
+	<time class="meta__text" datetime="2021-01-02T00:00:00">2021-01-02</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -90,6 +90,7 @@
     <li>
       <ul>
         <li><a href="#archivo-de-configuración">Archivo de configuración</a></li>
+        <li><a href="#inicialización-de-variables">Inicialización de variables</a></li>
         <li><a href="#captura-de-la-temperatura-interior">Captura de la temperatura interior</a></li>
         <li><a href="#el-relé-de-la-caldera">El relé de la caldera</a></li>
       </ul>
@@ -123,6 +124,46 @@ with open(&quot;config.json&quot;, &quot;w&quot;) as archivo_json:
 <ul>
 <li>data - Lectura del archivo json</li>
 <li>datos_json - Diccionario de datos con variables</li>
+</ul>
+<h3 id="inicialización-de-variables">Inicialización de variables</h3>
+<p>La primera vez que abramos este archivo de configuración estará vacío por lo que nos tendremos que asegurar de inicializar unas &ldquo;variables por defecto&rdquo; para no tenga lugar el correspondiente error en caso de uqe alguna no exista o tenga un valor nulo. Esto se realiza mediante el siguiente código una vez que la variable &ldquo;datos_json&rdquo; ha sido creada a partir del contenido del archivo.</p>
+<pre><code>def inic_var(var,valor):
+    if var in datos_json:
+        if datos_json[var] == &quot;&quot;:
+            datos_json[var] = valor
+    else:
+        datos_json[var] = valor
+
+variables = {
+    &quot;rele_estado&quot;: &quot;off&quot;,
+    &quot;rele_hora_cambio&quot;: datetime.now().strftime('%Y/%m/%d %H:%M:%S'),
+    &quot;histeresis&quot;: 0.2,
+    &quot;inercia&quot;: 750,
+    &quot;inercia_rango&quot;: 1.013,
+    &quot;consigna&quot;: 21.0,
+    &quot;rele_total_on&quot;: 0,
+    &quot;cons_manual&quot;: 21.0,
+    &quot;hora_manual&quot;: &quot;2020/12/30 16:45:32&quot;,
+    &quot;min_manual&quot;: 60,
+    &quot;modo_fuera&quot;: False,
+    &quot;cons_fuera&quot;: 16,
+    &quot;dec_casa_vacia&quot;: 1,
+    &quot;horas&quot;: [&quot;7:45&quot;,&quot;9:00&quot;,&quot;12:30&quot;,&quot;18:00&quot;,&quot;22:30&quot;],
+    &quot;temperaturas&quot;: [&quot;22&quot;,&quot;20.5&quot;,&quot;21.5&quot;,&quot;22.5&quot;,&quot;20.5&quot;]
+}
+
+for x in variables:
+    inic_var(x,variables[x])
+</code></pre><p>Este código lo podemos dividir en tres partes, la función que inicializa las variables, el almacenamiento de las variables y la ejecución de la función para cada una de las variables.</p>
+<h4 id="la-función-inic_var">La función inic_var</h4>
+<p>La función &ldquo;inic_var&rdquo; coge dos argumentos, por un lado el nombre de la variable a inicializar y por otro su valor por defecto. En un primer momento se comprueba si la variable existe dentro de &ldquo;datos_json&rdquo;, si lo está y su valor es nulo le asignará el valor por defecto. En caso de que la variable no esté definida, se creará asignándole su valor por defecto.</p>
+<h4 id="el-diccionario-de-variables">El diccionario de variables</h4>
+<p>Después de barajar varias alternativas, he considerado que la forma más clara de representar todo el conjunto de variables dentro de un elemento es haciendo uso de un diccionario que he denominado &ldquo;variables&rdquo; en el que cada clave será el nombre de la variable a inicializar y el valor de la misma el valor por defecto de esta variable que está siendo inicializada.</p>
+<h4 id="for-sobre-el-diccionario">For sobre el diccionario</h4>
+<p>Con la lista de variables, su valor por defecto y la función para inicializar cada una de ellas preparada solo resta realizar una combinación de ambas mediante un lazo &ldquo;For&rdquo;. De esta forma cada variable existente dentro del diccionario &ldquo;Variables&rdquo; sera inicializada mediante la funcion &ldquo;inic_var&rdquo;</p>
+<p>La variables utilizadas en la inicialización de variables son:</p>
+<ul>
+<li>variables - Diccionario con el nombre de variable y valor por defecto</li>
 </ul>
 <h3 id="captura-de-la-temperatura-interior">Captura de la temperatura interior</h3>
 <p>Para tomar la temperatura que tengo en casa voy a utilizar un DHT22 (sensor de humedad y temperatura) que, aunque no es lo más preciso del mundo, es suficientemente barato como para empezar a hacer pruebas. En el artículo de <a href="https://www.atareao.es/podcast/temperatura-con-la-raspberry/">atareao</a> se explica perfectamente como llevar a cabo esta medición. El propio sensor DHT22, una resistencia de 10k y tres cables para conectar al puerto GPIO de la Raspberry es odo lo que he necesitado.</p>
@@ -191,7 +232,7 @@ real_temp = round(datos_dht[1],2)
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2020 Sherblog.
+			&copy; 2021 Sherblog.
 			<span class="footer__copyright-credits">Generado con <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> y <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a>.</span>
 		</div>
 	</div>

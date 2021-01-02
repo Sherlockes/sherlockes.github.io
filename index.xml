@@ -6,7 +6,25 @@
     <description>Recent content on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insertar comentarios en Hugo</title>
+      <link>/insertar-comentarios-en-hugo/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/insertar-comentarios-en-hugo/</guid>
+      <description>&lt;p&gt;Cuando no se tiene mucho tiempo libre, la publicación de un post puede demorarse a lo largo de varios días. Para eso Se mantiene la entrada en modo &amp;ldquo;borrador&amp;rdquo;. Pero&amp;hellip; ¿Como lo hago al actualizar una entrada?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Termostato Raspberry</title>
+      <link>/termostato-raspberry/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/termostato-raspberry/</guid>
+      <description>&lt;p&gt;Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Muerte del termostato netatmo</title>
       <link>/muerte-del-termostato-netatmo/</link>
@@ -32,15 +50,6 @@
       
       <guid>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</guid>
       <description>&lt;p&gt;Un día te vienen de la guardería con un montón de fotos de tu hijo metidas en una carpeta y cada una con un nombre completamente aleatorio en función del dispositivo con el que se tomaron, algo hay que hacer para renombrarlas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Termostato Raspberry</title>
-      <link>/termostato-raspberry/</link>
-      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/termostato-raspberry/</guid>
-      <description>&lt;p&gt;Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -475,15 +484,6 @@
       
       <guid>/men%C3%BA-para-montar-nubes-en-bash/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Actualización: Parámetro de rclone &lt;a href=&#34;#allow-other&#34;&gt;&amp;ldquo;allow-other&amp;rdquo;&lt;/a&gt;.&lt;/strong&gt; Ya hace un tiempo que vengo utilizando la terminal para montar las distintas nubes de las que hago uso a diario en mi terminal con &lt;a href=&#34;https://linuxmint.com/&#34;&gt;Linux Mint&lt;/a&gt;. Ahora he creado un pequeño script en bash que me ahorra tiempo en esta operación y con el que he conseguido aprender abundantes conceptos en bas que a continuación paso a desgranar.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Insertar comentarios en Hugo</title>
-      <link>/insertar-comentarios-en-hugo/</link>
-      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/insertar-comentarios-en-hugo/</guid>
-      <description>&lt;p&gt;Cuando no se tiene mucho tiempo libre, la publicación de un post puede demorarse a lo largo de varios días. Para eso Se mantiene la entrada en modo &amp;ldquo;borrador&amp;rdquo;. Pero&amp;hellip; ¿Como lo hago al actualizar una entrada?&lt;/p&gt;</description>
     </item>
     
     <item>

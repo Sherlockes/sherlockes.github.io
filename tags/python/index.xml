@@ -6,7 +6,16 @@
     <description>Recent content in python on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Termostato Raspberry</title>
+      <link>/termostato-raspberry/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/termostato-raspberry/</guid>
+      <description>&lt;p&gt;Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Script para renombrar imágenes en python en función de la fecha en la que se tomaron</title>
       <link>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</link>
@@ -14,15 +23,6 @@
       
       <guid>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</guid>
       <description>&lt;p&gt;Un día te vienen de la guardería con un montón de fotos de tu hijo metidas en una carpeta y cada una con un nombre completamente aleatorio en función del dispositivo con el que se tomaron, algo hay que hacer para renombrarlas.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Termostato Raspberry</title>
-      <link>/termostato-raspberry/</link>
-      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/termostato-raspberry/</guid>
-      <description>&lt;p&gt;Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.&lt;/p&gt;</description>
     </item>
     
   </channel>
