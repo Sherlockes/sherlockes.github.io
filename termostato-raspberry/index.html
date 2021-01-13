@@ -11,8 +11,8 @@
 <meta property="og:description" content="Proceso de la creación de un termostato mediante la raspberry en python" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/termostato-raspberry/" />
-<meta property="article:published_time" content="2021-01-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-01-02T00:00:00+00:00" />
+<meta property="article:published_time" content="2021-01-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-13T00:00:00+00:00" />
 
 	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Termostato Raspberry"/>
@@ -70,7 +70,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2021-01-02T00:00:00">2021-01-02</time>
+	<time class="meta__text" datetime="2021-01-13T00:00:00">2021-01-13</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -91,6 +91,7 @@
       <ul>
         <li><a href="#archivo-de-configuración">Archivo de configuración</a></li>
         <li><a href="#inicialización-de-variables">Inicialización de variables</a></li>
+        <li><a href="#captura-de-la-temperatura-exterior">Captura de la temperatura exterior</a></li>
         <li><a href="#captura-de-la-temperatura-interior">Captura de la temperatura interior</a></li>
         <li><a href="#el-relé-de-la-caldera">El relé de la caldera</a></li>
       </ul>
@@ -165,6 +166,14 @@ for x in variables:
 <ul>
 <li>variables - Diccionario con el nombre de variable y valor por defecto</li>
 </ul>
+<h3 id="captura-de-la-temperatura-exterior">Captura de la temperatura exterior</h3>
+<p>De momento no he sido capaz de utilizarla para nada más allá de la mera representación de la misma. Extraigo la información de la web de la AEMET para obtener el valor de la temperatura exterior. Todo mediante la <a href="https://github.com/sherlockes/SherloScripts/blob/master/python/etc/aemet.py">clase Aemet</a> que puedes ver en mi repositorio de GitHub.</p>
+<p>Esta clase nos devolverá las siguientes variables:</p>
+<ul>
+<li>hora - Momento de la última toma</li>
+<li>temp_actual - Valor instantáneo de Tª obtenida</li>
+<li>temp_media - Valor medio diaro de la Tª</li>
+</ul>
 <h3 id="captura-de-la-temperatura-interior">Captura de la temperatura interior</h3>
 <p>Para tomar la temperatura que tengo en casa voy a utilizar un DHT22 (sensor de humedad y temperatura) que, aunque no es lo más preciso del mundo, es suficientemente barato como para empezar a hacer pruebas. En el artículo de <a href="https://www.atareao.es/podcast/temperatura-con-la-raspberry/">atareao</a> se explica perfectamente como llevar a cabo esta medición. El propio sensor DHT22, una resistencia de 10k y tres cables para conectar al puerto GPIO de la Raspberry es odo lo que he necesitado.</p>
 <p><img src="/images/20201112_termostato_raspberry_01.jpg" alt="Imagen_01"></p>
@@ -220,10 +229,7 @@ real_temp = round(datos_dht[1],2)
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/script-de-configuraci%C3%B3n-para-raspberry/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Script de configuración para Raspberry</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/raspberry-montaje-y-ssh/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">Raspberry Montaje y ssh</p></a>
+		<a class="post-nav__link" href="/raspberry-montaje-y-ssh/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Raspberry Montaje y ssh</p></a>
 	</div>
 </nav>
 

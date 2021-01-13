@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/termostato-raspberry/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/raspberry-montaje-y-ssh/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/insertar-comentarios-en-hugo/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/termostato-raspberry/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -886,32 +886,47 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/google-sheets/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/raspberry/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/raspberry/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/desarrollo/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/raspberry/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/google-sheets/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -925,22 +940,7 @@
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/python/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/raspberry/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   

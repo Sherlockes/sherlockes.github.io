@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>google sheets</title>
+      <link>/tags/google-sheets/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/google-sheets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry</title>
+      <link>/tags/raspberry/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Desarrollo</title>
       <link>/tags/desarrollo/</link>
@@ -17,47 +53,11 @@
     </item>
     
     <item>
-      <title>google sheets</title>
-      <link>/tags/google-sheets/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/google-sheets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>hugo</title>
       <link>/tags/hugo/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>raspberry</title>
-      <link>/tags/raspberry/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/raspberry/</guid>
       <description></description>
     </item>
     
