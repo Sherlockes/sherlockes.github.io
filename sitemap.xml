@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/exif-info-en-bash-con-exiftool/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/termostato-raspberry/</loc>
     <lastmod>2021-01-13T00:00:00+00:00</lastmod>
   </url>
@@ -885,8 +890,33 @@
   </url>
   
   <url>
+    <loc>/tags/bash/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/computing/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -915,16 +945,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/desarrollo/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
@@ -936,11 +956,6 @@
   
   <url>
     <loc>/categories/hugo/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -957,11 +972,6 @@
   <url>
     <loc>/categories/productividad/</loc>
     <lastmod>2020-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/computing/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -982,11 +992,6 @@
   <url>
     <loc>/tags/zerotier/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/bash/</loc>
-    <lastmod>2020-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
