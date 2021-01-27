@@ -95,19 +95,17 @@
 <pre><code>images: [&quot;portada_del_post.jpg&quot;]
 </code></pre><p>Esto presenta dos problemas:</p>
 <ul>
-<li>Hay que incluir una nueva línea en el archivo *.md de todos los post con la imgen de portada</li>
+<li>Hay que incluir una nueva línea en el archivo *.md de todos los post con la imagen de portada</li>
 <li>No funciona la ruta relativa a la imagen y me veo obligado a incluir la ruta completa</li>
 </ul>
-<p>Por lo anterior, voy a buscar una solución mas limpia que no me obligue a modificar todos los artículos con la inclusión de un nuevo parámetro.</p>
+<p>El segundo problema me ha sido fácil de arreglar sin más que poner en en parámetro &ldquo;baseurl&rdquo; del archivo de configuración de la web (config.toml) la ruta y el nombre del host (<a href="http://www.sherblog.pro/)">http://www.sherblog.pro/)</a>.</p>
+<p>El primer problema no he sido capaz de salvarlo por lo que voy a buscar una solución mas limpia que no me obligue a modificar todos los artículos con la inclusión de un nuevo parámetro.</p>
 <h3 id="la-otra-solución-plan-b">La otra solución (Plan B)</h3>
 <p>En todos los encabezados de los artículos tengo, entre otros, insertados los siguiente campos</p>
 <pre><code>title: &quot;Enlaces con imagen en Twitter a Hugo&quot;
 description: &quot;Te interesa leer si los links que compartes o comparten en Twitter de tu web en Hugo Salen sin imagen&quot;
 thumbnail: &quot;images/20180712_wordpress_hugo.jpg&quot;
-</code></pre><p>Pues bien, el reto pasa por reaprovechar estos campos para generar los metadatos que <a href="https://twitter.com">Twitter</a> está buscando para generar su tarjeta de enlace.  Hay varias opciones, pero la más práctica que he encontrado es editar el archivo &ldquo;baseof.html&rdquo; dentro de la carpeta &ldquo;layouts/partials/default/&rdquo; e incluir en el &ldquo;head&rdquo; a continuación de los metas de <a href="https://gohugo.io/">Hugo</a> estas líneas:</p>
-<blockquote>
-<p>El método más &ldquo;elegante&rdquo; es copiar el archivo &ldquo;baseof.html&rdquo;</p>
-</blockquote>
+</code></pre><p>Pues bien, el reto pasa por reaprovechar estos campos para generar los metadatos que <a href="https://twitter.com">Twitter</a> está buscando para generar su tarjeta de enlace.  Hay varias opciones, pero la más práctica que he encontrado es hacer una copia del archivo &ldquo;baseof.html&rdquo; dentro de la carpeta &ldquo;layouts/partials/default/&rdquo; para que quede duplicado fuera de la carpeta del tema e incluir en el &ldquo;head&rdquo; a continuación de los metas de <a href="https://gohugo.io/">Hugo</a> estas líneas:</p>
 <pre><code>&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot;/&gt;
 {{ if (.Params.thumbnail) }}&lt;meta name=&quot;twitter:image&quot; content=&quot;http://www.sherblog.pro{{ .Params.thumbnail }}&quot; /&gt;{{else}}&lt;meta name=&quot;twitter:image&quot; content=&quot;http://www.sherblog.pro/images/logo.png&quot; /&gt;{{end}}
 &lt;meta name=&quot;twitter:title&quot; content=&quot;{{ .Params.title }}&quot;/&gt;
@@ -116,9 +114,9 @@ thumbnail: &quot;images/20180712_wordpress_hugo.jpg&quot;
 &lt;meta name=&quot;twitter:site&quot; content=&quot;sherblog.pro&quot; /&gt;
 </code></pre><p>Bastante sencillo ya que cada metadato corresponde a un parámetro de nuestro archivo con una particularidad para el caso de las imágenes y es que hace distinción para el caso en que no encuentre el parámetro &ldquo;thumbnail&rdquo; que utilice en su lugar una imagen fija.</p>
 <h3 id="comprobando-la-solución">Comprobando la solución</h3>
-<p>Podrías dedicarte a enviar y borrar tweets para comprobar que funciona la solución que hemos adoptado pero [Twitter][1] nos proporciona una herramienta más sencilla mediante su <a href="https://cards-dev.twitter.com/validator">validador de tarjetas</a>.</p>
+<p>Podrías dedicarte a enviar y borrar tweets para comprobar que funciona la solución que hemos adoptado pero <a href="https://twitter.com">Twitter</a> nos proporciona una herramienta más sencilla mediante su <a href="https://cards-dev.twitter.com/validator">validador de tarjetas</a>.</p>
 <p><img src="/images/20180726_hugo_twitter_card_01.jpg" alt="CardsGen"></p>
-<p>Esta es una web en la que pegas el enlace que quieres comprobar y te muestra la tarjeta generada y los posibles problemas que encuentra en su generación.  Tras las modificaciones en el &ldquo;header.html&rdquo; la tarjeta generada aparece así.</p>
+<p>Esta es una web en la que pegas el enlace que quieres comprobar y te muestra la tarjeta generada y los posibles problemas que encuentra en su generación.  Tras las modificaciones en el &ldquo;baseof.html&rdquo; la tarjeta generada aparece así.</p>
 <p><img src="/images/20180726_hugo_twitter_card_02.jpg" alt="CardsGen"></p>
 		</div>
 	</article>
