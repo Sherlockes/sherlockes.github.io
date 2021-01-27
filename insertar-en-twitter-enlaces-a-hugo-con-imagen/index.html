@@ -9,13 +9,6 @@
 	<meta name="description" content="Si te encuentras con que los enlaces">
 
 	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://www.sherblog.pro/images/20180726_hugo_twitter_card_00.jpg"/>
-
-<meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
-<meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
-
-
-	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:image" content="http://www.sherblog.proimages/20180726_hugo_twitter_card_00.jpg" />
 	<meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
 	<meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
@@ -37,9 +30,7 @@
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://www.sherblog.pro/images/20180726_hugo_twitter_card_00.jpg"/>
-
+	<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
 <meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
 
@@ -105,8 +96,9 @@
 </code></pre><p>Esto presenta dos problemas:</p>
 <ul>
 <li>Hay que incluir una nueva línea en el archivo *.md de todos los post con la imgen de portada</li>
-<li>No</li>
+<li>No funciona la ruta relativa a la imagen y me veo obligado a incluir la ruta completa</li>
 </ul>
+<p>Por lo anterior, voy a buscar una solución mas limpia que no me obligue a modificar todos los artículos con la inclusión de un nuevo parámetro.</p>
 <h3 id="la-otra-solución-plan-b">La otra solución (Plan B)</h3>
 <p>En todos los encabezados de los artículos tengo, entre otros, insertados los siguiente campos</p>
 <pre><code>title: &quot;Enlaces con imagen en Twitter a Hugo&quot;
