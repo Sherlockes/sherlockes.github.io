@@ -8,7 +8,9 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="Si te encuentras con que los enlaces">
 
-	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.sherblog.pro/images/20180726_hugo_twitter_card_00.jpg"/>
+
 <meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
 <meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
 
@@ -35,7 +37,9 @@
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://www.sherblog.pro/images/20180726_hugo_twitter_card_00.jpg"/>
+
 <meta name="twitter:title" content="Insertar en Twitter enlaces a Hugo con imagen"/>
 <meta name="twitter:description" content="Si te encuentras con que los enlaces"/>
 
@@ -76,7 +80,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-07-27T00:00:00">2018-07-27</time>
+	<time class="meta__text" datetime="2021-01-27T00:00:00">2021-01-27</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -98,7 +102,12 @@
 <pre><code>{{ if .Site.Params.twitter_cards }}{{ template &quot;_internal/twitter_cards.html&quot; . }}{{ end }}
 </code></pre><p>Con esto ya queda generada la tarjeta pero me he encontrado con que no se incluye la imagen que tengo registrada como cabecera del post (thumbnail) para lo cual me veo obligado a incluir un nuevo campo de parámetros con la imagen a mostrar.</p>
 <pre><code>images: [&quot;portada_del_post.jpg&quot;]
-</code></pre><h3 id="la-otra-solución-plan-b">La otra solución (Plan B)</h3>
+</code></pre><p>Esto presenta dos problemas:</p>
+<ul>
+<li>Hay que incluir una nueva línea en el archivo *.md de todos los post con la imgen de portada</li>
+<li>No</li>
+</ul>
+<h3 id="la-otra-solución-plan-b">La otra solución (Plan B)</h3>
 <p>En todos los encabezados de los artículos tengo, entre otros, insertados los siguiente campos</p>
 <pre><code>title: &quot;Enlaces con imagen en Twitter a Hugo&quot;
 description: &quot;Te interesa leer si los links que compartes o comparten en Twitter de tu web en Hugo Salen sin imagen&quot;
@@ -126,10 +135,7 @@ thumbnail: &quot;images/20180712_wordpress_hugo.jpg&quot;
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/adios-wordpress/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Adios WordPress</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/acceder-a-github-via-ssh-sin-password/" rel="next"><span class="post-nav__caption">Siguiente&thinsp;»</span><p class="post-nav__post-title">Acceder a Github via ssh sin password</p></a>
+		<a class="post-nav__link" href="/exif-info-en-bash-con-exiftool/" rel="prev"><span class="post-nav__caption">«&thinsp;Anterior</span><p class="post-nav__post-title">Exif info en Bash con Exiftool</p></a>
 	</div>
 </nav>
 

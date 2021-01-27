@@ -6,7 +6,16 @@
     <description>Recent content in sherver on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/sherver/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/sherver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insertar en Twitter enlaces a Hugo con imagen</title>
+      <link>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
+      <description>&lt;p&gt;Hace un tiempo ya me encontré con este mismo problema, ahora me ocurre que, tras actualizar el tema (&lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt;) en la web desarrollada en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no aparece la imagen de la tarjeta que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; genera al enlazar un post de la web en un Tweet.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Archivos de Telegram al NAS</title>
       <link>http://www.sherblog.pro/archivos-de-telegram-al-nas/</link>
@@ -33,15 +42,6 @@
       <guid>http://www.sherblog.pro/copiar-ssh-key-desde-synology/</guid>
       <description>El problema Generar la llave ssh (ssh-key) de un usuario dentro de un nas Synology es tan sencillo como acceder al mismo a través de ssh (Es necesario tener activado el servicio desde el panel de control de DSM y la opción &amp;ldquo;Terminal y snmp&amp;rdquo;) y posteriormente ejecutar el comando.
 ssh-keygen Esta llave se guardará dentro de la carpeta del usuario en el directorio &amp;ldquo;.ssh&amp;rdquo; de modo en entre otros archivos se genera un &amp;ldquo;id_rsa.</description>
-    </item>
-    
-    <item>
-      <title>Insertar en Twitter enlaces a Hugo con imagen</title>
-      <link>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>&lt;p&gt;Hace un tiempo ya me encontré con este mismo problema, ahora me ocurre que, tras actualizar el tema (&lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt;) en la web desarrollada en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no aparece la imagen de la tarjeta que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; genera al enlazar un post de la web en un Tweet.&lt;/p&gt;</description>
     </item>
     
     <item>

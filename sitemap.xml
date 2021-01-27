@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sherblog.pro/exif-info-en-bash-con-exiftool/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
   </url>
@@ -389,11 +394,6 @@
   
   <url>
     <loc>http://www.sherblog.pro/acceder-a-github-via-ssh-sin-password/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</loc>
     <lastmod>2018-07-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -890,27 +890,37 @@
   </url>
   
   <url>
+    <loc>http://www.sherblog.pro/categories/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sherblog.pro/categories/hugo/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sherblog.pro/post/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sherblog.pro/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sherblog.pro/categories/sherver/</loc>
+    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sherblog.pro/tags/bash/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sherblog.pro/categories/</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.sherblog.pro/categories/computing/</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sherblog.pro/post/</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sherblog.pro/</loc>
     <lastmod>2021-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -951,11 +961,6 @@
   
   <url>
     <loc>http://www.sherblog.pro/tags/hugo/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sherblog.pro/categories/hugo/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -1066,11 +1071,6 @@
   
   <url>
     <loc>http://www.sherblog.pro/tags/google-scripts/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.sherblog.pro/categories/sherver/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url>
   

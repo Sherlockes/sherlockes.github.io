@@ -6,7 +6,16 @@
     <description>Recent content in hugo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Insertar en Twitter enlaces a Hugo con imagen</title>
+      <link>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
+      <description>&lt;p&gt;Hace un tiempo ya me encontré con este mismo problema, ahora me ocurre que, tras actualizar el tema (&lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt;) en la web desarrollada en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no aparece la imagen de la tarjeta que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; genera al enlazar un post de la web en un Tweet.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Insertar comentarios en Hugo</title>
       <link>http://www.sherblog.pro/insertar-comentarios-en-hugo/</link>
@@ -52,15 +61,6 @@ Pues bien, no sin algo de esfuerzo, al final lo he conseguido.</description>
       <guid>http://www.sherblog.pro/acceder-a-github-via-ssh-sin-password/</guid>
       <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.
 La solución Antes de nada nombrar que me conecto a Github a través de la Raspberry Pi en la que tengo alojada mi web y otros servicios.</description>
-    </item>
-    
-    <item>
-      <title>Insertar en Twitter enlaces a Hugo con imagen</title>
-      <link>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>&lt;p&gt;Hace un tiempo ya me encontré con este mismo problema, ahora me ocurre que, tras actualizar el tema (&lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt;) en la web desarrollada en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no aparece la imagen de la tarjeta que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; genera al enlazar un post de la web en un Tweet.&lt;/p&gt;</description>
     </item>
     
   </channel>
