@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>computing on Sherblog</title>
-    <link>/categories/computing/</link>
+    <link>http://www.sherblog.pro/categories/computing/</link>
     <description>Recent content in computing on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/computing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exif info en Bash con Exiftool</title>
-      <link>/exif-info-en-bash-con-exiftool/</link>
+      <link>http://www.sherblog.pro/exif-info-en-bash-con-exiftool/</link>
       <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/exif-info-en-bash-con-exiftool/</guid>
+      <guid>http://www.sherblog.pro/exif-info-en-bash-con-exiftool/</guid>
       <description>&lt;p&gt;Hace un tiempo, Amazon ha restringido la subida automatizada de imágenes a &lt;a href=&#34;https://www.amazon.es/photos&#34;&gt;Amazon Photos&lt;/a&gt;, al hacerlo de forma manual me encuentro con el problema de tener que incrustar una fecha de captura a las fotografías que no la tienen.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Script para renombrar imágenes en python en función de la fecha en la que se tomaron</title>
-      <link>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</link>
+      <link>http://www.sherblog.pro/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</guid>
+      <guid>http://www.sherblog.pro/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/</guid>
       <description>&lt;p&gt;Un día te vienen de la guardería con un montón de fotos de tu hijo metidas en una carpeta y cada una con un nombre completamente aleatorio en función del dispositivo con el que se tomaron, algo hay que hacer para renombrarlas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Controlar las luces de Philips hue con un script en bash</title>
-      <link>/controlar-las-luces-de-philips-hue-con-un-script-en-bash/</link>
+      <link>http://www.sherblog.pro/controlar-las-luces-de-philips-hue-con-un-script-en-bash/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/controlar-las-luces-de-philips-hue-con-un-script-en-bash/</guid>
+      <guid>http://www.sherblog.pro/controlar-las-luces-de-philips-hue-con-un-script-en-bash/</guid>
       <description>&lt;p&gt;Hay muchas formas de controlar las luces de Phillis Hue, aquí dejo la que empleo para apagar las luces mediante una simple línea de comando gracias a la Raspberry.&lt;/p&gt;</description>
     </item>
     

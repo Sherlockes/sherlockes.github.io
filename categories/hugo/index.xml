@@ -2,66 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Sherblog</title>
-    <link>/categories/hugo/</link>
+    <link>http://www.sherblog.pro/categories/hugo/</link>
     <description>Recent content in hugo on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Insertar comentarios en Hugo</title>
-      <link>/insertar-comentarios-en-hugo/</link>
+      <link>http://www.sherblog.pro/insertar-comentarios-en-hugo/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/insertar-comentarios-en-hugo/</guid>
+      <guid>http://www.sherblog.pro/insertar-comentarios-en-hugo/</guid>
       <description>&lt;p&gt;Cuando no se tiene mucho tiempo libre, la publicación de un post puede demorarse a lo largo de varios días. Para eso Se mantiene la entrada en modo &amp;ldquo;borrador&amp;rdquo;. Pero&amp;hellip; ¿Como lo hago al actualizar una entrada?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Añadir una red social a Hugo con el tema Mainroad</title>
-      <link>/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</link>
+      <link>http://www.sherblog.pro/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</guid>
+      <guid>http://www.sherblog.pro/a%C3%B1adir-una-red-social-a-hugo-con-el-tema-mainroad/</guid>
       <description>&lt;p&gt;Por defecto, el tema &lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt; que utilizo para la creación de este blog tiene la capacidad de mostrar varias redes sociales del autor. Aquí muestro la forma que yo he utilizado para añadir nuevas redes al margen de las preestablecidas.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hugo is deprecated</title>
-      <link>/hugo-is-deprecated/</link>
+      <link>http://www.sherblog.pro/hugo-is-deprecated/</link>
       <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-is-deprecated/</guid>
+      <guid>http://www.sherblog.pro/hugo-is-deprecated/</guid>
       <description>&lt;p&gt;Cuando no eres un programador avanzado cualquier advertencia o fallo en el momento de la compilación en la fase de producción puede ser un fuerte dolor de cabeza, la función &amp;ldquo;.Hugo&amp;rdquo; parece que va a caer en desuso, a ver como puedo apañarlo&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Publicar desde iaWriter</title>
-      <link>/publicar-desde-iawriter/</link>
+      <link>http://www.sherblog.pro/publicar-desde-iawriter/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publicar-desde-iawriter/</guid>
+      <guid>http://www.sherblog.pro/publicar-desde-iawriter/</guid>
       <description>Publicar solo con el editor de texto Hace un tiempo que estoy intentando escribir en Markdown y para WordPress he estado utilizando el Plugin Wp-MarkDown que me ha permitido realizar la maquetación del post directamente en Markdown. Una vez que he dejado atrás WordPress en favor de Hugo uno de mis objetivos de los últimos meses ha sido poder publicar en el blog simplemente usando un editor de texto.
 Pues bien, no sin algo de esfuerzo, al final lo he conseguido.</description>
     </item>
     
     <item>
       <title>Acceder a Github via ssh sin password</title>
-      <link>/acceder-a-github-via-ssh-sin-password/</link>
+      <link>http://www.sherblog.pro/acceder-a-github-via-ssh-sin-password/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/acceder-a-github-via-ssh-sin-password/</guid>
+      <guid>http://www.sherblog.pro/acceder-a-github-via-ssh-sin-password/</guid>
       <description>El problema Llevo unos días adentrándome en el maravilloso mundo de Github del que hace un mes no tenía más idea que el de su mera existencia. En fin, pruebas y pruebas en las que estoy hasta el gorro de tener que introducir cada vez el nombre de usuario y contraseña cuando modifico los repositorios a través de ssh.
 La solución Antes de nada nombrar que me conecto a Github a través de la Raspberry Pi en la que tengo alojada mi web y otros servicios.</description>
     </item>
     
     <item>
       <title>Insertar en Twitter enlaces a Hugo con imagen</title>
-      <link>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
+      <link>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
-      <description>El problema Ya tenemos nuestra web en Hugo y resulta que cuando queremos compartir un enlace al mismo en Twitter este aparece como un miserable hipervínculo, ni imagen, ni resumen, ni título, ni na¡¡¡. No se si el problema es común para todos los temas u ocurre simplemente con el que yo he utilizado.
-No tardo mucho en encontrar información para darme cuenta de que todo pasa por el uso de metadatos por parte de Twitter para generar las tarjetas (Cards) tal y como se comenta en su sección de desarrolladores donde puedes invertir varias horas para documentarte o seguir leyendo durante unos minutos para solucionar tu problema.</description>
+      <guid>http://www.sherblog.pro/insertar-en-twitter-enlaces-a-hugo-con-imagen/</guid>
+      <description>&lt;p&gt;Hace un tiempo ya me encontré con este mismo problema, ahora me ocurre que, tras actualizar el tema (&lt;a href=&#34;https://themes.gohugo.io/mainroad/&#34;&gt;Mainroad&lt;/a&gt;) en la web desarrollada en &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; no aparece la imagen de la tarjeta que &lt;a href=&#34;https://twitter.com&#34;&gt;Twitter&lt;/a&gt; genera al enlazar un post de la web en un Tweet.&lt;/p&gt;</description>
     </item>
     
   </channel>

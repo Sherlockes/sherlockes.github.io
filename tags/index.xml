@@ -2,584 +2,584 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sherblog</title>
-    <link>/tags/</link>
+    <link>http://www.sherblog.pro/tags/</link>
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bash</title>
-      <link>/tags/bash/</link>
+      <link>http://www.sherblog.pro/tags/bash/</link>
       <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bash/</guid>
+      <guid>http://www.sherblog.pro/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google sheets</title>
-      <link>/tags/google-sheets/</link>
+      <link>http://www.sherblog.pro/tags/google-sheets/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-sheets/</guid>
+      <guid>http://www.sherblog.pro/tags/google-sheets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>/tags/linux/</link>
+      <link>http://www.sherblog.pro/tags/linux/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>http://www.sherblog.pro/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>http://www.sherblog.pro/tags/python/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>http://www.sherblog.pro/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberry</title>
-      <link>/tags/raspberry/</link>
+      <link>http://www.sherblog.pro/tags/raspberry/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/raspberry/</guid>
+      <guid>http://www.sherblog.pro/tags/raspberry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Desarrollo</title>
-      <link>/tags/desarrollo/</link>
+      <link>http://www.sherblog.pro/tags/desarrollo/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/desarrollo/</guid>
+      <guid>http://www.sherblog.pro/tags/desarrollo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>/tags/hugo/</link>
+      <link>http://www.sherblog.pro/tags/hugo/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>http://www.sherblog.pro/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gmail</title>
-      <link>/tags/gmail/</link>
+      <link>http://www.sherblog.pro/tags/gmail/</link>
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gmail/</guid>
+      <guid>http://www.sherblog.pro/tags/gmail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>exif</title>
-      <link>/tags/exif/</link>
+      <link>http://www.sherblog.pro/tags/exif/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/exif/</guid>
+      <guid>http://www.sherblog.pro/tags/exif/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>/tags/ssh/</link>
+      <link>http://www.sherblog.pro/tags/ssh/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ssh/</guid>
+      <guid>http://www.sherblog.pro/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Zerotier</title>
-      <link>/tags/zerotier/</link>
+      <link>http://www.sherblog.pro/tags/zerotier/</link>
       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/zerotier/</guid>
+      <guid>http://www.sherblog.pro/tags/zerotier/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grub</title>
-      <link>/tags/grub/</link>
+      <link>http://www.sherblog.pro/tags/grub/</link>
       <pubDate>Wed, 07 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/grub/</guid>
+      <guid>http://www.sherblog.pro/tags/grub/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux mint</title>
-      <link>/tags/linux-mint/</link>
+      <link>http://www.sherblog.pro/tags/linux-mint/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/linux-mint/</guid>
+      <guid>http://www.sherblog.pro/tags/linux-mint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>phillips hue</title>
-      <link>/tags/phillips-hue/</link>
+      <link>http://www.sherblog.pro/tags/phillips-hue/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/phillips-hue/</guid>
+      <guid>http://www.sherblog.pro/tags/phillips-hue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>synology</title>
-      <link>/tags/synology/</link>
+      <link>http://www.sherblog.pro/tags/synology/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/synology/</guid>
+      <guid>http://www.sherblog.pro/tags/synology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rclone</title>
-      <link>/tags/rclone/</link>
+      <link>http://www.sherblog.pro/tags/rclone/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rclone/</guid>
+      <guid>http://www.sherblog.pro/tags/rclone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Podcast</title>
-      <link>/tags/podcast/</link>
+      <link>http://www.sherblog.pro/tags/podcast/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/podcast/</guid>
+      <guid>http://www.sherblog.pro/tags/podcast/</guid>
       <description></description>
     </item>
     
     <item>
       <title>moodle</title>
-      <link>/tags/moodle/</link>
+      <link>http://www.sherblog.pro/tags/moodle/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/moodle/</guid>
+      <guid>http://www.sherblog.pro/tags/moodle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>android</title>
-      <link>/tags/android/</link>
+      <link>http://www.sherblog.pro/tags/android/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/android/</guid>
+      <guid>http://www.sherblog.pro/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SpeedTrap</title>
-      <link>/tags/speedtrap/</link>
+      <link>http://www.sherblog.pro/tags/speedtrap/</link>
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/speedtrap/</guid>
+      <guid>http://www.sherblog.pro/tags/speedtrap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Drive</title>
-      <link>/tags/google-drive/</link>
+      <link>http://www.sherblog.pro/tags/google-drive/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-drive/</guid>
+      <guid>http://www.sherblog.pro/tags/google-drive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google Scripts</title>
-      <link>/tags/google-scripts/</link>
+      <link>http://www.sherblog.pro/tags/google-scripts/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-scripts/</guid>
+      <guid>http://www.sherblog.pro/tags/google-scripts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>telegram</title>
-      <link>/tags/telegram/</link>
+      <link>http://www.sherblog.pro/tags/telegram/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/telegram/</guid>
+      <guid>http://www.sherblog.pro/tags/telegram/</guid>
       <description></description>
     </item>
     
     <item>
       <title>imagemagick</title>
-      <link>/tags/imagemagick/</link>
+      <link>http://www.sherblog.pro/tags/imagemagick/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/imagemagick/</guid>
+      <guid>http://www.sherblog.pro/tags/imagemagick/</guid>
       <description></description>
     </item>
     
     <item>
       <title>pdf</title>
-      <link>/tags/pdf/</link>
+      <link>http://www.sherblog.pro/tags/pdf/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/pdf/</guid>
+      <guid>http://www.sherblog.pro/tags/pdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poppler</title>
-      <link>/tags/poppler/</link>
+      <link>http://www.sherblog.pro/tags/poppler/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/poppler/</guid>
+      <guid>http://www.sherblog.pro/tags/poppler/</guid>
       <description></description>
     </item>
     
     <item>
       <title>poppler-utils</title>
-      <link>/tags/poppler-utils/</link>
+      <link>http://www.sherblog.pro/tags/poppler-utils/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/poppler-utils/</guid>
+      <guid>http://www.sherblog.pro/tags/poppler-utils/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gphoto-sync</title>
-      <link>/tags/gphoto-sync/</link>
+      <link>http://www.sherblog.pro/tags/gphoto-sync/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gphoto-sync/</guid>
+      <guid>http://www.sherblog.pro/tags/gphoto-sync/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dired</title>
-      <link>/tags/dired/</link>
+      <link>http://www.sherblog.pro/tags/dired/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dired/</guid>
+      <guid>http://www.sherblog.pro/tags/dired/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>/tags/markdown/</link>
+      <link>http://www.sherblog.pro/tags/markdown/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/markdown/</guid>
+      <guid>http://www.sherblog.pro/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>darktable</title>
-      <link>/tags/darktable/</link>
+      <link>http://www.sherblog.pro/tags/darktable/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/darktable/</guid>
+      <guid>http://www.sherblog.pro/tags/darktable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gimp</title>
-      <link>/tags/gimp/</link>
+      <link>http://www.sherblog.pro/tags/gimp/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gimp/</guid>
+      <guid>http://www.sherblog.pro/tags/gimp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gtumb</title>
-      <link>/tags/gtumb/</link>
+      <link>http://www.sherblog.pro/tags/gtumb/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gtumb/</guid>
+      <guid>http://www.sherblog.pro/tags/gtumb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trimage</title>
-      <link>/tags/trimage/</link>
+      <link>http://www.sherblog.pro/tags/trimage/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/trimage/</guid>
+      <guid>http://www.sherblog.pro/tags/trimage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Keepass</title>
-      <link>/tags/keepass/</link>
+      <link>http://www.sherblog.pro/tags/keepass/</link>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/keepass/</guid>
+      <guid>http://www.sherblog.pro/tags/keepass/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iAWriter</title>
-      <link>/tags/iawriter/</link>
+      <link>http://www.sherblog.pro/tags/iawriter/</link>
       <pubDate>Tue, 04 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/iawriter/</guid>
+      <guid>http://www.sherblog.pro/tags/iawriter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mantenimiento</title>
-      <link>/tags/mantenimiento/</link>
+      <link>http://www.sherblog.pro/tags/mantenimiento/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mantenimiento/</guid>
+      <guid>http://www.sherblog.pro/tags/mantenimiento/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Averias</title>
-      <link>/tags/averias/</link>
+      <link>http://www.sherblog.pro/tags/averias/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/averias/</guid>
+      <guid>http://www.sherblog.pro/tags/averias/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bricolaje</title>
-      <link>/tags/bricolaje/</link>
+      <link>http://www.sherblog.pro/tags/bricolaje/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/bricolaje/</guid>
+      <guid>http://www.sherblog.pro/tags/bricolaje/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fontanería</title>
-      <link>/tags/fontaner%C3%ADa/</link>
+      <link>http://www.sherblog.pro/tags/fontaner%C3%ADa/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/fontaner%C3%ADa/</guid>
+      <guid>http://www.sherblog.pro/tags/fontaner%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google keep</title>
-      <link>/tags/google-keep/</link>
+      <link>http://www.sherblog.pro/tags/google-keep/</link>
       <pubDate>Sun, 27 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-keep/</guid>
+      <guid>http://www.sherblog.pro/tags/google-keep/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>/tags/windows/</link>
+      <link>http://www.sherblog.pro/tags/windows/</link>
       <pubDate>Thu, 19 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/windows/</guid>
+      <guid>http://www.sherblog.pro/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>garmin</title>
-      <link>/tags/garmin/</link>
+      <link>http://www.sherblog.pro/tags/garmin/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/garmin/</guid>
+      <guid>http://www.sherblog.pro/tags/garmin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GPS</title>
-      <link>/tags/gps/</link>
+      <link>http://www.sherblog.pro/tags/gps/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gps/</guid>
+      <guid>http://www.sherblog.pro/tags/gps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mapas</title>
-      <link>/tags/mapas/</link>
+      <link>http://www.sherblog.pro/tags/mapas/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mapas/</guid>
+      <guid>http://www.sherblog.pro/tags/mapas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tracks</title>
-      <link>/tags/tracks/</link>
+      <link>http://www.sherblog.pro/tags/tracks/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tracks/</guid>
+      <guid>http://www.sherblog.pro/tags/tracks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google earth</title>
-      <link>/tags/google-earth/</link>
+      <link>http://www.sherblog.pro/tags/google-earth/</link>
       <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-earth/</guid>
+      <guid>http://www.sherblog.pro/tags/google-earth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>openstreetmap</title>
-      <link>/tags/openstreetmap/</link>
+      <link>http://www.sherblog.pro/tags/openstreetmap/</link>
       <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/openstreetmap/</guid>
+      <guid>http://www.sherblog.pro/tags/openstreetmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>google chrome</title>
-      <link>/tags/google-chrome/</link>
+      <link>http://www.sherblog.pro/tags/google-chrome/</link>
       <pubDate>Tue, 11 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/google-chrome/</guid>
+      <guid>http://www.sherblog.pro/tags/google-chrome/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gopro</title>
-      <link>/tags/gopro/</link>
+      <link>http://www.sherblog.pro/tags/gopro/</link>
       <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gopro/</guid>
+      <guid>http://www.sherblog.pro/tags/gopro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apps</title>
-      <link>/tags/apps/</link>
+      <link>http://www.sherblog.pro/tags/apps/</link>
       <pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/apps/</guid>
+      <guid>http://www.sherblog.pro/tags/apps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Facebook</title>
-      <link>/tags/facebook/</link>
+      <link>http://www.sherblog.pro/tags/facebook/</link>
       <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/facebook/</guid>
+      <guid>http://www.sherblog.pro/tags/facebook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>panoramica</title>
-      <link>/tags/panoramica/</link>
+      <link>http://www.sherblog.pro/tags/panoramica/</link>
       <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/panoramica/</guid>
+      <guid>http://www.sherblog.pro/tags/panoramica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SherloDj</title>
-      <link>/tags/sherlodj/</link>
+      <link>http://www.sherblog.pro/tags/sherlodj/</link>
       <pubDate>Sat, 26 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sherlodj/</guid>
+      <guid>http://www.sherblog.pro/tags/sherlodj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backup</title>
-      <link>/tags/backup/</link>
+      <link>http://www.sherblog.pro/tags/backup/</link>
       <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/backup/</guid>
+      <guid>http://www.sherblog.pro/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gdrive</title>
-      <link>/tags/gdrive/</link>
+      <link>http://www.sherblog.pro/tags/gdrive/</link>
       <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/gdrive/</guid>
+      <guid>http://www.sherblog.pro/tags/gdrive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>virtualdub</title>
-      <link>/tags/virtualdub/</link>
+      <link>http://www.sherblog.pro/tags/virtualdub/</link>
       <pubDate>Tue, 06 Mar 2012 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtualdub/</guid>
+      <guid>http://www.sherblog.pro/tags/virtualdub/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hdr</title>
-      <link>/tags/hdr/</link>
+      <link>http://www.sherblog.pro/tags/hdr/</link>
       <pubDate>Fri, 13 May 2011 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hdr/</guid>
+      <guid>http://www.sherblog.pro/tags/hdr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>/tags/software/</link>
+      <link>http://www.sherblog.pro/tags/software/</link>
       <pubDate>Tue, 07 Sep 2010 00:00:00 +0000</pubDate>
       
-      <guid>/tags/software/</guid>
+      <guid>http://www.sherblog.pro/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photomatix</title>
-      <link>/tags/photomatix/</link>
+      <link>http://www.sherblog.pro/tags/photomatix/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/photomatix/</guid>
+      <guid>http://www.sherblog.pro/tags/photomatix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photoshop</title>
-      <link>/tags/photoshop/</link>
+      <link>http://www.sherblog.pro/tags/photoshop/</link>
       <pubDate>Tue, 07 Jul 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/photoshop/</guid>
+      <guid>http://www.sherblog.pro/tags/photoshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>trekbuddy</title>
-      <link>/tags/trekbuddy/</link>
+      <link>http://www.sherblog.pro/tags/trekbuddy/</link>
       <pubDate>Thu, 19 Feb 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/trekbuddy/</guid>
+      <guid>http://www.sherblog.pro/tags/trekbuddy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tilt-shift</title>
-      <link>/tags/tilt-shift/</link>
+      <link>http://www.sherblog.pro/tags/tilt-shift/</link>
       <pubDate>Tue, 13 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tilt-shift/</guid>
+      <guid>http://www.sherblog.pro/tags/tilt-shift/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emule</title>
-      <link>/tags/emule/</link>
+      <link>http://www.sherblog.pro/tags/emule/</link>
       <pubDate>Fri, 09 Jan 2009 00:00:00 +0000</pubDate>
       
-      <guid>/tags/emule/</guid>
+      <guid>http://www.sherblog.pro/tags/emule/</guid>
       <description></description>
     </item>
     

@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Sherblog</title>
-    <link>/tags/linux/</link>
+    <link>http://www.sherblog.pro/tags/linux/</link>
     <description>Recent content in linux on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Termostato Raspberry</title>
-      <link>/termostato-raspberry/</link>
+      <link>http://www.sherblog.pro/termostato-raspberry/</link>
       <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/termostato-raspberry/</guid>
+      <guid>http://www.sherblog.pro/termostato-raspberry/</guid>
       <description>&lt;p&gt;Con la reciente muerte de termostato inteligente de NetAtmo a causa de una simple pila sulfatada me he decidido a crear el mio propio con la raspberry y un poco de Python. Iré escribiendo aquí los procesos con el mismo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Script de configuración para Raspberry</title>
-      <link>/script-de-configuraci%C3%B3n-para-raspberry/</link>
+      <link>http://www.sherblog.pro/script-de-configuraci%C3%B3n-para-raspberry/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/script-de-configuraci%C3%B3n-para-raspberry/</guid>
+      <guid>http://www.sherblog.pro/script-de-configuraci%C3%B3n-para-raspberry/</guid>
       <description>&lt;p&gt;La parte más tediosa del cacharreo con la Raspberry es el tener que de nuevo comenzar la instalación desde cero y realizar siempre la misma configuración inicial.  Con este Script tengo automatizado el proceso.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Actualización: El día que he necesitado el script me ha dado varios fallos así que toca darle una vuelta&amp;hellip;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Flujo de imágenes en Linux</title>
-      <link>/flujo-de-im%C3%A1genes-en-linux/</link>
+      <link>http://www.sherblog.pro/flujo-de-im%C3%A1genes-en-linux/</link>
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/flujo-de-im%C3%A1genes-en-linux/</guid>
+      <guid>http://www.sherblog.pro/flujo-de-im%C3%A1genes-en-linux/</guid>
       <description>El origen de las imágenes Las imágenes con las que suelo tratar más habitualmente tienen dos procedencias claramente diferenciadas.
 Capturas de pantalla Cada vez que escribo un post para el blog me encuentro con que necesito incluir alguna imagen para el mismo. Desde que uso Linux Mint el flujo ha cambiado notablemente ya que ahora uso simplemente la captura de pantalla nativa y Gimp para la edición.
  Para capturar un area de pantalla al portapapeles uso el atajo de teclado Ctrl + Mays + ImprPant (Importante tenerlo punsado un segundo hasta que el cursor cambia por una cruz con la que seleccionar el area a capturar).</description>

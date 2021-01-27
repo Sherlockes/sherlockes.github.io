@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPS on Sherblog</title>
-    <link>/tags/gps/</link>
+    <link>http://www.sherblog.pro/tags/gps/</link>
     <description>Recent content in GPS on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/gps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/gps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Barrancos del sur de Zaragoza</title>
-      <link>/barrancos-del-sur-de-zaragoza/</link>
+      <link>http://www.sherblog.pro/barrancos-del-sur-de-zaragoza/</link>
       <pubDate>Sun, 25 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/barrancos-del-sur-de-zaragoza/</guid>
+      <guid>http://www.sherblog.pro/barrancos-del-sur-de-zaragoza/</guid>
       <description>Para todo aquel que disfrute de la bicicleta de montaña y alguna vez se deje caer por Zaragoza, aquí una recopilación con los principales barrancos que se pueden encontrar en la zona sur de la capital aragonesa.
 También puedes descargar el archivo desde aquí para abrirlo con con Google Earth o tu editor preferido.
 Intentaré periódicamente ir actualizando este archivo con nuevos barrancos y sendas. 😉</description>
