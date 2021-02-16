@@ -71,7 +71,7 @@
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2021-02-04T00:00:00">2021-02-04</time>
+	<time class="meta__text" datetime="2021-02-16T00:00:00">2021-02-16</time>
 </div>
 
 <div class="meta__item-categories meta__item">
@@ -94,14 +94,14 @@
 <li>Tiempo</li>
 </ul>
 <p>Si estás leyendo esto que tengas cable, pc y tiempo por lo que solo son necesarios unos poco euros para conseguir la placa.</p>
-<p>![image_01]</p>
+<p><img src="/images/20210304_nodemcu_micropython_01.jpg" alt="image-01"></p>
 <h3 id="micropython-y-thonny">Micropython y Thonny</h3>
 <p>Si hubiera llegado aquí desde el mundo de arduino quizas ahora estaría empleando su entorno de desarrollo para programar el nodemcu en c++. Como vengo de la Raspberry voy a introducirme en el mundo de <a href="https://micropython.org">micropython</a> mediante <a href="https://thonny.org">Thonny</a>.</p>
 <p>Para la instalación de <a href="https://thonny.org">Thonny</a> nos bastará con</p>
 <pre><code>sudo apt install python3 python3-pip python3-tk
 sudo pip3 install thonny
 </code></pre><p>Para arrancar el entorno de programación <a href="https://thonny.org">Thonny</a> abriremos una consola de comandos y ejecutaremos <code>thonny</code></p>
-<p>![image_02]</p>
+<p><img src="/images/20210304_nodemcu_micropython_02.jpg" alt="image-02"></p>
 <h3 id="instalando-el-firmware">Instalando el firmware</h3>
 <p>En la web de <a href="https://micropython.org">micropython</a> hay una detallada <a href="http://docs.micropython.org/en/latest/esp8266/tutorial/intro.html#deploying-the-firmware">guía de instalación del firmware</a> que se resume en:</p>
 <ul>
@@ -112,24 +112,24 @@ sudo pip3 install thonny
 </ul>
 <pre><code>esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20200911-v1.13.bin
 </code></pre><p>Dentro del entorno de <a href="https://thonny.org">Thonny</a>, en el menú &ldquo;Herramientas-Opciones&rdquo; y la pestaña &ldquo;Intérprete&rdquo; nos ofrece la opción de instalar o actualizar el firmware. Para hacerlo sólo hay que selecciónar en dispositivo y el puerto, este último en caso de que no sea capaz de detectarlo automáticamente.</p>
-<p>![image_03]</p>
+<p><img src="/images/20210304_nodemcu_micropython_03.jpg" alt="image-03"></p>
 <blockquote>
 <p>Aunque no lo he probado, supongo que en caso de que no hayas instalado esptool de forma manual, al inatalar <a href="https://thonny.org">Thonny</a> comprobará las dependencias y lo instalará si es necesario.</p>
 </blockquote>
 <p>Después de esto, si la instalación ha sido correcta, en la consola de comandos podremos escribir `print(&ldquo;hola mundo&rdquo;) y obtener respuesta como se muestra en la imagen.</p>
-<p>![image_04]</p>
+<p><img src="/images/20210304_nodemcu_micropython_04.jpg" alt="image-04"></p>
 <h3 id="el-montaje">El montaje</h3>
 <p>Como primer montaje quiero realizar una simple medición de temperatura mediante una AM2302 que tan buenos resultados me está dando en la raspberry. El sensor lleva tres cables, el de alimentación, el de masa y la señal. aunque no lo tengo muy claro si es necesaria o no debido a la configuración interna del nodemcu, se recomienda unir la alimentación y la masa con una resistencia de 10K tal y como se muestra en la imagen.</p>
-<p>![image_05]</p>
+<p><img src="/images/20210304_nodemcu_micropython_05.jpg" alt="image-05"></p>
 <blockquote>
 <p>Un detalle importante es que, aunque el cable de señal está conectado a la patilla D2 de la placa, esta se corresponde la GPIO4 del ESP8266 interno para la futura programacion del microcontrolador.</p>
 </blockquote>
-<p>![image_06]</p>
+<p><img src="/images/20210304_nodemcu_micropython_06.jpg" alt="image-06"></p>
 <h3 id="programación">Programación</h3>
 <p>Con la placa conectada al usb del ordenador es el momento de abrir Thonny y en el menú &ldquo;ejecutar&rdquo; seleccionar el intérprete correspondiente a Micropython y el puerto correspondiente al que está conectado la placa tal y como se puede ver en la siguiente imagen.</p>
-<p>![image_07]</p>
+<p><img src="/images/20210304_nodemcu_micropython_07.jpg" alt="image-07"></p>
 <p>Pulsaremos Ctrl + F2 para que en la consola inferior aparezca el propmt de micropython</p>
-<p>![image_08]</p>
+<p><img src="/images/20210304_nodemcu_micropython_08.jpg" alt="image-08"></p>
 <blockquote>
 <p>En algunas ocasiones da un error al detener y reinicializar el Back-end por que la placa está ocupada, en estos casos pulsando varias veces seguidas Ctrl+F2 desaparece el error.</p>
 </blockquote>
