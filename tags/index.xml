@@ -6,22 +6,49 @@
     <description>Recent content in Tags on Sherblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>http://www.sherblog.pro/tags/bash/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Drive</title>
+      <link>http://www.sherblog.pro/tags/google-drive/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/tags/google-drive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>google photos</title>
+      <link>http://www.sherblog.pro/tags/google-photos/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/tags/google-photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rclone</title>
+      <link>http://www.sherblog.pro/tags/rclone/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/tags/rclone/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>micropython</title>
       <link>http://www.sherblog.pro/tags/micropython/</link>
       <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>http://www.sherblog.pro/tags/micropython/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>http://www.sherblog.pro/tags/bash/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sherblog.pro/tags/bash/</guid>
       <description></description>
     </item>
     
@@ -152,15 +179,6 @@
     </item>
     
     <item>
-      <title>rclone</title>
-      <link>http://www.sherblog.pro/tags/rclone/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sherblog.pro/tags/rclone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Podcast</title>
       <link>http://www.sherblog.pro/tags/podcast/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
@@ -193,15 +211,6 @@
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://www.sherblog.pro/tags/speedtrap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Drive</title>
-      <link>http://www.sherblog.pro/tags/google-drive/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.sherblog.pro/tags/google-drive/</guid>
       <description></description>
     </item>
     

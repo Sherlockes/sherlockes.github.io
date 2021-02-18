@@ -75,6 +75,56 @@
 	</div>
 	<article class="list__item post">
 	<figure class="list__thumbnail">
+		<a href="http://www.sherblog.pro/reinicio-programado-con-tasker-en-android/">
+			<img src="/images/20180117_tasker_reinicio.jpg" alt="Reinicio programado con Tasker en Android" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/reinicio-programado-con-tasker-en-android/" rel="bookmark">
+			Reinicio programado con Tasker en Android
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/tasker" rel="category">Tasker</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		El Problema Si eres de los que no apaga nunca el smartphone esta pequeña receta te va a interesar. Aunque soy un completo desconocedor de los motivos específicos, es fácil comprobar como si nunca apagas del teléfono, con el paso de los días empiezan a aparecer consumos de batería anómalos y ciertas inestabilidades en el sistema. La solución Para evitarlo me he creado una pequeña receta en Tasker según la cual se produce un reinicio automático del terminal los lunes, miércoles y viernes a las dos de la madrugada.
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="http://www.sherblog.pro/raspberry-red-y-wifi/">
+			<img src="/images/raspberry_logo.png" alt="Raspberry red y wifi" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/raspberry-red-y-wifi/" rel="bookmark">
+			Raspberry red y wifi
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
+	<time class="meta__text" datetime="2018-04-02T00:00:00">2018-04-02</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Configurar red y wifi Es interesante que la Raspberry arranque siempre con la misma dirección ip de red si queremos con ella automatizar algún servicio. Para ello, en primer lugar hay que editar el archivo &ldquo;/etc/dhcpcd.conf&rdquo; mediante la instrucción sudo nano /etc/dhcpcd.confe introduciremos al final las siguientes líneas (dependiendo de la configuración de la red y del router.
+interface eth0 static ip_address=192.168.1.202/24 static routers=192.168.1.1 static domain_name_servers=192.168.1.1  Guardamos el archivo =&gt; Ctrl + o Salimos del editor nano =&gt; Ctrl + x Reiniciamos la Raspberry =&gt; sudo reboot Nos logamos de nuevo a través de la nueva ip Comprobamos que ha funcionado =&gt; ip a  Ahora vamos a intentar ir un paso más allá y configurar la conexión a la red a través del módulo integrado wifi que trae la Raspberry 3.
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
 		<a href="http://www.sherblog.pro/raspberry-apache-y-php/">
 			<img src="/images/raspberry_logo.png" alt="Raspberry apache y php" />
 		</a>
@@ -166,62 +216,6 @@ sudo apt update sudo apt install docker-ce sudo systemctl enable docker sudo sys
 sudo gpasswd -a ${USER} docker
 eliminar todos los contenedores con un solo comando\
 	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="http://www.sherblog.pro/raspberry-servidor-vpn/">
-			<img src="/images/20180501_raspberry_vpn.jpg" alt="Raspberry Servidor VPN" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/raspberry-servidor-vpn/" rel="bookmark">
-			Raspberry Servidor VPN
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-04-11T00:00:00">2018-04-11</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Instalando un servidor VPN Una de las grandes funcionalidades que nos puede ofrecer nuestra Raspberry Pi es como servidor VPN el cual tiene dos finalidades fundamentales.
- Acceder de forma segura a nuestra red local desde fuera de ella Conseguir una navegación segura en redes wifi públicas  sudo apt updatesudo apt upgradecurl -L https://install.pivpn.io | bashPara los detalles de las opciones de configuración durante la instalación tan sólo hay que visitar la web de El Atareao donde lo explica pormenorizadamente.
-	</div>
-</article><article class="list__item post">
-	<figure class="list__thumbnail">
-		<a href="http://www.sherblog.pro/raspberry-acceso-desde-el-exterior/">
-			<img src="/images/20180410_raspberry_noip.jpg" alt="Raspberry Acceso desde el exterior" />
-		</a>
-	</figure>
-	<header class="list__header">
-		<h3 class="list__title post__title ">
-			<a href="/raspberry-acceso-desde-el-exterior/" rel="bookmark">
-			Raspberry Acceso desde el exterior
-			</a>
-		</h3>
-		<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2018-04-10T00:00:00">2018-04-10</time>
-</div>
-
-<div class="meta__item-categories meta__item">
-	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/raspberry" rel="category">Raspberry</a></span>
-</div>
-</div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Ya tenemos nuestro servidor prácticamente montado, ahora necesitamos que cualquiera desde fuera de nuestra red pueda acceder al mismo. Esto presenta dos problemas, el redireccionamiento de router a la raspberry y la ip dinámica que nos asigna el proveedor de servicios de internet.
-Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nuestro servidor tendremos que abrir el puerto 80 para la ip local que tiene adjudicada la Raspberry, en mi caso la 192.
-	</div>
 </article>
 </main>
 
@@ -238,6 +232,8 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 	<h4 class="widget__title">Más Recientes</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/sincronizar-google-photos-desde-la-raspberry/">Sincronizar Google Photos desde la Raspberry</a></li>
+			<li class="widget__item"><a class="widget__link" href="/sincronizar-nubes-con-rclone/">Sincronizar nubes con rclone</a></li>
 			<li class="widget__item"><a class="widget__link" href="/primeros-pasos-con-nodemcu-y-micropython-en-linux/">Primeros pasos con nodemcu y micropython en linux</a></li>
 			<li class="widget__item"><a class="widget__link" href="/descargar-archivos-de-telegram/">Descargar archivos de Telegram</a></li>
 			<li class="widget__item"><a class="widget__link" href="/insertar-en-twitter-enlaces-a-hugo-con-imagen/">Insertar en Twitter enlaces a Hugo con imagen</a></li>
@@ -246,8 +242,6 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 			<li class="widget__item"><a class="widget__link" href="/raspberry-montaje-y-ssh/">Raspberry Montaje y ssh</a></li>
 			<li class="widget__item"><a class="widget__link" href="/insertar-comentarios-en-hugo/">Insertar comentarios en Hugo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/muerte-del-termostato-netatmo/">Muerte del termostato netatmo</a></li>
-			<li class="widget__item"><a class="widget__link" href="/automatizando-la-limpieza-de-gmail/">Automatizando la limpieza de Gmail</a></li>
-			<li class="widget__item"><a class="widget__link" href="/script-para-renombrar-im%C3%A1genes-en-python-en-funci%C3%B3n-de-la-fecha-en-la-que-se-tomaron/">Script para renombrar imágenes en python en función de la fecha en la que se tomaron</a></li>
 		</ul>
 	</div>
 </div>
@@ -282,7 +276,7 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		<a class="widget-taglist__link widget__link btn" href="/tags/apps" title="Apps">Apps (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/averias" title="Averias">Averias (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/backup" title="Backup">Backup (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash (10)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/bash" title="Bash">Bash (11)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/bricolaje" title="Bricolaje">Bricolaje (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/darktable" title="Darktable">Darktable (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/desarrollo" title="Desarrollo">Desarrollo (16)</a>
@@ -296,9 +290,10 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		<a class="widget-taglist__link widget__link btn" href="/tags/gimp" title="Gimp">Gimp (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gmail" title="Gmail">Gmail (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google-chrome" title="Google chrome">Google chrome (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/google-drive" title="Google drive">Google drive (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/google-drive" title="Google drive">Google drive (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google-earth" title="Google earth">Google earth (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google-keep" title="Google keep">Google keep (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/google-photos" title="Google photos">Google photos (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google-scripts" title="Google scripts">Google scripts (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/google-sheets" title="Google sheets">Google sheets (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/gopro" title="Gopro">Gopro (1)</a>
@@ -329,7 +324,7 @@ Por un lado, para dirigir el tráfico que llega a nuestro router en busca de nue
 		<a class="widget-taglist__link widget__link btn" href="/tags/poppler-utils" title="Poppler utils">Poppler utils (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/python" title="Python">Python (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/raspberry" title="Raspberry">Raspberry (2)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/rclone" title="Rclone">Rclone (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/sherlodj" title="Sherlodj">Sherlodj (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/software" title="Software">Software (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/speedtrap" title="Speedtrap">Speedtrap (1)</a>
