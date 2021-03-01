@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://www.sherblog.pro/mis-v%C3%A9rtices-geod%C3%A9sicos-en-hugo/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.sherblog.pro/vertices/alto_del_molino/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -587,7 +590,19 @@
     <loc>http://www.sherblog.pro/categories/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://www.sherblog.pro/categories/hugo/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.sherblog.pro/post/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.sherblog.pro/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.sherblog.pro/tags/shortcodes/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.sherblog.pro/tags/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.sherblog.pro/vertices/</loc>
@@ -608,16 +623,10 @@
     <loc>http://www.sherblog.pro/tags/google-photos/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.sherblog.pro/post/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://www.sherblog.pro/categories/productividad/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.sherblog.pro/tags/rclone/</loc>
-    <lastmod>2021-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.sherblog.pro/tags/</loc>
     <lastmod>2021-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.sherblog.pro/categories/iot/</loc>
@@ -631,9 +640,6 @@
   </url><url>
     <loc>http://www.sherblog.pro/tags/raspberry/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://www.sherblog.pro/categories/hugo/</loc>
-    <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://www.sherblog.pro/categories/sherver/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>

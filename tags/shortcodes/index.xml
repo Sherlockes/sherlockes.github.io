@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcodes on Sherblog</title>
+    <link>http://www.sherblog.pro/tags/shortcodes/</link>
+    <description>Recent content in shortcodes on Sherblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.sherblog.pro/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mis vértices geodésicos en Hugo</title>
+      <link>http://www.sherblog.pro/mis-v%C3%A9rtices-geod%C3%A9sicos-en-hugo/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.sherblog.pro/mis-v%C3%A9rtices-geod%C3%A9sicos-en-hugo/</guid>
+      <description>&lt;p&gt;Hace más de dos años desde que visité mi ultimo vértice geodésico. Durante todo este tiempo el proyecto que empecé en el ya lejano 2008 lo he tenido aparcado por unos cuantos motivos&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
