@@ -131,7 +131,7 @@ vertice_pan: &quot;VY8ieZb&quot;
 
 </code></pre><p>Las dos primeras líneas corresponden a una hoja de estilos y una clase javascript que utilizaré para la creación del mapa, la tercera hace referencia al número de pixeles que de alto va a ocupar el mapa en el post que se genere. El resto hacen referencia a valores del vértice como el nombre, la localización, las coordenadas, la altitud, la clasificación del ign y las imágenes del vértice.</p>
 <p>Con esto tengo material suficiente para crear un [shortcode] en forma de archivo &ldquo;mapa_vertice.html&rdquo; que será guardado dentro de la carpeta &ldquo;/layouts/shortcodes&rdquo; (No la de dentro del tema sin en el directorio raiz y que deberemos crear si no existe)</p>
-<p>El archivo <a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a> de momento no voy a explicarlo aquí con todos los detalles ya que puedes verlo en mi [repositorio] de GitHub. La finalidad es que incluyendo en el post del vértice</p>
+<p>El archivo <a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a> de momento no voy a explicarlo aquí con todos los detalles ya que puedes verlo en mi <a href="https://github.com/sherlockes/SherloScripts">repositorio</a> de GitHub. La finalidad es que incluyendo en el post del vértice</p>
 <pre><code>{{ mapa_ vertice }}
 </code></pre><p>ya se genere todo el contenido de forma automática atendiendo a los parámetros del post.</p>
 <h3 id="creación-del-archivo-gpx">Creación del archivo gpx</h3>
@@ -185,7 +185,7 @@ echo '&lt;/gpx&gt;' &gt;&gt; $vertices_gpx
 <p><img src="/images/20200512_mis_vertices_01.jpg" alt="image-01"></p>
 <p>Imposible realizar algo más práctico y ligero ya que quedará integrado dentro del &ldquo;shortcode&rdquo; &ldquo;<a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a>&rdquo; para la representación gráfica de cada uno de los vértices geodésicos.</p>
 <h3 id="listado-de-los-vértices-conquistados">Listado de los vértices conquistados</h3>
-<p>La opción más sencilla es la realización de un post que actualice cada vez que se incluye un nuevo vértice con un enlace al mismo. Pero no me quiero quedar aquí, quiero algo que busque todos los artículos dentro de la carpeta &ldquo;vertices&rdquo; de la web y genere un listado con un enlace a cada uno de ellos. En Wordpress no me resultó tan complicado encontrarlo, en hugo he tenido unos días de dolor de cabeza hasta dar con una brillante solución haciendo uso de [shortcodes] en <a href="https://gohugo.io/">Hugo</a></p>
+<p>La opción más sencilla es la realización de un post que actualice cada vez que se incluye un nuevo vértice con un enlace al mismo. Pero no me quiero quedar aquí, quiero algo que busque todos los artículos dentro de la carpeta &ldquo;vertices&rdquo; de la web y genere un listado con un enlace a cada uno de ellos. En Wordpress no me resultó tan complicado encontrarlo, en hugo he tenido unos días de dolor de cabeza hasta dar con una brillante solución haciendo uso de <a href="https://gohugo.io/content-management/shortcodes/">shortcodes</a> en <a href="https://gohugo.io/">Hugo</a></p>
 <p>He creado el archivo &ldquo;lista_vertices.html&rdquo; que contiene estas líneas de código.</p>
 <pre><code>{{ $vertices := (where .Site.RegularPages &quot;Section&quot; &quot;==&quot; &quot;vertices&quot;) }}
 {{ range $vertices }}
@@ -223,8 +223,8 @@ echo '&lt;/gpx&gt;' &gt;&gt; $vertices_gpx
 <p>Así tenemos un listado con una línea por cada uno de los vértices que podremos incluir en cualquier artículo de la web con únicamente escribir</p>
 <pre><code>{{ lista_vertice }}
 </code></pre><h3 id="representación-en-un-mapa">Representación en un mapa</h3>
-<p>Para dibujar sobre un mapa todos los vértices alcanzados e incurstarlos en la web he utilizado [openlayers] por ser de código abierto y de ua complejidad de uso asequible para mi escaso nivel de Javascript.</p>
-<p>Para poder trabajar con la librería [openlayers] he introducido dos parámetros de configuración en el artículo correspondiente a cada vértice.</p>
+<p>Para dibujar sobre un mapa todos los vértices alcanzados e incurstarlos en la web he utilizado <a href="https://openlayers.org">openlayers</a> por ser de código abierto y de ua complejidad de uso asequible para mi escaso nivel de Javascript.</p>
+<p>Para poder trabajar con la librería <a href="https://openlayers.org">openlayers</a> he introducido dos parámetros de configuración en el artículo correspondiente a cada vértice.</p>
 <pre><code>js: https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js
 css: https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css
 </code></pre><p>Con el fin de incluir de forma dinámica la clase y hora de estilos de la librería sin necesidad de tenerla incrustada en el servidor. Además, he modificado la plantilla &ldquo;layouts/default/baseof.html&rdquo; incluyendo el siguiente código en la parte final del &ldquo;head&rdquo;.</p>
@@ -239,7 +239,7 @@ css: https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.
 	{{ end }}
 	{{ if .Params.js }} &lt;script src=&quot;{{ .Params.js }}&quot;&gt;&lt;/script&gt; {{ end }}
 </code></pre><p>De esta manera, cuando el motor de <a href="https://gohugo.io/">Hugo</a> vaya a publicar un artículo incrustará tambien la clase y hoja de estilos de openlayers sólo si estos están incluidos dentro de los parámetros &ldquo;js&rdquo; y &ldquo;css&rdquo; (con el consiguiente ahorro de ancho de banda). Adicionalmente ajustará el mapa a mostrar a todo el ancho de la web y al alto que se incluya como parámetro en cada artículo particular.</p>
-<p>Nuevamente haré uso de los [shortcodes]de <a href="https://gohugo.io/">Hugo</a> para crear el archivo <a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a> con lo que la incusión de un mapa con la información del vértice geodésico en un artículo se realizará con la siguiente línea.</p>
+<p>Nuevamente haré uso de los <a href="https://gohugo.io/content-management/shortcodes/">shortcodes</a>de <a href="https://gohugo.io/">Hugo</a> para crear el archivo <a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a> con lo que la incusión de un mapa con la información del vértice geodésico en un artículo se realizará con la siguiente línea.</p>
 <pre><code>{{ mapa_vertice }}
 </code></pre><h3 id="almacenamiento-de-las-imágenes">Almacenamiento de las imágenes</h3>
 <p>Este punto también ha resultado un profundo dolor de cabeza. Hasta su cierre tenía publicadas todas las imágenes y panorámicas en Panoramio. Las sigo teniendo en Google Photos pero no he sido capaz de incrustarlas en el blog desde aquí por lo que me he visto obligado a buscar un nuevo alojamiento para todas estas imágenes.</p>
@@ -248,10 +248,6 @@ css: https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.
 <li><em>Usar Internet Archive como alojamiento</em> - Lo intenté, pero el modo de subir las fotografías, gestionarlas y organizarlas es simplemente pésimo por lo que termine desestimando está opción.</li>
 <li><em>Usar Imgur como alojamiento</em> - Después de comprobar en funcionamiento y capacidad de varios servicios web he probado por escoger está opción. El espacio de almacenamiento es ilimitado con el límite de 20mb por fotografía y 50 fotografías por hora lo cual es más que suficiente para mis necesidades.</li>
 </ul>
-<p>[openlayers]:
-[repositorio]: <a href="https://github.com/sherlockes/SherloScripts">https://github.com/sherlockes/SherloScripts</a>
-[shortcodes]: <a href="https://gohugo.io/content-management/shortcodes/">https://gohugo.io/content-management/shortcodes/</a>
-<a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">mapa_vertice.html</a>: <a href="https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html">https://github.com/sherlockes/SherloScripts/blob/master/hugo/shortcodes/mapa_vertice.html</a></p>
 		</div>
 		<footer class="post__footer">
 			
